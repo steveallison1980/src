@@ -1,0 +1,27 @@
+.mat-card{
+    display:flex;
+    flex-direction: column;
+}
+
+.mat-card-header {
+    flex-shrink: 0;
+}
+
+.mat-card-content{
+    flex-grow: 1;
+    overflow: auto;
+}
+
+.person-card{
+    margin-bottom: 20px;
+}
+.mat-card-image:hover{
+    transform: scale(0.95);
+    cursor: pointer;
+}
+
+.mat-card:hover .mat-card-title {color: rgb(184, 51, 51)}
+
+.mat-card-title{
+    cursor: pointer;
+}

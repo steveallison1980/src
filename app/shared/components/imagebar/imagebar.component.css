@@ -1,0 +1,13 @@
+.imagebar{
+    color: white;
+    background-color: black;
+    border: 0;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto;
+    font-family: 'crimsontext';
+    box-sizing: content-box;
+}
+.bannerimg{
+    width: 80%;
+}

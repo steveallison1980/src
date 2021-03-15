@@ -1,0 +1,21 @@
+:host {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.fixed {
+    position: fixed;
+    z-index: 5;
+    width: 100%;
+}
+.pagecontent {
+    padding: 20px;
+    background-color: rgb(245,245,245);
+}
+
+.mat-typography {font-family: 'crimsontext' !important;}
+h1 {font-family: 'crimsontext' !important;}
+
+body {
+    background-image: url('../../../assets/img/oLogo.png');
+}

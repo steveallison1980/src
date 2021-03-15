@@ -1,0 +1,39 @@
+<!-- PC VIEW -->
+<div class="topbar" fxShow fxHide.lt-md fxLayout='row' fxLayoutAlign='end center' fxLayoutGap>
+    <div class='topbarelement teldiv' fxLayoutAlign='center center'>
+        <a  href='tel:0352763241'>
+            <button class='highlightbutton' mat-button>
+                <mat-icon fxShow fxHide.lt-sm>local_phone</mat-icon>
+                +81-3-5276-3241
+            </button>
+        </a>
+    </div>
+    <div class='topbarelement locationdiv' fxShow fxHide.lt-sm fxLayoutAlign='center center'>
+        <a  href='https://goo.gl/maps/DMWemg1CqEqiGkDk6'>
+            <button class='highlightbutton' mat-button>
+                <mat-icon>location_on</mat-icon>
+            </button>
+        </a>
+    </div>
+    <div class='topbarelement langdiv' fxLayoutAlign='center center'>
+        <a href=''>
+            <button mat-button>
+                <img src='../../../../assets/img/jp.png' height='32px'>
+            </button>
+        </a>
+    </div>
+</div>
+<!-- MOBILE VIEW -->
+<div class='topbar' fxHide fxShow.lt-md fxLayout='row' fxLayoutAlign='space-between end'>
+    <a href='tel:0352763241'>
+        <button class='highlightbutton' mat-button>
+            <mat-icon>local_phone</mat-icon>
+            +81-3-5276-3241
+        </button>
+    </a>
+    <a href=''>
+        <button mat-button>
+            <img src='../../../../assets/img/jp.png' height='32px'>
+        </button>
+    </a>
+</div>

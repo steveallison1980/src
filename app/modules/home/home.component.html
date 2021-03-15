@@ -1,0 +1,16 @@
+<div fxLayout='column' fxLayoutAlign="start stretch" fxLayoutGap="20px">
+    <!--<div class='imgcontainer' flexLayout='row'>
+        <app-imagebar></app-imagebar>
+    </div>-->
+    <div class='homediv' flexLayout='row' fxFlex fxLayoutAlign="space-between start" fxLayoutGap="20px">
+        <div fxFlex='20' fxShow="true" fxHide.lt-md="true">
+            <app-sidebar [items]='homeitems' (itemClick)='setComponent($event)'></app-sidebar>
+        </div>
+        <div fxFlex='80' fxFlex.lt-md='100' fxShow="true" class='content'>
+            <app-welcomemessage *ngIf="curComponent=='welcomemessage'"></app-welcomemessage>
+            <app-news *ngIf="curComponent=='news'"></app-news>
+            <app-contact *ngIf="curComponent=='contact'"></app-contact>
+            <app-access *ngIf="curComponent=='access'"></app-access>
+        </div>
+    </div>
+</div>

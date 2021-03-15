@@ -1,0 +1,18 @@
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}   
+
+.titletext {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    animation: fadeIn ease 0.5s;
+    -webkit-animation: fadeIn ease 0.5s;
+}

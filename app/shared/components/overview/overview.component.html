@@ -1,0 +1,52 @@
+<h1>An Overview</h1>
+<div [@.disabled]="true" class='content'>
+    <!-- style='min-height:900px' fixes an angular bug where click scrolls to top of page -->
+    <mat-tab-group mat-align-tabs="start" style='min-height:900px'>
+        <mat-tab label="Our Story">
+            <div class='tabcontent'>
+                <br>
+                <mat-card class="about-card">
+                    <app-aboutusblurb></app-aboutusblurb>
+                </mat-card>
+            </div>
+        </mat-tab>
+        <mat-tab label="Contact Information">
+            <div class='tabcontent'>
+                <br>            
+                <mat-card class="contactinfo-card">
+                    <app-contactinfotable></app-contactinfotable>
+                </mat-card>
+                <br>
+                <app-officecard></app-officecard>
+            </div>
+        </mat-tab>
+        <mat-tab label="Outline of our Services">
+            <div class='tabcontent'>
+                <br>
+                <mat-card class="services-card">
+                    <mat-list role='list'>
+                        <mat-list-item role='listitem'>
+                            <mat-icon mat-list-icon>lightbulb</mat-icon>
+                            <div mat-line>Patent counseling and prosecution including patent portfolio strategic planning, interviewing inventors, drafting claims and specification</div>
+                        </mat-list-item>
+                        <mat-divider></mat-divider>
+                        <mat-list-item role='listitem'>
+                            <mat-icon mat-list-icon>gavel</mat-icon>
+                            <div mat-line>Litigation in the IP field including patent infringement, litigation support both inside and outside Japan, and patent invalidation before the JPO and courts</div>
+                        </mat-list-item>
+                        <mat-divider></mat-divider>
+                        <mat-list-item role='listitem'>
+                            <mat-icon mat-list-icon>grading</mat-icon>
+                            <div mat-line>Analysis and evaluation of patents, patent search, and clearance study, consultation on protecting, managing, and utilizing technical and intellectual assets, including establishing a patent strategy</div>
+                        </mat-list-item>
+                        <mat-divider></mat-divider>
+                        <mat-list-item role='listitem'>
+                            <mat-icon mat-list-icon>category</mat-icon>
+                            <div mat-line>Registration of trademarks and designs and consultation therefor, and consultation on business strategy based on clearance search for trademarks and designs</div>
+                        </mat-list-item>
+                    </mat-list>
+                </mat-card>
+            </div>
+        </mat-tab>
+    </mat-tab-group>
+</div>

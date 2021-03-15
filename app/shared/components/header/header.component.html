@@ -1,0 +1,48 @@
+<header>
+    <!-- PC VIEW -->
+    <div fxShow fxHide.lt-md fxLayout='row' fxLayoutAlign='space-between center'>
+        <div fxLayout='row' fxLayoutAlign='start center' fxLayoutGap="8px">
+            <img src='../../../../assets/img/oLogo.png' height="56px">
+            <mat-divider [vertical]="true"></mat-divider>
+            <div>
+                <span fxShow fxHide.lt-md class='xlargetext'>OHTSUKA PATENT OFFICE, P.C.</span>
+            </div>
+        </div>
+
+        <div fxLayout='row' fxLayoutAlign='start start'>        
+            <div class='largetext' fxLayout='row' [fxShow]="true" [fxHide.lt-md]="true" fxLayoutGap='5px'>
+                <a routerLink="/" (click)="clickHome()" [ngClass]="{'activenav': curPage=='home'}">Home</a>
+                <mat-divider [vertical]="true"></mat-divider>
+                <a routerLink="/aboutus" (click)="clickAboutus()" [ngClass]="{'activenav': curPage=='aboutus'}">About Us</a>
+                <mat-divider [vertical]="true"></mat-divider>
+                <a routerLink="/ourservices" (click)="clickOurservices()" [ngClass]="{'activenav': curPage=='ourservices'}">Our Services</a>
+                <mat-divider [vertical]="true"></mat-divider>
+                <a routerLink="/professionals" (click)="clickProfessionals()" [ngClass]="{'activenav': curPage=='professionals'}">Professionals</a>
+                <mat-divider [vertical]="true"></mat-divider>
+                <a routerLink="/careers" (click)="clickCareers()" [ngClass]="{'activenav': curPage=='careers'}">Careers</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- MOBILE VIEW -->
+    <div fxHide fxShow.lt-md fxLayout='row' fxLayoutAlign='start center'>
+        <div>
+            <button class="hamburger hamburger--spring" type="button" (click)="clickHamburger()" [ngClass]="{'is-active': hamburgerState}">
+                <span class="hamburger-box">
+                    <span class="hamburger-inner"></span>
+                </span>
+            </button>
+        </div>
+     
+        <div fxHide fxShow.sm class='xxlargetext' fxLayout='row'fxLayout='row' fxLayoutAlign='end center' fxLayoutGap="28px">
+            <img fxHide fxShow.sm src='../../../../assets/img/oLogo.png' height="56px">
+            <span>OHTSUKA PATENT OFFICE, P.C.</span>
+        </div>
+        <div fxHide fxShow.xs fxLayout='row' fxLayoutAlign='end center' fxLayoutGap="18px">
+            <img src='../../../../assets/img/oLogo.png' height="56px">
+            <span class='xlargetext'>OHTSUKA PATENT OFFICE</span>
+        </div>
+    </div>
+
+</header>
+<mat-divider class='colored'></mat-divider>

@@ -1,0 +1,17 @@
+<div fxLayout='column' fxLayoutAlign="start stretch" fxLayoutGap="20px" >
+    <!--<div class='imgcontainer' flexLayout='row'>
+        <app-imagebar></app-imagebar>
+    </div>-->
+    <div flexLayout='row' fxFlex  fxLayoutAlign="space-between start" fxLayoutGap="20px">
+        <div fxFlex='20' fxShow="true" fxHide.lt-md="true">
+            <app-sidebar [items]='ourservicesitems'  (itemClick)='setComponent($event)'></app-sidebar>
+        </div>
+        <div fxFlex='80' fxFlex.lt-md='100' fxShow="true">
+            <app-patentsandutilitymodels *ngIf="curComponent=='patent'"></app-patentsandutilitymodels>
+            <app-designsandtrademarks *ngIf="curComponent=='design'"></app-designsandtrademarks>
+            <app-litigationandstrategy *ngIf="curComponent=='litigation'"></app-litigationandstrategy>
+            <app-courtcasereports *ngIf="curComponent=='court'"></app-courtcasereports>
+        </div>
+    </div>
+</div>
+    

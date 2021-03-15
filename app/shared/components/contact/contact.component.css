@@ -1,0 +1,17 @@
+button{
+    color: black;
+    font-family: 'crimsontext';
+}
+.mat-list-item{
+    color: black;
+}
+.mat-row {
+    height: auto;
+}
+
+.mat-cell {
+    padding: 8px 8px 8px 0;
+}
+.mat-header-row{
+    display: none;
+}
