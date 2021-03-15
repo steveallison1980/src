@@ -3,7 +3,7 @@ import { IPerson } from './../../../interfaces/iperson';
 
 const PEOPLE_DATA: IPerson[] = [
   {
-    // Patent Attorneys
+    // Patent Attorneys test push
     title: 'Managing Partner',
     name: 'Yasunori Ohtsuka',
     img: 'yasunoriohtsuka.jpg',
