@@ -1322,7 +1322,7 @@ const PEOPLE_DATA: IPerson[] = [
     publicationsJP: null,
 
     groups:
-      ['patentattornies', 'infoproc_people'] // update
+      ['internationalsuppport', 'infoproc_people'] // update
   },
   {
     title: 'Patent Prosecution and Litigation Support',
@@ -1357,7 +1357,7 @@ const PEOPLE_DATA: IPerson[] = [
     publicationsJP: null,
 
     groups:
-      ['patentattornies', 'infoproc_people'] // update
+      ['internationalsuppport', 'infoproc_people'] // update
   },
 
   // Patent Technical Staff
