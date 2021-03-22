@@ -47,7 +47,7 @@ export class ProfessionalsComponent implements OnInit {
     {text:'Toys and Games',icon:'videogame_asset',index:8,component:'games_people',type:'sub-group'},
     {text:'Litigation',icon:'gavel',index:9,component:'litigation_people',type:'last-in-group'},
     {text:'Patent Attorneys',icon:'person',index:10,component:'patentattorneys',type:'sub-group'},
-    {text:'Legal/Technial Advisors',icon:'person_outline',index:11,component:'advisors',type:'sub-group'},
+    {text:'Legal/Technical Advisors',icon:'person_outline',index:11,component:'advisors',type:'sub-group'},
     {text:'Patent Engineers',icon:'person',index:12,component:'patentengineers',type:'sub-group'},
     {text:'International Support',icon:'person_outline',index:13,component:'internationalsuppport',type:'sub-group'}
   ]
