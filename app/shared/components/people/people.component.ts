@@ -63,7 +63,7 @@ const PEOPLE_DATA: IPerson[] = [
       { text: '特許がわかるQ&A（オーム社）' }],
 
     groups:
-      ['patentattornies', 'design_people', 'litigation_people', 'patentattorneys']
+      [, 'design_people', 'litigation_people', 'patentattorneys']
   },
   {
     title: 'Patent Attorney (Partner)',
@@ -118,7 +118,7 @@ const PEOPLE_DATA: IPerson[] = [
       { text: '特許がわかるQ&A（オーム社）' }],
 
     groups:
-      ['patentattornies', 'infoproc_people', 'comm_people', 'semicon_people', 'meddev_people', 'games_people', 'litigation_people', 'patentattorneys'] 
+      ['infoproc_people', 'comm_people', 'semicon_people', 'meddev_people', 'games_people', 'litigation_people', 'patentattorneys'] 
   },
   {
     title: 'Patent Attorney (Partner)',
@@ -165,7 +165,7 @@ const PEOPLE_DATA: IPerson[] = [
       { text: '特許がわかるQ&A（オーム社）' }],
 
     groups:
-      ['patentattornies', 'infoproc_people', 'comm_people', 'mech_people', 'meddev_people', 'games_people', 'litigation_people', 'patentattorneys' ] 
+      ['infoproc_people', 'comm_people', 'mech_people', 'meddev_people', 'games_people', 'litigation_people', 'patentattorneys' ] 
   },
   {
     title: 'Patent Attorney (Partner)',
@@ -210,7 +210,7 @@ const PEOPLE_DATA: IPerson[] = [
       { text: '特許がわかるQ&A（オーム社）' }],
 
     groups:
-      ['patentattornies', 'semicon_people', 'mech_people', 'design_people', 'games_people', 'litigation_people', 'patentattorneys'] 
+      ['semicon_people', 'mech_people', 'design_people', 'games_people', 'litigation_people', 'patentattorneys'] 
   },
   {
     title: 'Patent Attorney (Partner)',
@@ -249,7 +249,7 @@ const PEOPLE_DATA: IPerson[] = [
     publicationsJP: null,
 
     groups:
-      ['patentattornies', 'infoproc_people', 'comm_people', 'patentattorneys'] 
+      ['infoproc_people', 'comm_people', 'patentattorneys'] 
   },
   {
     title: 'Patent Attorney (Partner)',
@@ -293,7 +293,7 @@ const PEOPLE_DATA: IPerson[] = [
       { text: '特許がわかるQ&A（オーム社）' }],
 
     groups:
-      ['patentattornies', 'infoproc_people', 'semicon_people', 'meddev_people', 'litigation_people', 'patentattorneys'] 
+      ['infoproc_people', 'semicon_people', 'meddev_people', 'litigation_people', 'patentattorneys'] 
   },
   {
     title: 'Patent Attorney Principal',
@@ -341,7 +341,7 @@ const PEOPLE_DATA: IPerson[] = [
     publicationsJP: null,
 
     groups:
-      ['patentattornies', 'semicon_people', 'science_people', 'litigation_people', 'patentattorneys']
+      ['semicon_people', 'science_people', 'litigation_people', 'patentattorneys']
   },
   {
     title: 'Patent Attorney Principal',
@@ -389,7 +389,7 @@ const PEOPLE_DATA: IPerson[] = [
     publicationsJP: null,
 
     groups:
-      ['patentattornies', 'infoproc_people', 'comm_people', 'litigation_people', 'patentattorneys'] 
+      ['infoproc_people', 'comm_people', 'litigation_people', 'patentattorneys'] 
   },
   {
     title: 'Patent Attorney',
@@ -433,7 +433,7 @@ const PEOPLE_DATA: IPerson[] = [
     publicationsJP: null,
 
     groups:
-      ['patentattornies', 'litigation_people', 'patentattorneys'] // update
+      ['litigation_people', 'patentattorneys'] // update
   },
   {
     title: 'Patent Attorney',
@@ -474,7 +474,7 @@ const PEOPLE_DATA: IPerson[] = [
       [{ text: '特許がわかるQ&A（オーム社）' }],
 
     groups:
-      ['patentattornies', 'infoproc_people', 'comm_people', 'design_people', 'litigation_people', 'patentattorneys']
+      ['infoproc_people', 'comm_people', 'design_people', 'litigation_people', 'patentattorneys']
   },
   {
     title: 'Patent Attorney',
@@ -512,7 +512,7 @@ const PEOPLE_DATA: IPerson[] = [
     publicationsJP: null,
 
     groups:
-      ['patentattornies', 'infoproc_people', 'comm_people', 'mech_people', 'litigation_people', 'patentattorneys']
+      ['infoproc_people', 'comm_people', 'mech_people', 'litigation_people', 'patentattorneys']
   },
   {
     title: 'Patent Attorney',
@@ -553,7 +553,7 @@ const PEOPLE_DATA: IPerson[] = [
     publicationsJP: null,
 
     groups:
-      ['patentattornies', 'infoproc_people', 'comm_people', 'semicon_people', 'litigation_people', 'patentattorneys'] 
+      ['infoproc_people', 'comm_people', 'semicon_people', 'litigation_people', 'patentattorneys'] 
   },
   {
     title: 'Patent Attorney',
@@ -596,7 +596,7 @@ const PEOPLE_DATA: IPerson[] = [
       [{ text: '特許がわかるQ&A（オーム社）' }],
 
     groups:
-      ['patentattornies', 'semicon_people', 'mech_people', 'meddev_people', 'patentattorneys'] 
+      ['semicon_people', 'mech_people', 'meddev_people', 'patentattorneys'] 
   },
   {
     title: 'Patent Attorney',
@@ -638,7 +638,7 @@ const PEOPLE_DATA: IPerson[] = [
     publicationsJP: null,
 
     groups:
-      ['patentattornies', 'infoproc_people', 'comm_people', 'games_people', 'litigation_people', 'patentattorneys'] 
+      ['infoproc_people', 'comm_people', 'games_people', 'litigation_people', 'patentattorneys'] 
   },
   {
     title: 'Patent Attorney',
@@ -682,7 +682,7 @@ const PEOPLE_DATA: IPerson[] = [
     publicationsJP: null,
 
     groups:
-      ['patentattornies', 'infoproc_people', 'comm_people', 'litigation_people', 'patentattorneys']
+      ['infoproc_people', 'comm_people', 'litigation_people', 'patentattorneys']
   },
   {
     title: 'Patent Attorney',
@@ -720,7 +720,7 @@ const PEOPLE_DATA: IPerson[] = [
     publicationsJP: null,
 
     groups:
-      ['patentattornies', 'mech_people', 'design_people', 'meddev_people', 'patentattorneys'] 
+      ['mech_people', 'design_people', 'meddev_people', 'patentattorneys'] 
   },
   {
     title: 'Patent Attorney',
@@ -761,7 +761,7 @@ const PEOPLE_DATA: IPerson[] = [
     publicationsJP: null,
 
     groups:
-      ['patentattornies', 'infoproc_people', 'comm_people', 'patentattorneys']
+      ['infoproc_people', 'comm_people', 'patentattorneys']
   },
   {
     title: 'Patent Attorney',
@@ -802,7 +802,7 @@ const PEOPLE_DATA: IPerson[] = [
     publicationsJP: null,
 
     groups:
-      ['patentattornies', 'infoproc_people', 'games_people', 'litigation_people', 'patentattorneys'] 
+      ['infoproc_people', 'games_people', 'litigation_people', 'patentattorneys'] 
   },
   {
     title: 'Patent Attorney (Partner)',
@@ -838,7 +838,7 @@ const PEOPLE_DATA: IPerson[] = [
     publicationsJP: null,
 
     groups:
-      ['patentattornies', 'infoproc_people', 'meddev_people', 'science_people', 'litigation_people', 'patentattorneys'] 
+      ['infoproc_people', 'meddev_people', 'science_people', 'litigation_people', 'patentattorneys'] 
   },
   {
     title: 'Patent Attorney',
@@ -879,7 +879,7 @@ const PEOPLE_DATA: IPerson[] = [
     publicationsJP: null,
 
     groups:
-      ['patentattornies', 'semicon_people', 'patentattorneys'] 
+      ['semicon_people', 'patentattorneys'] 
   },
   {
     title: 'Patent Attorney',
@@ -921,7 +921,7 @@ const PEOPLE_DATA: IPerson[] = [
     publicationsJP: null,
 
     groups:
-      ['patentattornies', 'infoproc_people', 'comm_people', 'litigation_people', 'patentattorneys'] 
+      ['infoproc_people', 'comm_people', 'litigation_people', 'patentattorneys'] 
   },
   {
     title: 'Patent Attorney (Partner)',
@@ -964,7 +964,7 @@ const PEOPLE_DATA: IPerson[] = [
     publicationsJP: null,
 
     groups:
-      ['patentattornies', 'science_people', 'patentattorneys'] 
+      ['science_people', 'patentattorneys'] 
   },
   {
     title: 'Patent Attorney',
@@ -1006,7 +1006,7 @@ const PEOPLE_DATA: IPerson[] = [
       publicationsJP: null,
 
     groups:
-      ['patentattornies', 'infoproc_people', 'patentattorneys']
+      ['infoproc_people', 'patentattorneys']
   },
   {
     title: 'Patent Attorney',
@@ -1044,7 +1044,7 @@ const PEOPLE_DATA: IPerson[] = [
     publicationsJP: null,
 
     groups:
-      ['patentattornies', 'meddev_people', 'science_people', 'patentattorneys'] 
+      ['meddev_people', 'science_people', 'patentattorneys'] 
   },
   {
     title: 'Patent Attorney',
@@ -1081,7 +1081,7 @@ const PEOPLE_DATA: IPerson[] = [
     publicationsJP: null,
 
     groups:
-      ['patentattornies', 'mech_people', 'patentattorneys'] 
+      ['mech_people', 'patentattorneys'] 
   },
 
   // Legal and Technical Counsel
@@ -1257,7 +1257,7 @@ const PEOPLE_DATA: IPerson[] = [
 
   // Technical and International Support
   {
-    title: 'Native chief',
+    title: 'Bridge Patent Engineer',
     name: 'Stephen Allison',
     img: 'stephenallison.jpg',
     imglarge: 'stephenallison_large.jpg',
@@ -1326,17 +1326,18 @@ const PEOPLE_DATA: IPerson[] = [
   },
 
   {
-    title: 'Patent Prosecution and Litigation Support',
+    title: 'Technical Translator',
     name: 'Ferena Kagata',
     img: 'ferenakagata.jpg',
     imglarge: 'ferenakagata_large.jpg',
     avatar: 'ferenakagata_avatar.jpg',
     bio: 'Add bio.', // update
     specialties:
-      [{ text: 'Performance Arts, Somatics & Kinesiology' }],
+      [{ text: 'Technical translations, Double Native Speaker of Japanese and English' }],
     education:
-      [{ text: 'B.A., University of Oregon, Dance' }],
-    career: null,
+      [{ text: 'B.A., University of Oregon' }],
+    career:
+    [ {text: 'Past positions include translator & interpreter Internet and Software fields'}],
     memberships: null,
     publications: null,
 
@@ -2047,7 +2048,7 @@ const PEOPLE_DATA: IPerson[] = [
   //      { text: '' }],
   // 
   //   groups:
-  //     ['patentattornies', 'infoproc_people'] // update
+  //     ['infoproc_people'] // update
   // },
 
 ];
