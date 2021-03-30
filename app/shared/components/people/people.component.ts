@@ -439,8 +439,8 @@ const PEOPLE_DATA: IPerson[] = [
     title: 'Patent Attorney',
     name: 'Yasuhiro Sakata',
     img: 'yasuhirosakata.jpg', // update
-    imglarge: 'yasuhirosakata.jpg', // update
-    avatar: 'yasuhirosakata.jpg', // update
+    imglarge: 'yasuhirosakata_large.jpg', // update
+    avatar: 'yasuhirosakata_avatar.jpg', // update
     bio: 'Add bio.', // update
     specialties:
       [{ text: 'Patent, design and trademark practice before the Japan Patent Office and Intellectual Property High Court;' },
@@ -1333,7 +1333,7 @@ const PEOPLE_DATA: IPerson[] = [
     avatar: 'ferenakagata_avatar.jpg',
     bio: 'Add bio.', // update
     specialties:
-      [{ text: 'Technical translations, Double Native Speaker of Japanese and English' }],
+      [{ text: 'Technical translations, Native Speaker of both Japanese and English' }],
     education:
       [{ text: 'B.A., University of Oregon' }],
     career:
