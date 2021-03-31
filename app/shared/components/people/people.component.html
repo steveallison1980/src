@@ -1,13 +1,15 @@
 
 <div fxLayout="row wrap" fxLayoutGap="20px" fxLayout.lt-md="column">
-    <div *ngFor="let person of people" class="person-card"  fxFlex="30" fxLayoutAlign="space-around stretch">
-        <mat-card *ngIf="person.groups.includes(currentGroup)">
+    <div *ngFor="let person of getPeople()" class="person-card"  fxFlex="30" fxLayoutAlign="space-around stretch">
+        <mat-card>
             <mat-card-header>
-                <img mat-card-avatar src="../../../../assets/img/{{person.avatar}}">
+                
                 <mat-card-title (click)="clickDetails(person)">{{person.name}}</mat-card-title>
-                <mat-card-subtitle>{{person.title}}</mat-card-subtitle>
+                <mat-card-subtitle>
+                    {{person.title}}
+                </mat-card-subtitle>
             </mat-card-header>
-            <img mat-card-image src="../../../../assets/img/{{person.img}}" alt="{{person.name}}, {{person.title}}" (click)="clickDetails(person)">
+            <img class='mainimage' mat-card-image src="../../../../assets/img/{{person.img}}" alt="{{person.name}}, {{person.title}}" (click)="clickDetails(person)">
             <mat-card-content><p>{{person.bio}}</p></mat-card-content>
             
             <mat-card-actions fxLayoutAlign="end">

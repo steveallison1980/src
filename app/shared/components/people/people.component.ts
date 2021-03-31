@@ -1293,7 +1293,7 @@ const PEOPLE_DATA: IPerson[] = [
       ['infoproc_people', 'comm_people', 'internationalsuppport']
   },
   {
-    title: 'Patent Prosecution and Litigation Support',
+    title: 'Bridge Patent Engineer',
     name: 'Alexander Harris',
     img: 'alexanderharris.jpg',
     imglarge: 'alexanderharris_large.jpg',
@@ -1359,7 +1359,7 @@ const PEOPLE_DATA: IPerson[] = [
   },
 
   {
-    title: 'Patent Prosecution and Litigation Support',
+    title: 'Bridge Patent Engineer',
     name: 'Arissa J. Sato',
     img: 'arissasato.jpg',
     imglarge: 'arissasato_large.jpg',
@@ -2076,5 +2076,9 @@ export class PeopleComponent implements OnInit {
     console.log(p.name)
     this.detailsClick.emit(p);
     window.scroll(0, 0);
+  }
+
+  getPeople(){
+    return this.people.filter(x => x.groups.includes(this.currentGroup) );
   }
 }
