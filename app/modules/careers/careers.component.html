@@ -1,9 +1,14 @@
 <div fxLayout='column' fxLayoutAlign="start stretch" fxLayoutGap="20px" >
     <div flexLayout='row' fxFlex fxLayoutAlign="space-between start" fxLayoutGap="20px">
+        <!--PC-->
         <div fxFlex='20' fxShow="true" fxHide.lt-md="true">
             <app-sidebar class='sidebardiv' [items]='careersitems' (itemClick)='setComponent($event)'></app-sidebar>
         </div>
-        <div fxFlex='80' fxFlex.lt-md='100' fxShow="true">
+        <div fxFlex='80' fxShow="true" fxHide.lt-md>
+            <app-careerspage *ngIf="curComponent=='careers'"></app-careerspage>
+        </div>
+        <!--MOBILE-->
+        <div fxFlex='100' fxHide fxShow.lt-md>
             <app-careerspage *ngIf="curComponent=='careers'"></app-careerspage>
         </div>
     </div>

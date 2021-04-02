@@ -1,3 +1,32 @@
 <footer>
-    footer works!
+
+    <div fxLayout='row' fxLayout.lt-md="column" fxLayoutAlign='space-between center'>
+        <div fxLayoutGap=10px>
+            <!--<button mat-mini-fab color="highlight" aria-label="Open the site map" (click)="openBottomSheet()">
+                <mat-icon>menu</mat-icon>
+            </button>-->
+            <button mat-mini-fab color="warn" aria-label="Open the site map" (click)="goToTop()">
+                <mat-icon>arrow_upward</mat-icon>
+            </button>
+            <a href='tel:0352763241'>
+                <button mat-mini-fab color="highlight" aria-label="Phone Ohtsuka Patent Office">
+                    <mat-icon>phone</mat-icon>
+                </button>
+            </a>
+            <a href='mailto:opt@patest.co.jp'>
+                <button mat-mini-fab color="highlight" aria-label="Phone Ohtsuka Patent Office">
+                    <mat-icon>email</mat-icon>
+                </button>
+            </a>
+            <a routerLink="/aboutus">
+                <button mat-mini-fab color="highlight" aria-label="Phone Ohtsuka Patent Office">
+                    <mat-icon>location_on</mat-icon>
+                </button>
+            </a>
+        </div>
+
+        <span class='copyrighttext'>
+            Copyright© OHTSUKA PATENT OFFICE. All Rights Reserved.
+        </span>
+    </div>
 </footer>

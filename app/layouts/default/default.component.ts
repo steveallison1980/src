@@ -13,7 +13,6 @@ export class DefaultComponent implements OnInit {
   constructor(@Inject(DOCUMENT) private document: Document) { }
 
   @HostListener('window:scroll') onScroll(e: Event): void {
-    console.log(this.document.documentElement.scrollTop);
     if( this.document.documentElement.scrollTop > 120 ){
       this.bHeaderFixed = true;
     } else {

@@ -18,37 +18,38 @@ import { DesignsandtrademarksComponent } from './shared/components/designsandtra
 import { LitigationandstrategyComponent } from './shared/components/litigationandstrategy/litigationandstrategy.component';
 import { CourtcasereportsComponent } from './shared/components/courtcasereports/courtcasereports.component';
 
-const routes: Routes = [{
-  path: '',
-  component: DefaultComponent,
-  children: [{
+const routes: Routes = [
+  {
     path: '',
-    component: HomeComponent,
+    component: DefaultComponent,
     children: [{
       path: '',
-      outlet: 'welcomemessage',
-      component: WelcomemessageComponent
-    },
-    {
-      path: '',
-      outlet: 'news',
-      component: NewsComponent
-    },
-    {
-      path: '',
-      outlet: 'contact',
-      component: ContactComponent
-    },
-    {
-      path: '',
-      outlet: 'access',
-      component: AccessComponent
-    }]
+      component: HomeComponent,
+      children: [{
+        path: 'welcomemessage',
+        outlet: 'welcomemessage',
+        component: WelcomemessageComponent
+      },
+      {
+        path: 'news',
+        outlet: 'news',
+        component: NewsComponent
+      },
+      {
+        path: 'contact',
+        outlet: 'contact',
+        component: ContactComponent
+      },
+      {
+        path: 'access',
+        outlet: 'access',
+        component: AccessComponent
+      }]
   }, {
     path: 'aboutus',
     component: AboutusComponent,
     children: [{
-      path: 'aboutus',
+      path: 'about',
       outlet: 'about',
       component: AboutComponent
     },
@@ -72,19 +73,19 @@ const routes: Routes = [{
     component: OurservicesComponent,
     children: [
       {
-        path: 'ourservices',
+        path: 'patentsandutilitymodels',
         component: PatentsandutilitymodelsComponent
       },
       {
-        path: 'ourservices',
+        path: 'designsandtrademarks',
         component: DesignsandtrademarksComponent
       },
       {
-        path: 'ourservices',
+        path: 'litigationandstrategy',
         component: LitigationandstrategyComponent
       },
       {
-        path: 'ourservices',
+        path: 'courtcasereports',
         component:CourtcasereportsComponent
       }
     ]
@@ -94,6 +95,39 @@ const routes: Routes = [{
   }, {
     path: 'careers',
     component: CareersComponent
+  }, {
+    path: 'welcomemessage',
+    component: WelcomemessageComponent
+  }, {
+    path: 'news',
+    component: NewsComponent
+  }, {
+    path: 'contact',
+    component: ContactComponent
+  }, {
+    path: 'about',
+    component: AboutComponent
+  }, {
+    path: 'overview',
+    component: OverviewComponent
+  }, {
+    path: 'keyfeatures',
+    component: KeyfeaturesComponent
+  }, {
+    path: 'access',
+    component: AccessComponent
+  }, {
+    path: 'patentsandutilitymodels',
+    component: PatentsandutilitymodelsComponent
+  }, {
+    path: 'designsandtrademarks',
+    component: DesignsandtrademarksComponent
+  }, {
+    path: 'litigationandstrategy',
+    component: LitigationandstrategyComponent
+  }, {
+    path: 'courtcasereports',
+    component: CourtcasereportsComponent
   }]
 }];
 

@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { HeaderComponent } from './components/header/header.component';
 import { SidebarComponent } from './components/sidebar/sidebar.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { SitemapComponent } from './components/sitemap/sitemap.component';
 import { TopbarComponent } from './components/topbar/topbar.component';
 import { ImagebarComponent } from './components/imagebar/imagebar.component';
 
@@ -28,6 +29,7 @@ import { MatCardModule } from '@angular/material/card';
 import { MatTabsModule } from '@angular/material/tabs';
 import { MatExpansionModule } from '@angular/material/expansion';
 import { MatSidenavModule } from '@angular/material/sidenav';
+import { MatBottomSheetModule } from '@angular/material/bottom-sheet';
 
 import { OfficecardComponent } from './components/officecard/officecard.component';
 import { PatentsblurbComponent } from './components/patentsblurb/patentsblurb.component';
@@ -57,6 +59,7 @@ import { PersonComponent } from './components/person/person.component';
     HeaderComponent,
     SidebarComponent,
     FooterComponent,
+    SitemapComponent,
     TopbarComponent,
     ImagebarComponent,
     NewsComponent,
@@ -103,6 +106,7 @@ import { PersonComponent } from './components/person/person.component';
     MatTabsModule,
     MatExpansionModule,
     MatSidenavModule,
+    MatBottomSheetModule,
     RouterModule,
     FlexLayoutModule
   ],
@@ -110,6 +114,7 @@ import { PersonComponent } from './components/person/person.component';
     HeaderComponent,
     SidebarComponent,
     FooterComponent,
+    SitemapComponent,
     TopbarComponent,
     ImagebarComponent,
     NewsComponent,

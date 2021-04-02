@@ -1,13 +1,22 @@
 <div fxLayout='column' fxLayoutAlign="start stretch" fxLayoutGap="20px" >
     <div class='aboutusdiv' flexLayout='row' fxFlex fxLayoutAlign="space-between start" fxLayoutGap="20px">
+        <!--PC-->
         <div fxFlex='20' fxShow="true" fxHide.lt-md="true">
             <app-sidebar [items]='aboutusitems' (itemClick)='setComponent($event)'></app-sidebar>
         </div>
-        <div fxFlex='80' fxFlex.lt-md='100' fxShow="true">
+        <div fxFlex='80' fxShow="true" fxHide.lt-md>
             <app-about name="about" *ngIf="curComponent=='about'"></app-about>
             <app-overview name="overview" *ngIf="curComponent=='overview'"></app-overview>
             <app-keyfeatures name="keyfeatures" *ngIf="curComponent=='keyfeatures'"></app-keyfeatures>
             <app-access name="access" *ngIf="curComponent=='access'"></app-access>
+        </div>
+        <!--MOBILE-->
+        <div fxFlex='100' fxHide fxShow.lt-md>
+            <app-about name="about"></app-about>
+            <app-overview name="overview"></app-overview>
+            <app-keyfeatures name="keyfeatures"></app-keyfeatures>
+            <br>
+            <app-access name="access"></app-access>
         </div>
     </div>
 </div>

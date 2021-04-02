@@ -2,15 +2,14 @@
     <!--<img mat-card-image src='../../../../assets/img/flying_machine.jpg'>-->
     <mat-nav-list >
         <mat-list-item *ngFor="let item of items">
-                <a fxLayoutAlign='start center' matLine href="javascript:void(0)" (click)="clickItem(item.index)">
-                    <button mat-icon-button [ngClass]="{'listitemactive': item.index == curItem }">
-                        <mat-icon>{{item.icon}}</mat-icon>
-                        {{item.text}}
-                    </button>
-                </a>
-                <mat-divider *ngIf="item.type=='main-group'"></mat-divider>
-                <mat-divider *ngIf="item.type=='last-in-group'"></mat-divider>
-                
+            <a fxLayoutAlign='start center' matLine href="javascript:void(0)" (click)="clickItem(item.index)">
+                <button mat-icon-button [ngClass]="{'listitemactive': item.index == curItem }">
+                    <mat-icon>{{item.icon}}</mat-icon>
+                    {{item.text}}
+                </button>
+            </a>
+            <mat-divider *ngIf="item.type=='main-group'"></mat-divider>
+            <mat-divider *ngIf="item.type=='last-in-group'"></mat-divider>
         </mat-list-item>
     </mat-nav-list>
     <!--<img mat-card-image src='../../../../assets/img/bicycle_tall.jpg'>-->

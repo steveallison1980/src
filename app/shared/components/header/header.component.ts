@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-
+import { MatBottomSheet } from '@angular/material/bottom-sheet';
+import { SitemapComponent } from './../sitemap/sitemap.component';
 
 @Component({
   selector: 'app-header',
@@ -8,14 +9,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
-  constructor() { }
+  constructor(private _bottomSheet: MatBottomSheet) { }
 
   ngOnInit(): void {
   }
 
-  hamburgerState: boolean = false;
-  public clickHamburger(){
-    this.hamburgerState = !this.hamburgerState;
+  public openSitemap(){
+      this._bottomSheet.open(SitemapComponent);
   }
   curPage: string = "home";
   public clickHome(){

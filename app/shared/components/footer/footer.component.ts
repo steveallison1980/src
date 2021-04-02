@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { MatBottomSheet, MatBottomSheetRef } from '@angular/material/bottom-sheet';
+import { SitemapComponent } from './../sitemap/sitemap.component';
 
 @Component({
   selector: 'app-footer',
@@ -7,9 +9,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FooterComponent implements OnInit {
 
-  constructor() { }
+  constructor(private _bottomSheet: MatBottomSheet) { }
+  bottomSheetRef: MatBottomSheetRef;
 
   ngOnInit(): void {
   }
-
+  openBottomSheet(): void {
+    this.bottomSheetRef = this._bottomSheet.open(SitemapComponent);
+  }
+  goToTop() {
+    window.scroll(0, 0);
+  }
 }
