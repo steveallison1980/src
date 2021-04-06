@@ -17,6 +17,8 @@ import { PatentsandutilitymodelsComponent } from './shared/components/patentsand
 import { DesignsandtrademarksComponent } from './shared/components/designsandtrademarks/designsandtrademarks.component';
 import { LitigationandstrategyComponent } from './shared/components/litigationandstrategy/litigationandstrategy.component';
 import { CourtcasereportsComponent } from './shared/components/courtcasereports/courtcasereports.component';
+import { PeopleComponent } from './shared/components/people/people.component';
+import { PersonComponent } from './shared/components/person/person.component';
 
 const routes: Routes = [
   {
@@ -92,6 +94,15 @@ const routes: Routes = [
   }, {
     path: 'professionals',
     component: ProfessionalsComponent
+  }, {
+    path: 'people',
+    component: PeopleComponent,
+    children: [
+      {
+        path: 'person',
+        component: PersonComponent
+      }
+    ]
   }, {
     path: 'careers',
     component: CareersComponent
