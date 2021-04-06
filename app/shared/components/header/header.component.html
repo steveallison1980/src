@@ -5,7 +5,7 @@
             <img src='../../../../assets/img/oLogo.png' height="56px">
             <mat-divider [vertical]="true"></mat-divider>
             <div>
-                <span fxShow fxHide.lt-md class='xlargetext'>OHTSUKA PATENT OFFICE, P.C.</span>
+                <span fxShow fxHide.lt-md class='xlargetext'>{{getText("firmname_pc")}}</span>
             </div>
         </div>
 
@@ -28,11 +28,11 @@
     <div fxHide fxShow.lt-md fxLayout='row' fxLayoutAlign='space-between center'>    
         <div fxHide fxShow.sm class='xxlargetext' fxLayout='row'fxLayout='row' fxLayoutAlign='end center' fxLayoutGap="28px">
             <img fxHide fxShow.sm src='../../../../assets/img/oLogo.png' height="56px">
-            <span>OHTSUKA PATENT OFFICE, P.C.</span>
+            <span>{{getText("firmname_mobile_ltmd")}}</span>
         </div>
         <div fxHide fxShow.xs fxLayout='row' fxLayoutAlign='end center' fxLayoutGap="18px">
             <img src='../../../../assets/img/oLogo.png' height="56px">
-            <span class='xlargetext'>OHTSUKA PATENT OFFICE</span>
+            <span class='xlargetext'>{{getText("firmname_mobile_xs")}}</span>
         </div>
         <div>
             <button mat-icon-button color="highlight" aria-label="Open the site map" (click)="openSitemap()">

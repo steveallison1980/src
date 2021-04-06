@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { LanguagesettingService } from '../../../languagesetting.service';
 
 @Component({
   selector: 'app-topbar',
@@ -7,9 +8,21 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TopbarComponent implements OnInit {
 
-  constructor() { }
+  constructor(private langService: LanguagesettingService) { }
 
   ngOnInit(): void {
   }
 
+  toggleLang(){
+    console.log(this.langService.lang)
+    this.langService.toggle();
+    console.log(this.langService.lang)
+  }
+  getImgSrc(){
+    if( this.langService.lang == "JP" ){
+      return "../../../../assets/img/en.png";
+    } else {
+      return "../../../../assets/img/jp.png";
+    }
+  }
 }

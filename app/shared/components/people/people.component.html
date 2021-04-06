@@ -1,4 +1,9 @@
-
+<div fxLayout="row" fxLayoutGap="20px" fxLayoutAlign="center center">
+    <div class="example-button-container">
+        <mat-icon>{{getGroupIcon()}}</mat-icon>
+    </div>
+    <h1>{{getGroupText()}}</h1>
+</div>
 <div fxLayout="row wrap" fxLayoutGap="20px" fxLayout.lt-md="column">
     <div *ngFor="let person of getPeople()" class="person-card"  fxFlex="30" fxLayoutAlign="space-around stretch">
         <mat-card>
