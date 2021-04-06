@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { LanguagesettingService } from '../../../languagesetting.service';
 
 @Component({
   selector: 'app-welcomemessage',
@@ -7,9 +8,22 @@ import { Component, OnInit } from '@angular/core';
 })
 export class WelcomemessageComponent implements OnInit {
 
-  constructor() { }
+  constructor(private langService: LanguagesettingService) { }
 
   ngOnInit(): void {
+  }
+
+  toggleLang(){
+    console.log();
+    this.langService.toggle();
+  }
+
+  getText(){
+    switch(this.langService.lang){
+      case "JP":
+        
+
+    }
   }
 
 }

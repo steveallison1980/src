@@ -1,6 +1,7 @@
 import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 import { IPerson } from './../../../interfaces/iperson';
 import { PROFESSIONALS_DATA, PEOPLE_DATA } from './../../../../assets/data/staticdata';
+// import { IPracticeareas } from '../../../interfaces/ipracticeareas';
 
 @Component({
   selector: 'app-people',
@@ -20,6 +21,7 @@ export class PeopleComponent implements OnInit {
 
   displayedColumns: string[] = ['name', 'title'];
   people: Array<IPerson> = PEOPLE_DATA;
+  // professionaldata: Array<IPracticeareas> = PROFESSIONALS_DATA;
 
   clickDetails(p: IPerson) {
     console.log(p.name)
@@ -27,22 +29,22 @@ export class PeopleComponent implements OnInit {
     window.scroll(0, 0);
   }
 
-  getGroupIcon(){
+  getGroupIcon() {
     for (let i in PROFESSIONALS_DATA) {
-      if( PROFESSIONALS_DATA[i].component == this.currentGroup ){
+      if (PROFESSIONALS_DATA[i].component == this.currentGroup) {
         return PROFESSIONALS_DATA[i].icon;
       }
     }
   }
-  getGroupText(){
+  getGroupText() {
     for (let i in PROFESSIONALS_DATA) {
-      if( PROFESSIONALS_DATA[i].component == this.currentGroup ){
+      if (PROFESSIONALS_DATA[i].component == this.currentGroup) {
         return PROFESSIONALS_DATA[i].text;
       }
     }
   }
 
-  getPeople(){
-    return this.people.filter(x => x.groups.includes(this.currentGroup) );
+  getPeople() {
+    return this.people.filter(x => x.groups.includes(this.currentGroup));
   }
 }

@@ -36,19 +36,19 @@ export class ProfessionalsComponent implements OnInit {
   curPerson: IPerson = null;
 
   professionalsitems: any = [
-    {text:'Practice Areas',icon:'manage_search',index:0,component:'practiceareas',type:'main-group'},
-    {text:'Information Processing',icon:'computer',index:1,component:'infoproc_people',type:'sub-group'},
-    {text:'Communications',icon:'settings_input_antenna',index:2,component:'comm_people',type:'sub-group'},
-    {text:'Electronics',icon:'cable',index:3,component:'semicon_people',type:'sub-group'},
-    {text:'Mechanical',icon:'miscellaneous_services',index:4,component:'mech_people',type:'sub-group'},
-    {text:'Designs',icon:'category',index:5,component:'design_people',type:'sub-group'},
-    {text:'Medical Devices',icon:'biotech',index:6,component:'meddev_people',type:'sub-group'},
-    {text:'Chemicals, Pharma & Bio',icon:'science',index:7,component:'science_people',type:'sub-group'},
-    {text:'Toys and Games',icon:'videogame_asset',index:8,component:'games_people',type:'sub-group'},
-    {text:'Litigation',icon:'gavel',index:9,component:'litigation_people',type:'last-in-group'},
-    {text:'Patent Attorneys',icon:'person',index:10,component:'patentattorneys',type:'sub-group'},
-    {text:'Legal/Technical Advisors',icon:'person_outline',index:11,component:'advisors',type:'sub-group'},
-    {text:'Patent Engineers',icon:'person',index:12,component:'patentengineers',type:'sub-group'},
-    {text:'International Support',icon:'person_outline',index:13,component:'internationalsuppport',type:'sub-group'}
+    {text:'Practice Areas',textJP:'専門分野別',icon:'manage_search',index:0,component:'practiceareas',type:'main-group'},
+    {text:'Information Processing',textJP:'情報処理系',icon:'computer',index:1,component:'infoproc_people',type:'sub-group'},
+    {text:'Communications',textJP:'通信技術系',icon:'settings_input_antenna',index:2,component:'comm_people',type:'sub-group'},
+    {text:'Electronics',textJP:'半導体・電気回路系',icon:'cable',index:3,component:'semicon_people',type:'sub-group'},
+    {text:'Mechanical',textJP:'機械系',icon:'miscellaneous_services',index:4,component:'mech_people',type:'sub-group'},
+    {text:'Designs',textJP:'意匠',icon:'category',index:5,component:'design_people',type:'sub-group'},
+    {text:'Medical Devices',textJP:'医療機器',icon:'biotech',index:6,component:'meddev_people',type:'sub-group'},
+    {text:'Chemicals, Pharma & Bio',textJP:'化学・医薬・バイオ',icon:'science',index:7,component:'science_people',type:'sub-group'},
+    {text:'Toys and Games',textJP:'アミューズメント・ゲーム',icon:'videogame_asset',index:8,component:'games_people',type:'sub-group'},
+    {text:'Litigation',textJP:'訴訟・訴訟支援',icon:'gavel',index:9,component:'litigation_people',type:'last-in-group'},
+    {text:'Patent Attorneys',textJP:'弁理士',icon:'person',index:10,component:'patentattorneys',type:'sub-group'},
+    {text:'Legal/Technical Advisors',textJP:'法律顧問・技術顧問',icon:'person_outline',index:11,component:'advisors',type:'sub-group'},
+    {text:'Patent Engineers',textJP:'特許技術スタッフ',icon:'person',index:12,component:'patentengineers',type:'sub-group'},
+    {text:'International Support',textJP:'技術・海外支援',icon:'person_outline',index:13,component:'internationalsuppport',type:'sub-group'}
   ]
 }

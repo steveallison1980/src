@@ -17,5 +17,5 @@ export class CareersComponent implements OnInit {
     this.curComponent = component;
     console.log(this.curComponent);
   }
-  careersitems: any = [{text:'Careers',icon:'person_add',index:0,component:'careers'}];
+  careersitems: any = [{text:'Careers',textJP:'キャリア',icon:'person_add',index:0,component:'careers'}];
 }
