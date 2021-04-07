@@ -1,7 +1,7 @@
 <mat-nav-list>
-    <a mat-list-item routerLink="/" mat-list-item (click)="openLink()">Home</a>
+    <a mat-list-item routerLink="/" mat-list-item (click)="openLink('home')">Home</a>
     <mat-list-item *ngFor="let link of homelinks">
-        <a routerLink="{{link.route}}" (click)="openLink()" fxLayoutAlign='start center'>
+        <a routerLink="{{link.route}}" (click)="openLink('home')" fxLayoutAlign='start center'>
             <button mat-icon-button>
                 <mat-icon>{{link.icon}}</mat-icon>
                 {{link.text}}
@@ -10,9 +10,9 @@
     </mat-list-item>
 
     <mat-divider></mat-divider>
-    <a routerLink="/aboutus" mat-list-item color="primary" (click)="openLink()" >About Us</a>
+    <a routerLink="/aboutus" mat-list-item color="primary" (click)="openLink('aboutus')" >About Us</a>
     <mat-list-item *ngFor="let link of aboutuslinks">
-        <a routerLink="{{link.route}}" (click)="openLink()" fxLayoutAlign='start center'>
+        <a routerLink="{{link.route}}" (click)="openLink('aboutus')" fxLayoutAlign='start center'>
             <button mat-icon-button>
                 <mat-icon>{{link.icon}}</mat-icon>
                 {{link.text}}
@@ -21,9 +21,9 @@
     </mat-list-item>
 
     <mat-divider></mat-divider>
-    <a routerLink="/ourservices" mat-list-item (click)="openLink()">Our Services</a>
+    <a routerLink="/ourservices" mat-list-item (click)="openLink('ourservices')">Our Services</a>
     <mat-list-item *ngFor="let link of ourserviceslinks">
-        <a routerLink="{{link.route}}" (click)="openLink()" fxLayoutAlign='start center'>
+        <a routerLink="{{link.route}}" (click)="openLink('ourservices')" fxLayoutAlign='start center'>
             <button mat-icon-button>
                 <mat-icon>{{link.icon}}</mat-icon>
                 {{link.text}}
@@ -32,9 +32,9 @@
     </mat-list-item>
 
     <mat-divider></mat-divider>
-    <a routerLink="/professionals" mat-list-item (click)="openLink()">Professionals</a>
-    <a routerLink="/people" mat-list-item (click)="openLink()">People</a>
+    <a routerLink="/professionals" mat-list-item (click)="openLink('professionals')">Professionals</a>
+    <a routerLink="/people" mat-list-item (click)="openLink('professionals')">People</a>
 
     <mat-divider></mat-divider>
-    <a routerLink="/careers" mat-list-item (click)="openLink()">Careers</a>
+    <a routerLink="/careers" mat-list-item (click)="openLink('careers')">Careers</a>
   </mat-nav-list>

@@ -11,15 +11,15 @@
 
         <div fxLayout='row' fxLayoutAlign='start start'>        
             <div class='largetext' fxLayout='row' [fxShow]="true" [fxHide.lt-md]="true" fxLayoutGap='5px'>
-                <a routerLink="/" (click)="clickHome()" [ngClass]="{'activenav': curPage=='home'}">Home</a>
+                <a routerLink="/" (click)="clickHome()" [ngClass]="{'activenav': this.nav.curPage=='home'}">{{getText("home")}}</a>
                 <mat-divider [vertical]="true"></mat-divider>
-                <a routerLink="/aboutus" (click)="clickAboutus()" [ngClass]="{'activenav': curPage=='aboutus'}">About Us</a>
+                <a routerLink="/aboutus" (click)="clickAboutus()" [ngClass]="{'activenav': this.nav.curPage=='aboutus'}">{{getText("aboutus")}}</a>
                 <mat-divider [vertical]="true"></mat-divider>
-                <a routerLink="/ourservices" (click)="clickOurservices()" [ngClass]="{'activenav': curPage=='ourservices'}">Our Services</a>
+                <a routerLink="/ourservices" (click)="clickOurservices()" [ngClass]="{'activenav': this.nav.curPage=='ourservices'}">{{getText("ourservices")}}</a>
                 <mat-divider [vertical]="true"></mat-divider>
-                <a routerLink="/professionals" (click)="clickProfessionals()" [ngClass]="{'activenav': curPage=='professionals'}">Professionals</a>
+                <a routerLink="/professionals" (click)="clickProfessionals()" [ngClass]="{'activenav': this.nav.curPage=='professionals'}">{{getText("professionals")}}</a>
                 <mat-divider [vertical]="true"></mat-divider>
-                <a routerLink="/careers" (click)="clickCareers()" [ngClass]="{'activenav': curPage=='careers'}">Careers</a>
+                <a routerLink="/careers" (click)="clickCareers()" [ngClass]="{'activenav': this.nav.curPage=='careers'}">{{getText("careers")}}</a>
             </div>
         </div>
     </div>

@@ -1,5 +1,6 @@
 import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 import { MatBottomSheetRef } from '@angular/material/bottom-sheet';
+import { NavigateService } from '../../../services/navigate.service';
 
 @Component({
   selector: 'app-sitemap',
@@ -11,7 +12,8 @@ export class SitemapComponent implements OnInit {
   @Output() itemClick = new EventEmitter<string>();
 
   constructor(
-    private bottomsheet: MatBottomSheetRef<SitemapComponent>) { }
+    private bottomsheet: MatBottomSheetRef<SitemapComponent>,
+    public nav: NavigateService) { }
 
   ngOnInit(): void {
   }
@@ -32,7 +34,8 @@ export class SitemapComponent implements OnInit {
     {text:'Litigation & Strategy',icon:'gavel',route:'/litigationandstrategy'},
     {text:'Court Decision Reports',icon:'menu_book',route:'/courtcasereports'}];
 
-  openLink() {
+  openLink(toplevel) {
+    this.nav.curPage = toplevel;
     this.bottomsheet.dismiss();
     window.scroll(0, 0);
   }

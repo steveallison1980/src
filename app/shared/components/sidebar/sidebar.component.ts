@@ -1,5 +1,5 @@
 import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
-import { LanguagesettingService } from '../../../languagesetting.service';
+import { LanguagesettingService } from '../../../services/languagesetting.service';
 
 @Component({
   selector: 'app-sidebar',
@@ -26,6 +26,7 @@ export class SidebarComponent implements OnInit {
     console.log(index);
     this.curItem = index;
     this.itemClick.emit(this.items[this.curItem].component)
+    window.scroll(0, 0);
   }
 
   getText(item){

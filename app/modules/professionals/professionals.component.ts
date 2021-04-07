@@ -49,6 +49,6 @@ export class ProfessionalsComponent implements OnInit {
     {text:'Patent Attorneys',textJP:'弁理士',icon:'person',index:10,component:'patentattorneys',type:'sub-group'},
     {text:'Legal/Technical Advisors',textJP:'法律顧問・技術顧問',icon:'person_outline',index:11,component:'advisors',type:'sub-group'},
     {text:'Patent Engineers',textJP:'特許技術スタッフ',icon:'person',index:12,component:'patentengineers',type:'sub-group'},
-    {text:'International Support',textJP:'技術・海外支援',icon:'person_outline',index:13,component:'internationalsuppport',type:'sub-group'}
+    {text:'International Support',textJP:'技術・海外支援',icon:'person_outline',index:13,component:'internationalsupport',type:'sub-group'}
   ]
 }

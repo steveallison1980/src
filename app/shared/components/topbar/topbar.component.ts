@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { LanguagesettingService } from '../../../languagesetting.service';
+import { LanguagesettingService } from '../../../services/languagesetting.service';
 
 @Component({
   selector: 'app-topbar',

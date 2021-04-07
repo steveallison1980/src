@@ -1,6 +1,7 @@
 import { IPracticeareas } from './../../app/interfaces/ipracticeareas';
 import { IPerson } from './../../app/interfaces/iperson';
 
+
 export const WELCOMEMESSAGE: Array<string> = [
   "Thanks to everyone’s support, we were able to celebrate the 46th anniversary of our founding in April 1974.",
   "We are pleased to inform everyone that Ohtsuka Patent Office incorporated into Ohtsuka Patent Office, P.C. in October 2020.",
@@ -49,7 +50,7 @@ export const PROFESSIONALS_DATA: IPracticeareas[] = [
     {text:'Patent Attorneys',textJP:'弁理士',icon:'person',index:10,component:'patentattorneys',type:'sub-group'},
     {text:'Legal/Technical Advisors',textJP:'法律顧問・技術顧問',icon:'person_outline',index:11,component:'advisors',type:'sub-group'},
     {text:'Patent Engineers',textJP:'特許技術スタッフ',icon:'person',index:12,component:'patentengineers',type:'sub-group'},
-    {text:'International Support',textJP:'技術・海外支援',icon:'person_outline',index:13,component:'internationalsuppport',type:'sub-group'}
+    {text:'International Support',textJP:'技術・海外支援',icon:'person_outline',index:13,component:'internationalsupport',type:'sub-group'}
   ];
 
 export const PEOPLE_DATA: IPerson[] = [
@@ -1341,7 +1342,7 @@ export const PEOPLE_DATA: IPerson[] = [
       publicationsJP: null,
   
       groups:
-        ['infoproc_people', 'comm_people', 'internationalsuppport']
+        ['infoproc_people', 'comm_people', 'internationalsupport']
     },
     {
       title: 'Bridge Patent Engineer',
@@ -1373,7 +1374,7 @@ export const PEOPLE_DATA: IPerson[] = [
       publicationsJP: null,
   
       groups:
-        ['science_people', 'internationalsuppport'] 
+        ['science_people', 'internationalsupport'] 
     },
   
     {
@@ -1406,7 +1407,7 @@ export const PEOPLE_DATA: IPerson[] = [
       publicationsJP: null,
   
       groups:
-        ['internationalsuppport']
+        ['internationalsupport']
     },
   
     {
@@ -1442,7 +1443,7 @@ export const PEOPLE_DATA: IPerson[] = [
       publicationsJP: null,
   
       groups:
-        ['infoproc_people', 'design_people', 'internationalsuppport']
+        ['infoproc_people', 'design_people', 'internationalsupport']
     },
   
     // Patent Technical Staff

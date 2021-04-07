@@ -7,7 +7,7 @@
             <app-sidebar [items]='professionalsitems' (itemClick)='setComponent($event)'></app-sidebar>
         </div>
         <div fxFlex='70' fxShow="true" fxHide.lt-md>
-            <app-practiceareas *ngIf="curView=='practiceareas'"></app-practiceareas>
+            <app-practiceareas *ngIf="curView=='practiceareas'" (groupClick)='setComponent($event)'></app-practiceareas>
             <app-people *ngIf="curView=='peopleview'" [currentGroup]="curComponent" (detailsClick)='setPersonView($event)'></app-people>
             <app-person *ngIf="curView=='personview'" [person]="curPerson"></app-person>
         </div>
@@ -15,7 +15,7 @@
         </div>
         <!--MOBILE-->
         <div fxFlex='100' fxHide fxShow.lt-md>
-            <app-practiceareas *ngIf="curView=='practiceareas'"></app-practiceareas>
+            <app-practiceareas *ngIf="curView=='practiceareas'" (groupClick)='setComponent($event)'></app-practiceareas>
             <app-people *ngIf="curView=='peopleview'" [currentGroup]="curComponent" (detailsClick)='setPersonView($event)'></app-people>
             <app-person *ngIf="curView=='personview'" [person]="curPerson"></app-person>
         </div>

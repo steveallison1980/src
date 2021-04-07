@@ -1,9 +1,10 @@
 <mat-card>
     <div class="container">
-        <img mat-card-image src='../../../../assets/img/news.png'>
-        <div class="titletext"><mat-card-title>What's New</mat-card-title></div>
+        <!--<img mat-card-image src='../../../../assets/img/news.png'>-->
+        <img mat-card-image src='../../../../assets/img/newspaper2.jpg'>
+        <div class="titletext"><mat-card-title>{{getText("title")}}</mat-card-title></div>
     </div>
-    <table mat-table [dataSource]="dataSource" class="mat-elevation-z8">
+    <table mat-table [dataSource]="getDatasource()" class="mat-elevation-z8">
 
         <!--- Note that these columns can be defined in any order.
                 The actual rendered columns are set as a property on the row definition" -->
@@ -18,10 +19,15 @@
         <ng-container matColumnDef="details">
             <th mat-header-cell *matHeaderCellDef> Details </th>
             <td mat-cell *matCellDef="let element">
-                <a *ngIf="element.link!=''; else elseBlock" href=''>
+                <a *ngIf="element.router!=''; else noRouterBlock" (click)="setNav(element.router)" routerLink="/{{element.router}}">
                     {{element.details}}
                 </a>
-                <ng-template #elseBlock>{{element.details}}</ng-template>
+                <ng-template #noRouterBlock>
+                    <a *ngIf="element.link!=''; else elseBlock" href='{{element.link}}'>
+                        {{element.details}}
+                    </a>
+                    <ng-template #elseBlock>{{element.details}}</ng-template>
+                </ng-template>
             </td>
         </ng-container>
 
