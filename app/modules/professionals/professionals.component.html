@@ -4,20 +4,24 @@
         <div fxFlex='5' fxShow="true" fxHide.lt-md="true">
         </div>
         <div fxFlex='20' fxShow="true" fxHide.lt-md="true">
-            <app-sidebar [items]='professionalsitems' (itemClick)='setComponent($event)'></app-sidebar>
+            <app-sidebar [items]='professionalsitems'></app-sidebar>
         </div>
         <div fxFlex='70' fxShow="true" fxHide.lt-md>
-            <app-practiceareas *ngIf="curView=='practiceareas'" (groupClick)='setComponent($event)'></app-practiceareas>
-            <app-people *ngIf="curView=='peopleview'" [currentGroup]="curComponent" (detailsClick)='setPersonView($event)'></app-people>
-            <app-person *ngIf="curView=='personview'" [person]="curPerson"></app-person>
+            <app-practiceareas *ngIf="isPracticeAreas(); else elseBlock"></app-practiceareas>
+            <ng-template #elseBlock>
+                <app-person *ngIf="isPersonView()" [person]="this.nav.curPerson"></app-person>
+                <app-people [currentGroup]="getSubPage()" (detailsClick)='setPersonView($event)'></app-people>
+            </ng-template>
         </div>
         <div fxFlex='5' fxShow="true" fxHide.lt-md="true">
         </div>
         <!--MOBILE-->
         <div fxFlex='100' fxHide fxShow.lt-md>
-            <app-practiceareas *ngIf="curView=='practiceareas'" (groupClick)='setComponent($event)'></app-practiceareas>
-            <app-people *ngIf="curView=='peopleview'" [currentGroup]="curComponent" (detailsClick)='setPersonView($event)'></app-people>
-            <app-person *ngIf="curView=='personview'" [person]="curPerson"></app-person>
+            <app-practiceareas *ngIf="isPracticeAreas(); else elseBlock"></app-practiceareas>
+            <ng-template #elseBlock>
+                <app-person *ngIf="isPersonView()" [person]="this.nav.curPerson"></app-person>
+                <app-people [currentGroup]="getSubPage()" (detailsClick)='setPersonView($event)'></app-people>
+            </ng-template>
         </div>
     </div>
 </div>

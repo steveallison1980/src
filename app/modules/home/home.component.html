@@ -4,13 +4,13 @@
         <div fxFlex='5' fxShow="true" fxHide.lt-md="true">
         </div>
         <div fxFlex='20' fxShow="true" fxHide.lt-md>
-            <app-sidebar [items]='homeitems' (itemClick)='setComponent($event)'></app-sidebar>
+            <app-sidebar [items]='homeitems'></app-sidebar>
         </div>
         <div fxFlex='70' fxShow="true" fxHide.lt-md>
-            <app-welcomemessage *ngIf="curComponent=='welcomemessage'"></app-welcomemessage>
-            <app-news *ngIf="curComponent=='news'"></app-news>
-            <app-contact *ngIf="curComponent=='contact'"></app-contact>
-            <app-access *ngIf="curComponent=='access'"></app-access>
+            <app-welcomemessage *ngIf="isWelcomemessage()"></app-welcomemessage>
+            <app-news *ngIf="isNews()"></app-news>
+            <app-contact *ngIf="isContact()"></app-contact>
+            <app-access *ngIf="isAccess()"></app-access>
         </div>
         <div fxFlex='5' fxShow="true" fxHide.lt-md="true">
         </div>

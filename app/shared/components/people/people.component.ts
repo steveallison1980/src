@@ -1,7 +1,7 @@
 import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 import { IPerson } from './../../../interfaces/iperson';
 import { PROFESSIONALS_DATA, PEOPLE_DATA } from './../../../../assets/data/staticdata';
-// import { IPracticeareas } from '../../../interfaces/ipracticeareas';
+import { NavigateService } from '../../../services/navigate.service';
 
 @Component({
   selector: 'app-people',
@@ -12,20 +12,18 @@ export class PeopleComponent implements OnInit {
 
   @Input() currentGroup: string;
 
-  @Output() detailsClick = new EventEmitter<IPerson>();
-
-  constructor() { }
+  constructor(public nav: NavigateService) { }
 
   ngOnInit(): void {
   }
 
   displayedColumns: string[] = ['name', 'title'];
   people: Array<IPerson> = PEOPLE_DATA;
-  // professionaldata: Array<IPracticeareas> = PROFESSIONALS_DATA;
-
+  
   clickDetails(p: IPerson) {
     console.log(p.name)
-    this.detailsClick.emit(p);
+    this.nav.curPerson = p;
+    this.nav.view = "person";
     window.scroll(0, 0);
   }
 

@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { IPerson } from './../../interfaces/iperson';
+import { NavigateService } from '../../services/navigate.service';
+import { IPerson } from '../../interfaces/iperson';
 
 @Component({
   selector: 'app-professionals',
@@ -8,35 +9,30 @@ import { IPerson } from './../../interfaces/iperson';
 })
 export class ProfessionalsComponent implements OnInit {
 
-  constructor() { }
+  constructor(public nav: NavigateService) { }
 
   ngOnInit(): void {
   }
 
-  curComponent: string = "practiceareas";
-  curView: string = "practiceareas";
-
-  setComponent(component: string){
-    console.log(component)
-    this.curComponent = component;
-
-    if( this.curComponent == "practiceareas"){
-      this.curView = "practiceareas";
-    } else {
-      this.curView = "peopleview";
-    }
-    console.log(this.curComponent);
+  isPracticeAreas(){
+    return ( this.nav.subPage == "practiceareas");
+  }
+  isPersonView(){
+    return (this.nav.view == "person");
+  }
+  isGroupView(){
+    return (this.nav.view == "group");
+  }
+  getSubPage(){
+    return this.nav.subPage;
   }
   setPersonView(p: IPerson){
-    this.curView = "personview";
-    this.curPerson = p;
-    console.log(this.curPerson.title)
-    console.log(this.curView)
+    this.nav.view == "person"
+    this.nav.curPerson = p;
   }
-  curPerson: IPerson = null;
-
+  
   professionalsitems: any = [
-    {text:'Practice Areas',textJP:'専門分野別',icon:'manage_search',index:0,component:'practiceareas',type:'main-group'},
+    {text:'Practice Areas',textJP:'専門分野別',icon:'',index:0,component:'practiceareas',type:'main-group'},
     {text:'Information Processing',textJP:'情報処理系',icon:'computer',index:1,component:'infoproc_people',type:'sub-group'},
     {text:'Communications',textJP:'通信技術系',icon:'settings_input_antenna',index:2,component:'comm_people',type:'sub-group'},
     {text:'Electronics',textJP:'半導体・電気回路系',icon:'cable',index:3,component:'semicon_people',type:'sub-group'},

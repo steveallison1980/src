@@ -1,6 +1,7 @@
-import { Component, OnInit, Output, EventEmitter } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { PROFESSIONALS_DATA } from './../../../../assets/data/staticdata'
 import { LanguagesettingService } from '../../../services/languagesetting.service';
+import { NavigateService } from '../../../services/navigate.service';
 
 @Component({
   selector: 'app-practiceareas',
@@ -9,9 +10,8 @@ import { LanguagesettingService } from '../../../services/languagesetting.servic
 })
 export class PracticeareasComponent implements OnInit {
 
-  @Output() groupClick = new EventEmitter<string>();
-
-  constructor(private langService: LanguagesettingService) { }
+  constructor(private langService: LanguagesettingService,
+    public nav: NavigateService) { }
 
   ngOnInit(): void {
   }
@@ -37,7 +37,7 @@ export class PracticeareasComponent implements OnInit {
 
   groupView(group){
     window.scroll(0, 0);
-    this.groupClick.emit(group)
+    this.nav.subPage = group;
   }
 
 }

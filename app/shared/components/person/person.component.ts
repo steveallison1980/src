@@ -1,5 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { IPerson } from '../../../interfaces/iperson';
+import { NavigateService } from '../../../services/navigate.service';
 
 @Component({
   selector: 'app-person',
@@ -8,11 +9,13 @@ import { IPerson } from '../../../interfaces/iperson';
 })
 export class PersonComponent implements OnInit {
 
-  @Input() person: IPerson;
-
-  constructor() { }
+  constructor(public nav: NavigateService) { }
 
   ngOnInit(): void {
+  }
+
+  getPerson(){
+    return this.nav.curPerson;
   }
 
 }

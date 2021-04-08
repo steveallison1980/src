@@ -26,18 +26,23 @@ export class HeaderComponent implements OnInit {
 
   public clickHome(){
     this.nav.curPage = "home";
+    this.nav.subPage = "welcomemessage";
   }
   public clickAboutus(){
     this.nav.curPage = "aboutus";
+    this.nav.subPage = "about";
   }
   public clickProfessionals(){
     this.nav.curPage = "professionals";
+    this.nav.subPage = "practiceareas";
   }
   public clickOurservices(){
     this.nav.curPage = "ourservices";
+    this.nav.subPage = "patent";
   }
   public clickCareers(){
     this.nav.curPage = "careers";
+    this.nav.subPage = "careers";
   }
 
   getText(item){

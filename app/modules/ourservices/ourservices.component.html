@@ -1,19 +1,16 @@
 <div fxLayout='column' fxLayoutAlign="start stretch" fxLayoutGap="20px" >
-    <!--<div class='imgcontainer' flexLayout='row'>
-        <app-imagebar></app-imagebar>
-    </div>-->
     <div flexLayout='row' fxFlex  fxLayoutAlign="space-between start" fxLayoutGap="20px">
         <!--PC-->
         <div fxFlex='5' fxShow="true" fxHide.lt-md="true">
         </div>
         <div fxFlex='20' fxShow="true" fxHide.lt-md="true">
-            <app-sidebar [items]='ourservicesitems'  (itemClick)='setComponent($event)'></app-sidebar>
+            <app-sidebar [items]='ourservicesitems'></app-sidebar>
         </div>
         <div fxFlex='70' fxShow="true" fxHide.lt-md>
-            <app-patentsandutilitymodels *ngIf="curComponent=='patent'"></app-patentsandutilitymodels>
-            <app-designsandtrademarks *ngIf="curComponent=='design'"></app-designsandtrademarks>
-            <app-litigationandstrategy *ngIf="curComponent=='litigation'"></app-litigationandstrategy>
-            <app-courtcasereports *ngIf="curComponent=='court'"></app-courtcasereports>
+            <app-patentsandutilitymodels *ngIf="isPatent()"></app-patentsandutilitymodels>
+            <app-designsandtrademarks *ngIf="isDesign()"></app-designsandtrademarks>
+            <app-litigationandstrategy *ngIf="isLitigation()"></app-litigationandstrategy>
+            <app-courtcasereports *ngIf="isCourt()"></app-courtcasereports>
         </div>
         <div fxFlex='5' fxShow="true" fxHide.lt-md="true">
         </div>

@@ -20,9 +20,9 @@ export class TopbarComponent implements OnInit {
   }
   getImgSrc(){
     if( this.langService.lang == "JP" ){
-      return "../../../../assets/img/jp.png";
-    } else {
       return "../../../../assets/img/en.png";
+    } else {
+      return "../../../../assets/img/jp.png";
     }
   }
 }

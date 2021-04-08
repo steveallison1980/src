@@ -1,50 +1,50 @@
 <div>
     <mat-card class="person-card">
         <mat-card-header>
-            <mat-card-title>{{person.name}}</mat-card-title>
-            <mat-card-subtitle>{{person.title}}</mat-card-subtitle>
+            <mat-card-title>{{getPerson().name}}</mat-card-title>
+            <mat-card-subtitle>{{getPerson().title}}</mat-card-subtitle>
         </mat-card-header>
         <mat-card-content>
             <div id='personimgdiv'>
-                <img src="../../../../assets/img/profiles/{{person.imglarge}}" alt="{{person.name}}, {{person.title}}">
+                <img src="../../../../assets/img/profiles/{{getPerson().imglarge}}" alt="{{getPerson().name}}, {{getPerson().title}}">
             </div>
             <br>
             <div>
                 <h2>Bio</h2>
-                <p>{{person.bio}}</p>
+                <p>{{getPerson().bio}}</p>
             </div>
             <mat-divider></mat-divider>
-            <div *ngIf="person.specialties!=null">
+            <div *ngIf="getPerson().specialties!=null">
                 <h2>Specialties</h2>
-                <p *ngFor="let item of person.specialties">
+                <p *ngFor="let item of getPerson().specialties">
                     {{item.text}}
                 </p>
             </div> 
-            <mat-divider *ngIf="person.specialties!=null"></mat-divider>
-            <div *ngIf="person.education!=null">
+            <mat-divider *ngIf="getPerson().specialties!=null"></mat-divider>
+            <div *ngIf="getPerson().education!=null">
                 <h2>Education</h2>
-                <p *ngFor="let item of person.education">
+                <p *ngFor="let item of getPerson().education">
                     {{item.text}}
                 </p>
             </div> 
-            <mat-divider *ngIf="person.education!=null"></mat-divider>
-            <div *ngIf="person.career!=null">
+            <mat-divider *ngIf="getPerson().education!=null"></mat-divider>
+            <div *ngIf="getPerson().career!=null">
                 <h2>Career</h2>
-                <p *ngFor="let item of person.career">
+                <p *ngFor="let item of getPerson().career">
                     {{item.text}}
                 </p>
             </div> 
-            <mat-divider *ngIf="person.career!=null"></mat-divider>
-            <div *ngIf="person.memberships!=null">
+            <mat-divider *ngIf="getPerson().career!=null"></mat-divider>
+            <div *ngIf="getPerson().memberships!=null">
                 <h2>Memberships</h2>
-                <p *ngFor="let item of person.memberships">
+                <p *ngFor="let item of getPerson().memberships">
                     {{item.text}}
                 </p>
             </div> 
-            <mat-divider *ngIf="person.memberships!=null"></mat-divider>
-            <div *ngIf="person.publications!=null">
+            <mat-divider *ngIf="getPerson().memberships!=null"></mat-divider>
+            <div *ngIf="getPerson().publications!=null">
                 <h2>Publications</h2>
-                <p *ngFor="let item of person.publications">
+                <p *ngFor="let item of getPerson().publications">
                     {{item.text}}
                 </p>
             </div> 

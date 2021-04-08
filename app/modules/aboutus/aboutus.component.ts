@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { NavigateService } from '../../services/navigate.service';
 
 @Component({
   selector: 'app-aboutus',
@@ -7,16 +8,27 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AboutusComponent implements OnInit {
 
-  constructor() { }
+  constructor(public nav: NavigateService) { }
 
   ngOnInit(): void {
   }
 
-  curComponent: string = "about";
-  setComponent(component: string){
-    this.curComponent = component;
-    console.log(this.curComponent);
+  getSubPage(){
+    return this.nav.subPage;
   }
+  isAbout(){
+    return (this.nav.subPage == "about");
+  }
+  isOverview(){
+    return (this.nav.subPage == "overview");
+  }
+  isKeyfeatures(){
+    return (this.nav.subPage == "keyfeatures");
+  }
+  isAccess(){
+    return (this.nav.subPage == "access");
+  }
+
   aboutusitems: any = [{text:'About Us',textJP:'当事務所について',icon:'people',index:0,component:'about'},
     {text:'An Overview',icon:'menu_book',textJP:'事務所概要',index:1,component:'overview'},
     {text:'Key Features',textJP:'特色',icon:'format_list_bulleted',index:2,component:'keyfeatures'},

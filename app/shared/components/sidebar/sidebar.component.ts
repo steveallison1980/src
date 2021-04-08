@@ -1,5 +1,6 @@
 import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 import { LanguagesettingService } from '../../../services/languagesetting.service';
+import { NavigateService } from '../../../services/navigate.service';
 
 @Component({
   selector: 'app-sidebar',
@@ -16,16 +17,18 @@ export class SidebarComponent implements OnInit {
 
   @Output() itemClick = new EventEmitter<string>();
 
-  constructor(private langService: LanguagesettingService) {}
+  constructor(private langService: LanguagesettingService,
+    public nav: NavigateService ) {}
 
   ngOnInit(): void {
   }
   
   curItem: number=0;
   clickItem(index:number){
-    console.log(index);
     this.curItem = index;
-    this.itemClick.emit(this.items[this.curItem].component)
+    this.nav.subPage = this.items[this.curItem].component;
+    this.nav.curPerson = null;
+    this.nav.view = "group";
     window.scroll(0, 0);
   }
 
