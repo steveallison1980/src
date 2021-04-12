@@ -1,0 +1,18 @@
+export const SERVICESPATENTTITLE = "Patents and Utility Models"
+
+export const SERVICESPATENTTITLEJP = "特許・実用新案取得"
+
+export const SERVICESPATENT: Array<string> = [
+    "A major purpose of obtaining a patent is to prevent similar products from other companies from entering the market, but it is also important to do this in parallel with a realistic strategic plan. Therefore, we make sure to understand first whether the objective of filing a patent application is a step towards (1) obtaining global patent protection, (2) strengthening a patent portfolio, or (3) simply obtaining a standard patent. We then employ a strategy to prepare an application and proceeding in a way that is aligned with the objective.",
+    "Today, business continues to become more globalized, and Japanese patent applications can often be a preparation step for the next international application. The quality of international applications depends on the quality of the domestic patent application on which they are based. Here, at Ohtsuka Patent Office, we aim to prepare a Japanese application with the level of quality needed for an international application by keeping in mind how the application will translate into English. Further, we have extensive experience with preparing application documents in English and filing international applications directly in English-speaking jurisdictions.",
+    "If the objective of an application is the first step towards obtaining global patent protection, it is important to set targets such as where and when to secure a patent, and determine which application route is the best to achieve these targets, and how this will affect costs and efficiency. The range of options available to applicants is broadening. For example, we have successfully taken advantage of the speedy examination of the JPO to obtain allowances more quickly in foreign countries.",
+    "We have collaborated with local counsel in Europe, the United States, the BRICs, South Korea, and several countries in Southeast Asia over many years, and have driven the acquisition of IP rights in each country based on their local information and knowledge. Further, we have actively made use of systems such as PPH and PCT-PPH in those countries to streamline the process. We have conducted business in an efficient manner that maintains a high quality of work when working with these local counsel.",
+    "In this way, we at Ohtsuka Patent Office uses our extensive experience in patent practice in Japan and overseas and in patent litigation, and work hard to obtain and enforce meaningful patent rights."
+];
+export const SERVICESPATENTJP: Array<string> = [
+    "新たな知恵を特許にし、その特許を糧に企業は成長します。グローバル企業のほぼ全てが、一つの知恵から出発しています。私共は、知恵を特許にし、それが企業の活力になることを願って、勢いの良いスタートアップ企業から、グローバル企業までをヘルプしています。",
+    "ビジネスがグローバル化した現在、日本出願は次の国際段階への準備とも言えます。国際出願の品質は、基礎となる日本出願の品質に依存します。そこで、当事務所では、国際出願にそのまま使える高品質化を目指し、日本出願時から、英訳を意識した文面とするなど、国際出願を想定した出願を準備します。また、出願書類を最初から英語で作成し、英語圏で直接出願、国際（PCT）出願する豊富な経験を持っています。",
+    "例えば、グローバルな特許の取得に向けての第一歩であれば、どこの国でいつ特許を成立させるかという目標や、その目標達成のために最適な出願ルートの決定が費用・効率の面から重要です。日本国特許庁の迅速な審査スピードを活用して外国での審査の促進、PCTルートの国際出願を行い、国際調査の結果を踏まえて国内移行を決定するなど、選択の幅は広がっています。その中で、国内展開と国際展開を容易にする方法をアドバイスします。",
+    "当事務所は、欧米はもちろん、BRICs、韓国、東南アジア諸国など、多くの国において現地代理人との長年に渡る緊密な提携を持ち、生の現地情報や知見に基づき、各国での権利取得を促進させます。また、それらの国々においてJPOの審査結果を国際的に波及させるシステム（PPH、PCT-PPH）等を積極的に活用し、現地代理人との間で効率と品質を考えた仕事の分担を行っています。",
+    "このように、当事務所は日本及び諸外国における特許実務の豊富な経験を活かし、更には特許の活用の場である訴訟での攻撃・防御の経験などを活かして、お客様の発明を、有用な特許権（知的財産権）に育て上げる努力をしています。"
+];

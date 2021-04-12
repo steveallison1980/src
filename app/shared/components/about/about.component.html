@@ -1,7 +1,22 @@
 <mat-card>
     <div class="container">
         <img mat-card-image src='../../../../assets/img/aboutus.jpg'>
-        <div class="titletext"><mat-card-title>About Us</mat-card-title></div>
+        <div class="titletext">
+            <mat-card-title>{{getTitle()}}</mat-card-title>
+        </div>
+
+        <div class='content'>
+            <p *ngFor="let para of getParas()">
+                {{para}}
+            </p>
+        </div>
     </div>
-    <app-aboutusblurb></app-aboutusblurb>
+
+    <div class='signature'>
+        <span *ngFor="let line of getSignature()">
+            {{line}}<br>
+        </span>
+    </div>
+
+    <!-- <app-aboutusblurb></app-aboutusblurb> -->
 </mat-card>

@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { LanguagesettingService } from '../../../services/languagesetting.service';
-import { WELCOMEMESSAGE, WELCOMEMESSAGEJP, SIGNATURE, SIGNATUREJP } from '../../../../assets/data/staticdata';
+import { WELCOMEMESSAGE, WELCOMEMESSAGEJP, WELCOMETITLEJP, WELCOMETITLE } from '../../../../assets/data/staticwelcome';
+import { SIGNATURE, SIGNATUREJP} from '../../../../assets/data/staticall';
 
 @Component({
   selector: 'app-welcomemessage',
@@ -17,6 +18,16 @@ export class WelcomemessageComponent implements OnInit {
   toggleLang(){
     console.log();
     this.langService.toggle();
+  }
+
+  getTitle(){
+    switch(this.langService.lang){
+      case "JP":
+        return WELCOMETITLEJP;
+      case "EN":
+      default:
+        return WELCOMETITLE;
+    }
   }
 
   getParas(){

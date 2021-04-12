@@ -1,27 +1,11 @@
-<h1>Our values</h1>
-<div fxLayout="column" fxLayoutAlign="space-between start" fxLayoutGap="20px">
-    <mat-card>
-        <h2>The Right Experts</h2>
-        <p>Our attorneys and engineers have a strong academic background and many of them have prior industry experience as researchers, engineers and/or corporate counsel. Since every matter is different and has varying complexities, our approach to handling cases is flexible. We choose the best mix of expertise based on the nature and circumstances of the invention, tailored to suit each case. We also have members who are former patent examiners and appeal examiners. Thus we have a thorough understanding of not only technology and the law, but also the examination process and the examiners’ mindset, which truly allows us to select the best way to proceed with each case.</p>
-    </mat-card>
-    <mat-card>
-        <h2>Thinking Globally</h2>
-        <p>The Japanese patent examination process is now among the fastest in the world, and using this speed effectively can be useful in the development of an international patent portfolio. There have been an increasing number of cases in which the outcome of a Japanese examination has had a large impact on other patent offices.</p>
-        <p>At Ohtsuka Patent Office, we strive to reduce risk and costs while enhancing the value of our clients' patent families by providing assistance for obtaining patents not only in Japan, but also in other countries simultaneously.</p>
-    </mat-card>
-    <mat-card>
-        <h2>Litigation Skill and Experience</h2>
-        <p>Patent litigation requires the ability to discern the differences and similarities between a patented invention and an accused product or the prior art. We have found that our experience and in-depth technological insight accumulated through prosecuting an enormous number of patent applications are crucial for patent litigation. We have handled patent infringement actions, invalidation trials, as well as injunction procedures at Customs, where we have produced excellent results by contributing strong arguments regarding validity and infringement.</p>
-        <p>Our litigation experts are bilingual and can communicate clearly with overseas clients and counsel in cross-border cases.</p>
-        <p>At Ohtsuka Patent Office, we assemble our litigation teams on a per-case basis, and have for many years worked in collaboration with Morrison & Foerster LLP/Ito & Mitomi and several other client-selected law firms on complex and multi-faceted litigation cases. We pride ourselves on making such collaborations as smooth and efficient as possible.</p>
-    </mat-card>
-    <mat-card>
-        <h2>Developing Personnel</h2>
-        <p>We believe in providing long-term support to our clients. We recognize that in order to maintain high reliability that our clients expect and to continue providing the best service, it is extremely important to ensure the development of new and existing personnel.</p>
-        <p>Here at Ohtsuka Patent Office, we welcome new talented members that have participated in research at university (in Japan and abroad) or in industry, and encourage the growth of our patent attorneys and patent engineers. We aim to further internationalize our members in response to the increasing diversification and internationalization of the intellectual property portfolios of many companies and institutions.</p>
-    </mat-card>
-    <mat-card>
-        <h2>Support and Management</h2>
-        <p>We place great importance on accurate tracking, cost management, and database management of the progress and deadlines of our work. In a world of patents and trademarks, where procedures span over several countries, and where each country has unique procedures, deadlines and documentation requirements, we understand the importance of having an administrative staff with the knowledge and experience necessary to achieve a smooth process. Our paralegals are highly skilled and experienced in handling both domestic as well as foreign IP prosecutions and litigations. They work hard to maintain and update our databases to provide a speedy yet accurate service of managing the progress of our clients' cases.</p>
-    </mat-card>
-</div>
+<mat-card>
+    <mat-card-title>{{getTitle()}}</mat-card-title>
+    <!-- TODO: Update to another image -->
+    <!-- <img mat-card-image src='../../../../assets/img/yasunoriohtsuka_large.jpg'> -->
+
+    <div class='content'>
+        <p *ngFor="let para of getParas()">
+            {{para}}
+        </p>
+    </div>
+</mat-card>
