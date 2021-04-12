@@ -10,11 +10,10 @@
                 <mat-card-title>{{getDesignTitle()}}</mat-card-title>
             </div>
         </div>
-        <div class='content'>
-            <p *ngFor="let para of getDesignParas()">
-                {{para}}
-            </p>
-        </div>
+        <p *ngFor="let para of getDesignParas()">
+            {{para}}
+        </p>
+        <!-- <app-designsblurb></app-designsblurb> -->
     </mat-card>
 
     <mat-card>
@@ -24,10 +23,9 @@
                 <mat-card-title>{{getTrademarkTitle()}}</mat-card-title>
             </div>
         </div>
-        <div class='content'>
-            <p *ngFor="let para of getTrademarkParas()">
-                {{para}}
-            </p>
-        </div>
+        <p *ngFor="let para of getTrademarkParas()">
+            {{para}}
+        </p>
+        <!-- <app-trademarksblurb></app-trademarksblurb> -->
     </mat-card>
 </div>

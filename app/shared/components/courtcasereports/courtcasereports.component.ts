@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { LanguagesettingService } from '../../../services/languagesetting.service';
-import { CAFCDEC, CAFCDECJP, CAFCDECTITLE, CAFCDECTITLEJP, COURTDECTITLE, COURTDECTITLEJP, JAPANDEC, JAPANDECJP, JAPANDECTITLE, JAPANDECTITLEJP } from '../../../../assets/data/staticservices';
+import { CAFCDEC, CAFCDECJP, CAFCDECTITLE, CAFCDECTITLEJP, JAPANDEC, JAPANDECJP, JAPANDECTITLE, JAPANDECTITLEJP } from '../../../../assets/data/staticservices';
 
 @Component({
   selector: 'app-courtcasereports',
@@ -17,16 +17,6 @@ export class CourtcasereportsComponent implements OnInit {
   toggleLang(){
     console.log();
     this.langService.toggle();
-  }
-
-  getTitle(){
-    switch(this.langService.lang){
-      case "JP":
-        return COURTDECTITLEJP;
-      case "EN":
-      default:
-        return COURTDECTITLE;
-    }
   }
 
   getCAFCDecTitle(){

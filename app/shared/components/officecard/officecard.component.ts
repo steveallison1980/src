@@ -29,7 +29,7 @@ export class OfficecardComponent implements OnInit {
     }
   }
 
-  getParas(){
+  getDescription(){
     switch(this.langService.lang){
       case "JP":
         return ACCESSJP;

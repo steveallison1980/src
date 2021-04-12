@@ -6,7 +6,7 @@ h1 {font-family: 'crimsontext';}
 .container {
     position: relative;
     text-align: center;
-    color: black;  /* changed colors to be viewable in browser */
+    color: white; 
 }
 
 @keyframes fadeIn {

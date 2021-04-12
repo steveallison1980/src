@@ -2,6 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import { PROFESSIONALS_DATA } from './../../../../assets/data/staticdata'
 import { LanguagesettingService } from '../../../services/languagesetting.service';
 import { NavigateService } from '../../../services/navigate.service';
+import { PROFESSIONAL, PROFESSIONALJP, PROFESSIONALTITLE, PROFESSIONALTITLEJP, COMPUTERS, COMPUTERSJP, COMPUTERSTITLE, COMPUTERSTITLEJP, MECHANICAL, MECHANICALJP, MECHANICALTITLE, MECHANICALTITLEJP, DESIGNS, DESIGNSJP, DESIGNTITLE, DESIGNTITLEJP, MEDICAL, MEDICALJP, MEDICALTITLE, MEDICALTITLEJP, CHEMICALS, CHEMICALSJP, CHEMICALTITLE, CHEMICALTITLEJP, AMUSEMENT, AMUSEMENTJP, AMUSEMENTSTITLEJP, AMUSEMENTSTITLE, LITIGATION, LITIGATIONJP, LITIGATIONTITLE, LITIGATIONTITLEJP} from '../../../../assets/data/staticprofessionals';
+
 
 @Component({
   selector: 'app-practiceareas',
@@ -14,6 +16,171 @@ export class PracticeareasComponent implements OnInit {
     public nav: NavigateService) { }
 
   ngOnInit(): void {
+  }
+
+  toggleLang(){
+    console.log();
+    this.langService.toggle();
+  }
+
+  getTitle(){
+    switch(this.langService.lang){
+      case "JP": 
+        return PROFESSIONALTITLEJP;
+      case "EN": 
+      default:
+        return PROFESSIONALTITLE;
+    }
+  }
+
+  getComputerTitle(){
+    switch(this.langService.lang){
+      case "JP": 
+        return COMPUTERSTITLEJP;
+      case "EN":
+      default:
+        return COMPUTERSTITLE;
+    }
+  }
+
+  getMechanicalTitle(){
+    switch(this.langService.lang){
+      case "JP":
+        return ;
+      case "EN":
+      default:
+        return ;
+    }
+  }
+
+  getDesignTitle(){
+    switch(this.langService.lang){
+      case "JP":
+        return DESIGNTITLEJP;
+      case "EN":
+      default:
+        return DESIGNTITLE;
+    }
+  }
+
+  getMedicalTitle(){
+    switch(this.langService.lang){
+      case "JP":
+        return MEDICALTITLEJP;
+      case "EN":
+      default:
+        return MEDICALTITLE;
+    }
+  }
+
+  getChemicalTitle(){
+    switch(this.langService.lang){
+      case "JP":
+        return CHEMICALTITLEJP;
+      case "EN":
+      default:
+        return CHEMICALTITLE;
+    }
+  }
+
+  getAmusementTitle(){
+    switch(this.langService.lang){
+      case "JP":
+        return AMUSEMENTSTITLEJP;
+      case "EN":
+      default:
+        return AMUSEMENTSTITLE;
+    }
+  }
+
+  getLitigationTitle(){
+    switch(this.langService.lang){
+      case "JP":
+        return LITIGATIONTITLEJP;
+      case "EN":
+      default:
+        return LITIGATIONTITLE;
+    }
+  }
+
+  getParas(){
+    switch(this.langService.lang){
+      case "JP":
+        return PROFESSIONALJP;
+      case "EN":
+      default:
+        return PROFESSIONAL;
+    }
+  }
+
+  getComputerParas(){
+    switch(this.langService.lang){
+      case "JP":
+        return COMPUTERSJP;
+      case "EN":
+      default:
+        return COMPUTERS;
+    }
+  }
+
+  getMechanicalParas(){
+    switch(this.langService.lang){
+      case "JP":
+        return MECHANICALJP;
+      case "EN":
+      default:
+        return MECHANICAL;
+    }
+  }
+
+  getDesignParas(){
+    switch(this.langService.lang){
+      case "JP":
+        return DESIGNSJP;
+      case "EN":
+      default:
+        return DESIGNS;
+    }
+  }
+
+  getMedicalParas(){
+    switch(this.langService.lang){
+      case "JP":
+        return MEDICALJP;
+      case "EN":
+      default:
+        return MEDICAL;
+    }
+  }
+
+  getChemicalParas(){
+    switch(this.langService.lang){
+      case "JP":
+        return CHEMICALSJP;
+      case "EN":
+      default:
+        return CHEMICALS;
+    }
+  }
+
+  getAmusementParas(){
+    switch(this.langService.lang){
+      case "JP":
+        return AMUSEMENTJP;
+      case "EN":
+      default:
+        return AMUSEMENT;
+    }
+  }
+
+   getLitigationParas(){
+    switch(this.langService.lang){
+      case "JP":
+        return LITIGATIONJP;
+      case "EN":
+      default:
+        return LITIGATION;
+    }
   }
 
   getGroupIcon(group) {

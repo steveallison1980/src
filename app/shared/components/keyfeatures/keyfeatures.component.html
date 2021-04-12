@@ -1,11 +1,33 @@
-<mat-card>
-    <mat-card-title>{{getTitle()}}</mat-card-title>
-    <!-- TODO: Update to another image -->
-    <!-- <img mat-card-image src='../../../../assets/img/yasunoriohtsuka_large.jpg'> -->
-
-    <div class='content'>
-        <p *ngFor="let para of getParas()">
+<h1>{{getTitle()}}</h1>
+<div fxLayout="column" fxLayoutAlign="space-between start" fxLayoutGap="20px">
+    <mat-card>
+        <h2>{{getRightTitle()}}</h2>
+        <p *ngFor="let para of getRightParas()">
             {{para}}
         </p>
-    </div>
-</mat-card>
+    </mat-card>
+    <mat-card>
+        <h2>{{getGlobalTitle()}}</h2>
+        <p *ngFor="let para of getGlobalParas()">
+            {{para}}
+        </p>
+    </mat-card>
+    <mat-card>
+        <h2>{{getLitigationTitle()}}</h2>
+        <p *ngFor="let para of getLitigationParas()">
+            {{para}}
+        </p>
+    </mat-card>
+    <mat-card>
+        <h2>{{getDevelopTitle()}}</h2>
+        <p *ngFor="let para of getDevelopParas()">
+            {{para}}
+        </p>
+    </mat-card>
+    <mat-card>
+        <h2>{{getSupportTitle()}}</h2>
+        <p *ngFor="let para of getSupportParas()">
+            {{para}}
+        </p>
+    </mat-card>
+</div>
