@@ -1,24 +1,49 @@
 <!--<h1>Litigation, Patent Strategies, and Patent Searches</h1>-->
+<h1>{{getTitle()}}</h1>
+
 <div fxLayout="column" fxLayoutAlign="space-between start" fxLayoutGap="20px">
     <mat-card>
         <div class="container">
             <img mat-card-image src='../../../../assets/img/litigation.jpg'>
-            <div class="titletext"><mat-card-title>Litigation</mat-card-title></div>
+            <div class="titletext">
+                <mat-card-title>{{getLitTitle()}}</mat-card-title>
+            </div>
         </div>
-        <app-litigationblurb></app-litigationblurb>
+        <div class='content'>
+            <p *ngFor="let para of getLitParas()">
+                {{para}}
+            </p>
+        </div>
+        <!-- <app-litigationblurb></app-litigationblurb> -->
     </mat-card>
+
     <mat-card>
         <div class="container">
             <img mat-card-image src='../../../../assets/img/strategy.jpg'>
-            <div class="titletext"><mat-card-title>Patent Strategies</mat-card-title></div>
-        </div>
-        <app-patentstrategiesblurb></app-patentstrategiesblurb>
-    </mat-card>
-    <mat-card>
-            <div class="container">
-                <img mat-card-image src='../../../../assets/img/search.jpg'>
-                <div class="titletext"><mat-card-title>Patent Searches</mat-card-title></div>
+            <div class="titletext">
+                <mat-card-title>{{getPatStratTitle()}}</mat-card-title>
             </div>
-        <app-patentsearchesblurb></app-patentsearchesblurb>
+        </div>
+        <div class='content'>
+            <p *ngFor="let para of getPatStratParas()">
+                {{para}}
+            </p>
+        </div>
+        <!-- <app-patentstrategiesblurb></app-patentstrategiesblurb> -->
+    </mat-card>
+
+    <mat-card>
+        <div class="container">
+            <img mat-card-image src='../../../../assets/img/search.jpg'>
+            <div class="titletext">
+                <mat-card-title>{{getPatSearchTitle()}}</mat-card-title>
+            </div>
+        </div>
+        <div class='content'>
+            <p *ngFor="let para of getPatSearchParas()">
+                {{para}}
+            </p>
+        </div>
+        <!-- <app-patentsearchesblurb></app-patentsearchesblurb> -->
     </mat-card>
 </div>

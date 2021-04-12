@@ -39,6 +39,7 @@ export class WelcomemessageComponent implements OnInit {
         return WELCOMEMESSAGE;
     }
   }
+  
   getSignature(){
     switch(this.langService.lang){
       case "JP":

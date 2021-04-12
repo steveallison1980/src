@@ -1,19 +1,33 @@
+<h1>{{getTitle()}}</h1>
+
 <div fxLayout="column" fxLayoutAlign="space-between start" fxLayoutGap="20px">
     <mat-card>
         <!--<img mat-card-image src='../../../../assets/img/design.jpg'>-->
         <div class="container">
             <img mat-card-image src='../../../../assets/img/design.jpg'>
             <!--<img mat-card-image src='../../../../assets/img/design.png'>-->
-            <div class="titletext"><mat-card-title>Designs</mat-card-title></div>
+            <div class="titletext">
+                <mat-card-title>{{getDesignTitle()}}</mat-card-title>
+            </div>
         </div>
-        <app-designsblurb></app-designsblurb>
+        <div class='content'>
+            <p *ngFor="let para of getDesignParas()">
+                {{para}}
+            </p>
+        </div>
     </mat-card>
-    
+
     <mat-card>
         <div class="container">
             <img mat-card-image src='../../../../assets/img/brand.jpg'>
-            <div class="titletext"><mat-card-title>Trademarks</mat-card-title></div>
+            <div class="titletext">
+                <mat-card-title>{{getTrademarkTitle()}}</mat-card-title>
+            </div>
         </div>
-        <app-trademarksblurb></app-trademarksblurb>
+        <div class='content'>
+            <p *ngFor="let para of getTrademarkParas()">
+                {{para}}
+            </p>
+        </div>
     </mat-card>
 </div>

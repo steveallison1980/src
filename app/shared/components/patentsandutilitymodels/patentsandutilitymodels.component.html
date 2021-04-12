@@ -2,7 +2,17 @@
     <div class="container">
         <img mat-card-image src='../../../../assets/img/patent.jpg'>
         <!--<img mat-card-image src='../../../../assets/img/lightbulb.png'>-->
-        <div class="titletext"><mat-card-title>Patents and Utility Models</mat-card-title></div>
+        <div class="titletext">
+            <!-- <mat-card-title>Patents and Utility Models</mat-card-title> -->
+            <mat-card-title>{{getTitle()}}</mat-card-title>
+        </div>
+
+        <div class='content'>
+            <p *ngFor="let para of getParas()">
+                {{para}}
+            </p>
+        </div>
+
     </div>
-    <app-patentsblurb></app-patentsblurb>
+    <!-- <app-patentsblurb></app-patentsblurb> -->
 </mat-card>
