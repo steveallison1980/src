@@ -8,6 +8,18 @@
   <link rel="icon" type="image/x-icon" href="favicon.ico">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <script type="text/javascript">
+  	if( isOldBrowser() ){
+    	window.location = "http://www.patest.co.jp/";
+    }
+    function isOldBrowser() 
+    {
+      var isIE = /*@cc_on!@*/false || !!document.documentMode;
+      return isIE;
+    }
+  </script>
+
 </head>
 <body class="mat-typography">
   <app-root></app-root>

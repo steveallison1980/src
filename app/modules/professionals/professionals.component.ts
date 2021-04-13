@@ -15,6 +15,7 @@ export class ProfessionalsComponent implements OnInit {
   }
 
   isPracticeAreas(){
+    console.log(this.nav.subPage)
     return ( this.nav.subPage == "practiceareas");
   }
   isPersonView(){
@@ -32,7 +33,7 @@ export class ProfessionalsComponent implements OnInit {
   }
   
   professionalsitems: any = [
-    {text:'Practice Areas',textJP:'専門分野別',icon:'',index:0,component:'practiceareas',type:'main-group'},
+    {text:'Practice Areas',textJP:'専門分野別',icon:'manage_search',index:0,component:'practiceareas',type:'main-group'},
     {text:'Information Processing',textJP:'情報処理系',icon:'computer',index:1,component:'infoproc_people',type:'sub-group'},
     {text:'Communications',textJP:'通信技術系',icon:'settings_input_antenna',index:2,component:'comm_people',type:'sub-group'},
     {text:'Electronics',textJP:'半導体・電気回路系',icon:'cable',index:3,component:'semicon_people',type:'sub-group'},

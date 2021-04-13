@@ -16,11 +16,20 @@
         </div>
         <!--MOBILE-->
         <div fxFlex='100' fxHide fxShow.lt-md>
-            <app-about name="about"></app-about>
-            <app-overview name="overview"></app-overview>
-            <app-keyfeatures name="keyfeatures"></app-keyfeatures>
-            <br>
-            <app-access name="access"></app-access>
+            <!-- the first one is whatever is set, then do the rest -->
+            <app-about name="about" *ngIf="isAbout()"></app-about>
+            <app-overview name="overview" *ngIf="isOverview()"></app-overview>
+            <app-keyfeatures name="keyfeatures" *ngIf="isKeyfeatures()"></app-keyfeatures>
+            <app-access name="access" *ngIf="isAccess()"></app-access>
+
+            <br *ngIf="!isAbout()">
+            <app-about name="about" *ngIf="!isAbout()"></app-about>
+            <br *ngIf="!isOverview()">
+            <app-overview name="overview" *ngIf="!isOverview()"></app-overview>
+            <br *ngIf="!isKeyfeatures()">
+            <app-keyfeatures name="keyfeatures" *ngIf="!isKeyfeatures()"></app-keyfeatures>
+            <br *ngIf="!isAccess()">
+            <app-access name="access" *ngIf="!isAccess()"></app-access>
         </div>
     </div>
 </div>

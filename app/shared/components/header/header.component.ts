@@ -21,7 +21,8 @@ export class HeaderComponent implements OnInit {
   }
 
   public openSitemap(){
-      this._bottomSheet.open(SitemapComponent);
+    window.scroll(0, 0);
+    this._bottomSheet.open(SitemapComponent);
   }
 
   public clickHome(){

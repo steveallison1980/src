@@ -1,7 +1,8 @@
 export interface INewsitem {
     date: string;
     details: string;
-    router: string;
+    curPage: string;
+    subPage: string;
     link: string;
   }
 export interface INewsdata {

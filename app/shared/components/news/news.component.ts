@@ -36,7 +36,8 @@ export class NewsComponent implements OnInit {
     }
   }
 
-  setNav(router){
-    this.nav.curPage = router;
+  setNav(curPage, subPage){
+    this.nav.curPage = curPage;
+    this.nav.subPage = subPage;
   }
 }

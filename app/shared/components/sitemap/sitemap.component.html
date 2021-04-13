@@ -1,8 +1,8 @@
 <mat-nav-list>
-    <a mat-list-item routerLink="/" mat-list-item (click)="openLink('home')">Home</a>
-    <mat-list-item *ngFor="let link of homelinks">
-        <a routerLink="{{link.route}}" (click)="openLink('home')" fxLayoutAlign='start center'>
-            <button mat-icon-button>
+    <a routerLink="/" mat-list-item (click)="openLink('home','welcomemessage')">Home</a>
+    <mat-list-item *ngFor="let link of homelinks" (click)="openLink('home',link.subPage)">
+        <a class='sitemaplink' routerLink="/" fxLayoutAlign='start start'>
+            <button class='sitemapbutton' mat-icon-button fxLayoutAlign='start start'>
                 <mat-icon>{{link.icon}}</mat-icon>
                 {{link.text}}
             </button>
@@ -10,10 +10,10 @@
     </mat-list-item>
 
     <mat-divider></mat-divider>
-    <a routerLink="/aboutus" mat-list-item color="primary" (click)="openLink('aboutus')" >About Us</a>
-    <mat-list-item *ngFor="let link of aboutuslinks">
-        <a routerLink="{{link.route}}" (click)="openLink('aboutus')" fxLayoutAlign='start center'>
-            <button mat-icon-button>
+    <a routerLink="/aboutus" mat-list-item color="primary" (click)="openLink('aboutus','about')" >About Us</a>
+    <mat-list-item *ngFor="let link of aboutuslinks" (click)="openLink('aboutus',link.subPage)">
+        <a class='sitemaplink' routerLink="/aboutus" fxLayoutAlign='start start'>
+            <button class='sitemapbutton' mat-icon-button fxLayoutAlign='start start'>
                 <mat-icon>{{link.icon}}</mat-icon>
                 {{link.text}}
             </button>
@@ -21,10 +21,10 @@
     </mat-list-item>
 
     <mat-divider></mat-divider>
-    <a routerLink="/ourservices" mat-list-item (click)="openLink('ourservices')">Our Services</a>
-    <mat-list-item *ngFor="let link of ourserviceslinks">
-        <a routerLink="{{link.route}}" (click)="openLink('ourservices')" fxLayoutAlign='start center'>
-            <button mat-icon-button>
+    <a routerLink="/ourservices" mat-list-item (click)="openLink('ourservices','patent')">Our Services</a>
+    <mat-list-item *ngFor="let link of ourserviceslinks" (click)="openLink('ourservices',link.subPage)">
+        <a class='sitemaplink' routerLink="/ourservices" fxLayoutAlign='start start'>
+            <button class='sitemapbutton' mat-icon-button fxLayoutAlign='start start'>
                 <mat-icon>{{link.icon}}</mat-icon>
                 {{link.text}}
             </button>
@@ -32,9 +32,16 @@
     </mat-list-item>
 
     <mat-divider></mat-divider>
-    <a routerLink="/professionals" mat-list-item (click)="openLink('professionals')">Professionals</a>
-    <a routerLink="/people" mat-list-item (click)="openLink('professionals')">People</a>
+    <a routerLink="/professionals" mat-list-item (click)="openLink('professionals', 'practiceareas')">Professionals</a>
+    <mat-list-item *ngFor="let link of professionalslinks">
+        <a class='sitemaplink' routerLink="/professionals" (click)="openLink('professionals',link.subPage)" fxLayoutAlign='start start'>
+            <button class='sitemapbutton' mat-icon-button fxLayoutAlign='start start'>
+                <mat-icon>{{link.icon}}</mat-icon>
+                {{link.text}}
+            </button>
+        </a>
+    </mat-list-item>
 
     <mat-divider></mat-divider>
-    <a routerLink="/careers" mat-list-item (click)="openLink('careers')">Careers</a>
+    <a routerLink="/careers" mat-list-item (click)="openLink('careers','careers')">Careers</a>
   </mat-nav-list>

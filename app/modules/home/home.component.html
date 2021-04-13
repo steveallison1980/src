@@ -17,11 +17,18 @@
 
         <!--MOBILE-->
         <div fxFlex='100' fxHide fxShow.lt-md>
-            <app-welcomemessage ></app-welcomemessage>
+            <!-- start with what is set -->
+            <app-welcomemessage *ngIf="isWelcomemessage()"></app-welcomemessage>
+            <app-news *ngIf="isNews()"></app-news>
+            <app-contact *ngIf="isContact()"></app-contact>
+            <app-access *ngIf="isAccess()"></app-access>
             <br>
-            <app-news></app-news>
-            <br>
-            <app-contact></app-contact>
+            <!-- then the rest -->
+            <app-welcomemessage *ngIf="!isWelcomemessage()"></app-welcomemessage>
+            <br *ngIf="!isWelcomemessage()">
+            <app-news *ngIf="!isNews()"></app-news>
+            <br *ngIf="!isNews()">
+            <app-contact *ngIf="!isContact()"></app-contact>
         </div>
     </div>
 </div>
