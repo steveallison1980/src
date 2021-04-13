@@ -14,11 +14,6 @@ export class CourtcasereportsComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  toggleLang(){
-    console.log();
-    this.langService.toggle();
-  }
-
   getCAFCDecTitle(){
     switch(this.langService.lang){
       case "JP":

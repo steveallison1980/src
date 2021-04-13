@@ -14,11 +14,6 @@ export class DesignsandtrademarksComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  toggleLang(){
-    console.log();
-    this.langService.toggle();
-  }
-
   getTitle(){
     switch(this.langService.lang){
       case "JP":
