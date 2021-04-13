@@ -1,15 +1,10 @@
-.container {
-    position: relative;
-    text-align: center;
-    color: white;
-}
-
 @keyframes fadeIn {
     0% {opacity:0;}
     100% {opacity:1;}
 }   
 
 .titletext {
+    color: white;
     position: absolute;
     top: 55px;
     left: 16px;

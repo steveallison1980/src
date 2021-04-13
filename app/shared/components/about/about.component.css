@@ -1,13 +1,4 @@
-.content{
-    width: 100%;
-}
 h1 {font-family: 'crimsontext';}
-
-.container {
-    position: relative;
-    text-align: center;
-    color: white; 
-}
 
 @keyframes fadeIn {
     0% {opacity:0;}
@@ -15,6 +6,7 @@ h1 {font-family: 'crimsontext';}
 }   
 
 .titletext {
+    color: white; 
     position: absolute;
     top: 55px;
     left: 16px;

@@ -14,11 +14,6 @@ h1{
 .mat-elevation-z8{
     box-shadow: none;
 }
-.container {
-    position: relative;
-    text-align: center;
-    color: white;
-}
 
 @keyframes fadeIn {
     0% {opacity:0;}
@@ -26,6 +21,7 @@ h1{
 }   
 
 .titletext {
+    color: white;
     position: absolute;
     top: 55px;
     left: 16px;
