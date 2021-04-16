@@ -1,166 +1,164 @@
-<div fxLayout="column" fxLayoutAlign="space-between start" fxLayoutGap="20px">
-    <mat-card>
-        <div class="container">
-            <img mat-card-image src='../../../../assets/img/expertise.jpg'>
-            <div class="titletext">
-                <mat-card-title>{{getTitle()}}</mat-card-title>
-            </div>
+<mat-card>
+    <div class="container">
+        <img mat-card-image src='../../../../assets/img/expertise.jpg'>
+        <div class="titletext">
+            <mat-card-title>{{getTitle()}}</mat-card-title>
         </div>
-        <p *ngFor="let para of getParas()">
-            {{para}}
-        </p>
-        <div>
-            <mat-nav-list>
-                <mat-list-item (click)="groupView('patentattorneys')">
-                    <button class='teambutton' fxLayoutAlign='start start' mat-icon-button>
-                        <mat-icon>{{getGroupIcon("patentattorneys")}}</mat-icon>
-                        {{getGroupText("patentattorneys")}}
-                    </button>
-                </mat-list-item>
-                <mat-list-item (click)="groupView('advisors')">
-                    <button class='teambutton' fxLayoutAlign='start start' mat-icon-button>
-                        <mat-icon>{{getGroupIcon("advisors")}}</mat-icon>
-                        {{getGroupText("advisors")}}
-                    </button>
-                </mat-list-item>
-                <mat-list-item (click)="groupView('patentengineers')">
-                    <button class='teambutton' fxLayoutAlign='start start' mat-icon-button>
-                        <mat-icon>{{getGroupIcon("patentengineers")}}</mat-icon>
-                        {{getGroupText("patentengineers")}}
-                    </button>
-                </mat-list-item>
-                <mat-list-item (click)="groupView('internationalsupport')">
-                    <button class='teambutton' fxLayoutAlign='start start' mat-icon-button>
-                        <mat-icon>{{getGroupIcon("internationalsupport")}}</mat-icon>
-                        {{getGroupText("internationalsupport")}}
-                    </button>
-                </mat-list-item>
-            </mat-nav-list>
-        </div>
-    </mat-card>
-    <br>
-    <h1>Practice Areas</h1>
-    <mat-card>
-        <mat-card-title>{{getComputerTitle()}}</mat-card-title>
-        <!-- <app-computersblurb></app-computersblurb> -->
-        <p *ngFor="let para of getComputerParas()">
-            {{para}}
-        </p>
+    </div>
+    <p *ngFor="let para of getParas()">
+        {{para}}
+    </p>
+    <div>
         <mat-nav-list>
-            <mat-list-item (click)="groupView('infoproc_people')">
+            <mat-list-item (click)="groupView('patentattorneys')">
                 <button class='teambutton' fxLayoutAlign='start start' mat-icon-button>
-                    <mat-icon>{{getGroupIcon("infoproc_people")}}</mat-icon>
-                    {{getGroupText("infoproc_people")}}
+                    <mat-icon>{{getGroupIcon("patentattorneys")}}</mat-icon>
+                    {{getGroupText("patentattorneys")}}
                 </button>
             </mat-list-item>
-            <mat-list-item (click)="groupView('comm_people')">
+            <mat-list-item (click)="groupView('advisors')">
                 <button class='teambutton' fxLayoutAlign='start start' mat-icon-button>
-                    <mat-icon>{{getGroupIcon("comm_people")}}</mat-icon>
-                    {{getGroupText("comm_people")}}
+                    <mat-icon>{{getGroupIcon("advisors")}}</mat-icon>
+                    {{getGroupText("advisors")}}
                 </button>
             </mat-list-item>
-            <mat-list-item (click)="groupView('semicon_people')">
+            <mat-list-item (click)="groupView('patentengineers')">
                 <button class='teambutton' fxLayoutAlign='start start' mat-icon-button>
-                    <mat-icon>{{getGroupIcon("semicon_people")}}</mat-icon>
-                    {{getGroupText("semicon_people")}}
+                    <mat-icon>{{getGroupIcon("patentengineers")}}</mat-icon>
+                    {{getGroupText("patentengineers")}}
+                </button>
+            </mat-list-item>
+            <mat-list-item (click)="groupView('internationalsupport')">
+                <button class='teambutton' fxLayoutAlign='start start' mat-icon-button>
+                    <mat-icon>{{getGroupIcon("internationalsupport")}}</mat-icon>
+                    {{getGroupText("internationalsupport")}}
                 </button>
             </mat-list-item>
         </mat-nav-list>
-    </mat-card>
-
-    <mat-card>
-        <mat-card-title>{{getMechanicalTitle()}}</mat-card-title>
-        <!-- <app-mechanicalblurb></app-mechanicalblurb> -->
-        <p *ngFor="let para of getMechanicalParas()">
-            {{para}}
-        </p>
-        <mat-nav-list>
-            <mat-list-item (click)="groupView('mech_people')">
-                <button class='teambutton' fxLayoutAlign='start start' mat-icon-button>
-                    <mat-icon>{{getGroupIcon("mech_people")}}</mat-icon>
-                    {{getGroupText("mech_people")}}
-                </button>
-            </mat-list-item>
-        </mat-nav-list>
-    </mat-card>
-
-    <mat-card>
-        <mat-card-title>{{getDesignTitle()}}</mat-card-title>
-        <!-- <app-designsteamblurb></app-designsteamblurb> -->
-        <p *ngFor="let para of getDesignParas()">
-            {{para}}
-        </p>
-        <mat-nav-list>
-            <mat-list-item (click)="groupView('design_people')">
-                <button class='teambutton' fxLayoutAlign='start start' mat-icon-button>
-                    <mat-icon>{{getGroupIcon("design_people")}}</mat-icon>
-                    {{getGroupText("design_people")}}
-                </button>
-            </mat-list-item>
-        </mat-nav-list>
-    </mat-card>
-
-    <mat-card>
-        <mat-card-title>{{getMedicalTitle()}}</mat-card-title>
-        <!-- <app-medicaldevicesblurb></app-medicaldevicesblurb> -->
-        <p *ngFor="let para of getMedicalParas()">
-            {{para}}
-        </p>
-        <mat-nav-list>
-            <mat-list-item (click)="groupView('meddev_people')">
-                <button class='teambutton' fxLayoutAlign='start start' mat-icon-button>
-                    <mat-icon>{{getGroupIcon("meddev_people")}}</mat-icon>
-                    {{getGroupText("meddev_people")}}
-                </button>
-            </mat-list-item>
-        </mat-nav-list>
-    </mat-card>
-
-    <mat-card>
-        <mat-card-title>{{getChemicalTitle()}}</mat-card-title>
-        <!-- <app-chemicalsblurb></app-chemicalsblurb> -->
-        <p *ngFor="let para of getChemicalParas()">
-            {{para}}
-        </p>
-        <mat-nav-list>
-            <mat-list-item (click)="groupView('science_people')">
-                <button class='teambutton'  fxLayoutAlign='start start' mat-icon-button>
-                    <mat-icon>{{getGroupIcon("science_people")}}</mat-icon>
-                    {{getGroupText("science_people")}}
-                </button>
-            </mat-list-item>
-        </mat-nav-list>
-    </mat-card>
-
-    <mat-card>
-        <mat-card-title>{{getAmusementTitle()}}</mat-card-title>
-        <!-- <app-gamesblurb></app-gamesblurb> -->
-        <p *ngFor="let para of getAmusementParas()">
-            {{para}}
-        </p>
-        <mat-nav-list>
-            <mat-list-item (click)="groupView('games_people')">
-                <button class='teambutton' fxLayoutAlign='start start' mat-icon-button>
-                    <mat-icon>{{getGroupIcon("games_people")}}</mat-icon>
-                    {{getGroupText("games_people")}}
-                </button>
-            </mat-list-item>
-        </mat-nav-list>
-    </mat-card>
-
-    <mat-card>
-        <mat-card-title>{{getLitigationTitle()}}</mat-card-title>
-        <!-- <app-litigationteamblurb></app-litigationteamblurb> -->
-        <p *ngFor="let para of getLitigationParas()">
-            {{para}}
-        </p>
-        <mat-nav-list>
-            <mat-list-item (click)="groupView('litigation_people')">
-                <button class='teambutton' fxLayoutAlign='start start' mat-icon-button>
-                    <mat-icon>{{getGroupIcon("litigation_people")}}</mat-icon>
-                    {{getGroupText("litigation_people")}}
-                </button>
-            </mat-list-item>
-        </mat-nav-list>
-    </mat-card>
-</div>
+    </div>
+</mat-card>
+<br>
+<h1>Practice Areas</h1>
+<mat-card>
+    <mat-card-title>{{getComputerTitle()}}</mat-card-title>
+    <!-- <app-computersblurb></app-computersblurb> -->
+    <p *ngFor="let para of getComputerParas()">
+        {{para}}
+    </p>
+    <mat-nav-list>
+        <mat-list-item (click)="groupView('infoproc_people')">
+            <button class='teambutton' fxLayoutAlign='start start' mat-icon-button>
+                <mat-icon>{{getGroupIcon("infoproc_people")}}</mat-icon>
+                {{getGroupText("infoproc_people")}}
+            </button>
+        </mat-list-item>
+        <mat-list-item (click)="groupView('comm_people')">
+            <button class='teambutton' fxLayoutAlign='start start' mat-icon-button>
+                <mat-icon>{{getGroupIcon("comm_people")}}</mat-icon>
+                {{getGroupText("comm_people")}}
+            </button>
+        </mat-list-item>
+        <mat-list-item (click)="groupView('semicon_people')">
+            <button class='teambutton' fxLayoutAlign='start start' mat-icon-button>
+                <mat-icon>{{getGroupIcon("semicon_people")}}</mat-icon>
+                {{getGroupText("semicon_people")}}
+            </button>
+        </mat-list-item>
+    </mat-nav-list>
+</mat-card>
+<br>
+<mat-card>
+    <mat-card-title>{{getMechanicalTitle()}}</mat-card-title>
+    <!-- <app-mechanicalblurb></app-mechanicalblurb> -->
+    <p *ngFor="let para of getMechanicalParas()">
+        {{para}}
+    </p>
+    <mat-nav-list>
+        <mat-list-item (click)="groupView('mech_people')">
+            <button class='teambutton' fxLayoutAlign='start start' mat-icon-button>
+                <mat-icon>{{getGroupIcon("mech_people")}}</mat-icon>
+                {{getGroupText("mech_people")}}
+            </button>
+        </mat-list-item>
+    </mat-nav-list>
+</mat-card>
+<br>
+<mat-card>
+    <mat-card-title>{{getDesignTitle()}}</mat-card-title>
+    <!-- <app-designsteamblurb></app-designsteamblurb> -->
+    <p *ngFor="let para of getDesignParas()">
+        {{para}}
+    </p>
+    <mat-nav-list>
+        <mat-list-item (click)="groupView('design_people')">
+            <button class='teambutton' fxLayoutAlign='start start' mat-icon-button>
+                <mat-icon>{{getGroupIcon("design_people")}}</mat-icon>
+                {{getGroupText("design_people")}}
+            </button>
+        </mat-list-item>
+    </mat-nav-list>
+</mat-card>
+<br>
+<mat-card>
+    <mat-card-title>{{getMedicalTitle()}}</mat-card-title>
+    <!-- <app-medicaldevicesblurb></app-medicaldevicesblurb> -->
+    <p *ngFor="let para of getMedicalParas()">
+        {{para}}
+    </p>
+    <mat-nav-list>
+        <mat-list-item (click)="groupView('meddev_people')">
+            <button class='teambutton' fxLayoutAlign='start start' mat-icon-button>
+                <mat-icon>{{getGroupIcon("meddev_people")}}</mat-icon>
+                {{getGroupText("meddev_people")}}
+            </button>
+        </mat-list-item>
+    </mat-nav-list>
+</mat-card>
+<br>
+<mat-card>
+    <mat-card-title>{{getChemicalTitle()}}</mat-card-title>
+    <!-- <app-chemicalsblurb></app-chemicalsblurb> -->
+    <p *ngFor="let para of getChemicalParas()">
+        {{para}}
+    </p>
+    <mat-nav-list>
+        <mat-list-item (click)="groupView('science_people')">
+            <button class='teambutton'  fxLayoutAlign='start start' mat-icon-button>
+                <mat-icon>{{getGroupIcon("science_people")}}</mat-icon>
+                {{getGroupText("science_people")}}
+            </button>
+        </mat-list-item>
+    </mat-nav-list>
+</mat-card>
+<br>
+<mat-card>
+    <mat-card-title>{{getAmusementTitle()}}</mat-card-title>
+    <!-- <app-gamesblurb></app-gamesblurb> -->
+    <p *ngFor="let para of getAmusementParas()">
+        {{para}}
+    </p>
+    <mat-nav-list>
+        <mat-list-item (click)="groupView('games_people')">
+            <button class='teambutton' fxLayoutAlign='start start' mat-icon-button>
+                <mat-icon>{{getGroupIcon("games_people")}}</mat-icon>
+                {{getGroupText("games_people")}}
+            </button>
+        </mat-list-item>
+    </mat-nav-list>
+</mat-card>
+<br>
+<mat-card>
+    <mat-card-title>{{getLitigationTitle()}}</mat-card-title>
+    <!-- <app-litigationteamblurb></app-litigationteamblurb> -->
+    <p *ngFor="let para of getLitigationParas()">
+        {{para}}
+    </p>
+    <mat-nav-list>
+        <mat-list-item (click)="groupView('litigation_people')">
+            <button class='teambutton' fxLayoutAlign='start start' mat-icon-button>
+                <mat-icon>{{getGroupIcon("litigation_people")}}</mat-icon>
+                {{getGroupText("litigation_people")}}
+            </button>
+        </mat-list-item>
+    </mat-nav-list>
+</mat-card>

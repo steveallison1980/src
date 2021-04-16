@@ -9,8 +9,9 @@ import {DOCUMENT} from '@angular/common';
 export class DefaultComponent implements OnInit {
 
   public bHeaderFixed: boolean = false;
+  public isIE = /msie\s|trident\//i.test(window.navigator.userAgent)
 
-  constructor(@Inject(DOCUMENT) private document: Document) { }
+  constructor(@Inject(DOCUMENT) private document: Document) {}
 
   @HostListener('window:scroll') onScroll(e: Event): void {
     if( this.document.documentElement.scrollTop > 120 ){

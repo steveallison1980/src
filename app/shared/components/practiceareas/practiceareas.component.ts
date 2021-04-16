@@ -46,10 +46,10 @@ export class PracticeareasComponent implements OnInit {
   getMechanicalTitle(){
     switch(this.langService.lang){
       case "JP":
-        return ;
+        return MECHANICALTITLEJP;
       case "EN":
       default:
-        return ;
+        return MECHANICALTITLE;
     }
   }
 

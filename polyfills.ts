@@ -18,16 +18,15 @@
  * BROWSER POLYFILLS
  */
 
+import 'core-js';
+
 /**
  * IE11 requires the following for NgClass support on SVG elements
  */
 import 'classlist.js';  // Run `npm install --save classlist.js`.
 
-/** Evergreen browsers require these. **/
-import 'core-js/es/reflect';
-//(window as any).global = window;
-
 /**
+
  * By default, zone.js will patch all possible macroTask and DomEvents
  * user can disable parts of macroTask/DomEvents patch by setting following flags
  * because those flags need to be set before `zone.js` being loaded, and webpack
