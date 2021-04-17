@@ -1279,7 +1279,7 @@ export const PEOPLE_DATA: IPerson[] = [
       img: 'stephenallison.jpg',
       imglarge: 'stephenallison_large.jpg',
       avatar: 'stephenallison_avatar.jpg',
-      bio: 'Well, nobody\'s perfect.',
+      bio: 'Bridge Patent Engineer with years of practical technical experience in embedded systems.',
       specialties:
         [{ text: 'Embedded systems, with specific experience in image processing and digital cameras;' },
         { text: 'web-based, database-driven systems;' },

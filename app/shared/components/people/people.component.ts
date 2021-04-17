@@ -45,4 +45,14 @@ export class PeopleComponent implements OnInit {
   getPeople() {
     return this.people.filter(x => x.groups.includes(this.currentGroup));
   }
+  getBio(person){
+    var bio: string = "";
+    if( person.specialties != null ){
+      bio = person.specialties[0].text;
+    } else if( person.education != null ){
+      bio = person.education[0].text;
+    }
+    bio = bio.substring(0,90) + " ...";
+    return bio;
+  }
 }
