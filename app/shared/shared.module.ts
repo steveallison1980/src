@@ -53,6 +53,7 @@ import { LitigationteamblurbComponent } from './components/litigationteamblurb/l
 import { PracticeareasComponent } from './components/practiceareas/practiceareas.component';
 import { PeopleComponent } from './components/people/people.component';
 import { PersonComponent } from './components/person/person.component';
+import { PublicationsComponent } from './components/publications/publications.component';
 
 @NgModule({
   declarations: [
@@ -93,7 +94,8 @@ import { PersonComponent } from './components/person/person.component';
     LitigationteamblurbComponent,
     PracticeareasComponent,
     PeopleComponent,
-    PersonComponent    
+    PersonComponent,
+    PublicationsComponent    
   ],
   imports: [
     CommonModule,
@@ -140,7 +142,8 @@ import { PersonComponent } from './components/person/person.component';
     CareerspageComponent,
     PracticeareasComponent,
     PeopleComponent,
-    PersonComponent
+    PersonComponent,
+    PublicationsComponent
   ]
 })
 

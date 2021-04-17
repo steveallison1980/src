@@ -10,12 +10,14 @@ import { NavigateService } from '../../../services/navigate.service';
 export class SidebarComponent implements OnInit {
   
   @Input()
-  items: any = [{text:'Welcome Message',textJP:'ご挨拶',icon:'local_florist',index:0,component:'welcommessage'},
+  items: any = [{text:'Welcome Message',textJP:'ご挨拶',icon:'local_florist',index:0,component:'welcomemessage'},
   {text:'What\'s New',textJP:'最新情報',icon:'announcement',index:1,component:'news'},
-  {text:'Contact Information',textJP:'連絡情報',icon:'call',index:2,component:'contact'},
-  {text:'Access',textJP:'アクセス',icon:'location_on',index:3,component:'access'}]
+  {text:'Contact Information',textJP:'連絡情報',icon:'call',index:2,component:'contact'}];
+
 
   @Output() itemClick = new EventEmitter<string>();
+
+  public curItem: string="welcomemessage";
 
   constructor(private langService: LanguagesettingService,
     public nav: NavigateService ) {}
@@ -23,10 +25,9 @@ export class SidebarComponent implements OnInit {
   ngOnInit(): void {
   }
   
-  curItem: number=0;
-  clickItem(index:number){
-    this.curItem = index;
-    this.nav.subPage = this.items[this.curItem].component;
+  clickItem(component:string){
+    console.log(component)
+    this.nav.subPage = component;
     this.nav.curPerson = null;
     this.nav.view = "group";
     window.scroll(0, 0);
@@ -38,6 +39,12 @@ export class SidebarComponent implements OnInit {
     } else {
       return item.textJP;
     }
+  }
+
+  isCurItem(c){
+    console.log(c);
+    console.log(this.curItem);
+    return ( c == this.curItem );
   }
  
 }

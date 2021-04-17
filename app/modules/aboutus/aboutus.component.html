@@ -11,7 +11,7 @@
             <app-about name="about" *ngIf="isAbout()"></app-about>
             <app-overview name="overview" *ngIf="isOverview()"></app-overview>
             <app-keyfeatures name="keyfeatures" *ngIf="isKeyfeatures()"></app-keyfeatures>
-            <app-access name="access" *ngIf="isAccess()"></app-access>
+            <app-contact name="contact" *ngIf="isContact()"></app-contact>
         </div>
         <div fxFlex='5' fxShow="true" fxHide.lt-md="true">
         </div>
@@ -21,7 +21,7 @@
             <app-about name="about" *ngIf="isAbout()"></app-about>
             <app-overview name="overview" *ngIf="isOverview()"></app-overview>
             <app-keyfeatures name="keyfeatures" *ngIf="isKeyfeatures()"></app-keyfeatures>
-            <app-access name="access" *ngIf="isAccess()"></app-access>
+            <app-contact name="contact" *ngIf="isContact()"></app-contact>
 
             <br *ngIf="!isAbout()">
             <app-about name="about" *ngIf="!isAbout()"></app-about>
@@ -29,8 +29,8 @@
             <app-overview name="overview" *ngIf="!isOverview()"></app-overview>
             <br *ngIf="!isKeyfeatures()">
             <app-keyfeatures name="keyfeatures" *ngIf="!isKeyfeatures()"></app-keyfeatures>
-            <br *ngIf="!isAccess()">
-            <app-access name="access" *ngIf="!isAccess()"></app-access>
+            <br *ngIf="!isContact()">
+            <app-contact name="contact" *ngIf="!isContact()"></app-contact>
         </div>
     </div>
     <br>

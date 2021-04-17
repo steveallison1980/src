@@ -19,6 +19,7 @@ import { LitigationandstrategyComponent } from './shared/components/litigationan
 import { CourtcasereportsComponent } from './shared/components/courtcasereports/courtcasereports.component';
 import { PeopleComponent } from './shared/components/people/people.component';
 import { PersonComponent } from './shared/components/person/person.component';
+import { PublicationsComponent } from './shared/components/publications/publications.component';
 
 const routes: Routes = [
   {
@@ -43,9 +44,9 @@ const routes: Routes = [
         component: ContactComponent
       },
       {
-        path: 'access',
-        outlet: 'access',
-        component: AccessComponent
+        path: 'publications',
+        outlet: 'publications',
+        component: PublicationsComponent
       }]
   }, {
     path: 'aboutus',
@@ -66,9 +67,9 @@ const routes: Routes = [
       component: KeyfeaturesComponent
     },
     {
-      path: 'aboutus',
-      outlet: 'access',
-      component: AccessComponent
+      path: 'contact',
+      outlet: 'contact',
+      component: ContactComponent
     }]
   }, {
     path: 'ourservices',

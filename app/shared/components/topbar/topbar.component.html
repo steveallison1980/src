@@ -1,17 +1,10 @@
 <!-- PC VIEW -->
 <div class="topbar" fxShow fxHide.lt-md fxLayout='row' fxLayoutAlign='end center' fxLayoutGap>
     <div class='topbarelement linkdiv' fxLayoutAlign='center center'>
-        <a  href='tel:0352763241'>
+        <a routerLink="/" (click)="clickContact()">
             <button class='highlightbutton' mat-button>
                 <mat-icon fxShow fxHide.lt-sm>local_phone</mat-icon>
-                +81-3-5276-3241
-            </button>
-        </a>
-    </div>
-    <div class='topbarelement linkdiv' fxShow fxHide.lt-sm fxLayoutAlign='center center'>
-        <a  href='https://goo.gl/maps/DMWemg1CqEqiGkDk6'>
-            <button color='warn' class='highlightbutton' mat-button>
-                <mat-icon>location_on</mat-icon>
+                {{getContactText()}}
             </button>
         </a>
     </div>

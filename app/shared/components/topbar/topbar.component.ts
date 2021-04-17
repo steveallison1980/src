@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { LanguagesettingService } from '../../../services/languagesetting.service';
+import { NavigateService } from '../../../services/navigate.service';
+import { CONTACTTITLE, CONTACTTITLEJP} from '../../../../assets/data/staticcontact';
 
 @Component({
   selector: 'app-topbar',
@@ -8,11 +10,16 @@ import { LanguagesettingService } from '../../../services/languagesetting.servic
 })
 export class TopbarComponent implements OnInit {
 
-  constructor(private langService: LanguagesettingService) { }
+  constructor(private langService: LanguagesettingService,
+    public nav: NavigateService) {}
 
   ngOnInit(): void {
   }
 
+  clickContact(){
+    this.nav.curPage = "home";
+    this.nav.subPage = "contact";
+  }
   toggleLang(){
     console.log(this.langService.lang)
     this.langService.toggle();
@@ -23,6 +30,15 @@ export class TopbarComponent implements OnInit {
       return "../../../../assets/img/en.png";
     } else {
       return "../../../../assets/img/jp.png";
+    }
+  }
+  getContactText(){
+    switch(this.langService.lang){
+      case "JP":
+        return CONTACTTITLEJP;
+      case "EN":
+      default:
+        return CONTACTTITLE;
     }
   }
 }

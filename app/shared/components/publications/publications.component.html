@@ -1,0 +1,76 @@
+<!-- TODO
+    
+    <div fxLayout="row wrap" fxLayoutGap="20px" fxLayout.lt-md="column">
+    <div *ngFor="let pub of getPublications()" class="pub-card"  fxFlex="30" fxLayoutAlign="space-around stretch">
+        <mat-card>
+            <mat-card-header>
+                
+                <mat-card-title (click)="clickDetails(pub)">{{pub.name}}</mat-card-title>
+                <mat-card-subtitle>
+                    {{pub.title}}
+                </mat-card-subtitle>
+            </mat-card-header>
+            <img class='mainimage' mat-card-image src="../../../../assets/img/profiles/{{pub.img}}" alt="{{pub.name}}, {{pub.title}}" (click)="clickDetails(person)">
+            <mat-card-content><p>{{person.bio}}</p></mat-card-content>
+            
+            <mat-card-actions fxLayoutAlign="end">
+                <div class="person-button-row">
+                    <button mat-stroked-button (click)="clickDetails(pub)">
+                        details
+                    </button>
+                </div>
+            </mat-card-actions>
+        </mat-card>
+    </div>
+</div>-->
+
+<div fxLayout="row wrap" fxLayoutGap="20px" fxLayout.lt-md="column">
+    
+    <div class="pub-card"  fxFlex="25" fxLayoutAlign="space-around stretch">
+        <mat-card>
+            <div class="container">
+                <img mat-card-image src='../../../../assets/img/books/cafc.jpg'>
+                <div class="titletext"><mat-card-title>CAFC判例集</mat-card-title></div>
+            </div>
+            <h2>CAFC判例集</h2>
+            <p>CAFC判例集</p>
+            <p>CAFC判例集.</p>
+        </mat-card>
+    </div>
+
+    <div class="pub-card"  fxFlex="25" fxLayoutAlign="space-around stretch">
+        <mat-card>
+            <div class="container">
+                <img mat-card-image src='../../../../assets/img/books/patentsfordummies.jpg'>
+                <div class="titletext"><mat-card-title>特許がわかる本</mat-card-title></div>
+            </div>
+            <h2>特許がわかる本</h2>
+            <p>特許がわかる本</p>
+            <p>特許がわかる本</p>
+        </mat-card>
+    </div>
+
+    <div class="pub-card"  fxFlex="25" fxLayoutAlign="space-around stretch">
+        <mat-card>
+            <div class="container">
+                <img mat-card-image src='../../../../assets/img/books/practical.jpg'>
+                <div class="titletext"><mat-card-title>特許の実路知識</mat-card-title></div>
+            </div>
+            <h2>特許の実路知識</h2>
+            <p>特許の実路知識</p>
+            <p>特許の実路知識</p>
+        </mat-card>
+    </div>
+    
+    <div class="pub-card"  fxFlex="25" fxLayoutAlign="space-around stretch">
+        <mat-card>
+            <div class="container">
+                <img mat-card-image src='../../../../assets/img/books/uscases.jpg'>
+                <div class="titletext"><mat-card-title>米国特許判例解説</mat-card-title></div>
+            </div>
+            <h2>米国特許判例解説</h2>
+            <p>米国特許判例解説</p>
+            <p>米国特許判例解説</p>
+        </mat-card>
+    </div>
+</div>
