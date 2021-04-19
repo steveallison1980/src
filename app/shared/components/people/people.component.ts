@@ -2,6 +2,7 @@ import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 import { IPerson } from './../../../interfaces/iperson';
 import { PROFESSIONALS_DATA, PEOPLE_DATA } from './../../../../assets/data/staticpeople';
 import { NavigateService } from '../../../services/navigate.service';
+import { LanguagesettingService } from '../../../services/languagesetting.service';
 
 @Component({
   selector: 'app-people',
@@ -12,7 +13,8 @@ export class PeopleComponent implements OnInit {
 
   @Input() currentGroup: string;
 
-  constructor(public nav: NavigateService) { }
+  constructor(public nav: NavigateService,
+    private langService: LanguagesettingService) { }
 
   ngOnInit(): void {
   }
@@ -41,18 +43,48 @@ export class PeopleComponent implements OnInit {
       }
     }
   }
-
   getPeople() {
     return this.people.filter(x => x.groups.includes(this.currentGroup));
   }
+  getName(person){
+    switch (this.langService.lang) {
+      case "JP":
+        return person.nameJP;
+      case "EN":
+      default:
+        return person.name;
+    }
+  }
+  getTitle(person){
+    switch (this.langService.lang) {
+      case "JP":
+        return person.titleJP;
+      case "EN":
+      default:
+        return person.title;
+    }
+  }
   getBio(person){
     var bio: string = "";
-    if( person.specialties != null ){
-      bio = person.specialties[0].text;
-    } else if( person.education != null ){
-      bio = person.education[0].text;
+    switch (this.langService.lang) {
+      case "JP":
+        if( person.specialties != null ){
+          bio = person.specialtiesJP[0].text;
+        } else if( person.educationJP != null ){
+          bio = person.educationJP[0].text;
+        }
+        bio = bio.substring(0,36) + " ...";
+        break;
+      case "EN":
+      default:
+        if( person.specialtiesJP != null ){
+          bio = person.specialties[0].text;
+        } else if( person.education != null ){
+          bio = person.education[0].text;
+        }
+        bio = bio.substring(0,90) + " ...";
+        break;
     }
-    bio = bio.substring(0,90) + " ...";
     return bio;
   }
 }

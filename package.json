@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "@material/theme": "^10.0.0"
+    "@material/theme": "^10.0.0",
+    "classlist.js": "^1.1.20150312"
   }
 }

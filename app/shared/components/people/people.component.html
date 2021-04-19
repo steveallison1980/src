@@ -9,9 +9,9 @@
         <mat-card>
             <mat-card-header>
                 
-                <mat-card-title (click)="clickDetails(person)">{{person.name}}</mat-card-title>
+                <mat-card-title (click)="clickDetails(person)">{{getName(person)}}</mat-card-title>
                 <mat-card-subtitle>
-                    {{person.title}}
+                    {{getTitle(person)}}
                 </mat-card-subtitle>
             </mat-card-header>
             <img class='mainimage' mat-card-image src="../../../../assets/img/profiles/{{person.img}}" alt="{{person.name}}, {{person.title}}" (click)="clickDetails(person)">

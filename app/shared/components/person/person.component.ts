@@ -12,16 +12,34 @@ export class PersonComponent implements OnInit {
   constructor(
     public nav: NavigateService,
     private langService: LanguagesettingService) {
-   }
+  }
 
   ngOnInit(): void {
   }
 
-  getPerson(){
+  getPerson() {
     return this.nav.curPerson;
   }
-  getSpecialties(){
-    switch(this.langService.lang){
+  getName(){
+    switch (this.langService.lang) {
+      case "JP":
+        return this.nav.curPerson.nameJP;
+      case "EN":
+      default:
+        return this.nav.curPerson.name;
+    }
+  }
+  getTitle(){
+    switch (this.langService.lang) {
+      case "JP":
+        return this.nav.curPerson.titleJP;
+      case "EN":
+      default:
+        return this.nav.curPerson.title;
+    }
+  }
+  getSpecialties() {
+    switch (this.langService.lang) {
       case "JP":
         return this.nav.curPerson.specialtiesJP;
       case "EN":
@@ -29,8 +47,8 @@ export class PersonComponent implements OnInit {
         return this.nav.curPerson.specialties;
     }
   }
-  getSpecialitiesHeading(){
-    switch(this.langService.lang){
+  getSpecialitiesHeading() {
+    switch (this.langService.lang) {
       case "JP":
         return "得意分野";
       case "EN":
@@ -38,15 +56,80 @@ export class PersonComponent implements OnInit {
         return "Specialties";
     }
   }
-  getBio(){
-    var bio: string = "";
-    if( this.nav.curPerson.specialties != null ){
-      bio = this.nav.curPerson.specialties[0].text;
-    } else if( this.nav.curPerson.education != null ){
-      bio = this.nav.curPerson.education[0].text;
+
+  getEducation() {
+    switch (this.langService.lang) {
+      case "JP":
+        return this.nav.curPerson.educationJP;
+      case "EN":
+      default:
+        return this.nav.curPerson.education;
     }
-    bio = bio.substring(0,90) + " ...";
-    return bio;
+  }
+  getEducationHeading() {
+    switch (this.langService.lang) {
+      case "JP":
+        return "学歴";
+      case "EN":
+      default:
+        return "Education";
+    }
   }
 
+  getCareers() {
+    switch (this.langService.lang) {
+      case "JP":
+        return this.nav.curPerson.careerJP;
+      case "EN":
+      default:
+        return this.nav.curPerson.career;
+    }
+  }
+  getCareersHeading() {
+    switch (this.langService.lang) {
+      case "JP":
+        return " 論文"; // TODO: May need to make changes later
+      case "EN":
+      default:
+        return "Career";
+    }
+  }
+
+  getMemberships() {
+    switch (this.langService.lang) {
+      case "JP":
+        return this.nav.curPerson.membershipsJP;
+      case "EN":
+      default:
+        return this.nav.curPerson.memberships;
+    }
+  }
+  getMembershipsHeading() {
+    switch (this.langService.lang) {
+      case "JP":
+        return " メンバーシップ及び役職／学術活動";
+      case "EN":
+      default:
+        return "Membership(s)";
+    }
+  }
+
+  getPublications() {
+    switch (this.langService.lang) {
+      case "JP":
+        return this.nav.curPerson.publicationsJP;
+      case "EN":
+      default:
+        return this.nav.curPerson.publications;
+    }
+  }
+  getPublicationsHeading() {
+    switch (this.langService.lang) {
+      case "JP":
+        return " 著作";
+      case "EN":
+      default:
+        return "Publications";
+    }
+  }
 }
