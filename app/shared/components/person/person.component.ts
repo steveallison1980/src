@@ -20,6 +20,24 @@ export class PersonComponent implements OnInit {
   getPerson() {
     return this.nav.curPerson;
   }
+  getName(){
+    switch (this.langService.lang) {
+      case "JP":
+        return this.nav.curPerson.nameJP;
+      case "EN":
+      default:
+        return this.nav.curPerson.name;
+    }
+  }
+  getTitle(){
+    switch (this.langService.lang) {
+      case "JP":
+        return this.nav.curPerson.titleJP;
+      case "EN":
+      default:
+        return this.nav.curPerson.title;
+    }
+  }
   getSpecialties() {
     switch (this.langService.lang) {
       case "JP":
