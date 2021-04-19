@@ -10,14 +10,10 @@
                 <img width=100% fxHide fxShow.lt-md src="../../../../assets/img/profiles/{{getPerson().img}}" alt="{{getPerson().name}}, {{getPerson().title}}">
             </div>
             <br>
-            <div>
-                <h2>Bio</h2>
-                <p>{{getBio()}}</p>
-            </div>
             <mat-divider></mat-divider>
-            <div *ngIf="getPerson().specialties!=null">
-                <h2>Specialties</h2>
-                <p *ngFor="let item of getPerson().specialties">
+            <div *ngIf="getSpecialties()!=null">
+                <h2>{{getSpecialitiesHeading()}}</h2>
+                <p *ngFor="let item of getSpecialties()">
                     {{item.text}}
                 </p>
             </div> 

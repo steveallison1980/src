@@ -1,6 +1,6 @@
 import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 import { IPerson } from './../../../interfaces/iperson';
-import { PROFESSIONALS_DATA, PEOPLE_DATA } from './../../../../assets/data/staticdata';
+import { PROFESSIONALS_DATA, PEOPLE_DATA } from './../../../../assets/data/staticpeople';
 import { NavigateService } from '../../../services/navigate.service';
 
 @Component({

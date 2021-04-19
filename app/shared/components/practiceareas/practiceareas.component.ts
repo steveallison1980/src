@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { PROFESSIONALS_DATA } from './../../../../assets/data/staticdata'
+import { PROFESSIONALS_DATA } from './../../../../assets/data/staticpeople'
 import { LanguagesettingService } from '../../../services/languagesetting.service';
 import { NavigateService } from '../../../services/navigate.service';
 import { PROFESSIONAL, PROFESSIONALJP, PROFESSIONALTITLE, PROFESSIONALTITLEJP, COMPUTERS, COMPUTERSJP, COMPUTERSTITLE, COMPUTERSTITLEJP, MECHANICAL, MECHANICALJP, MECHANICALTITLE, MECHANICALTITLEJP, DESIGNS, DESIGNSJP, DESIGNTITLE, DESIGNTITLEJP, MEDICAL, MEDICALJP, MEDICALTITLE, MEDICALTITLEJP, CHEMICALS, CHEMICALSJP, CHEMICALTITLE, CHEMICALTITLEJP, AMUSEMENT, AMUSEMENTJP, AMUSEMENTSTITLEJP, AMUSEMENTSTITLE, LITIGATION, LITIGATIONJP, LITIGATIONTITLE, LITIGATIONTITLEJP} from '../../../../assets/data/staticprofessionals';
