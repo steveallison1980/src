@@ -16,7 +16,7 @@
     margin-bottom: 20px;
 }
 .mat-card-image:hover{
-    transform: scale(0.95);
+    transform: scale(0.99);
     cursor: pointer;
 }
 /*.mainimage{
