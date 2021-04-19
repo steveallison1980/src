@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 import { DefaultModule } from './layouts/default/default.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 // import { AngularFireModule } from '@angular/fire';
-// import { AngularFirestoreModule } from '@angular/fire/firestore'; AAA
+// import { AngularFirestoreModule } from '@angular/fire/firestore'; AAAA
 import { environment } from '../environments/environment';
 
 @NgModule({
