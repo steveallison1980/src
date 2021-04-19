@@ -1,7 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { NavigateService } from '../../../services/navigate.service';
 import { LanguagesettingService } from '../../../services/languagesetting.service';
-import { METHODS } from 'http'; 
 
 @Component({
   selector: 'app-person',
