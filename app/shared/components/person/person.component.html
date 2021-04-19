@@ -17,31 +17,31 @@
                     {{item.text}}
                 </p>
             </div> 
-            <mat-divider *ngIf="getPerson().specialties!=null"></mat-divider>
-            <div *ngIf="getPerson().education!=null">
-                <h2>Education</h2>
-                <p *ngFor="let item of getPerson().education">
+            <mat-divider *ngIf="getEducation()!=null"></mat-divider>
+            <div *ngIf="getEducation()!=null">
+                <h2>{{getEducationHeading()}}</h2>
+                <p *ngFor="let item of getEducation()">
                     {{item.text}}
                 </p>
             </div> 
-            <mat-divider *ngIf="getPerson().education!=null"></mat-divider>
-            <div *ngIf="getPerson().career!=null">
-                <h2>Career</h2>
-                <p *ngFor="let item of getPerson().career">
+            <mat-divider *ngIf="getCareers()!=null"></mat-divider>
+            <div *ngIf="getCareers()!=null">
+                <h2>{{getCareersHeading()}}</h2>
+                <p *ngFor="let item of getCareers()">
                     {{item.text}}
                 </p>
             </div> 
-            <mat-divider *ngIf="getPerson().career!=null"></mat-divider>
-            <div *ngIf="getPerson().memberships!=null">
-                <h2>Memberships</h2>
-                <p *ngFor="let item of getPerson().memberships">
+            <mat-divider *ngIf="getMemberships()!=null"></mat-divider>
+            <div *ngIf="getMemberships()!=null">
+                <h2>{{getMembershipsHeading()}}</h2>
+                <p *ngFor="let item of getMemberships()">
                     {{item.text}}
                 </p>
             </div> 
-            <mat-divider *ngIf="getPerson().memberships!=null"></mat-divider>
-            <div *ngIf="getPerson().publications!=null">
-                <h2>Publications</h2>
-                <p *ngFor="let item of getPerson().publications">
+            <mat-divider *ngIf="getPublications()!=null"></mat-divider>
+            <div *ngIf="getPublications()!=null">
+                <h2>{{getPublicationsHeading()}}</h2>
+                <p *ngFor="let item of getPublications()">
                     {{item.text}}
                 </p>
             </div> 
