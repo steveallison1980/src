@@ -5,8 +5,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { DefaultModule } from './layouts/default/default.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { AngularFireModule } from '@angular/fire';
-import { AngularFirestoreModule } from '@angular/fire/firestore';
+// import { AngularFireModule } from '@angular/fire';
+// import { AngularFirestoreModule } from '@angular/fire/firestore'; AAA
 import { environment } from '../environments/environment';
 
 @NgModule({
@@ -18,8 +18,8 @@ import { environment } from '../environments/environment';
     AppRoutingModule,
     DefaultModule,
     BrowserAnimationsModule,
-    AngularFireModule.initializeApp(environment.firebase),
-    AngularFirestoreModule
+    // AngularFireModule.initializeApp(environment.firebase),
+    // AngularFirestoreModule AAAA
   ],
   providers: [ AppComponent ],
   bootstrap: [ AppComponent ]

@@ -1,0 +1,11 @@
+export const CAREERTITLE = "Careers"
+export const CAREERTITLEJP = "(JP) Careers"
+
+// export const CAREERTITLE = "Careers"
+// export const CAREERTITLEJP = "(JP) Careers"
+// export const CAREERTITLE = "Careers"
+// export const CAREERTITLEJP = "(JP) Careers"
+// export const CAREERTITLE = "Careers"
+// export const CAREERTITLEJP = "(JP) Careers"
+// export const CAREERTITLE = "Careers"
+// export const CAREERTITLEJP = "(JP) Careers"
