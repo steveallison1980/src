@@ -96,7 +96,7 @@ export const SUPPORTJP: Array<string> = [
 
 // access page
 export const ACCESSTITLE = "Tokyo Office"
-export const ACCESSTITLEJP = "東京オフィス"
+export const ACCESSTITLEJP = "Tokyo Office"
 
 export const ACCESS = "You can find us in Kojimachi, in central Tokyo."
-export const ACCESSJP = "東京都心の麴町にあります。"
+export const ACCESSJP = "You can find us in Kojimachi, in central Tokyo."
