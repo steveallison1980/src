@@ -12,8 +12,6 @@ import { LanguagesettingService } from '../../../services/languagesetting.servic
 })
 export class SitemapComponent implements OnInit {
 
-  @Output() itemClick = new EventEmitter<string>();
-
   constructor(
     private bottomsheet: MatBottomSheetRef<SitemapComponent>,
     public nav: NavigateService,

@@ -17,8 +17,6 @@ export class SidebarComponent implements OnInit {
   {text:'Contact Information',textJP:'連絡情報',icon:'call',index:2,component:'contact'}];
 
 
-  @Output() itemClick = new EventEmitter<string>();
-
   public curItem: string="welcomemessage";
 
   constructor(private langService: LanguagesettingService,

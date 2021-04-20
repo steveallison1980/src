@@ -12,7 +12,7 @@ export const SITEMAP_DATA: ISitemap =
         {text:'Welcome Message',textJP:'ご挨拶',icon:'local_florist',subPage:'welcomemessage', curPage: 'home'},
         {text:'What\'s New',textJP:'最新情報',icon:'announcement',subPage:'news', curPage: 'home'},
         {text:'Contact Information/Map',textJP:'お問い合わせ・アクセス',icon:'call',subPage:'contact', curPage: 'home'},
-        {text:'Publications',textJP:'書籍',icon:'location_on',subPage:'publications', curPage: 'home'}],
+        {text:'Publications',textJP:'書籍',icon:'local_library',subPage:'publications', curPage: 'home'}],
     },
     {
         mainpage: 'aboutus',

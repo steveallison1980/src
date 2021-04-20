@@ -60,4 +60,14 @@ export class PublicationsComponent implements OnInit {
     //todo
     return this.publications;
   }
+
+  getDetails(){
+    switch (this.langService.lang) {
+      case "JP":
+        return "詳細表示";
+      case "EN":
+      default:
+        return "details";
+    }
+  }
 }

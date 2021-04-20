@@ -15,21 +15,17 @@ export const ABOUTUS: Array<string> = [
 
 // TODO: add Japanese description to about us page
 export const ABOUTUSJP: Array<string> = [
-    "メインテナンス中"
+    "大塚国際特許事務所は、特許、商標などの知的財産権の取得から、知財に関するコンサルティング、知財関連訴訟までをワンストップでサービスできる知財総合サービス事務所です。事務所メンバーを、電子、通信、製鉄、化学分野の日本を代表する企業での豊富な経験、特許庁での審査官経験、Ph.Dなどを有する弁理士で構成して、高い技術力と業界での貴重な経験を実務に加味し、信頼性のある仕事を迅速かつ効率的に提供することを心掛け、質の向上を所員全員で実路しています。",
+    "当事務所は、電子、通信、半導体、医療機器などのハイテクの分野を得意とします。",
+    "企業イメージとブランドイメージを高めるためには、商品の顔であるデザイン・ブランドの適切な採用と管理が重要です。これらのサービスを通して皆様のイメージづくりと発展を、お手伝いしています。",
+    "今後とも、皆様のお役に立つことができれば幸いです。",
+    "★★★ NEEDS TO BE UPDATED ★★★"
 ];
 
 // overview page
 export const OVERVIEWTITLE = "An Overview"
 
 export const OVERVIEWTITLEJP = "事務所概要"
-
-export const OVERVIEW: Array<string> = [
-    "メインテナンス中"
-];
-
-export const OVERVIEWJP: Array<string> = [
-    "メインテナンス中"
-];
 
 // key features page
 export const KEYFEATURESTITLE = "What are our values?"

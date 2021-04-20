@@ -68,7 +68,7 @@ export class PeopleComponent implements OnInit {
     var bio: string = "";
     switch (this.langService.lang) {
       case "JP":
-        if( person.specialties != null ){
+        if( person.specialtiesJP != null ){
           bio = person.specialtiesJP[0].text;
         } else if( person.educationJP != null ){
           bio = person.educationJP[0].text;
@@ -77,7 +77,7 @@ export class PeopleComponent implements OnInit {
         break;
       case "EN":
       default:
-        if( person.specialtiesJP != null ){
+        if( person.specialties != null ){
           bio = person.specialties[0].text;
         } else if( person.education != null ){
           bio = person.education[0].text;
@@ -86,5 +86,14 @@ export class PeopleComponent implements OnInit {
         break;
     }
     return bio;
+  }
+  getDetails(){
+    switch (this.langService.lang) {
+      case "JP":
+        return "詳細表示";
+      case "EN":
+      default:
+        return "details";
+    }
   }
 }

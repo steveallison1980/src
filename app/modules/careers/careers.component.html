@@ -5,7 +5,7 @@
         <div fxFlex='5' fxShow="true" fxHide.lt-md="true">
         </div>
         <div fxFlex='20' fxShow="true" fxHide.lt-md="true">
-            <app-sidebar class='sidebardiv' [items]='careersitems' (itemClick)='setComponent($event)'></app-sidebar>
+            <app-sidebar class='sidebardiv'></app-sidebar>
         </div>
         <div fxFlex='70' fxShow="true" fxHide.lt-md>
             <app-careerspage *ngIf="curComponent=='careers'"></app-careerspage>
