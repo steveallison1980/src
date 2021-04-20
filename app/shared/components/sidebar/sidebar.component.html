@@ -1,9 +1,9 @@
 <!--<mat-card class="sidebar-card">-->
     
     <mat-nav-list >
-        <mat-list-item *ngFor="let item of items" (click)="clickItem(item.component)">
+        <mat-list-item *ngFor="let item of getPage().links" (click)="clickItem(item.subPage)">
             <a fxLayoutAlign='start center' matLine href="javascript:void(0)">
-                <button mat-icon-button [ngClass]="{'listitemactive': item.component == this.nav.subPage }">
+                <button mat-icon-button [ngClass]="{'listitemactive': item.subPage == this.nav.subPage }">
                     <mat-icon>{{item.icon}}</mat-icon>
                     {{getText(item)}}
                 </button>

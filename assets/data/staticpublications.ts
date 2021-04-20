@@ -2,9 +2,35 @@ import { IPublication } from './../../app/interfaces/ipublication';
 
 export const PUBLICATIONS_DATA: IPublication[] = [
 {
+    img: "tokkyogawakaruQandA.jpg",
+
+    title: "All About Patents Q&A",
+    publishdate: "Jul. 20, 2011",
+    authors: [{
+        name: "Yasunori Ohtsuka",
+        title: "Patent Attorney",
+        affiliation: "Ohtsuka International Patent Office"}],
+    publisher: {name: "Ohmsha",
+    address: "Chiyoda-ku, Tokyo"},
+    synopsis: [
+        "An easy to understand, comprehensive overview of the Japanese patent system."],
+
+    // Japanese version
+    titleJP: "特許がわかる本　Q&A",
+    publishdateJP: "2011年7月20日",
+    authorsJP: [
+        {name: "大塚康徳",
+        title: "弁理士",
+        affiliation: "大塚国際特許事務所"}],
+    publisherJP: {name: "オ－ム社",
+    address: "東京都目黒区"},
+    synopsisJP: [
+        "Ｑ＆Ａで、知りたいポイントがスッキリわかる！企業における研究開発部門や知財部門の技術者・管理者を主な読者対象に、知財関係者以外にはわかりにくい特許の問題について、ビジネスではどのように対処すべきかという観点で、Ｑ＆Ａ方式でやさしく解説したものです。"]
+},
+{
     img: "cafchanreishu.jpg",
 
-    title: "CAFC Decision Reports",
+    title: "CAFC Case Studies",
     publishdate: "Apr. 14, 2016",
     authors: [
         {name: "Christopher E. Chalson",
@@ -39,7 +65,7 @@ export const PUBLICATIONS_DATA: IPublication[] = [
 {
     img: "beikokutokkyohanreikaisetsu.jpg",
 
-    title: "US Patent Case Analyses, 2005",
+    title: "US Patent Case Studies, 2005",
     publishdate: "Jan. 31, 2005",
     authors: [
         {name: "Christopher E. Chalson",
@@ -72,16 +98,16 @@ export const PUBLICATIONS_DATA: IPublication[] = [
 {
     img: "tokkyogawakaruhon.jpg",
 
-    title: "Study of CAFC Decisions (I)",
+    title: "All About Patents",
     publishdate: "Aug. 1, 2002",
     authors: [{
         name: "Yasunori Ohtsuka",
         title: "Patent Attorney",
         affiliation: "Ohtsuka International Patent Office"}],
-    publisher: {name: "ILS Publishing",
-    address: "Meguro-ku, Tokyo"},
+    publisher: {name: "Ohmsha",
+    address: "Chiyoda-ku, Tokyo"},
     synopsis: [
-        "Practical guidelines to patent prosecution in Japan."],
+        "An easy to understand, comprehensive overview of the Japanese patent system."],
 
     // Japanese version
     titleJP: "特許がわかる本",
@@ -90,8 +116,8 @@ export const PUBLICATIONS_DATA: IPublication[] = [
         {name: "大塚康徳",
         title: "弁理士",
         affiliation: "大塚国際特許事務所"}],
-    publisherJP: {name: "ILS出版",
-    address: "東京都目黒区"},
+    publisherJP: {name: "オ－ム社",
+    address: "特許都千代田ク"},
     synopsisJP: [
         "特許を理解するには、特許法をもとに理解するやり方と、ビジネス、技術開発、特許それぞれの接点を参考にしながら実務的な特許の基礎を学ぶ方法とがある。本書は、後者のアプローチをとって、仕事に直接役立つ特許の実務的な知識獲得を可能とするような構成にした。また、全体を通して、アクティブな財産となりうる特許を取得するための戦略や取得した特許権の活用および、特許以外の知的財産についても体系的な理解が得られるような章立てを行った。"]
 },
@@ -107,7 +133,7 @@ export const PUBLICATIONS_DATA: IPublication[] = [
         {name: "Kenichi Matsumoto",
         title: "Patent Attorney",
         affiliation: "Ohtsuka International Patent Office"}],
-    publisher: {name: "Ohsha",
+    publisher: {name: "Ohmsha",
     address: "Chiyoda-ku, Tokyo"},
     synopsis: [
         "The patent system explained to give engineers and researchers the tools to maximally protect their inventions."],
@@ -122,7 +148,7 @@ export const PUBLICATIONS_DATA: IPublication[] = [
         {name: "松本 研一",
         title: "弁理士",
         affiliation: "大塚国際特許事務所"}],
-    publisherJP: {name: "Ohmsha",
+    publisherJP: {name: "オ－ム社",
     address: "東京都千代田区"},
     synopsisJP: [
         "本書は、エンジニア、研究者の立場と、経営的にながめるマネージメントの双方の観点から会社のアクティブな財産となりうる特許を取得するためのマインド、そのためのシステムの構築、取得した特許権の活用などを実務的にわかりやすく、可能な範囲で具体例をあげて説明したものである。"]

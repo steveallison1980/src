@@ -1,47 +1,15 @@
 <mat-nav-list>
-    <a routerLink="/" mat-list-item (click)="openLink('home','welcomemessage')">Home</a>
-    <mat-list-item *ngFor="let link of homelinks" (click)="openLink('home',link.subPage)">
-        <a class='sitemaplink' routerLink="/" fxLayoutAlign='start start'>
-            <button class='sitemapbutton' mat-icon-button fxLayoutAlign='start start'>
-                <mat-icon>{{link.icon}}</mat-icon>
-                {{link.text}}
-            </button>
-        </a>
-    </mat-list-item>
+    <div *ngFor="let page of this.sitemap.pages">
+        <a routerLink="{{page.routerlink}}" mat-list-item (click)="openLink(page.mainpage,page.defaultsubpage)">{{getPageText(page)}}</a>
+        <mat-list-item *ngFor="let link of page.links" (click)="openLink(page.mainpage,link.subPage)">
+            <a class='sitemaplink' routerLink="{{page.routerlink}}" fxLayoutAlign='start start'>
+                <button class='sitemapbutton' mat-icon-button fxLayoutAlign='start start'>
+                    <mat-icon>{{link.icon}}</mat-icon>
+                    {{getText(link)}}
+                </button>
+            </a>
+        </mat-list-item>
 
-    <mat-divider></mat-divider>
-    <a routerLink="/aboutus" mat-list-item color="primary" (click)="openLink('aboutus','about')" >About Us</a>
-    <mat-list-item *ngFor="let link of aboutuslinks" (click)="openLink('aboutus',link.subPage)">
-        <a class='sitemaplink' routerLink="/aboutus" fxLayoutAlign='start start'>
-            <button class='sitemapbutton' mat-icon-button fxLayoutAlign='start start'>
-                <mat-icon>{{link.icon}}</mat-icon>
-                {{link.text}}
-            </button>
-        </a>
-    </mat-list-item>
-
-    <mat-divider></mat-divider>
-    <a routerLink="/ourservices" mat-list-item (click)="openLink('ourservices','patent')">Our Services</a>
-    <mat-list-item *ngFor="let link of ourserviceslinks" (click)="openLink('ourservices',link.subPage)">
-        <a class='sitemaplink' routerLink="/ourservices" fxLayoutAlign='start start'>
-            <button class='sitemapbutton' mat-icon-button fxLayoutAlign='start start'>
-                <mat-icon>{{link.icon}}</mat-icon>
-                {{link.text}}
-            </button>
-        </a>
-    </mat-list-item>
-
-    <mat-divider></mat-divider>
-    <a routerLink="/professionals" mat-list-item (click)="openLink('professionals', 'practiceareas')">Professionals</a>
-    <mat-list-item *ngFor="let link of professionalslinks">
-        <a class='sitemaplink' routerLink="/professionals" (click)="openLink('professionals',link.subPage)" fxLayoutAlign='start start'>
-            <button class='sitemapbutton' mat-icon-button fxLayoutAlign='start start'>
-                <mat-icon>{{link.icon}}</mat-icon>
-                {{link.text}}
-            </button>
-        </a>
-    </mat-list-item>
-
-    <mat-divider></mat-divider>
-    <a routerLink="/careers" mat-list-item (click)="openLink('careers','careers')">Careers</a>
-  </mat-nav-list>
+        <mat-divider></mat-divider>
+    </div>
+</mat-nav-list>
