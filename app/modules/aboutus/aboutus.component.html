@@ -16,7 +16,8 @@
         <div fxFlex='5' fxShow="true" fxHide.lt-md="true">
         </div>
         <!--MOBILE-->
-        <div fxFlex='100' fxHide fxShow.lt-md>
+        <div fxFlex='5' fxHide fxShow.lt-md></div>
+        <div fxFlex='90' fxHide fxShow.lt-md>
             <!-- the first one is whatever is set, then do the rest -->
             <app-about name="about" *ngIf="isAbout()"></app-about>
             <app-overview name="overview" *ngIf="isOverview()"></app-overview>
@@ -32,6 +33,7 @@
             <br *ngIf="!isContact()">
             <app-contact name="contact" *ngIf="!isContact()"></app-contact>
         </div>
+        <div fxFlex='5' fxHide fxShow.lt-md></div>
     </div>
     <br>
 </div>

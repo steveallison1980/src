@@ -16,7 +16,8 @@
         <div fxFlex='5' fxShow="true" fxHide.lt-md="true">
         </div>
         <!--MOBILE-->
-        <div fxFlex='100' fxHide fxShow.lt-md>
+        <div fxFlex='5' fxHide fxShow.lt-md></div>
+        <div fxFlex='90' fxHide fxShow.lt-md>
             <!-- first what is set -->
             <app-patentsandutilitymodels *ngIf="isPatent()"></app-patentsandutilitymodels>
             <app-designsandtrademarks *ngIf="isDesign()"></app-designsandtrademarks>
@@ -32,6 +33,7 @@
             <br *ngIf="!isLitigation()">
             <app-courtcasereports *ngIf="!isCourt()"></app-courtcasereports>
         </div>
+        <div fxFlex='5' fxHide fxShow.lt-md></div>
     </div>
 </div>
 <br>

@@ -17,13 +17,15 @@
         <div fxFlex='5' fxShow="true" fxHide.lt-md="true">
         </div>
         <!--MOBILE-->
-        <div fxFlex='100' fxHide fxShow.lt-md>
+        <div fxFlex='5' fxHide fxShow.lt-md></div>
+        <div fxFlex='90' fxHide fxShow.lt-md>
             <app-practiceareas *ngIf="isPracticeAreas(); else elseBlock"></app-practiceareas>
             <ng-template #elseBlock>
                 <app-person *ngIf="isPersonView()" [person]="this.nav.curPerson"></app-person>
                 <app-people [currentGroup]="getSubPage()" (detailsClick)='setPersonView($event)'></app-people>
             </ng-template>
         </div>
+        <div fxFlex='5' fxHide fxShow.lt-md></div>
     </div>
 </div>
 <br>

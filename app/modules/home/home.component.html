@@ -19,7 +19,8 @@
         </div>
 
         <!--MOBILE-->
-        <div fxFlex='100' fxHide fxShow.lt-md>
+        <div fxFlex='5' fxHide fxShow.lt-md></div>
+        <div fxFlex='90' fxHide fxShow.lt-md>
             <!-- start with what is set -->
             <app-welcomemessage *ngIf="isWelcomemessage()"></app-welcomemessage>
             <app-news *ngIf="isNews()"></app-news>
@@ -36,6 +37,7 @@
             <br *ngIf="!isPublications()">
             <app-publications *ngIf="!isPublications()"></app-publications>
         </div>
+        <div fxFlex='5' fxHide fxShow.lt-md></div>
     </div>
 </div>
 <br>
