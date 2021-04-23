@@ -17,7 +17,4 @@ export class FooterComponent implements OnInit {
   openBottomSheet(): void {
     this.bottomSheetRef = this._bottomSheet.open(SitemapComponent);
   }
-  goToTop() {
-    window.scroll(0, 0);
-  }
 }

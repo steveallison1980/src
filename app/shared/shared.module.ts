@@ -54,6 +54,7 @@ import { PracticeareasComponent } from './components/practiceareas/practiceareas
 import { PeopleComponent } from './components/people/people.component';
 import { PersonComponent } from './components/person/person.component';
 import { PublicationsComponent } from './components/publications/publications.component';
+import { GototopComponent } from './components/gototop/gototop.component';
 
 @NgModule({
   declarations: [
@@ -95,7 +96,8 @@ import { PublicationsComponent } from './components/publications/publications.co
     PracticeareasComponent,
     PeopleComponent,
     PersonComponent,
-    PublicationsComponent    
+    PublicationsComponent,
+    GototopComponent    
   ],
   imports: [
     CommonModule,
@@ -143,7 +145,8 @@ import { PublicationsComponent } from './components/publications/publications.co
     PracticeareasComponent,
     PeopleComponent,
     PersonComponent,
-    PublicationsComponent
+    PublicationsComponent,
+    GototopComponent
   ]
 })
 
