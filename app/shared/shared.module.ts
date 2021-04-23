@@ -55,6 +55,7 @@ import { PeopleComponent } from './components/people/people.component';
 import { PersonComponent } from './components/person/person.component';
 import { PublicationsComponent } from './components/publications/publications.component';
 import { GototopComponent } from './components/gototop/gototop.component';
+import { PublicationComponent } from './components/publication/publication.component';
 
 @NgModule({
   declarations: [
@@ -97,7 +98,8 @@ import { GototopComponent } from './components/gototop/gototop.component';
     PeopleComponent,
     PersonComponent,
     PublicationsComponent,
-    GototopComponent    
+    GototopComponent,
+    PublicationComponent    
   ],
   imports: [
     CommonModule,
@@ -146,7 +148,8 @@ import { GototopComponent } from './components/gototop/gototop.component';
     PeopleComponent,
     PersonComponent,
     PublicationsComponent,
-    GototopComponent
+    GototopComponent,
+    PublicationComponent
   ]
 })
 

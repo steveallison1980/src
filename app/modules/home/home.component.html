@@ -14,6 +14,7 @@
             <app-contact *ngIf="isContact()"></app-contact>
             <app-access *ngIf="isAccess()"></app-access>
             <app-publications *ngIf="isPublications()"></app-publications>
+            <app-publication *ngIf="isPublication()"></app-publication>
         </div>
         <div fxFlex='5' fxShow="true" fxHide.lt-md="true">
         </div>
@@ -27,6 +28,7 @@
             <app-contact *ngIf="isContact()"></app-contact>
             <app-access *ngIf="isAccess()"></app-access>
             <app-publications *ngIf="isPublications()"></app-publications>
+            <app-publication *ngIf="isPublication()"></app-publication>
             <br>
             <!-- then the rest -->
             <app-welcomemessage *ngIf="!isWelcomemessage()"></app-welcomemessage>
@@ -36,6 +38,8 @@
             <app-contact *ngIf="!isContact()"></app-contact>
             <br *ngIf="!isPublications()">
             <app-publications *ngIf="!isPublications()"></app-publications>
+            <br *ngIf="!isPublication()">
+            <app-publication *ngIf="!isPublication()"></app-publication>
         </div>
         <div fxFlex='5' fxHide fxShow.lt-md></div>
     </div>

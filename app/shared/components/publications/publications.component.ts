@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { PUBLICATIONS_DATA } from './../../../../assets/data/staticpublications';
 import { IPublication } from './../../../../app/interfaces/ipublication';
 import { LanguagesettingService } from '../../../services/languagesetting.service';
+import { NavigateService } from '../../../services/navigate.service';
 
 @Component({
   selector: 'app-publications',
@@ -10,7 +11,8 @@ import { LanguagesettingService } from '../../../services/languagesetting.servic
 })
 export class PublicationsComponent implements OnInit {
 
-  constructor(private langService: LanguagesettingService) { }
+  constructor(public nav: NavigateService,
+    private langService: LanguagesettingService) { }
 
   ngOnInit(): void {
   }
@@ -18,13 +20,12 @@ export class PublicationsComponent implements OnInit {
   //todo
   publications: Array<IPublication> = PUBLICATIONS_DATA;
   
-  /*
   clickDetails(p: IPublication) {
-    console.log(p.name)
-   this.nav.curPublication = p;
-    this.nav.view = "publication";
+    this.nav.curPublication = p;
+    this.nav.curPage = "home";
+    this.nav.subPage = "publication";
     window.scroll(0, 0);
-  }*/
+  }
 
   getTitle(pub:IPublication ){
     switch (this.langService.lang) {

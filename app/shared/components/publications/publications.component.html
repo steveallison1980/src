@@ -8,15 +8,19 @@
                     {{getPubDate(pub)}}
                 </mat-card-subtitle>
             </mat-card-header>
-            <img class='mainimage' mat-card-image src="../../../../assets/img/books/{{pub.img}}" alt="{{getTitle(pub)}}, {{getPubDate(pub)}}">
+            <a routerLink="/"  (click)="clickDetails(pub)">
+                <img class='mainimage' mat-card-image src="../../../../assets/img/books/{{pub.img}}" alt="{{getTitle(pub)}}, {{getPubDate(pub)}}">
+            </a>
             <mat-card-content><p>{{getShort(pub)}}</p></mat-card-content>
             
             <mat-card-actions fxLayoutAlign="end">
-                <div class="person-button-row">
-                    <button mat-stroked-button>
-                        {{getDetails()}}
-                    </button>
-                </div>
+                <a routerLink="/"  (click)="clickDetails(pub)">
+                    <div class="person-button-row">
+                        <button mat-stroked-button>
+                            {{getDetails()}}
+                        </button>
+                    </div>
+                </a>
             </mat-card-actions>
         </mat-card>
     </div>

@@ -1,0 +1,28 @@
+<div>
+    <mat-card class="publication-card">
+        <mat-card-header>
+            <mat-card-title>{{getTitle()}}</mat-card-title>
+            <mat-card-subtitle>{{getPublishDate()}}</mat-card-subtitle>
+        </mat-card-header>
+        <mat-card-content>
+            <div id='pubimgdiv'>
+                <img fxShow="true" fxHide.lt-md="true" src="../../../../assets/img/books/{{getImg()}}" alt="{{getTitle()}}">
+            </div>
+            <br>
+            <mat-divider></mat-divider>
+            <h2>{{getAuthorsHeading()}}</h2>
+            <p *ngFor="let author of getAuthors()">
+                {{author.name}} ({{author.title}})
+                {{author.affiliation}}
+            </p>
+            <mat-divider></mat-divider>
+            <h2>{{getPublisherHeading()}}</h2>
+            <p>{{getPublisherName()}} ({{getPublisherAddress()}})</p>
+            <mat-divider></mat-divider>
+            <h2>{{getSynopsisHeading()}}</h2>
+            <span *ngFor="let text of getSynopsis()">
+                {{text}}
+            </span>
+        </mat-card-content>
+    </mat-card>
+</div>

@@ -20,6 +20,7 @@ import { CourtcasereportsComponent } from './shared/components/courtcasereports/
 import { PeopleComponent } from './shared/components/people/people.component';
 import { PersonComponent } from './shared/components/person/person.component';
 import { PublicationsComponent } from './shared/components/publications/publications.component';
+import { PublicationComponent } from './shared/components/publication/publication.component';
 
 const routes: Routes = [
   {
@@ -47,6 +48,11 @@ const routes: Routes = [
         path: 'publications',
         outlet: 'publications',
         component: PublicationsComponent
+      },
+      {
+        path: 'publication',
+        outlet: 'publication',
+        component: PublicationComponent
       }]
   }, {
     path: 'aboutus',

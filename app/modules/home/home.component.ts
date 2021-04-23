@@ -31,6 +31,9 @@ export class HomeComponent implements OnInit {
   isPublications(){
     return (this.nav.subPage == "publications");
   }
+  isPublication(){
+    return (this.nav.subPage == "publication");
+  }
 
   homeitems: any = [{text:'Welcome Message',textJP:'ご挨拶',icon:'local_florist',index:0,component:'welcomemessage'},
     {text:'What\'s New',textJP:'最新情報',icon:'announcement',index:1,component:'news'},
