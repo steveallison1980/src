@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { LanguagesettingService } from '../../../services/languagesetting.service';
 import { ACCESS, ACCESSJP, ACCESSTITLE, ACCESSTITLEJP } from '../../../../assets/data/staticabout';
 
+
 @Component({
   selector: 'app-access',
   templateUrl: './access.component.html',

@@ -4,7 +4,7 @@ export const PUBLICATIONS_DATA: IPublication[] = [
 {
     img: "tokkyogawakaruQandA.jpg",
 
-    title: "All About Patents Q&A",
+    title: "Understanding Patents Q&A",
     publishdate: "Jul. 20, 2011",
     authors: [{
         name: "Yasunori Ohtsuka",
@@ -13,7 +13,7 @@ export const PUBLICATIONS_DATA: IPublication[] = [
     publisher: {name: "Ohmsha",
     address: "Chiyoda-ku, Tokyo"},
     synopsis: [
-        "An easy to understand, comprehensive overview of the Japanese patent system."],
+        "Delivered in a succinct Q&A format, this text serves as a guide mainly for those in the field of research and development and intellectual property as to how complex patent challenges are handled in business. "],
 
     // Japanese version
     titleJP: "特許がわかる本　Q&A",
@@ -77,8 +77,7 @@ export const PUBLICATIONS_DATA: IPublication[] = [
     publisher: {name: "ILS Publishing",
     address: "Meguro-ku, Tokyo"},
     synopsis: [
-        "Legal analysis of CAFC decisions since 1982.",
-        "Covers topics such as patent infringement, the Doctrine of Equivalents, estoppel, patent validity, and more."],
+        "Since its establishment in 1982, CAFC (United States Court of Appeals for the Federal Circuit) has passed judgments that serve as a guideline in the field of legal interpretation and practices. Their judgments are highly informative in the field of patent and trademark examination as CAFC handles appeals from the United States Patent and Trademark Office. This text is a subsequence to CAFC Patent Case Study (1) supplemented with expert commentary and introduces the most crucial CAFC judgments in recent years, encompassing all aspects of patent litigation such as probability of patent litigation, doctrine of equivalents, prosecution history estoppel, patent rights interpretation, patent validity, enforceability of rights, and procedural issues."],
 
     // Japanese version
     titleJP: "米国特許判例解説2005",
@@ -98,7 +97,7 @@ export const PUBLICATIONS_DATA: IPublication[] = [
 {
     img: "tokkyogawakaruhon.jpg",
 
-    title: "All About Patents",
+    title: "Understanding Patents",
     publishdate: "Aug. 1, 2002",
     authors: [{
         name: "Yasunori Ohtsuka",
@@ -107,7 +106,7 @@ export const PUBLICATIONS_DATA: IPublication[] = [
     publisher: {name: "Ohmsha",
     address: "Chiyoda-ku, Tokyo"},
     synopsis: [
-        "An easy to understand, comprehensive overview of the Japanese patent system."],
+        "Taking on a practical approach, this text teaches the fundamentals of patents through a combined sphere of business, research and development, and patents. The text is structured so as to provide strategies for patent obtainment and patent utilization as well as a comprehensive understanding of intellectual property beyond patents."],
 
     // Japanese version
     titleJP: "特許がわかる本",
@@ -136,7 +135,7 @@ export const PUBLICATIONS_DATA: IPublication[] = [
     publisher: {name: "Ohmsha",
     address: "Chiyoda-ku, Tokyo"},
     synopsis: [
-        "The patent system explained to give engineers and researchers the tools to maximally protect their inventions."],
+        "Encompassing the perspective of engineers, researchers and the management, this text explains patent obtainment and the system thereof as well as patent utilization with a simple, practical approach, supplemented with examples. "],
 
     // Japanese version
     titleJP: "わかりやすい特許の実路知識",

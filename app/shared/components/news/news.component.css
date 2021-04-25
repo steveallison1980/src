@@ -32,3 +32,6 @@ h1{
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
 }
+a{
+    color: rgb(184, 51, 51);
+}

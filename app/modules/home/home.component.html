@@ -31,15 +31,13 @@
             <app-publication *ngIf="isPublication()"></app-publication>
             <br>
             <!-- then the rest -->
-            <app-welcomemessage *ngIf="!isWelcomemessage()"></app-welcomemessage>
-            <br *ngIf="!isWelcomemessage()">
-            <app-news *ngIf="!isNews()"></app-news>
-            <br *ngIf="!isNews()">
-            <app-contact *ngIf="!isContact()"></app-contact>
-            <br *ngIf="!isPublications()">
-            <app-publications *ngIf="!isPublications()"></app-publications>
-            <br *ngIf="!isPublication()">
-            <app-publication *ngIf="!isPublication()"></app-publication>
+            <app-welcomemessage *ngIf="!isWelcomemessage() && !isPublication()"></app-welcomemessage>
+            <br *ngIf="!isWelcomemessage() && !isPublication()">
+            <app-news *ngIf="!isNews() && !isPublication()"></app-news>
+            <br *ngIf="!isNews() && !isPublication()">
+            <app-contact *ngIf="!isContact() && !isPublication()"></app-contact>
+            <br *ngIf="!isPublications() && !isPublication()">
+            <app-publications *ngIf="!isPublications() && !isPublication()"></app-publications>
         </div>
         <div fxFlex='5' fxHide fxShow.lt-md></div>
     </div>

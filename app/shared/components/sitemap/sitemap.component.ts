@@ -24,7 +24,6 @@ export class SitemapComponent implements OnInit {
   sitemap: ISitemap = SITEMAP_DATA;
   
   openLink(curPage, subPage) {
-    console.log(subPage)
     this.nav.curPage = curPage;
     this.nav.subPage = subPage;
     this.nav.view = "group";

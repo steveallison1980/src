@@ -3,9 +3,18 @@
         <mat-card-title>{{getTitle()}}</mat-card-title>
         <mat-card-subtitle>{{getDescription()}}</mat-card-subtitle>
     </mat-card-header>
-    <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8285.146504892073!2d139.72818012301673!3d35.68134546532512!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188c7cbe8bc02d%3A0x367d2e718fa46ffc!2z5aSn5aGa5Zu96Zqb54m56Kix5LqL5YuZ5omA!5e0!3m2!1sen!2sjp!4v1613697101092!5m2!1sen!2sjp"
-        width="400" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
-        tabindex="0" class='mapframe'>
-    </iframe>
+    <mat-card-content>
+        <!-- PC -->
+        <iframe fxShow="true" fxHide.lt-md="true"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8285.146504892073!2d139.72818012301673!3d35.68134546532512!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188c7cbe8bc02d%3A0x367d2e718fa46ffc!2z5aSn5aGa5Zu96Zqb54m56Kix5LqL5YuZ5omA!5e0!3m2!1sen!2sjp!4v1613697101092!5m2!1sen!2sjp"
+            width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+            tabindex="0" class='mapframe'>
+        </iframe>
+        <!-- MOBILE -->
+        <iframe fxHide fxShow.lt-md
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8285.146504892073!2d139.72818012301673!3d35.68134546532512!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188c7cbe8bc02d%3A0x367d2e718fa46ffc!2z5aSn5aGa5Zu96Zqb54m56Kix5LqL5YuZ5omA!5e0!3m2!1sen!2sjp!4v1613697101092!5m2!1sen!2sjp"
+            width="300" height="350" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+            tabindex="0" class='mapframe'>
+        </iframe>
+    </mat-card-content>
 </mat-card>
