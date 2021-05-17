@@ -19,7 +19,7 @@
 <!-- MOBILE VIEW -->
 <div class='topbar' fxHide fxShow.lt-md fxLayout='row' fxLayoutAlign='space-between stretch' fxLayoutGap="20px">
     <div class='linkdiv'>
-        <a href='tel:0352763241'>
+        <a routerLink="/" (click)="clickContact()">
             <button class='highlightbutton' mat-button>
                 <mat-icon>local_phone</mat-icon>
                 {{getContactText()}}
