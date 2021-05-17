@@ -18,8 +18,11 @@
                 <a routerLink="/ourservices" (click)="clickOurservices()" [ngClass]="{'activenav': this.nav.curPage=='ourservices'}">{{getText("ourservices")}}</a>
                 <mat-divider [vertical]="true"></mat-divider>
                 <a routerLink="/professionals" (click)="clickProfessionals()" [ngClass]="{'activenav': this.nav.curPage=='professionals'}">{{getText("professionals")}}</a>
+                <mat-divider [vertical]="true" *ngIf="isJapanesePage()"></mat-divider>
+                <a routerLink="/cafcreports" (click)="clickCAFCReports()" [ngClass]="{'activenav': this.nav.curPage=='cafcreports'}" *ngIf="isJapanesePage()">{{getText("cafcreports")}}</a>
                 <mat-divider [vertical]="true"></mat-divider>
                 <a routerLink="/careers" (click)="clickCareers()" [ngClass]="{'activenav': this.nav.curPage=='careers'}">{{getText("careers")}}</a>
+                
             </div>
         </div>
     </div>

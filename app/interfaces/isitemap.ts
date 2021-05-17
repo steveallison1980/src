@@ -12,6 +12,7 @@ export interface IPage {
   defaultsubpage: string;
   text: string;
   textJP: string;
+  displayMode: string;
 }
 export interface ISitemap {
     pages: Array<IPage>;

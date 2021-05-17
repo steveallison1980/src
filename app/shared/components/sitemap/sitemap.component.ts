@@ -48,4 +48,9 @@ export class SitemapComponent implements OnInit {
         return page.text;
     }
   }
+
+  isJapaneseSite() {
+    return this.langService.lang == "JP";
+  }
+
 }
