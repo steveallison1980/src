@@ -11,12 +11,6 @@ import { ILink } from '../../../interfaces/isitemap';
 })
 export class SidebarComponent implements OnInit {
   
-  @Input()
-  items: any = [{text:'Welcome Message',textJP:'ご挨拶',icon:'local_florist',index:0,component:'welcomemessage'},
-  {text:'What\'s New',textJP:'最新情報',icon:'announcement',index:1,component:'news'},
-  {text:'Contact Information',textJP:'連絡情報',icon:'call',index:2,component:'contact'}];
-
-
   public curItem: string="welcomemessage";
 
   constructor(private langService: LanguagesettingService,
@@ -30,6 +24,7 @@ export class SidebarComponent implements OnInit {
     this.nav.subPage = component;
     this.nav.curPerson = null;
     this.nav.view = "group";
+    this.nav.cafcfilter = component;
     window.scroll(0, 0);
   }
 

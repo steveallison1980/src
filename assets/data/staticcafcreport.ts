@@ -73,15 +73,15 @@ export const AUTHORTITLEJP = "報告者紹介"
 //     }
 // ]
 
-export const CAFC_REPORT: ICAFCReport[] = [
+export const CAFC_REPORTS: ICAFCReport[] = [
     {
         // 2019年
 
         // December issue
         casetitle: 'Airbus S.A.S. 対 Firepass Corporation 事件',
         caseno: 'CAFC, No. 19-1803',
-        reportyear: '2019年',
-        reportmonth: '12月',
+        reportyear: '2019',
+        reportmonth: '12',
         reportdate: 'November 8, 2019',
         reportpreview: ['自明性の拒絶理由に用いる先行技術は、クレームされた発明に類似する先行技術(analogous prior art)でなくてはならない(MPEP § 2141.01(a))。この判決は、特定の先行技術が「類似する先行技術」であることを立証する目的で、他の引用文献のような追加証拠に頼ってもよいことを示した。したがって、一見するとクレームされた発明に類似しない先行技術であっても、適切な追加証拠を用意すれば、そのような先行技術に基づいて特許を無効にできる可能性がある。'],
         content:
@@ -106,8 +106,8 @@ export const CAFC_REPORT: ICAFCReport[] = [
     {
         casetitle: 'Koninklijke KPN N.V. 対 Gemalto M2M GMBH 事件',
         caseno: 'CAFC Nos. 2018-1863, 2018-1864, 2018-1865',
-        reportyear: '2019年',
-        reportmonth: '12月',
+        reportyear: '2019',
+        reportmonth: '12',
         reportdate: 'November 15, 2019',
         reportpreview: ['CAFCはこの判決で、既存の技術プロセスに対する具体的な改善をクレームが記載している場合には、ソフトウェア特許の特許適格性が認められるという先例を再確認した。 この判決は、特にデータ処理の分野において、ソフトウェア特許を扱う実務者にとって、特許適格性に関する有益なガイドラインを提供している。本件における認定によれば、技術的改善に向けられている特許クレームは、単に達成されるべき結果を記載するのではなく、改善を提供するための特定の方法又は手段を記載しているのであれば、特許法101条の特許適格性要件を満足する可能性が高い。'],
         content:
@@ -135,8 +135,8 @@ export const CAFC_REPORT: ICAFCReport[] = [
     {
         casetitle: 'In re David Fought, Martin Clanton 事件',
         caseno: 'CAFC No. 19-1127',
-        reportyear: '2019年',
-        reportmonth: '12月',
+        reportyear: '2019',
+        reportmonth: '12',
         reportdate: 'November 4, 2019',
         reportpreview: ['CAFCはこの判決で、クレームのプリアンブルをクレームの本文と区別する移行句について判断した。具体的には、クレームのプリアンブルを本文と区別するための「備える（comprising）」などの特定の用語は必要でなく、「有する（having）」または「含む（including）」などの別の用語がその機能を発揮して、クレーム本体部からプリアンブルを分離することができることを判断した。また、この判決は、クレームの主題を特定するためにクレームのプリアンブルで使用されるラベル（例えば、「トラベルトレーラー」）が、クレームに構造的限定を課す場合があることも判断した。すなわち、プリアンブルに記載された用語により、クレームのスコープを効果的に狭めることができる場合がある。'],
         content:
@@ -166,8 +166,8 @@ export const CAFC_REPORT: ICAFCReport[] = [
     {
         casetitle: 'Kolcraft Enterprises, Inc. 対 Graco Children’s Products, Inc. 事件',
         caseno: 'CAFC Nos. 2018-1258; 2018-1260',
-        reportyear: '2019年',
-        reportmonth: '8月',
+        reportyear: '2019',
+        reportmonth: '8',
         reportdate: 'July 2, 2019',
         reportpreview: ['ＣＡＦＣはこの判決で、発明日を認定するために、発明者に既存する証拠だけでは足らず、発明者から独立した証拠が必要となることを示した。ＡＩＡ施行後は先発明者先願主義のルールに従って先願が処理されるものの、ＡＩＡ以前の特許がまだ多く存在する。これらの特許では、出願日よりも前の着想日を証明することが必要となる場合がある。'],
         content:
@@ -190,8 +190,8 @@ export const CAFC_REPORT: ICAFCReport[] = [
     {
         casetitle: 'Samsung Electronics Co., Ltd. 対 Infobridge Pte. Ltd. 事件',
         caseno: 'CAFC Nos. 2018-2007, 2018-2012',
-        reportyear: '2019年',
-        reportmonth: '8月',
+        reportyear: '2019',
+        reportmonth: '8',
         reportdate: 'July 12, 2019',
         reportpreview: ['CAFCはこの判決で、(1)パテントプールの契約内容によっては、プールのメンバは、他のプールのメンバがプールに入れている特許を無効にすることについての利害関係人となりうること、(2)文献が先行技術として公に利用可能になったというためには、技術的な利用可能性以上の事情があったことを示す必要があること、を示した。'],
         content:
@@ -215,8 +215,8 @@ export const CAFC_REPORT: ICAFCReport[] = [
     {
         casetitle: 'FTC 対 Qualcomm Inc. 事件',
         caseno: 'N. D. Cal. No. 17-CV-00220',
-        reportyear: '2019年',
-        reportmonth: '6月',
+        reportyear: '2019',
+        reportmonth: '6',
         reportdate: 'May 21, 2019',
         reportpreview: ['この判決において、カリフォルニア州北部地区連邦地裁は、被告によるSEP特許に関するライセンス実務がシャーマン法に規定する不当な取引制限又は排除行為にあたると判断した。本判決は、企業がライセンス契約に関して不公正な行為を行っているとFTCが疑った場合には、企業による関連市場についてのSEPの所有と、これらのSEPに関するライセンス実務が、裁判所によって詳細に調べられる可能性があることを意味する。また、本判決は、被告のライセンス実務の是正及び遵守状況のFTCへの報告も命じた。'],
         content:
@@ -253,8 +253,8 @@ export const CAFC_REPORT: ICAFCReport[] = [
     {
         casetitle: 'Athena Diagnostics 対 Mayo Collaborative Services 事件',
         caseno: 'CAFC No. 2017-2508',
-        reportyear: '2019年',
-        reportmonth: '4月',
+        reportyear: '2019',
+        reportmonth: '4',
         reportdate: 'February 6, 2019',
         reportpreview: ['CAFCはこの判決で、病気を診断する方法をカバーする特許クレームが米国特許法101条における特許適格性を有するかを判断した。CAFCは、自然法則を検出するステップをカバーするクレームは、米国最高裁のAlice/Mayoの２パートテストのもと特許不適格であると判断した。この判決は、自然現象を観測又は検出することを含む診断方法のクレームを、特許適格性の基準に基づいてどのように分析するかについての手引きを提供する。'],
         content:
@@ -278,8 +278,8 @@ export const CAFC_REPORT: ICAFCReport[] = [
     {
         casetitle: 'Natural Alternatives International, Inc. 対 Creative Compounds, LLC 事件',
         caseno: 'CAFC No. 2018-1295',
-        reportyear: '2019年',
-        reportmonth: '4月',
+        reportyear: '2019',
+        reportmonth: '4',
         reportdate: 'March 15, 2019',
         reportpreview: ['CAFCはこの判決で、特定の用量の天然成分（ベータアラニン）を含む栄養補助食品をカバーする特許クレームが米国特許法第101条に基づく特許適格性を有する主題であるかについての問題を扱った。米国連邦地裁を覆して、CAFCは、ベータアラニンは天然物であるが、クレームは「天然物を含有する特定の治療製剤」であり、自然のままのベータアラニンでは不可能な方法においてこのような天然物を使用できると判断した。特に、CAFCは、治療のクレームに対する適格性の重要な要素は、「特定の生理的利益」につながる方法で「恒常性が克服される」か否かであると説明し、栄養補助食品の生理的利益によって、治療クレームとして特許適格性を備えることが示された。この判決は、天然の化合物を用いた治療にもかかわらず、米国特許法第101条の下でこのような治療についての特許適格性を備える可能性がある場合を明確にするのに役立つであろう。'],
         content:
@@ -305,8 +305,8 @@ export const CAFC_REPORT: ICAFCReport[] = [
     {
         casetitle: 'Helsinn Healthcare S.A. 対 Teva Pharmaceuticals USA, Inc.事件',
         caseno: 'No. 17-1229',
-        reportyear: '2019年',
-        reportmonth: '2月',
+        reportyear: '2019',
+        reportmonth: '2',
         reportdate: 'U.S. January 22, 2019',
         reportpreview: ['この判決では、リーヒ・スミス米国発明法(AIA)による改正後のon-sale bar（販売による不特許事由）について、発明者が第三者に対して発明の販売（又はその申し出）を行った場合には、たとえ第三者が発明を秘密に保持する義務を負っていたとしてもon-sale barに該当しうることが明らかになった。なお、この事件では、発明の詳細は秘密に保持されていたが、販売（の申し出）の存在自体は公にされていた。したがって、この判決は、販売（の申し出）の存在自体が公にされていない場合に対しては、必ずしも指針を提供するものではない。'],
         content:
@@ -339,8 +339,8 @@ export const CAFC_REPORT: ICAFCReport[] = [
     {
         casetitle: 'In re: HTC Corporation 事件',
         caseno: 'CAFC No. 18-130',
-        reportyear: '2018年',
-        reportmonth: '8月',
+        reportyear: '2018',
+        reportmonth: '8',
         reportdate: 'May 9, 2018',
         reportpreview: ['この判決の少し前に出たTC Heartland事件の最高裁判決は、米国企業を被告とする特許訴訟の裁判地が、被告企業の設立地、又は被告が侵害行為を行いかつ正規の確立した営業所を有する地に制限されることを判示した。一方CAFCはこの判決で、外国企業を被告とする特許訴訟では、被告が訴状の適切な送達を受けることのできる任意の米国連邦地方裁判所において提起可能であることを判示した。'],
         content:
@@ -377,8 +377,8 @@ export const CAFC_REPORT: ICAFCReport[] = [
     {
         casetitle: 'WesternGeco LLC v. Ion Geophysical Corp. 事件',
         caseno: 'Supreme Court No. 16-1011',
-        reportyear: '2018年',
-        reportmonth: '8月',
+        reportyear: '2018',
+        reportmonth: '8',
         reportdate: 'June 22, 2018',
         reportpreview: ['米国最高裁はこの判決で、米国特許法271条(f)(2)の下で特許侵害を証明した特許権者は、米国外で行われた行為に基づく遺失利益について損害賠償を獲得できることを示した。本事件は、海外で特許製品が組み立てられるように部品を輸出した侵害者に対し、米国外で生じた行為に基づく遺失利益の損害賠償を課した点で重要である。'],
         content:
@@ -410,8 +410,8 @@ export const CAFC_REPORT: ICAFCReport[] = [
     {
         casetitle: '標準必須特許の消尽に関する米国判決の紹介',
         caseno: 'null',
-        reportyear: '2018年',
-        reportmonth: '5月',
+        reportyear: '2018',
+        reportmonth: '5',
         reportdate: 'null',
         reportpreview: ['日本では、標準必須特許に関する知財高裁の判決では特許の実質的な実施品の譲渡に特許の消尽を認めなかったが、アメリカの幾つかの判決は、これらに特許の消尽を認めている。そこで、日本の特許庁による“標準必須特許のライセンス交渉に関する手引”きにも引用されているQuanta 最高裁判決を中心に数件の米国の判決を紹介する。'],
         content:
@@ -594,8 +594,8 @@ export const CAFC_REPORT: ICAFCReport[] = [
     //     casetitle: '標準必須特許の消尽に関する米国判決の紹介',
     //     caseno: null,
     //     opttitle: null,
-    //     reportyear: '2018年',
-    //     reportmonth: '5月',
+    //     reportyear: '2018',
+    //     reportmonth: '5',
     //     reportdate: null,
     //     reportpreview: '日本では、標準必須特許に関する知財高裁の判決では特許の実質的な実施品の譲渡に特許の消尽を認めなかったが、アメリカの幾つかの判決は、これらに特許の消尽を認めている。そこで、日本の特許庁による“標準必須特許のライセンス交渉に関する手引”きにも引用されているQuanta 最高裁判決を中心に数件の米国の判決を紹介する。',
     //     report:
@@ -641,8 +641,8 @@ export const CAFC_REPORT: ICAFCReport[] = [
     //     casetitle: 'Oil States Energy Servs., LLC 対 Greene’s Energy Group, LLC 事件',
     //     caseno: 'Supreme Court No. 16-712',
     //     opttitle: '－IPRを合憲とした米国最高裁判決－',
-    //     reportyear: '2018年',
-    //     reportmonth: '5月',
+    //     reportyear: '2018',
+    //     reportmonth: '5',
     //     reportdate: 'April 24, 2018',
     //     reportpreview: '米国最高裁はこの判決で、特許権は公権であり公権をアメリカ合衆国憲法で定める3条法廷や陪審裁判において裁く必要はないから、IPRがアメリカ合衆国憲法の第3条に反することも、同修正第7条に反することもないと判じた。この判決により、少なくとも当分の間はIPR手続きが存続することなる。',
     //     report:
@@ -660,8 +660,8 @@ export const CAFC_REPORT: ICAFCReport[] = [
     //     casetitle: 'SAS Institute Inc. 対 Iancu 事件',
     //     caseno: 'Supreme Court No. 16-969',
     //     opttitle: '－IPRで一部のクレームのみの審理を行うことを禁止した米国最高裁判決－',
-    //     reportyear: '2018年',
-    //     reportmonth: '5月',
+    //     reportyear: '2018',
+    //     reportmonth: '5',
     //     reportdate: '2018',
     //     reportpreview: '米国最高裁はこの判決で、IPRですべての請願対象クレームではなく一部のクレームのレビューを開始するという特許審判部における実務を認めず、すべてのクレームのレビューを開始するか、全く開始しないかのいずれかにすべきであると判断した。この判決に伴い、特許審判部は手続きを変更し、変更後の手続を説明するガイドラインを発行した。',
     //     report:
@@ -686,8 +686,8 @@ export const CAFC_REPORT: ICAFCReport[] = [
     //     casetitle: 'ORACLE AMERICA, INC. 対 GOOGLE LLC 事件',
     //     caseno: '2017-1118',
     //     opttitle: '－ソフトウェアコードのコピーについてフェアユースの成立を否定したCAFC判決－',
-    //     reportyear: '2018年',
-    //     reportmonth: '4月',
+    //     reportyear: '2018',
+    //     reportmonth: '4',
     //     reportdate: 'Federal Circuit March 26, 2018',
     //     reportpreview: 'CAFCはこの判決において、ソフトウェアコードのコピーについてフェアユースの成立を否定した。その際に、CAFCは、フェアユースの基準の「トランスフォーマティブ（変容的）」を、新たな著作物であって完全に新たな目的を持つことを意味すると、定義した。なお、CAFCによれば、ソフトウェアコードをコピーすることがいかなる場合もフェアユースに該当しないと判断したのではなく、フェアユースの成立を否定した判断の射程は本件固有の事実に制限される。',
     //     report:
@@ -710,8 +710,8 @@ export const CAFC_REPORT: ICAFCReport[] = [
     //     casetitle: 'BMG RIGHTS MANAGEMENT (US) LLC対COX COMMUNICATIONS, INCORPORATED 事件',
     //     caseno: 'No. 16-1972',
     //     opttitle: '－デジタルミレニアム著作権法のセーフハーバー規定とインターネットサービスプロバイダ（ISP）加入者に対するISPの二次的責任に言及した第4巡回区控訴裁判所判決－',
-    //     reportyear: '2018年',
-    //     reportmonth: '4月',
+    //     reportyear: '2018',
+    //     reportmonth: '4',
     //     reportdate: 'February 1, 2018',
     //     reportpreview: '連邦第4巡回区控訴裁判所はこの判決でデジタルミレニアム著作権法（DMCA）のセーフハーバー規定とインターネットサービスプロバイダ（ISP）加入者に対するISPの二次的責任に関する争点を検討した。最終的に第4巡回区控訴裁判所は、反復的な侵害者へのポリシーを実行及び適用するにあたるIPSへのガイダンスを提供し、裁判所によって侵害者であるとの判決を受けた個人だけではなく、反復的な侵害行為のすべての事例に対処しているISPに対してのみセーフハーバー保護が与えられるとの判断を示した。同時に第4巡回区控訴裁判所は、地方裁判所の陪審への説示を覆して、実際に知っていたことと意図的に目をつぶることは著作権の寄与侵害のために必要とされる意図要件の充足を確立するが、不注意による過失だけでは著作権の寄与侵害のために必要とされる意図要件を充足しないと判示した。',
     //     report:
@@ -734,8 +734,8 @@ export const CAFC_REPORT: ICAFCReport[] = [
     //     casetitle: 'FOX NEWS NETWORK, LLC対TVEYES, INC. 事件',
     //     caseno: '2d. Cir., No.15-3885',
     //     opttitle: '－検索されたビデオクリップを視聴させる機能が米国著作権法上のフェアユースに当たらないと判断した控訴裁判決－',
-    //     reportyear: '2018年',
-    //     reportmonth: '4月',
+    //     reportyear: '2018',
+    //     reportmonth: '4',
     //     reportdate: 'February 27, 2018',
     //     reportpreview: '第2巡回区控訴裁判所はこの判決で、検索されたビデオクリップを視聴させる機能が米国著作権法上のフェアユースに当たるか否かについて、4つのフェアユースファクターを検討した結果、この具体的事例に関してはフェアユースにあたらないと判示した。この判決は、フェアユース原則の将来の適用にかなりの影響を有つと思われる。特に、ファクターの1つである、著作物の潜在的市場に対して使用が与える影響が、フェアユースの分析において相当の重みを持っていることが明確になった。',
     //     report:
@@ -762,8 +762,8 @@ export const CAFC_REPORT: ICAFCReport[] = [
     //     casetitle: 'AATRIX SOFTWARE, INC 対 GREEN SHADES SOFTWARE, INC 事件',
     //     caseno: 'CAFC No. 2017-1452',
     //     opttitle: '－連邦民事訴訟規則12条(b)(6)の下での却下をCAFCが破棄した判決－',
-    //     reportyear: '2018年',
-    //     reportmonth: '3月',
+    //     reportyear: '2018',
+    //     reportmonth: '3',
     //     reportdate: 'February 14, 2018',
     //     reportpreview: 'CAFCはこの判決で、連邦民事訴訟規則12条(b)(6)の下で、訴状の却下の申立て理由が発明の適格な主題の欠如であっても、訴状に説得力のある事実に関する主張があれば、この申立てが拒否されることを判示した。特許権者は、アリス分析に沿って詳細な主張を含むように訴状を修正することで、適格な主題の欠如による訴状却下の申立てに対して反論しうる。',
     //     report:
@@ -787,8 +787,8 @@ export const CAFC_REPORT: ICAFCReport[] = [
     //     casetitle: 'BERKHEIMER 対 HP INC. 事件',
     //     caseno: 'No. 2017-1437',
     //     opttitle: '－客観的な境界を提供すべきとする基準で文言の明確性を判断したCAFC判決－',
-    //     reportyear: '2018年',
-    //     reportmonth: '3月',
+    //     reportyear: '2018',
+    //     reportmonth: '3',
     //     reportdate: 'February 8, 2018',
     //     reportpreview: 'CAFCはこの判決で、当業者が合理的にクレームの文言の意味を理解できなかったことを示す内的証拠及び外的証拠の観点から「最小の冗長性」の文言が不明確であるという連邦地裁の判決を支持した。CAFCは、クレームは明細書及び出願審査経過に照らし、当業者にとって客観的な境界を提供しなければならないという、先例において確立された基準を再度適用し、この基準が程度を示す文言に適用されることに言及した。この判決は、クレームが程度を示す文言を含む場合に、クレームの文言の意味が「合理的に明確」であるように、明細書が、程度を示す文言に対する客観的な境界を提供する例示や他の開示を含むことが重要である、ということを再認識させた。',
     //     report:
@@ -815,8 +815,8 @@ export const CAFC_REPORT: ICAFCReport[] = [
     //     casetitle: 'Exmark Mfg.Co. 対 Briggs & Stratton Power Prods. Grp., LLC 事件',
     //     caseno: 'No. 2016-2197',
     //     opttitle: '－地裁が再審査における米国特許商標庁の有効性判断を単に是認することは許されないとしたCAFC判決－',
-    //     reportyear: '2018年',
-    //     reportmonth: '1月',
+    //     reportyear: '2018',
+    //     reportmonth: '1',
     //     reportdate: 'January 12, 2018',
     //     reportpreview: 'CAFCはこの判決で、クレームが有効であるという再審査手続における米国特許商標庁の判断に地裁が単に依存することはできないと判示した。CAFCはまた、最高裁の Halo Electronics, Inc. v. Pulse Electronics, Inc., 136 S. Ct.1923 (2016) 判決に照らして、故意侵害は裁判官ではなく陪審員が判断する争点であることを明確にした。この判決は、特許クレームが米国特許商標庁での再審査における攻撃に生き残ってきたとしても、陪審裁判で特許の無効を証明できる可能性があることを示している。',
     //     report:
@@ -841,8 +841,8 @@ export const CAFC_REPORT: ICAFCReport[] = [
     //     casetitle: 'Wi-Fi One, LLC 対 Broadcom Corp. 事件',
     //     caseno: 'No. 2015-1944',
     //     opttitle: '－時期的制限によるIPRの開始拒否に対する不服申立を認めたCAFC判決－',
-    //     reportyear: '2018年',
-    //     reportmonth: '1月',
+    //     reportyear: '2018',
+    //     reportmonth: '1',
     //     reportdate: 'Fed. Cir. January 8, 2018',
     //     reportpreview: 'CAFCはこの判決で、IPRの申請が時期的制限により禁じられるか否かについてUSPTOによりなされた決定を再審査の対象とすると判示した。すなわち、IPR申請が時機に遅れたものであると特許権者が主張し、PTABがそれにもかかわらずIPRを開始した場合、特許権者はPTABの決定に対して不服を申し立てることができる。',
     //     report:

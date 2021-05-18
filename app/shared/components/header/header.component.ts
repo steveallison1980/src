@@ -44,6 +44,7 @@ export class HeaderComponent implements OnInit {
   public clickCAFCReports() {
     this.nav.curPage = "cafcreports";
     this.nav.subPage = "cafcreports";
+    this.nav.cafcfilter = "all";
   }
   public clickCareers() {
     this.nav.curPage = "careers";
@@ -96,7 +97,8 @@ export class HeaderComponent implements OnInit {
         }
       case "cafcreports":
         if (this.langService.lang == "JP") {
-          return "米国連邦控訴裁判所（CAFC）判決";
+          //return "米国連邦控訴裁判所（CAFC）判決"; //too long!
+          return "CAFC判決";
         } 
       case "careers":
         if (this.langService.lang == "EN") {

@@ -6,6 +6,7 @@ import { AboutusComponent } from './modules/aboutus/aboutus.component';
 import { OurservicesComponent } from './modules/Ourservices/Ourservices.component';
 import { ProfessionalsComponent } from './modules/professionals/professionals.component';
 import { CareersComponent } from './modules/careers/careers.component';
+import { CafcreportsComponent } from './modules/cafcreports/cafcreports.component';
 import { WelcomemessageComponent } from './shared/components/welcomemessage/welcomemessage.component';
 import { NewsComponent } from './shared/components/news/news.component';
 import { AccessComponent } from './shared/components/access/access.component';
@@ -53,7 +54,13 @@ const routes: Routes = [
         path: 'publication',
         outlet: 'publication',
         component: PublicationComponent
-      }]
+      },
+      {
+        path: 'cafcreports',
+        outlet: 'cafcreports',
+        component: CafcreportsComponent
+      }
+    ]
   }, {
     path: 'aboutus',
     component: AboutusComponent,
@@ -101,6 +108,9 @@ const routes: Routes = [
   }, {
     path: 'professionals',
     component: ProfessionalsComponent
+  }, {
+    path: 'cafcreports',
+    component: CafcreportsComponent
   }, {
     path: 'people',
     component: PeopleComponent,

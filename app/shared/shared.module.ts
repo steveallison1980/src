@@ -56,7 +56,7 @@ import { PersonComponent } from './components/person/person.component';
 import { PublicationsComponent } from './components/publications/publications.component';
 import { GototopComponent } from './components/gototop/gototop.component';
 import { PublicationComponent } from './components/publication/publication.component';
-import { CafcreportsComponent } from './cafcreports/cafcreports.component';
+import { CafcComponent } from './components/cafc/cafc.component';
 
 @NgModule({
   declarations: [
@@ -101,7 +101,7 @@ import { CafcreportsComponent } from './cafcreports/cafcreports.component';
     PublicationsComponent,
     GototopComponent,
     PublicationComponent,
-    CafcreportsComponent    
+    CafcComponent    
   ],
   imports: [
     CommonModule,
@@ -151,7 +151,8 @@ import { CafcreportsComponent } from './cafcreports/cafcreports.component';
     PersonComponent,
     PublicationsComponent,
     GototopComponent,
-    PublicationComponent
+    PublicationComponent,
+    CafcComponent
   ]
 })
 
