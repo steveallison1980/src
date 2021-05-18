@@ -13,17 +13,21 @@ export class CafcComponent implements OnInit {
 
   @Input() filter: string;
 
+  keyword = "";
+
   constructor(public nav: NavigateService,
     private langService: LanguagesettingService) { }
 
   ngOnInit(): void {
+    this.keyword = "";
   }
 
   reports: Array<ICAFCReport> = CAFC_REPORTS;
 
   getCAFCReports() {
-    if( this.filter == "all") return this.reports;
-    return this.reports.filter(x => x.reportyear.includes(this.filter));
+    let filteryear = ""
+    if( this.filter != "all") filteryear = this.filter;
+    return this.reports.filter(x => x.reportpreview[0].includes(this.keyword) && x.reportyear.includes(filteryear));
   }
 
   getTitle(cafc) {

@@ -30,6 +30,8 @@ import { MatTabsModule } from '@angular/material/tabs';
 import { MatExpansionModule } from '@angular/material/expansion';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatBottomSheetModule } from '@angular/material/bottom-sheet';
+import { MatInputModule } from '@angular/material/input';
+import { FormsModule } from '@angular/forms';
 
 import { OfficecardComponent } from './components/officecard/officecard.component';
 import { PatentsblurbComponent } from './components/patentsblurb/patentsblurb.component';
@@ -115,6 +117,8 @@ import { CafcComponent } from './components/cafc/cafc.component';
     MatExpansionModule,
     MatSidenavModule,
     MatBottomSheetModule,
+    MatInputModule,
+    FormsModule,
     RouterModule,
     FlexLayoutModule
   ],
