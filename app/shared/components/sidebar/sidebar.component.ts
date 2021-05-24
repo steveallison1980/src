@@ -1,4 +1,4 @@
-import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { LanguagesettingService } from '../../../services/languagesetting.service';
 import { NavigateService } from '../../../services/navigate.service';
 import { SITEMAP_DATA } from '../../../../assets/data/staticnav';
@@ -19,12 +19,13 @@ export class SidebarComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  clickItem(component:string){
+  clickItem(component:string, curpage:string){
     console.log(component)
     this.nav.subPage = component;
     this.nav.curPerson = null;
     this.nav.view = "group";
     this.nav.cafcfilter = component;
+    if( curpage == "cafcreports") this.nav.cafcreport = null;
     window.scroll(0, 0);
   }
 

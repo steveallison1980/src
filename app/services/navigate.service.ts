@@ -1,6 +1,8 @@
 import { Injectable } from '@angular/core';
 import { IPerson } from '../interfaces/iperson';
 import { IPublication } from '../interfaces/ipublication';
+import { ICAFCReport } from '../interfaces/icafcreport';
+
 @Injectable({
   providedIn: 'root'
 })
@@ -12,6 +14,7 @@ export class NavigateService {
   public curPerson: IPerson = null;
   public curPublication: IPublication = null;
   public cafcfilter = "all";
+  public cafcreport: ICAFCReport = null;
 
   constructor() { }
 }

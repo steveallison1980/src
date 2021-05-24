@@ -14,6 +14,13 @@
             </mat-card-subtitle>
         </mat-card-header>
         <mat-card-content><p>{{getContent(report)}}</p></mat-card-content>
+        <mat-card-actions fxLayoutAlign="end">
+            <div class="cafcreport-button-row">
+                <button mat-stroked-button (click)="clickDetails(report)">
+                    もっと見る
+                </button>
+            </div>
+        </mat-card-actions>
     </mat-card>
     <br>
 </div>

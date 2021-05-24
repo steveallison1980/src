@@ -41,4 +41,8 @@ export class CafcComponent implements OnInit {
   getContent(cafc){
     return "";
   }
+
+  clickDetails(report){
+    this.nav.cafcreport = report;
+  }
 }
