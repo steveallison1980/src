@@ -2008,14 +2008,85 @@ export const CAFC_REPORTS: ICAFCReport[] = [
 
     // 2015
 
-    // 
+    // December issue
     {
-        casetitle: '',
-        caseno: '',
-        reportyear: '',
-        reportmonth: '',
-        reportdate: '',
-        reportpreview: [''],
+        casetitle: 'SCA Hygiene Products Aktiebolag 対 First Quality Baby Products, LLC 事件',
+        caseno: 'No. 2013-1564',
+        reportyear: '2015',
+        reportmonth: '12',
+        reportdate: 'September 18, 2015',
+        reportpreview: ['損害賠償請求の時効期間内の特許侵害に対し懈怠の抗弁が有効なことを確認した判決', 'SCA判決は、6年の時効期間（米国特許法286条）の損害賠償請求期間内に起きた特許権侵害に基づく損害賠償の請求を阻止するために、懈怠論は依然として採用可能な防御方法であることを確認する判決となった。'],
+        content:
+            [ // TODO: need to reformat the bullet points...?
+                { type: 'sub', elements: [{ texttype: '', text: '- 損害賠償請求の時効期間内の特許侵害に対し懈怠の抗弁が有効なことを確認した判決 -' }] },
+                { type: 'para', elements: [{ texttype: '', text: 'SCA（SCA Hygiene Prod-ucts Aktiebolag）は、成人用失禁製品に関する米国特許第6,375,646号（646特許）の特許権者である。この件に関して、CAFCは大法廷において特許関連事件における懈怠抗弁（ラッチェスディフェンス）の適用を検討した。' }] },
+                { type: 'para', elements: [{ texttype: '', text: 'まず、SCAは、2003年10月にファーストクオリティ（First Quality Baby Products, LLC）に送達したレターで、初めてファーストクオリティに対して644特許について特許権侵害を主張した。' }] },
+                { type: 'para', elements: [{ texttype: '', text: 'このレターに対してファーストクオリティは、2003年11月に、先行技術特許に照らして646特許は無効であると回答した。ファーストクオリティの2003年11月の回答後、SCAとファーストクオリティ間のやり取りは停止した。そして、2004年7月、SCAは、先行技術特許に基づき646特許の再審査を請求した。' }] },
+                { type: 'para', elements: [{ texttype: '', text: 'SCAは、再審査の審理は公開されることから、再審査をファーストクオリティに報告しなかった。一方、ファーストクオリティの理解では、ファーストクオリティが2003年11月のレターで646特許は無効であると主張した後、SCAは侵害主張を取下げたことになっていた。' }] },
+                { type: 'para', elements: [{ texttype: '', text: '2007年3月、USPTOは、原クレーム全ての特許性を確認し、再審査中にSCAが追加した幾つかの他のクレームを許可した。' }] },
+                { type: 'para', elements: [{ texttype: '', text: '再審査中および再審査手続後、ファーストクオリティは、2008年及び2009年に追加商品を入手する等、保護下着ビジネスに多額の投資を行った。' }] },
+                { type: 'para', elements: [{ texttype: '', text: 'SCAはファーストクオリティの行為に気づいていたが、2010年8月まで646特許の主張を再度持ち出すことはしなかった。' }] },
+                { type: 'para', elements: [{ texttype: '', text: '2010年8月、SCAは、ファーストクオリティが646特許の特許権を侵害する旨の訴状を提出した。この訴状の送達は、646特許に関するSCAとファーストクオリティ間の7年振りの連絡であった。' }] },
+                { type: 'para', elements: [{ texttype: '', text: '地方裁判所は、懈怠と衡平法上の禁反言により特許権は行使不能であるというファーストクオリティの申立てを認める略式判決を下した。これに対しSCAは控訴し、2014年9月、CAFCの合議体は、懈怠に関する地裁の判断を支持した一方で、衡平法上の禁反言に関する地裁判決を破棄した。' }] },
+                { type: 'para', elements: [{ texttype: '', text: 'SCAは、Patrella対Metro-Goldwyn-Mayer, Inc.事件（134　S. Ct. 1962 (2014)）の最高裁判決において、著作権法下の損害賠償の訴訟において懈怠に基づく抗弁は成り立たないと判断したことは、特許法における懈怠の適用も禁止したことになると主張したが、合議体はこの主張を却下した。合議体判事は、懈怠の争点に関しては最高裁判決以前のCAFC大法廷判決に拘束されると説明したのである。' }] },
+                { type: 'para', elements: [{ texttype: '', text: 'その後、SCAは大法廷の再審理の請願書を提出し、Patrella最高裁判決に照らして再検討を求めた。' }] },
+                { type: 'para', elements: [{ texttype: '', text: 'CAFCは、（1）Patrella最高裁判決に照らして法定6年間の損害賠償請求期間内に生じた特許権侵害に基づく損害賠償請求を阻止する目的で懈怠の抗弁は適用できないと判断すべきか、および（2）損害賠償または差止救済を請求する侵害訴訟全体を阻止するために、場合によって懈怠の抗弁を利用することが可能であるかを検討するためにSCAの申立を認めた。' }] },
+                { type: 'para', elements: [{ texttype: '', text: '（1）の問題について、CAFCは、特許権侵害の法定6年間の損害賠償請求期間を考慮した。CAFCの考えでは、この法令は、法的措置による救済に対する期間制限を与えるもので、法的救済に対する懈怠抗弁は別の法令により規定されているため、Patrella判決（注）は特許法には影響しないということであった。' }] },
+                { type: 'para', elements: [{ texttype: '', text: 'CAFCは、法的救済に対して可能な対抗措置として議会は懈怠抗弁を成文化しているため、CAFCには法律の妥当性を問う法的権限がない、と結論付けた。' }] },
+                { type: 'para', elements: [{ texttype: '', text: '（2）の問題についてCAFCは、懈怠抗弁の検討は、eBay Inc.対MercExchange, L.L.C.事件（547 US 388 (2006)）のフレームワークと一致すると判断し、懈怠を理由に差止命令を阻止することはできないという「bright-line rule（明白な指標のみにより規定されるルール）」を拒絶した。' }] },
+                { type: 'para', elements: [{ texttype: '', text: 'CAFCは、懈怠の判断とeBayの要因の組み合わせは、条件により、差止めを認めないことを指し得ると述べ、継続して発生するロイヤリティについて衡平法が、懈怠に関わらず、継続するロイヤリティを与えることを必要としている、と述べた。' }] },
+                { type: 'para', elements: [{ texttype: '', text: 'したがって、CAFCは、特別な事情がない限り、懈怠は継続して発生するロイヤリティを排除しないと判断した。' }] },
+                { type: 'para', elements: [{ texttype: '', text: 'SCA判決は、6年の時効期間の損害賠償請求期間内に起きた特許権侵害に基づく損害賠償の請求を妨害するために、懈怠は依然として採用可能な抗弁であることを確認するものである。' }] },
+                { type: 'para', elements: [{ texttype: '', text: '大法廷は、この判決において6対5と判断が分かれたため、最高裁が特許権侵害事件における懈怠抗弁の有効性を検討する可能性がある。' }] },
+                { type: 'point', elements: [{ texttype: '', text: 'SCA判決は、6年の時効期間（米国特許法286条）の損害賠償請求期間内に起きた特許権侵害に基づく損害賠償の請求を阻止するために、懈怠論は依然として採用可能な防御方法であることを確認する判決となった。' }] },
+                { type: 'horiz', elements: [{ texttype: '', text: '' }] },
+                { type: 'after', elements: [{ texttype: '', text: '少数意見は、これに反対し、法定の損害賠償請求期間をケース特有の懈怠論で置き換えることを議会が意図していたと結論付ける根拠を多数派は示せていないと述べた。' }] },
+            ],
+        authorIDs: null,
+    },
+
+    {
+        casetitle: 'Achates Reference Publishing, Inc. 対 Apple Inc. 事件',
+        caseno: 'No. 2014-1767',
+        reportyear: '2015',
+        reportmonth: '12',
+        reportdate: 'Fed. Cir. September 30, 2015',
+        reportpreview: ['当事者系レビュー（IPR）の期間制限に関する審判部の判断についてはCAFCが裁判管轄を持たないことを示した判決', 'この判決は、当事者系レビュー（IPR）の期間制限（第315条（b））に関する審判部の決定について、CAFCには裁判管轄権がないことを示した。この点は、仮に期間制限に関する判断がIPRの実体審理段階において再検討され、審決の一部として再度言及された場合であっても変わることはない。'],
+        content:
+            [
+                { type: 'sub', elements: [{ texttype: '', text: '- 当事者系レビュー（IPR）の期間制限に関する審判部の判断についてはCAFCが裁判管轄を持たないことを示した判決 -' }] },
+                { type: 'para', elements: [{ texttype: '', text: 'アカーテス（Achates Refer-ence Publishing, Inc.）は、米国特許第5,982,889号（以下889特許）及び米国特許第6,173,403号（以下、「403特許」）（以下、まとめて「係争特許」）の特許権者である。' }] },
+                { type: 'para', elements: [{ texttype: '', text: '2011年6月、アカーテスは、クイックオフィス（QuickOffice, Inc.）を含む複数の被告を相手に訴訟を提起し、係争特許の特許権侵害を主張した。' }] },
+                { type: 'para', elements: [{ texttype: '', text: 'アカーテスは1年後にアップル（Apple Inc.）を被告に追加し、アップルも係争特許の特許権を侵害していると主張した。2012年12月、アップルは、米国特許商標庁において係争特許についての当事者系レビュー（以下、IPR）を請求した。' }] },
+                { type: 'para', elements: [{ texttype: '', text: 'この請求に対してアカーテスは、署名されていない免責契約に基づき、アップルがクイックオフィスと（そして恐らくは他の被告とも）関係を有していたと主張した。' }] },
+                { type: 'para', elements: [{ texttype: '', text: 'アカーテスは、この関係によりアップルのIPR請求は米国特許法第315条（b）に定める期間制限の対象であると主張した。米国特許法第315条（b）は、請求人、真の利益当事者または請求人の利害関係人は、特許権侵害を主張する訴状を送達された日から1年以内にその特許に対するIPR請求を行うことを要件としている。' }] },
+                { type: 'para', elements: [{ texttype: '', text: 'アカーテスは、アップルの他の被告との関係を立証するために、証拠開示を請求した。審判部はこの請求を却下し、仮にこの空欄の免責契約に実際に署名されていたとしても、それによりいずれかの被告が真の利益当事者またはアップルの利害関係人であることを示していると信じる根拠はないと判断した。' }] },
+                { type: 'para', elements: [{ texttype: '', text: '審判部は、被告のいずれかが何らかの特許権侵害訴訟に対するアップルの抗弁をコントロールする権利を持っているという証拠は存在しないと結論付けた。また、アップル及び他の被告は地方裁判所の訴訟において「個別の利害」を持つと審判部は判断した。続いて、審判部は係争特許に関するIPR手続を開始した。' }] },
+                { type: 'para', elements: [{ texttype: '', text: 'アカーテスは、IPRの実体審理段階においても、アップルのIPR請求が期間制限の対象であるとの主張を継続した。IPRの審決において、審判部は、IPR請求が期間制限の対象であるという当初の判断を再確認し、また係争特許は無効であると認定した。' }] },
+                { type: 'para', elements: [{ texttype: '', text: '控訴審においてアカーテスは、審判部が開示手続きの請求を却下し、アップルのIPR請求を第315条（b）に定める期間制限の対象ではないと結論付けたことは誤りであると主張した。' }] },
+                { type: 'para', elements: [{ texttype: '', text: 'アップルは、IPR請求が期間制限の対象か否かに関する争点がIPRの開始決定の適否に関わることを理由に、CAFCには控訴審の管轄がないと主張した。さらに、アップルは、実体面においても審判部の決定は支持されるべきであると主張した。' }] },
+                { type: 'para', elements: [{ texttype: '', text: '米国特許法第141条（c）は、審判部の決定に不服のある当事者がCAFCへ上訴することを認めている。他方、第314条（d）は、「本条に基づくIPRを開始するか否かに関する長官による決定は最終的なものであり、上訴できない」と規定している。' }] },
+                { type: 'para', elements: [{ texttype: '', text: 'CAFCは、開始決定に関する上訴を扱う管轄権をCAFCが持たないと判断した過去の判例について引用した。この判例によれば、再審理の禁止は中間上訴に限定されず、開始判断に関する上訴が審判部の審決後に行われた場合にも適用される。' }] },
+                { type: 'para', elements: [{ texttype: '', text: 'CAFCは、特許権者がビジネス方法レビュー（以下、CBMR）の対象となるビジネス方法特許に該当するとした審判部の決定について、審決後に控訴した事件の判例について述べた。この判決におけるCAFCの判断によれば、開始決定に対する上訴は不可能であるものの、対象特許がビジネス方法特許に該当するか否かの判断は、最終的な実体判断の一部であり、CBMRを行う審判部の権限はビジネス方法の定義に合致する特許に限定されるため、再審理の対象となる。' }] },
+                { type: 'para', elements: [{ texttype: '', text: 'アカーテスは、期間制限の対象となるIPR請求は特許を無効にする審判部の権限の一部でもあるため、再審理可能であるべきだと主張したが、CAFCはこの主張を退けた。' }] },
+                { type: 'para', elements: [{ texttype: '', text: 'CAFCの判断によれば、第315条（b）は、特許クレームを無効にする審判部の権限に影響を与えるものではなく、特定の請求人がクレームに異議を唱えることを禁止するものに過ぎない。加えてCAFCは、時間的制限は適切に行われた共同請求には適用されないと述べた。CAFCの説明によれば、適時性の問題は、仮にアップルの請求がより早期に行われていたならば避けることができたものである。' }] },
+                { type: 'para', elements: [{ texttype: '', text: 'アカーテスは、審判部が審決において期間制限の判断を再確認したことにより、この判断について控訴することが可能になったと主張した。しかし、CAFCはこの主張も却下した。' }] },
+                { type: 'para', elements: [{ texttype: '', text: 'CAFCの判断によれば、審判部による期間制限の再検討は、依然として、開始判断の一部として明確に位置付けられるというものである。' }] },
+                { type: 'para', elements: [{ texttype: '', text: 'アカーテスの事件により、第315条（b）の期間制限に関する審判部の評価に基づいてIPR手続を開始する審判部の決定については、CAFCには再審理の管轄権がないことが明らかになった。この点は、仮にそのような評価が手続の実体面の段階において再審理され、審判部の審決の一部として再度言及された場合であっても、変わることはない。' }] },
+                { type: 'point', elements: [{ texttype: '', text: 'この判決は、当事者系レビュー（IPR）の期間制限（第315条（b））に関する審判部の決定について、CAFCには裁判管轄権がないことを示した。この点は、仮に期間制限に関する判断がIPRの実体審理段階において再検討され、審決の一部として再度言及された場合であっても変わることはない。' }] },
+            ],
+        authorIDs: null,
+    },
+
+    // TODO: Please start from here Masuko-san!
+    // Link: https://www.patest.co.jp/cafc/2015/cafc20151203.html
+    {
+        casetitle: 'Summit 6, LLC v. Samsung Electronics Co., Ltd. 事件',
+        caseno: 'Nos. 2013-1648, -1651',
+        reportyear: '2015',
+        reportmonth: '12',
+        reportdate: 'Fed. Cir. September 21, 2015',
+        reportpreview: ['ロイヤリティ算定のための専門家証言の採用基準に柔軟さを認めた判決', 'この判決は、専門家証言における合理的なロイヤリティの算定方法は、理論的に信頼性があり、事件の事実と関連付けされていれば、過去に使われたことのない手法であっても採用され得ることを明らかにした。'],
         content:
             [
                 { type: '', elements: [{ texttype: '', text: '' }] },
@@ -2035,6 +2106,912 @@ export const CAFC_REPORTS: ICAFCReport[] = [
         authorIDs:
             [''],
     },
+
+    // November issue
+    {
+        casetitle: 'The Dow Chemical Co. 対 Nova Chemical Corp. 事件',
+        caseno: 'Nos. 14-1431, 2014-1462',
+        reportyear: '2015',
+        reportmonth: '11',
+        reportdate: 'August 28, 2015',
+        reportpreview: ['事件係争中の最高裁判決（Nautilus事件）に基づき、不明確性の主張が再検討され、新基準下で特許クレームを無効にした判決', 'この判決は、争いが続いている裁判の途中に、その事件に関する判例の変更があった場合に、その事件の中で既に出されている判決を争うことが可能になったことを示した。更にこの判決は不明確性について、以前の基準とNautilus基準の違いを例示的に示し、結果としてより多くの特許クレームに対して不明確性が主張され得る状況を作った。'],
+        content:
+            [
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+            ],
+        authorIDs:
+            [''],
+    },
+
+    {
+        casetitle: 'Media Rights Tech Inc. 対 Capital One Financial Corp. 事件',
+        caseno: 'No. 2014-1218',
+        reportyear: '2015',
+        reportmonth: '11',
+        reportdate: 'September 4, 2015',
+        reportpreview: ['ミーンズ・プラス・ファンクションによる機能的表現を不明確と判断した判決', 'この事件では、「ミーンズ」という用語を欠いているクレーム文言にCAFCが第112条第6パラグラフの要件を適用した最近の例である。この判決は、ミーンズ・プラス・ファンクションの分析の影響を受けるクレーム文言の件数が増えていることの傾向の一部であると考えられる。また、この判決は、コンピュータで実施される機能に対応するミーンズ・プラス・ファンクションのクレーム文言は、不明確と判断されることを避けるために、クレームの各機能について明細書に十分な構造またはアルゴリズムによるサポートを与える必要があることを再確認した。'],
+        content:
+            [
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+            ],
+        authorIDs:
+            [''],
+    },
+
+    {
+        casetitle: 'Dynamic Drinkware, LLC 対 National Graphics, Inc. 事件',
+        caseno: 'No. 2015-1214',
+        reportyear: '2015',
+        reportmonth: '11',
+        reportdate: 'Fed. Cir. September 2, 2015',
+        reportpreview: ['仮出願日が有効な基準日となるための立証要件と、当事者系再審査手続きにおける立証責任の転換を論じた判決', 'この判決においてCAFCは、当事者系再審査請求における先行技術特許の基準日を仮出願日に基づいて主張する場合、仮出願時の開示内容が特許クレームをサポートしていることを立証する義務が申立て側にあることを明らかにした。また、当事者系再審査手続きにおける証拠提出責任は、両者の間で転換することを示した。'],
+        content:
+            [
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+            ],
+        authorIDs:
+            [''],
+    },
+
+    // October issue
+    {
+        casetitle: 'Microsoft Corp. 対 Motorola, Inc. 事件',
+        caseno: 'No. 14-35393',
+        reportyear: '2015',
+        reportmonth: '10',
+        reportdate: '9th Cir. July 30, 2015)',
+        reportpreview: ['標準規格必須特許のRAND実施料率の算出手法を明らかにした判決', 'マイクロソフト事件は、裁判所はRANDの義務のある特許の適切なロイヤリティ実施料率を判断するための柔軟な事実に即したアプローチを採用し、Georgia-Pacific事件をこのようなケースに厳格に適用すべきという主張を拒絶することを明らかにした。今後のSEPsのRAND実施料率に関しては、この判決の地方裁判所のアプローチを追従する傾向になると思われる。また、この判決はRANDに関するSEPs特許を積極的に権利行使する戦略のリスクを明らかにした。'],
+        content:
+            [
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+            ],
+        authorIDs:
+            [''],
+    },
+
+    {
+        casetitle: 'Carnegie Mellon Univ. 対 Marvell Tech. Group, Ltd. 事件',
+        caseno: 'No. 14-1492',
+        reportyear: '2015',
+        reportmonth: '10',
+        reportdate: 'August 4, 2015',
+        reportpreview: ['故意侵害の認定には明確かつ説得力のある証拠が必要で、米国内で製造・販売が行われていない製品は損害賠償の対象外であることを示した判決', 'この判決は、故意侵害を認めるためには明確かつ説得力のある証拠が必要なことを示した。また、米国内で製造・販売等が行われていない製品は損害賠償の対象にならず、販売が行われた場所の判断には、売買契約の締結地や実質的な取引活動が行われた場所など、多様な基準が用いられることも示している。'],
+        content:
+            [
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+            ],
+        authorIDs:
+            [''],
+    },
+
+    {
+        casetitle: 'Circuit Check Inc. 対 QXQ Inc., 事件',
+        caseno: 'No. 15-1155',
+        reportyear: '2015',
+        reportmonth: '10',
+        reportdate: 'July 28, 2015',
+        reportpreview: ['自明性の判断において、先行技術の類似性の重要性を示した判決', 'この判決は、自明性の判断において先行技術には、類似技術、つまり同じ分野または発明者が解決しようとする具体的な課題に合理的に関連することが必要なことを判示した。'],
+        content:
+            [
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+            ],
+        authorIDs:
+            [''],
+    },
+
+    // September issue
+    {
+        casetitle: 'Kimble 対 Marvel Entertainment, LLC 事件',
+        caseno: 'No. 13-720',
+        reportyear: '2015',
+        reportmonth: '9',
+        reportdate: 'June 22, 2015',
+        reportpreview: ['ロイヤリティを受ける権利が特許権の満了で終了するか否かを論じた判決', '最高裁は、先の判例に基づき特許権満了後のロイヤリティ支払いを不要としたCAFC判決を支持した。この判決は、Brulotte判決のような制定法の解釈に関する判決の先例拘束力を挙げ、先例を覆すことに最高裁は消極的であることを明らかにした。'],
+        content:
+            [
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+            ],
+        authorIDs:
+            [''],
+    },
+
+    {
+        casetitle: 'WesternGeco LLC 対 ION Geophysical Co. 事件',
+        caseno: 'Nos. 2013-1527, 2014-1121, 2014-1526, 2014-1528',
+        reportyear: '2015',
+        reportmonth: '9',
+        reportdate: 'July 2, 2015',
+        reportpreview: ['海外で組み立てられる侵害部品の輸出に対する特許法第271条（f）の誘導侵害の条件と、救済の範囲を明らかにした判決', 'この判決では、海外で組み立てられる侵害品の部品の輸出を特許法第271条（f）に基づく誘導侵害と判断する上で、輸出の時点で侵害する方法で部品が組み立てられることを意図していれば、この条項が限定的に適用されることを明らかにした。さらに特許権者が実施できない侵害行為に対しては逸失利益の主張はできないことを確認した。'],
+        content:
+            [
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+            ],
+        authorIDs:
+            [''],
+    },
+
+    {
+        casetitle: 'SpeedTrack, Inc 対 Office Depot, Inc. 事件',
+        caseno: 'No. 2014-1475',
+        reportyear: '2015',
+        reportmonth: '9',
+        reportdate: 'June 30, 2015',
+        reportpreview: ['先の判決で非侵害と認定された製品はその後の侵害訴訟でも非侵害と認定されること（ケスラー原理）を確認した事例', 'この判決は、様々な企業に対して同じ特許権を続けて行使している特許権者からの特許権侵害主張に直面している企業にとって、ケスラー原理が有用であることを浮き彫りにした。ケスラー原理は、先行する地方裁判所の訴訟が非侵害により終結した場合に価値のあるツールとなる。'],
+        content:
+            [
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+            ],
+        authorIDs:
+            [''],
+    },
+
+    // August issue
+    {
+        casetitle: 'Commil USA, LLC 対 Cisco Systems, Inc. 事件',
+        caseno: 'No. 13-896',
+        reportyear: '2015',
+        reportmonth: '8',
+        reportdate: 'May 26, 2015',
+        reportpreview: ['誠実に特許無効を確信していることが誘導侵害の主張に対する抗弁として有効であるか否かを判断した最高裁判決', 'コミル判決は、誠実に特許無効を確信することは、誘導侵害の主張に対する有効な抗弁とはならないことを示している。'],
+        content:
+            [
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+            ],
+        authorIDs:
+            [''],
+    },
+
+    {
+        casetitle: 'Alps South, LLC 対 Ohio Willow Wood Co. 事件',
+        caseno: 'Nos. 2013-1452, -1488, 2014-1147, -1426',
+        reportyear: '2015',
+        reportmonth: '8',
+        reportdate: 'June 5, 2015',
+        reportpreview: ['特許権について「全ての実質的な権利」を持たない限り、ライセンシー単独では特許侵害訴訟の原告適格を持たないことを示した判決', 'この判決は、特許権について「全ての実質的な権利」が付与されていない限り、ライセンシー単独では特許侵害訴訟の原告適格を持たないと判示した。また、訴訟提起後の遡及的ライセンス契約によっては、原告適格の欠陥を正すことができないことも判示している。'],
+        content:
+            [
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+            ],
+        authorIDs:
+            [''],
+    },
+
+    {
+        casetitle: 'Williamson 対 Citrix Online, LLC 事件',
+        caseno: 'No. 13-1130',
+        reportyear: '2015',
+        reportmonth: '8',
+        reportdate: 'June 16, 2015',
+        reportpreview: ['米国特許法第112条6項に関するCAFC大法廷による新たな判断基準の提示', 'CAFCは、クレーム文言の米国特許法第112条6項適用に関する新しい判断基準を示した。過去の判決において、クレームにmeansを使用していない場合、この条文を適用すべきではないという強力な反証の推定を生ずるとしていたが、CAFC大法廷はこの基準を再考し、クレームにmeansを使用しない場合であっても、明細書にクレームされた機能を実行する構成の記載が不可欠であると判断した。'],
+        content:
+            [
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+            ],
+        authorIDs:
+            [''],
+    },
+
+    // July issue
+    {
+        casetitle: 'BioSig Instruments, Inc. 対 Nautilus, Inc. 事件',
+        caseno: 'No. 2012-1289',
+        reportyear: '2015',
+        reportmonth: '7',
+        reportdate: 'April 27, 2015',
+        reportpreview: ['CAFCが最高裁の「合理的な明確性（reasonable certainty）」の基準を採用した判決', 'CAFCは不明瞭性に関して最高裁の新規基準「合理的な明確性」を適用した。その結果争点のクレーム文言は本質的な証拠に照らして、合理的な明確性をもって発明の技術的範囲が当業者に伝わるため、クレームは不明瞭でないと判断した。'],
+        content:
+            [
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+            ],
+        authorIDs:
+            [''],
+    },
+
+    {
+        casetitle: 'Eon Corp. IP Holdings LLC 対 AT&T Mobility LLC 事件',
+        caseno: 'Nos. 2014-1392, 2014-1393',
+        reportyear: '2015',
+        reportmonth: '7',
+        reportdate: 'May 6, 2015',
+        reportpreview: ['コンピュータ・ソフトウェア分野におけるミーンズ・プラス・ファンクションクレームに対応する明細書の記載要件を明らかにした判決', 'この判決は、コンピュータ・ソフトウェア分野のMPFクレームは、明細書中にMPFの構成要素に対応する構成、ソフトウェア、もしくはアルゴリズムの開示が無い場合、不明瞭による特許無効の申立てを受けやすいことを指摘している。'],
+        content:
+            [
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+            ],
+        authorIDs:
+            [''],
+    },
+
+    {
+        casetitle: 'Akamai Technologies, Inc. et al. 対 Limelight Networks, Inc. 事件',
+        caseno: 'Nos. 2009-1372, 2009-1380, 2009-1416, 2009-1417 ',
+        reportyear: '2015',
+        reportmonth: '7',
+        reportdate: 'May 13, 2015',
+        reportpreview: ['CAFCは地裁の判決を再び支持し、複数者による行為に直接侵害を否定した判決', 'この判決は、方法特許のクレームの侵害の解釈にとって重要である。この判決では、Muniauction, Inc.対Thomson Corp.事件（532 F.3d 1318, Fed. Cir. 2008）の判決が支持され、複数の独立した当事者が特許方法の様々な工程を実行する場合は直接侵害を否定した。CAFCの意見が割れたので、CAFCの大法廷または最高裁がこの事件を再考し、特許侵害に関する特許法の条文が共同不法行為の文脈で侵害責任を規定しているかどうかを、審理する可能性がある。'],
+        content:
+            [
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+            ],
+        authorIDs:
+            [''],
+    },
+
+    // June issue
+    {
+        casetitle: 'Intellectual Ventures II LLC 対 JPMorgan Chase & Co. 事件',
+        caseno: 'No. 14-1724',
+        reportyear: '2015',
+        reportmonth: '6',
+        reportdate: 'April 1, 2015',
+        reportpreview: ['ビジネス方法の付与後レビューがPTOに係属している間は、係争中の地裁事件の停止決定に対する控訴はCAFCの裁判権の管轄外とした判決', 'CAFCは、CBM（Covered Business Method：特定ビジネス方法）の付与後レビューの申請に基づく停止申立の決定に対する中間控訴であって、PTOがCBMレビューの申請を許可する前の中間控訴は、CAFCの裁判権の管轄外であると判断した。停止の許可まで平行して進む地裁訴訟のコストを最小限にするために、係争の早い時点でCBMレビューを申請するのが望ましい。'],
+        content:
+            [
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+            ],
+        authorIDs:
+            [''],
+    },
+
+    {
+        casetitle: 'Vasudevan Software, Inc. 対 MicroStrategy, Inc. 事件',
+        caseno: 'Nos. 14-1094, 14-1096',
+        reportyear: '2015',
+        reportmonth: '6',
+        reportdate: 'April 3, 2015',
+        reportpreview: ['実施可能要件および記載要件に関する特許権者側の専門家証言に対する反論が無かったことにより特許無効の略式判決を破棄した判決', 'この判決は、実施可能要件および記載要件の争点に関する専門家証言に対する反論が無い場合、これらの争点における特許無効の略式判決は破棄される可能性があることを示した。またこの事件はクレーム文言の解釈における審査経過の重要性を判示した。審査手続きにおいて出願人が明瞭に意見書で供述したことは、後に裁判において重要なクレームの文言を限定する可能性があることに注意すべきである。'],
+        content:
+            [
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+            ],
+        authorIDs:
+            [''],
+    },
+
+    {
+        casetitle: 'Automated Merchandising Systems, Inc. 対 Lee 事件',
+        caseno: 'No. 14-1728',
+        reportyear: '2015',
+        reportmonth: '6',
+        reportdate: 'April 10, 2015',
+        reportpreview: ['両当事者が和解しても当事者系レビューを終了できない可能性を示した判決', 'この判決は、当事者系レビューの申請後は、たとえ両当事者が裁判所で和解しても、この手続を終了できない可能性があることを示す。従って、利害関係者及び実務家は、特許付与後のPTOの手続を申請する際には、特許付与後のPTOの手続きが含み得る紛争解決の可能性に注意を払いながら、当事者系レビューに対応しなければならない。'],
+        content:
+            [
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+            ],
+        authorIDs:
+            [''],
+    },
+
+    // May issue
+    {
+        casetitle: 'Warsaw Orthopedic, Inc. 対 NuVasive, Inc. 事件',
+        caseno: 'Nos. 13-1576, 13-1577',
+        reportyear: '2015',
+        reportmonth: '5',
+        reportdate: 'March 2, 2015',
+        reportpreview: ['逸失利益を基に賠償金を認める要件を明らかにした判決', 'CAFCは、特許を実施していない特許権者は逸失利益の損害賠償を請求できない可能性があることを明らかにした。逸失利益を主張するためには、特許ライセンス先の販売が特許技術と密接に関連することを示す十分な証拠が必要である。'],
+        content:
+            [
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+            ],
+        authorIDs:
+            [''],
+    },
+
+    {
+        casetitle: 'Enzo Biochem, Inc. 対 Applera Corp., 事件',
+        caseno: 'No. 2014-1321',
+        reportyear: '2015',
+        reportmonth: '5',
+        reportdate: 'March 16, 2015',
+        reportpreview: ['クレーム解釈の基礎的な手法を論じた判決', '侵害の問題で重要な点は、先ずクレーム解釈である。この判決は、特許クレームの文言自体が、特定のクレーム用語の解釈において最も説得力のある証拠になり得ることを判示している。地裁によるクレーム解釈の破棄を望む当事者は、クレームの文言に基づき正しいクレーム解釈を控訴審で主張することが必要である。'],
+        content:
+            [
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+            ],
+        authorIDs:
+            [''],
+    },
+
+    {
+        casetitle: 'Two-Way Media LLC 対 AT&T, Inc. 事件',
+        caseno: 'No. 2014-1302',
+        reportyear: '2015',
+        reportmonth: '5',
+        reportdate: 'March 19, 2015',
+        reportpreview: ['代理人が通知を見落として上訴期間を徒過した問題の事件', 'この事件の判決は、米国の訴訟において、当事者の利益は多くの規則によって支配されていることを教えている。控訴期間も規則に縛られ、これを徒過すると不利な判決に控訴する機会が消失する。当事者及び代理人は、裁判所からのすべての命令を注意深く読み、期限に間に合うようにあらゆる努力をしなければならない。'],
+        content:
+            [
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+            ],
+        authorIDs:
+            [''],
+    },
+
+    // April issue
+    {
+        casetitle: 'Teva Pharmaceuticals USA, Inc. 対 Sandoz, Inc. et al., 事件',
+        caseno: 'No. 13-854',
+        reportyear: '2015',
+        reportmonth: '4',
+        reportdate: 'January 20, 2015',
+        reportpreview: ['控訴審による地裁の事実認定の破棄基準に関する最高裁の指針', 'このテバ判決は、地裁におけるクレーム解釈のプロセスと、CAFCによる地裁のクレーム解釈のレビューに著しく影響を与えると思われる。例えば、地裁はクレーム解釈の判決の裏付けに、今後、専門家証言を含む外在証拠により頼る傾向を示す可能性がある。控訴審の段階では、地裁判決がより尊重されることになり、クレーム解釈の地裁判決を破棄するケースが減少する可能性がある。クレーム解釈に加え、テバ判決は、略式判決および不明瞭性の判断にも多少の影響を与える可能性もある。クレーム解釈における事実問題の重要性が明らかに増すことになり、テバ判決は、クレーム解釈に依存する略式判決手続きの効率性に影響を与えることが予想できる。', '更に、CAFCは、不明瞭性をクレームの解釈に付随する問題として扱ってきたため、テバ判決により、CAFCは不明瞭性の審理基準を再検討する可能性もある。'],
+        content:
+            [
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+            ],
+        authorIDs:
+            [''],
+    },
+
+    {
+        casetitle: 'In re Cuozzo Speed Technologies LLC',
+        caseno: 'No. 2014-1301',
+        reportyear: '2015',
+        reportmonth: '4',
+        reportdate: 'February 4, 2015',
+        reportpreview: ['当事者系再審査でのクレーム解釈基準、および、新法下での特許庁審判部の審決に対する裁判所の管轄権について', 'CAFCは、特許法第314条（d）に基づき、特許庁審判部（PTAB）による当事者系再審査（IPR）の開始決定を審査する管轄権が裁判所にはないとの判断を下し、PTABのIPR手続きにおけるクレーム解釈基準（最も広義で合理的な解釈基準）による審決を支持した。この判決により、PTABにおけるIPR手続きが、現時点では特許を無効にする最も効果的な手段となりうることが明らかになった。'],
+        content:
+            [
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+            ],
+        authorIDs:
+            [''],
+    },
+
+    {
+        casetitle: 'Helferich Patent Licensing, LLC 対 The New York Times Co.',
+        caseno: 'Nos. 2014-1196, -1197, -1998, -1999, -1200',
+        reportyear: '2015',
+        reportmonth: '4',
+        reportdate: 'February 10, 2015',
+        reportpreview: ['その特許に限って消尽論を限定的に適用した新たな傾向の判決', '最近の判決は消尽論の範囲を広げる傾向にあったが、この判決は、範囲の拡大を制限する可能性を示した。この判決は、侵害被疑者がライセンス対象製品の所有者と異なっており、また、対象発明がライセンス発明（例えば携帯電話の製造に係る発明と、情報の提供方法に係る発明）とは異なっていたため、消尽論の適用を認めなかった。'],
+        content:
+            [
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+            ],
+        authorIDs:
+            [''],
+    },
+
+    // March issue
+    {
+        casetitle: 'Stryker Corp. et al. 対 Zimmer, Inc. et al., 事件',
+        caseno: 'No. 2013-1668',
+        reportyear: '2015',
+        reportmonth: '3',
+        reportdate: 'December 19, 2014',
+        reportpreview: ['検討したクレーム解釈が否定された場合の故意責任を論じた判決', 'この判決は、非侵害の判決を勝ち取れなかったクレーム解釈であっても、その解釈に合理性があれば、故意侵害の認定を排除し得ることを教示している。この判決は、抗弁の合理性に関する判断には、被疑侵害者が提示する具体的な主張及び証拠の客観的な評価を必要とする。'],
+        content:
+            [
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+            ],
+        authorIDs:
+            [''],
+    },
+
+    {
+        casetitle: 'Content Extraction and Transmission LLC対Wells Fargo Bank, NA 事件',
+        caseno: 'Nos. 2013-1588, -1589, 2014-1112, -1687',
+        reportyear: '2015',
+        reportmonth: '3',
+        reportdate: 'December 23, 2014',
+        reportpreview: ['CAFCによるアリス事件最高裁判決の判断基準の具体的な適用例を示した判決', 'この判決は、方法を既知の機械に単に結びつけることは、既知の機械の使用において発明的概念がない限り、抽象的概念を、特許適格性のある発明なしない。この判決は更に、あるクレームが代表的クレームであるならば、無効性判断が求められた全てのクレームの個別な判断が不要であることを示した。アリス事件の後、ビジネス方法及びソフトウェア関連特許について、特許不適格な主題に基づく規則第12条（b）（6）の下での却下の申し立てがやり易くなることを示している。'],
+        content:
+            [
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+            ],
+        authorIDs:
+            [''],
+    },
+
+    {
+        casetitle: 'Versata Software, Inc. et al. 対 Callidus Software, Inc. 事件',
+        caseno: 'No. 2014-1468',
+        reportyear: '2015',
+        reportmonth: '3',
+        reportdate: 'November 20, 2014',
+        reportpreview: ['付与後レビューの申立、特に申立タイミングと侵害裁判の中断を論じた判決', 'ベルサータ判決は、付与後レビューの申立があったときの裁判の中断を判断する基準を適切に分析している。AIAが定めているファクターを考慮し、被告は特許のCBMレビューの間、裁判を中断してもらうことが可能である。'],
+        content:
+            [
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+            ],
+        authorIDs:
+            [''],
+    },
+
+    // Febraury issue
+    {
+        casetitle: 'Memorylink Corp. 対 Motorola Solutions Inc. et al. 事件',
+        caseno: 'No. 14-1186',
+        reportyear: '2015',
+        reportmonth: '2',
+        reportdate: 'December 5, 2014',
+        reportpreview: ['発明者の真偽とその譲渡の有効性を論じた判決', 'メモリーリンク判決は、契約法および特許譲渡書の基本原則を示している。本判決は、署名された特許権の譲渡書が、約因が名目的であり、推定上の発明者が実際には譲渡する権限を持っていなかった場合であっても有効な契約となることを注意喚起している。CAFCは契約における約因の充足度に一般的に異議を唱えないし、契約が有効であることを結論付けるために発明者の適格性を判断する必要がない。'],
+        content:
+            [
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+            ],
+        authorIDs:
+            [''],
+    },
+
+    {
+        casetitle: 'DDR Holdings LLC 対 Hotels.com LP 事件',
+        caseno: 'No. 13-1505',
+        reportyear: '2015',
+        reportmonth: '2',
+        reportdate: 'December 5, 2014',
+        reportpreview: ['アリス（Alice）事件の第2ステップ（特許適格性への変換）の基準を判断した判決', 'この判決は、アリス事件の第2ステップの特許適格性に関するCAFCの判断基準を解説している。この判決は、裁判所が特許適格性のない抽象的概念と、特許適格性のある発明主題とを線引きをする際の重要な判断基準を示した。この判決から、CAFCが一般的なビジネスまたは商業関連のクレームとは対照的に、インターネットの使用に端を発する特許問題を重要と判断しているように思われる。'],
+        content:
+            [
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+            ],
+        authorIDs:
+            [''],
+    },
+
+    {
+        casetitle: 'Tyco Healthcare Group LP et al. 対 Ethicon Endo-Surgery Inc., 事件',
+        caseno: 'No. 13-1324',
+        reportyear: '2015',
+        reportmonth: '2',
+        reportdate: 'December 4, 2014',
+        reportpreview: ['102条（g）と103条の先行技術に該当するための要件を判断した判決', 'この判決は、102条（g）の規定による先行技術がその時点では出願人又は当業者に知られていない秘密の先行技術であっても、102条（g） 及び103条双方で先行技術となることを判示している。また、先行技術として利用するためには、着想の先行と勤勉性に関する十分な証拠とが、その後の実施化よりも重要であることを示している。'],
+        content:
+            [
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+            ],
+        authorIDs:
+            [''],
+    },
+
+    // January issue
+    {
+        casetitle: 'Williamson 対 Citrix Online, LLC 事件',
+        caseno: 'No. 13-1130',
+        reportyear: '2015',
+        reportmonth: '1',
+        reportdate: 'November 5, 2014',
+        reportpreview: ['クレーム中の文言に「手段」が無ければ、そのクレームにMPF（第112条第6段落の適用）を推定しないと論じた判決', 'この判決は、クレームの文言に「手段」の記載がない場合には、第112条第6段落のMFPクレームではないという強力な推定が働くことを示した。特許権者が積極的にMFPクレームを作成したと当業者が認識できる程度にクレームが構造的な要件を欠いているか否かの判定に、クレーム文言そのものと、クレーム全体を裁判所が検討することを述べている。'],
+        content:
+            [
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+            ],
+        authorIDs:
+            [''],
+    },
+
+    {
+        casetitle: 'Azure Networks, LLC 対 CSR PLC, 事件',
+        caseno: 'No. 13-1459',
+        reportyear: '2015',
+        reportmonth: '1',
+        reportdate: 'November 6, 2014',
+        reportpreview: ['タイトル：その特許に対して排他的な権利を持たない者の当事者適格性を論じた判決', 'この判決は、特許の実質的権利を第三者に移転した者は特許侵害訴訟の原告適格性を欠くと判断される可能性があることを示した。当事者適格の争点を考慮する上で、特許の中心的な権利を持つ者、特許の使用を排他的に管理する者に当事者適格を認める傾向が裁判所にあることを教えている。'],
+        content:
+            [
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+            ],
+        authorIDs:
+            [''],
+    },
+
+    {
+        casetitle: 'Antares Pharma, Inc. 対 Medac Pharma Inc., 事件',
+        caseno: 'Nos. 14-1648',
+        reportyear: '2015',
+        reportmonth: '1',
+        reportdate: 'November 17, 2014',
+        reportpreview: ['再発行特許に必要な原特許要件を論じた判決', 'この事件でCAFCは、米国特許法第251条に基づき、再発行特許のクレームは「原特許」要件を満たさないことを理由に無効であると判断した。「原特許」の要件を満たすためには、再発行特許における新たな、または訂正クレームの発明が、原特許明細書に明白かつ明解に記載されていなければならないことを明らかにした。'],
+        content:
+            [
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+                { type: '', elements: [{ texttype: '', text: '' }] },
+            ],
+        authorIDs:
+            [''],
+    },
+
+    // 2014
+
+    //
 
     {
         casetitle: '',
@@ -2063,140 +3040,8 @@ export const CAFC_REPORTS: ICAFCReport[] = [
             [''],
     },
 
-    {
-        casetitle: '',
-        caseno: '',
-        reportyear: '',
-        reportmonth: '',
-        reportdate: '',
-        reportpreview: [''],
-        content:
-            [
-                { type: '', elements: [{ texttype: '', text: '' }] },
-                { type: '', elements: [{ texttype: '', text: '' }] },
-                { type: '', elements: [{ texttype: '', text: '' }] },
-                { type: '', elements: [{ texttype: '', text: '' }] },
-                { type: '', elements: [{ texttype: '', text: '' }] },
-                { type: '', elements: [{ texttype: '', text: '' }] },
-                { type: '', elements: [{ texttype: '', text: '' }] },
-                { type: '', elements: [{ texttype: '', text: '' }] },
-                { type: '', elements: [{ texttype: '', text: '' }] },
-                { type: '', elements: [{ texttype: '', text: '' }] },
-                { type: '', elements: [{ texttype: '', text: '' }] },
-                { type: '', elements: [{ texttype: '', text: '' }] },
-                { type: '', elements: [{ texttype: '', text: '' }] },
-            ],
-        authorIDs:
-            [''],
-    },
 
-    {
-        casetitle: '',
-        caseno: '',
-        reportyear: '',
-        reportmonth: '',
-        reportdate: '',
-        reportpreview: [''],
-        content:
-            [
-                { type: '', elements: [{ texttype: '', text: '' }] },
-                { type: '', elements: [{ texttype: '', text: '' }] },
-                { type: '', elements: [{ texttype: '', text: '' }] },
-                { type: '', elements: [{ texttype: '', text: '' }] },
-                { type: '', elements: [{ texttype: '', text: '' }] },
-                { type: '', elements: [{ texttype: '', text: '' }] },
-                { type: '', elements: [{ texttype: '', text: '' }] },
-                { type: '', elements: [{ texttype: '', text: '' }] },
-                { type: '', elements: [{ texttype: '', text: '' }] },
-                { type: '', elements: [{ texttype: '', text: '' }] },
-                { type: '', elements: [{ texttype: '', text: '' }] },
-                { type: '', elements: [{ texttype: '', text: '' }] },
-                { type: '', elements: [{ texttype: '', text: '' }] },
-            ],
-        authorIDs:
-            [''],
-    },
 
-    {
-        casetitle: '',
-        caseno: '',
-        reportyear: '',
-        reportmonth: '',
-        reportdate: '',
-        reportpreview: [''],
-        content:
-            [
-                { type: '', elements: [{ texttype: '', text: '' }] },
-                { type: '', elements: [{ texttype: '', text: '' }] },
-                { type: '', elements: [{ texttype: '', text: '' }] },
-                { type: '', elements: [{ texttype: '', text: '' }] },
-                { type: '', elements: [{ texttype: '', text: '' }] },
-                { type: '', elements: [{ texttype: '', text: '' }] },
-                { type: '', elements: [{ texttype: '', text: '' }] },
-                { type: '', elements: [{ texttype: '', text: '' }] },
-                { type: '', elements: [{ texttype: '', text: '' }] },
-                { type: '', elements: [{ texttype: '', text: '' }] },
-                { type: '', elements: [{ texttype: '', text: '' }] },
-                { type: '', elements: [{ texttype: '', text: '' }] },
-                { type: '', elements: [{ texttype: '', text: '' }] },
-            ],
-        authorIDs:
-            [''],
-    },
-
-    {
-        casetitle: '',
-        caseno: '',
-        reportyear: '',
-        reportmonth: '',
-        reportdate: '',
-        reportpreview: [''],
-        content:
-            [
-                { type: '', elements: [{ texttype: '', text: '' }] },
-                { type: '', elements: [{ texttype: '', text: '' }] },
-                { type: '', elements: [{ texttype: '', text: '' }] },
-                { type: '', elements: [{ texttype: '', text: '' }] },
-                { type: '', elements: [{ texttype: '', text: '' }] },
-                { type: '', elements: [{ texttype: '', text: '' }] },
-                { type: '', elements: [{ texttype: '', text: '' }] },
-                { type: '', elements: [{ texttype: '', text: '' }] },
-                { type: '', elements: [{ texttype: '', text: '' }] },
-                { type: '', elements: [{ texttype: '', text: '' }] },
-                { type: '', elements: [{ texttype: '', text: '' }] },
-                { type: '', elements: [{ texttype: '', text: '' }] },
-                { type: '', elements: [{ texttype: '', text: '' }] },
-            ],
-        authorIDs:
-            [''],
-    },
-
-    {
-        casetitle: '',
-        caseno: '',
-        reportyear: '',
-        reportmonth: '',
-        reportdate: '',
-        reportpreview: [''],
-        content:
-            [
-                { type: '', elements: [{ texttype: '', text: '' }] },
-                { type: '', elements: [{ texttype: '', text: '' }] },
-                { type: '', elements: [{ texttype: '', text: '' }] },
-                { type: '', elements: [{ texttype: '', text: '' }] },
-                { type: '', elements: [{ texttype: '', text: '' }] },
-                { type: '', elements: [{ texttype: '', text: '' }] },
-                { type: '', elements: [{ texttype: '', text: '' }] },
-                { type: '', elements: [{ texttype: '', text: '' }] },
-                { type: '', elements: [{ texttype: '', text: '' }] },
-                { type: '', elements: [{ texttype: '', text: '' }] },
-                { type: '', elements: [{ texttype: '', text: '' }] },
-                { type: '', elements: [{ texttype: '', text: '' }] },
-                { type: '', elements: [{ texttype: '', text: '' }] },
-            ],
-        authorIDs:
-            [''],
-    },
 
 ]
 
