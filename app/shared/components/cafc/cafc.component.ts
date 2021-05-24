@@ -44,5 +44,6 @@ export class CafcComponent implements OnInit {
 
   clickDetails(report){
     this.nav.cafcreport = report;
+    window.scroll(0, 0);
   }
 }
