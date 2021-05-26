@@ -1,5 +1,6 @@
 export interface IElement {
     texttype: string; // text format
+    link: string;
     text: string; // plain text 
 }
 

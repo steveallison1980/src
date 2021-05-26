@@ -1,1 +1,30 @@
-<p>cafcdetails works!</p>
+<h1>{{getTitle()}}</h1>
+<mat-divider class='colored'></mat-divider>
+<span fxLayoutAlign="end center">{{getCaseNoDate()}}</span>
+<br>
+<div *ngFor="let content of getReportContent()">
+    <p *ngIf="content.type == 'para'">
+        <span *ngFor="let element of content.elements">
+            <a *ngIf="element.link!=''; else notALink" href='{{element.link}}'>
+                {{element.text}}
+            </a>
+            <ng-template #notALink>
+                {{element.text}}
+            </ng-template>
+        </span>
+    </p>
+
+    <mat-card *ngIf="content.type == 'point'">
+        <h1>
+                Key Point! <mat-icon color="primary">vpn_key</mat-icon>            
+        </h1>
+        <p *ngFor="let element of content.elements">
+            <a *ngIf="element.link!=''; else notALink" href='{{element.link}}'>
+                {{element.text}}
+            </a>
+            <ng-template #notALink>
+                {{element.text}}
+            </ng-template>
+        </p>
+    </mat-card>
+</div>
