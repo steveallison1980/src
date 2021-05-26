@@ -8,16 +8,14 @@
             <app-sidebar></app-sidebar>
         </div>
         <div fxFlex='70' fxShow="true" fxHide.lt-md>
-            <app-cafc *ngIf="isListView()" [filter]="this.nav.cafcfilter"></app-cafc>
-            <app-cafcdetails *ngIf="!isListView()"></app-cafcdetails>
+            <app-cafc [filter]="this.nav.cafcfilter"></app-cafc>
         </div>
         <div fxFlex='5' fxShow="true" fxHide.lt-md="true">
         </div>
         <!--MOBILE-->
         <div fxFlex='5' fxHide fxShow.lt-md></div>
         <div fxFlex='90' fxHide fxShow.lt-md>
-            <app-cafc *ngIf="isListView()" [filter]="this.nav.cafcfilter"></app-cafc>
-            <app-cafcdetails *ngIf="!isListView()"></app-cafcdetails>
+            <app-cafc [filter]="this.nav.cafcfilter"></app-cafc>
         </div>
         <div fxFlex='5' fxHide fxShow.lt-md></div>
     </div>

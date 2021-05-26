@@ -17,8 +17,16 @@ export class CafcdetailsComponent implements OnInit {
     return this.nav.cafcreport.casetitle;
   }
   getCaseNoDate(){
-    return this.nav.cafcreport.caseno + " (" +
-      this.nav.cafcreport.reportdate + ")";
+    var ret = "";
+    if( this.nav.cafcreport != null){
+      if( this.nav.cafcreport.caseno != "" ){
+        ret += this.nav.cafcreport.caseno;
+      }
+      if( this.nav.cafcreport.reportdate != "" ){
+        ret += " (" +this.nav.cafcreport.reportdate + ")";
+      }
+    }
+    return ret;
   }
   getReportContent(){
     return this.nav.cafcreport.content;

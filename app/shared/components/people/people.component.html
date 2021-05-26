@@ -9,7 +9,7 @@
         <mat-card>
             <mat-card-header>
                 
-                <mat-card-title (click)="clickDetails(person)">{{getName(person)}}</mat-card-title>
+                <mat-card-title routerLink="/professional" (click)="clickDetails(person)">{{getName(person)}}</mat-card-title>
                 <mat-card-subtitle>
                     {{getTitle(person)}}
                 </mat-card-subtitle>
@@ -19,7 +19,7 @@
             
             <mat-card-actions fxLayoutAlign="end">
                 <div class="person-button-row">
-                    <button mat-stroked-button (click)="clickDetails(person)">
+                    <button routerLink="/professional" mat-stroked-button (click)="clickDetails(person)">
                         {{getDetails()}}
                     </button>
                 </div>

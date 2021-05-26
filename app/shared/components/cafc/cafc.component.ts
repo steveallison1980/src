@@ -1,6 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { NavigateService } from '../../../services/navigate.service';
-import { LanguagesettingService } from '../../../services/languagesetting.service';
 import { CAFC_REPORTS } from '../../../../assets/data/staticcafcreport';
 import { ICAFCReport } from '../../../interfaces/icafcreport';
 
@@ -15,8 +14,7 @@ export class CafcComponent implements OnInit {
 
   keyword = "";
 
-  constructor(public nav: NavigateService,
-    private langService: LanguagesettingService) { }
+  constructor(public nav: NavigateService) { }
 
   ngOnInit(): void {
     this.keyword = "";

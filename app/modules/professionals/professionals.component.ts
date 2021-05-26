@@ -18,9 +18,6 @@ export class ProfessionalsComponent implements OnInit {
     console.log(this.nav.subPage)
     return ( this.nav.subPage == "practiceareas");
   }
-  isPersonView(){
-    return (this.nav.view == "person");
-  }
   isGroupView(){
     return (this.nav.view == "group");
   }

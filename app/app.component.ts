@@ -11,6 +11,6 @@ export class AppComponent {
   title = 'Ohtsuka Patent Office';
   items: Observable<any[]>;
   constructor(firestore: AngularFirestore) {
-     //this.items = firestore.collection('items').valueChanges();
+     this.items = firestore.collection('items').valueChanges();
   }
 }

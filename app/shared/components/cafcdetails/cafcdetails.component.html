@@ -3,6 +3,13 @@
 <span fxLayoutAlign="end center">{{getCaseNoDate()}}</span>
 <br>
 <div *ngFor="let content of getReportContent()">
+
+    <h2 *ngIf="content.type == 'sub'" class='subtitle'>
+        <span *ngFor="let element of content.elements">
+            {{element.text}}
+        </span>
+    </h2>
+
     <p *ngIf="content.type == 'para'">
         <span *ngFor="let element of content.elements">
             <a *ngIf="element.link!=''; else notALink" href='{{element.link}}'>
@@ -14,9 +21,31 @@
         </span>
     </p>
 
+    <ol *ngIf="content.type == 'num'">
+        <li *ngFor="let element of content.elements">
+            <a *ngIf="element.link!=''; else notALink" href='{{element.link}}'>
+                {{element.text}}
+            </a>
+            <ng-template #notALink>
+                {{element.text}}
+            </ng-template>
+        </li>
+    </ol>
+
+    <ul *ngIf="content.type == 'unnum'">
+        <li *ngFor="let element of content.elements">
+            <a *ngIf="element.link!=''; else notALink" href='{{element.link}}'>
+                {{element.text}}
+            </a>
+            <ng-template #notALink>
+                {{element.text}}
+            </ng-template>
+        </li>
+    </ul>
+    
     <mat-card *ngIf="content.type == 'point'">
         <h1>
-                Key Point! <mat-icon color="primary">vpn_key</mat-icon>            
+                Key Point <mat-icon color="primary">vpn_key</mat-icon>            
         </h1>
         <p *ngFor="let element of content.elements">
             <a *ngIf="element.link!=''; else notALink" href='{{element.link}}'>

@@ -5,8 +5,10 @@ import { HomeComponent } from './modules/home/home.component';
 import { AboutusComponent } from './modules/aboutus/aboutus.component';
 import { OurservicesComponent } from './modules/Ourservices/Ourservices.component';
 import { ProfessionalsComponent } from './modules/professionals/professionals.component';
+import { ProfessionalComponent } from './modules/professional/professional.component';
 import { CareersComponent } from './modules/careers/careers.component';
 import { CafcreportsComponent } from './modules/cafcreports/cafcreports.component';
+import { CafcreportComponent } from './modules/cafcreport/cafcreport.component';
 import { WelcomemessageComponent } from './shared/components/welcomemessage/welcomemessage.component';
 import { NewsComponent } from './shared/components/news/news.component';
 import { AccessComponent } from './shared/components/access/access.component';
@@ -59,6 +61,11 @@ const routes: Routes = [
         path: 'cafcreports',
         outlet: 'cafcreports',
         component: CafcreportsComponent
+      },
+      {
+        path: 'cafcreport',
+        outlet: 'cafcreport',
+        component: CafcreportComponent
       }
     ]
   }, {
@@ -109,8 +116,14 @@ const routes: Routes = [
     path: 'professionals',
     component: ProfessionalsComponent
   }, {
+    path: 'professional',
+    component: ProfessionalComponent
+  }, {
     path: 'cafcreports',
     component: CafcreportsComponent
+  }, {
+    path: 'cafcreport',
+    component: CafcreportComponent
   }, {
     path: 'people',
     component: PeopleComponent,

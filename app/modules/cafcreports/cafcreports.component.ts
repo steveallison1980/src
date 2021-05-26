@@ -11,8 +11,4 @@ export class CafcreportsComponent implements OnInit {
   constructor(public nav: NavigateService) { }
 
   ngOnInit(): void { }
-
-  isListView(){
-    return (this.nav.cafcreport == null);  
-  }
 }
