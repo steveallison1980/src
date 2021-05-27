@@ -9,6 +9,11 @@ import { PublicationspageComponent } from './modules/publicationspage/publicatio
 import { PublicationpageComponent }  from './modules/publicationpage/publicationpage.component';
 
 import { AboutusComponent } from './modules/aboutus/aboutus.component';
+import { AboutpageComponent } from './modules/aboutpage/aboutpage.component';
+import { KeyfeaturespageComponent } from './modules/keyfeaturespage/keyfeaturespage.component';
+import { OverviewpageComponent } from './modules/overviewpage/overviewpage.component';
+import { AboutcontactpageComponent} from './modules/aboutcontactpage/aboutcontactpage.component';
+
 import { OurservicesComponent } from './modules/Ourservices/Ourservices.component';
 import { ProfessionalsComponent } from './modules/professionals/professionals.component';
 import { ProfessionalComponent } from './modules/professional/professional.component';
@@ -73,20 +78,20 @@ const routes: Routes = [
         component: AboutusComponent
       },
       {
-        path: 'about',
-        component: AboutComponent
+        path: 'aboutpage',
+        component: AboutpageComponent
       },
       {
-        path: 'overview',
-        component: OverviewComponent
+        path: 'overviewpage',
+        component: OverviewpageComponent
       },
       {
-        path: 'keyfeatures',
-        component: KeyfeaturesComponent
+        path: 'keyfeaturespage',
+        component: KeyfeaturespageComponent
       },
       {
-        path: 'contact',
-        component: ContactComponent
+        path: 'aboutcontactpage',
+        component: AboutcontactpageComponent
       },
       {
         path: 'ourservices',

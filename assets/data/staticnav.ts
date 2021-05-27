@@ -23,9 +23,10 @@ export const SITEMAP_DATA: ISitemap =
             textJP: "当事務所について",
             defaultsubpage: 'about',
             links: [
-                { text: 'About the Firm', textJP: '当事務所について', icon: 'people', subPage: 'about', curPage: 'aboutus', routerlink: '/about' },
-                { text: 'An Overview', textJP: '事務所概要', icon: 'menu_book', subPage: 'overview', curPage: 'aboutus', routerlink: '/overview' },
-                { text: 'Key Features', textJP: '特色', icon: 'format_list_bulleted', subPage: 'keyfeatures', curPage: 'aboutus', routerlink: '/keyfeatures' }],
+                { text: 'About the Firm', textJP: '当事務所について', icon: 'people', subPage: 'aboutpage', curPage: 'aboutus', routerlink: '/aboutpage' },
+                { text: 'An Overview', textJP: '事務所概要', icon: 'menu_book', subPage: 'overviewpage', curPage: 'aboutus', routerlink: '/overviewpage' },
+                { text: 'Key Features', textJP: '特色', icon: 'format_list_bulleted', subPage: 'keyfeaturespage', curPage: 'aboutus', routerlink: '/keyfeaturespage' },
+                { text: 'Contact Information/Map', textJP: 'お問い合わせ・アクセス', icon: 'call', subPage: 'aboutcontactpage', curPage: 'aboutus', routerlink: '/aboutcontactpage' }],
             displayMode: ""
         },
         {

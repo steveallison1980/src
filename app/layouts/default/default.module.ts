@@ -11,6 +11,11 @@ import { PublicationspageComponent } from '../../modules/publicationspage/public
 import { PublicationpageComponent } from '../../modules/publicationpage/publicationpage.component';
 
 import { AboutusComponent } from '../../modules/aboutus/aboutus.component';
+import { AboutpageComponent } from '../../modules/aboutpage/aboutpage.component';
+import { OverviewpageComponent } from '../../modules/overviewpage/overviewpage.component';
+import { KeyfeaturespageComponent } from '../../modules/keyfeaturespage/keyfeaturespage.component';
+import { AboutcontactpageComponent } from '../../modules/aboutcontactpage/aboutcontactpage.component';
+
 import { CareersComponent } from '../../modules/careers/careers.component';
 import { OurservicesComponent } from '../../modules/ourservices/ourservices.component';
 import { ProfessionalsComponent } from '../../modules/professionals/professionals.component';
@@ -34,6 +39,11 @@ import { FlexLayoutModule } from '@angular/flex-layout';
     PublicationpageComponent,
 
     AboutusComponent,
+    AboutpageComponent,
+    OverviewpageComponent,
+    KeyfeaturespageComponent,
+    AboutcontactpageComponent,
+
     CareersComponent,
     OurservicesComponent,
     ProfessionalsComponent,

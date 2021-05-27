@@ -1,7 +1,7 @@
 <!-- PC VIEW -->
 <div class="topbar" fxShow fxHide.lt-md fxLayout='row' fxLayoutAlign='end center' fxLayoutGap>
     <div class='topbarelement linkdiv' fxLayoutAlign='center center'>
-        <a routerLink="/" (click)="clickContact()">
+        <a routerLink="/contactpage" (click)="clickContact()">
             <button class='highlightbutton' mat-button>
                 <mat-icon fxShow fxHide.lt-sm>local_phone</mat-icon>
                 {{getContactText()}}
@@ -19,7 +19,7 @@
 <!-- MOBILE VIEW -->
 <div class='topbar' fxHide fxShow.lt-md fxLayout='row' fxLayoutAlign='space-between stretch' fxLayoutGap="20px">
     <div class='linkdiv'>
-        <a routerLink="/" (click)="clickContact()">
+        <a routerLink="/contactpage" (click)="clickContact()">
             <button class='highlightbutton' mat-button>
                 <mat-icon>local_phone</mat-icon>
                 {{getContactText()}}
