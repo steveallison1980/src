@@ -11,17 +11,17 @@
 
         <div fxLayout='row' fxLayoutAlign='start start'>        
             <div class='largetext' fxLayout='row' [fxShow]="true" [fxHide.lt-md]="true" fxLayoutGap='5px'>
-                <a routerLink="/" (click)="clickHome()" [ngClass]="{'activenav': this.nav.curPage=='home'}">{{getText("home")}}</a>
+                <a routerLink="/" (click)="clickHome()" [ngClass]="{'activenav': isHome() }">{{getText("home")}}</a>
                 <mat-divider [vertical]="true"></mat-divider>
-                <a routerLink="/aboutus" (click)="clickAboutus()" [ngClass]="{'activenav': this.nav.curPage=='aboutus'}">{{getText("aboutus")}}</a>
+                <a routerLink="/aboutus" (click)="clickAboutus()" [ngClass]="{'activenav': isAboutus()}">{{getText("aboutus")}}</a>
                 <mat-divider [vertical]="true"></mat-divider>
-                <a routerLink="/ourservices" (click)="clickOurservices()" [ngClass]="{'activenav': this.nav.curPage=='ourservices'}">{{getText("ourservices")}}</a>
+                <a routerLink="/ourservices" (click)="clickOurservices()" [ngClass]="{'activenav': isOurservices()}">{{getText("ourservices")}}</a>
                 <mat-divider [vertical]="true"></mat-divider>
-                <a routerLink="/professionals" (click)="clickProfessionals()" [ngClass]="{'activenav': this.nav.curPage=='professionals'}">{{getText("professionals")}}</a>
+                <a routerLink="/professionals" (click)="clickProfessionals()" [ngClass]="{'activenav': isProfessionals()}">{{getText("professionals")}}</a>
                 <mat-divider [vertical]="true" *ngIf="isJapanesePage()"></mat-divider>
-                <a routerLink="/cafcreports" (click)="clickCAFCReports()" [ngClass]="{'activenav': this.nav.curPage=='cafcreports'}" *ngIf="isJapanesePage()">{{getText("cafcreports")}}</a>
+                <a routerLink="/cafcreports" (click)="clickCAFCReports()" [ngClass]="{'activenav': isCafcreports()}" *ngIf="isJapanesePage()">{{getText("cafcreports")}}</a>
                 <mat-divider [vertical]="true"></mat-divider>
-                <a routerLink="/careers" (click)="clickCareers()" [ngClass]="{'activenav': this.nav.curPage=='careers'}">{{getText("careers")}}</a>
+                <a routerLink="/careers" (click)="clickCareers()" [ngClass]="{'activenav': isCareers()}">{{getText("careers")}}</a>
                 
             </div>
         </div>

@@ -1,7 +1,13 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { DefaultComponent } from './layouts/default/default.component';
-import { HomeComponent } from './modules/home/home.component';
+
+import { WelcomepageComponent } from './modules/welcomepage/welcomepage.component';
+import { NewspageComponent } from './modules/newspage/newspage.component';
+import { ContactpageComponent } from './modules/contactpage/contactpage.component';
+import { PublicationspageComponent } from './modules/publicationspage/publicationspage.component';
+import { PublicationpageComponent }  from './modules/publicationpage/publicationpage.component';
+
 import { AboutusComponent } from './modules/aboutus/aboutus.component';
 import { OurservicesComponent } from './modules/Ourservices/Ourservices.component';
 import { ProfessionalsComponent } from './modules/professionals/professionals.component';
@@ -29,72 +35,63 @@ const routes: Routes = [
   {
     path: '',
     component: DefaultComponent,
-    children: [{
-      path: '',
-      component: HomeComponent,
-      children: [{
-        path: 'welcomemessage',
-        outlet: 'welcomemessage',
-        component: WelcomemessageComponent
+    children: [
+      {
+        path: '',
+        component: WelcomepageComponent
       },
       {
-        path: 'news',
-        outlet: 'news',
-        component: NewsComponent
+        path: 'welcomepage',
+        component: WelcomepageComponent
       },
       {
-        path: 'contact',
-        outlet: 'contact',
-        component: ContactComponent
+        path: 'newspage',
+        component: NewspageComponent
       },
       {
-        path: 'publications',
-        outlet: 'publications',
-        component: PublicationsComponent
+        path: 'contactpage',
+        component: ContactpageComponent
       },
       {
-        path: 'publication',
-        outlet: 'publication',
-        component: PublicationComponent
+        path: 'publicationspage',
+        component: PublicationspageComponent
+      },
+      {
+        path: 'publicationpage',
+        component: PublicationpageComponent
       },
       {
         path: 'cafcreports',
-        outlet: 'cafcreports',
         component: CafcreportsComponent
       },
       {
         path: 'cafcreport',
-        outlet: 'cafcreport',
         component: CafcreportComponent
-      }
-    ]
-  }, {
-    path: 'aboutus',
-    component: AboutusComponent,
-    children: [{
-      path: 'about',
-      outlet: 'about',
-      component: AboutComponent
-    },
-    {
-      path: 'aboutus',
-      outlet: 'overview',
-      component: OverviewComponent
-    },
-    {
-      path: 'aboutus',
-      outlet: 'keyfeatures',
-      component: KeyfeaturesComponent
-    },
-    {
-      path: 'contact',
-      outlet: 'contact',
-      component: ContactComponent
-    }]
-  }, {
-    path: 'ourservices',
-    component: OurservicesComponent,
-    children: [
+      },
+      {
+        path: 'aboutus',
+        component: AboutusComponent
+      },
+      {
+        path: 'about',
+        component: AboutComponent
+      },
+      {
+        path: 'overview',
+        component: OverviewComponent
+      },
+      {
+        path: 'keyfeatures',
+        component: KeyfeaturesComponent
+      },
+      {
+        path: 'contact',
+        component: ContactComponent
+      },
+      {
+        path: 'ourservices',
+        component: OurservicesComponent
+      },
       {
         path: 'patentsandutilitymodels',
         component: PatentsandutilitymodelsComponent
@@ -110,67 +107,34 @@ const routes: Routes = [
       {
         path: 'courtcasereports',
         component:CourtcasereportsComponent
-      }
-    ]
-  }, {
-    path: 'professionals',
-    component: ProfessionalsComponent
-  }, {
-    path: 'professional',
-    component: ProfessionalComponent
-  }, {
-    path: 'cafcreports',
-    component: CafcreportsComponent
-  }, {
-    path: 'cafcreport',
-    component: CafcreportComponent
-  }, {
-    path: 'people',
-    component: PeopleComponent,
-    children: [
+      },
+      {
+        path: 'professionals',
+        component: ProfessionalsComponent
+      },
+      {
+        path: 'professional',
+        component: ProfessionalComponent
+      },
+      {
+        path: 'cafcreports',
+        component: CafcreportsComponent
+      },
+      {
+        path: 'cafcreport',
+        component: CafcreportComponent
+      },
+      {
+        path: 'people',
+        component: PeopleComponent
+      },
       {
         path: 'person',
         component: PersonComponent
       }
     ]
-  }, {
-    path: 'careers',
-    component: CareersComponent
-  }, {
-    path: 'welcomemessage',
-    component: WelcomemessageComponent
-  }, {
-    path: 'news',
-    component: NewsComponent
-  }, {
-    path: 'contact',
-    component: ContactComponent
-  }, {
-    path: 'about',
-    component: AboutComponent
-  }, {
-    path: 'overview',
-    component: OverviewComponent
-  }, {
-    path: 'keyfeatures',
-    component: KeyfeaturesComponent
-  }, {
-    path: 'access',
-    component: AccessComponent
-  }, {
-    path: 'patentsandutilitymodels',
-    component: PatentsandutilitymodelsComponent
-  }, {
-    path: 'designsandtrademarks',
-    component: DesignsandtrademarksComponent
-  }, {
-    path: 'litigationandstrategy',
-    component: LitigationandstrategyComponent
-  }, {
-    path: 'courtcasereports',
-    component: CourtcasereportsComponent
-  }]
-}];
+  }
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(

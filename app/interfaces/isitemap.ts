@@ -4,6 +4,7 @@ export interface ILink {
   icon: string;
   curPage: string;
   subPage: string;
+  routerlink: string;
   }
 export interface IPage {
   links: Array<ILink>;

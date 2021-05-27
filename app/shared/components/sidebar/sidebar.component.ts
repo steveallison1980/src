@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { LanguagesettingService } from '../../../services/languagesetting.service';
 import { NavigateService } from '../../../services/navigate.service';
 import { SITEMAP_DATA } from '../../../../assets/data/staticnav';
@@ -10,7 +10,10 @@ import { ILink } from '../../../interfaces/isitemap';
   styleUrls: ['./sidebar.component.css']
 })
 export class SidebarComponent implements OnInit {
-  
+
+  @Input() menu: string;
+  @Input() highlight: string;
+
   public curItem: string="welcomemessage";
 
   constructor(private langService: LanguagesettingService,
@@ -43,9 +46,21 @@ export class SidebarComponent implements OnInit {
     return ( c == this.curItem );
   }
 
+  isHighlighted(c){
+    return ( c == this.highlight );
+  }
+
   getPage(){
     for(let i in SITEMAP_DATA.pages){
       if (SITEMAP_DATA.pages[i].mainpage == this.nav.curPage ) {
+        return SITEMAP_DATA.pages[i];
+      }
+    }
+  }
+
+  getMenu(){
+    for(let i in SITEMAP_DATA.pages){
+      if (SITEMAP_DATA.pages[i].mainpage == this.menu ) {
         return SITEMAP_DATA.pages[i];
       }
     }

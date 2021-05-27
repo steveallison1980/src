@@ -1,8 +1,9 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { MatBottomSheet } from '@angular/material/bottom-sheet';
 import { SitemapComponent } from './../sitemap/sitemap.component';
 import { LanguagesettingService } from '../../../services/languagesetting.service';
 import { NavigateService } from '../../../services/navigate.service';
+import { SITEMAP_DATA } from '../../../../assets/data/staticnav';
 
 @Component({
   selector: 'app-header',
@@ -10,6 +11,8 @@ import { NavigateService } from '../../../services/navigate.service';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent implements OnInit {
+
+  @Input() highlight: string;
 
   constructor(private _bottomSheet: MatBottomSheet,
     private langService: LanguagesettingService,
@@ -117,6 +120,35 @@ export class HeaderComponent implements OnInit {
     } else {
       return true;
     }
+  }
+
+  isHome(){
+    return this.findInNav("home");
+  }
+  isAboutus(){
+    return this.findInNav("aboutus");
+  }
+  isOurservices(){
+    return this.findInNav("ourservices");
+  }
+  isProfessionals(){
+    return this.findInNav("professionals");
+  }
+  isCafcreports(){
+    return this.findInNav("cafcreports");
+  }
+  isCareers(){
+    return this.findInNav("careers");
+  }
+  findInNav(needle){
+    for(let i in SITEMAP_DATA.pages){
+      if (SITEMAP_DATA.pages[i].mainpage == needle ){
+        for(let j in SITEMAP_DATA.pages[i].links){
+          if(SITEMAP_DATA.pages[i].links[j].routerlink == this.highlight) return true;
+        }
+      }
+    }
+    return false;
   }
 }
 

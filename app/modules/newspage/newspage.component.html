@@ -1,0 +1,36 @@
+<br>
+<div>
+    <br>
+    <div class='homediv' flexLayout='row' fxFlex fxLayoutAlign="space-between start" fxLayoutGap="20px">
+        <!--PC-->
+        <div fxFlex='5' fxShow="true" fxHide.lt-md="true">
+        </div>
+        <div fxFlex='20' fxShow="true" fxHide.lt-md>
+            <app-sidebar [menu]="'home'" [highlight]="'newspage'"></app-sidebar>
+        </div>
+        <div fxFlex='70' fxShow="true" fxHide.lt-md>
+            <app-news></app-news>
+        </div>
+        <div fxFlex='5' fxShow="true" fxHide.lt-md="true">
+        </div>
+
+        <!--MOBILE-->
+        <div fxFlex='5' fxHide fxShow.lt-md></div>
+        <div fxFlex='90' fxHide fxShow.lt-md>
+            <!-- start with what is set -->
+            <app-news></app-news>
+            <br>
+            <!-- then the rest -->
+            <app-welcomemessage></app-welcomemessage>
+            <br>
+            <app-news></app-news>
+            <br>
+            <app-contact></app-contact>
+        </div>
+        <div fxFlex='5' fxHide fxShow.lt-md></div>
+    </div>
+</div>
+<br>
+<div>
+    <app-footer width=100%></app-footer>
+</div>

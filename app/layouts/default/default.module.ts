@@ -3,6 +3,13 @@ import { CommonModule } from '@angular/common';
 
 import { DefaultComponent } from './default.component';
 import { HomeComponent } from '../../modules/home/home.component';
+
+import { WelcomepageComponent } from '../../modules/welcomepage/welcomepage.component';
+import { NewspageComponent } from '../../modules/newspage/newspage.component';
+import { ContactpageComponent } from '../../modules/contactpage/contactpage.component';
+import { PublicationspageComponent } from '../../modules/publicationspage/publicationspage.component';
+import { PublicationpageComponent } from '../../modules/publicationpage/publicationpage.component';
+
 import { AboutusComponent } from '../../modules/aboutus/aboutus.component';
 import { CareersComponent } from '../../modules/careers/careers.component';
 import { OurservicesComponent } from '../../modules/ourservices/ourservices.component';
@@ -18,7 +25,14 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 @NgModule({
   declarations: [
     DefaultComponent,
+
     HomeComponent,
+    WelcomepageComponent,
+    NewspageComponent,
+    ContactpageComponent,
+    PublicationspageComponent,
+    PublicationpageComponent,
+
     AboutusComponent,
     CareersComponent,
     OurservicesComponent,
