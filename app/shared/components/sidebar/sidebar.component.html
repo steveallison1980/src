@@ -1,6 +1,6 @@
 <mat-nav-list >
-    <mat-list-item *ngFor="let item of getMenu().links" (click)="clickItem(item.subPage, item.curPage)">
-        <a [routerLink]="item.routerlink" fxLayoutAlign='start center' matLine>
+    <mat-list-item *ngFor="let item of getMenu().links">
+        <a [routerLink]="item.routerlink" fxLayoutAlign='start center' matLine  (click)="clickItem(item.subPage, item.curPage)">
             <button class='sidebutton' fxLayoutAlign='start start' mat-icon-button [ngClass]="{'listitemactive': item.subPage == this.highlight }">
                 <mat-icon>{{item.icon}}</mat-icon>
                 {{getText(item)}}

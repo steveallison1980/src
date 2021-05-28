@@ -5,7 +5,7 @@
         <div fxFlex='5' fxShow="true" fxHide.lt-md="true">
         </div>
         <div fxFlex='20' fxShow="true" fxHide.lt-md="true">
-            <app-sidebar></app-sidebar>
+            <app-sidebar [menu]="'professionals'" [highlight]="nav.subPage"></app-sidebar>
         </div>
         <div fxFlex='70' fxShow="true" fxHide.lt-md>
             <app-person></app-person>
