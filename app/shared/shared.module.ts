@@ -44,7 +44,6 @@ import { PatentsandutilitymodelsComponent } from './components/patentsandutility
 import { DesignsandtrademarksComponent } from './components/designsandtrademarks/designsandtrademarks.component';
 import { LitigationandstrategyComponent } from './components/litigationandstrategy/litigationandstrategy.component';
 import { CourtcasereportsComponent } from './components/courtcasereports/courtcasereports.component';
-import { CareerspageComponent } from './components/careerspage/careerspage.component';
 import { ComputersblurbComponent } from './components/computersblurb/computersblurb.component';
 import { MechanicalblurbComponent } from './components/mechanicalblurb/mechanicalblurb.component';
 import { DesignsteamblurbComponent } from './components/designsteamblurb/designsteamblurb.component';
@@ -60,6 +59,11 @@ import { GototopComponent } from './components/gototop/gototop.component';
 import { PublicationComponent } from './components/publication/publication.component';
 import { CafcComponent } from './components/cafc/cafc.component';
 import { CafcdetailsComponent } from './components/cafcdetails/cafcdetails.component';
+import { CareersComponent } from './components/careers/careers.component';
+import { SetsumeikaiComponent } from './components/setsumeikai/setsumeikai.component';
+import { SetsumeikaiguideComponent } from './components/setsumeikaiguide/setsumeikaiguide.component';
+import { BoshuyokoComponent } from './components/boshuyoko/boshuyoko.component';
+import { WorkenvComponent } from './components/workenv/workenv.component';
 
 @NgModule({
   declarations: [
@@ -89,7 +93,6 @@ import { CafcdetailsComponent } from './components/cafcdetails/cafcdetails.compo
     DesignsandtrademarksComponent,
     LitigationandstrategyComponent,
     CourtcasereportsComponent,
-    CareerspageComponent,
     ImagebarComponent,
     ComputersblurbComponent,
     MechanicalblurbComponent,
@@ -105,7 +108,12 @@ import { CafcdetailsComponent } from './components/cafcdetails/cafcdetails.compo
     GototopComponent,
     PublicationComponent,
     CafcComponent,
-    CafcdetailsComponent    
+    CafcdetailsComponent,
+    CareersComponent,
+    SetsumeikaiComponent,
+    SetsumeikaiguideComponent,
+    BoshuyokoComponent,
+    WorkenvComponent    
   ],
   imports: [
     CommonModule,
@@ -151,7 +159,6 @@ import { CafcdetailsComponent } from './components/cafcdetails/cafcdetails.compo
     DesignsandtrademarksComponent,
     LitigationandstrategyComponent,
     CourtcasereportsComponent,
-    CareerspageComponent,
     PracticeareasComponent,
     PeopleComponent,
     PersonComponent,
@@ -159,7 +166,12 @@ import { CafcdetailsComponent } from './components/cafcdetails/cafcdetails.compo
     GototopComponent,
     PublicationComponent,
     CafcComponent,
-    CafcdetailsComponent
+    CafcdetailsComponent,
+    CareersComponent,
+    SetsumeikaiComponent,
+    SetsumeikaiguideComponent,
+    BoshuyokoComponent,
+    WorkenvComponent
   ]
 })
 

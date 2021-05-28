@@ -38,10 +38,6 @@ import { ProAdvisorsComponent } from './modules/professionals/pro-advisors/pro-a
 import { ProPatengineersComponent } from './modules/professionals/pro-patengineers/pro-patengineers.component';
 import { ProInternationalComponent } from './modules/professionals/pro-international/pro-international.component';
 
-
-
-import { CareersComponent } from './modules/careers/careers.component';
-
 import { CafcreportComponent } from './modules/cafcreport/cafcreport.component';
 import { CafcallComponent } from './modules/cafcreports/cafcall/cafcall.component';
 import { Cafc2019Component } from './modules/cafcreports/cafc2019/cafc2019.component';
@@ -60,7 +56,11 @@ import { Cafc2007Component } from './modules/cafcreports/cafc2007/cafc2007.compo
 import { Cafc2006Component } from './modules/cafcreports/cafc2006/cafc2006.component';
 import { Cafc2005Component } from './modules/cafcreports/cafc2005/cafc2005.component';
 
-
+import { CareerspageComponent } from './modules/careers/careerspage/careerspage.component';
+import { SetsumeikaipageComponent } from './modules/careers/setsumeikaipage/setsumeikaipage.component';
+import { SetsumeikaiguidepageComponent } from './modules/careers/setsumeikaiguidepage/setsumeikaiguidepage.component';
+import { BoshuyokopageComponent } from './modules/careers/boshuyokopage/boshuyokopage.component';
+import { WorkenvironmentComponent } from './modules/careers/workenvironment/workenvironment.component';
 
 import { WelcomemessageComponent } from './shared/components/welcomemessage/welcomemessage.component';
 import { NewsComponent } from './shared/components/news/news.component';
@@ -289,8 +289,24 @@ const routes: Routes = [
         component: Cafc2005Component
       },
       {
-        path: 'careers',
-        component: CareersComponent
+        path: 'careerspage',
+        component: CareerspageComponent
+      },
+      {
+        path: 'setsumeikaipage',
+        component: SetsumeikaipageComponent
+      },
+      {
+        path: 'setsumeikaiguidepage',
+        component: SetsumeikaiguidepageComponent
+      },
+      {
+        path: 'boshuyokopage',
+        component: BoshuyokopageComponent
+      },
+      {
+        path: 'workenvironmentpage',
+        component: WorkenvironmentComponent
       }
     ]
   }

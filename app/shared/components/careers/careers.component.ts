@@ -1,13 +1,14 @@
+  
 import { Component, OnInit } from '@angular/core';
 import { LanguagesettingService } from '../../../services/languagesetting.service';
 import { CAREERCONTACT, CAREERCONTACTJP, CAREERTITLE, CAREERTITLEJP, PATENTATTANDENG,PATENTATTANDENGJP, PATENTATTANDENGTITLE, PATENTATTANDENGTITLEJP, JOBOUTLINETITLE, JOBOUTLINETITLEJP, JOBOUTLINEPATANDENG, JOBOUTLINEPATANDENGJP, JOBOUTLINETRANSLATION, JOBOUTLINETRANSLATIONJP, TRANSLATION, TRANSLATIONJP, TRANSLATIONTITLE, TRANSLATIONTITLEJP, SELECTION, SELECTIONJP, SELECTIONTITLE, SELECTIONTITLEJP} from '../../../../assets/data/staticcareers';
 
 @Component({
-  selector: 'app-careerspage',
-  templateUrl: './careerspage.component.html',
-  styleUrls: ['./careerspage.component.css']
+  selector: 'app-careers',
+  templateUrl: './careers.component.html',
+  styleUrls: ['./careers.component.css']
 })
-export class CareerspageComponent implements OnInit {
+export class CareersComponent implements OnInit {
 
   constructor(private langService: LanguagesettingService) { }
 

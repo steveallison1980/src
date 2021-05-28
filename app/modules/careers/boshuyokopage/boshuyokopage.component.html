@@ -5,17 +5,20 @@
         <div fxFlex='5' fxShow="true" fxHide.lt-md="true">
         </div>
         <div fxFlex='20' fxShow="true" fxHide.lt-md="true">
-            <app-sidebar [menu]="'careers'" [highlight]="'careers'"></app-sidebar>
+            <app-sidebar *ngIf="this.langService.lang == 'EN'" [menu]="'careers'" [highlight]="'careerspage'"></app-sidebar>
+            <app-sidebar *ngIf="this.langService.lang == 'JP'" [menu]="'careers'" [highlight]="'boshuyokopage'"></app-sidebar>
         </div>
         <div fxFlex='70' fxShow="true" fxHide.lt-md>
-            <app-careerspage *ngIf="curComponent=='careers'"></app-careerspage>
+            <app-boshuyoko *ngIf="this.langService.lang == 'JP'"></app-boshuyoko>
+            <app-careers *ngIf="this.langService.lang == 'EN'"></app-careers>
         </div>
         <div fxFlex='5' fxShow="true" fxHide.lt-md="true">
         </div>
         <!--MOBILE-->
         <div fxFlex='5' fxHide fxShow.lt-md></div>
         <div fxFlex='90' fxHide fxShow.lt-md>
-            <app-careerspage *ngIf="curComponent=='careers'"></app-careerspage>
+            <app-boshuyoko *ngIf="this.langService.lang == 'JP'"></app-boshuyoko>
+            <app-careers *ngIf="this.langService.lang == 'EN'"></app-careers>
         </div>
         <div fxFlex='5' fxHide fxShow.lt-md></div>
     </div>

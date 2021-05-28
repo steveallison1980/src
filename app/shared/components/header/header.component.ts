@@ -51,7 +51,10 @@ export class HeaderComponent implements OnInit {
   }
   public clickCareers() {
     this.nav.curPage = "careers";
-    this.nav.subPage = "careers";
+    this.nav.subPage = "careerspage";
+  }
+  public isEN(){
+    return this.langService.lang == "EN";
   }
 
   getText(item) {

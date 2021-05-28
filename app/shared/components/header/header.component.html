@@ -21,7 +21,8 @@
                 <mat-divider [vertical]="true" *ngIf="isJapanesePage()"></mat-divider>
                 <a routerLink="/cafcall" (click)="clickCAFCReports()" [ngClass]="{'activenav': isCafcreports()}" *ngIf="isJapanesePage()">{{getText("cafcreports")}}</a>
                 <mat-divider [vertical]="true"></mat-divider>
-                <a routerLink="/careers" (click)="clickCareers()" [ngClass]="{'activenav': isCareers()}">{{getText("careers")}}</a>
+                <a *ngIf="isEN()" routerLink="/careerspage" (click)="clickCareers()" [ngClass]="{'activenav': isCareers()}">{{getText("careers")}}</a>
+                <a *ngIf="!isEN()" routerLink="/setsumeikaipage" (click)="clickCareers()" [ngClass]="{'activenav': isCareers()}">{{getText("careers")}}</a>
                 
             </div>
         </div>

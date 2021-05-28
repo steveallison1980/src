@@ -57,9 +57,11 @@ import { Cafc2007Component } from '../../modules/cafcreports/cafc2007/cafc2007.c
 import { Cafc2006Component } from '../../modules/cafcreports/cafc2006/cafc2006.component';
 import { Cafc2005Component } from '../../modules/cafcreports/cafc2005/cafc2005.component';
 
-
-import { CareersComponent } from '../../modules/careers/careers.component';
-
+import { CareerspageComponent } from '../../modules/careers/careerspage/careerspage.component';
+import { SetsumeikaipageComponent } from '../../modules/careers/setsumeikaipage/setsumeikaipage.component';
+import { SetsumeikaiguidepageComponent } from '../../modules/careers/setsumeikaiguidepage/setsumeikaiguidepage.component';
+import { BoshuyokopageComponent } from '../../modules/careers/boshuyokopage/boshuyokopage.component';
+import { WorkenvironmentComponent } from '../../modules/careers/workenvironment/workenvironment.component';
 
 import { SharedModule } from '../../shared/shared.module';
 
@@ -124,7 +126,11 @@ import { FlexLayoutModule } from '@angular/flex-layout';
     Cafc2006Component,
     Cafc2005Component,
 
-    CareersComponent
+    CareerspageComponent,
+    SetsumeikaipageComponent,
+    SetsumeikaiguidepageComponent,
+    BoshuyokopageComponent,
+    WorkenvironmentComponent
   ],
   imports: [
     CommonModule,

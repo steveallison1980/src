@@ -96,13 +96,13 @@ export const SITEMAP_DATA: ISitemap =
             routerlink: '/careers',
             text: "Careers",
             textJP: "採用情報",
-            defaultsubpage: 'careers',
+            defaultsubpage: 'careerspage',
             links: [
-                { text: 'Careers', textJP: 'キャリア', icon: 'person_add', subPage: 'careers', curPage: 'careers', routerlink: '/careers/careers', displayMode: 'ENonly' },
-                { text: '', textJP: '事務所説明会', icon: 'accessibility_new', subPage: 'setsumeikai', curPage: 'careers', routerlink: '/careers/setsumeikai', displayMode: 'JPonly' },
-                { text: '', textJP: 'ご案内', icon: 'line_style', subPage: 'setsumeikaiguide', curPage: 'careers', routerlink: '/careers/setsumeikaiguide', displayMode: 'JPonly' },
-                { text: '', textJP: '募集要項', icon: 'work_outline', subPage: 'boshuyoko', curPage: 'careers', routerlink: '/careers/boshuyoko', displayMode: 'JPonly' },
-                { text: '', textJP: '仕事環境', icon: 'supervised_user_circle', subPage: 'workenvironment', curPage: 'careers', routerlink: '/careers/workenvironment', displayMode: 'JPonly' },
+                { text: 'Careers', textJP: 'キャリア', icon: 'person_add', subPage: 'careerspage', curPage: 'careers', routerlink: '/careerspage', displayMode: 'ENonly' },
+                { text: '', textJP: '事務所説明会', icon: 'accessibility_new', subPage: 'setsumeikaipage', curPage: 'careers', routerlink: '/setsumeikaipage', displayMode: 'JPonly' },
+                { text: '', textJP: 'ご案内', icon: 'line_style', subPage: 'setsumeikaiguidepage', curPage: 'careers', routerlink: '/setsumeikaiguidepage', displayMode: 'JPonly' },
+                { text: '', textJP: '募集要項', icon: 'work_outline', subPage: 'boshuyokopage', curPage: 'careers', routerlink: '/boshuyokopage', displayMode: 'JPonly' },
+                { text: '', textJP: '仕事環境', icon: 'supervised_user_circle', subPage: 'workenvironmentpage', curPage: 'careers', routerlink: '/workenvironmentpage', displayMode: 'JPonly' },
             ],
             displayMode: ""
         }]
