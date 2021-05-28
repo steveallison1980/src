@@ -5,17 +5,17 @@
         <div fxFlex='5' fxShow="true" fxHide.lt-md="true">
         </div>
         <div fxFlex='20' fxShow="true" fxHide.lt-md="true">
-            <app-sidebar  [menu]="'cafcreports'" [highlight]="nav.subPage"></app-sidebar>
+            <app-sidebar [menu]="'cafcreports'" [highlight]="'cafc2018'"></app-sidebar>
         </div>
         <div fxFlex='70' fxShow="true" fxHide.lt-md>
-            <app-cafcdetails></app-cafcdetails>
+            <app-cafc [filter]="'2018'"></app-cafc>
         </div>
         <div fxFlex='5' fxShow="true" fxHide.lt-md="true">
         </div>
         <!--MOBILE-->
         <div fxFlex='5' fxHide fxShow.lt-md></div>
         <div fxFlex='90' fxHide fxShow.lt-md>
-            <app-cafcdetails></app-cafcdetails>
+            <app-cafc [filter]="'2018'"></app-cafc>
         </div>
         <div fxFlex='5' fxHide fxShow.lt-md></div>
     </div>

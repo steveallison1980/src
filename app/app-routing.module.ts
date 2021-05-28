@@ -41,8 +41,27 @@ import { ProInternationalComponent } from './modules/professionals/pro-internati
 
 
 import { CareersComponent } from './modules/careers/careers.component';
-import { CafcreportsComponent } from './modules/cafcreports/cafcreports.component';
+
 import { CafcreportComponent } from './modules/cafcreport/cafcreport.component';
+import { CafcallComponent } from './modules/cafcreports/cafcall/cafcall.component';
+import { Cafc2019Component } from './modules/cafcreports/cafc2019/cafc2019.component';
+import { Cafc2018Component } from './modules/cafcreports/cafc2018/cafc2018.component';
+import { Cafc2017Component } from './modules/cafcreports/cafc2017/cafc2017.component';
+import { Cafc2016Component } from './modules/cafcreports/cafc2016/cafc2016.component';
+import { Cafc2015Component } from './modules/cafcreports/cafc2015/cafc2015.component';
+import { Cafc2014Component } from './modules/cafcreports/cafc2014/cafc2014.component';
+import { Cafc2013Component } from './modules/cafcreports/cafc2013/cafc2013.component';
+import { Cafc2012Component } from './modules/cafcreports/cafc2012/cafc2012.component';
+import { Cafc2011Component } from './modules/cafcreports/cafc2011/cafc2011.component';
+import { Cafc2010Component } from './modules/cafcreports/cafc2010/cafc2010.component';
+import { Cafc2009Component } from './modules/cafcreports/cafc2009/cafc2009.component';
+import { Cafc2008Component } from './modules/cafcreports/cafc2008/cafc2008.component';
+import { Cafc2007Component } from './modules/cafcreports/cafc2007/cafc2007.component';
+import { Cafc2006Component } from './modules/cafcreports/cafc2006/cafc2006.component';
+import { Cafc2005Component } from './modules/cafcreports/cafc2005/cafc2005.component';
+
+
+
 import { WelcomemessageComponent } from './shared/components/welcomemessage/welcomemessage.component';
 import { NewsComponent } from './shared/components/news/news.component';
 import { AccessComponent } from './shared/components/access/access.component';
@@ -87,10 +106,6 @@ const routes: Routes = [
       {
         path: 'publicationpage',
         component: PublicationpageComponent
-      },
-      {
-        path: 'cafcreports',
-        component: CafcreportsComponent
       },
       {
         path: 'cafcreport',
@@ -201,12 +216,68 @@ const routes: Routes = [
         component: ProInternationalComponent
       },      
       {
-        path: 'cafcreports',
-        component: CafcreportsComponent
+        path: 'cafcall',
+        component: CafcallComponent
       },
       {
-        path: 'cafcreport',
-        component: CafcreportComponent
+        path: 'cafc2019',
+        component: Cafc2019Component
+      },
+      {
+        path: 'cafc2018',
+        component: Cafc2018Component
+      },
+      {
+        path: 'cafc2017',
+        component: Cafc2017Component
+      },
+      {
+        path: 'cafc2016',
+        component: Cafc2016Component
+      },
+      {
+        path: 'cafc2015',
+        component: Cafc2015Component
+      },
+      {
+        path: 'cafc2014',
+        component: Cafc2014Component
+      },
+      {
+        path: 'cafc2013',
+        component: Cafc2013Component
+      },
+      {
+        path: 'cafc2012',
+        component: Cafc2012Component
+      },
+      {
+        path: 'cafc2011',
+        component: Cafc2011Component
+      },
+      {
+        path: 'cafc2010',
+        component: Cafc2010Component
+      },
+      {
+        path: 'cafc2009',
+        component: Cafc2009Component
+      },
+      {
+        path: 'cafc2008',
+        component: Cafc2008Component
+      },
+      {
+        path: 'cafc2007',
+        component: Cafc2007Component
+      },
+      {
+        path: 'cafc2006',
+        component: Cafc2006Component
+      },
+      {
+        path: 'cafc2005',
+        component: Cafc2005Component
       },
       {
         path: 'people',

@@ -39,9 +39,24 @@ import { ProAdvisorsComponent } from '../../modules/professionals/pro-advisors/p
 import { ProPatengineersComponent } from '../../modules/professionals/pro-patengineers/pro-patengineers.component';
 import { ProInternationalComponent } from '../../modules/professionals/pro-international/pro-international.component';
 
-
-import { CafcreportsComponent } from '../../modules/cafcreports/cafcreports.component';
 import { CafcreportComponent } from '../../modules/cafcreport/cafcreport.component';
+import { CafcallComponent } from '../../modules/cafcreports/cafcall/cafcall.component';
+import { Cafc2019Component } from '../../modules/cafcreports/cafc2019/cafc2019.component';
+import { Cafc2018Component } from '../../modules/cafcreports/cafc2018/cafc2018.component';
+import { Cafc2017Component } from '../../modules/cafcreports/cafc2017/cafc2017.component';
+import { Cafc2016Component } from '../../modules/cafcreports/cafc2016/cafc2016.component';
+import { Cafc2015Component } from '../../modules/cafcreports/cafc2015/cafc2015.component';
+import { Cafc2014Component } from '../../modules/cafcreports/cafc2014/cafc2014.component';
+import { Cafc2013Component } from '../../modules/cafcreports/cafc2013/cafc2013.component';
+import { Cafc2012Component } from '../../modules/cafcreports/cafc2012/cafc2012.component';
+import { Cafc2011Component } from '../../modules/cafcreports/cafc2011/cafc2011.component';
+import { Cafc2010Component } from '../../modules/cafcreports/cafc2010/cafc2010.component';
+import { Cafc2009Component } from '../../modules/cafcreports/cafc2009/cafc2009.component';
+import { Cafc2008Component } from '../../modules/cafcreports/cafc2008/cafc2008.component';
+import { Cafc2007Component } from '../../modules/cafcreports/cafc2007/cafc2007.component';
+import { Cafc2006Component } from '../../modules/cafcreports/cafc2006/cafc2006.component';
+import { Cafc2005Component } from '../../modules/cafcreports/cafc2005/cafc2005.component';
+
 
 import { CareersComponent } from '../../modules/careers/careers.component';
 
@@ -91,8 +106,23 @@ import { FlexLayoutModule } from '@angular/flex-layout';
     ProPatengineersComponent,
     ProInternationalComponent,
 
-    CafcreportsComponent,
     CafcreportComponent,
+    CafcallComponent,
+    Cafc2019Component,
+    Cafc2018Component,
+    Cafc2017Component,
+    Cafc2016Component,
+    Cafc2015Component,
+    Cafc2014Component,
+    Cafc2013Component,
+    Cafc2012Component,
+    Cafc2011Component,
+    Cafc2010Component,
+    Cafc2009Component,
+    Cafc2008Component,
+    Cafc2007Component,
+    Cafc2006Component,
+    Cafc2005Component,
 
     CareersComponent
   ],
