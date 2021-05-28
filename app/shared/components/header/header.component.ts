@@ -123,6 +123,7 @@ export class HeaderComponent implements OnInit {
   }
 
   isHome(){
+    if( this.highlight == "/") return true;
     return this.findInNav("home");
   }
   isAboutus(){

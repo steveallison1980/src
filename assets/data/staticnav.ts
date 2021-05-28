@@ -21,7 +21,7 @@ export const SITEMAP_DATA: ISitemap =
             routerlink: '/aboutus',
             text: "About Us",
             textJP: "当事務所について",
-            defaultsubpage: 'about',
+            defaultsubpage: 'aboutpage',
             links: [
                 { text: 'About the Firm', textJP: '当事務所について', icon: 'people', subPage: 'aboutpage', curPage: 'aboutus', routerlink: '/aboutpage' },
                 { text: 'An Overview', textJP: '事務所概要', icon: 'menu_book', subPage: 'overviewpage', curPage: 'aboutus', routerlink: '/overviewpage' },
@@ -34,12 +34,12 @@ export const SITEMAP_DATA: ISitemap =
             routerlink: '/ourservices',
             text: "Our Services",
             textJP: "実務案内",
-            defaultsubpage: 'about',
+            defaultsubpage: 'patentspage',
             links: [
-                { text: 'Patents & Utility Models', textJP: '特許・実用新案取得', icon: 'lightbulb', subPage: 'patent', curPage: 'ourservices', routerlink: '/patent' },
-                { text: 'Designs & Trademarks', textJP: '意匠・商標登録', icon: 'category', subPage: 'design', curPage: 'ourservices', routerlink: '/design' },
-                { text: 'Litigation & Strategy', textJP: '訴訟・特許戦略・特許調査', icon: 'gavel', subPage: 'litigation', curPage: 'ourservices', routerlink: '/litigation' },
-                { text: 'Case Studies', textJP: '判例紹介', icon: 'menu_book', subPage: 'court', curPage: 'ourservices', routerlink: '/court' }],
+                { text: 'Patents & Utility Models', textJP: '特許・実用新案取得', icon: 'lightbulb', subPage: 'patentspage', curPage: 'ourservices', routerlink: '/patentspage' },
+                { text: 'Designs & Trademarks', textJP: '意匠・商標登録', icon: 'category', subPage: 'designstmpage', curPage: 'ourservices', routerlink: '/designstmpage' },
+                { text: 'Litigation & Strategy', textJP: '訴訟・特許戦略・特許調査', icon: 'gavel', subPage: 'litigationpage', curPage: 'ourservices', routerlink: '/litigationpage' },
+                { text: 'Case Studies', textJP: '判例紹介', icon: 'menu_book', subPage: 'casestudiespage', curPage: 'ourservices', routerlink: '/casestudiespage' }],
             displayMode: ""
         },
         {

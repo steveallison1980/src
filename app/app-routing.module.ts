@@ -15,6 +15,12 @@ import { OverviewpageComponent } from './modules/overviewpage/overviewpage.compo
 import { AboutcontactpageComponent} from './modules/aboutcontactpage/aboutcontactpage.component';
 
 import { OurservicesComponent } from './modules/Ourservices/Ourservices.component';
+import { PatentspageComponent } from './modules/patentspage/patentspage.component';
+import { DesignstmpageComponent } from './modules/designstmpage/designstmpage.component';
+import { LitigationpageComponent } from './modules/litigationpage/litigationpage.component';
+import { CasestudiespageComponent } from './modules/casestudiespage/casestudiespage.component';
+
+
 import { ProfessionalsComponent } from './modules/professionals/professionals.component';
 import { ProfessionalComponent } from './modules/professional/professional.component';
 import { CareersComponent } from './modules/careers/careers.component';
@@ -98,20 +104,20 @@ const routes: Routes = [
         component: OurservicesComponent
       },
       {
-        path: 'patentsandutilitymodels',
-        component: PatentsandutilitymodelsComponent
+        path: 'patentspage',
+        component: PatentspageComponent
       },
       {
-        path: 'designsandtrademarks',
-        component: DesignsandtrademarksComponent
+        path: 'designstmpage',
+        component: DesignstmpageComponent
       },
       {
-        path: 'litigationandstrategy',
-        component: LitigationandstrategyComponent
+        path: 'litigationpage',
+        component: LitigationpageComponent
       },
       {
-        path: 'courtcasereports',
-        component:CourtcasereportsComponent
+        path: 'casestudiespage',
+        component: CasestudiespageComponent
       },
       {
         path: 'professionals',

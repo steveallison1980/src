@@ -16,12 +16,20 @@ import { OverviewpageComponent } from '../../modules/overviewpage/overviewpage.c
 import { KeyfeaturespageComponent } from '../../modules/keyfeaturespage/keyfeaturespage.component';
 import { AboutcontactpageComponent } from '../../modules/aboutcontactpage/aboutcontactpage.component';
 
-import { CareersComponent } from '../../modules/careers/careers.component';
 import { OurservicesComponent } from '../../modules/ourservices/ourservices.component';
+import { PatentspageComponent } from '../../modules/patentspage/patentspage.component';
+import { DesignstmpageComponent } from '../../modules/designstmpage/designstmpage.component';
+import { LitigationpageComponent } from '../../modules/litigationpage/litigationpage.component';
+import { CasestudiespageComponent } from '../../modules/casestudiespage/casestudiespage.component';
+
 import { ProfessionalsComponent } from '../../modules/professionals/professionals.component';
 import { ProfessionalComponent } from '../../modules/professional/professional.component';
 import { CafcreportsComponent } from '../../modules/cafcreports/cafcreports.component';
 import { CafcreportComponent } from '../../modules/cafcreport/cafcreport.component';
+
+import { CareersComponent } from '../../modules/careers/careers.component';
+
+
 import { SharedModule } from '../../shared/shared.module';
 
 import { RouterModule } from '@angular/router';
@@ -44,8 +52,14 @@ import { FlexLayoutModule } from '@angular/flex-layout';
     KeyfeaturespageComponent,
     AboutcontactpageComponent,
 
-    CareersComponent,
     OurservicesComponent,
+    PatentspageComponent,
+    DesignstmpageComponent,
+    LitigationpageComponent,
+    CasestudiespageComponent,
+
+    CareersComponent,
+    
     ProfessionalsComponent,
     ProfessionalComponent,
     CafcreportsComponent,
