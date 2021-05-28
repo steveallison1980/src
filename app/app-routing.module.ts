@@ -214,7 +214,16 @@ const routes: Routes = [
       {
         path: 'pro-international',
         component: ProInternationalComponent
-      },      
+      },
+      {
+        path: 'people',
+        component: PeopleComponent
+      },
+      {
+        path: 'person',
+        component: PersonComponent
+      },
+
       {
         path: 'cafcall',
         component: CafcallComponent
@@ -280,12 +289,8 @@ const routes: Routes = [
         component: Cafc2005Component
       },
       {
-        path: 'people',
-        component: PeopleComponent
-      },
-      {
-        path: 'person',
-        component: PersonComponent
+        path: 'careers',
+        component: CareersComponent
       }
     ]
   }

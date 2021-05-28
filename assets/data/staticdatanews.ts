@@ -45,7 +45,7 @@ export const NEWS_DATA: INewsdata =
     { date: '２０１９年４月１日',
       details: '新規メンバーのご紹介',
       curPage: 'professionals',
-      subPage: 'practiceareas',
+      subPage: 'pro-practiceareas',
       link: ''
     }
   ]
