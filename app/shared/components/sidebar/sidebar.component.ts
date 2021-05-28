@@ -58,12 +58,25 @@ export class SidebarComponent implements OnInit {
     }
   }
 
-  getMenu(){
+  getLinks(){
+    var links:Array<ILink>;
+    links = new Array();
     for(let i in SITEMAP_DATA.pages){
       if (SITEMAP_DATA.pages[i].mainpage == this.menu ) {
-        return SITEMAP_DATA.pages[i];
+        for(let j in SITEMAP_DATA.pages[i].links){
+          if( this.isDisplayed(SITEMAP_DATA.pages[i].links[j]) ){
+            links.push(SITEMAP_DATA.pages[i].links[j]);
+          }
+        }
+        return links;
       }
     }
+  }
+  isDisplayed(link:ILink){
+    if( link.displayMode == "both") return true;
+    if( link.displayMode == "ENonly" && this.langService.lang == "EN") return true;
+    if( link.displayMode == "JPonly" && this.langService.lang == "JP") return true;
+    return false;
   }
  
 }

@@ -5,6 +5,7 @@ export interface ILink {
   curPage: string;
   subPage: string;
   routerlink: string;
+  displayMode: string;
   }
 export interface IPage {
   links: Array<ILink>;
