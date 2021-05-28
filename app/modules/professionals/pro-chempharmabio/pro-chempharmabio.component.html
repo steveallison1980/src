@@ -5,25 +5,17 @@
         <div fxFlex='5' fxShow="true" fxHide.lt-md="true">
         </div>
         <div fxFlex='20' fxShow="true" fxHide.lt-md="true">
-            <app-sidebar [menu]="'ourservices'" [highlight]="'casestudiespage'"></app-sidebar>
+            <app-sidebar [menu]="'professionals'" [highlight]="'pro-chempharmabio'"></app-sidebar>
         </div>
         <div fxFlex='70' fxShow="true" fxHide.lt-md>
-            <app-courtcasereports></app-courtcasereports>
+            <app-people [currentGroup]="'pro-chempharmabio'"></app-people>
         </div>
         <div fxFlex='5' fxShow="true" fxHide.lt-md="true">
         </div>
         <!--MOBILE-->
         <div fxFlex='5' fxHide fxShow.lt-md></div>
         <div fxFlex='90' fxHide fxShow.lt-md>
-            <!-- first what is set -->
-            <app-courtcasereports></app-courtcasereports>
-            <br>
-            <!-- then the rest-->
-            <app-patentsandutilitymodels></app-patentsandutilitymodels>
-            <br>
-            <app-designsandtrademarks></app-designsandtrademarks>
-            <br>
-            <app-litigationandstrategy></app-litigationandstrategy>
+            <app-people [currentGroup]="'pro-chempharmabio'"></app-people>
         </div>
         <div fxFlex='5' fxHide fxShow.lt-md></div>
     </div>

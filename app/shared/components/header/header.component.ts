@@ -38,7 +38,7 @@ export class HeaderComponent implements OnInit {
   }
   public clickProfessionals() {
     this.nav.curPage = "professionals";
-    this.nav.subPage = "practiceareas";
+    this.nav.subPage = "pro-practiceareas";
   }
   public clickOurservices() {
     this.nav.curPage = "ourservices";

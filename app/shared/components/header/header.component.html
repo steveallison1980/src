@@ -17,7 +17,7 @@
                 <mat-divider [vertical]="true"></mat-divider>
                 <a routerLink="/patentspage" (click)="clickOurservices()" [ngClass]="{'activenav': isOurservices()}">{{getText("ourservices")}}</a>
                 <mat-divider [vertical]="true"></mat-divider>
-                <a routerLink="/professionals" (click)="clickProfessionals()" [ngClass]="{'activenav': isProfessionals()}">{{getText("professionals")}}</a>
+                <a routerLink="/pro-practiceareas" (click)="clickProfessionals()" [ngClass]="{'activenav': isProfessionals()}">{{getText("professionals")}}</a>
                 <mat-divider [vertical]="true" *ngIf="isJapanesePage()"></mat-divider>
                 <a routerLink="/cafcreports" (click)="clickCAFCReports()" [ngClass]="{'activenav': isCafcreports()}" *ngIf="isJapanesePage()">{{getText("cafcreports")}}</a>
                 <mat-divider [vertical]="true"></mat-divider>

@@ -24,6 +24,22 @@ import { CasestudiespageComponent } from '../../modules/casestudiespage/casestud
 
 import { ProfessionalsComponent } from '../../modules/professionals/professionals.component';
 import { ProfessionalComponent } from '../../modules/professional/professional.component';
+import { ProPracticeareasComponent } from '../../modules/professionals/pro-practiceareas/pro-practiceareas.component';
+import { ProInfoprocComponent } from '../../modules/professionals/pro-infoproc/pro-infoproc.component';
+import { ProCommComponent } from '../../modules/professionals/pro-comm/pro-comm.component';
+import { ProElecComponent } from '../../modules/professionals/pro-elec/pro-elec.component';
+import { ProMechComponent } from '../../modules/professionals/pro-mech/pro-mech.component';
+import { ProDesignsComponent } from '../../modules/professionals/pro-designs/pro-designs.component';
+import { ProMeddevicesComponent } from '../../modules/professionals/pro-meddevices/pro-meddevices.component';
+import { ProChempharmabioComponent } from '../../modules/professionals/pro-chempharmabio/pro-chempharmabio.component';
+import { ProToysgamesComponent } from '../../modules/professionals/pro-toysgames/pro-toysgames.component';
+import { ProLitComponent } from '../../modules/professionals/pro-lit/pro-lit.component';
+import { ProPatattorneysComponent } from '../../modules/professionals/pro-patattorneys/pro-patattorneys.component';
+import { ProAdvisorsComponent } from '../../modules/professionals/pro-advisors/pro-advisors.component';
+import { ProPatengineersComponent } from '../../modules/professionals/pro-patengineers/pro-patengineers.component';
+import { ProInternationalComponent } from '../../modules/professionals/pro-international/pro-international.component';
+
+
 import { CafcreportsComponent } from '../../modules/cafcreports/cafcreports.component';
 import { CafcreportComponent } from '../../modules/cafcreport/cafcreport.component';
 
@@ -58,12 +74,27 @@ import { FlexLayoutModule } from '@angular/flex-layout';
     LitigationpageComponent,
     CasestudiespageComponent,
 
-    CareersComponent,
-    
     ProfessionalsComponent,
     ProfessionalComponent,
+    ProPracticeareasComponent,
+    ProInfoprocComponent,
+    ProCommComponent,
+    ProElecComponent,
+    ProMechComponent,
+    ProDesignsComponent,
+    ProMeddevicesComponent,
+    ProChempharmabioComponent,
+    ProToysgamesComponent,
+    ProLitComponent,
+    ProPatattorneysComponent,
+    ProAdvisorsComponent,
+    ProPatengineersComponent,
+    ProInternationalComponent,
+
     CafcreportsComponent,
-    CafcreportComponent
+    CafcreportComponent,
+
+    CareersComponent
   ],
   imports: [
     CommonModule,

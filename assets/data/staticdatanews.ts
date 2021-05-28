@@ -18,7 +18,7 @@ export const NEWS_DATA: INewsdata =
     { date: 'April 1, 2019',
       details: 'New members joined our firm',
       curPage: 'professionals',
-      subPage: 'practiceareas',
+      subPage: 'pro-practiceareas',
       link: ''
     }
   ],

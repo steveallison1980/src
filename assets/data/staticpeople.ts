@@ -2,20 +2,20 @@ import { IPracticeareas } from './../../app/interfaces/ipracticeareas';
 import { IPerson } from './../../app/interfaces/iperson';
 
 export const PROFESSIONALS_DATA: IPracticeareas[] = [
-  {text:'Practice Areas',textJP:'専門分野別',icon:'manage_search',index:0,component:'practiceareas',type:'main-group'},
-  {text:'Information Processing',textJP:'情報処理系',icon:'computer',index:1,component:'infoproc_people',type:'sub-group'},
-  {text:'Communications',textJP:'通信技術系',icon:'settings_input_antenna',index:2,component:'comm_people',type:'sub-group'},
-  {text:'Electronics',textJP:'半導体・電気回路系',icon:'cable',index:3,component:'semicon_people',type:'sub-group'},
-  {text:'Mechanical',textJP:'機械系',icon:'miscellaneous_services',index:4,component:'mech_people',type:'sub-group'},
-  {text:'Designs',textJP:'意匠',icon:'category',index:5,component:'design_people',type:'sub-group'},
-  {text:'Medical Devices',textJP:'医療機器',icon:'biotech',index:6,component:'meddev_people',type:'sub-group'},
-  {text:'Chemicals, Pharma & Bio',textJP:'化学・医薬・バイオ',icon:'science',index:7,component:'science_people',type:'sub-group'},
-  {text:'Toys and Games',textJP:'アミューズメント・ゲーム',icon:'videogame_asset',index:8,component:'games_people',type:'sub-group'},
-  {text:'Litigation',textJP:'訴訟・訴訟支援',icon:'gavel',index:9,component:'litigation_people',type:'last-in-group'},
-  {text:'Patent Attorneys',textJP:'弁理士',icon:'person',index:10,component:'patentattorneys',type:'sub-group'},
-  {text:'Legal/Technical Advisors',textJP:'法律顧問・技術顧問',icon:'person_outline',index:11,component:'advisors',type:'sub-group'},
-  {text:'Patent Engineers',textJP:'特許技術スタッフ',icon:'person',index:12,component:'patentengineers',type:'sub-group'},
-  {text:'International Support',textJP:'技術・海外支援',icon:'person_outline',index:13,component:'internationalsupport',type:'sub-group'}
+  {text:'Practice Areas',textJP:'専門分野別',icon:'manage_search',index:0,component:'pro-practiceareas',type:'main-group'},
+  {text:'Information Processing',textJP:'情報処理系',icon:'computer',index:1,component:'pro-infoproc',type:'sub-group'},
+  {text:'Communications',textJP:'通信技術系',icon:'settings_input_antenna',index:2,component:'pro-comm',type:'sub-group'},
+  {text:'Electronics',textJP:'半導体・電気回路系',icon:'cable',index:3,component:'pro-elec',type:'sub-group'},
+  {text:'Mechanical',textJP:'機械系',icon:'miscellaneous_services',index:4,component:'pro-mech',type:'sub-group'},
+  {text:'Designs',textJP:'意匠',icon:'category',index:5,component:'pro-designs',type:'sub-group'},
+  {text:'Medical Devices',textJP:'医療機器',icon:'biotech',index:6,component:'pro-meddevices',type:'sub-group'},
+  {text:'Chemicals, Pharma & Bio',textJP:'化学・医薬・バイオ',icon:'science',index:7,component:'pro-chempharmabio',type:'sub-group'},
+  {text:'Toys and Games',textJP:'アミューズメント・ゲーム',icon:'videogame_asset',index:8,component:'pro-toysgames',type:'sub-group'},
+  {text:'Litigation',textJP:'訴訟・訴訟支援',icon:'gavel',index:9,component:'pro-lit',type:'last-in-group'},
+  {text:'Patent Attorneys',textJP:'弁理士',icon:'person',index:10,component:'pro-patattorneys',type:'sub-group'},
+  {text:'Legal/Technical pro-advisors',textJP:'法律顧問・技術顧問',icon:'person_outline',index:11,component:'pro-pro-advisors',type:'sub-group'},
+  {text:'Patent Engineers',textJP:'特許技術スタッフ',icon:'person',index:12,component:'pro-patengineers',type:'sub-group'},
+  {text:'International Support',textJP:'技術・海外支援',icon:'person_outline',index:13,component:'pro-international',type:'sub-group'}
 ];
 
 export const PEOPLE_DATA: IPerson[] = [
@@ -80,7 +80,7 @@ export const PEOPLE_DATA: IPerson[] = [
         { text: '特許がわかるQ&A（オーム社）' }],
   
       groups:
-        [, 'design_people', 'litigation_people', 'patentattorneys']
+        [, 'pro-designs', 'pro-lit', 'pro-patattorneys']
     },
     {
       title: 'Patent Attorney (Partner)',
@@ -135,7 +135,7 @@ export const PEOPLE_DATA: IPerson[] = [
         { text: '特許がわかるQ&A（オーム社）' }],
   
       groups:
-        ['infoproc_people', 'comm_people', 'semicon_people', 'meddev_people', 'games_people', 'litigation_people', 'patentattorneys'] 
+        ['pro-infoproc', 'pro-comm', 'pro-elec', 'pro-meddevices', 'pro-toysgames', 'pro-lit', 'pro-patattorneys'] 
     },
     {
       title: 'Patent Attorney (Partner)',
@@ -182,7 +182,7 @@ export const PEOPLE_DATA: IPerson[] = [
         { text: '特許がわかるQ&A（オーム社）' }],
   
       groups:
-        ['infoproc_people', 'comm_people', 'mech_people', 'meddev_people', 'games_people', 'litigation_people', 'patentattorneys' ] 
+        ['pro-infoproc', 'pro-comm', 'pro-mech', 'pro-meddevices', 'pro-toysgames', 'pro-lit', 'pro-patattorneys' ] 
     },
     {
       title: 'Patent Attorney (Partner)',
@@ -227,7 +227,7 @@ export const PEOPLE_DATA: IPerson[] = [
         { text: '特許がわかるQ&A（オーム社）' }],
   
       groups:
-        ['semicon_people', 'mech_people', 'design_people', 'games_people', 'litigation_people', 'patentattorneys'] 
+        ['pro-elec', 'pro-mech', 'pro-designs', 'pro-toysgames', 'pro-lit', 'pro-patattorneys'] 
     },
     {
       title: 'Patent Attorney (Partner)',
@@ -266,7 +266,7 @@ export const PEOPLE_DATA: IPerson[] = [
       publicationsJP: null,
   
       groups:
-        ['infoproc_people', 'comm_people', 'patentattorneys'] 
+        ['pro-infoproc', 'pro-comm', 'pro-patattorneys'] 
     },
     {
       title: 'Patent Attorney (Partner)',
@@ -310,7 +310,7 @@ export const PEOPLE_DATA: IPerson[] = [
         { text: '特許がわかるQ&A（オーム社）' }],
   
       groups:
-        ['infoproc_people', 'semicon_people', 'meddev_people', 'litigation_people', 'patentattorneys'] 
+        ['pro-infoproc', 'pro-elec', 'pro-meddevices', 'pro-lit', 'pro-patattorneys'] 
     },
     {
       title: 'Patent Attorney Principal',
@@ -358,7 +358,7 @@ export const PEOPLE_DATA: IPerson[] = [
       publicationsJP: null,
   
       groups:
-        ['semicon_people', 'science_people', 'litigation_people', 'patentattorneys']
+        ['pro-elec', 'pro-chempharmabio', 'pro-lit', 'pro-patattorneys']
     },
     {
       title: 'Patent Attorney Principal',
@@ -406,7 +406,7 @@ export const PEOPLE_DATA: IPerson[] = [
       publicationsJP: null,
   
       groups:
-        ['infoproc_people', 'comm_people', 'litigation_people', 'patentattorneys'] 
+        ['pro-infoproc', 'pro-comm', 'pro-lit', 'pro-patattorneys'] 
     },
     {
       title: 'Patent Attorney',
@@ -450,7 +450,7 @@ export const PEOPLE_DATA: IPerson[] = [
       publicationsJP: null,
   
       groups:
-        ['litigation_people', 'patentattorneys'] // update
+        ['pro-lit', 'pro-patattorneys'] // update
     },
     {
       title: 'Patent Attorney',
@@ -491,7 +491,7 @@ export const PEOPLE_DATA: IPerson[] = [
         [{ text: '特許がわかるQ&A（オーム社）' }],
   
       groups:
-        ['infoproc_people', 'comm_people', 'design_people', 'litigation_people', 'patentattorneys']
+        ['pro-infoproc', 'pro-comm', 'pro-designs', 'pro-lit', 'pro-patattorneys']
     },
     {
       title: 'Patent Attorney',
@@ -529,7 +529,7 @@ export const PEOPLE_DATA: IPerson[] = [
       publicationsJP: null,
   
       groups:
-        ['infoproc_people', 'comm_people', 'mech_people', 'litigation_people', 'patentattorneys']
+        ['pro-infoproc', 'pro-comm', 'pro-mech', 'pro-lit', 'pro-patattorneys']
     },
     {
       title: 'Patent Attorney',
@@ -570,7 +570,7 @@ export const PEOPLE_DATA: IPerson[] = [
       publicationsJP: null,
   
       groups:
-        ['infoproc_people', 'comm_people', 'semicon_people', 'litigation_people', 'patentattorneys'] 
+        ['pro-infoproc', 'pro-comm', 'pro-elec', 'pro-lit', 'pro-patattorneys'] 
     },
     {
       title: 'Patent Attorney',
@@ -613,7 +613,7 @@ export const PEOPLE_DATA: IPerson[] = [
         [{ text: '特許がわかるQ&A（オーム社）' }],
   
       groups:
-        ['semicon_people', 'mech_people', 'meddev_people', 'patentattorneys'] 
+        ['pro-elec', 'pro-mech', 'pro-meddevices', 'pro-patattorneys'] 
     },
     {
       title: 'Patent Attorney',
@@ -655,7 +655,7 @@ export const PEOPLE_DATA: IPerson[] = [
       publicationsJP: null,
   
       groups:
-        ['infoproc_people', 'comm_people', 'games_people', 'litigation_people', 'patentattorneys'] 
+        ['pro-infoproc', 'pro-comm', 'pro-toysgames', 'pro-lit', 'pro-patattorneys'] 
     },
     {
       title: 'Patent Attorney',
@@ -699,7 +699,7 @@ export const PEOPLE_DATA: IPerson[] = [
       publicationsJP: null,
   
       groups:
-        ['infoproc_people', 'comm_people', 'litigation_people', 'patentattorneys']
+        ['pro-infoproc', 'pro-comm', 'pro-lit', 'pro-patattorneys']
     },
     {
       title: 'Patent Attorney',
@@ -737,7 +737,7 @@ export const PEOPLE_DATA: IPerson[] = [
       publicationsJP: null,
   
       groups:
-        ['mech_people', 'design_people', 'meddev_people', 'patentattorneys'] 
+        ['pro-mech', 'pro-designs', 'pro-meddevices', 'pro-patattorneys'] 
     },
     {
       title: 'Patent Attorney',
@@ -778,7 +778,7 @@ export const PEOPLE_DATA: IPerson[] = [
       publicationsJP: null,
   
       groups:
-        ['infoproc_people', 'comm_people', 'patentattorneys']
+        ['pro-infoproc', 'pro-comm', 'pro-patattorneys']
     },
     {
       title: 'Patent Attorney',
@@ -819,7 +819,7 @@ export const PEOPLE_DATA: IPerson[] = [
       publicationsJP: null,
   
       groups:
-        ['infoproc_people', 'games_people', 'litigation_people', 'patentattorneys'] 
+        ['pro-infoproc', 'pro-toysgames', 'pro-lit', 'pro-patattorneys'] 
     },
     {
       title: 'Patent Attorney (Partner)',
@@ -855,7 +855,7 @@ export const PEOPLE_DATA: IPerson[] = [
       publicationsJP: null,
   
       groups:
-        ['infoproc_people', 'meddev_people', 'science_people', 'litigation_people', 'patentattorneys'] 
+        ['pro-infoproc', 'pro-meddevices', 'pro-chempharmabio', 'pro-lit', 'pro-patattorneys'] 
     },
     {
       title: 'Patent Attorney',
@@ -896,7 +896,7 @@ export const PEOPLE_DATA: IPerson[] = [
       publicationsJP: null,
   
       groups:
-        ['semicon_people', 'patentattorneys'] 
+        ['pro-elec', 'pro-patattorneys'] 
     },
     {
       title: 'Patent Attorney',
@@ -938,7 +938,7 @@ export const PEOPLE_DATA: IPerson[] = [
       publicationsJP: null,
   
       groups:
-        ['infoproc_people', 'comm_people', 'litigation_people', 'patentattorneys'] 
+        ['pro-infoproc', 'pro-comm', 'pro-lit', 'pro-patattorneys'] 
     },
     {
       title: 'Patent Attorney (Partner)',
@@ -981,7 +981,7 @@ export const PEOPLE_DATA: IPerson[] = [
       publicationsJP: null,
   
       groups:
-        ['science_people', 'patentattorneys'] 
+        ['pro-chempharmabio', 'pro-patattorneys'] 
     },
     {
       title: 'Patent Attorney',
@@ -1023,7 +1023,7 @@ export const PEOPLE_DATA: IPerson[] = [
         publicationsJP: null,
   
       groups:
-        ['infoproc_people', 'patentattorneys']
+        ['pro-infoproc', 'pro-patattorneys']
     },
     {
       title: 'Patent Attorney',
@@ -1061,7 +1061,7 @@ export const PEOPLE_DATA: IPerson[] = [
       publicationsJP: null,
   
       groups:
-        ['meddev_people', 'science_people', 'patentattorneys'] 
+        ['pro-meddevices', 'pro-chempharmabio', 'pro-patattorneys'] 
     },
     {
       title: 'Patent Attorney',
@@ -1098,7 +1098,7 @@ export const PEOPLE_DATA: IPerson[] = [
       publicationsJP: null,
   
       groups:
-        ['mech_people', 'patentattorneys'] 
+        ['pro-mech', 'pro-patattorneys'] 
     },
   
     // Legal and Technical Counsel
@@ -1133,7 +1133,7 @@ export const PEOPLE_DATA: IPerson[] = [
         [{ text: 'ビジネス法律英語辞典(日本経済新聞社)、他多数' }],
   
       groups:
-        ['advisors'] 
+        ['pro-advisors'] 
     },
     {
       title: 'Patent Attorney',
@@ -1184,7 +1184,7 @@ export const PEOPLE_DATA: IPerson[] = [
       publicationsJP: null,
   
       groups:
-        ['science_people', 'advisors'] 
+        ['pro-chempharmabio', 'pro-advisors'] 
     },
     {
       title: 'Patent Attorney',
@@ -1224,7 +1224,7 @@ export const PEOPLE_DATA: IPerson[] = [
       publicationsJP:　null,
   
       groups:
-        ['design_people', 'advisors'] 
+        ['pro-designs', 'pro-advisors'] 
     },
     {
       title: 'Technical Advisor',
@@ -1269,7 +1269,7 @@ export const PEOPLE_DATA: IPerson[] = [
         { text: 'Visual　SLAMによる無線システムシミュレーション（共立出版）' }],
   
       groups:
-        ['advisors'] 
+        ['pro-advisors'] 
     },
   
     // Technical and International Support
@@ -1307,7 +1307,7 @@ export const PEOPLE_DATA: IPerson[] = [
       publicationsJP: null,
   
       groups:
-        ['infoproc_people', 'comm_people', 'internationalsupport']
+        ['pro-infoproc', 'pro-comm', 'pro-international']
     },
     {
       title: 'Bridge Patent Engineer',
@@ -1339,7 +1339,7 @@ export const PEOPLE_DATA: IPerson[] = [
       publicationsJP: null,
   
       groups:
-        ['science_people', 'internationalsupport'] 
+        ['pro-chempharmabio', 'pro-international'] 
     },
   
     {
@@ -1372,7 +1372,7 @@ export const PEOPLE_DATA: IPerson[] = [
       publicationsJP: null,
   
       groups:
-        ['internationalsupport']
+        ['pro-international']
     },
   
     {
@@ -1408,7 +1408,7 @@ export const PEOPLE_DATA: IPerson[] = [
       publicationsJP: null,
   
       groups:
-        ['infoproc_people', 'design_people', 'internationalsupport']
+        ['pro-infoproc', 'pro-designs', 'pro-international']
     },
   
     // Patent Technical Staff
@@ -1444,7 +1444,7 @@ export const PEOPLE_DATA: IPerson[] = [
       publicationsJP: null,
   
       groups:
-        ['infoproc_people', 'patentengineers'] 
+        ['pro-infoproc', 'pro-patengineers'] 
     },
     {
       title: 'Patent Engineer',
@@ -1477,7 +1477,7 @@ export const PEOPLE_DATA: IPerson[] = [
       publicationsJP: null,
   
       groups:
-        ['infoproc_people', 'meddev_people', 'patentengineers'] 
+        ['pro-infoproc', 'pro-meddevices', 'pro-patengineers'] 
     },
   
     {
@@ -1512,7 +1512,7 @@ export const PEOPLE_DATA: IPerson[] = [
       publicationsJP: null,
   
       groups:
-        ['infoproc_people', 'comm_people', 'patentengineers'] 
+        ['pro-infoproc', 'pro-comm', 'pro-patengineers'] 
     },
     {
       title: 'Patent Engineer',
@@ -1545,7 +1545,7 @@ export const PEOPLE_DATA: IPerson[] = [
       publicationsJP: null,
   
       groups:
-        ['mech_people', 'patentengineers'] 
+        ['pro-mech', 'pro-patengineers'] 
     },
     {
       title: 'Patent Engineer',
@@ -1578,7 +1578,7 @@ export const PEOPLE_DATA: IPerson[] = [
       publicationsJP: null,
   
       groups:
-        ['infoproc_people', 'meddev_people', 'patentengineers'] 
+        ['pro-infoproc', 'pro-meddevices', 'pro-patengineers'] 
     },
     {
       title: 'Patent Engineer',
@@ -1613,7 +1613,7 @@ export const PEOPLE_DATA: IPerson[] = [
       publicationsJP: null,
   
       groups:
-        ['infoproc_people', 'comm_people', 'meddev_people', 'patentengineers'] 
+        ['pro-infoproc', 'pro-comm', 'pro-meddevices', 'pro-patengineers'] 
     },
     {
       title: 'Patent Engineer',
@@ -1644,7 +1644,7 @@ export const PEOPLE_DATA: IPerson[] = [
       publicationsJP: null,
   
       groups:
-        ['mech_people', 'patentengineers'] 
+        ['pro-mech', 'pro-patengineers'] 
     },
     {
       title: 'Patent Engineer',
@@ -1677,7 +1677,7 @@ export const PEOPLE_DATA: IPerson[] = [
       publicationsJP: null,
   
       groups:
-        ['infoproc_people', 'patentengineers'] 
+        ['pro-infoproc', 'pro-patengineers'] 
     },
     {
       title: 'Patent Engineer',
@@ -1710,7 +1710,7 @@ export const PEOPLE_DATA: IPerson[] = [
       publicationsJP: null,
   
       groups:
-        ['infoproc_people', 'games_people', 'patentengineers'] 
+        ['pro-infoproc', 'pro-toysgames', 'pro-patengineers'] 
     },
     {
       title: 'Patent Engineer',
@@ -1742,7 +1742,7 @@ export const PEOPLE_DATA: IPerson[] = [
       publicationsJP: null,
   
       groups:
-        ['infoproc_people', 'meddev_people', 'patentengineers'] 
+        ['pro-infoproc', 'pro-meddevices', 'pro-patengineers'] 
     },
     {
       title: 'Patent Engineer',
@@ -1776,7 +1776,7 @@ export const PEOPLE_DATA: IPerson[] = [
       publicationsJP: null,
   
       groups:
-        ['infoproc_people', 'comm_people', 'patentengineers'] 
+        ['pro-infoproc', 'pro-comm', 'pro-patengineers'] 
     },
     {
       title: 'Patent Engineer',
@@ -1806,7 +1806,7 @@ export const PEOPLE_DATA: IPerson[] = [
       publicationsJP: null,
   
       groups:
-        ['infoproc_people', 'patentengineers'] 
+        ['pro-infoproc', 'pro-patengineers'] 
     },
     {
       title: 'Patent Engineer',
@@ -1839,7 +1839,7 @@ export const PEOPLE_DATA: IPerson[] = [
       publicationsJP: null,
   
       groups:
-        ['semicon_people', 'patentengineers'] 
+        ['pro-elec', 'pro-patengineers'] 
     },
     {
       title: 'Patent Engineer',
@@ -1871,7 +1871,7 @@ export const PEOPLE_DATA: IPerson[] = [
       publicationsJP: null,
   
       groups:
-        ['games_people', 'patentengineers'] 
+        ['pro-toysgames', 'pro-patengineers'] 
     },
     {
       title: 'Patent Engineer',
@@ -1906,7 +1906,7 @@ export const PEOPLE_DATA: IPerson[] = [
       publicationsJP: null,
   
       groups:
-        ['semicon_people', 'patentengineers'] 
+        ['pro-elec', 'pro-patengineers'] 
     },
     {
       title: 'Patent Engineer',
@@ -1941,7 +1941,7 @@ export const PEOPLE_DATA: IPerson[] = [
       publicationsJP: null,
   
       groups:
-        ['semicon_people', 'patentengineers'] 
+        ['pro-elec', 'pro-patengineers'] 
     },
     {
       title: 'Patent Engineer',
@@ -1975,7 +1975,7 @@ export const PEOPLE_DATA: IPerson[] = [
       publicationsJP:
         [{ text: '\“同一チャネル全二重無線通信向け平面アンテナの寄生共振器に関する一検討，\”電子情報通信学会技術研究報告（アンテナ・伝播），115(79)， 19-24，2015年6月．' }],
       groups:
-        ['infoproc_people', 'comm_people', 'patentengineers'] 
+        ['pro-infoproc', 'pro-comm', 'pro-patengineers'] 
     },
     {
       title: 'Patent Engineer',
@@ -2009,7 +2009,7 @@ export const PEOPLE_DATA: IPerson[] = [
       publicationsJP: null,
   
       groups:
-        ['patentengineers'] 
+        ['pro-patengineers'] 
     }
   
     // TEMPLATE FOR ADDING NEW PEOPLE
@@ -2065,7 +2065,7 @@ export const PEOPLE_DATA: IPerson[] = [
     //      { text: '' }],
     // 
     //   groups:
-    //     ['infoproc_people'] // update
+    //     ['pro-infoproc'] // update
     // },
   
   ];

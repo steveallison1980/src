@@ -23,6 +23,23 @@ import { CasestudiespageComponent } from './modules/casestudiespage/casestudiesp
 
 import { ProfessionalsComponent } from './modules/professionals/professionals.component';
 import { ProfessionalComponent } from './modules/professional/professional.component';
+import { ProPracticeareasComponent } from './modules/professionals/pro-practiceareas/pro-practiceareas.component';
+import { ProInfoprocComponent } from './modules/professionals/pro-infoproc/pro-infoproc.component';
+import { ProCommComponent } from './modules/professionals/pro-comm/pro-comm.component';
+import { ProElecComponent } from './modules/professionals/pro-elec/pro-elec.component';
+import { ProMechComponent } from './modules/professionals/pro-mech/pro-mech.component';
+import { ProDesignsComponent } from './modules/professionals/pro-designs/pro-designs.component';
+import { ProMeddevicesComponent } from './modules/professionals/pro-meddevices/pro-meddevices.component';
+import { ProChempharmabioComponent } from './modules/professionals/pro-chempharmabio/pro-chempharmabio.component';
+import { ProToysgamesComponent } from './modules/professionals/pro-toysgames/pro-toysgames.component';
+import { ProLitComponent } from './modules/professionals/pro-lit/pro-lit.component';
+import { ProPatattorneysComponent } from './modules/professionals/pro-patattorneys/pro-patattorneys.component';
+import { ProAdvisorsComponent } from './modules/professionals/pro-advisors/pro-advisors.component';
+import { ProPatengineersComponent } from './modules/professionals/pro-patengineers/pro-patengineers.component';
+import { ProInternationalComponent } from './modules/professionals/pro-international/pro-international.component';
+
+
+
 import { CareersComponent } from './modules/careers/careers.component';
 import { CafcreportsComponent } from './modules/cafcreports/cafcreports.component';
 import { CafcreportComponent } from './modules/cafcreport/cafcreport.component';
@@ -127,6 +144,62 @@ const routes: Routes = [
         path: 'professional',
         component: ProfessionalComponent
       },
+      {
+        path: 'pro-practiceareas',
+        component: ProPracticeareasComponent
+      },
+      {
+        path: 'pro-infoproc',
+        component: ProInfoprocComponent
+      },
+      {
+        path: 'pro-comm',
+        component: ProCommComponent
+      },
+      {
+        path: 'pro-elec',
+        component: ProElecComponent
+      },
+      {
+        path: 'pro-mech',
+        component: ProMechComponent
+      },
+      {
+        path: 'pro-designs',
+        component: ProDesignsComponent
+      },
+      {
+        path: 'pro-meddevices',
+        component: ProMeddevicesComponent
+      },
+      {
+        path: 'pro-chempharmabio',
+        component: ProChempharmabioComponent
+      },
+      {
+        path: 'pro-toysgames',
+        component: ProToysgamesComponent
+      },
+      {
+        path: 'pro-lit',
+        component: ProLitComponent
+      },
+      {
+        path: 'pro-patattorneys',
+        component: ProPatattorneysComponent
+      },
+      {
+        path: 'pro-advisors',
+        component: ProAdvisorsComponent
+      },
+      {
+        path: 'pro-patengineers',
+        component: ProPatengineersComponent
+      },
+      {
+        path: 'pro-international',
+        component: ProInternationalComponent
+      },      
       {
         path: 'cafcreports',
         component: CafcreportsComponent
