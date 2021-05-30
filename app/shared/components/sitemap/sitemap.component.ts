@@ -53,4 +53,12 @@ export class SitemapComponent implements OnInit {
     return this.langService.lang == "JP";
   }
 
+  getPages(){
+    if( this.langService.lang == "JP") return SITEMAP_DATA.pages.filter(x => (x.displayMode == "" || x.displayMode == "JPonly"));
+    if( this.langService.lang == "EN") return SITEMAP_DATA.pages.filter(x => (x.displayMode == "" || x.displayMode == "ENonly"));
+  }
+  getLinks(page){
+    if( this.langService.lang == "JP") return page.links.filter(x => (x.displayMode == "both" || x.displayMode == "JPonly"));
+    if( this.langService.lang == "EN") return page.links.filter(x => (x.displayMode == "both" || x.displayMode == "ENonly"));
+  }
 }

@@ -1,10 +1,10 @@
 <mat-nav-list>
-    <div *ngFor="let page of this.sitemap.pages">
-        <div *ngIf="(!isJapaneseSite() && page.displayMode!='JPonly') || (isJapaneseSite())">
+    <div *ngFor="let page of getPages()">
+        <div>
             <a routerLink="{{page.routerlink}}" mat-list-item
                 (click)="openLink(page.mainpage,page.defaultsubpage)">{{getPageText(page)}}</a>
-            <mat-list-item *ngFor="let link of page.links" (click)="openLink(page.mainpage,link.subPage)">
-                <a class='sitemaplink' routerLink="{{page.routerlink}}" fxLayoutAlign='start start'>
+            <mat-list-item *ngFor="let link of getLinks(page)" (click)="openLink(page.mainpage,link.subPage)">
+                <a class='sitemaplink' routerLink="{{link.routerlink}}" fxLayoutAlign='start start'>
                     <button class='sitemapbutton' mat-icon-button fxLayoutAlign='start start'>
                         <mat-icon>{{link.icon}}</mat-icon>
                         {{getText(link)}}

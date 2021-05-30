@@ -5,7 +5,7 @@ export const SITEMAP_DATA: ISitemap =
     pages: [
         {
             mainpage: 'home',
-            routerlink: '/',
+            routerlink: '/welcomepage',
             text: "Home",
             textJP: "ホーム",
             defaultsubpage: 'welcomepage',
@@ -18,7 +18,7 @@ export const SITEMAP_DATA: ISitemap =
         },
         {
             mainpage: 'aboutus',
-            routerlink: '/aboutus',
+            routerlink: '/aboutpage',
             text: "About Us",
             textJP: "当事務所について",
             defaultsubpage: 'aboutpage',
@@ -31,7 +31,7 @@ export const SITEMAP_DATA: ISitemap =
         },
         {
             mainpage: 'ourservices',
-            routerlink: '/ourservices',
+            routerlink: '/patentspage',
             text: "Our Services",
             textJP: "実務案内",
             defaultsubpage: 'patentspage',
@@ -44,7 +44,7 @@ export const SITEMAP_DATA: ISitemap =
         },
         {
             mainpage: 'professionals',
-            routerlink: '/professionals',
+            routerlink: '/pro-practiceareas',
             text: "Professionals",
             textJP: "メンバー",
             defaultsubpage: 'pro-practiceareas',
@@ -67,7 +67,7 @@ export const SITEMAP_DATA: ISitemap =
         },
         {
             mainpage: 'cafcreports',
-            routerlink: '/cafcreports',
+            routerlink: '/cafcall',
             text: "",
             textJP: "米国連邦控訴裁判所（CAFC）判決",
             defaultsubpage: 'cafcall',
@@ -93,7 +93,7 @@ export const SITEMAP_DATA: ISitemap =
         },
         {
             mainpage: 'careers',
-            routerlink: '/careers',
+            routerlink: '/careerspage',
             text: "Careers",
             textJP: "採用情報",
             defaultsubpage: 'careerspage',
