@@ -8006,15 +8006,15 @@ export const CAFC_REPORTS: ICAFCReport[] = [
             [''],
     },
 
-
+    // 2010
 
     {
-        casetitle: '',
-        caseno: '',
-        reportyear: '',
-        reportmonth: '',
-        reportdate: '',
-        reportpreview: [''],
+        casetitle: 'Teva Pharmaceuticals USA, Inc. 対 Eisai Co.事件',
+        caseno: 'No. 2009-1593',
+        reportyear: '2010',
+        reportmonth: '12',
+        reportdate: 'October 6, 2010',
+        reportpreview: ['オレンジブックへの特許権の掲載と事件性', 'この事件は、特許権者がオレンジブックに特許権を記載することは、二番目のANDA提出者の障害になりうることを確認した事件です。地方裁判所は「事件及び争訟」が存在しないとして確認判決訴訟を却下しましたが、CAFCは二番目のANDA提出者の損害を認め、ジェネリック医薬品会社には確認判決訴訟を提起する当事者適格があると判断しました。'],
         content:
             [
                 { type: 'sub', elements: [{ link: '', texttype: '', text: '' }] },
@@ -8026,6 +8026,635 @@ export const CAFC_REPORTS: ICAFCReport[] = [
             [''],
     },
 
+    {
+        casetitle: 'Fujitsu Ltd. Et al. 対 Netgear Inc.事件',
+        caseno: 'No. 2010-1045',
+        reportyear: '2010',
+        reportmonth: '12',
+        reportdate: 'September 20, 2010',
+        reportpreview: ['業界標準と立証責任', 'この事件においてCAFCは、地方裁判所が侵害認定において業界標準を利用することを認めました。これにより、業界標準の基本的特徴を保護する特許を所有する特許権者にとって、特許訴訟を多少容易に進めることが可能になると思われます。特許権者は全てのクレームを侵害被疑品と比較する必要はなく、単純に、製品が特許によって保護された標準技術の基本的特徴を実施していることを理由に侵害している、という事実に頼ればよいことになります。この判決は、業界標準に基づく製品を製造する会社にライセンス料を要求する際に、より影響力を持つという点で、特許権者のライセンスグループにとっても好ましいものです。'],
+        content:
+            [
+                { type: 'sub', elements: [{ link: '', texttype: '', text: '' }] },
+                { type: 'para', elements: [{ link: '', texttype: '', text: '' }] },
+                { type: 'para', elements: [{ link: '', texttype: '', text: '' }] },
+                { type: 'point', elements: [{ link: '', texttype: '', text: '' }] },
+            ],
+        authorIDs:
+            [''],
+    },
+
+    {
+        casetitle: 'Tri-Star Electronics Int’l. 対 Preci-Dip Durtal SA 事件',
+        caseno: 'No. 2009-1337',
+        reportyear: '2010',
+        reportmonth: '12',
+        reportdate: 'September 9, 2010',
+        reportpreview: ['契約書の意思解釈', 'この事件においてCAFCは、契約に文書上の誤りがあった場合、裁判所は契約当事者の意思を尊重して契約内容を判断できることを示しました。このような誤りの余地は濫用される恐れがあるため、書面上の誤りが救済されるとは限られません。実際の特許を受ける権利の譲渡、特許権者の譲渡では細かな注意が必要です。'],
+        content:
+            [
+                { type: 'sub', elements: [{ link: '', texttype: '', text: '' }] },
+                { type: 'para', elements: [{ link: '', texttype: '', text: '' }] },
+                { type: 'para', elements: [{ link: '', texttype: '', text: '' }] },
+                { type: 'point', elements: [{ link: '', texttype: '', text: '' }] },
+            ],
+        authorIDs:
+            [''],
+    },
+
+    {
+        casetitle: 'Funai Electric Company, Ltd. 対 Daewoo Electronics Corp. et al.事件',
+        caseno: 'Nos. 2009-1225, -1244',
+        reportyear: '2010',
+        reportmonth: '11',
+        reportdate: 'September 1, 2010',
+        reportpreview: ['欠席裁判を回避することの重要性', 'この事件は、特許訴訟において欠席裁判を回避することの重要性を示しました。また、外国企業が米国内で事業を行う子会社の引継ぎ者債務を回避するために、外国の法律を頼ることができないことを明らかにしました。'],
+        content:
+            [
+                { type: 'sub', elements: [{ link: '', texttype: '', text: '' }] },
+                { type: 'para', elements: [{ link: '', texttype: '', text: '' }] },
+                { type: 'para', elements: [{ link: '', texttype: '', text: '' }] },
+                { type: 'point', elements: [{ link: '', texttype: '', text: '' }] },
+            ],
+        authorIDs:
+            [''],
+    },
+
+    {
+        casetitle: 'Princo Corp. 対 International Trade Commission事件',
+        caseno: 'No. 2007-1836',
+        reportyear: '2010',
+        reportmonth: '11',
+        reportdate: 'August 30, 2010',
+        reportpreview: ['パテントプールに掲載する特許の重要性', 'この事件は、パテントプールにエッセンシャルでない特許、即ち標準化技術以外の特許が含まれている場合、抱き合わせの違法なライセンスの疑いが生じるので、パテントプールにリストする特許は厳選することが必要なことを教えてくれました。'],
+        content:
+            [
+                { type: 'sub', elements: [{ link: '', texttype: '', text: '' }] },
+                { type: 'para', elements: [{ link: '', texttype: '', text: '' }] },
+                { type: 'para', elements: [{ link: '', texttype: '', text: '' }] },
+                { type: 'point', elements: [{ link: '', texttype: '', text: '' }] },
+            ],
+        authorIDs:
+            [''],
+    },
+
+    {
+        casetitle: 'Stauffer 対 Brooks Brothers, Inc.事件',
+        caseno: 'Nos. 2009-1428, -1430, -1453',
+        reportyear: '2010',
+        reportmonth: '11',
+        reportdate: 'August 31, 2010',
+        reportpreview: ['消滅している特許の表示でも虚偽表示の問題が起きる', 'この事件では、特許の虚偽表示に対して米国政府に代わって個人が訴訟をできる米国特許法の下で、ネクタイ１個の虚偽表示に対して罰金500ドルが請求されました。販売した個数に500ドルを掛算すれば、事件は巨額になります。消滅した特許をそのまま表示していてもこの種の事件に発展する可能性があります。特許表示には正確性を期すことが大切です。'],
+        content:
+            [
+                { type: 'sub', elements: [{ link: '', texttype: '', text: '' }] },
+                { type: 'para', elements: [{ link: '', texttype: '', text: '' }] },
+                { type: 'para', elements: [{ link: '', texttype: '', text: '' }] },
+                { type: 'point', elements: [{ link: '', texttype: '', text: '' }] },
+            ],
+        authorIDs:
+            [''],
+    },
+
+    {
+        casetitle: 'Golden Hour Data Systems, Inc. 対 emsCharts, Inc. and Softtech, LLC事件',
+        caseno: 'Nos. 2009-1306-1396',
+        reportyear: '2010',
+        reportmonth: '10',
+        reportdate: 'August 9, 2010',
+        reportpreview: ['発行日のない刊行物とIDS(情報開示)', 'この事件は、発行日の日付がない文献であってもIDSとして、情報開示の対象になることを確認しました。日付のない文献の未提出の故意についての更なる審理のため、CAFCは事件を地方裁判所に差し戻しました。日付を有しない文献であっても関連性のある文献はIDS提出の義務があります。'],
+        content:
+            [
+                { type: 'sub', elements: [{ link: '', texttype: '', text: '' }] },
+                { type: 'para', elements: [{ link: '', texttype: '', text: '' }] },
+                { type: 'para', elements: [{ link: '', texttype: '', text: '' }] },
+                { type: 'point', elements: [{ link: '', texttype: '', text: '' }] },
+            ],
+        authorIDs:
+            [''],
+    },
+
+    {
+        casetitle: 'Sun Pharmaceutical Indus., Ltd. 対 Eli Lilly and Co.事件',
+        caseno: 'No. 2010-1105',
+        reportyear: '2010',
+        reportmonth: '10',
+        reportdate: 'July 28, 2010',
+        reportpreview: ['自明型二重特許の分析手法', 'この事件は、先願のクレームと明細書が共に後願でクレームされている発明を記載している状況でのCAFCの自明型二重特許の分析手法を再確認した事件です。', 'CAFCは、先願の明細書を考慮し、先願における開示の全体を踏まえて、特許クレームの技術的範囲を確定する手法を採用しました。'],
+        content:
+            [
+                { type: 'sub', elements: [{ link: '', texttype: '', text: '' }] },
+                { type: 'para', elements: [{ link: '', texttype: '', text: '' }] },
+                { type: 'para', elements: [{ link: '', texttype: '', text: '' }] },
+                { type: 'point', elements: [{ link: '', texttype: '', text: '' }] },
+            ],
+        authorIDs:
+            [''],
+    },
+
+    {
+        casetitle: 'Gregory w. Baran 対 Medical device Technologies, Inc.事件',
+        caseno: 'No. 2010-1058',
+        reportyear: '2010',
+        reportmonth: '10',
+        reportdate: 'August 12, 2010',
+        reportpreview: ['クレームの解釈、ミーンズ・プラス・ファンクションの解釈', 'この事件は、特許クレームが明細書中に開示された全実施例よりも狭義に解釈されうること、そして、特許クレームの解釈における明細書の文言の重要性を示しました。', 'また、この事件は、ミーンズ・プラス・ファンクションクレームと侵害被疑品との対比判断におけるCAFCの審理手法の一例を示しました。'],
+        content:
+            [
+                { type: 'sub', elements: [{ link: '', texttype: '', text: '' }] },
+                { type: 'para', elements: [{ link: '', texttype: '', text: '' }] },
+                { type: 'para', elements: [{ link: '', texttype: '', text: '' }] },
+                { type: 'point', elements: [{ link: '', texttype: '', text: '' }] },
+            ],
+        authorIDs:
+            [''],
+    },
+
+    {
+        casetitle: 'Bilski 対 Kappos事件',
+        caseno: 'No. 2008-964',
+        reportyear: '2010',
+        reportmonth: '9',
+        reportdate: 'June 28, 2010',
+        reportpreview: ['ビジネス方法に関連する発明の成立性', 'この最高裁判決は、純粋なビジネス方法、抽象的なアルゴリズムは特許の対象でないことを確認しました。確認の方法として、CAFCが採用した「機械・変換テスト」は発明の特許性に関する有効な「手掛かり」ではあるが、第101条に基づく特許性に関する唯一のテストではないと述べて、このテストを唯一の基準としたCAFCの判断を否定しました。何が有効なビジネスモデル発明(特許)かどうかについて、最高裁は明言せずこの問題を先送りしましたが、日本の審査基準に従って、ビジネス方法を実行するハードウェアリソース、ソフトウェアによるハードウェアの特有な活用方法を記載している特許は、米国でも有効と思われます。'],
+        content:
+            [
+                { type: 'sub', elements: [{ link: '', texttype: '', text: '' }] },
+                { type: 'para', elements: [{ link: '', texttype: '', text: '' }] },
+                { type: 'para', elements: [{ link: '', texttype: '', text: '' }] },
+                { type: 'point', elements: [{ link: '', texttype: '', text: '' }] },
+            ],
+        authorIDs:
+            [''],
+    },
+
+    {
+        casetitle: 'In re Zimmer Holdings, Inc.事件',
+        caseno: 'No. 2010-938',
+        reportyear: '2010',
+        reportmonth: '9',
+        reportdate: 'June 24, 2010',
+        reportpreview: ['真正な営業の所在地を参考に裁判地を決めた判決', 'この事件は、法廷地漁りとしてのテキサス東部地区裁判所の悪用を減らすことにCAFCが関心を持っていることを示しました。この決定は真正な営業所の所在地を基準に裁判地を決めました。関連する事件が同時にその裁判所に係属しているといった要因や、被告側証人が比較的近所にいるといった要因を踏まえても移送を許可したという点で、最近の裁判地移送事件であるNintendo事件から更に踏み込んだ事件です。'],
+        content:
+            [
+                { type: 'sub', elements: [{ link: '', texttype: '', text: '' }] },
+                { type: 'para', elements: [{ link: '', texttype: '', text: '' }] },
+                { type: 'para', elements: [{ link: '', texttype: '', text: '' }] },
+                { type: 'point', elements: [{ link: '', texttype: '', text: '' }] },
+            ],
+        authorIDs:
+            [''],
+    },
+
+    {
+        casetitle: 'Giacomini事件',
+        caseno: 'No. 2009-1400',
+        reportyear: '2010',
+        reportmonth: '9',
+        reportdate: 'July 7, 2010',
+        reportpreview: ['仮出願日が先行技術の基準日', '仮出願を優先権主張した米国特許は、仮出願の時点を基準に他の特許出願に対して米国特許法第102条(e)の先行技術を構成することを明確にしました。しかし、仮出願はその出願を優先権主張する本出願が出願された場合にのみ先行技術として扱われうることに注意しなければなりません。'],
+        content:
+            [
+                { type: 'sub', elements: [{ link: '', texttype: '', text: '' }] },
+                { type: 'para', elements: [{ link: '', texttype: '', text: '' }] },
+                { type: 'para', elements: [{ link: '', texttype: '', text: '' }] },
+                { type: 'point', elements: [{ link: '', texttype: '', text: '' }] },
+            ],
+        authorIDs:
+            [''],
+    },
+
+    {
+        casetitle: 'Pequignot 対 Solo Cup Company事件',
+        caseno: 'No. 2009-1547',
+        reportyear: '2010',
+        reportmonth: '8',
+        reportdate: 'June 10, 2010',
+        reportpreview: ['失効した特許の表示が絡む虚偽表示の問題', 'この事件で、CAFCは特許の「虚偽表示」の要件に、公衆を欺く意図を求めました。そこで、特許権者が特許の失効を認識していたとしても、公衆を欺く意図の有無を調べ、その意図がなければ虚偽表示に当たらないと判断しました。'],
+        content:
+            [
+                { type: 'sub', elements: [{ link: '', texttype: '', text: '' }] },
+                { type: 'para', elements: [{ link: '', texttype: '', text: '' }] },
+                { type: 'para', elements: [{ link: '', texttype: '', text: '' }] },
+                { type: 'point', elements: [{ link: '', texttype: '', text: '' }] },
+            ],
+        authorIDs:
+            [''],
+    },
+
+    {
+        casetitle: 'Orion IP, LLC 対 Hyundai Motor America事件',
+        caseno: 'No. 2009-1130',
+        reportyear: '2010',
+        reportmonth: '8',
+        reportdate: 'May 17, 2010',
+        reportpreview: ['公知資料の認定方法', 'この事件において、Orion IP, LLCが所有する電子カタログによる部品販売方法に関する特許をヒュンダイが故意に侵害したとの第一審の陪審評決に対し、CAFCは、地方裁判所の判決を破棄しました。CAFCは、分別ある事実認定者であれば、ヒュンダイが提出した先行技術からクレームされた方法は公知であったと判断するだろうと判示しました。'],
+        content:
+            [
+                { type: 'sub', elements: [{ link: '', texttype: '', text: '' }] },
+                { type: 'para', elements: [{ link: '', texttype: '', text: '' }] },
+                { type: 'para', elements: [{ link: '', texttype: '', text: '' }] },
+                { type: 'point', elements: [{ link: '', texttype: '', text: '' }] },
+            ],
+        authorIDs:
+            [''],
+    },
+
+    {
+        casetitle: 'Haemonetics Corp. 対 Baxter Healthcare Corp., Fenwal, Inc.事件',
+        caseno: 'No. 2009-1557',
+        reportyear: '2010',
+        reportmonth: '8',
+        reportdate: 'June 2, 2010',
+        reportpreview: ['クレームのプリアンブルで使用された用語の解釈', 'この事件は、プリアンブルにおいて用語が明確に定義された場合には、クレームの本文もそのプリアンブルの意味合いに従って解釈されることを明瞭にしました。'],
+        content:
+            [
+                { type: 'sub', elements: [{ link: '', texttype: '', text: '' }] },
+                { type: 'para', elements: [{ link: '', texttype: '', text: '' }] },
+                { type: 'para', elements: [{ link: '', texttype: '', text: '' }] },
+                { type: 'point', elements: [{ link: '', texttype: '', text: '' }] },
+            ],
+        authorIDs:
+            [''],
+    },
+
+    {
+        casetitle: 'Avid Identification Systems, Inc. 対 Crystal Import Corp.事件',
+        caseno: 'Nos. 2009-1216, -1254',
+        reportyear: '2010',
+        reportmonth: '7',
+        reportdate: 'April 27, 2010',
+        reportpreview: ['出願関係者以外にもIDSの義務を負う者', 'CAFCは発明者・弁護士・代理人のいずれでもない者の、特許の出願過程へ「実質的に関与」し、特許庁に対する誠実義務を負うか否かを判断しました。CAFCは、「実質的に関与」するか否かの決定には知識要件は含まれず、会社における地位、その発明が絡むビジネスへの関与の度合いなどを考慮に入れて判断し、実質的な関与者を広く解釈しました。'],
+        content:
+            [
+                { type: 'sub', elements: [{ link: '', texttype: '', text: '' }] },
+                { type: 'para', elements: [{ link: '', texttype: '', text: '' }] },
+                { type: 'para', elements: [{ link: '', texttype: '', text: '' }] },
+                { type: 'point', elements: [{ link: '', texttype: '', text: '' }] },
+            ],
+        authorIDs:
+            [''],
+    },
+
+    {
+        casetitle: 'ALZA Corp 対 Andrx Pharmaceuticals, LLC事件',
+        caseno: 'No. 2009-1350',
+        reportyear: '2010',
+        reportmonth: '7',
+        reportdate: 'April 26, 2010',
+        reportpreview: ['実施可能要件の程度', 'この事件でCAFCは、実施可能要件を満足するためには明細書中で適切に実施できる程度までの開示が必要であり、明細書の記載が更なる研究についての方向付けで、後は当業者の知識に頼るような開示では不十分であることを判示しました。'],
+        content:
+            [
+                { type: 'sub', elements: [{ link: '', texttype: '', text: '' }] },
+                { type: 'para', elements: [{ link: '', texttype: '', text: '' }] },
+                { type: 'para', elements: [{ link: '', texttype: '', text: '' }] },
+                { type: 'point', elements: [{ link: '', texttype: '', text: '' }] },
+            ],
+        authorIDs:
+            [''],
+    },
+
+    {
+        casetitle: 'Anascape, Ltd. 対 Nintendo of America Inc.事件',
+        caseno: 'No. 2008-1500',
+        reportyear: '2010',
+        reportmonth: '7',
+        reportdate: 'April 13, 2010',
+        reportpreview: ['親出願の利益をうけるための開示要件', 'この事件でCAFCは、争点となった広い特許のクレーム範囲がその親出願において十分に記述されていなかったことを理由に、その親出願の出願日の利益を享受できないと判示して、地方裁判所の判決を破棄しました。この事件は、継続出願のクレーム範囲が親出願の明細書に記述されていることの重要性を改めて明らかにすると共に、単に親出願が子出願の広い範囲の主題を減縮していない記載を持つことだけでは、サポートとして不十分であることを教えています。'],
+        content:
+            [
+                { type: 'sub', elements: [{ link: '', texttype: '', text: '' }] },
+                { type: 'para', elements: [{ link: '', texttype: '', text: '' }] },
+                { type: 'para', elements: [{ link: '', texttype: '', text: '' }] },
+                { type: 'point', elements: [{ link: '', texttype: '', text: '' }] },
+            ],
+        authorIDs:
+            [''],
+    },
+
+    {
+        casetitle: 'Ariad Pharmaceuticals, Inc. 対 Eli Lilly & Co.事件',
+        caseno: 'No. 2008-1248',
+        reportyear: '2010',
+        reportmonth: '6',
+        reportdate: 'March 22, 2010',
+        reportpreview: ['サポート要件と実施可能要件', 'この事件においてCAFCは、米国特許法第112条第1パラグラフによる明細書の記述要件(クレームのサポート要件)を大法廷で審理し、記述要件は、同112条の実施可能要件(enablement requirement)とは別に分離して存在していることを確認しました。アライアドの特許は係争クレームのサポートとなる記述が十分に存在しないことから無効であると認定され、特許を有効とした陪審評決が破棄されました。'],
+        content:
+            [
+                { type: 'sub', elements: [{ link: '', texttype: '', text: '' }] },
+                { type: 'para', elements: [{ link: '', texttype: '', text: '' }] },
+                { type: 'para', elements: [{ link: '', texttype: '', text: '' }] },
+                { type: 'point', elements: [{ link: '', texttype: '', text: '' }] },
+            ],
+        authorIDs:
+            [''],
+    },
+
+    {
+        casetitle: 'SiRF Technology, Inc 対 International Trade Commission 事件',
+        caseno: 'No. 2009-1262',
+        reportyear: '2010',
+        reportmonth: '6',
+        reportdate: 'April 12, 2010',
+        reportpreview: ['特許権者の推定と原告適格、方法クレームに対するBiliski判例の適用について', '登録された譲受人がその特許の特許権者であるという推定に異議を唱えるための実質的な証拠は被告が提示しなければならないことを明らかにしました。', '共同侵害問題を回避するために1名の実施者による行為だけを要求する手法でCAFCはクレームを解釈しました。最後に、Biliski件の「機械又は変換」基準に関して、クレームの記載に意味のある限定を加えている機械に方法クレームが結びついている限りにおいて、その方法クレームは米国特許法のもとで特許の主題であることを認めました。'],
+        content:
+            [
+                { type: 'sub', elements: [{ link: '', texttype: '', text: '' }] },
+                { type: 'para', elements: [{ link: '', texttype: '', text: '' }] },
+                { type: 'para', elements: [{ link: '', texttype: '', text: '' }] },
+                { type: 'point', elements: [{ link: '', texttype: '', text: '' }] },
+            ],
+        authorIDs:
+            [''],
+    },
+
+    {
+        casetitle: 'MBO Laboratories, Inc. 対 Becton, Dickinson & Co.事件',
+        caseno: 'No. 2008-1288',
+        reportyear: '2010',
+        reportmonth: '6',
+        reportdate: 'April 12, 2010',
+        reportpreview: ['パテントファミリー全体からリキャプチャリングを判断', 'この事件は再発行特許の審査だけで問題となるリキャプチャリングの判断の範囲を取り扱った事件です。放棄した主題を再発行特許で取得できないことは知られていますが、この事件では、その特許の審査ではもちろん、ファミリーの審査経過全体からリキャプチャリングの無いことを再発行特許の要件としました。この判決は、リキャプチャリングの判断をパテントファミリー全体から判断し、リキャプチャリングを理由に、再発行を拒絶しました。'],
+        content:
+            [
+                { type: 'sub', elements: [{ link: '', texttype: '', text: '' }] },
+                { type: 'para', elements: [{ link: '', texttype: '', text: '' }] },
+                { type: 'para', elements: [{ link: '', texttype: '', text: '' }] },
+                { type: 'point', elements: [{ link: '', texttype: '', text: '' }] },
+            ],
+        authorIDs:
+            [''],
+    },
+
+    {
+        casetitle: 'Koninklijke Philips Electronics N.V. 対 Cardiac Science Operating Co.事件',
+        caseno: 'No. 2009-1241',
+        reportyear: '2010',
+        reportmonth: '5',
+        reportdate: 'January 5, 2010',
+        reportpreview: ['インターフェアレンスでのコピーしたクレームの実質的開示の必要性', 'この事件でCAFCは、インターフェアレンスの手続において、判例に従い、コピーしたクレームの解釈を明細書の記載を基に行うことを判示し、米国特許庁の規則(CFR.41．200(b))に従ってクレームを解釈したUSPTOの審決、地裁の判決を取り消しました。この判決で、判例が特許庁規則に優先することを明らかにしました。'],
+        content:
+            [
+                { type: 'sub', elements: [{ link: '', texttype: '', text: '' }] },
+                { type: 'para', elements: [{ link: '', texttype: '', text: '' }] },
+                { type: 'para', elements: [{ link: '', texttype: '', text: '' }] },
+                { type: 'point', elements: [{ link: '', texttype: '', text: '' }] },
+            ],
+        authorIDs:
+            [''],
+    },
+
+    {
+        casetitle: 'Therasense, Inc. 対 Becton, Dickinson & Co.事件',
+        caseno: 'Nos. 2008-1511, -1512, -1513, -1514, -1595',
+        reportyear: '2010',
+        reportmonth: '5',
+        reportdate: 'January 25, 2010',
+        reportpreview: ['対応外国特許出願の手続き中での矛盾した主張とフロード', 'この事件でCAFCは、先行技術に対する特許性に関してヨーロッパ特許庁で行った主張と矛盾する主張を行って取得した米国での特許出願手続きに不正行為を認め、不正行為による権利行使不能を判決した地方裁判所の判決を支持しました。この事件は、対応外国出願の中での、矛盾のある主張をいましめています。'],
+        content:
+            [
+                { type: 'sub', elements: [{ link: '', texttype: '', text: '' }] },
+                { type: 'para', elements: [{ link: '', texttype: '', text: '' }] },
+                { type: 'para', elements: [{ link: '', texttype: '', text: '' }] },
+                { type: 'point', elements: [{ link: '', texttype: '', text: '' }] },
+            ],
+        authorIDs:
+            [''],
+    },
+
+    {
+        casetitle: 'SEB S.A. 対 Mongtgomery Ward & Co., Inc.事件',
+        caseno: 'Nos. 2009-1099, -1108, -1119',
+        reportyear: '2010',
+        reportmonth: '5',
+        reportdate: 'February 5, 2010',
+        reportpreview: ['鑑定を依頼するときの心構えは、重要なことを隠してはならない', 'この事件でCAFCは、(1)専門家(エキスパート)としての証言を行う条件、(2)対象技術が模倣から出発したことを伝えずに侵害鑑定を依頼した鑑定の効果、(3)米国特許法271条（a）の下で、海外での製品の販売を米国特許の侵害に結びつけるために必要な条件を判示しました。'],
+        content:
+            [
+                { type: 'sub', elements: [{ link: '', texttype: '', text: '' }] },
+                { type: 'para', elements: [{ link: '', texttype: '', text: '' }] },
+                { type: 'para', elements: [{ link: '', texttype: '', text: '' }] },
+                { type: 'point', elements: [{ link: '', texttype: '', text: '' }] },
+            ],
+        authorIDs:
+            [''],
+    },
+
+    {
+        casetitle: '任天堂株式会社事件',
+        caseno: 'Misc. No. 914',
+        reportyear: '2010',
+        reportmonth: '4',
+        reportdate: 'December 17, 2009',
+        reportpreview: ['裁判地の移管', 'この事件において、CAFCは任天堂の裁判地移管の申し立てを拒否した裁判所の裁量権の乱用を認め、テキサス州東部地方裁判所からワシントン州西部地方裁判所への裁判地移管を命じる職務執行令状を求める任天堂の申し立てを認めました。この判決において、証拠と証人の所在地がどこかの利便性が、裁判地移管の分析で重要なことが明らかとなりました。'],
+        content:
+            [
+                { type: 'sub', elements: [{ link: '', texttype: '', text: '' }] },
+                { type: 'para', elements: [{ link: '', texttype: '', text: '' }] },
+                { type: 'para', elements: [{ link: '', texttype: '', text: '' }] },
+                { type: 'point', elements: [{ link: '', texttype: '', text: '' }] },
+            ],
+        authorIDs:
+            [''],
+    },
+
+    {
+        casetitle: 'i4i Ltd. Partnership 対 Microsoft Corp.事件',
+        caseno: 'No. 2009-1504',
+        reportyear: '2010',
+        reportmonth: '4',
+        reportdate: 'December 22, 2009',
+        reportpreview: ['法律問題としての判決を求める評決前申立て未提出の効果', 'この事件において、マイクロソフトが自明性に関して法律問題としての判決を求める評決前申立てを提出しなかったため、CAFCは、自明性に関する事実認定の再検討を求める自己の権利をマイクロソフトは既に放棄していると認定しました。'],
+        content:
+            [
+                { type: 'sub', elements: [{ link: '', texttype: '', text: '' }] },
+                { type: 'para', elements: [{ link: '', texttype: '', text: '' }] },
+                { type: 'para', elements: [{ link: '', texttype: '', text: '' }] },
+                { type: 'point', elements: [{ link: '', texttype: '', text: '' }] },
+            ],
+        authorIDs:
+            [''],
+    },
+
+    {
+        casetitle: 'Wyeth & Elan PharmaInt’l Ltd. 対 Kappos事件',
+        caseno: 'No. 2009-1120',
+        reportyear: '2010',
+        reportmonth: '4',
+        reportdate: 'January 7, 2010',
+        reportpreview: ['特許期間の延長の計算', 'この事件は、米国特許庁(USPTO)の都合で審査が遅延した場合の特許期間を延長を巡ってその調整日数の計算方法が争われた事件です。USPTOは従来、A保証（出願から14ヶ月以内にアクションが発行されなかった場合、経過日数1日につき特許期間を1日延長）の日数と、B保証（出願から3年以内に特許付与されなかった場合に、経過日数1日につき、特許期間を1日延長）のどちらか長い方を調整日数として付与していました。しかし、地方裁判所は、A保証とB保証の日数は重複する期間が無いので、これら２つの日数は単純に加算されるべきとした略式判決を下しました。', 'CAFCはこの地裁判決を維持しました。これにより、2010年1月29日、USPTOは特許調整期間の訂正申請手続きに関する暫定措置を発表しました。'],
+        content:
+            [
+                { type: 'sub', elements: [{ link: '', texttype: '', text: '' }] },
+                { type: 'para', elements: [{ link: '', texttype: '', text: '' }] },
+                { type: 'para', elements: [{ link: '', texttype: '', text: '' }] },
+                { type: 'point', elements: [{ link: '', texttype: '', text: '' }] },
+            ],
+        authorIDs:
+            [''],
+    },
+
+    {
+        casetitle: 'Perfect Web Technologies, Inc. 対 InfoUSA, Inc.事件',
+        caseno: 'No. 2009-1105',
+        reportyear: '2010',
+        reportmonth: '3',
+        reportdate: 'December 2, 2009',
+        reportpreview: ['常識で補える進歩性の判断', 'この事件において、CAFCは当業者の常識から先行技術に記載されている周知のステップを単に繰り返すだけのステップの追加は自明であるとの地方裁判所の判決を支持しました。この事件は、先行技術には記載されていない要件を含む発明の自明性を「常識」で補って判断してもよい場合があることを明らかにしました。'],
+        content:
+            [
+                { type: 'sub', elements: [{ link: '', texttype: '', text: '' }] },
+                { type: 'para', elements: [{ link: '', texttype: '', text: '' }] },
+                { type: 'para', elements: [{ link: '', texttype: '', text: '' }] },
+                { type: 'point', elements: [{ link: '', texttype: '', text: '' }] },
+            ],
+        authorIDs:
+            [''],
+    },
+
+    {
+        casetitle: 'Hewlett Packard Co. 対 Acceleron LLC.事件',
+        caseno: 'No. 2009-1283',
+        reportyear: '2010',
+        reportmonth: '3',
+        reportdate: 'December 4, 2009',
+        reportpreview: ['ライセンス取得の要求と訴訟適格性', 'この事件において、CAFCは、特許権者からのレターに、訴訟の脅威やライセンスの提案を明確に述べていない場合であっても、特許権者がパテントトロールのような特許管理会社であり、ライセンス契約の締結を暗黙のうちに要求するような事実があれば、確認判決の申立が認められることを明らかにしました。'],
+        content:
+            [
+                { type: 'sub', elements: [{ link: '', texttype: '', text: '' }] },
+                { type: 'para', elements: [{ link: '', texttype: '', text: '' }] },
+                { type: 'para', elements: [{ link: '', texttype: '', text: '' }] },
+                { type: 'point', elements: [{ link: '', texttype: '', text: '' }] },
+            ],
+        authorIDs:
+            [''],
+    },
+
+    {
+        casetitle: 'Intellectual Science and Tech., Inc. 対 Sony Electronics, Inc.事件',
+        caseno: 'No. 2009-1142',
+        reportyear: '2010',
+        reportmonth: '3',
+        reportdate: 'December 15, 2009',
+        reportpreview: ['ミーンズ・プラス・ファンクション形式のクレームの鑑定の要件', 'この事件は、ミーンズ・プラス・ファンクション形式の限定を伴う特許発明の特許権の侵害を申し立てるためには、専門家の鑑定は、最低でも、クレームされた構造的エレメントを被疑侵害デバイスにおいて特定し、これらのエレメントの被疑侵害デバイスでの特徴及び機能に関する言及を含んでいなければならないことを明確にしました。'],
+        content:
+            [
+                { type: 'sub', elements: [{ link: '', texttype: '', text: '' }] },
+                { type: 'para', elements: [{ link: '', texttype: '', text: '' }] },
+                { type: 'para', elements: [{ link: '', texttype: '', text: '' }] },
+                { type: 'point', elements: [{ link: '', texttype: '', text: '' }] },
+            ],
+        authorIDs:
+            [''],
+    },
+
+    {
+        casetitle: 'Iovate Health Sciences, Inc. 対 Bio-Engineered Supplements & Nutrition, Inc.事件',
+        caseno: 'No. 2009-1018',
+        reportyear: '2010',
+        reportmonth: '2',
+        reportdate: 'November 19, 2009',
+        reportpreview: ['刊行物の開示の条件', 'この事件では、特許の有効性を争う上で、雑誌上の広告が米国特許法第102条(b)上の刊行物の要件を備えているかどうかが争点となりました。この判決において、CAFCは、米国特許法第102条(b)の刊行物に該当するためには、刊行物は基準日以前に発行され、頒布されており、クレームの個々の限定を開示し、当業者が過度な実験をすることなくクレームされた発明の実施が可能でなければならないことを明らかにしました。'],
+        content:
+            [
+                { type: 'sub', elements: [{ link: '', texttype: '', text: '' }] },
+                { type: 'para', elements: [{ link: '', texttype: '', text: '' }] },
+                { type: 'para', elements: [{ link: '', texttype: '', text: '' }] },
+                { type: 'point', elements: [{ link: '', texttype: '', text: '' }] },
+            ],
+        authorIDs:
+            [''],
+    },
+
+    {
+        casetitle: 'Imation Corp. 対 Koninklijke Philips Electronics N.V. et al. 事件',
+        caseno: 'Nos. 2008-1208, -1209',
+        reportyear: '2010',
+        reportmonth: '2',
+        reportdate: 'November 3, 2009',
+        reportpreview: ['将来発生する子会社へのライセンスの効力', 'この事件では、現在又は契約後に発生する特許を当事者の子会社にライセンスする契約は、契約期間満了後に誕生した子会社に対しても有効であることが判断されました。'],
+        content:
+            [
+                { type: 'sub', elements: [{ link: '', texttype: '', text: '' }] },
+                { type: 'para', elements: [{ link: '', texttype: '', text: '' }] },
+                { type: 'para', elements: [{ link: '', texttype: '', text: '' }] },
+                { type: 'point', elements: [{ link: '', texttype: '', text: '' }] },
+            ],
+        authorIDs:
+            [''],
+    },
+
+    {
+        casetitle: 'Colida 対 Nokia, Inc.事件',
+        caseno: 'No. 2009-1326',
+        reportyear: '2010',
+        reportmonth: '2',
+        reportdate: 'October 6, 2009',
+        reportpreview: ['意匠の類似性の判断', 'この事件では意匠権の権利範囲は、全体的なデザインを考慮に入れた「通常の観察者」を基準に判断されることが示されました。アメリカ合衆国における意匠保護は、装飾的デザインに限定され、デザインの機能的特徴は保護されないことに注意する必要があります。'],
+        content:
+            [
+                { type: 'sub', elements: [{ link: '', texttype: '', text: '' }] },
+                { type: 'para', elements: [{ link: '', texttype: '', text: '' }] },
+                { type: 'para', elements: [{ link: '', texttype: '', text: '' }] },
+                { type: 'point', elements: [{ link: '', texttype: '', text: '' }] },
+            ],
+        authorIDs:
+            [''],
+    },
+
+    {
+        casetitle: 'Lister事件',
+        caseno: 'No. 2009-1060',
+        reportyear: '2010',
+        reportmonth: '1',
+        reportdate: 'September 22, 2009',
+        reportpreview: ['刊行物の成立要件', 'この事件のリスター博士の特許出願をUSPTOは、出願人自身の著作権申請書に基づいて新規性欠如を理由に拒絶しました。しかし、CAFCは、基準日の時点で公的にアクセス可能であったことを示す十分な証拠がないことを理由に、審判部の審決を破棄しました。', 'この判決は、特許法第102条(b)に基づく新規性の判断には単なる公的アクセスの可能性だけではなく、刊行物への公的アクセスが可能であったことを証拠が102条の（ｂ）の刊行物の成立に必要なことを教えてくれました。'],
+        content:
+            [
+                { type: 'sub', elements: [{ link: '', texttype: '', text: '' }] },
+                { type: 'para', elements: [{ link: '', texttype: '', text: '' }] },
+                { type: 'para', elements: [{ link: '', texttype: '', text: '' }] },
+                { type: 'point', elements: [{ link: '', texttype: '', text: '' }] },
+            ],
+        authorIDs:
+            [''],
+    },
+
+    {
+        casetitle: 'Kara Tech. Inc. 対 Stamps.Com, Inc.事件',
+        caseno: 'Nos. 2009-1027, -1028',
+        reportyear: '2010',
+        reportmonth: '1',
+        reportdate: 'September 24, 2009',
+        reportpreview: ['特許明細書の内部証拠としての価値', 'この事件では、特許権保護の範囲を定めるのは、明細書に記載された実施例や実施形態ではなく、クレームであることを明らかにしました。また、CAFCは専門家としての証人や証言といった特許明細書外の証拠（外部証拠）は、より説得力のある明細書・クレームに記載されている証拠（内部証拠）を越えることはできず、裁判所は内部証拠と相反する外部証拠は軽視すべきであると明言しました。'],
+        content:
+            [
+                { type: 'sub', elements: [{ link: '', texttype: '', text: '' }] },
+                { type: 'para', elements: [{ link: '', texttype: '', text: '' }] },
+                { type: 'para', elements: [{ link: '', texttype: '', text: '' }] },
+                { type: 'point', elements: [{ link: '', texttype: '', text: '' }] },
+            ],
+        authorIDs:
+            [''],
+    },
+
+    {
+        casetitle: '318特許侵害訴訟',
+        caseno: 'Nos. 2008-1594, 2009-1070',
+        reportyear: '2010',
+        reportmonth: '1',
+        reportdate: 'September 25, 2009',
+        reportpreview: ['有用性の証明期限', 'この事件では、薬品を使用する発明では、その薬品の有用性要件を満足するための実験が特許の発行前に、即ち特許の出願中に行われていることを求めました。判決によれば、その有用性の証明は実験が必要で、このような発明の有効性を証明する実験結果が特許出願中に用意されていなかったこの特許を、CAFCは無効と判断しました。'],
+        content:
+            [
+                { type: 'sub', elements: [{ link: '', texttype: '', text: '' }] },
+                { type: 'para', elements: [{ link: '', texttype: '', text: '' }] },
+                { type: 'para', elements: [{ link: '', texttype: '', text: '' }] },
+                { type: 'point', elements: [{ link: '', texttype: '', text: '' }] },
+            ],
+        authorIDs:
+            [''],
+    },
     /*{
         casetitle: '',
         caseno: '',
