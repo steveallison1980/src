@@ -2,8 +2,10 @@
     <mat-card>
         <div class="container">
             <img mat-card-image src='../../../../assets/img/cafc.jpg'>
-            <div class="titletext">
-                <mat-card-title>{{getCAFCDecTitle()}}</mat-card-title>
+            <div>
+                <mat-card-title>
+                    <app-titletext [title]="getCAFCDecTitle()"></app-titletext>
+                </mat-card-title>
             </div>
         </div>
         <p *ngFor="let para of getCAFCDecParas()">
@@ -14,8 +16,10 @@
     <mat-card>
         <div class="container">
             <img mat-card-image src='../../../../assets/img/tokyo.jpg'>
-            <div class="titletext">
-                <mat-card-title>{{getJapanDecTitle()}}</mat-card-title>
+            <div>
+                <mat-card-title>
+                    <app-titletext [title]="getJapanDecTitle()"></app-titletext>
+                </mat-card-title>
             </div>
         </div>
         <p *ngFor="let para of getJapanDecParas()">

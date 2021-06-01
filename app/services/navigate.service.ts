@@ -13,7 +13,7 @@ export class NavigateService {
   public view = "group";
   public curPerson: IPerson = null;
   public curPublication: IPublication = null;
-  public cafcfilter = "all";
+  public cafcfilter = "cafcall";
   public cafcreport: ICAFCReport = null;
 
   constructor() { }

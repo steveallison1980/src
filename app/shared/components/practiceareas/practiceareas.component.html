@@ -1,8 +1,10 @@
 <mat-card>
     <div class="container">
         <img mat-card-image src='../../../../assets/img/expertise.jpg'>
-        <div class="titletext">
-            <mat-card-title>{{getTitle()}}</mat-card-title>
+        <div>
+            <mat-card-title>
+                <app-titletext [title]="getTitle()"></app-titletext>
+            </mat-card-title>
         </div>
     </div>
     <p *ngFor="let para of getParas()">
@@ -10,25 +12,25 @@
     </p>
     <div>
         <mat-nav-list>
-            <mat-list-item (click)="groupView('pro-patattorneys')">
+            <mat-list-item routerLink="/pro-patattorneys">
                 <button class='teambutton' fxLayoutAlign='start start' mat-icon-button>
                     <mat-icon>{{getGroupIcon("pro-patattorneys")}}</mat-icon>
                     {{getGroupText("pro-patattorneys")}}
                 </button>
             </mat-list-item>
-            <mat-list-item (click)="groupView('pro-advisors')">
+            <mat-list-item routerLink="/pro-advisors">
                 <button class='teambutton' fxLayoutAlign='start start' mat-icon-button>
                     <mat-icon>{{getGroupIcon("pro-advisors")}}</mat-icon>
                     {{getGroupText("pro-advisors")}}
                 </button>
             </mat-list-item>
-            <mat-list-item (click)="groupView('pro-patengineers')">
+            <mat-list-item routerLink="/pro-patengineers">
                 <button class='teambutton' fxLayoutAlign='start start' mat-icon-button>
                     <mat-icon>{{getGroupIcon("pro-patengineers")}}</mat-icon>
                     {{getGroupText("pro-patengineers")}}
                 </button>
             </mat-list-item>
-            <mat-list-item (click)="groupView('pro-international')">
+            <mat-list-item routerLink="/pro-international">
                 <button class='teambutton' fxLayoutAlign='start start' mat-icon-button>
                     <mat-icon>{{getGroupIcon("pro-international")}}</mat-icon>
                     {{getGroupText("pro-international")}}
@@ -45,19 +47,19 @@
         {{para}}
     </p>
     <mat-nav-list>
-        <mat-list-item (click)="groupView('pro-infoproc')">
+        <mat-list-item routerLink="/pro-infoproc">
             <button class='teambutton' fxLayoutAlign='start start' mat-icon-button>
                 <mat-icon>{{getGroupIcon("pro-infoproc")}}</mat-icon>
                 {{getGroupText("pro-infoproc")}}
             </button>
         </mat-list-item>
-        <mat-list-item (click)="groupView('pro-comm')">
+        <mat-list-item routerLink="/pro-comm">
             <button class='teambutton' fxLayoutAlign='start start' mat-icon-button>
                 <mat-icon>{{getGroupIcon("pro-comm")}}</mat-icon>
                 {{getGroupText("pro-comm")}}
             </button>
         </mat-list-item>
-        <mat-list-item (click)="groupView('pro-elec')">
+        <mat-list-item routerLink="/pro-elec">
             <button class='teambutton' fxLayoutAlign='start start' mat-icon-button>
                 <mat-icon>{{getGroupIcon("pro-elec")}}</mat-icon>
                 {{getGroupText("pro-elec")}}
@@ -72,7 +74,7 @@
         {{para}}
     </p>
     <mat-nav-list>
-        <mat-list-item (click)="groupView('pro-mech')">
+        <mat-list-item routerLink="/pro-mech">
             <button class='teambutton' fxLayoutAlign='start start' mat-icon-button>
                 <mat-icon>{{getGroupIcon("pro-mech")}}</mat-icon>
                 {{getGroupText("pro-mech")}}
@@ -87,7 +89,7 @@
         {{para}}
     </p>
     <mat-nav-list>
-        <mat-list-item (click)="groupView('pro-designs')">
+        <mat-list-item routerLink="/pro-designs">
             <button class='teambutton' fxLayoutAlign='start start' mat-icon-button>
                 <mat-icon>{{getGroupIcon("pro-designs")}}</mat-icon>
                 {{getGroupText("pro-designs")}}
@@ -102,7 +104,7 @@
         {{para}}
     </p>
     <mat-nav-list>
-        <mat-list-item (click)="groupView('pro-meddevices')">
+        <mat-list-item routerLink="/pro-meddevices">
             <button class='teambutton' fxLayoutAlign='start start' mat-icon-button>
                 <mat-icon>{{getGroupIcon("pro-meddevices")}}</mat-icon>
                 {{getGroupText("pro-meddevices")}}
@@ -117,7 +119,7 @@
         {{para}}
     </p>
     <mat-nav-list>
-        <mat-list-item (click)="groupView('pro-chempharmabio')">
+        <mat-list-item routerLink="/pro-chempharmabio">
             <button class='teambutton'  fxLayoutAlign='start start' mat-icon-button>
                 <mat-icon>{{getGroupIcon("pro-chempharmabio")}}</mat-icon>
                 {{getGroupText("pro-chempharmabio")}}
@@ -132,7 +134,7 @@
         {{para}}
     </p>
     <mat-nav-list>
-        <mat-list-item (click)="groupView('pro-toysgames')">
+        <mat-list-item routerLink="/pro-toysgames">
             <button class='teambutton' fxLayoutAlign='start start' mat-icon-button>
                 <mat-icon>{{getGroupIcon("pro-toysgames")}}</mat-icon>
                 {{getGroupText("pro-toysgames")}}
@@ -147,7 +149,7 @@
         {{para}}
     </p>
     <mat-nav-list>
-        <mat-list-item (click)="groupView('pro-lit')">
+        <mat-list-item routerLink="/pro-lit">
             <button class='teambutton' fxLayoutAlign='start start' mat-icon-button>
                 <mat-icon>{{getGroupIcon("pro-lit")}}</mat-icon>
                 {{getGroupText("pro-lit")}}

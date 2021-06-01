@@ -1,0 +1,16 @@
+.titletext {
+    color: white;
+    position: absolute;
+    left: 16px;
+    top: 55px;
+    animation: fadeIn ease 0.5s;
+    -webkit-animation: fadeIn ease 0.5s;
+}
+.titletextmobile {
+    color: white;
+    position: absolute;
+    left: 16px;
+    top: 5px;
+    animation: fadeIn ease 0.5s;
+    -webkit-animation: fadeIn ease 0.5s;
+}

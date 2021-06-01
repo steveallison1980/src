@@ -2,7 +2,9 @@
     <div class="container">
         <!--<img mat-card-image src='../../../../assets/img/news.png'>-->
         <img mat-card-image src='../../../../assets/img/newspaper2.jpg'>
-        <div class="titletext"><mat-card-title>{{getText("title")}}</mat-card-title></div>
+        <mat-card-title>
+            <app-titletext [title]="getText('title')"></app-titletext>
+        </mat-card-title>
     </div>
     <table mat-table [dataSource]="getDatasource()" class="mat-elevation-z8">
 

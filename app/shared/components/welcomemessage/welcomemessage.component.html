@@ -1,6 +1,8 @@
 <mat-card>
-    <mat-card-title>{{getTitle()}}</mat-card-title>
-    <img mat-card-image src='../../../../assets/img/yasuhiroohtsuka_large.jpg'>
+    <img mat-card-image src='../../../../assets/img/profiles/yasuhiroohtsuka_large.jpg'>
+    <mat-card-title>
+        <app-titletext [title]="getTitle()"></app-titletext>
+    </mat-card-title>   
     
     <!-- TODO put placeholder for text here, move all text from here to array that has descriptions, use langservice to toggle between different langauges-->
     <div class='content'>

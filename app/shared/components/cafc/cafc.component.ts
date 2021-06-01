@@ -24,7 +24,7 @@ export class CafcComponent implements OnInit {
 
   getCAFCReports() {
     let filteryear = ""
-    if( this.filter != "all") filteryear = this.filter;
+    if( this.filter != "cafcall") filteryear = this.filter;
     return this.reports.filter(x => x.reportpreview[0].includes(this.keyword) && x.reportyear.includes(filteryear));
   }
 
@@ -41,6 +41,7 @@ export class CafcComponent implements OnInit {
   }
 
   clickDetails(report){
+    console.log(this.nav.subPage)
     this.nav.cafcreport = report;
     window.scroll(0, 0);
   }

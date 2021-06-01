@@ -2,8 +2,10 @@
     <mat-card>
         <div class="container">
             <img mat-card-image src='../../../../assets/img/litigation.jpg'>
-            <div class="titletext">
-                <mat-card-title>{{getLitTitle()}}</mat-card-title>
+            <div>
+                <mat-card-title>
+                    <app-titletext [title]="getLitTitle()"></app-titletext>
+                </mat-card-title>
             </div>
         </div>
         <p *ngFor="let para of getLitParas()">
@@ -15,8 +17,11 @@
     <mat-card>
         <div class="container">
             <img mat-card-image src='../../../../assets/img/strategy.jpg'>
-            <div class="titletext">
-                <mat-card-title>{{getPatStratTitle()}}</mat-card-title>
+            <div>
+                <mat-card-title>
+                    <app-titletext [title]="getPatStratTitle()"></app-titletext>
+                </mat-card-title>
+                
             </div>
         </div>
         <p *ngFor="let para of getPatStratParas()">
@@ -28,8 +33,10 @@
     <mat-card>
         <div class="container">
             <img mat-card-image src='../../../../assets/img/search.jpg'>
-            <div class="titletext">
-                <mat-card-title>{{getPatSearchTitle()}}</mat-card-title>
+            <div>
+                <mat-card-title>
+                    <app-titletext [title]="getPatSearchTitle()"></app-titletext>
+                </mat-card-title>
             </div>
         </div>
         <p *ngFor="let para of getPatSearchParas()">
