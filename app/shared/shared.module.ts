@@ -113,7 +113,7 @@ import { WorkenvComponent } from './components/workenv/workenv.component';
     SetsumeikaiComponent,
     SetsumeikaiguideComponent,
     BoshuyokoComponent,
-    WorkenvComponent    
+    WorkenvComponent
   ],
   imports: [
     CommonModule,
