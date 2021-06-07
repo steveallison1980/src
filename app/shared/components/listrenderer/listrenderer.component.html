@@ -1,0 +1,10 @@
+<ul *ngIf="getType()=='ul'">
+    <li *ngFor="let element of getElements()">
+        <app-elementrenderer [element]="element"></app-elementrenderer>
+    </li>
+</ul>
+<ol *ngIf="getType()=='ol'">
+    <li *ngFor="let element of getElements()">
+        <app-elementrenderer [element]="element"></app-elementrenderer>
+    </li>
+</ol>

@@ -1,14 +1,6 @@
-.mapframe{
-    max-width: 400px;
-}
-.location-card{
-    max-width: 400px;
-}
 a {
     color: black;
-    padding: 14px 25px;
     text-align: center;
-    text-decoration: none;
     display: inline-block;
 }
 a:hover, a:active {

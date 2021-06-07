@@ -8,7 +8,8 @@ import { NavigateService } from '../../services/navigate.service';
 })
 export class HomeComponent implements OnInit {
 
-  constructor(public nav: NavigateService) { }
+  constructor(public nav: NavigateService) {
+  }
 
   ngOnInit(): void {
   }

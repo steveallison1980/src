@@ -65,6 +65,14 @@ import { SetsumeikaiguideComponent } from './components/setsumeikaiguide/setsume
 import { BoshuyokoComponent } from './components/boshuyoko/boshuyoko.component';
 import { WorkenvComponent } from './components/workenv/workenv.component';
 import { TitletextComponent } from './components/titletext/titletext.component';
+import { SpanrendererComponent } from './components/spanrenderer/spanrenderer.component';
+import { ListrendererComponent } from './components/listrenderer/listrenderer.component';
+import { ImagerendererComponent } from './components/imagerenderer/imagerenderer.component';
+import { ParagraphrendererComponent } from './components/paragraphrenderer/paragraphrenderer.component';
+import { HeaderrendererComponent } from './components/headerrenderer/headerrenderer.component';
+import { ElementrendererComponent } from './components/elementrenderer/elementrenderer.component';
+import { ContentrendererComponent } from './components/contentrenderer/contentrenderer.component';
+import { CardrendererComponent } from './components/cardrenderer/cardrenderer.component';
 
 @NgModule({
   declarations: [
@@ -115,7 +123,15 @@ import { TitletextComponent } from './components/titletext/titletext.component';
     SetsumeikaiguideComponent,
     BoshuyokoComponent,
     WorkenvComponent,
-    TitletextComponent
+    TitletextComponent,
+    SpanrendererComponent,
+    ListrendererComponent,
+    ImagerendererComponent,
+    ParagraphrendererComponent,
+    HeaderrendererComponent,
+    ElementrendererComponent,
+    ContentrendererComponent,
+    CardrendererComponent
   ],
   imports: [
     CommonModule,
@@ -174,7 +190,15 @@ import { TitletextComponent } from './components/titletext/titletext.component';
     SetsumeikaiguideComponent,
     BoshuyokoComponent,
     WorkenvComponent,
-    TitletextComponent
+    TitletextComponent,
+    ImagerendererComponent,
+    HeaderrendererComponent,
+    SpanrendererComponent,
+    ParagraphrendererComponent,
+    ElementrendererComponent,
+    ListrendererComponent,
+    ContentrendererComponent,
+    CardrendererComponent
   ]
 })
 

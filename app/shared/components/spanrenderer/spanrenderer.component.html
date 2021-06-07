@@ -1,0 +1,10 @@
+
+<a *ngIf="isLink()" [href]="getUrl()">
+    {{getText()}}
+</a>
+<a *ngIf="isRouterLink()" [routerLink]="getRouterLink()">
+    {{getText()}}
+</a>
+<span *ngIf="isNotLink()">
+    {{getText()}}
+</span>
