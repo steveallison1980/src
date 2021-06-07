@@ -21,7 +21,7 @@
             <app-publications></app-publications>
             <br>
             <!-- then the rest -->
-            <app-welcomemessage></app-welcomemessage>
+            <app-cardrenderer [imgfilepath]="getImage()" [content]="getContent()" [title]="getTitle()"></app-cardrenderer>
             <br>
             <app-news></app-news>
             <br>

@@ -62,21 +62,8 @@ import { SetsumeikaiguidepageComponent } from './modules/careers/setsumeikaiguid
 import { BoshuyokopageComponent } from './modules/careers/boshuyokopage/boshuyokopage.component';
 import { WorkenvironmentComponent } from './modules/careers/workenvironment/workenvironment.component';
 
-import { WelcomemessageComponent } from './shared/components/welcomemessage/welcomemessage.component';
-import { NewsComponent } from './shared/components/news/news.component';
-import { AccessComponent } from './shared/components/access/access.component';
-import { ContactComponent } from './shared/components/contact/contact.component';
-import { AboutComponent } from './shared/components/about/about.component';
-import { OverviewComponent } from './shared/components/overview/overview.component';
-import { KeyfeaturesComponent } from './shared/components/keyfeatures/keyfeatures.component';
-import { PatentsandutilitymodelsComponent } from './shared/components/patentsandutilitymodels/patentsandutilitymodels.component';
-import { DesignsandtrademarksComponent } from './shared/components/designsandtrademarks/designsandtrademarks.component';
-import { LitigationandstrategyComponent } from './shared/components/litigationandstrategy/litigationandstrategy.component';
-import { CourtcasereportsComponent } from './shared/components/courtcasereports/courtcasereports.component';
 import { PeopleComponent } from './shared/components/people/people.component';
 import { PersonComponent } from './shared/components/person/person.component';
-import { PublicationsComponent } from './shared/components/publications/publications.component';
-import { PublicationComponent } from './shared/components/publication/publication.component';
 
 const routes: Routes = [
   {

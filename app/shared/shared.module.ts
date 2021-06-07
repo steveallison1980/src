@@ -8,7 +8,6 @@ import { TopbarComponent } from './components/topbar/topbar.component';
 import { ImagebarComponent } from './components/imagebar/imagebar.component';
 
 import { NewsComponent } from './components/news/news.component';
-import { WelcomemessageComponent } from './components/welcomemessage/welcomemessage.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { ContactinfotableComponent } from './components/contactinfotable/contactinfotable.component';
 import { AccessComponent } from './components/access/access.component';
@@ -83,7 +82,6 @@ import { CardrendererComponent } from './components/cardrenderer/cardrenderer.co
     TopbarComponent,
     ImagebarComponent,
     NewsComponent,
-    WelcomemessageComponent,
     ContactComponent,
     ContactinfotableComponent,
     AccessComponent,
@@ -158,7 +156,6 @@ import { CardrendererComponent } from './components/cardrenderer/cardrenderer.co
     TopbarComponent,
     ImagebarComponent,
     NewsComponent,
-    WelcomemessageComponent,
     ContactComponent,
     ContactinfotableComponent,
     AccessComponent,

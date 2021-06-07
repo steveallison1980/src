@@ -2,7 +2,6 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { DefaultComponent } from './default.component';
-import { HomeComponent } from '../../modules/home/home.component';
 
 import { WelcomepageComponent } from '../../modules/welcomepage/welcomepage.component';
 import { NewspageComponent } from '../../modules/newspage/newspage.component';
@@ -72,7 +71,6 @@ import { FlexLayoutModule } from '@angular/flex-layout';
   declarations: [
     DefaultComponent,
 
-    HomeComponent,
     WelcomepageComponent,
     NewspageComponent,
     ContactpageComponent,
