@@ -2,70 +2,65 @@
     <div class="container">
         <img mat-card-image src='../../../../assets/img/setsumeikaiguide.jpg'>
         <div class="titletext">
-            <mat-card-title>事務所説明会のご案内</mat-card-title>
+            <mat-card-title>
+                <app-titletext [title]="'事務所説明会のご案内'"></app-titletext>
+            </mat-card-title>
         </div>
     </div>
     <p>事務所の特徴やアクティビティなどを和やかな雰囲気でお伝えすると共に、皆様の質問にお答えする場として、事務所説明会を開催しています。</p>
     <p>当事務所にご興味のお持ちの方、特許の世界で活躍したい方のご参加を是非お待ちしています。</p>
-    
-    <mat-tab-group mat-align-tabs="start" style='min-height:900px'>
-        <mat-tab label="日時">
-            <br>
-            <p>ご都合に合わせ日時を設定します。時刻は夕方でも結構です。</p>
-        </mat-tab>
-        <mat-tab label="場所">
-            <br>
-            <a routerLink="/contactpage">大塚国際特許事務所 （千代田区紀尾井町）</a>
-            <app-officecard></app-officecard>
-        </mat-tab>
-        <mat-tab label="内容">
-            <br>
-            <ul>
-                <li>事務所概要</li>
-                <li>近況</li>
-                <li>仕事の内容</li>
-                <li>待遇</li>
-                <li>期待像を弊所の責任者</li>
-                <li>関係分野の弁理士が説明致します。</li>
-            </ul>
-            <br>
-            <p>以下のような疑問を投げかけてください。</p>
-            <ul>
-                <li>
-                    大塚国際特許事務所について知りたい
-                </li>
-                <li>
-                    大塚国際特許事務所で力を発揮したいが、自分のこのような経験は役立つか？
-                </li>
-                <li>
-                    待遇（その要望と期待）について知りたい
-                </li>
-                <li>
-                    大学、企業で磨いた技術をベースに特許の世界で活躍したいが、実際の特許の世界とはどのような所か？
-                </li>
-                <li>
-                    仕事をしながら弁理士資格を取得する方法を知りたい
-                </li>
-                <li>
-                    特許、商標など新しい価値を創造する職場で、事務スタッフとして仕事をしたいが、どのような仕事が待っているのか？
-                </li>
-            </ul>
-        </mat-tab>
-        <mat-tab label="申し込み方法">
-            <br>
-            <p>以下の事項をご記入の上、emailにてお申し込みください。</p>
-            <p>申し込み先：<a href='mailto:hiroyuki.yasue@patest.co.jp'>hiroyuki.yasue@patest.co.jp</a></p>
-            <p>担当：安江</p>
-            <ul>
-                <li>氏名</li>
-                <li>年齢</li>
-                <li>email アドレス</li>
-                <li>主なご経歴</li>
-                <li>希望・興味のある技術、仕事の分野</li>
-                <li>質問、確認事項</li>
-            </ul>
-            <p>ご提供の情報の秘密を厳守します。</p>
-        </mat-tab>
-    </mat-tab-group>
+
+    <br>
+
+    <h2><b>日時</b></h2>
+    <p>ご都合に合わせ日時を設定します。時刻は夕方でも結構です。</p>
+    <h2><b>場所</b></h2>
+    <a routerLink="/contactpage">大塚国際特許事務所 （千代田区紀尾井町）</a>
+    <app-officecard></app-officecard>
+    <h2>内容</h2>
+    <br>
+    <ul>
+        <li>事務所概要</li>
+        <li>近況</li>
+        <li>仕事の内容</li>
+        <li>待遇</li>
+        <li>期待像を弊所の責任者</li>
+        <li>関係分野の弁理士が説明致します。</li>
+    </ul>
+    <br>
+    <p>以下のような疑問を投げかけてください。</p>
+    <ul>
+        <li>
+            大塚国際特許事務所について知りたい
+        </li>
+        <li>
+            大塚国際特許事務所で力を発揮したいが、自分のこのような経験は役立つか？
+        </li>
+        <li>
+            待遇（その要望と期待）について知りたい
+        </li>
+        <li>
+            大学、企業で磨いた技術をベースに特許の世界で活躍したいが、実際の特許の世界とはどのような所か？
+        </li>
+        <li>
+            仕事をしながら弁理士資格を取得する方法を知りたい
+        </li>
+        <li>
+            特許、商標など新しい価値を創造する職場で、事務スタッフとして仕事をしたいが、どのような仕事が待っているのか？
+        </li>
+    </ul>
+    <h2><b>申し込み方法</b></h2>
+    <p>以下の事項をご記入の上、emailにてお申し込みください。</p>
+    <p>申し込み先：<a href='mailto:hiroyuki.yasue@patest.co.jp'>hiroyuki.yasue@patest.co.jp</a></p>
+    <p>担当：安江</p>
+    <ul>
+        <li>氏名</li>
+        <li>年齢</li>
+        <li>email アドレス</li>
+        <li>主なご経歴</li>
+        <li>希望・興味のある技術、仕事の分野</li>
+        <li>質問、確認事項</li>
+    </ul>
+    <p>ご提供の情報の秘密を厳守します。</p>
 </mat-card>
 <br>

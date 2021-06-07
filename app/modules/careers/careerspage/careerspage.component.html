@@ -9,14 +9,16 @@
             <app-sidebar *ngIf="this.langService.lang == 'JP'" [menu]="'careers'" [highlight]="'setsumeikaipage'"></app-sidebar>
         </div>
         <div fxFlex='70' fxShow="true" fxHide.lt-md>
-            <app-careers></app-careers>
+            <app-careers *ngIf="this.langService.lang == 'EN'"></app-careers>
+            <app-setsumeikai *ngIf="this.langService.lang == 'JP'"></app-setsumeikai>
         </div>
         <div fxFlex='5' fxShow="true" fxHide.lt-md="true">
         </div>
         <!--MOBILE-->
         <div fxFlex='5' fxHide fxShow.lt-md></div>
         <div fxFlex='90' fxHide fxShow.lt-md>
-            <app-careers></app-careers>
+            <app-careers *ngIf="this.langService.lang == 'EN'" ></app-careers>
+            <app-setsumeikai *ngIf="this.langService.lang == 'JP'"></app-setsumeikai>
         </div>
         <div fxFlex='5' fxHide fxShow.lt-md></div>
     </div>

@@ -13,7 +13,7 @@ export const PROFESSIONALS_DATA: IPracticeareas[] = [
   {text:'Toys and Games',textJP:'アミューズメント・ゲーム',icon:'videogame_asset',index:8,component:'pro-toysgames',type:'sub-group'},
   {text:'Litigation',textJP:'訴訟・訴訟支援',icon:'gavel',index:9,component:'pro-lit',type:'last-in-group'},
   {text:'Patent Attorneys',textJP:'弁理士',icon:'person',index:10,component:'pro-patattorneys',type:'sub-group'},
-  {text:'Legal/Technical pro-advisors',textJP:'法律顧問・技術顧問',icon:'person_outline',index:11,component:'pro-pro-advisors',type:'sub-group'},
+  {text:'Legal/Technical pro-advisors',textJP:'法律顧問・技術顧問',icon:'person_outline',index:11,component:'pro-advisors',type:'sub-group'},
   {text:'Patent Engineers',textJP:'特許技術スタッフ',icon:'person',index:12,component:'pro-patengineers',type:'sub-group'},
   {text:'International Support',textJP:'技術・海外支援',icon:'person_outline',index:13,component:'pro-international',type:'sub-group'}
 ];

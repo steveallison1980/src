@@ -1,52 +1,48 @@
 <h1>{{getTitle()}}</h1>
-<div [@.disabled]="true" class='content'>
-    <!-- style='min-height:900px' fixes an angular bug where click scrolls to top of page -->
-    <mat-tab-group mat-align-tabs="start" style='min-height:900px'>
-        <mat-tab [label]="getOurStoryTab()">
-            <div class='tabcontent'>
+
+<div fxLayout="column" fxLayoutAlign="space-between start" fxLayoutGap="20px">
+    <mat-card>
+        <h2>{{getOurStoryTitle()}}</h2>
+        <p *ngFor="let para of getOurStoryText()">
+            {{para}}
+        </p>
+    </mat-card>
+
+    <div>
+        <h2>{{getContactTitle()}}</h2>
+        <br>            
+        <mat-card class="contactinfo-card">
+            <app-contactinfotable></app-contactinfotable>
+        </mat-card>
+        <br>
+        <app-officecard></app-officecard>
+    </div>
+
+    <div>
+        <h2>{{getOutlineTitle()}}</h2>
+        <br>
+        <mat-card class="services-card">
+            <div fxLayout="column" fxLayoutAlign="space-around center" >
+                <div fxLayout="row" fxLayoutAlign="space-around center" fxLayoutGap="20px">
+                    <mat-icon mat-list-icon>lightbulb</mat-icon>
+                    <div mat-line>{{getPatentBlurb()}}</div>
+                </div>
                 <br>
-                <mat-card class="about-card">
-                    <app-aboutusblurb></app-aboutusblurb>
-                </mat-card>
-            </div>
-        </mat-tab>
-        <mat-tab [label]="getContactTab()">
-            <div class='tabcontent'>
-                <br>            
-                <mat-card class="contactinfo-card">
-                    <app-contactinfotable></app-contactinfotable>
-                </mat-card>
+                <div fxLayout="row" fxLayoutAlign="space-around center" fxLayoutGap="20px">
+                    <mat-icon mat-list-icon>gavel</mat-icon>
+                    <div mat-line>{{getLitBlurb()}}</div>
+                </div>
                 <br>
-                <app-officecard></app-officecard>
-            </div>
-        </mat-tab>
-        <mat-tab [label]="getOutline()">
-            <div class='tabcontent'>
+                <div fxLayout="row" fxLayoutAlign="space-around center" fxLayoutGap="20px">
+                    <mat-icon mat-list-icon>grading</mat-icon>
+                    <div mat-line>{{getAnalysisBlurb()}}</div>
+                </div>
                 <br>
-                <mat-card class="services-card">
-                    <div fxLayout="column" fxLayoutAlign="space-around center" >
-                        <div fxLayout="row" fxLayoutAlign="space-around center" fxLayoutGap="20px">
-                            <mat-icon mat-list-icon>lightbulb</mat-icon>
-                            <div mat-line>{{getPatentBlurb()}}</div>
-                        </div>
-                        <br>
-                        <div fxLayout="row" fxLayoutAlign="space-around center" fxLayoutGap="20px">
-                            <mat-icon mat-list-icon>gavel</mat-icon>
-                            <div mat-line>{{getLitBlurb()}}</div>
-                        </div>
-                        <br>
-                        <div fxLayout="row" fxLayoutAlign="space-around center" fxLayoutGap="20px">
-                            <mat-icon mat-list-icon>grading</mat-icon>
-                            <div mat-line>{{getAnalysisBlurb()}}</div>
-                        </div>
-                        <br>
-                        <div fxLayout="row" fxLayoutAlign="space-around center" fxLayoutGap="20px">
-                            <mat-icon mat-list-icon>category</mat-icon>
-                            <div mat-line>{{getDesignTMBlurb()}}</div>
-                        </div>
-                    </div>
-                </mat-card>
+                <div fxLayout="row" fxLayoutAlign="space-around center" fxLayoutGap="20px">
+                    <mat-icon mat-list-icon>category</mat-icon>
+                    <div mat-line>{{getDesignTMBlurb()}}</div>
+                </div>
             </div>
-        </mat-tab>
-    </mat-tab-group>
+        </mat-card>
+    </div>
 </div>

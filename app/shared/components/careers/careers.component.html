@@ -1,8 +1,10 @@
 <mat-card>
     <div class="container">
         <img mat-card-image src='../../../../assets/img/careers.jpg'>
-        <div class="titletext">
-            <mat-card-title>{{getTitle()}}</mat-card-title>
+        <div>
+            <mat-card-title>
+                <app-titletext [title]="getTitle()"></app-titletext>
+            </mat-card-title>
         </div>
     </div>
     <h2>{{getPatandEngTitle()}}</h2>

@@ -1,15 +1,6 @@
 @keyframes fadeIn {
     0% {opacity:0;}
     100% {opacity:1;}
-}   
-
-.titletext {
-    color: white;
-    position: absolute;
-    top: 55px;
-    left: 16px;
-    animation: fadeIn ease 0.5s;
-    -webkit-animation: fadeIn ease 0.5s;
 }
 .mat-card-image:first-child {
     border-top-left-radius: 4px;

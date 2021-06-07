@@ -64,6 +64,7 @@ import { SetsumeikaiComponent } from './components/setsumeikai/setsumeikai.compo
 import { SetsumeikaiguideComponent } from './components/setsumeikaiguide/setsumeikaiguide.component';
 import { BoshuyokoComponent } from './components/boshuyoko/boshuyoko.component';
 import { WorkenvComponent } from './components/workenv/workenv.component';
+import { TitletextComponent } from './components/titletext/titletext.component';
 
 @NgModule({
   declarations: [
@@ -113,7 +114,8 @@ import { WorkenvComponent } from './components/workenv/workenv.component';
     SetsumeikaiComponent,
     SetsumeikaiguideComponent,
     BoshuyokoComponent,
-    WorkenvComponent    
+    WorkenvComponent,
+    TitletextComponent
   ],
   imports: [
     CommonModule,
@@ -171,7 +173,8 @@ import { WorkenvComponent } from './components/workenv/workenv.component';
     SetsumeikaiComponent,
     SetsumeikaiguideComponent,
     BoshuyokoComponent,
-    WorkenvComponent
+    WorkenvComponent,
+    TitletextComponent
   ]
 })
 

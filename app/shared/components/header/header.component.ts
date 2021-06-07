@@ -46,8 +46,8 @@ export class HeaderComponent implements OnInit {
   }
   public clickCAFCReports() {
     this.nav.curPage = "cafcreports";
-    this.nav.subPage = "all";
-    this.nav.cafcfilter = "all";
+    this.nav.subPage = "cafcall";
+    this.nav.cafcfilter = "cafcall";
   }
   public clickCareers() {
     this.nav.curPage = "careers";
