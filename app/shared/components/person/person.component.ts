@@ -1,6 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { NavigateService } from '../../../services/navigate.service';
 import { LanguagesettingService } from '../../../services/languagesetting.service';
+import { IPerson } from '../../../interfaces/iperson';
 
 @Component({
   selector: 'app-person',
@@ -8,6 +9,8 @@ import { LanguagesettingService } from '../../../services/languagesetting.servic
   styleUrls: ['./person.component.css']
 })
 export class PersonComponent implements OnInit {
+
+  @Input() person: IPerson;
 
   constructor(
     public nav: NavigateService,
@@ -18,33 +21,33 @@ export class PersonComponent implements OnInit {
   }
 
   getPerson() {
-    return this.nav.curPerson;
+    return this.person;
   }
   getName(){
     switch (this.langService.lang) {
       case "JP":
-        return this.nav.curPerson.nameJP;
+        return this.person.nameJP;
       case "EN":
       default:
-        return this.nav.curPerson.name;
+        return this.person.name;
     }
   }
   getTitle(){
     switch (this.langService.lang) {
       case "JP":
-        return this.nav.curPerson.titleJP;
+        return this.person.titleJP;
       case "EN":
       default:
-        return this.nav.curPerson.title;
+        return this.person.title;
     }
   }
   getSpecialties() {
     switch (this.langService.lang) {
       case "JP":
-        return this.nav.curPerson.specialtiesJP;
+        return this.person.specialtiesJP;
       case "EN":
       default:
-        return this.nav.curPerson.specialties;
+        return this.person.specialties;
     }
   }
   getSpecialitiesHeading() {
@@ -60,10 +63,10 @@ export class PersonComponent implements OnInit {
   getEducation() {
     switch (this.langService.lang) {
       case "JP":
-        return this.nav.curPerson.educationJP;
+        return this.person.educationJP;
       case "EN":
       default:
-        return this.nav.curPerson.education;
+        return this.person.education;
     }
   }
   getEducationHeading() {
@@ -79,10 +82,10 @@ export class PersonComponent implements OnInit {
   getCareers() {
     switch (this.langService.lang) {
       case "JP":
-        return this.nav.curPerson.careerJP;
+        return this.person.careerJP;
       case "EN":
       default:
-        return this.nav.curPerson.career;
+        return this.person.career;
     }
   }
   getCareersHeading() {
@@ -98,10 +101,10 @@ export class PersonComponent implements OnInit {
   getMemberships() {
     switch (this.langService.lang) {
       case "JP":
-        return this.nav.curPerson.membershipsJP;
+        return this.person.membershipsJP;
       case "EN":
       default:
-        return this.nav.curPerson.memberships;
+        return this.person.memberships;
     }
   }
   getMembershipsHeading() {
@@ -117,10 +120,10 @@ export class PersonComponent implements OnInit {
   getPublications() {
     switch (this.langService.lang) {
       case "JP":
-        return this.nav.curPerson.publicationsJP;
+        return this.person.publicationsJP;
       case "EN":
       default:
-        return this.nav.curPerson.publications;
+        return this.person.publications;
     }
   }
   getPublicationsHeading() {

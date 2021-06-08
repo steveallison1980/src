@@ -21,6 +21,7 @@ export const PROFESSIONALS_DATA: IPracticeareas[] = [
 export const PEOPLE_DATA: IPerson[] = [
     {
       // Patent Attorneys
+      id: 1,
       title: 'Managing Partner',
       name: 'Yasunori Ohtsuka',
       img: 'yasunoriohtsuka.jpg',
@@ -83,6 +84,7 @@ export const PEOPLE_DATA: IPerson[] = [
         [, 'pro-designs', 'pro-lit', 'pro-patattorneys']
     },
     {
+      id: 2,
       title: 'Patent Attorney (Partner)',
       name: 'Yasuhiro Ohtsuka, Ph.D.',
       img: 'yasuhiroohtsuka.jpg',
@@ -138,6 +140,7 @@ export const PEOPLE_DATA: IPerson[] = [
         ['pro-infoproc', 'pro-comm', 'pro-elec', 'pro-meddevices', 'pro-toysgames', 'pro-lit', 'pro-patattorneys'] 
     },
     {
+      id: 3,
       title: 'Patent Attorney (Partner)',
       name: 'Jiro Takayanagi',
       img: 'jirotakayanagi.jpg',
@@ -185,6 +188,7 @@ export const PEOPLE_DATA: IPerson[] = [
         ['pro-infoproc', 'pro-comm', 'pro-mech', 'pro-meddevices', 'pro-toysgames', 'pro-lit', 'pro-patattorneys' ] 
     },
     {
+      id: 4,
       title: 'Patent Attorney (Partner)',
       name: 'Shuji Kimura',
       img: 'shujikimura.jpg',
@@ -230,6 +234,7 @@ export const PEOPLE_DATA: IPerson[] = [
         ['pro-elec', 'pro-mech', 'pro-designs', 'pro-toysgames', 'pro-lit', 'pro-patattorneys'] 
     },
     {
+      id: 5,
       title: 'Patent Attorney (Partner)',
       name: 'Osamu Shimoyama',
       img: 'osamushimoyama.jpg',
@@ -269,6 +274,7 @@ export const PEOPLE_DATA: IPerson[] = [
         ['pro-infoproc', 'pro-comm', 'pro-patattorneys'] 
     },
     {
+      id: 6,
       title: 'Patent Attorney (Partner)',
       name: 'Yukimitsu Eikawa',
       img: 'yukimitsueikawa.jpg',
@@ -313,6 +319,7 @@ export const PEOPLE_DATA: IPerson[] = [
         ['pro-infoproc', 'pro-elec', 'pro-meddevices', 'pro-lit', 'pro-patattorneys'] 
     },
     {
+      id: 7,
       title: 'Patent Attorney Principal',
       name: 'Yoshio Nishikawa',
       img: 'yoshionishikawa.jpg',
@@ -361,6 +368,7 @@ export const PEOPLE_DATA: IPerson[] = [
         ['pro-elec', 'pro-chempharmabio', 'pro-lit', 'pro-patattorneys']
     },
     {
+      id: 8,
       title: 'Patent Attorney Principal',
       name: 'Kiyohito Ejima',
       img: 'kiyohitoejima.jpg',
@@ -409,6 +417,7 @@ export const PEOPLE_DATA: IPerson[] = [
         ['pro-infoproc', 'pro-comm', 'pro-lit', 'pro-patattorneys'] 
     },
     {
+      id: 9,
       title: 'Patent Attorney',
       name: 'Junjiro Yashiro',
       img: 'junjiroyashiro.jpg',
@@ -453,6 +462,7 @@ export const PEOPLE_DATA: IPerson[] = [
         ['pro-lit', 'pro-patattorneys'] // update
     },
     {
+      id: 10,
       title: 'Patent Attorney',
       name: 'Yasuhiro Sakata',
       img: 'yasuhirosakata.jpg', // update
@@ -494,6 +504,7 @@ export const PEOPLE_DATA: IPerson[] = [
         ['pro-infoproc', 'pro-comm', 'pro-designs', 'pro-lit', 'pro-patattorneys']
     },
     {
+      id: 11,
       title: 'Patent Attorney',
       name: 'Takashi Sakamoto',
       img: 'takashisakamoto.jpg', // update
@@ -532,6 +543,7 @@ export const PEOPLE_DATA: IPerson[] = [
         ['pro-infoproc', 'pro-comm', 'pro-mech', 'pro-lit', 'pro-patattorneys']
     },
     {
+      id: 12,
       title: 'Patent Attorney',
       name: 'Takahiro Ohto',
       img: 'takahiroohto.jpg',
@@ -573,6 +585,7 @@ export const PEOPLE_DATA: IPerson[] = [
         ['pro-infoproc', 'pro-comm', 'pro-elec', 'pro-lit', 'pro-patattorneys'] 
     },
     {
+      id: 13,
       title: 'Patent Attorney',
       name: 'Nobuyoshi Yarita',
       img: 'nobuyoshiyarita.jpg',
@@ -616,6 +629,7 @@ export const PEOPLE_DATA: IPerson[] = [
         ['pro-elec', 'pro-mech', 'pro-meddevices', 'pro-patattorneys'] 
     },
     {
+      id: 14,
       title: 'Patent Attorney',
       name: 'Koji Maeda',
       img: 'kojimaeda.jpg',
@@ -658,6 +672,7 @@ export const PEOPLE_DATA: IPerson[] = [
         ['pro-infoproc', 'pro-comm', 'pro-toysgames', 'pro-lit', 'pro-patattorneys'] 
     },
     {
+      id: 15,
       title: 'Patent Attorney',
       name: 'Haruhito Yoshida, Ph.D.',
       img: 'haruhitoyoshida.jpg',
@@ -702,6 +717,7 @@ export const PEOPLE_DATA: IPerson[] = [
         ['pro-infoproc', 'pro-comm', 'pro-lit', 'pro-patattorneys']
     },
     {
+      id: 16,
       title: 'Patent Attorney',
       name: 'Hideo Sugawara',
       img: 'hideosugawara.jpg',
@@ -740,6 +756,7 @@ export const PEOPLE_DATA: IPerson[] = [
         ['pro-mech', 'pro-designs', 'pro-meddevices', 'pro-patattorneys'] 
     },
     {
+      id: 17,
       title: 'Patent Attorney',
       name: 'Hajime Tatsukawa',
       img: 'hajimetatsukawa.jpg',
@@ -781,6 +798,7 @@ export const PEOPLE_DATA: IPerson[] = [
         ['pro-infoproc', 'pro-comm', 'pro-patattorneys']
     },
     {
+      id: 18,
       title: 'Patent Attorney',
       name: 'Junya Ohde',
       img: 'junyaohde.jpg',
@@ -822,6 +840,7 @@ export const PEOPLE_DATA: IPerson[] = [
         ['pro-infoproc', 'pro-toysgames', 'pro-lit', 'pro-patattorneys'] 
     },
     {
+      id: 19,
       title: 'Patent Attorney (Partner)',
       name: 'Tomofumi Kinoshita',
       img: 'tomofumikinoshita.jpg',
@@ -858,6 +877,7 @@ export const PEOPLE_DATA: IPerson[] = [
         ['pro-infoproc', 'pro-meddevices', 'pro-chempharmabio', 'pro-lit', 'pro-patattorneys'] 
     },
     {
+      id: 20,
       title: 'Patent Attorney',
       name: 'Tomotake Ogawa',
       img: 'tomotakeogawa.jpg',
@@ -899,6 +919,7 @@ export const PEOPLE_DATA: IPerson[] = [
         ['pro-elec', 'pro-patattorneys'] 
     },
     {
+      id: 21,
       title: 'Patent Attorney',
       name: 'Mioko Watanabe',
       img: 'miokowatanabe.jpg',
@@ -941,6 +962,7 @@ export const PEOPLE_DATA: IPerson[] = [
         ['pro-infoproc', 'pro-comm', 'pro-lit', 'pro-patattorneys'] 
     },
     {
+      id: 22,
       title: 'Patent Attorney (Partner)',
       name: 'Terukazu Ayuzawa',
       img: 'terukazuayuzawa.jpg',
@@ -984,6 +1006,7 @@ export const PEOPLE_DATA: IPerson[] = [
         ['pro-chempharmabio', 'pro-patattorneys'] 
     },
     {
+      id: 23,
       title: 'Patent Attorney',
       name: 'Yasumasa Kusunoki',
       img: 'yasumasakusunoki.jpg',
@@ -1026,6 +1049,7 @@ export const PEOPLE_DATA: IPerson[] = [
         ['pro-infoproc', 'pro-patattorneys']
     },
     {
+      id: 24,
       title: 'Patent Attorney',
       name: 'Wakako Ohtsuka',
       img: 'wakakoohtsuka.jpg',
@@ -1064,6 +1088,7 @@ export const PEOPLE_DATA: IPerson[] = [
         ['pro-meddevices', 'pro-chempharmabio', 'pro-patattorneys'] 
     },
     {
+      id: 25,
       title: 'Patent Attorney',
       name: 'Ryo Okawa',
       img: 'ryookawa.jpg',
@@ -1103,6 +1128,7 @@ export const PEOPLE_DATA: IPerson[] = [
   
     // Legal and Technical Counsel
     {
+      id: 26,
       title: 'Attorney at Law (Tokyo Bar Association)',
       name: 'Yoshiki Abe',
       img: 'yoshikiabe.jpg',
@@ -1136,6 +1162,7 @@ export const PEOPLE_DATA: IPerson[] = [
         ['pro-advisors'] 
     },
     {
+      id: 27,
       title: 'Patent Attorney',
       name: 'Masau Takayanagi',
       img: 'masautakayanagi.jpg',
@@ -1187,6 +1214,7 @@ export const PEOPLE_DATA: IPerson[] = [
         ['pro-chempharmabio', 'pro-advisors'] 
     },
     {
+      id: 28,
       title: 'Patent Attorney',
       name: 'Taro Nagayoshi',
       img: 'taronagayoshi.jpg',
@@ -1227,6 +1255,7 @@ export const PEOPLE_DATA: IPerson[] = [
         ['pro-designs', 'pro-advisors'] 
     },
     {
+      id: 29,
       title: 'Technical Advisor',
       name: 'Takeshi Hattori',
       img: 'takeshihattori.jpg',
@@ -1274,6 +1303,7 @@ export const PEOPLE_DATA: IPerson[] = [
   
     // Technical and International Support
     {
+      id: 30,
       title: 'Bridge Patent Engineer',
       name: 'Stephen Allison',
       img: 'stephenallison.jpg',
@@ -1310,6 +1340,7 @@ export const PEOPLE_DATA: IPerson[] = [
         ['pro-infoproc', 'pro-comm', 'pro-international']
     },
     {
+      id: 31,
       title: 'Bridge Patent Engineer',
       name: 'Alexander Harris',
       img: 'alexanderharris.jpg',
@@ -1343,6 +1374,7 @@ export const PEOPLE_DATA: IPerson[] = [
     },
   
     {
+      id: 32,
       title: 'Technical Translator',
       name: 'Ferena Kagata',
       img: 'ferenakagata.jpg',
@@ -1376,6 +1408,7 @@ export const PEOPLE_DATA: IPerson[] = [
     },
   
     {
+      id: 33,
       title: 'Bridge Patent Engineer',
       name: 'Arissa J. Sato',
       img: 'arissasato.jpg',
@@ -1413,6 +1446,7 @@ export const PEOPLE_DATA: IPerson[] = [
   
     // Patent Technical Staff
     {
+      id: 34,
       title: 'Patent Engineer',
       name: 'Hitoshi Minami',
       img: 'hitoshiminami.jpg',
@@ -1447,6 +1481,7 @@ export const PEOPLE_DATA: IPerson[] = [
         ['pro-infoproc', 'pro-patengineers'] 
     },
     {
+      id: 35,
       title: 'Patent Engineer',
       name: 'Kazuo Eda',
       img: 'kazuoeda.jpg',
@@ -1481,6 +1516,7 @@ export const PEOPLE_DATA: IPerson[] = [
     },
   
     {
+      id: 36,
       title: 'Patent Engineer',
       name: 'Shohei Natsuki',
       img: 'shoheinatsuki.jpg',
@@ -1515,6 +1551,7 @@ export const PEOPLE_DATA: IPerson[] = [
         ['pro-infoproc', 'pro-comm', 'pro-patengineers'] 
     },
     {
+      id: 37,
       title: 'Patent Engineer',
       name: 'Hiroshi Kurokawa',
       img: 'hiroshikurokawa.jpg',
@@ -1548,6 +1585,7 @@ export const PEOPLE_DATA: IPerson[] = [
         ['pro-mech', 'pro-patengineers'] 
     },
     {
+      id: 38,
       title: 'Patent Engineer',
       name: 'Toshio Sato',
       img: 'toshiosato.jpg',
@@ -1581,6 +1619,7 @@ export const PEOPLE_DATA: IPerson[] = [
         ['pro-infoproc', 'pro-meddevices', 'pro-patengineers'] 
     },
     {
+      id: 39,
       title: 'Patent Engineer',
       name: 'Susumu Takahashi',
       img: 'susumutakahashi.jpg',
@@ -1616,6 +1655,7 @@ export const PEOPLE_DATA: IPerson[] = [
         ['pro-infoproc', 'pro-comm', 'pro-meddevices', 'pro-patengineers'] 
     },
     {
+      id: 40,
       title: 'Patent Engineer',
       name: 'Shunsuke Yamaguchi',
       img: 'shunsukeyamaguchi.jpg',
@@ -1647,6 +1687,7 @@ export const PEOPLE_DATA: IPerson[] = [
         ['pro-mech', 'pro-patengineers'] 
     },
     {
+      id: 41,
       title: 'Patent Engineer',
       name: 'Miharu Hayashi',
       img: 'miharuhayashi.jpg',
@@ -1680,6 +1721,7 @@ export const PEOPLE_DATA: IPerson[] = [
         ['pro-infoproc', 'pro-patengineers'] 
     },
     {
+      id: 42,
       title: 'Patent Engineer',
       name: 'Keishiro Kotera',
       img: 'keishirokotera.jpg',
@@ -1713,6 +1755,7 @@ export const PEOPLE_DATA: IPerson[] = [
         ['pro-infoproc', 'pro-toysgames', 'pro-patengineers'] 
     },
     {
+      id: 43,
       title: 'Patent Engineer',
       name: 'Hidetaka Takahashi',
       img: 'hidetakatakahashi.jpg',
@@ -1745,6 +1788,7 @@ export const PEOPLE_DATA: IPerson[] = [
         ['pro-infoproc', 'pro-meddevices', 'pro-patengineers'] 
     },
     {
+      id: 44,
       title: 'Patent Engineer',
       name: 'Hideto Yoshitake',
       img: 'hidetoyoshitake.jpg',
@@ -1779,6 +1823,7 @@ export const PEOPLE_DATA: IPerson[] = [
         ['pro-infoproc', 'pro-comm', 'pro-patengineers'] 
     },
     {
+      id: 45,
       title: 'Patent Engineer',
       name: 'Eiji Hokimoto',
       img: 'eijihokimoto.jpg',
@@ -1809,6 +1854,7 @@ export const PEOPLE_DATA: IPerson[] = [
         ['pro-infoproc', 'pro-patengineers'] 
     },
     {
+      id: 46,
       title: 'Patent Engineer',
       name: 'Katsuhiro Suzuki',
       img: 'katsuhirosuzuki.jpg',
@@ -1842,6 +1888,7 @@ export const PEOPLE_DATA: IPerson[] = [
         ['pro-elec', 'pro-patengineers'] 
     },
     {
+      id: 47,
       title: 'Patent Engineer',
       name: 'Johji Kagotani',
       img: 'johjikagotani.jpg',
@@ -1874,6 +1921,7 @@ export const PEOPLE_DATA: IPerson[] = [
         ['pro-toysgames', 'pro-patengineers'] 
     },
     {
+      id: 48,
       title: 'Patent Engineer',
       name: 'Yoshimichi Fukasawa',
       img: 'yoshimichifukasawa.jpg',
@@ -1909,6 +1957,7 @@ export const PEOPLE_DATA: IPerson[] = [
         ['pro-elec', 'pro-patengineers'] 
     },
     {
+      id: 49,
       title: 'Patent Engineer',
       name: 'Hiroaki Tanaka, Ph.D.',
       img: 'hiroakitanaka.jpg',
@@ -1944,6 +1993,7 @@ export const PEOPLE_DATA: IPerson[] = [
         ['pro-elec', 'pro-patengineers'] 
     },
     {
+      id: 50,
       title: 'Patent Engineer',
       name: 'Kei Iwamoto, Ph.D.',
       img: 'keiiwamoto.jpg',
@@ -1978,6 +2028,7 @@ export const PEOPLE_DATA: IPerson[] = [
         ['pro-infoproc', 'pro-comm', 'pro-patengineers'] 
     },
     {
+      id: 51,
       title: 'Patent Engineer',
       name: 'Yuki Yamasaki',
       img: 'yukiyamasaki.jpg',

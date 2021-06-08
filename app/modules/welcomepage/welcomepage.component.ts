@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { WELCOMECONTENTJP, WELCOMECONTENT, WELCOMETITLEJP, WELCOMETITLE, WELCOMEIMG } from '../../../assets/data/staticwelcome';
-import { LanguagesettingService } from '../../services/languagesetting.service';
+import { WelcomeService } from '../../services/welcome.service';
 
 @Component({
   selector: 'app-welcomepage',
@@ -9,33 +8,22 @@ import { LanguagesettingService } from '../../services/languagesetting.service';
 })
 export class WelcomepageComponent implements OnInit {
 
-  constructor(private langService: LanguagesettingService) {
+  constructor(
+    private welcomeService: WelcomeService) {
    }
 
   ngOnInit(): void {
   }
 
   getTitle(){
-    switch(this.langService.lang){
-      case "JP":
-        return WELCOMETITLEJP;
-      case "EN":
-      default:
-        return WELCOMETITLE;
-    }
+    return this.welcomeService.getTitle();
   }
 
   getContent(){
-    switch(this.langService.lang){
-      case "JP":
-        return WELCOMECONTENTJP;
-      case "EN":
-      default:
-        return WELCOMECONTENT;
-    }
+    return this.welcomeService.getContent();
   }
 
   getImage(){
-    return WELCOMEIMG;
+    return this.welcomeService.getImage();
   }
 }

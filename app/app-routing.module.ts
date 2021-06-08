@@ -143,7 +143,7 @@ const routes: Routes = [
         component: ProfessionalsComponent
       },
       {
-        path: 'professional',
+        path: 'professional/:id',
         component: ProfessionalComponent
       },
       {

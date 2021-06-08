@@ -14,6 +14,7 @@ export interface IPublications {
     text: string;
 }
 export interface IPerson {
+    id: number;
     title: string;
     name: string;
     img: string;

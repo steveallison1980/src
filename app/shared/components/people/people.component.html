@@ -9,17 +9,17 @@
         <mat-card>
             <mat-card-header>
                 
-                <mat-card-title routerLink="/professional" (click)="clickDetails(person)">{{getName(person)}}</mat-card-title>
-                <mat-card-subtitle>
+                <mat-card-title routerLink="/professional/{{person.id}}" (click)="clickDetails(person)">{{getName(person)}}</mat-card-title>
+                <mat-card-subtitle routerLink="/professional/{{person.id}}">
                     {{getTitle(person)}}
                 </mat-card-subtitle>
             </mat-card-header>
-            <img class='mainimage' routerLink="/professional" mat-card-image src="../../../../assets/img/profiles/{{person.img}}" alt="{{person.name}}, {{person.title}}" (click)="clickDetails(person)">
+            <img class='mainimage' routerLink="/professional/{{person.id}}" mat-card-image src="../../../../assets/img/profiles/{{person.img}}" alt="{{person.name}}, {{person.title}}" (click)="clickDetails(person)">
             <mat-card-content><p>{{getBio(person)}}</p></mat-card-content>
             
             <mat-card-actions fxLayoutAlign="end">
                 <div class="person-button-row">
-                    <button routerLink="/professional" mat-stroked-button (click)="clickDetails(person)">
+                    <button routerLink="/professional/{{person.id}}" mat-stroked-button (click)="clickDetails(person)">
                         {{getDetails()}}
                     </button>
                 </div>
