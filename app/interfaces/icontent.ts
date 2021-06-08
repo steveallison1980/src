@@ -23,6 +23,14 @@ export interface IList {
     elements: Array<IElement>;
     classes: Array<string>;
 }
+export interface IExpansionPanel {
+    title: string;
+    description: string;
+    content: IContent;
+}
+export interface IAccordion {
+    panels: Array <IExpansionPanel>
+}
 export interface IElement {
     type: string;
     obj: Object;

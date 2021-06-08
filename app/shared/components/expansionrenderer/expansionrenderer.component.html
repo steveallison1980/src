@@ -1,0 +1,11 @@
+<mat-accordion>
+    <mat-expansion-panel *ngFor="let panel of getPanels()">
+        <mat-expansion-panel-header>
+            <mat-panel-title>
+            {{getPanelTitle(panel)}}
+            </mat-panel-title>
+
+        </mat-expansion-panel-header>
+        <app-contentrenderer [content]="getPanelContent(panel)"></app-contentrenderer>
+    </mat-expansion-panel>
+</mat-accordion>

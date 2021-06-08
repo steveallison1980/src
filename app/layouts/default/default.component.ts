@@ -16,7 +16,7 @@ export class DefaultComponent implements OnInit {
       public router: Router) {}
 
   @HostListener('window:scroll') onScroll(e: Event): void {
-    if( this.document.documentElement.scrollTop > 120 ){
+    if( this.document.documentElement.scrollTop > 600 ){
       this.bHeaderFixed = true;
     } else {
       this.bHeaderFixed = false;

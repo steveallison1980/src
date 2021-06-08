@@ -56,6 +56,8 @@ import { Cafc2007Component } from './modules/cafcreports/cafc2007/cafc2007.compo
 import { Cafc2006Component } from './modules/cafcreports/cafc2006/cafc2006.component';
 import { Cafc2005Component } from './modules/cafcreports/cafc2005/cafc2005.component';
 
+import { GuidanceComponent } from './modules/guidance/guidance.component';
+
 import { CareerspageComponent } from './modules/careers/careerspage/careerspage.component';
 import { SetsumeikaipageComponent } from './modules/careers/setsumeikaipage/setsumeikaipage.component';
 import { SetsumeikaiguidepageComponent } from './modules/careers/setsumeikaiguidepage/setsumeikaiguidepage.component';
@@ -64,6 +66,7 @@ import { WorkenvironmentComponent } from './modules/careers/workenvironment/work
 
 import { PeopleComponent } from './shared/components/people/people.component';
 import { PersonComponent } from './shared/components/person/person.component';
+
 
 const routes: Routes = [
   {
@@ -274,6 +277,10 @@ const routes: Routes = [
       {
         path: 'cafc2005',
         component: Cafc2005Component
+      },
+      {
+        path: 'guidance',
+        component: GuidanceComponent
       },
       {
         path: 'careerspage',

@@ -72,6 +72,7 @@ import { HeaderrendererComponent } from './components/headerrenderer/headerrende
 import { ElementrendererComponent } from './components/elementrenderer/elementrenderer.component';
 import { ContentrendererComponent } from './components/contentrenderer/contentrenderer.component';
 import { CardrendererComponent } from './components/cardrenderer/cardrenderer.component';
+import { ExpansionrendererComponent } from './components/expansionrenderer/expansionrenderer.component';
 
 @NgModule({
   declarations: [
@@ -129,7 +130,8 @@ import { CardrendererComponent } from './components/cardrenderer/cardrenderer.co
     HeaderrendererComponent,
     ElementrendererComponent,
     ContentrendererComponent,
-    CardrendererComponent
+    CardrendererComponent,
+    ExpansionrendererComponent
   ],
   imports: [
     CommonModule,
@@ -195,7 +197,8 @@ import { CardrendererComponent } from './components/cardrenderer/cardrenderer.co
     ElementrendererComponent,
     ListrendererComponent,
     ContentrendererComponent,
-    CardrendererComponent
+    CardrendererComponent,
+    ExpansionrendererComponent
   ]
 })
 

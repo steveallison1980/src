@@ -34,9 +34,6 @@ export class SpanrendererComponent implements OnInit {
     return (this.span.routerlink != null && this.span.routerlink.length > 0);
   }
   isNotLink(){
-    console.log(this.isLink())
-    console.log(this.isRouterLink())
-    console.log((!this.isLink() && !this.isRouterLink()));
     return (!this.isLink() && !this.isRouterLink());
   }
   getClasses(){

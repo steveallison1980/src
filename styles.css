@@ -8,22 +8,27 @@ h1
 {
     font-family: 'crimsontext';
     font-size: 250%;
+    color: rgb(184, 51, 51);
 }
 h2
 {
     font-family: 'crimsontext';
     font-weight: lighter;
     font-size: 200%;
+    color: rgb(184, 51, 51);
 }
 h3
 {
     font-family: 'crimsontext';
     font-weight: lighter;
     font-size: 150%;
+    color: rgb(184, 51, 51);
 }
 h4
 {
     font-family: 'crimsontext';
     font-weight: lighter;
     font-size: 100%;
+    color: rgb(184, 51, 51);
 }
+

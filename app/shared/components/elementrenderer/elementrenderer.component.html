@@ -1,5 +1,7 @@
+<app-headerrenderer *ngIf="getType()=='header'" [header]='getObj()'></app-headerrenderer>
 <app-spanrenderer *ngIf="getType()=='span'" [span]='getObj()'></app-spanrenderer>
 <app-paragraphrenderer *ngIf="getType()=='paragraph'" [paragraph]='getObj()'></app-paragraphrenderer>
 <app-imagerenderer *ngIf="getType()=='image'" [img]='getObj()'></app-imagerenderer>
 <app-listrenderer *ngIf="getType()=='list'" [list]='getObj()'></app-listrenderer>
+<app-expansionrenderer *ngIf="getType()=='accordion'" [accordion]='getObj()'></app-expansionrenderer>
 <br *ngIf="getType()=='br'">
