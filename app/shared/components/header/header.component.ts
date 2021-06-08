@@ -136,7 +136,7 @@ export class HeaderComponent implements OnInit {
     return this.findInNav("ourservices");
   }
   isProfessionals(){
-    return this.findInNav("professionals");
+    return this.findInNav("professionals") || this.highlight.includes("professional");
   }
   isCafcreports(){
     return this.findInNav("cafcreports");

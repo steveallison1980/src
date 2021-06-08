@@ -11,6 +11,7 @@ export interface ISpan {
     text: string;
     url: string;
     routerlink: string;
+    tooltip: string;
     classes: Array<string>;
 }
 export interface IParagraph {

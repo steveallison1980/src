@@ -2,7 +2,7 @@
 <a *ngIf="isLink()" [href]="getUrl()">
     {{getText()}}
 </a>
-<a *ngIf="isRouterLink()" [routerLink]="getRouterLink()">
+<a *ngIf="isRouterLink()" [title]="getTooltip()" [routerLink]="getRouterLink()">
     {{getText()}}
 </a>
 <span *ngIf="isNotLink()">

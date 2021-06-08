@@ -24,6 +24,9 @@ export class SpanrendererComponent implements OnInit {
   isLink(){
     return (this.span.url != null && this.span.url.length > 0);
   }
+  getTooltip(){
+    return this.span.tooltip;
+  }
   getRouterLink(){
     return this.span.routerlink;
   }
