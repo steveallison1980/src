@@ -38,6 +38,7 @@ export class SpanrendererComponent implements OnInit {
   }
   getClasses(){
     var ret = "";
+    if (this.span.classes == null) return "";
     for (var i=0; i<this.span.classes.length; i++){
       ret += this.span.classes[i] + " ";
     }

@@ -1,10 +1,9 @@
 
-<a *ngIf="isLink()" [href]="getUrl()">
+<a *ngIf="isLink()" [href]="getUrl()" class='{{getClasses()}}'>
+</a>
+<a *ngIf="isRouterLink()" [title]="getTooltip()" [routerLink]="getRouterLink()" class='{{getClasses()}}'>
     {{getText()}}
 </a>
-<a *ngIf="isRouterLink()" [title]="getTooltip()" [routerLink]="getRouterLink()">
-    {{getText()}}
-</a>
-<span *ngIf="isNotLink()">
+<span *ngIf="isNotLink()" class='{{getClasses()}}'>
     {{getText()}}
 </span>

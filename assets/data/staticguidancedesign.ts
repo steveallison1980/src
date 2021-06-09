@@ -1,4 +1,4 @@
-import { IContent,IAccordion } from './../../app/interfaces/icontent';
+import { IContent,IAccordion,IExpansionPanel } from './../../app/interfaces/icontent';
 
 export const DESIGNGUIDANCECONTENTOLD: IContent = {
     elements: [
@@ -1767,159 +1767,346 @@ export const DESIGNGUIDANCECONTENTOLD: IContent = {
     ]
 };
 
-const DESIGNACCORDION: IAccordion = {
-    panels: [
+const DESIGNPANEL1: IExpansionPanel = {
+    title: "The Japanese Design System",
+    description: "",
+    content: 
+    {
+        elements: [
         {
-            title: "The Japanese Design System",
-            description: "",
-            content: 
-            {
-                elements: [
-                {
-                    type: "paragraph",
-                    obj: {
-                        spans: [
-                            {
-                            text: "The Hague Agreement, effective in Japan since April 1, 2015, expanded design registrable subject matter to include designs of graphic images and buildings, and Japan's design system is thus being harmonized with international systems.",
-                            url: null,
-                            routerlink: null,
-                            tooltip: null,
-                            classes: null
-                            }
-                        ],
-                        classes:null
+            type: "paragraph",
+            obj: {
+                spans: [
+                    {
+                    text: "The Hague Agreement, effective in Japan since April 1, 2015, expanded design registrable subject matter to include designs of graphic images and buildings, and Japan's design system is thus being harmonized with international systems.",
+                    url: null,
+                    routerlink: null,
+                    tooltip: null,
+                    classes: ["noselect"]
                     }
-                },
-                {
-                    type: "paragraph",
-                    obj: {
-                        spans: [
-                            {
-                            text: 'Also, the Japanese Design Law has unique features such as "related designs" by which designs can be effectively protected, giving the Japanese system international appeal.',
-                            url: null,
-                            routerlink: null,
-                            tooltip: null,
-                            classes: null
-                            }
-                        ],
-                        classes:null
-                    }
-                },
-                {
-                    type: "paragraph",
-                    obj: {
-                        spans: [
-                            {
-                            text: "In this manual, we would like to introduce Japanese design practice from the Applicant's perspective.",
-                            url: null,
-                            routerlink: null,
-                            tooltip: null,
-                            classes: null
-                            }
-                        ],
-                        classes:null
-                    }
-                }]
+                ],
+                classes:null
             }
         },
         {
-            title: "Examination",
-            description: "",
-            content: 
-            {
-                elements: [
-                {
-                    type: "paragraph",
-                    obj: {
-                        spans: [
-                            {
-                            text: "In Japan, designs are examined for novelty (absolute novelty) and non-obviousness.",
-                            url: null,
-                            routerlink: null,
-                            tooltip: null,
-                            classes: null
-                            }
-                        ],
-                        classes:null
+            type: "paragraph",
+            obj: {
+                spans: [
+                    {
+                    text: 'Also, the Japanese Design Law has unique features such as "related designs" by which designs can be effectively protected, giving the Japanese system international appeal.',
+                    url: null,
+                    routerlink: null,
+                    tooltip: null,
+                    classes: ["noselect"]
                     }
-                },
-                {
-                    type: "paragraph",
-                    obj: {
-                        spans: [
-                            {
-                            text: "The JPO employs a DB in which they have, over many years, collected foreign design publications, magazines, catalogs, pamphlets and the like.",
-                            url: null,
-                            routerlink: null,
-                            tooltip: null,
-                            classes: null
-                            }
-                        ],
-                        classes:null
-                    }
-                },
-                {
-                    type: "paragraph",
-                    obj: {
-                        spans: [
-                            {
-                            text: "As such, a Japanese design registration (examination) covers not only Japan, but also the international state of the art. Japanese design registration is therefore regarded as highly useful in the evaluation of validity of a design in countries that register designs without examination.",
-                            url: null,
-                            routerlink: null,
-                            tooltip: null,
-                            classes: null
-                            }
-                        ],
-                        classes:null
-                    }
-                },
-                {
-                    type: "paragraph",
-                    obj: {
-                        spans: [
-                            {
-                            text: "The examination period is typically between 6 and 8 months, from application to registration. The term for response to an OA issued by the JPO is 3 months. A two-month extension for the response can be received with the payment of a 2,100 JPY official fee.",
-                            url: null,
-                            routerlink: null,
-                            tooltip: null,
-                            classes: null
-                            }
-                        ],
-                        classes:null
-                    }
-                },
-                {
-                    type: "paragraph",
-                    obj: {
-                        spans: [
-                            {
-                            text: "In the first instance, a single Examiner examines the application, and in the case where the application is rejected by the Examiner, it is possible to appeal (second instance).",
-                            url: null,
-                            routerlink: null,
-                            tooltip: null,
-                            classes: null
-                            }
-                        ],
-                        classes:null
-                    }
-                },
-                {
-                    type: "paragraph",
-                    obj: {
-                        spans: [
-                            {
-                            text: "The examination by the JPO of a Hague Agreement design application will be conducted within 6 months of the international publication, and the result of the examination will be sent to the Applicant directly (in practice, a notice of rejection is typically reported within 4 or 5 months of the international publication). A response to a rejection requires a power of attorney. The response term is 3 months, and a 2-month extension is possible.",
-                            url: null,
-                            routerlink: null,
-                            tooltip: null,
-                            classes: null
-                            }
-                        ],
-                        classes:null
-                    }
-                }]
+                ],
+                classes:null
             }
-        }
+        },
+        {
+            type: "paragraph",
+            obj: {
+                spans: [
+                    {
+                    text: "In this manual, we would like to introduce Japanese design practice from the Applicant's perspective.",
+                    url: null,
+                    routerlink: null,
+                    tooltip: null,
+                    classes: ["noselect"]
+                    }
+                ],
+                classes:null
+            }
+        }]
+    }
+};
+const DESIGNPANEL2: IExpansionPanel = {
+    title: "Examination",
+    description: "",
+    content: 
+    {
+        elements: [
+        {
+            type: "paragraph",
+            obj: {
+                spans: [
+                    {
+                    text: "In Japan, designs are examined for novelty (absolute novelty) and non-obviousness.",
+                    url: null,
+                    routerlink: null,
+                    tooltip: null,
+                    classes: ["noselect"]
+                    }
+                ],
+                classes:null
+            }
+        },
+        {
+            type: "paragraph",
+            obj: {
+                spans: [
+                    {
+                    text: "The JPO employs a DB in which they have, over many years, collected foreign design publications, magazines, catalogs, pamphlets and the like.",
+                    url: null,
+                    routerlink: null,
+                    tooltip: null,
+                    classes: ["noselect"]
+                    }
+                ],
+                classes:null
+            }
+        },
+        {
+            type: "paragraph",
+            obj: {
+                spans: [
+                    {
+                    text: "As such, a Japanese design registration (examination) covers not only Japan, but also the international state of the art. Japanese design registration is therefore regarded as highly useful in the evaluation of validity of a design in countries that register designs without examination.",
+                    url: null,
+                    routerlink: null,
+                    tooltip: null,
+                    classes: ["noselect"]
+                    }
+                ],
+                classes:null
+            }
+        },
+        {
+            type: "paragraph",
+            obj: {
+                spans: [
+                    {
+                    text: "The examination period is typically between 6 and 8 months, from application to registration. The term for response to an OA issued by the JPO is 3 months. A two-month extension for the response can be received with the payment of a 2,100 JPY official fee.",
+                    url: null,
+                    routerlink: null,
+                    tooltip: null,
+                    classes: ["noselect"]
+                    }
+                ],
+                classes:null
+            }
+        },
+        {
+            type: "paragraph",
+            obj: {
+                spans: [
+                    {
+                    text: "In the first instance, a single Examiner examines the application, and in the case where the application is rejected by the Examiner, it is possible to appeal (second instance).",
+                    url: null,
+                    routerlink: null,
+                    tooltip: null,
+                    classes: ["noselect"]
+                    }
+                ],
+                classes:null
+            }
+        },
+        {
+            type: "paragraph",
+            obj: {
+                spans: [
+                    {
+                    text: "The examination by the JPO of a Hague Agreement design application will be conducted within 6 months of the international publication, and the result of the examination will be sent to the Applicant directly (in practice, a notice of rejection is typically reported within 4 or 5 months of the international publication). A response to a rejection requires a power of attorney. The response term is 3 months, and a 2-month extension is possible.",
+                    url: null,
+                    routerlink: null,
+                    tooltip: null,
+                    classes: ["noselect"]
+                    }
+                ],
+                classes:null
+            }
+        }]
+    }
+};
+const DESIGNPANEL3: IExpansionPanel = {
+    title: "Eligible Design Matter",
+    description: "",
+    content: 
+    {
+        elements: [
+        {
+            type: "paragraph",
+            obj: {
+                spans: [
+                    {
+                    text: "Specific examples are given below of registrable designs.",
+                    url: null,
+                    routerlink: null,
+                    tooltip: null,
+                    classes: ["noselect"]
+                    }
+                ],
+                classes:null
+            }
+        }]
+    }
+};
+const DESIGNPANEL4: IExpansionPanel = {
+    title: "Design of an article (whole design)",
+    description: "",
+    content: 
+    {
+        elements: [
+        {
+            type: "paragraph",
+            obj: {
+                spans: [
+                    {
+                    text: "TODO",
+                    url: null,
+                    routerlink: null,
+                    tooltip: null,
+                    classes: ["noselect"]
+                    }
+                ],
+                classes:null
+            }
+        }]
+/* 
+    1678153
+    *Handbag
+    *Louis Vuitton Marche
+    *perspective view
+    *1678153_000001.jpg
+    
+    *front view
+    *1678153_000002.jpg
+    
+    *back view
+    *1678153_000003.jpg
+    
+    *left side view
+    *1678153_000004.jpg
+    
+    *top view
+    *1678153_000005.jpg
+    
+    *bottom view
+    *1678153_000006.jpg
+   */
+    }
+};
+const DESIGNPANEL5: IExpansionPanel = {
+    title: "Functional Article",
+    description: "",
+    content: 
+    {
+        elements: [
+        {
+            type: "paragraph",
+            obj: {
+                spans: [
+                    {
+                    text: "Eligible designs have an aesthetic quality, even when they are designs for realizing a function. In Japan, functional items are considered to be beautiful, and there are many examples of where designs of screws, tools, tires, plastic bottles and the like have been registered.",
+                    url: null,
+                    routerlink: null,
+                    tooltip: null,
+                    classes: ["noselect"]
+                    }
+                ],
+                classes:null
+            }
+        },
+        /*TODO:
+        1417355
+        *Screw for theft-prevention
+        *Euroke Ltd.
+        
+        
+        *perspective view
+        *1417355_000005.jpg*/
+        
+        
+        {
+            type: "paragraph",
+            obj: {
+                spans: [
+                    {
+                    text: 'There are cases where a design is statutory subject matter from the perspective of the Design Law, at that also constitutes an "invention" from the perspective of the Patent Law. For example, the following tire is of a shape that efficiently expels water from the center to the sides, and it would be possible to apply for both a design registration and a patent.',
+                    url: null,
+                    routerlink: null,
+                    tooltip: null,
+                    classes: ["noselect"]
+                    }
+                ],
+                classes:null
+            }
+        }]
+        /*TODO
+        Automobile tire tread pattern
+        *tiretread.jpg*/
+    }
+};
+        
+const DESIGNPANEL6: IExpansionPanel = {
+    title: "Design of an article (partial design)",
+    description: "",
+    content: 
+    {
+        elements: [
+        {
+            type: "paragraph",
+            obj: {
+                spans: [
+                    {
+                    text: "TODO",
+                    url: null,
+                    routerlink: null,
+                    tooltip: null,
+                    classes: ["noselect"]
+                    }
+                ],
+                classes:null
+            }
+        },
+        {
+            type: "paragraph",
+            obj: {
+                spans: [
+                    {
+                    text: "It is possible to register a partial design for a cohesive feature within an overall design. The most orthodox way to specify a partial design is to draw parts of the design that are claimed in solid lines and draw parts of the design that are not claimed in broken lines.",
+                    url: null,
+                    routerlink: null,
+                    tooltip: null,
+                    classes: ["noselect"]
+                    }
+                ],
+                classes:null
+            }
+            /*114861
+*Wheel of a tire for an automobile
+*Honda Access Ltd.
+*The solid lines are what is being claimed as the partial design. The dotted lines indicate only the borders between the claimed part and other parts of the article. The left side view is abbreviated since it is symmetrical to the right side view.
+
+
+*perspective view
+*1148619_000001.jpg
+
+*front view
+*1148619_000002.jpg
+
+*back view
+*1148619_000003.jpg
+
+*top view
+*1148619_000004.jpg
+
+*bottom view
+*1148619_000005.jpg
+
+*right side view
+*1148619_000006.jpg*/
+        }]
+    }
+};
+
+const DESIGNACCORDION: IAccordion = {
+    panels: [
+        DESIGNPANEL1,
+        DESIGNPANEL2,
+        DESIGNPANEL3,
+        DESIGNPANEL4,
+        DESIGNPANEL5
     ]
 };
 export const DESIGNGUIDANCECONTENT: IContent = {
