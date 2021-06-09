@@ -1,6 +1,6 @@
 <div fxLayout='column' fxLayoutAlign="start stretch">
-    <app-topbar flexLayout='column' [class.fixed]="bHeaderFixed"></app-topbar>
-    <app-header flexLayout='column' [class.fixed]="bHeaderFixed" [highlight]="this.router.url"></app-header>
+    <app-topbar flexLayout='column'></app-topbar>
+    <app-header flexLayout='column' [highlight]="this.router.url"></app-header>
     <router-outlet></router-outlet>
 </div>
-<app-gototop fxShow="true" fxHide.lt-md="true" *ngIf="bHeaderFixed"></app-gototop>
+<app-gototop fxShow="true" fxHide.lt-md="true" *ngIf="bShowGotoTop"></app-gototop>

@@ -9,17 +9,17 @@ import {Router} from '@angular/router';
 })
 export class DefaultComponent implements OnInit {
 
-  public bHeaderFixed: boolean = false;
+  public bShowGotoTop: boolean = false;
   public isIE = /msie\s|trident\//i.test(window.navigator.userAgent)
 
   constructor(@Inject(DOCUMENT) private document: Document,
       public router: Router) {}
 
   @HostListener('window:scroll') onScroll(e: Event): void {
-    if( this.document.documentElement.scrollTop > 600 ){
-      this.bHeaderFixed = true;
+    if( this.document.documentElement.scrollTop > 320 ){
+      this.bShowGotoTop = true;
     } else {
-      this.bHeaderFixed = false;
+      this.bShowGotoTop = false;
     }
   }
   
