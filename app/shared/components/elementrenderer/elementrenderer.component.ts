@@ -11,6 +11,7 @@ export class ElementrendererComponent implements OnInit {
   constructor() { }
 
   @Input() element: IElement;
+  @Input() element2: IElement;
 
   ngOnInit(): void {
   }
@@ -19,6 +20,9 @@ export class ElementrendererComponent implements OnInit {
     return this.element.type;
   }
   getObj(){
-    return this.element.obj;
+    return this.element.objs[0];
+  }
+  getObj2(){
+    return this.element.objs[1];
   }
 }

@@ -1,8 +1,8 @@
 <mat-accordion>
-    <mat-expansion-panel *ngFor="let panel of getPanels()">
+    <mat-expansion-panel *ngFor="let panel of getPanels(); index as i">
         <mat-expansion-panel-header>
             <mat-panel-title>
-            {{getPanelTitle(panel)}}
+            {{i+1}}. {{getPanelTitle(panel)}}
             </mat-panel-title>
 
         </mat-expansion-panel-header>

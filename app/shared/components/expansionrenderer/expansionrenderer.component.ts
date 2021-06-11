@@ -27,7 +27,6 @@ export class ExpansionrendererComponent implements OnInit {
     return panel.description;
   }
   getPanelTitle(panel:IExpansionPanel){
-    console.log(panel.title)
     return panel.title;
   }
   getPanelContent(panel:IExpansionPanel){

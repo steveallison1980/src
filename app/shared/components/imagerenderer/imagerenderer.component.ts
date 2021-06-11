@@ -17,8 +17,14 @@ export class ImagerendererComponent implements OnInit {
   }
 
   getImgSrc(){
-    console.log(this.IMGFOLDER + this.img.folder + "/" + this.img.filename)
     return this.IMGFOLDER + this.img.folder + "/" + this.img.filename;
   }
-
+  getClasses(){
+    var ret = "";
+    if (this.img.classes == null) return "";
+    for (var i=0; i<this.img.classes.length; i++){
+      ret += this.img.classes[i] + " ";
+    }
+    return ret;
+  }
 }

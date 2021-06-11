@@ -16,6 +16,7 @@ export class ContentrendererComponent implements OnInit {
   }
 
   getElements(){
+    if (this.content == null) return null;
     return this.content.elements;
   }
 }

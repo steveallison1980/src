@@ -6,6 +6,7 @@ export interface IHeader {
 export interface IImage {
     folder: string;
     filename: string;
+    classes: Array<string>;
 }
 export interface ISpan {
     text: string;
@@ -33,7 +34,7 @@ export interface IAccordion {
 }
 export interface IElement {
     type: string;
-    obj: Object;
+    objs: Array <Object>;
 }
 export interface IContent {
     elements: Array<IElement>;

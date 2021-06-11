@@ -4,61 +4,61 @@ export const DESIGNGUIDANCECONTENTOLD: IContent = {
     elements: [
     {
         type: "header",
-        obj: {
+        objs: [{
             text: "Designs Manual",
             type: "h1",
             classes: null
-        }
+        }]
     },
     {
         type: "span",
-        obj: {
+        objs: [{
             text: "June 3, 2021",
             url: null,
             routerlink: null,
             tooltip: null,
             classes: null,
-        }
+        }]
     },
     {
         type: "br",
-        obj: null
+        objs: null
     },
     {
         type: "span",
-        obj: {
+        objs: [{
             text: "Yasunori Ohtsuka",
             url: null,
             routerlink: "/professional/1",
             tooltip: "",
             classes: null,
-        }
+        }]
     },
     {
         type: "br",
-        obj: null
+        objs: null
     },
     {
         type: "span",
-        obj: {
+        objs: [{
             text: "Hideo Sugawara",
             url: null,
             routerlink: "/professional/16",
             tooltip: "",
             classes: null,
-        }
+        }]
     },
     {
         type: "header",
-        obj: {
+        objs: [{
             text: "The Japanese Design System",
             type: "h1",
             classes: null
-        }
+        }]
     },
     {
         type: "paragraph",
-        obj: {
+        objs: [{
             spans: [
                 {
                 text: "The Hague Agreement, effective in Japan since April 1, 2015, expanded design registrable subject matter to include designs of graphic images and buildings, and Japan's design system is thus being harmonized with international systems.",
@@ -69,11 +69,11 @@ export const DESIGNGUIDANCECONTENTOLD: IContent = {
                 }
             ],
             classes:null
-        }
+        }]
     },
     {
         type: "paragraph",
-        obj: {
+        objs: [{
             spans: [
                 {
                 text: 'Also, the Japanese Design Law has unique features such as "related designs" by which designs can be effectively protected, giving the Japanese system international appeal.',
@@ -84,11 +84,11 @@ export const DESIGNGUIDANCECONTENTOLD: IContent = {
                 }
             ],
             classes:null
-        }
+        }]
     },
     {
         type: "paragraph",
-        obj: {
+        objs: [{
             spans: [
                 {
                 text: "In this manual, we would like to introduce Japanese design practice from the Applicant's perspective.",
@@ -99,19 +99,19 @@ export const DESIGNGUIDANCECONTENTOLD: IContent = {
                 }
             ],
             classes:null
-        }
+        }]
     },
     {
         type: "header",
-        obj: {
+        objs: [{
             text: "Examination",
             type: "h1",
             classes: null
-        }
+        }]
     },
     {
         type: "paragraph",
-        obj: {
+        objs: [{
             spans: [
                 {
                 text: "In Japan, designs are examined for novelty (absolute novelty) and non-obviousness.",
@@ -122,11 +122,11 @@ export const DESIGNGUIDANCECONTENTOLD: IContent = {
                 }
             ],
             classes:null
-        }
+        }]
     },
     {
         type: "paragraph",
-        obj: {
+        objs: [{
             spans: [
                 {
                 text: "The JPO employs a DB in which they have, over many years, collected foreign design publications, magazines, catalogs, pamphlets and the like.",
@@ -137,11 +137,11 @@ export const DESIGNGUIDANCECONTENTOLD: IContent = {
                 }
             ],
             classes:null
-        }
+        }]
     },
     {
         type: "paragraph",
-        obj: {
+        objs: [{
             spans: [
                 {
                 text: "As such, a Japanese design registration (examination) covers not only Japan, but also the international state of the art. Japanese design registration is therefore regarded as highly useful in the evaluation of validity of a design in countries that register designs without examination.",
@@ -152,11 +152,11 @@ export const DESIGNGUIDANCECONTENTOLD: IContent = {
                 }
             ],
             classes:null
-        }
+        }]
     },
     {
         type: "paragraph",
-        obj: {
+        objs: [{
             spans: [
                 {
                 text: "The examination period is typically between 6 and 8 months, from application to registration. The term for response to an OA issued by the JPO is 3 months. A two-month extension for the response can be received with the payment of a 2,100 JPY official fee.",
@@ -167,11 +167,11 @@ export const DESIGNGUIDANCECONTENTOLD: IContent = {
                 }
             ],
             classes:null
-        }
+        }]
     },
     {
         type: "paragraph",
-        obj: {
+        objs: [{
             spans: [
                 {
                 text: "In the first instance, a single Examiner examines the application, and in the case where the application is rejected by the Examiner, it is possible to appeal (second instance).",
@@ -182,11 +182,11 @@ export const DESIGNGUIDANCECONTENTOLD: IContent = {
                 }
             ],
             classes:null
-        }
+        }]
     },
     {
         type: "paragraph",
-        obj: {
+        objs: [{
             spans: [
                 {
                 text: "The examination by the JPO of a Hague Agreement design application will be conducted within 6 months of the international publication, and the result of the examination will be sent to the Applicant directly (in practice, a notice of rejection is typically reported within 4 or 5 months of the international publication). A response to a rejection requires a power of attorney. The response term is 3 months, and a 2-month extension is possible.",
@@ -197,19 +197,19 @@ export const DESIGNGUIDANCECONTENTOLD: IContent = {
                 }
             ],
             classes:null
-        }
+        }]
     },
     {
         type: "header",
-        obj: {
+        objs: [{
             text: "Eligible Design Matter",
             type: "h1",
             classes: null
-        }
+        }]
     },
     {
         type: "paragraph",
-        obj: {
+        objs: [{
             spans: [
                 {
                 text: "Specific examples are given below of registrable designs.",
@@ -220,15 +220,15 @@ export const DESIGNGUIDANCECONTENTOLD: IContent = {
                 }
             ],
             classes:null
-        }
+        }]
     },
     {
         type: "header",
-        obj: {
+        objs: [{
             text: "Design of an article (whole design)",
             type: "h2",
             classes: null
-        }
+        }]
     },
     /*1678153
     *Handbag
@@ -253,15 +253,15 @@ export const DESIGNGUIDANCECONTENTOLD: IContent = {
     
     {
         type: "header",
-        obj: {
+        objs: [{
             text: "Functional Article",
             type: "h3",
             classes: null
-        }
+        }]
     },
     {
         type: "paragraph",
-        obj: {
+        objs: [{
             spans: [
                 {
                 text: "Eligible designs have an aesthetic quality, even when they are designs for realizing a function. In Japan, functional items are considered to be beautiful, and there are many examples of where designs of screws, tools, tires, plastic bottles and the like have been registered.",
@@ -272,7 +272,7 @@ export const DESIGNGUIDANCECONTENTOLD: IContent = {
                 }
             ],
             classes:null
-        }
+        }]
     },
     /*1417355
     *Screw for theft-prevention
@@ -285,7 +285,7 @@ export const DESIGNGUIDANCECONTENTOLD: IContent = {
     
     {
         type: "paragraph",
-        obj: {
+        objs: [{
             spans: [
                 {
                 text: 'There are cases where a design is statutory subject matter from the perspective of the Design Law, at that also constitutes an "invention" from the perspective of the Patent Law. For example, the following tire is of a shape that efficiently expels water from the center to the sides, and it would be possible to apply for both a design registration and a patent.',
@@ -296,22 +296,22 @@ export const DESIGNGUIDANCECONTENTOLD: IContent = {
                 }
             ],
             classes:null
-        }
+        }]
     },
     /*Automobile tire tread pattern
     *tiretread.jpg*/
     
     {
         type: "header",
-        obj: {
+        objs: [{
             text: "Design of an article (partial design)",
             type: "h2",
             classes: null
-        }
+        }]
     },
     {
         type: "paragraph",
-        obj: {
+        objs: [{
             spans: [
                 {
                 text: "It is possible to register a partial design for a cohesive feature within an overall design. The most orthodox way to specify a partial design is to draw parts of the design that are claimed in solid lines and draw parts of the design that are not claimed in broken lines.",
@@ -322,7 +322,7 @@ export const DESIGNGUIDANCECONTENTOLD: IContent = {
                 }
             ],
             classes:null
-        }
+        }]
     },
     /*114861
     *Wheel of a tire for an automobile
@@ -350,15 +350,15 @@ export const DESIGNGUIDANCECONTENTOLD: IContent = {
     
     {
         type: "header",
-        obj: {
+        objs: [{
             text: "Graphic image design",
             type: "h2",
             classes: null
-        }
+        }]
     },
     {
         type: "paragraph",
-        obj: {
+        objs: [{
             spans: [
                 {
                 text: "A design of a graphic image whose intended use is for a specific operation can be registered independently, as of April, 2020. A graphic image can still be registered as a partial design of an article that the image is a part of, but except in cases where the image is specific to the operation of a particular device, it is now more effective to register an independent image design.",
@@ -369,11 +369,11 @@ export const DESIGNGUIDANCECONTENTOLD: IContent = {
                 }
             ],
             classes:null
-        }
+        }]
     },
     {
         type: "paragraph",
-        obj: {
+        objs: [{
             spans: [
                 {
                 text: "It is possible to register a graphic image (icon) for performing a specific operation and a full screen as an image for operation.",
@@ -384,7 +384,7 @@ export const DESIGNGUIDANCECONTENTOLD: IContent = {
                 }
             ],
             classes:null
-        }
+        }]
     },
     /*1681248
     *Icon image
@@ -411,11 +411,11 @@ export const DESIGNGUIDANCECONTENTOLD: IContent = {
     
     {
         type: "header",
-        obj: {
+        objs: [{
             text: "Partial design of a graphic image design",
             type: "h2",
             classes: null
-        }
+        }]
     },
     /*1677061
     *Image for displaying how full a train is
@@ -439,15 +439,15 @@ export const DESIGNGUIDANCECONTENTOLD: IContent = {
     */
     {
         type: "header",
-        obj: {
+        objs: [{
             text: "Building designs (whole & partial)",
             type: "h2",
             classes: null
-        }
+        }]
     },
     {
         type: "paragraph",
-        obj: {
+        objs: [{
             spans: [
                 {
                 text: "A design of the external appearance of a building, and a partial interior of a building (such as a hall or room) can be registered.",
@@ -458,7 +458,7 @@ export const DESIGNGUIDANCECONTENTOLD: IContent = {
                 }
             ],
             classes:null
-        }
+        }]
     },
     /*1684747
     *Office building
@@ -499,15 +499,15 @@ export const DESIGNGUIDANCECONTENTOLD: IContent = {
     
     {
         type: "header",
-        obj: {
+        objs: [{
             text: "Interior designs (whole & partial)",
             type: "h2",
             classes: null
-        }
+        }]
     },
     {
         type: "paragraph",
-        obj: {
+        objs: [{
             spans: [
                 {
                 text: "A design constituted by an interior space of a building and furniture (multiple design components).",
@@ -518,7 +518,7 @@ export const DESIGNGUIDANCECONTENTOLD: IContent = {
                 }
             ],
             classes:null
-        }
+        }]
     },
     /*1684376
     *Office interior
@@ -551,23 +551,23 @@ export const DESIGNGUIDANCECONTENTOLD: IContent = {
     
     {
         type: "header",
-        obj: {
+        objs: [{
             text: "Registration requirements",
             type: "h1",
             classes: null
-        }
+        }]
     },
     {
         type: "header",
-        obj: {
+        objs: [{
             text: "Novelty",
             type: "h2",
             classes: null
-        }
+        }]
     },
     {
         type: "paragraph",
-        obj: {
+        objs: [{
             spans: [
                 {
                 text: 'It is a requirement that no identical or "similar" design existed prior to the application.',
@@ -578,7 +578,7 @@ export const DESIGNGUIDANCECONTENTOLD: IContent = {
                 }
             ],
             classes:null
-        }
+        }]
     },
     
     /*The exception to this rule is when the applicant registers their own similar design as a "related design".
@@ -586,15 +586,15 @@ export const DESIGNGUIDANCECONTENTOLD: IContent = {
     *Selecting whether to file an independent design application or a related design application*/
     {
         type: "header",
-        obj: {
+        objs: [{
             text: "Exceptions to loss of novelty (grace period)",
             type: "h2",
             classes: null
-        }
+        }]
     },
     {
         type: "paragraph",
-        obj: {
+        objs: [{
             spans: [
                 {
                 text: "A design's novelty is destroyed if the applicant publishes, presents the design, or sells a good incorporating the design prior to filing the design application. However, the applicant can remedy such a situation within the grace period.",
@@ -605,11 +605,11 @@ export const DESIGNGUIDANCECONTENTOLD: IContent = {
                 }
             ],
             classes:null
-        }
+        }]
     },
     {
         type: "paragraph",
-        obj: {
+        objs: [{
             spans: [
                 {
                 text: "The grace period is one year from the day that the design first became publicly known. To enjoy the benefit of the grace period the applicant must declare the desire to do so and provide evidence of the disclosure.",
@@ -620,19 +620,19 @@ export const DESIGNGUIDANCECONTENTOLD: IContent = {
                 }
             ],
             classes:null
-        }
+        }]
     },
     {
         type: "header",
-        obj: {
+        objs: [{
             text: "Creative difficulty",
             type: "h2",
             classes: null
-        }
+        }]
     },
     {
         type: "paragraph",
-        obj: {
+        objs: [{
             spans: [
                 {
                 text: "Even if a design is novel, the design cannot be registered if those skilled in the art could have easily conceived of it. It is a requirement that the design not be obvious.",
@@ -643,19 +643,19 @@ export const DESIGNGUIDANCECONTENTOLD: IContent = {
                 }
             ],
             classes:null
-        }
+        }]
     },
     {
         type: "header",
-        obj: {
+        objs: [{
             text: "First to file",
             type: "h2",
             classes: null
-        }
+        }]
     },
     {
         type: "paragraph",
-        obj: {
+        objs: [{
             spans: [
                 {
                 text: "In the case of two identical or similar designs, only the application that was filed first can be registered.",
@@ -666,11 +666,11 @@ export const DESIGNGUIDANCECONTENTOLD: IContent = {
                 }
             ],
             classes:null
-        }
+        }]
     },
     {
         type: "paragraph",
-        obj: {
+        objs: [{
             spans: [
                 {
                 text: 'This first-to-file system is applied to the applicant themself. If an applicant files similar designs simultaneously, they must file one as a "base design (principal design)" and the others as "related designs".',
@@ -681,11 +681,11 @@ export const DESIGNGUIDANCECONTENTOLD: IContent = {
                 }
             ],
             classes:null
-        }
+        }]
     },
     {
         type: "paragraph",
-        obj: {
+        objs: [{
             spans: [
                 {
                 text: "A hidden design filed in advance (a secret design) constitutes prior art on the day that such a design is registered, and becomes secret prior art against other's subsequent applications.",
@@ -696,19 +696,19 @@ export const DESIGNGUIDANCECONTENTOLD: IContent = {
                 }
             ],
             classes:null
-        }
+        }]
     },
     {
         type: "header",
-        obj: {
+        objs: [{
             text: "That the design be definite",
             type: "h2",
             classes: null
-        }
+        }]
     },
     {
         type: "paragraph",
-        obj: {
+        objs: [{
             spans: [
                 {
                 text: "It is a requirement that the design can be understood from the application and the figures.",
@@ -719,13 +719,13 @@ export const DESIGNGUIDANCECONTENTOLD: IContent = {
                 }
             ],
             classes:null
-        }
+        }]
     },
     /*The intended use and function of design (based on those of the article of the design)
     *The shape of the design to be registered*/
     {
         type: "paragraph",
-        obj: {
+        objs: [{
             spans: [
                 {
                 text: "An amendment to the figures of a design that is rejected as indefinite will be rejected since it changes the design. Thus, it is essential that the figures be checked for definiteness.",
@@ -736,19 +736,19 @@ export const DESIGNGUIDANCECONTENTOLD: IContent = {
                 }
             ],
             classes:null
-        }
+        }]
     },
     {
         type: "header",
-        obj: {
+        objs: [{
             text: "Checklist when applying for a design",
             type: "h1",
             classes: null
-        }
+        }]
     },
     {
         type: "paragraph",
-        obj: {
+        objs: [{
             spans: [
                 {
                 text: "Before filing a design application, the following items should be checked.",
@@ -759,7 +759,7 @@ export const DESIGNGUIDANCECONTENTOLD: IContent = {
                 }
             ],
             classes:null
-        }
+        }]
     },
     /*independent design or related design? (important to consider when filing design variations: consider filing related designs)
     *consider how to apply for a design including a graphic image
@@ -769,15 +769,15 @@ export const DESIGNGUIDANCECONTENTOLD: IContent = {
     *consider application of the grace period when novelty is lost*/
     {
         type: "header",
-        obj: {
+        objs: [{
             text: "Selecting whether to file an independent design application or a related design application",
             type: "h2",
             classes: null
-        }
+        }]
     },
     {
         type: "paragraph",
-        obj: {
+        objs: [{
             spans: [
                 {
                 text: "The Design Law provides a related design system for protecting designs. Variants of a base design can be filed successively over the 10 years from the application date of the base application, even 3 or 5 years after the base design is published. It is possible to protect design variants in a chain of designs, without being barred over novelty and obviousness with respect to the prior design various.",
@@ -788,11 +788,11 @@ export const DESIGNGUIDANCECONTENTOLD: IContent = {
                 }
             ],
             classes:null
-        }
+        }]
     },
     {
         type: "paragraph",
-        obj: {
+        objs: [{
             spans: [
                 {
                 text: "Also, it is possible to expand the scope of protection of the design rights chained together as related designs from a based design to the extent of the degree of similarity therebetween.",
@@ -803,13 +803,13 @@ export const DESIGNGUIDANCECONTENTOLD: IContent = {
                 }
             ],
             classes:null
-        }
+        }]
     },
     
     /*P10.jpg*/
     {
         type: "paragraph",
-        obj: {
+        objs: [{
             spans: [
                 {
                 text: "By employing related designs, the design rights' scope of similarity is officially confirmed, and that confirmation is declared publicly by the design registration publication. Also, even if an application filed for the purpose of confirming the scope of similarity is reject, the attempt will not be made public. Because only successful related designs are published, the applicant can effectively use the system to publish only successes. Also, if there is actually a similarity relationship between an independently registered variant design and a base design, there is risk of invalidation.",
@@ -820,11 +820,11 @@ export const DESIGNGUIDANCECONTENTOLD: IContent = {
                 }
             ],
             classes:null
-        }
+        }]
     },
     {
         type: "paragraph",
-        obj: {
+        objs: [{
             spans: [
                 {
                 text: "Even if what in fact is an obvious variant is mistakenly allowed as an independent design, because patentable distinction is thereby recognized against the base design, it has the undesired effect of narrowing the scope of the design rights. Also, because of the actual similarity relationship between the base design and the mistakenly allowed independent design in such a case, there is the risk of invalidation.",
@@ -835,7 +835,7 @@ export const DESIGNGUIDANCECONTENTOLD: IContent = {
                 }
             ],
             classes:null
-        }
+        }]
     },
     /*P10.jpg
     
@@ -850,15 +850,15 @@ export const DESIGNGUIDANCECONTENTOLD: IContent = {
     *There are no gaps in the scope of protection between the related designs.*/
     {
         type: "header",
-        obj: {
+        objs: [{
             text: "Whether to select a graphic image design or a partial design of an article in the case of a design that is an image",
             type: "h1",
             classes: null
-        }
+        }]
     },
     {
         type: "paragraph",
-        obj: {
+        objs: [{
             spans: [
                 {
                 text: "Now that a graphic image design has become statutory subject matter, there are several options for protecting designs of images.",
@@ -869,7 +869,7 @@ export const DESIGNGUIDANCECONTENTOLD: IContent = {
                 }
             ],
             classes:null
-        }
+        }]
     },
     /*register a design for the graphic image per se.
     *register a partial design of an article, targeting the image.
@@ -877,7 +877,7 @@ export const DESIGNGUIDANCECONTENTOLD: IContent = {
     
     {
         type: "paragraph",
-        obj: {
+        objs: [{
             spans: [
                 {
                 text: "It is also possible to select more than one of these strategies.",
@@ -888,19 +888,19 @@ export const DESIGNGUIDANCECONTENTOLD: IContent = {
                 }
             ],
             classes:null
-        }
+        }]
     },
     {
         type: "header",
-        obj: {
+        objs: [{
             text: "Whether trademark registration is necessary for graphic image designs",
             type: "h3",
             classes: null
-        }
+        }]
     },
     {
         type: "paragraph",
-        obj: {
+        objs: [{
             spans: [
                 {
                 text: "A trade mark registration should be considered for a graphic image design that functions as a trade mark.",
@@ -911,11 +911,11 @@ export const DESIGNGUIDANCECONTENTOLD: IContent = {
                 }
             ],
             classes:null
-        }
+        }]
     },
     {
         type: "paragraph",
-        obj: {
+        objs: [{
             spans: [
                 {
                 text: "A trademark registration may be offered broader protection than a design right, and since a trademark registration can be renewed, it can be maintained indefinitely.",
@@ -926,19 +926,19 @@ export const DESIGNGUIDANCECONTENTOLD: IContent = {
                 }
             ],
             classes:null
-        }
+        }]
     },
     {
         type: "header",
-        obj: {
+        objs: [{
             text: "Whether to select a whole design or a partial design",
             type: "h2",
             classes: null
-        }
+        }]
     },
     {
         type: "paragraph",
-        obj: {
+        objs: [{
             spans: [
                 {
                 text: "A partial design can be selected if it focusses on a cohesive feature of a design.",
@@ -949,11 +949,11 @@ export const DESIGNGUIDANCECONTENTOLD: IContent = {
                 }
             ],
             classes:null
-        }
+        }]
     },
     {
         type: "paragraph",
-        obj: {
+        objs: [{
             spans: [
                 {
                 text: "One should consider registrability and enforcement when choosing whether to file a partial design or both a whole and a partial design.",
@@ -964,11 +964,11 @@ export const DESIGNGUIDANCECONTENTOLD: IContent = {
                 }
             ],
             classes:null
-        }
+        }]
     },
     {
         type: "paragraph",
-        obj: {
+        objs: [{
             spans: [
                 {
                 text: "Keep in mind that it is not possible to modify an application from one for a whole design to one for a partial design and vice versa after the filing.",
@@ -979,11 +979,11 @@ export const DESIGNGUIDANCECONTENTOLD: IContent = {
                 }
             ],
             classes:null
-        }
+        }]
     },
     {
         type: "paragraph",
-        obj: {
+        objs: [{
             spans: [
                 {
                 text: "The claimed features can be specified in the figures or photographs using solid lines or coloring.",
@@ -994,19 +994,19 @@ export const DESIGNGUIDANCECONTENTOLD: IContent = {
                 }
             ],
             classes:null
-        }
+        }]
     },
     {
         type: "header",
-        obj: {
+        objs: [{
             text: "Whether to file a single design or multiple designs",
             type: "h2",
             classes: null
-        }
+        }]
     },
     {
         type: "paragraph",
-        obj: {
+        objs: [{
             spans: [
                 {
                 text: "Only one design can be included in a single design right. It is not possible to include multiple designs in a single application.",
@@ -1017,19 +1017,19 @@ export const DESIGNGUIDANCECONTENTOLD: IContent = {
                 }
             ],
             classes:null
-        }
+        }]
     },
     {
         type: "header",
-        obj: {
+        objs: [{
             text: "Batch application of multiple designs",
             type: "h3",
             classes: null
-        }
+        }]
     },
     {
         type: "paragraph",
-        obj: {
+        objs: [{
             spans: [
                 {
                 text: "It has become possible, as of April 1, 2021, to file a batch application of multiple designs, which is a convenient way to submit a number of design applications to the JPO in a single transmittal letter.",
@@ -1040,11 +1040,11 @@ export const DESIGNGUIDANCECONTENTOLD: IContent = {
                 }
             ],
             classes:null
-        }
+        }]
     },
     {
         type: "paragraph",
-        obj: {
+        objs: [{
             spans: [
                 {
                 text: "The JPO gives an application number to each of the designs, and each will be examined and registered separately. The application fee and registration fee will also be incurred for each design.",
@@ -1055,19 +1055,19 @@ export const DESIGNGUIDANCECONTENTOLD: IContent = {
                 }
             ],
             classes:null
-        }
+        }]
     },
     {
         type: "header",
-        obj: {
+        objs: [{
             text: "Design of a set of articles",
             type: "h3",
             classes: null
-        }
+        }]
     },
     {
         type: "paragraph",
-        obj: {
+        objs: [{
             spans: [
                 {
                 text: 'Unity of design may be recognized in a uniform design of a sets of articles. Examples of such designs include a "set of spoons, forks, and knives", a "set of golf clubs", and a "set of audio devices".',
@@ -1078,19 +1078,19 @@ export const DESIGNGUIDANCECONTENTOLD: IContent = {
                 }
             ],
             classes:null
-        }
+        }]
     },
     {
         type: "header",
-        obj: {
+        objs: [{
             text: "Secret designs",
             type: "h2",
             classes: null
-        }
+        }]
     },
     {
         type: "paragraph",
-        obj: {
+        objs: [{
             spans: [
                 {
                 text: "A request can be made to delay the publication of a design application for up to 3 years after a design registration. A secret design can be requested upon application or at the time of payment of the registration fee. The period of secrecy can be changed, but is limited to 3 years.",
@@ -1101,19 +1101,19 @@ export const DESIGNGUIDANCECONTENTOLD: IContent = {
                 }
             ],
             classes:null
-        }
+        }]
     },
     {
         type: "header",
-        obj: {
+        objs: [{
             text: "Asserting exemption to loss of novelty and proof requirement",
             type: "h2",
             classes: null
-        }
+        }]
     },
     {
         type: "paragraph",
-        obj: {
+        objs: [{
             spans: [
                 {
                 text: "When a design is published in Japan before the application, the design's novelty is destroyed. To remedy this situation, it is necessary to receive an exemption to the loss of novelty within the grace period.",
@@ -1124,11 +1124,11 @@ export const DESIGNGUIDANCECONTENTOLD: IContent = {
                 }
             ],
             classes:null
-        }
+        }]
     },
     {
         type: "paragraph",
-        obj: {
+        objs: [{
             spans: [
                 {
                 text: "In the case of a Hague Agreement application, the exception to loss of novelty must be asserted, and evidence therefor submitted, directly to the JPO within 30 days of the international publication.",
@@ -1139,27 +1139,27 @@ export const DESIGNGUIDANCECONTENTOLD: IContent = {
                 }
             ],
             classes:null
-        }
+        }]
     },
     {
         type: "header",
-        obj: {
+        objs: [{
             text: "Information necessary at the time of application in Japan",
             type: "h1",
             classes: null
-        }
+        }]
     },
     {
         type: "header",
-        obj: {
+        objs: [{
             text: "Applicant and creator",
             type: "h2",
             classes: null
-        }
+        }]
     },
     {
         type: "paragraph",
-        obj: {
+        objs: [{
             spans: [
                 {
                 text: "The names and addresses of the applicant and creator of the design are required.",
@@ -1170,11 +1170,11 @@ export const DESIGNGUIDANCECONTENTOLD: IContent = {
                 }
             ],
             classes:null
-        }
+        }]
     },
     {
         type: "paragraph",
-        obj: {
+        objs: [{
             spans: [
                 {
                 text: "The submission of a transfer from the creator to the applicant is not required.",
@@ -1185,19 +1185,19 @@ export const DESIGNGUIDANCECONTENTOLD: IContent = {
                 }
             ],
             classes:null
-        }
+        }]
     },
     {
         type: "header",
-        obj: {
+        objs: [{
             text: "Recitation of the name of the article of the design",
             type: "h2",
             classes: null
-        }
+        }]
     },
     {
         type: "paragraph",
-        obj: {
+        objs: [{
             spans: [
                 {
                 text: "The requirements for registration of the design and the scope of protection after registration will be judged based upon the article name and the figures.",
@@ -1208,11 +1208,11 @@ export const DESIGNGUIDANCECONTENTOLD: IContent = {
                 }
             ],
             classes:null
-        }
+        }]
     },
     {
         type: "paragraph",
-        obj: {
+        objs: [{
             spans: [
                 {
                 text: "It is necessary to make clear what the article is in the recitation of the name of the article. If the intended use and function of the article cannot be ascertained from the recitation of the name of the article, explanation thereof must be provided.",
@@ -1223,11 +1223,11 @@ export const DESIGNGUIDANCECONTENTOLD: IContent = {
                 }
             ],
             classes:null
-        }
+        }]
     },
     {
         type: "paragraph",
-        obj: {
+        objs: [{
             spans: [
                 {
                 text: "A clarity objection may be issued if the article is unclear due to a lack of explanation of the intended use and function of the article.",
@@ -1238,19 +1238,19 @@ export const DESIGNGUIDANCECONTENTOLD: IContent = {
                 }
             ],
             classes:null
-        }
+        }]
     },
     {
         type: "header",
-        obj: {
+        objs: [{
             text: "Explanation of the design",
             type: "h2",
             classes: null
-        }
+        }]
     },
     {
         type: "paragraph",
-        obj: {
+        objs: [{
             spans: [
                 {
                 text: "It is necessary to state whether or not the design is a whole design or a partial design. If it is a partial design, it is necessary to explain how to identify the portion for which the right is claimed.",
@@ -1261,19 +1261,19 @@ export const DESIGNGUIDANCECONTENTOLD: IContent = {
                 }
             ],
             classes:null
-        }
+        }]
     },
     {
         type: "header",
-        obj: {
+        objs: [{
             text: "Figures",
             type: "h2",
             classes: null
-        }
+        }]
     },
     {
         type: "paragraph",
-        obj: {
+        objs: [{
             spans: [
                 {
                 text: "It is possible to express the design by the orthographic projection method, wherein the design is clearly expressed with a sufficient number of figures, each of the same scale. Generally, it is desirable to include a front view, back view, left side view, right side view, top view, and bottom view as well as a perspective view.",
@@ -1284,7 +1284,7 @@ export const DESIGNGUIDANCECONTENTOLD: IContent = {
                 }
             ],
             classes:null
-        }
+        }]
     },
     
     /*Radio control toy
@@ -1313,7 +1313,7 @@ export const DESIGNGUIDANCECONTENTOLD: IContent = {
     *bottom view.png*/
     {
         type: "paragraph",
-        obj: {
+        objs: [{
             spans: [
                 {
                 text: 'In the case of an application for a graphic image per se that is separate from any article or building, if the image is two-dimensional, it is sufficient to clearly express the design with one or more "graphic image view".',
@@ -1324,7 +1324,7 @@ export const DESIGNGUIDANCECONTENTOLD: IContent = {
                 }
             ],
             classes:null
-        }
+        }]
     },
     /*1683628
     *Image for facility management inspection
@@ -1339,15 +1339,15 @@ export const DESIGNGUIDANCECONTENTOLD: IContent = {
     
     {
         type: "header",
-        obj: {
+        objs: [{
             text: "Power of Attorney",
             type: "h2",
             classes: null
-        }
+        }]
     },
     {
         type: "paragraph",
-        obj: {
+        objs: [{
             spans: [
                 {
                 text: "A Japanese patent application can be filed without a Power of Attorney (PoA). However, in later stages, the application cannot be divided or appealed without a PoA. In order to ensure smooth patent prosecution, we request a PoA when we represent a client.",
@@ -1358,11 +1358,11 @@ export const DESIGNGUIDANCECONTENTOLD: IContent = {
                 }
             ],
             classes:null
-        }
+        }]
     },
     {
         type: "paragraph",
-        obj: {
+        objs: [{
             spans: [
                 {
                 text: "A general power of attorney form may be submitted to the JPO in order to cover all future cases.  A General Power of Attorney system is very convenient compared to a non-general power of attorney that must be executed and filed individually for each patent application.",
@@ -1373,11 +1373,11 @@ export const DESIGNGUIDANCECONTENTOLD: IContent = {
                 }
             ],
             classes:null
-        }
+        }]
     },
     {
         type: "paragraph",
-        obj: {
+        objs: [{
             spans: [
                 {
                 text: "No notarization or legalization is required for the Power of Attorney.",
@@ -1388,19 +1388,19 @@ export const DESIGNGUIDANCECONTENTOLD: IContent = {
                 }
             ],
             classes:null
-        }
+        }]
     },
     {
         type: "header",
-        obj: {
+        objs: [{
             text: "Priority certificate",
             type: "h2",
             classes: null
-        }
+        }]
     },
     {
         type: "paragraph",
-        obj: {
+        objs: [{
             spans: [
                 {
                 text: "It is necessary to claim a priority right and submit a priority certificate or DAS code. The procedure therefor differs depending on the design application route.",
@@ -1411,19 +1411,19 @@ export const DESIGNGUIDANCECONTENTOLD: IContent = {
                 }
             ],
             classes:null
-        }
+        }]
     },
     {
         type: "header",
-        obj: {
+        objs: [{
             text: "Hague route",
             type: "h3",
             classes: null
-        }
+        }]
     },
     {
         type: "paragraph",
-        obj: {
+        objs: [{
             spans: [
                 {
                 text: "A prior right must be claimed at the time of the international application. A priority certificate or DAS code must be submitted within 3 months of the international publication date. Failure to do so will result in a notification from the JPO, and the priority certificate or DAS code must be submitted within 2 months of the notification.",
@@ -1434,19 +1434,19 @@ export const DESIGNGUIDANCECONTENTOLD: IContent = {
                 }
             ],
             classes:null
-        }
+        }]
     },
     {
         type: "header",
-        obj: {
+        objs: [{
             text: "Paris route",
             type: "h3",
             classes: null
-        }
+        }]
     },
     {
         type: "paragraph",
-        obj: {
+        objs: [{
             spans: [
                 {
                 text: "The Japanese application must be filed within 6 months of the earliest application date, together with the priority claim. The priority certificate or DAS code must be submitted to the JPO within 3 months of the application date.",
@@ -1457,27 +1457,27 @@ export const DESIGNGUIDANCECONTENTOLD: IContent = {
                 }
             ],
             classes:null
-        }
+        }]
     },
     {
         type: "header",
-        obj: {
+        objs: [{
             text: "Design rights, interpreting the scope of the right, maintaining the right, annuities",
             type: "h1",
             classes: null
-        }
+        }]
     },
     {
         type: "header",
-        obj: {
+        objs: [{
             text: "Duration of a design right",
             type: "h2",
             classes: null
-        }
+        }]
     },
     {
         type: "paragraph",
-        obj: {
+        objs: [{
             spans: [
                 {
                 text: "There are two types of currently effective design rights: those that were filed by March 31, 2022 (old design rights) and those that were filed on or after April 1, 2020 (new design rights).",
@@ -1488,19 +1488,19 @@ export const DESIGNGUIDANCECONTENTOLD: IContent = {
                 }
             ],
             classes:null
-        }
+        }]
     },
     {
         type: "header",
-        obj: {
+        objs: [{
             text: "Duration of old design rights",
             type: "h3",
             classes: null
-        }
+        }]
     },
     {
         type: "paragraph",
-        obj: {
+        objs: [{
             spans: [
                 {
                 text: "The duration of old design rights is 20 years from the registration date. The duration of related designs is 20 years from the registration date of the base design.",
@@ -1511,19 +1511,19 @@ export const DESIGNGUIDANCECONTENTOLD: IContent = {
                 }
             ],
             classes:null
-        }
+        }]
     },
     {
         type: "header",
-        obj: {
+        objs: [{
             text: "Duration of new design rights",
             type: "h3",
             classes: null
-        }
+        }]
     },
     {
         type: "paragraph",
-        obj: {
+        objs: [{
             spans: [
                 {
                 text: "The duration of old design rights is 25 years from the application date. The duration of related designs is 25 years from the registration date of the base design. So, the duration of new design rights is longer than that of old design rights.",
@@ -1534,19 +1534,19 @@ export const DESIGNGUIDANCECONTENTOLD: IContent = {
                 }
             ],
             classes:null
-        }
+        }]
     },
     {
         type: "header",
-        obj: {
+        objs: [{
             text: "Effective extension of old design rights",
             type: "h3",
             classes: null
-        }
+        }]
     },
     {
         type: "paragraph",
-        obj: {
+        objs: [{
             spans: [
                 {
                 text: "Under the new law, it is possible to register a new design right as a related design whose base design is an old design right. The duration of the old design right is 20 years after its registration, but since the new law will now be applied to new related design rights, their duration will be 25 years from the application date of the base design. Therefore, a related design filed 10 years after the application date of its base design will be afforded 25 years of protection from the base design application date, which effectively extends the old design right (maximum 20 years).",
@@ -1557,19 +1557,19 @@ export const DESIGNGUIDANCECONTENTOLD: IContent = {
                 }
             ],
             classes:null
-        }
+        }]
     },
     {
         type: "header",
-        obj: {
+        objs: [{
             text: "Annuities",
             type: "h2",
             classes: null
-        }
+        }]
     },
     {
         type: "paragraph",
-        obj: {
+        objs: [{
             spans: [
                 {
                 text: "Annuities for design registrations are as follows, and must be paid every year.",
@@ -1580,7 +1580,7 @@ export const DESIGNGUIDANCECONTENTOLD: IContent = {
                 }
             ],
             classes:null
-        }
+        }]
     },
     /*Year
     *Annuity
@@ -1593,7 +1593,7 @@ export const DESIGNGUIDANCECONTENTOLD: IContent = {
     
     {
         type: "paragraph",
-        obj: {
+        objs: [{
             spans: [
                 {
                 text: "The payment due date is calculated based on the date on which the design was registered.",
@@ -1604,11 +1604,11 @@ export const DESIGNGUIDANCECONTENTOLD: IContent = {
                 }
             ],
             classes:null
-        }
+        }]
     },
     {
         type: "paragraph",
-        obj: {
+        objs: [{
             spans: [
                 {
                 text: "After the 1st year annuity, all subsequent annuities must be paid before the next due date. In the event that timely payment is missed, a 6-month grace period is provided which allows later payment with the fine of double payment.",
@@ -1619,11 +1619,11 @@ export const DESIGNGUIDANCECONTENTOLD: IContent = {
                 }
             ],
             classes:null
-        }
+        }]
     },
     {
         type: "paragraph",
-        obj: {
+        objs: [{
             spans: [
                 {
                 text: "In addition, if there is a legitimate reason (i.e., an error made despite due care) for not having been able to make the late payment, another grace period is provided, which is the shorter one of: (i) 12 months from the expiration of the first 6-month grace period; or (ii) 2 months from when the legitimate reason ceases to apply.",
@@ -1634,11 +1634,11 @@ export const DESIGNGUIDANCECONTENTOLD: IContent = {
                 }
             ],
             classes:null
-        }
+        }]
     },
     {
         type: "paragraph",
-        obj: {
+        objs: [{
             spans: [
                 {
                 text: "While the first 6-month grace period is guaranteed upon payment of the doubled fee, it is rather difficult to prove due care so as to obtain the second grace period. The JPO requires the presence of totally unpredictable or unavoidable circumstances in order to obtain the second grace period. For example, the JPO explains that a simple human error does not constitute due care.",
@@ -1649,19 +1649,19 @@ export const DESIGNGUIDANCECONTENTOLD: IContent = {
                 }
             ],
             classes:null
-        }
+        }]
     },
     {
         type: "header",
-        obj: {
+        objs: [{
             text: "Scope of protection of a design right",
             type: "h2",
             classes: null
-        }
+        }]
     },
     {
         type: "paragraph",
-        obj: {
+        objs: [{
             spans: [
                 {
                 text: "A design right offers exclusive protection against designs that are the same or similar. Similarity is judge as follows.",
@@ -1672,11 +1672,11 @@ export const DESIGNGUIDANCECONTENTOLD: IContent = {
                 }
             ],
             classes:null
-        }
+        }]
     },
     {
         type: "paragraph",
-        obj: {
+        objs: [{
             spans: [
                 {
                 text: "Infringed if in the eye of an ordinary observer, giving such attention as a purchaser usually gives, two designs are substantially the same",
@@ -1687,11 +1687,11 @@ export const DESIGNGUIDANCECONTENTOLD: IContent = {
                 }
             ],
             classes:null
-        }
+        }]
     },
     {
         type: "paragraph",
-        obj: {
+        objs: [{
             spans: [
                 {
                 text: "The test for infringement is fairly similar to the US test.",
@@ -1702,11 +1702,11 @@ export const DESIGNGUIDANCECONTENTOLD: IContent = {
                 }
             ],
             classes:null
-        }
+        }]
     },
     {
         type: "paragraph",
-        obj: {
+        objs: [{
             spans: [
                 {
                 text: "Infringed if in the eye of an ordinary observer, giving such attention as a purchaser usually gives, two designs are substantially the same",
@@ -1717,11 +1717,11 @@ export const DESIGNGUIDANCECONTENTOLD: IContent = {
                 }
             ],
             classes:null
-        }
+        }]
     },
     {
         type: "paragraph",
-        obj: {
+        objs: [{
             spans: [
                 {
                 text: "The test for infringement is fairly similar to the US test.",
@@ -1732,11 +1732,11 @@ export const DESIGNGUIDANCECONTENTOLD: IContent = {
                 }
             ],
             classes:null
-        }
+        }]
     },
     {
         type: "paragraph",
-        obj: {
+        objs: [{
             spans: [
                 {
                 text: "Under Article 24(2) of the Japanese design statute, the test for similarity between an accused product and a registered design is determined based on “the visual impression that the designs create through the eyes of their consumers.” In other words, the test is whether a common aesthetic impression is established based on the viewpoint of a general consumer.",
@@ -1747,11 +1747,11 @@ export const DESIGNGUIDANCECONTENTOLD: IContent = {
                 }
             ],
             classes:null
-        }
+        }]
     },
     {
         type: "paragraph",
-        obj: {
+        objs: [{
             spans: [
                 {
                 text: "Infringement analysis, the design should be considered as a whole, and the characteristic features of the design, most attracted design element must be evaluated high.",
@@ -1762,7 +1762,7 @@ export const DESIGNGUIDANCECONTENTOLD: IContent = {
                 }
             ],
             classes:null
-        }
+        }]
     },
     ]
 };
@@ -1775,7 +1775,7 @@ const DESIGNPANEL1: IExpansionPanel = {
         elements: [
         {
             type: "paragraph",
-            obj: {
+            objs: [{
                 spans: [
                     {
                     text: "The Hague Agreement, effective in Japan since April 1, 2015, expanded design registrable subject matter to include designs of graphic images and buildings, and Japan's design system is thus being harmonized with international systems.",
@@ -1786,11 +1786,11 @@ const DESIGNPANEL1: IExpansionPanel = {
                     }
                 ],
                 classes:null
-            }
+            }]
         },
         {
             type: "paragraph",
-            obj: {
+            objs: [{
                 spans: [
                     {
                     text: 'Also, the Japanese Design Law has unique features such as "related designs" by which designs can be effectively protected, giving the Japanese system international appeal.',
@@ -1801,11 +1801,11 @@ const DESIGNPANEL1: IExpansionPanel = {
                     }
                 ],
                 classes:null
-            }
+            }]
         },
         {
             type: "paragraph",
-            obj: {
+            objs: [{
                 spans: [
                     {
                     text: "In this manual, we would like to introduce Japanese design practice from the Applicant's perspective.",
@@ -1816,7 +1816,7 @@ const DESIGNPANEL1: IExpansionPanel = {
                     }
                 ],
                 classes:null
-            }
+            }]
         }]
     }
 };
@@ -1828,7 +1828,7 @@ const DESIGNPANEL2: IExpansionPanel = {
         elements: [
         {
             type: "paragraph",
-            obj: {
+            objs: [{
                 spans: [
                     {
                     text: "In Japan, designs are examined for novelty (absolute novelty) and non-obviousness.",
@@ -1839,11 +1839,11 @@ const DESIGNPANEL2: IExpansionPanel = {
                     }
                 ],
                 classes:null
-            }
+            }]
         },
         {
             type: "paragraph",
-            obj: {
+            objs: [{
                 spans: [
                     {
                     text: "The JPO employs a DB in which they have, over many years, collected foreign design publications, magazines, catalogs, pamphlets and the like.",
@@ -1854,11 +1854,11 @@ const DESIGNPANEL2: IExpansionPanel = {
                     }
                 ],
                 classes:null
-            }
+            }]
         },
         {
             type: "paragraph",
-            obj: {
+            objs: [{
                 spans: [
                     {
                     text: "As such, a Japanese design registration (examination) covers not only Japan, but also the international state of the art. Japanese design registration is therefore regarded as highly useful in the evaluation of validity of a design in countries that register designs without examination.",
@@ -1869,11 +1869,11 @@ const DESIGNPANEL2: IExpansionPanel = {
                     }
                 ],
                 classes:null
-            }
+            }]
         },
         {
             type: "paragraph",
-            obj: {
+            objs: [{
                 spans: [
                     {
                     text: "The examination period is typically between 6 and 8 months, from application to registration. The term for response to an OA issued by the JPO is 3 months. A two-month extension for the response can be received with the payment of a 2,100 JPY official fee.",
@@ -1884,11 +1884,11 @@ const DESIGNPANEL2: IExpansionPanel = {
                     }
                 ],
                 classes:null
-            }
+            }]
         },
         {
             type: "paragraph",
-            obj: {
+            objs: [{
                 spans: [
                     {
                     text: "In the first instance, a single Examiner examines the application, and in the case where the application is rejected by the Examiner, it is possible to appeal (second instance).",
@@ -1899,11 +1899,11 @@ const DESIGNPANEL2: IExpansionPanel = {
                     }
                 ],
                 classes:null
-            }
+            }]
         },
         {
             type: "paragraph",
-            obj: {
+            objs: [{
                 spans: [
                     {
                     text: "The examination by the JPO of a Hague Agreement design application will be conducted within 6 months of the international publication, and the result of the examination will be sent to the Applicant directly (in practice, a notice of rejection is typically reported within 4 or 5 months of the international publication). A response to a rejection requires a power of attorney. The response term is 3 months, and a 2-month extension is possible.",
@@ -1914,7 +1914,7 @@ const DESIGNPANEL2: IExpansionPanel = {
                     }
                 ],
                 classes:null
-            }
+            }]
         }]
     }
 };
@@ -1926,7 +1926,7 @@ const DESIGNPANEL3: IExpansionPanel = {
         elements: [
         {
             type: "paragraph",
-            obj: {
+            objs: [{
                 spans: [
                     {
                     text: "Specific examples are given below of registrable designs.",
@@ -1937,7 +1937,7 @@ const DESIGNPANEL3: IExpansionPanel = {
                     }
                 ],
                 classes:null
-            }
+            }]
         }]
     }
 };
@@ -1949,7 +1949,7 @@ const DESIGNPANEL4: IExpansionPanel = {
         elements: [
         {
             type: "paragraph",
-            obj: {
+            objs: [{
                 spans: [
                     {
                     text: "TODO",
@@ -1960,7 +1960,7 @@ const DESIGNPANEL4: IExpansionPanel = {
                     }
                 ],
                 classes:null
-            }
+            }]
         }]
 /* 
     1678153
@@ -1994,7 +1994,7 @@ const DESIGNPANEL5: IExpansionPanel = {
         elements: [
         {
             type: "paragraph",
-            obj: {
+            objs: [{
                 spans: [
                     {
                     text: "Eligible designs have an aesthetic quality, even when they are designs for realizing a function. In Japan, functional items are considered to be beautiful, and there are many examples of where designs of screws, tools, tires, plastic bottles and the like have been registered.",
@@ -2005,7 +2005,23 @@ const DESIGNPANEL5: IExpansionPanel = {
                     }
                 ],
                 classes:null
-            }
+            }]
+        },
+        {
+            type: "titledimage",
+            objs: [
+                {
+                    text: "[perspective view]",
+                    url: null,
+                    routerlink: null,
+                    tooltip: null,
+                    classes: null
+                },
+                {
+                    folder: "designmanual",
+                    filename: "1417355_000005.jpg",
+                    classes: ["small"]
+                }]
         },
         /*TODO:
         1417355
@@ -2019,7 +2035,7 @@ const DESIGNPANEL5: IExpansionPanel = {
         
         {
             type: "paragraph",
-            obj: {
+            objs: [{
                 spans: [
                     {
                     text: 'There are cases where a design is statutory subject matter from the perspective of the Design Law, at that also constitutes an "invention" from the perspective of the Patent Law. For example, the following tire is of a shape that efficiently expels water from the center to the sides, and it would be possible to apply for both a design registration and a patent.',
@@ -2030,12 +2046,25 @@ const DESIGNPANEL5: IExpansionPanel = {
                     }
                 ],
                 classes:null
-            }
-        }]
-        /*TODO
-        Automobile tire tread pattern
-        *tiretread.jpg*/
-    }
+            }]
+        },
+        {
+            type: "titledimage",
+            objs: [
+                {
+                    text: "[automobile tire tread pattern]",
+                    url: null,
+                    routerlink: null,
+                    tooltip: null,
+                    classes: null
+                },
+                {
+                    folder: "designmanual",
+                    filename: "tire.bmp",
+                    classes: ["small"]
+                }]
+        }
+    ]}
 };
         
 const DESIGNPANEL6: IExpansionPanel = {
@@ -2046,7 +2075,7 @@ const DESIGNPANEL6: IExpansionPanel = {
         elements: [
         {
             type: "paragraph",
-            obj: {
+            objs: [{
                 spans: [
                     {
                     text: "TODO",
@@ -2057,11 +2086,11 @@ const DESIGNPANEL6: IExpansionPanel = {
                     }
                 ],
                 classes:null
-            }
+            }]
         },
         {
             type: "paragraph",
-            obj: {
+            objs: [{
                 spans: [
                     {
                     text: "It is possible to register a partial design for a cohesive feature within an overall design. The most orthodox way to specify a partial design is to draw parts of the design that are claimed in solid lines and draw parts of the design that are not claimed in broken lines.",
@@ -2072,7 +2101,7 @@ const DESIGNPANEL6: IExpansionPanel = {
                     }
                 ],
                 classes:null
-            }
+            }]
             /*114861
 *Wheel of a tire for an automobile
 *Honda Access Ltd.
@@ -2099,6 +2128,191 @@ const DESIGNPANEL6: IExpansionPanel = {
         }]
     }
 };
+const DESIGNPANEL7: IExpansionPanel = {
+    title: "Design of an article (partial design)",
+    description: "",
+    content: null
+}
+const DESIGNPANEL8: IExpansionPanel = {
+    title: "Graphic image design",
+    description: "",
+    content: null
+}
+const DESIGNPANEL9: IExpansionPanel = {
+    title: "Partial design of a graphic image design",
+    description: "",
+    content: null
+}
+const DESIGNPANEL10: IExpansionPanel = {
+    title: "Building designs (whole & partial)",
+    description: "",
+    content: null
+}
+const DESIGNPANEL11: IExpansionPanel = {
+    title: "Interior designs (whole & partial)",
+    description: "",
+    content: null
+}
+const DESIGNPANEL12: IExpansionPanel = {
+    title: "Registration requirements",
+    description: "",
+    content: null
+}
+const DESIGNPANEL13: IExpansionPanel = {
+    title: "Novelty",
+    description: "",
+    content: null
+}
+const DESIGNPANEL14: IExpansionPanel = {
+    title: "Exceptions to loss of novelty (grace period)",
+    description: "",
+    content: null
+}
+const DESIGNPANEL15: IExpansionPanel = {
+    title: "Creative difficulty",
+    description: "",
+    content: null
+}
+const DESIGNPANEL16: IExpansionPanel = {
+    title: "First to file",
+    description: "",
+    content: null
+}
+const DESIGNPANEL17: IExpansionPanel = {
+    title: "That the design be definite",
+    description: "",
+    content: null
+}
+const DESIGNPANEL18: IExpansionPanel = {
+    title: "Checklist when applying for a design",
+    description: "",
+    content: null
+}
+const DESIGNPANEL19: IExpansionPanel = {
+    title: "Selecting whether to file an independent design application or a related design application",
+    description: "",
+    content: null
+}
+const DESIGNPANEL20: IExpansionPanel = {
+    title: "Whether to select a graphic image design or a partial design of an article in the case of a design that is an image",
+    description: "",
+    content: null
+}
+const DESIGNPANEL21: IExpansionPanel = {
+    title: "Whether trademark registration is necessary for graphic image designs",
+    description: "",
+    content: null
+}
+const DESIGNPANEL22: IExpansionPanel = {
+    title: "Whether to select a whole design or a partial design",
+    description: "",
+    content: null
+}
+const DESIGNPANEL23: IExpansionPanel = {
+    title: "Whether to file a single design or multiple designs",
+    description: "",
+    content: null
+}
+const DESIGNPANEL24: IExpansionPanel = {
+    title: "Batch application of multiple designs",
+    description: "",
+    content: null
+}
+const DESIGNPANEL25: IExpansionPanel = {
+    title: "Design of a set of articles",
+    description: "",
+    content: null
+}
+const DESIGNPANEL26: IExpansionPanel = {
+    title: "Secret designs",
+    description: "",
+    content: null
+}
+const DESIGNPANEL27: IExpansionPanel = {
+    title: "Asserting exemption to loss of novelty and proof requirement",
+    description: "",
+    content: null
+}
+const DESIGNPANEL28: IExpansionPanel = {
+    title: "Information necessary at the time of application in Japan",
+    description: "",
+    content: null
+}
+const DESIGNPANEL29: IExpansionPanel = {
+    title: "Applicant and creator",
+    description: "",
+    content: null
+}
+const DESIGNPANEL30: IExpansionPanel = {
+    title: "Recitation of the name of the article of the design",
+    description: "",
+    content: null
+}
+const DESIGNPANEL31: IExpansionPanel = {
+    title: "Explanation of the design",
+    description: "",
+    content: null
+}
+const DESIGNPANEL32: IExpansionPanel = {
+    title: "Figures",
+    description: "",
+    content: null
+}
+const DESIGNPANEL33: IExpansionPanel = {
+    title: "Power of Attorney",
+    description: "",
+    content: null
+}
+const DESIGNPANEL34: IExpansionPanel = {
+    title: "Priority certificate",
+    description: "",
+    content: null
+}
+const DESIGNPANEL35: IExpansionPanel = {
+    title: "Hague route",
+    description: "",
+    content: null
+}
+const DESIGNPANEL36: IExpansionPanel = {
+    title: "Paris route",
+    description: "",
+    content: null
+}
+const DESIGNPANEL37: IExpansionPanel = {
+    title: "Design rights, interpreting the scope of the right, maintaining the right, annuities",
+    description: "",
+    content: null
+}
+const DESIGNPANEL38: IExpansionPanel = {
+    title: "Duration of a design right",
+    description: "",
+    content: null
+}
+const DESIGNPANEL39: IExpansionPanel = {
+    title: "Duration of old design rights",
+    description: "",
+    content: null
+}
+const DESIGNPANEL40: IExpansionPanel = {
+    title: "Duration of new design rights",
+    description: "",
+    content: null
+}
+const DESIGNPANEL41: IExpansionPanel = {
+    title: "Effective extension of old design rights",
+    description: "",
+    content: null
+}
+const DESIGNPANEL42: IExpansionPanel = {
+    title: "Annuities",
+    description: "",
+    content: null
+}
+const DESIGNPANEL43: IExpansionPanel = {
+    title: "Scope of protection of a design right",
+    description: "",
+    content: null
+}
 
 const DESIGNACCORDION: IAccordion = {
     panels: [
@@ -2106,67 +2320,105 @@ const DESIGNACCORDION: IAccordion = {
         DESIGNPANEL2,
         DESIGNPANEL3,
         DESIGNPANEL4,
-        DESIGNPANEL5
+        DESIGNPANEL5,
+        DESIGNPANEL6,
+        DESIGNPANEL7,
+        DESIGNPANEL8,
+        DESIGNPANEL9,
+        DESIGNPANEL10,
+        DESIGNPANEL11,
+        DESIGNPANEL12,
+        DESIGNPANEL13,
+        DESIGNPANEL14,
+        DESIGNPANEL15,
+        DESIGNPANEL16,
+        DESIGNPANEL17,
+        DESIGNPANEL18,
+        DESIGNPANEL19,
+        DESIGNPANEL20,
+        DESIGNPANEL21,
+        DESIGNPANEL22,
+        DESIGNPANEL23,
+        DESIGNPANEL24,
+        DESIGNPANEL25,
+        DESIGNPANEL26,
+        DESIGNPANEL27,
+        DESIGNPANEL28,
+        DESIGNPANEL29,
+        DESIGNPANEL30,
+        DESIGNPANEL31,
+        DESIGNPANEL32,
+        DESIGNPANEL33,
+        DESIGNPANEL34,
+        DESIGNPANEL35,
+        DESIGNPANEL36,
+        DESIGNPANEL37,
+        DESIGNPANEL38,
+        DESIGNPANEL39,
+        DESIGNPANEL40,
+        DESIGNPANEL41,
+        DESIGNPANEL42,
+        DESIGNPANEL43
     ]
 };
 export const DESIGNGUIDANCECONTENT: IContent = {
     elements: [
     {
         type: "header",
-        obj: {
+        objs: [{
             text: "Designs Manual",
             type: "h1",
             classes: null
-        }
+        }]
     },
     {
         type: "span",
-        obj: {
+        objs: [{
             text: "June 3, 2021",
             url: null,
             routerlink: null,
             tooltip: null,
             classes: null,
-        }
+        }]
     },
     {
         type: "br",
-        obj: null
+        objs: null
     },
     {
         type: "span",
-        obj: {
+        objs: [{
             text: "Yasunori Ohtsuka",
             url: null,
             routerlink: "/professional/1",
             tooltip: "",
             classes: null,
-        }
+        }]
     },
     {
         type: "br",
-        obj: null
+        objs: null
     },
     {
         type: "span",
-        obj: {
+        objs: [{
             text: "Hideo Sugawara",
             url: null,
             routerlink: "/professional/16",
             tooltip: "",
             classes: null,
-        }
+        }]
     },
     {
         type: "br",
-        obj: null
+        objs: null
     },
     {
         type: "br",
-        obj: null
+        objs: null
     },
     {
         type: "accordion",
-        obj: DESIGNACCORDION
+        objs: [DESIGNACCORDION]
     }]
 }
