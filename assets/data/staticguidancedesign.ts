@@ -1961,30 +1961,100 @@ const DESIGNPANEL4: IExpansionPanel = {
                 ],
                 classes:null
             }]
-        }]
-/* 
-    1678153
-    *Handbag
-    *Louis Vuitton Marche
-    *perspective view
-    *1678153_000001.jpg
-    
-    *front view
-    *1678153_000002.jpg
-    
-    *back view
-    *1678153_000003.jpg
-    
-    *left side view
-    *1678153_000004.jpg
-    
-    *top view
-    *1678153_000005.jpg
-    
-    *bottom view
-    *1678153_000006.jpg
-   */
-    }
+        },
+        {
+            type: "designexample",
+            objs: [{
+                regno: "1678153",
+                title: "Handbag",
+                applicant: "Louis Vuitton Marche",
+                images: {
+                    gap: "20px",
+                    percent: "30",
+                    elements: [
+                        {
+                            type: "titledimage",
+                            objs: [
+                            {
+                                title: "[perspective view]",
+                                img:
+                                {
+                                    folder: "designmanual",
+                                    filename: "1678153_000001.jpg",
+                                    classes: ["small"]
+                                }
+                            }]
+                        },
+                        {
+                            type: "titledimage",
+                            objs: [
+                            {
+                                title: "[front view]",
+                                img:
+                                {
+                                    folder: "designmanual",
+                                    filename: "1678153_000002.jpg",
+                                    classes: ["small"]
+                                }
+                            }]
+                        },
+                        {
+                            type: "titledimage",
+                            objs: [
+                            {
+                                title: "[back view]",
+                                img:
+                                {
+                                    folder: "designmanual",
+                                    filename: "1678153_000003.jpg",
+                                    classes: ["small"]
+                                }
+                            }]
+                        },
+                        {
+                            type: "titledimage",
+                            objs: [
+                            {
+                                title: "[left side view]",
+                                img:
+                                {
+                                    folder: "designmanual",
+                                    filename: "1678153_000004.jpg",
+                                    classes: ["small"]
+                                }
+                            }]
+                        },
+                        {
+                            type: "titledimage",
+                            objs: [
+                            {
+                                title: "[top view]",
+                                img:
+                                {
+                                    folder: "designmanual",
+                                    filename: "1678153_000005.jpg",
+                                    classes: ["small"]
+                                }
+                            }]
+                        },
+                        {
+                            type: "titledimage",
+                            objs: [
+                            {
+                                title: "[bottom view]",
+                                img:
+                                {
+                                    folder: "designmanual",
+                                    filename: "1678153_000006.jpg",
+                                    classes: ["small"]
+                                }
+                            }]
+                        }
+                    ]
+                }
+            }]
+        }
+    ]}
 };
 const DESIGNPANEL5: IExpansionPanel = {
     title: "Functional Article",
@@ -2011,16 +2081,13 @@ const DESIGNPANEL5: IExpansionPanel = {
             type: "titledimage",
             objs: [
                 {
-                    text: "[perspective view]",
-                    url: null,
-                    routerlink: null,
-                    tooltip: null,
-                    classes: null
-                },
-                {
-                    folder: "designmanual",
-                    filename: "1417355_000005.jpg",
-                    classes: ["small"]
+                    title: "[perspective view]",
+                    img:
+                    {
+                        folder: "designmanual",
+                        filename: "1417355_000005.jpg",
+                        classes: ["small"]
+                    }
                 }]
         },
         /*TODO:
@@ -2052,16 +2119,13 @@ const DESIGNPANEL5: IExpansionPanel = {
             type: "titledimage",
             objs: [
                 {
-                    text: "[automobile tire tread pattern]",
-                    url: null,
-                    routerlink: null,
-                    tooltip: null,
-                    classes: null
-                },
-                {
-                    folder: "designmanual",
-                    filename: "tire.bmp",
-                    classes: ["small"]
+                    title: "[automobile tire tread pattern]",
+                    img:
+                    {
+                        folder: "designmanual",
+                        filename: "tire.bmp",
+                        classes: ["small"]
+                    }
                 }]
         }
     ]}

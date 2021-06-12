@@ -36,6 +36,21 @@ export interface IElement {
     type: string;
     objs: Array <Object>;
 }
+export interface IElementGrid {
+    gap: string;
+    percent: string;//percentage of row for 1 element
+    elements: Array <IElement>;
+}
 export interface IContent {
     elements: Array<IElement>;
+}
+export interface ITitledImage {
+    title: string;
+    img: IImage;
+}
+export interface IDesignExample{
+    regno: string;
+    title: string;
+    applicant: string;
+    images: IElementGrid;
 }

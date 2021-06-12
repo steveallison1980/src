@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { IImage, ISpan } from '../../../interfaces/icontent';
+import { ITitledImage } from '../../../interfaces/icontent';
 
 @Component({
   selector: 'app-titledimagerenderer',
@@ -8,16 +8,15 @@ import { IImage, ISpan } from '../../../interfaces/icontent';
 })
 export class TitledimagerendererComponent implements OnInit {
 
-  @Input() img: IImage;
-  @Input() span: ISpan;
+  @Input() titledimage: ITitledImage;
 
   constructor() { }
 
-  getSpan(){
-    return this.span;
+  getTitle(){
+    return this.titledimage.title;
   }
   getImage(){
-    return this.img;
+    return this.titledimage.img;
   }
 
   ngOnInit(): void {

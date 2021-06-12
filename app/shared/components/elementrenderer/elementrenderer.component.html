@@ -4,5 +4,7 @@
 <app-imagerenderer *ngIf="getType()=='image'" [img]='getObj()'></app-imagerenderer>
 <app-listrenderer *ngIf="getType()=='list'" [list]='getObj()'></app-listrenderer>
 <app-expansionrenderer *ngIf="getType()=='accordion'" [accordion]='getObj()'></app-expansionrenderer>
-<app-titledimagerenderer *ngIf="getType()=='titledimage'" [span]='getObj()' [img]='getObj2()'></app-titledimagerenderer>
+<app-titledimagerenderer *ngIf="getType()=='titledimage'" [titledimage]='getObj()'></app-titledimagerenderer>
+<app-elementgridrenderer *ngIf="getType()=='elementgrid'" [grid]='getObj()'></app-elementgridrenderer>
+<app-designexamplerenderer *ngIf="getType()=='designexample'" [design]='getObj()'></app-designexamplerenderer>
 <br *ngIf="getType()=='br'">
