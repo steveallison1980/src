@@ -2167,21 +2167,21 @@ const DESIGNPANEL6: IExpansionPanel = {
     content: 
     {
         elements: [
-        {
-            type: "paragraph",
-            objs: [{
-                spans: [
-                    {
-                    text: "TODO",
-                    url: null,
-                    routerlink: null,
-                    tooltip: null,
-                    classes: ["noselect"]
-                    }
-                ],
-                classes:null
-            }]
-        },
+        // {
+        //     type: "paragraph",
+        //     objs: [{
+        //         spans: [
+        //             {
+        //             text: "TODO",
+        //             url: null,
+        //             routerlink: null,
+        //             tooltip: null,
+        //             classes: ["noselect"]
+        //             }
+        //         ],
+        //         classes:null
+        //     }]
+        // },
         {
             type: "paragraph",
             objs: [{
@@ -2196,32 +2196,118 @@ const DESIGNPANEL6: IExpansionPanel = {
                 ],
                 classes:null
             }]
-            /*114861
-*Wheel of a tire for an automobile
-*Honda Access Ltd.
-*The solid lines are what is being claimed as the partial design. The dotted lines indicate only the borders between the claimed part and other parts of the article. The left side view is abbreviated since it is symmetrical to the right side view.
+           
+        },
 
-
-*perspective view
-*1148619_000001.jpg
-
-*front view
-*1148619_000002.jpg
-
-*back view
-*1148619_000003.jpg
-
-*top view
-*1148619_000004.jpg
-
-*bottom view
-*1148619_000005.jpg
-
-*right side view
-*1148619_000006.jpg*/
-        }]
+            {
+                type: "designexample",
+                objs: [{
+                    regno: "114861",
+                    title: "Wheel of a tire for an automobile",
+                    applicant: "Honda Access Ltd.",
+                    description: { 
+                        spans: [
+                            {
+                            text: "The solid lines are what is being claimed as the partial design. The dotted lines indicate only the borders between the claimed part and other parts of the article. The left side view is abbreviated since it is symmetrical to the right side view.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: ["noselect"]
+                            }
+                        ],
+                        classes:null
+                    },
+                    images: {
+                        gap: "20px",
+                        percent: "30",
+                        elements: [
+                            {
+                                type: "titledimage",
+                                objs: [
+                                {
+                                    title: "[perspective view]",
+                                    img:
+                                    {
+                                        folder: "designmanual",
+                                        filename: "1148619_000001.jpg",
+                                        classes: ["small"]
+                                    }
+                                }]
+                            },
+                            {
+                                type: "titledimage",
+                                objs: [
+                                {
+                                    title: "[front view]",
+                                    img:
+                                    {
+                                        folder: "designmanual",
+                                        filename: "1148619_000002.jpg",
+                                        classes: ["small"]
+                                    }
+                                }]
+                            },
+                            {
+                                type: "titledimage",
+                                objs: [
+                                {
+                                    title: "[back view]",
+                                    img:
+                                    {
+                                        folder: "designmanual",
+                                        filename: "1148619_000003.jpg",
+                                        classes: ["small"]
+                                    }
+                                }]
+                            },
+                            {
+                                type: "titledimage",
+                                objs: [
+                                {
+                                    title: "[top view]",
+                                    img:
+                                    {
+                                        folder: "designmanual",
+                                        filename: "1148619_000004.jpg",
+                                        classes: ["small"]
+                                    }
+                                }]
+                            },
+                            {
+                                type: "titledimage",
+                                objs: [
+                                {
+                                    title: "[bottom view]",
+                                    img:
+                                    {
+                                        folder: "designmanual",
+                                        filename: "1148619_000005.jpg",
+                                        classes: ["small"]
+                                    }
+                                }]
+                            },
+                            {
+                                type: "titledimage",
+                                objs: [
+                                {
+                                    title: "[right side view]",
+                                    img:
+                                    {
+                                        folder: "designmanual",
+                                        filename: "1148619_000006.jpg",
+                                        classes: ["small"]
+                                    }
+                                }]
+                            },
+                        ]
+                    }
+                }]
+            },
+        ]
     }
 };
+
+// TODO: Panel 6 and 7 repeat, renumber design panels 
 const DESIGNPANEL7: IExpansionPanel = {
     title: "Design of an article (partial design)",
     description: "",
