@@ -1968,6 +1968,18 @@ const DESIGNPANEL4: IExpansionPanel = {
                 regno: "1678153",
                 title: "Handbag",
                 applicant: "Louis Vuitton Marche",
+                description: {
+                    spans: [
+                        {
+                        text: "TODO",
+                        url: null,
+                        routerlink: null,
+                        tooltip: null,
+                        classes: ["noselect"]
+                        }
+                    ],
+                    classes:null
+                },
                 images: {
                     gap: "20px",
                     percent: "30",

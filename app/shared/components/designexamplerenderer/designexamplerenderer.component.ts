@@ -26,4 +26,10 @@ export class DesignexamplerendererComponent implements OnInit {
   getImages(){
     return this.design.images;
   }
+  hasDescription(){
+    return this.design.description != null;
+  }
+  getDescription(){
+    return this.design.description;
+  }
 }
