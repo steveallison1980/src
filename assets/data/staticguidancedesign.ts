@@ -1947,21 +1947,22 @@ const DESIGNPANEL4: IExpansionPanel = {
     content: 
     {
         elements: [
-        {
-            type: "paragraph",
-            objs: [{
-                spans: [
-                    {
-                    text: "TODO",
-                    url: null,
-                    routerlink: null,
-                    tooltip: null,
-                    classes: ["noselect"]
-                    }
-                ],
-                classes:null
-            }]
-        },
+            // example of how to add a paragraph.
+        // {
+        //     type: "paragraph",
+        //     objs: [{
+        //         spans: [
+        //             {
+        //             text: null,
+        //             url: null,
+        //             routerlink: null,
+        //             tooltip: null,
+        //             classes: ["noselect"]
+        //             }
+        //         ],
+        //         classes:null
+        //     }]
+        // },
         {
             type: "designexample",
             objs: [{
@@ -2089,29 +2090,46 @@ const DESIGNPANEL5: IExpansionPanel = {
                 classes:null
             }]
         },
+
         {
-            type: "titledimage",
-            objs: [
-                {
-                    title: "[perspective view]",
-                    img:
-                    {
-                        folder: "designmanual",
-                        filename: "1417355_000005.jpg",
-                        classes: ["small"]
-                    }
-                }]
+            type: "designexample",
+            objs: [{
+                regno: "1417355",
+                title: "Screw for theft-prevention",
+                applicant: "Euroke Ltd.",
+                description: { // change to null later
+                    spans: [
+                        {
+                        text: null,
+                        url: null,
+                        routerlink: null,
+                        tooltip: null,
+                        classes: ["noselect"]
+                        }
+                    ],
+                    classes:null
+                },
+                images: {
+                    gap: "20px",
+                    percent: "30",
+                    elements: [
+                        {
+                            type: "titledimage",
+                            objs: [
+                            {
+                                title: "[perspective view]",
+                                img:
+                                {
+                                    folder: "designmanual",
+                                    filename: "1417355_000005.jpg",
+                                    classes: ["small"]
+                                }
+                            }]
+                        },
+                    ]
+                }
+            }]
         },
-        /*TODO:
-        1417355
-        *Screw for theft-prevention
-        *Euroke Ltd.
-        
-        
-        *perspective view
-        *1417355_000005.jpg*/
-        
-        
         {
             type: "paragraph",
             objs: [{
