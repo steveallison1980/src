@@ -656,7 +656,7 @@ export const DESIGNGUIDANCECONTENTOLD: IContent = {
             }]
         },
         {
-            type: "paragraph", // HEREEE 
+            type: "paragraph",
             objs: [{
                 spans: [
                     {
@@ -723,7 +723,7 @@ export const DESIGNGUIDANCECONTENTOLD: IContent = {
                 classes: null
             }]
         },
-        /*The intended use and function of design (based on those of the article of the design)
+        /*The intended use and function of design (based on those of the article of the design) 
         *The shape of the design to be registered*/
         {
             type: "paragraph",
@@ -741,7 +741,7 @@ export const DESIGNGUIDANCECONTENTOLD: IContent = {
             }]
         },
         {
-            type: "header",
+            type: "header", // HEREEE 
             objs: [{
                 text: "Checklist when applying for a design",
                 type: "h1",
@@ -772,7 +772,7 @@ export const DESIGNGUIDANCECONTENTOLD: IContent = {
         {
             type: "header",
             objs: [{
-                text: "Selecting whether to file an independent design application or a related design application",
+                text: "Selecting whether to file an independent design application or a related design application", 
                 type: "h2",
                 classes: null
             }]
@@ -2663,12 +2663,19 @@ const DESIGNPANEL9: IExpansionPanel = {
                 type: "designexample",
                 objs: [{
                     regno: "1567649",
-                    title: "",
-                    applicant: "",
+                    title: "Assembled house",
+                    applicant: "Asahi Kasei Homes Co.",
                     description: {
                         spans: [
                             {
                                 text: "The solid lines are what is claimed as a partial design. The dotted lines indicate only the borders between the claimed part and other parts of the building.",
+                                url: null,
+                                routerlink: null,
+                                tooltip: null,
+                                classes: ["noselect"]
+                            },
+                            {
+                                text: "The angle of the ceiling in the room is what was claimed. ",
                                 url: null,
                                 routerlink: null,
                                 tooltip: null,
@@ -3064,16 +3071,8 @@ const DESIGNPANEL15: IExpansionPanel = {
     }
 };
 
-// TODO: FROM HEREEE
 
 const DESIGNPANEL16: IExpansionPanel = {
-    title: "==========================",
-    description: "",
-    content: null
-}
-
-
-const DESIGNPANEL17: IExpansionPanel = {
     title: "That the design be definite",
     description: "",
     content:
@@ -3085,7 +3084,7 @@ const DESIGNPANEL17: IExpansionPanel = {
                 objs: [{
                     spans: [
                         {
-                            text: "",
+                            text: "It is a requirement that the design can be understood from the application and the figures.",
                             url: null,
                             routerlink: null,
                             tooltip: null,
@@ -3096,6 +3095,38 @@ const DESIGNPANEL17: IExpansionPanel = {
                 }]
             },
 
+            {
+                type: "list",
+                objs: [
+                    {
+                        type: "ol",
+                        elements: [
+                            {
+                                type: "span",
+                                objs: [{
+                                    text: "The intended use and function of design (based on those of the article of the design)",
+                                    url: null,
+                                    routerlink: null,
+                                    tooltip: null,
+                                    classes: ["noselect"]
+                                }]
+                            },
+
+                            {
+                                type: "span",
+                                objs: [{
+                                    text: "The shape of the design to be registered",
+                                    url: null,
+                                    routerlink: null,
+                                    tooltip: null,
+                                    classes: ["noselect"]
+                                }]
+                            },
+                        ],
+                        classes: null,
+                    },
+                ]
+            },
             {
                 type: "paragraph",
                 objs: [{
@@ -3113,50 +3144,26 @@ const DESIGNPANEL17: IExpansionPanel = {
             },
 
             {
-                type: "designexample",
+                type: "paragraph",
                 objs: [{
-                    regno: "1681248",
-                    title: "Icon image",
-                    applicant: "TOTO Ltd.",
-                    description: {
-                        spans: [
-                            {
-                                text: "",
-                                url: null,
-                                routerlink: null,
-                                tooltip: null,
-                                classes: ["noselect"]
-                            }
-                        ],
-                        classes: null
-                    },
-                    shortdesc: "",
-                    images: {
-                        gap: "20px",
-                        percent: "30",
-                        elements: [
-                            {
-                                type: "titledimage",
-                                objs: [
-                                    {
-                                        title: "graphic image view",
-                                        img:
-                                        {
-                                            folder: "designmanual",
-                                            filename: "1681248_000001.jpg",
-                                            classes: ["small"]
-                                        }
-                                    }]
-                            },
-                        ]
-                    }
+                    spans: [
+                        {
+                            text: "An amendment to the figures of a design that is rejected as indefinite will be rejected since it changes the design. Thus, it is essential that the figures be checked for definiteness.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: ["noselect"]
+                        }
+                    ],
+                    classes: null
                 }]
             },
-
         ]
     }
-}
-const DESIGNPANEL18: IExpansionPanel = {
+};
+
+
+const DESIGNPANEL17: IExpansionPanel = {
     title: "Checklist when applying for a design",
     description: "",
     content:
@@ -3179,6 +3186,7 @@ const DESIGNPANEL18: IExpansionPanel = {
                 }]
             },
 
+            // TODO: List
             {
                 type: "paragraph",
                 objs: [{
@@ -3194,52 +3202,14 @@ const DESIGNPANEL18: IExpansionPanel = {
                     classes: null
                 }]
             },
-
-            {
-                type: "designexample",
-                objs: [{
-                    regno: "1681248",
-                    title: "Icon image",
-                    applicant: "TOTO Ltd.",
-                    description: {
-                        spans: [
-                            {
-                                text: "",
-                                url: null,
-                                routerlink: null,
-                                tooltip: null,
-                                classes: ["noselect"]
-                            }
-                        ],
-                        classes: null
-                    },
-                    shortdesc: "",
-                    images: {
-                        gap: "20px",
-                        percent: "30",
-                        elements: [
-                            {
-                                type: "titledimage",
-                                objs: [
-                                    {
-                                        title: "graphic image view",
-                                        img:
-                                        {
-                                            folder: "designmanual",
-                                            filename: "1681248_000001.jpg",
-                                            classes: ["small"]
-                                        }
-                                    }]
-                            },
-                        ]
-                    }
-                }]
-            },
-
         ]
     }
-}
-const DESIGNPANEL19: IExpansionPanel = {
+};
+
+
+// TODO: FROM HEREEE
+
+const DESIGNPANEL18: IExpansionPanel = {
     title: "Selecting whether to file an independent design application or a related design application",
     description: "",
     content:
@@ -3251,7 +3221,7 @@ const DESIGNPANEL19: IExpansionPanel = {
                 objs: [{
                     spans: [
                         {
-                            text: "",
+                            text: "The Design Law provides a related design system for protecting designs. Variants of a base design can be filed successively over the 10 years from the application date of the base application, even 3 or 5 years after the base design is published. It is possible to protect design variants in a chain of designs, without being barred over novelty and obviousness with respect to the prior design various.",
                             url: null,
                             routerlink: null,
                             tooltip: null,
@@ -3261,13 +3231,15 @@ const DESIGNPANEL19: IExpansionPanel = {
                     classes: null
                 }]
             },
+
+
 
             {
                 type: "paragraph",
                 objs: [{
                     spans: [
                         {
-                            text: "",
+                            text: "Also, it is possible to expand the scope of protection of the design rights chained together as related designs from a based design to the extent of the degree of similarity therebetween.",
                             url: null,
                             routerlink: null,
                             tooltip: null,
@@ -3278,50 +3250,89 @@ const DESIGNPANEL19: IExpansionPanel = {
                 }]
             },
 
+
+            // folder: string;
+            // filename: string;
+            // classes: Array<string>;
             {
-                type: "designexample",
-                objs: [{
-                    regno: "1681248",
-                    title: "Icon image",
-                    applicant: "TOTO Ltd.",
-                    description: {
-                        spans: [
-                            {
-                                text: "",
-                                url: null,
-                                routerlink: null,
-                                tooltip: null,
-                                classes: ["noselect"]
-                            }
-                        ],
-                        classes: null
-                    },
-                    shortdesc: "",
-                    images: {
-                        gap: "20px",
-                        percent: "30",
-                        elements: [
-                            {
-                                type: "titledimage",
-                                objs: [
-                                    {
-                                        title: "graphic image view",
-                                        img:
-                                        {
-                                            folder: "designmanual",
-                                            filename: "1681248_000001.jpg",
-                                            classes: ["small"]
-                                        }
-                                    }]
-                            },
-                        ]
-                    }
-                }]
+                type: "image",
+                objs: [
+                    {
+                        img:
+                        {
+                            folder: "designmanual",
+                            filename: "1684376_000007.jpg",
+                            classes: ["small"]
+                        }
+                    }]
+
+                // objs: [{
+                //     spans: [
+                //         {
+                //             text: "The Design Law provides a related design system for protecting designs. Variants of a base design can be filed successively over the 10 years from the application date of the base application, even 3 or 5 years after the base design is published. It is possible to protect design variants in a chain of designs, without being barred over novelty and obviousness with respect to the prior design various.",
+                //             url: null,
+                //             routerlink: null,
+                //             tooltip: null,
+                //             classes: ["noselect"]
+                //         }
+                //     ],
+                //     classes: null
+                // }]
             },
+
+
+
+            // {
+            //     type: "designexample",
+            //     objs: [{
+            //         regno: "1681248",
+            //         title: "Icon image",
+            //         applicant: "TOTO Ltd.",
+            //         description: {
+            //             spans: [
+            //                 {
+            //                     text: "",
+            //                     url: null,
+            //                     routerlink: null,
+            //                     tooltip: null,
+            //                     classes: ["noselect"]
+            //                 }
+            //             ],
+            //             classes: null
+            //         },
+            //         shortdesc: "",
+            //         images: {
+            //             gap: "20px",
+            //             percent: "30",
+            //             elements: [
+            //                 {
+            //                     type: "titledimage",
+            //                     objs: [
+            //                         {
+            //                             title: "graphic image view",
+            //                             img:
+            //                             {
+            //                                 folder: "designmanual",
+            //                                 filename: "1681248_000001.jpg",
+            //                                 classes: ["small"]
+            //                             }
+            //                         }]
+            //                 },
+            //             ]
+            //         }
+            //     }]
+            // },
 
         ]
     }
-}
+};
+
+const DESIGNPANEL19: IExpansionPanel = {
+    title: "==========================",
+    description: "",
+    content: null
+};
+
 const DESIGNPANEL20: IExpansionPanel = {
     title: "Whether to select a graphic image design or a partial design of an article in the case of a design that is an image",
     description: "",
