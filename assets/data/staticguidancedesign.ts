@@ -741,7 +741,7 @@ export const DESIGNGUIDANCECONTENTOLD: IContent = {
             }]
         },
         {
-            type: "header", 
+            type: "header",
             objs: [{
                 text: "Checklist when applying for a design",
                 type: "h1",
@@ -770,7 +770,7 @@ export const DESIGNGUIDANCECONTENTOLD: IContent = {
         *secret design?
         *consider application of the grace period when novelty is lost*/
         {
-            type: "header", // HEREEE 
+            type: "header",
             objs: [{
                 text: "Selecting whether to file an independent design application or a related design application",
                 type: "h2",
@@ -839,7 +839,7 @@ export const DESIGNGUIDANCECONTENTOLD: IContent = {
                 classes: null
             }]
         },
-        /*P10.jpg
+        /*P10.jpg // HEREEE
         
         *When each design is independently registered, it means that the designs are not similar, and the scope of the designs will be treated as narrower.
         *The scope in which the designs are in fact similar will not be protected.
@@ -2597,7 +2597,6 @@ const DESIGNPANEL9: IExpansionPanel = {
                 }]
             },
 
-            // TODO: Add blue translations
             {
                 type: "designexample",
                 objs: [{
@@ -3282,7 +3281,6 @@ const DESIGNPANEL18: IExpansionPanel = {
     content:
     {
         elements: [
-
             {
                 type: "paragraph",
                 objs: [{
@@ -3298,9 +3296,6 @@ const DESIGNPANEL18: IExpansionPanel = {
                     classes: null
                 }]
             },
-
-
-
             {
                 type: "paragraph",
                 objs: [{
@@ -3316,80 +3311,126 @@ const DESIGNPANEL18: IExpansionPanel = {
                     classes: null
                 }]
             },
-
-
-            // folder: string;
-            // filename: string;
-            // classes: Array<string>;
             {
                 type: "image",
                 objs: [
                     {
-                        img:
-                        {
-                            folder: "designmanual",
-                            filename: "1684376_000007.jpg",
-                            classes: ["small"]
-                        }
+                        folder: "designmanual",
+                        filename: "related designs 3.jpg",
+                        classes: ["small"]
                     }]
-
-                // objs: [{
-                //     spans: [
-                //         {
-                //             text: "The Design Law provides a related design system for protecting designs. Variants of a base design can be filed successively over the 10 years from the application date of the base application, even 3 or 5 years after the base design is published. It is possible to protect design variants in a chain of designs, without being barred over novelty and obviousness with respect to the prior design various.",
-                //             url: null,
-                //             routerlink: null,
-                //             tooltip: null,
-                //             classes: ["noselect"]
-                //         }
-                //     ],
-                //     classes: null
-                // }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "By employing related designs, the design rights' scope of similarity is officially confirmed, and that confirmation is declared publicly by the design registration publication. Also, even if an application filed for the purpose of confirming the scope of similarity is reject, the attempt will not be made public. Because only successful related designs are published, the applicant can effectively use the system to publish only successes. Also, if there is actually a similarity relationship between an independently registered variant design and a base design, there is risk of invalidation.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "Even if what in fact is an obvious variant is mistakenly allowed as an independent design, because patentable distinction is thereby recognized against the base design, it has the undesired effect of narrowing the scope of the design rights. Also, because of the actual similarity relationship between the base design and the mistakenly allowed independent design in such a case, there is the risk of invalidation.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
             },
 
+            {
+                type: "image",
+                objs: [
+                    {
+                        folder: "designmanual",
+                        filename: "related designs 1.jpg",
+                        classes: ["small"]
+                    }]
+            },
 
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "When each design is independently registered, it means that the designs are not similar, and the scope of the designs will be treated as narrower.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "The scope in which the designs are in fact similar will not be protected.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
 
-            // {
-            //     type: "designexample",
-            //     objs: [{
-            //         regno: "1681248",
-            //         title: "Icon image",
-            //         applicant: "TOTO Ltd.",
-            //         description: {
-            //             spans: [
-            //                 {
-            //                     text: "",
-            //                     url: null,
-            //                     routerlink: null,
-            //                     tooltip: null,
-            //                     classes: ["noselect"]
-            //                 }
-            //             ],
-            //             classes: null
-            //         },
-            //         shortdesc: "",
-            //         images: {
-            //             gap: "20px",
-            //             percent: "30",
-            //             elements: [
-            //                 {
-            //                     type: "titledimage",
-            //                     objs: [
-            //                         {
-            //                             title: "graphic image view",
-            //                             img:
-            //                             {
-            //                                 folder: "designmanual",
-            //                                 filename: "1681248_000001.jpg",
-            //                                 classes: ["small"]
-            //                             }
-            //                         }]
-            //                 },
-            //             ]
-            //         }
-            //     }]
-            // },
-
+            {
+                type: "image",
+                objs: [
+                    {
+                        folder: "designmanual",
+                        filename: "related designs 2.jpg",
+                        classes: ["small"]
+                    }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "When related designs are registered, it serves as confirmation that the designs are similar to each other, and clearly distinguishes a broad scope of protection publicly.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "There are no gaps in the scope of protection between the related designs.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
         ]
     }
 };
