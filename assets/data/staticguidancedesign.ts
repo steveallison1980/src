@@ -498,7 +498,6 @@ export const DESIGNGUIDANCECONTENTOLD: IContent = {
         
         *Internal appearance of hall and room*/
 
-        // HEREEE 
 
         {
             type: "header",
@@ -552,6 +551,7 @@ export const DESIGNGUIDANCECONTENTOLD: IContent = {
         *top view
         *1684376_000007.jpg*/
 
+        // HEREEE 
         {
             type: "header",
             objs: [{
@@ -2738,8 +2738,6 @@ const DESIGNPANEL9: IExpansionPanel = {
     }
 };
 
-// TODO: FROM HEREEE
-
 const DESIGNPANEL10: IExpansionPanel = {
     title: "Interior designs (whole & partial)",
     description: "",
@@ -2885,14 +2883,73 @@ const DESIGNPANEL10: IExpansionPanel = {
     }
 };
 
+
+
 const DESIGNPANEL11: IExpansionPanel = {
+    title: "Registration requirements",
+    description: "",
+    content: null
+};
+
+
+const DESIGNPANEL12: IExpansionPanel = {
+    title: "Novelty",
+    description: "",
+    content:
+    {
+        elements: [
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: 'It is a requirement that no identical or "similar" design existed prior to the application.',
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: ["noselect"]
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "The exception to this rule is when the applicant registers their own similar design as a \"related design\".",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: ["noselect"]
+                        },
+                        {
+                            text: "Please refer to (Selecting whether to file an independent design application or a related design application).",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: ["noselect"]
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+        ]
+    }
+};
+
+
+// TODO: FROM HEREEE
+const DESIGNPANEL13: IExpansionPanel = {
     title: "==========================",
     description: "",
     content: null
 }
 
-const DESIGNPANEL12: IExpansionPanel = {
-    title: "Registration requirements",
+const DESIGNPANEL14: IExpansionPanel = {
+    title: "Exceptions to loss of novelty (grace period)",
     description: "",
     content:
     {
@@ -2974,25 +3031,171 @@ const DESIGNPANEL12: IExpansionPanel = {
         ]
     }
 }
-const DESIGNPANEL13: IExpansionPanel = {
-    title: "Novelty",
-    description: "",
-    content: null
-}
-const DESIGNPANEL14: IExpansionPanel = {
-    title: "Exceptions to loss of novelty (grace period)",
-    description: "",
-    content: null
-}
 const DESIGNPANEL15: IExpansionPanel = {
     title: "Creative difficulty",
     description: "",
-    content: null
+    content:
+    {
+        elements: [
+
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: ["noselect"]
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: ["noselect"]
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+
+            {
+                type: "designexample",
+                objs: [{
+                    regno: "1681248",
+                    title: "Icon image",
+                    applicant: "TOTO Ltd.",
+                    description: {
+                        spans: [
+                            {
+                                text: "",
+                                url: null,
+                                routerlink: null,
+                                tooltip: null,
+                                classes: ["noselect"]
+                            }
+                        ],
+                        classes: null
+                    },
+                    shortdesc: "",
+                    images: {
+                        gap: "20px",
+                        percent: "30",
+                        elements: [
+                            {
+                                type: "titledimage",
+                                objs: [
+                                    {
+                                        title: "graphic image view",
+                                        img:
+                                        {
+                                            folder: "designmanual",
+                                            filename: "1681248_000001.jpg",
+                                            classes: ["small"]
+                                        }
+                                    }]
+                            },
+                        ]
+                    }
+                }]
+            },
+
+        ]
+    }
 }
 const DESIGNPANEL16: IExpansionPanel = {
     title: "First to file",
     description: "",
-    content: null
+    content:
+    {
+        elements: [
+
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: ["noselect"]
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: ["noselect"]
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+
+            {
+                type: "designexample",
+                objs: [{
+                    regno: "1681248",
+                    title: "Icon image",
+                    applicant: "TOTO Ltd.",
+                    description: {
+                        spans: [
+                            {
+                                text: "",
+                                url: null,
+                                routerlink: null,
+                                tooltip: null,
+                                classes: ["noselect"]
+                            }
+                        ],
+                        classes: null
+                    },
+                    shortdesc: "",
+                    images: {
+                        gap: "20px",
+                        percent: "30",
+                        elements: [
+                            {
+                                type: "titledimage",
+                                objs: [
+                                    {
+                                        title: "graphic image view",
+                                        img:
+                                        {
+                                            folder: "designmanual",
+                                            filename: "1681248_000001.jpg",
+                                            classes: ["small"]
+                                        }
+                                    }]
+                            },
+                        ]
+                    }
+                }]
+            },
+
+        ]
+    }
 }
 const DESIGNPANEL17: IExpansionPanel = {
     title: "That the design be definite",
