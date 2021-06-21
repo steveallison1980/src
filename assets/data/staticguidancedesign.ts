@@ -387,8 +387,6 @@ export const DESIGNGUIDANCECONTENTOLD: IContent = {
             }]
         },
 
-        // HEREEE 
-
         /*1681248
         *Icon image
         *TOTO Ltd.
@@ -420,6 +418,9 @@ export const DESIGNGUIDANCECONTENTOLD: IContent = {
                 classes: null
             }]
         },
+
+
+        // HEREEE 
         /*1677061
         *Image for displaying how full a train is
         *East Japan Railway Company
@@ -2337,7 +2338,6 @@ const DESIGNPANEL7: IExpansionPanel = {
                     ],
                     classes: null
                 }]
-
             },
 
             {
@@ -2354,7 +2354,6 @@ const DESIGNPANEL7: IExpansionPanel = {
                     ],
                     classes: null
                 }]
-
             },
 
             {
@@ -2456,15 +2455,133 @@ const DESIGNPANEL7: IExpansionPanel = {
     }
 
 
-}
-
-// TODO: FROM HEREEE
+};
 
 const DESIGNPANEL8: IExpansionPanel = {
     title: "Partial design of a graphic image design",
     description: "",
     content:
 
+    {
+        elements: [
+            {
+                type: "designexample",
+                objs: [{
+                    regno: "1677061",
+                    title: "Image for displaying how full a train is",
+                    applicant: "East Japan Railway Company",
+                    description: {
+                        spans: [
+                            {
+                                text: "This image displays how full a train designated by a user is when presenting information about the train to the user in a route finder app. The portion within the dotted lines (the portion that is not reddened) is what is to be registered as the partial design.",
+                                url: null,
+                                routerlink: null,
+                                tooltip: null,
+                                classes: ["noselect"]
+                            }
+                        ],
+                        classes: null
+                    },
+                    shortdesc: "",
+                    images: {
+                        gap: "20px",
+                        percent: "30",
+                        elements: [
+                            {
+                                type: "titledimage",
+                                objs: [
+                                    {
+                                        title: "graphic image view",
+                                        img:
+                                        {
+                                            folder: "designmanual",
+                                            filename: "1677061_000001.jpg",
+                                            classes: ["small"]
+                                        }
+                                    }]
+                            },
+                            {
+                                type: "titledimage",
+                                objs: [
+                                    {
+                                        title: "magnification of A-A portion",
+                                        img:
+                                        {
+                                            folder: "designmanual",
+                                            filename: "1677061_000002.jpg",
+                                            classes: ["small"]
+                                        }
+                                    }]
+                            },
+                            {
+                                type: "titledimage",
+                                objs: [
+                                    {
+                                        title: "reference image view",
+                                        img:
+                                        {
+                                            folder: "designmanual",
+                                            filename: "1677061_000003.jpg",
+                                            classes: ["small"]
+                                        }
+                                    }]
+                            },
+                        ]
+                    }
+                }]
+            },
+
+            {
+                type: "designexample",
+                objs: [{
+                    regno: "1676845",
+                    title: "Image for operating electronic device",
+                    applicant: "Apple Inc.",
+                    description: {
+                        spans: [
+                            {
+                                text: "An image for operating the electronic device such as a fan. The portion other than the dotted lines is what is to be registered as the design.",
+                                url: null,
+                                routerlink: null,
+                                tooltip: null,
+                                classes: ["noselect"]
+                            }
+                        ],
+                        classes: null
+                    },
+                    shortdesc: "",
+                    images: {
+                        gap: "20px",
+                        percent: "30",
+                        elements: [
+                            {
+                                type: "titledimage",
+                                objs: [
+                                    {
+                                        title: "graphic image view",
+                                        img:
+                                        {
+                                            folder: "designmanual",
+                                            filename: "1676845_000001.jpg",
+                                            classes: ["small"]
+                                        }
+                                    }]
+                            },
+                        ]
+                    }
+                }]
+            },
+
+        ]
+    }
+};
+
+// TODO: FROM HEREEE
+
+const DESIGNPANEL9: IExpansionPanel = {
+    title: "Building designs (whole & partial)",
+    description: "",
+    content:
     {
         elements: [
 
@@ -2482,7 +2599,6 @@ const DESIGNPANEL8: IExpansionPanel = {
                     ],
                     classes: null
                 }]
-
             },
 
             {
@@ -2499,15 +2615,14 @@ const DESIGNPANEL8: IExpansionPanel = {
                     ],
                     classes: null
                 }]
-
             },
 
             {
                 type: "designexample",
                 objs: [{
-                    regno: "",
-                    title: "",
-                    applicant: "",
+                    regno: "1681248",
+                    title: "Icon image",
+                    applicant: "TOTO Ltd.",
                     description: {
                         spans: [
                             {
@@ -2529,24 +2644,100 @@ const DESIGNPANEL8: IExpansionPanel = {
                                 type: "titledimage",
                                 objs: [
                                     {
-                                        title: "[perspective view]",
+                                        title: "graphic image view",
                                         img:
                                         {
                                             folder: "designmanual",
-                                            filename: "1148619_000001.jpg",
+                                            filename: "1681248_000001.jpg",
                                             classes: ["small"]
                                         }
                                     }]
                             },
+                        ]
+                    }
+                }]
+            },
+
+        ]
+    }
+};
+
+const DESIGNPANEL10: IExpansionPanel = {
+    title: "==========================",
+    description: "",
+    content: null
+}
+const DESIGNPANEL11: IExpansionPanel = {
+    title: "Interior designs (whole & partial)",
+    description: "",
+    content: 
+    {
+        elements: [
+
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: ["noselect"]
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: ["noselect"]
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+
+            {
+                type: "designexample",
+                objs: [{
+                    regno: "1681248",
+                    title: "Icon image",
+                    applicant: "TOTO Ltd.",
+                    description: {
+                        spans: [
+                            {
+                                text: "",
+                                url: null,
+                                routerlink: null,
+                                tooltip: null,
+                                classes: ["noselect"]
+                            }
+                        ],
+                        classes: null
+                    },
+                    shortdesc: "",
+                    images: {
+                        gap: "20px",
+                        percent: "30",
+                        elements: [
                             {
                                 type: "titledimage",
                                 objs: [
                                     {
-                                        title: "[front view]",
+                                        title: "graphic image view",
                                         img:
                                         {
                                             folder: "designmanual",
-                                            filename: "1148619_000002.jpg",
+                                            filename: "1681248_000001.jpg",
                                             classes: ["small"]
                                         }
                                     }]
@@ -2559,26 +2750,88 @@ const DESIGNPANEL8: IExpansionPanel = {
         ]
     }
 }
-
-const DESIGNPANEL9: IExpansionPanel = {
-    title: "==========================",
-    description: "",
-    content: null
-}
-const DESIGNPANEL10: IExpansionPanel = {
-    title: "Building designs (whole & partial)",
-    description: "",
-    content: null
-}
-const DESIGNPANEL11: IExpansionPanel = {
-    title: "Interior designs (whole & partial)",
-    description: "",
-    content: null
-}
 const DESIGNPANEL12: IExpansionPanel = {
     title: "Registration requirements",
     description: "",
-    content: null
+    content: 
+    {
+        elements: [
+
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: ["noselect"]
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: ["noselect"]
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+
+            {
+                type: "designexample",
+                objs: [{
+                    regno: "1681248",
+                    title: "Icon image",
+                    applicant: "TOTO Ltd.",
+                    description: {
+                        spans: [
+                            {
+                                text: "",
+                                url: null,
+                                routerlink: null,
+                                tooltip: null,
+                                classes: ["noselect"]
+                            }
+                        ],
+                        classes: null
+                    },
+                    shortdesc: "",
+                    images: {
+                        gap: "20px",
+                        percent: "30",
+                        elements: [
+                            {
+                                type: "titledimage",
+                                objs: [
+                                    {
+                                        title: "graphic image view",
+                                        img:
+                                        {
+                                            folder: "designmanual",
+                                            filename: "1681248_000001.jpg",
+                                            classes: ["small"]
+                                        }
+                                    }]
+                            },
+                        ]
+                    }
+                }]
+            },
+
+        ]
+    }
 }
 const DESIGNPANEL13: IExpansionPanel = {
     title: "Novelty",
