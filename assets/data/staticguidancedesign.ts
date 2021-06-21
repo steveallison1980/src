@@ -463,7 +463,6 @@ export const DESIGNGUIDANCECONTENTOLD: IContent = {
             }]
         },
 
-        // HEREEE 
         /*1684747
         *Office building
         *Nippon Steel Engineering Co., Ltd.
@@ -499,7 +498,7 @@ export const DESIGNGUIDANCECONTENTOLD: IContent = {
         
         *Internal appearance of hall and room*/
 
-
+        // HEREEE 
 
         {
             type: "header",
@@ -2576,8 +2575,6 @@ const DESIGNPANEL8: IExpansionPanel = {
     }
 };
 
-// TODO: FROM HEREEE
-
 const DESIGNPANEL9: IExpansionPanel = {
     title: "Building designs (whole & partial)",
     description: "",
@@ -2741,12 +2738,9 @@ const DESIGNPANEL9: IExpansionPanel = {
     }
 };
 
+// TODO: FROM HEREEE
+
 const DESIGNPANEL10: IExpansionPanel = {
-    title: "==========================",
-    description: "",
-    content: null
-}
-const DESIGNPANEL11: IExpansionPanel = {
     title: "Interior designs (whole & partial)",
     description: "",
     content:
@@ -2758,23 +2752,7 @@ const DESIGNPANEL11: IExpansionPanel = {
                 objs: [{
                     spans: [
                         {
-                            text: "",
-                            url: null,
-                            routerlink: null,
-                            tooltip: null,
-                            classes: ["noselect"]
-                        }
-                    ],
-                    classes: null
-                }]
-            },
-
-            {
-                type: "paragraph",
-                objs: [{
-                    spans: [
-                        {
-                            text: "",
+                            text: "A design constituted by an interior space of a building and furniture (multiple design components).",
                             url: null,
                             routerlink: null,
                             tooltip: null,
@@ -2788,13 +2766,13 @@ const DESIGNPANEL11: IExpansionPanel = {
             {
                 type: "designexample",
                 objs: [{
-                    regno: "1681248",
-                    title: "Icon image",
-                    applicant: "TOTO Ltd.",
+                    regno: "1684376",
+                    title: "Office interior",
+                    applicant: "Itoki Ltd.",
                     description: {
                         spans: [
                             {
-                                text: "",
+                                text: "The shades of surfaces in the figures represent three-dimensional surfaces. The non-red portions are what is to be registered as the design.",
                                 url: null,
                                 routerlink: null,
                                 tooltip: null,
@@ -2812,52 +2790,89 @@ const DESIGNPANEL11: IExpansionPanel = {
                                 type: "titledimage",
                                 objs: [
                                     {
-                                        title: "graphic image view",
+                                        title: "reduced perspective view 1",
                                         img:
                                         {
                                             folder: "designmanual",
-                                            filename: "1681248_000001.jpg",
+                                            filename: "1684376_000001.jpg",
                                             classes: ["small"]
                                         }
                                     }]
                             },
-                        ]
-                    }
-                }]
-            },
-
-            {
-                type: "designexample",
-                objs: [{
-                    regno: "1681248",
-                    title: "Icon image",
-                    applicant: "TOTO Ltd.",
-                    description: {
-                        spans: [
-                            {
-                                text: "",
-                                url: null,
-                                routerlink: null,
-                                tooltip: null,
-                                classes: ["noselect"]
-                            }
-                        ],
-                        classes: null
-                    },
-                    shortdesc: "",
-                    images: {
-                        gap: "20px",
-                        percent: "30",
-                        elements: [
                             {
                                 type: "titledimage",
                                 objs: [
                                     {
-                                        title: "graphic image view",
+                                        title: "*reduced perspective view 2",
                                         img:
                                         {
                                             folder: "designmanual",
-                                            filename: "1681248_000001.jpg",
+                                            filename: "1684376_000002.jpg",
+                                            classes: ["small"]
+                                        }
+                                    }]
+                            },
+                            {
+                                type: "titledimage",
+                                objs: [
+                                    {
+                                        title: "front view",
+                                        img:
+                                        {
+                                            folder: "designmanual",
+                                            filename: "1684376_000003.jpg",
+                                            classes: ["small"]
+                                        }
+                                    }]
+                            },
+                            {
+                                type: "titledimage",
+                                objs: [
+                                    {
+                                        title: "back view",
+                                        img:
+                                        {
+                                            folder: "designmanual",
+                                            filename: "1684376_000004.jpg",
+                                            classes: ["small"]
+                                        }
+                                    }]
+                            },
+                            {
+                                type: "titledimage",
+                                objs: [
+                                    {
+                                        title: "right side view",
+                                        img:
+                                        {
+                                            folder: "designmanual",
+                                            filename: "1684376_000005.jpg",
+                                            classes: ["small"]
+                                        }
+                                    }]
+                            },
+                            {
+                                type: "titledimage",
+                                objs: [
+                                    {
+                                        title: "left side view",
+                                        img:
+                                        {
+                                            folder: "designmanual",
+                                            filename: "1684376_000006.jpg",
+                                            classes: ["small"]
+                                        }
+                                    }]
+                            },
+                            {
+                                type: "titledimage",
+                                objs: [
+                                    {
+                                        title: "top view",
+                                        img:
+                                        {
+                                            folder: "designmanual",
+                                            filename: "1684376_000007.jpg",
                                             classes: ["small"]
                                         }
                                     }]
@@ -2866,10 +2881,16 @@ const DESIGNPANEL11: IExpansionPanel = {
                     }
                 }]
             },
-
         ]
     }
+};
+
+const DESIGNPANEL11: IExpansionPanel = {
+    title: "==========================",
+    description: "",
+    content: null
 }
+
 const DESIGNPANEL12: IExpansionPanel = {
     title: "Registration requirements",
     description: "",
