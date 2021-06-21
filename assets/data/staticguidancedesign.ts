@@ -551,7 +551,6 @@ export const DESIGNGUIDANCECONTENTOLD: IContent = {
         *top view
         *1684376_000007.jpg*/
 
-        // HEREEE 
         {
             type: "header",
             objs: [{
@@ -657,7 +656,7 @@ export const DESIGNGUIDANCECONTENTOLD: IContent = {
             }]
         },
         {
-            type: "paragraph",
+            type: "paragraph", // HEREEE 
             objs: [{
                 spans: [
                     {
@@ -2940,15 +2939,7 @@ const DESIGNPANEL12: IExpansionPanel = {
     }
 };
 
-
-// TODO: FROM HEREEE
 const DESIGNPANEL13: IExpansionPanel = {
-    title: "==========================",
-    description: "",
-    content: null
-}
-
-const DESIGNPANEL14: IExpansionPanel = {
     title: "Exceptions to loss of novelty (grace period)",
     description: "",
     content:
@@ -2960,7 +2951,7 @@ const DESIGNPANEL14: IExpansionPanel = {
                 objs: [{
                     spans: [
                         {
-                            text: "",
+                            text: "A design's novelty is destroyed if the applicant publishes, presents the design, or sells a good incorporating the design prior to filing the design application. However, the applicant can remedy such a situation within the grace period.",
                             url: null,
                             routerlink: null,
                             tooltip: null,
@@ -2976,7 +2967,7 @@ const DESIGNPANEL14: IExpansionPanel = {
                 objs: [{
                     spans: [
                         {
-                            text: "",
+                            text: "The grace period is one year from the day that the design first became publicly known. To enjoy the benefit of the grace period the applicant must declare the desire to do so and provide evidence of the disclosure.",
                             url: null,
                             routerlink: null,
                             tooltip: null,
@@ -2986,64 +2977,22 @@ const DESIGNPANEL14: IExpansionPanel = {
                     classes: null
                 }]
             },
-
-            {
-                type: "designexample",
-                objs: [{
-                    regno: "1681248",
-                    title: "Icon image",
-                    applicant: "TOTO Ltd.",
-                    description: {
-                        spans: [
-                            {
-                                text: "",
-                                url: null,
-                                routerlink: null,
-                                tooltip: null,
-                                classes: ["noselect"]
-                            }
-                        ],
-                        classes: null
-                    },
-                    shortdesc: "",
-                    images: {
-                        gap: "20px",
-                        percent: "30",
-                        elements: [
-                            {
-                                type: "titledimage",
-                                objs: [
-                                    {
-                                        title: "graphic image view",
-                                        img:
-                                        {
-                                            folder: "designmanual",
-                                            filename: "1681248_000001.jpg",
-                                            classes: ["small"]
-                                        }
-                                    }]
-                            },
-                        ]
-                    }
-                }]
-            },
-
         ]
     }
-}
-const DESIGNPANEL15: IExpansionPanel = {
+};
+
+const DESIGNPANEL14: IExpansionPanel = {
     title: "Creative difficulty",
     description: "",
     content:
     {
         elements: [
-
             {
                 type: "paragraph",
                 objs: [{
                     spans: [
                         {
-                            text: "",
+                            text: "Even if a design is novel, the design cannot be registered if those skilled in the art could have easily conceived of it. It is a requirement that the design not be obvious.",
                             url: null,
                             routerlink: null,
                             tooltip: null,
@@ -3053,68 +3002,11 @@ const DESIGNPANEL15: IExpansionPanel = {
                     classes: null
                 }]
             },
-
-            {
-                type: "paragraph",
-                objs: [{
-                    spans: [
-                        {
-                            text: "",
-                            url: null,
-                            routerlink: null,
-                            tooltip: null,
-                            classes: ["noselect"]
-                        }
-                    ],
-                    classes: null
-                }]
-            },
-
-            {
-                type: "designexample",
-                objs: [{
-                    regno: "1681248",
-                    title: "Icon image",
-                    applicant: "TOTO Ltd.",
-                    description: {
-                        spans: [
-                            {
-                                text: "",
-                                url: null,
-                                routerlink: null,
-                                tooltip: null,
-                                classes: ["noselect"]
-                            }
-                        ],
-                        classes: null
-                    },
-                    shortdesc: "",
-                    images: {
-                        gap: "20px",
-                        percent: "30",
-                        elements: [
-                            {
-                                type: "titledimage",
-                                objs: [
-                                    {
-                                        title: "graphic image view",
-                                        img:
-                                        {
-                                            folder: "designmanual",
-                                            filename: "1681248_000001.jpg",
-                                            classes: ["small"]
-                                        }
-                                    }]
-                            },
-                        ]
-                    }
-                }]
-            },
-
         ]
     }
-}
-const DESIGNPANEL16: IExpansionPanel = {
+};
+
+const DESIGNPANEL15: IExpansionPanel = {
     title: "First to file",
     description: "",
     content:
@@ -3126,6 +3018,73 @@ const DESIGNPANEL16: IExpansionPanel = {
                 objs: [{
                     spans: [
                         {
+                            text: "In the case of two identical or similar designs, only the application that was filed first can be registered.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: ["noselect"]
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: 'This first-to-file system is applied to the applicant themself. If an applicant files similar designs simultaneously, they must file one as a "base design (principal design)" and the others as "related designs".',
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: ["noselect"]
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "A hidden design filed in advance (a secret design) constitutes prior art on the day that such a design is registered, and becomes secret prior art against other's subsequent applications.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: ["noselect"]
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+        ]
+    }
+};
+
+// TODO: FROM HEREEE
+
+const DESIGNPANEL16: IExpansionPanel = {
+    title: "==========================",
+    description: "",
+    content: null
+}
+
+
+const DESIGNPANEL17: IExpansionPanel = {
+    title: "That the design be definite",
+    description: "",
+    content:
+    {
+        elements: [
+
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
                             text: "",
                             url: null,
                             routerlink: null,
@@ -3197,20 +3156,171 @@ const DESIGNPANEL16: IExpansionPanel = {
         ]
     }
 }
-const DESIGNPANEL17: IExpansionPanel = {
-    title: "That the design be definite",
-    description: "",
-    content: null
-}
 const DESIGNPANEL18: IExpansionPanel = {
     title: "Checklist when applying for a design",
     description: "",
-    content: null
+    content:
+    {
+        elements: [
+
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: ["noselect"]
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: ["noselect"]
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+
+            {
+                type: "designexample",
+                objs: [{
+                    regno: "1681248",
+                    title: "Icon image",
+                    applicant: "TOTO Ltd.",
+                    description: {
+                        spans: [
+                            {
+                                text: "",
+                                url: null,
+                                routerlink: null,
+                                tooltip: null,
+                                classes: ["noselect"]
+                            }
+                        ],
+                        classes: null
+                    },
+                    shortdesc: "",
+                    images: {
+                        gap: "20px",
+                        percent: "30",
+                        elements: [
+                            {
+                                type: "titledimage",
+                                objs: [
+                                    {
+                                        title: "graphic image view",
+                                        img:
+                                        {
+                                            folder: "designmanual",
+                                            filename: "1681248_000001.jpg",
+                                            classes: ["small"]
+                                        }
+                                    }]
+                            },
+                        ]
+                    }
+                }]
+            },
+
+        ]
+    }
 }
 const DESIGNPANEL19: IExpansionPanel = {
     title: "Selecting whether to file an independent design application or a related design application",
     description: "",
-    content: null
+    content:
+    {
+        elements: [
+
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: ["noselect"]
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: ["noselect"]
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+
+            {
+                type: "designexample",
+                objs: [{
+                    regno: "1681248",
+                    title: "Icon image",
+                    applicant: "TOTO Ltd.",
+                    description: {
+                        spans: [
+                            {
+                                text: "",
+                                url: null,
+                                routerlink: null,
+                                tooltip: null,
+                                classes: ["noselect"]
+                            }
+                        ],
+                        classes: null
+                    },
+                    shortdesc: "",
+                    images: {
+                        gap: "20px",
+                        percent: "30",
+                        elements: [
+                            {
+                                type: "titledimage",
+                                objs: [
+                                    {
+                                        title: "graphic image view",
+                                        img:
+                                        {
+                                            folder: "designmanual",
+                                            filename: "1681248_000001.jpg",
+                                            classes: ["small"]
+                                        }
+                                    }]
+                            },
+                        ]
+                    }
+                }]
+            },
+
+        ]
+    }
 }
 const DESIGNPANEL20: IExpansionPanel = {
     title: "Whether to select a graphic image design or a partial design of an article in the case of a design that is an image",
