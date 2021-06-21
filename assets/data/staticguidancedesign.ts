@@ -931,7 +931,7 @@ export const DESIGNGUIDANCECONTENTOLD: IContent = {
             }]
         },
         {
-            type: "header", // HEREEE
+            type: "header",
             objs: [{
                 text: "Whether to select a whole design or a partial design",
                 type: "h2",
@@ -1152,7 +1152,7 @@ export const DESIGNGUIDANCECONTENTOLD: IContent = {
             }]
         },
         {
-            type: "header",
+            type: "header",    // HEREEE
             objs: [{
                 text: "Applicant and creator",
                 type: "h2",
@@ -3632,9 +3632,6 @@ const DESIGNPANEL21: IExpansionPanel = {
     }
 };
 
-// TODO: FROM HEREEE
-
-
 const DESIGNPANEL22: IExpansionPanel = {
     title: "Whether to file a single design or multiple designs",
     description: "",
@@ -3646,7 +3643,7 @@ const DESIGNPANEL22: IExpansionPanel = {
                 objs: [{
                     spans: [
                         {
-                            text: "",
+                            text: "Only one design can be included in a single design right. It is not possible to include multiple designs in a single application.",
                             url: null,
                             routerlink: null,
                             tooltip: null,
@@ -3656,19 +3653,196 @@ const DESIGNPANEL22: IExpansionPanel = {
                     classes: null
                 }]
             },
-
         ]
     }
 };
 
 const DESIGNPANEL23: IExpansionPanel = {
-    title: "==========================",
+    title: "Batch application of multiple designs",
+    description: "",
+    content:
+    {
+        elements: [
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "It has become possible, as of April 1, 2021, to file a batch application of multiple designs, which is a convenient way to submit a number of design applications to the JPO in a single transmittal letter.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "The JPO gives an application number to each of the designs, and each will be examined and registered separately. The application fee and registration fee will also be incurred for each design.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+        ]
+    }
+};
+
+const DESIGNPANEL24: IExpansionPanel = {
+    title: "Design of a set of articles",
+    description: "",
+    content:
+    {
+        elements: [
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: 'Unity of design may be recognized in a uniform design of a sets of articles. Examples of such designs include a "set of spoons, forks, and knives", a "set of golf clubs", and a "set of audio devices".',
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+        ]
+    }
+};
+
+
+const DESIGNPANEL25: IExpansionPanel = {
+    title: "Secret designs",
+    description: "",
+    content:
+    {
+        elements: [
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "A request can be made to delay the publication of a design application for up to 3 years after a design registration. A secret design can be requested upon application or at the time of payment of the registration fee. The period of secrecy can be changed, but is limited to 3 years.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+        ]
+    }
+}
+
+const DESIGNPANEL26: IExpansionPanel = {
+    title: "Asserting exemption to loss of novelty and proof requirement",
+    description: "",
+    content:
+    {
+        elements: [
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "When a design is published in Japan before the application, the design's novelty is destroyed. To remedy this situation, it is necessary to receive an exemption to the loss of novelty within the grace period.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "In the case of a Hague Agreement application, the exception to loss of novelty must be asserted, and evidence therefor submitted, directly to the JPO within 30 days of the international publication.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+        ]
+    }
+};
+
+const DESIGNPANEL27: IExpansionPanel = {
+    title: "Information necessary at the time of application in Japan",
     description: "",
     content: null
 };
 
-const DESIGNPANEL24: IExpansionPanel = {
-    title: "Batch application of multiple designs",
+const DESIGNPANEL28: IExpansionPanel = {
+    title: "Applicant and creator",
+    description: "",
+    content:
+    {
+        elements: [
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "The names and addresses of the applicant and creator of the design are required.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "The submission of a transfer from the creator to the applicant is not required.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+        ]
+    }
+
+};
+
+// TODO: FROM HEREEE
+const DESIGNPANEL29: IExpansionPanel = {
+    title: "====================",
+    description: "",
+    content: null
+}
+const DESIGNPANEL30: IExpansionPanel = {
+    title: "Recitation of the name of the article of the design",
     description: "",
     content:
     {
@@ -3688,104 +3862,320 @@ const DESIGNPANEL24: IExpansionPanel = {
                     classes: null
                 }]
             },
-
         ]
     }
-}
-const DESIGNPANEL25: IExpansionPanel = {
-    title: "Design of a set of articles",
-    description: "",
-    content: null
-}
-const DESIGNPANEL26: IExpansionPanel = {
-    title: "Secret designs",
-    description: "",
-    content: null
-}
-const DESIGNPANEL27: IExpansionPanel = {
-    title: "Asserting exemption to loss of novelty and proof requirement",
-    description: "",
-    content: null
-}
-const DESIGNPANEL28: IExpansionPanel = {
-    title: "Information necessary at the time of application in Japan",
-    description: "",
-    content: null
-}
-const DESIGNPANEL29: IExpansionPanel = {
-    title: "Applicant and creator",
-    description: "",
-    content: null
-}
-const DESIGNPANEL30: IExpansionPanel = {
-    title: "Recitation of the name of the article of the design",
-    description: "",
-    content: null
 }
 const DESIGNPANEL31: IExpansionPanel = {
     title: "Explanation of the design",
     description: "",
-    content: null
+    content:
+    {
+        elements: [
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+        ]
+    }
 }
 const DESIGNPANEL32: IExpansionPanel = {
     title: "Figures",
     description: "",
-    content: null
+    content:
+    {
+        elements: [
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+        ]
+    }
 }
 const DESIGNPANEL33: IExpansionPanel = {
     title: "Power of Attorney",
     description: "",
-    content: null
+    content:
+    {
+        elements: [
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+        ]
+    }
 }
 const DESIGNPANEL34: IExpansionPanel = {
     title: "Priority certificate",
     description: "",
-    content: null
+    content:
+    {
+        elements: [
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+        ]
+    }
 }
 const DESIGNPANEL35: IExpansionPanel = {
     title: "Hague route",
     description: "",
-    content: null
+    content:
+    {
+        elements: [
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+        ]
+    }
 }
 const DESIGNPANEL36: IExpansionPanel = {
     title: "Paris route",
     description: "",
-    content: null
+    content:
+    {
+        elements: [
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+        ]
+    }
 }
 const DESIGNPANEL37: IExpansionPanel = {
     title: "Design rights, interpreting the scope of the right, maintaining the right, annuities",
     description: "",
-    content: null
+    content:
+    {
+        elements: [
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+        ]
+    }
 }
 const DESIGNPANEL38: IExpansionPanel = {
     title: "Duration of a design right",
     description: "",
-    content: null
+    content:
+    {
+        elements: [
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+        ]
+    }
 }
 const DESIGNPANEL39: IExpansionPanel = {
     title: "Duration of old design rights",
     description: "",
-    content: null
+    content:
+    {
+        elements: [
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+        ]
+    }
 }
 const DESIGNPANEL40: IExpansionPanel = {
     title: "Duration of new design rights",
     description: "",
-    content: null
+    content:
+    {
+        elements: [
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+        ]
+    }
 }
 const DESIGNPANEL41: IExpansionPanel = {
     title: "Effective extension of old design rights",
     description: "",
-    content: null
+    content:
+    {
+        elements: [
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+        ]
+    }
 }
 const DESIGNPANEL42: IExpansionPanel = {
     title: "Annuities",
     description: "",
-    content: null
+    content:
+    {
+        elements: [
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+        ]
+    }
 }
 const DESIGNPANEL43: IExpansionPanel = {
     title: "Scope of protection of a design right",
     description: "",
-    content: null
+    content:
+    {
+        elements: [
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+        ]
+    }
 }
 
 const DESIGNACCORDION: IAccordion = {
