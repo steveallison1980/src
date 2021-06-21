@@ -839,7 +839,7 @@ export const DESIGNGUIDANCECONTENTOLD: IContent = {
                 classes: null
             }]
         },
-        /*P10.jpg // HEREEE
+        /*P10.jpg 
         
         *When each design is independently registered, it means that the designs are not similar, and the scope of the designs will be treated as narrower.
         *The scope in which the designs are in fact similar will not be protected.
@@ -931,7 +931,7 @@ export const DESIGNGUIDANCECONTENTOLD: IContent = {
             }]
         },
         {
-            type: "header",
+            type: "header", // HEREEE
             objs: [{
                 text: "Whether to select a whole design or a partial design",
                 type: "h2",
@@ -3273,7 +3273,7 @@ const DESIGNPANEL17: IExpansionPanel = {
 };
 
 
-// TODO: FROM HEREEE
+
 
 const DESIGNPANEL18: IExpansionPanel = {
     title: "Selecting whether to file an independent design application or a related design application",
@@ -3436,35 +3436,261 @@ const DESIGNPANEL18: IExpansionPanel = {
 };
 
 const DESIGNPANEL19: IExpansionPanel = {
+    title: "Whether to select a graphic image design or a partial design of an article in the case of a design that is an image",
+    description: "",
+    content:
+    {
+        elements: [
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "Now that a graphic image design has become statutory subject matter, there are several options for protecting designs of images.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+
+            {
+                type: "list",
+                objs: [
+                    {
+                        type: "ol",
+                        elements: [
+                            {
+                                type: "span",
+                                objs: [{
+                                    text: "Register a design for the graphic image per se.",
+                                    url: null,
+                                    routerlink: null,
+                                    tooltip: null,
+                                    classes: ["noselect"]
+                                }]
+                            },
+
+                            {
+                                type: "span",
+                                objs: [{
+                                    text: "Register a partial design of an article, targeting the image.",
+                                    url: null,
+                                    routerlink: null,
+                                    tooltip: null,
+                                    classes: ["noselect"]
+                                }]
+                            },
+                            {
+                                type: "span",
+                                objs: [{
+                                    text: "Register a whole design for an article in which the image is incorporated.",
+                                    url: null,
+                                    routerlink: null,
+                                    tooltip: null,
+                                    classes: ["noselect"]
+                                }]
+                            },
+                        ],
+                        classes: null,
+                    },
+                ]
+            },
+
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "It is also possible to select more than one of these strategies.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+
+        ]
+    }
+};
+
+const DESIGNPANEL20: IExpansionPanel = {
+    title: "Whether trademark registration is necessary for graphic image designs",
+    description: "",
+    content:
+    {
+        elements: [
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "A trade mark registration should be considered for a graphic image design that functions as a trade mark.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "A trademark registration may be offered broader protection than a design right, and since a trademark registration can be renewed, it can be maintained indefinitely.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+
+        ]
+    }
+}
+
+const DESIGNPANEL21: IExpansionPanel = {
+    title: "Whether to select a whole design or a partial design",
+    description: "",
+    content:
+    {
+        elements: [
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "A partial design can be selected if it focusses on a cohesive feature of a design.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "One should consider registrability and enforcement when choosing whether to file a partial design or both a whole and a partial design.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "Keep in mind that it is not possible to modify an application from one for a whole design to one for a partial design and vice versa after the filing.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "The claimed features can be specified in the figures or photographs using solid lines or coloring.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+
+        ]
+    }
+};
+
+// TODO: FROM HEREEE
+
+
+const DESIGNPANEL22: IExpansionPanel = {
+    title: "Whether to file a single design or multiple designs",
+    description: "",
+    content:
+    {
+        elements: [
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+
+        ]
+    }
+};
+
+const DESIGNPANEL23: IExpansionPanel = {
     title: "==========================",
     description: "",
     content: null
 };
 
-const DESIGNPANEL20: IExpansionPanel = {
-    title: "Whether to select a graphic image design or a partial design of an article in the case of a design that is an image",
-    description: "",
-    content: null
-}
-const DESIGNPANEL21: IExpansionPanel = {
-    title: "Whether trademark registration is necessary for graphic image designs",
-    description: "",
-    content: null
-}
-const DESIGNPANEL22: IExpansionPanel = {
-    title: "Whether to select a whole design or a partial design",
-    description: "",
-    content: null
-}
-const DESIGNPANEL23: IExpansionPanel = {
-    title: "Whether to file a single design or multiple designs",
-    description: "",
-    content: null
-}
 const DESIGNPANEL24: IExpansionPanel = {
     title: "Batch application of multiple designs",
     description: "",
-    content: null
+    content:
+    {
+        elements: [
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+
+        ]
+    }
 }
 const DESIGNPANEL25: IExpansionPanel = {
     title: "Design of a set of articles",
