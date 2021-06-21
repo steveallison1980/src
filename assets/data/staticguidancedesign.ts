@@ -1266,7 +1266,7 @@ export const DESIGNGUIDANCECONTENTOLD: IContent = {
             }]
         },
         {
-            type: "header",      // HEREEE
+            type: "header",
             objs: [{
                 text: "Figures",
                 type: "h2",
@@ -1518,7 +1518,7 @@ export const DESIGNGUIDANCECONTENTOLD: IContent = {
         {
             type: "header",
             objs: [{
-                text: "Duration of new design rights",
+                text: "Duration of new design rights",          // HEREEE
                 type: "h3",
                 classes: null
             }]
@@ -4101,15 +4101,7 @@ const DESIGNPANEL31: IExpansionPanel = {
     }
 };
 
-// TODO: FROM HEREEE
-
 const DESIGNPANEL32: IExpansionPanel = {
-    title: "====================",
-    description: "",
-    content: null
-};
-
-const DESIGNPANEL33: IExpansionPanel = {
     title: "Power of Attorney",
     description: "",
     content:
@@ -4120,7 +4112,37 @@ const DESIGNPANEL33: IExpansionPanel = {
                 objs: [{
                     spans: [
                         {
-                            text: "",
+                            text: "A Japanese patent application can be filed without a Power of Attorney (PoA). However, in later stages, the application cannot be divided or appealed without a PoA. In order to ensure smooth patent prosecution, we request a PoA when we represent a client.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "A general power of attorney form may be submitted to the JPO in order to cover all future cases.  A General Power of Attorney system is very convenient compared to a non-general power of attorney that must be executed and filed individually for each patent application.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "No notarization or legalization is required for the Power of Attorney.",
                             url: null,
                             routerlink: null,
                             tooltip: null,
@@ -4132,8 +4154,9 @@ const DESIGNPANEL33: IExpansionPanel = {
             },
         ]
     }
-}
-const DESIGNPANEL34: IExpansionPanel = {
+};
+
+const DESIGNPANEL33: IExpansionPanel = {
     title: "Priority certificate",
     description: "",
     content:
@@ -4144,7 +4167,7 @@ const DESIGNPANEL34: IExpansionPanel = {
                 objs: [{
                     spans: [
                         {
-                            text: "",
+                            text: "It is necessary to claim a priority right and submit a priority certificate or DAS code. The procedure therefor differs depending on the design application route.",
                             url: null,
                             routerlink: null,
                             tooltip: null,
@@ -4156,8 +4179,9 @@ const DESIGNPANEL34: IExpansionPanel = {
             },
         ]
     }
-}
-const DESIGNPANEL35: IExpansionPanel = {
+};
+
+const DESIGNPANEL34: IExpansionPanel = {
     title: "Hague route",
     description: "",
     content:
@@ -4168,7 +4192,7 @@ const DESIGNPANEL35: IExpansionPanel = {
                 objs: [{
                     spans: [
                         {
-                            text: "",
+                            text: "A prior right must be claimed at the time of the international application. A priority certificate or DAS code must be submitted within 3 months of the international publication date. Failure to do so will result in a notification from the JPO, and the priority certificate or DAS code must be submitted within 2 months of the notification.",
                             url: null,
                             routerlink: null,
                             tooltip: null,
@@ -4180,8 +4204,9 @@ const DESIGNPANEL35: IExpansionPanel = {
             },
         ]
     }
-}
-const DESIGNPANEL36: IExpansionPanel = {
+};
+
+const DESIGNPANEL35: IExpansionPanel = {
     title: "Paris route",
     description: "",
     content:
@@ -4192,7 +4217,7 @@ const DESIGNPANEL36: IExpansionPanel = {
                 objs: [{
                     spans: [
                         {
-                            text: "",
+                            text: "The Japanese application must be filed within 6 months of the earliest application date, together with the priority claim. The priority certificate or DAS code must be submitted to the JPO within 3 months of the application date.",
                             url: null,
                             routerlink: null,
                             tooltip: null,
@@ -4204,32 +4229,15 @@ const DESIGNPANEL36: IExpansionPanel = {
             },
         ]
     }
-}
-const DESIGNPANEL37: IExpansionPanel = {
+};
+
+const DESIGNPANEL36: IExpansionPanel = {
     title: "Design rights, interpreting the scope of the right, maintaining the right, annuities",
     description: "",
-    content:
-    {
-        elements: [
-            {
-                type: "paragraph",
-                objs: [{
-                    spans: [
-                        {
-                            text: "",
-                            url: null,
-                            routerlink: null,
-                            tooltip: null,
-                            classes: null
-                        }
-                    ],
-                    classes: null
-                }]
-            },
-        ]
-    }
-}
-const DESIGNPANEL38: IExpansionPanel = {
+    content: null
+};
+
+const DESIGNPANEL37: IExpansionPanel = {
     title: "Duration of a design right",
     description: "",
     content:
@@ -4240,7 +4248,7 @@ const DESIGNPANEL38: IExpansionPanel = {
                 objs: [{
                     spans: [
                         {
-                            text: "",
+                            text: "There are two types of currently effective design rights: those that were filed by March 31, 2022 (old design rights) and those that were filed on or after April 1, 2020 (new design rights).",
                             url: null,
                             routerlink: null,
                             tooltip: null,
@@ -4252,8 +4260,9 @@ const DESIGNPANEL38: IExpansionPanel = {
             },
         ]
     }
-}
-const DESIGNPANEL39: IExpansionPanel = {
+};
+
+const DESIGNPANEL38: IExpansionPanel = {
     title: "Duration of old design rights",
     description: "",
     content:
@@ -4264,7 +4273,7 @@ const DESIGNPANEL39: IExpansionPanel = {
                 objs: [{
                     spans: [
                         {
-                            text: "",
+                            text: "The duration of old design rights is 20 years from the registration date. The duration of related designs is 20 years from the registration date of the base design.",
                             url: null,
                             routerlink: null,
                             tooltip: null,
@@ -4276,8 +4285,9 @@ const DESIGNPANEL39: IExpansionPanel = {
             },
         ]
     }
-}
-const DESIGNPANEL40: IExpansionPanel = {
+};
+
+const DESIGNPANEL39: IExpansionPanel = {
     title: "Duration of new design rights",
     description: "",
     content:
@@ -4288,7 +4298,7 @@ const DESIGNPANEL40: IExpansionPanel = {
                 objs: [{
                     spans: [
                         {
-                            text: "",
+                            text: "The duration of old design rights is 25 years from the application date. The duration of related designs is 25 years from the registration date of the base design. So, the duration of new design rights is longer than that of old design rights.",
                             url: null,
                             routerlink: null,
                             tooltip: null,
@@ -4300,8 +4310,10 @@ const DESIGNPANEL40: IExpansionPanel = {
             },
         ]
     }
-}
-const DESIGNPANEL41: IExpansionPanel = {
+};
+
+// TODO: FROM HEREEE
+const DESIGNPANEL40: IExpansionPanel = {
     title: "Effective extension of old design rights",
     description: "",
     content:
@@ -4325,7 +4337,7 @@ const DESIGNPANEL41: IExpansionPanel = {
         ]
     }
 }
-const DESIGNPANEL42: IExpansionPanel = {
+const DESIGNPANEL41: IExpansionPanel = {
     title: "Annuities",
     description: "",
     content:
@@ -4349,7 +4361,7 @@ const DESIGNPANEL42: IExpansionPanel = {
         ]
     }
 }
-const DESIGNPANEL43: IExpansionPanel = {
+const DESIGNPANEL42: IExpansionPanel = {
     title: "Scope of protection of a design right",
     description: "",
     content:
@@ -4418,7 +4430,7 @@ const DESIGNACCORDION: IAccordion = {
         DESIGNPANEL40,
         DESIGNPANEL41,
         DESIGNPANEL42,
-        DESIGNPANEL43
+        // DESIGNPANEL43
     ]
 };
 export const DESIGNGUIDANCECONTENT: IContent = {
