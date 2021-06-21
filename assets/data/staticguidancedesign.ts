@@ -419,8 +419,6 @@ export const DESIGNGUIDANCECONTENTOLD: IContent = {
             }]
         },
 
-
-        // HEREEE 
         /*1677061
         *Image for displaying how full a train is
         *East Japan Railway Company
@@ -464,6 +462,8 @@ export const DESIGNGUIDANCECONTENTOLD: IContent = {
                 classes: null
             }]
         },
+
+        // HEREEE 
         /*1684747
         *Office building
         *Nippon Steel Engineering Co., Ltd.
@@ -2590,7 +2590,7 @@ const DESIGNPANEL9: IExpansionPanel = {
                 objs: [{
                     spans: [
                         {
-                            text: "",
+                            text: "A design of the external appearance of a building, and a partial interior of a building (such as a hall or room) can be registered.",
                             url: null,
                             routerlink: null,
                             tooltip: null,
@@ -2601,32 +2601,24 @@ const DESIGNPANEL9: IExpansionPanel = {
                 }]
             },
 
-            {
-                type: "paragraph",
-                objs: [{
-                    spans: [
-                        {
-                            text: "",
-                            url: null,
-                            routerlink: null,
-                            tooltip: null,
-                            classes: ["noselect"]
-                        }
-                    ],
-                    classes: null
-                }]
-            },
-
+            // TODO: Add blue translations
             {
                 type: "designexample",
                 objs: [{
-                    regno: "1681248",
-                    title: "Icon image",
-                    applicant: "TOTO Ltd.",
+                    regno: "1684747",
+                    title: "Office building",
+                    applicant: "Nippon Steel Engineering Co., Ltd.",
                     description: {
                         spans: [
                             {
-                                text: "",
+                                text: "The solid lines are what is claimed as a partial design. The dotted lines indicate only the borders between the claimed part and other parts of the building.",
+                                url: null,
+                                routerlink: null,
+                                tooltip: null,
+                                classes: ["noselect"]
+                            },
+                            {
+                                text: "※only some of the figures are shown",
                                 url: null,
                                 routerlink: null,
                                 tooltip: null,
@@ -2644,11 +2636,98 @@ const DESIGNPANEL9: IExpansionPanel = {
                                 type: "titledimage",
                                 objs: [
                                     {
-                                        title: "graphic image view",
+                                        title: "perspective view",
                                         img:
                                         {
                                             folder: "designmanual",
-                                            filename: "1681248_000001.jpg",
+                                            filename: "1684747_000001.jpg",
+                                            classes: ["small"]
+                                        }
+                                    }]
+                            },
+                            {
+                                type: "titledimage",
+                                objs: [
+                                    {
+                                        title: "front view",
+                                        img:
+                                        {
+                                            folder: "designmanual",
+                                            filename: "1684747_000002.jpg",
+                                            classes: ["small"]
+                                        }
+                                    }]
+                            },
+                        ]
+                    },
+                }]
+            },
+
+            {
+                type: "designexample",
+                objs: [{
+                    regno: "1567649",
+                    title: "",
+                    applicant: "",
+                    description: {
+                        spans: [
+                            {
+                                text: "The solid lines are what is claimed as a partial design. The dotted lines indicate only the borders between the claimed part and other parts of the building.",
+                                url: null,
+                                routerlink: null,
+                                tooltip: null,
+                                classes: ["noselect"]
+                            },
+                            {
+                                text: "※only some of the figures are shown",
+                                url: null,
+                                routerlink: null,
+                                tooltip: null,
+                                classes: ["noselect"]
+                            }
+                        ],
+                        classes: null
+                    },
+                    shortdesc: "",
+                    images: {
+                        gap: "20px",
+                        percent: "30",
+                        elements: [
+                            {
+                                type: "titledimage",
+                                objs: [
+                                    {
+                                        title: "cross-sectional perspective view omitting internal structure",
+                                        img:
+                                        {
+                                            folder: "designmanual",
+                                            filename: "1567649_000001.jpg",
+                                            classes: ["small"]
+                                        }
+                                    }]
+                            },
+                            {
+                                type: "titledimage",
+                                objs: [
+                                    {
+                                        title: "partial magnified view showing claimed portion",
+                                        img:
+                                        {
+                                            folder: "designmanual",
+                                            filename: "1567649_000002.jpg",
+                                            classes: ["small"]
+                                        }
+                                    }]
+                            },
+                            {
+                                type: "titledimage",
+                                objs: [
+                                    {
+                                        title: "perspective view",
+                                        img:
+                                        {
+                                            folder: "designmanual",
+                                            filename: "1567649_000003.jpg",
                                             classes: ["small"]
                                         }
                                     }]
@@ -2670,7 +2749,7 @@ const DESIGNPANEL10: IExpansionPanel = {
 const DESIGNPANEL11: IExpansionPanel = {
     title: "Interior designs (whole & partial)",
     description: "",
-    content: 
+    content:
     {
         elements: [
 
@@ -2747,13 +2826,54 @@ const DESIGNPANEL11: IExpansionPanel = {
                 }]
             },
 
+            {
+                type: "designexample",
+                objs: [{
+                    regno: "1681248",
+                    title: "Icon image",
+                    applicant: "TOTO Ltd.",
+                    description: {
+                        spans: [
+                            {
+                                text: "",
+                                url: null,
+                                routerlink: null,
+                                tooltip: null,
+                                classes: ["noselect"]
+                            }
+                        ],
+                        classes: null
+                    },
+                    shortdesc: "",
+                    images: {
+                        gap: "20px",
+                        percent: "30",
+                        elements: [
+                            {
+                                type: "titledimage",
+                                objs: [
+                                    {
+                                        title: "graphic image view",
+                                        img:
+                                        {
+                                            folder: "designmanual",
+                                            filename: "1681248_000001.jpg",
+                                            classes: ["small"]
+                                        }
+                                    }]
+                            },
+                        ]
+                    }
+                }]
+            },
+
         ]
     }
 }
 const DESIGNPANEL12: IExpansionPanel = {
     title: "Registration requirements",
     description: "",
-    content: 
+    content:
     {
         elements: [
 
