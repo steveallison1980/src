@@ -1,9 +1,13 @@
 <div>
+    
+    
     <span>JP Design Registration No.: {{getRegno()}}</span>
     <br>
     <span>Applicant: {{getApplicant()}}</span>
     <br>
     <span>Title: {{getTitle()}}</span>
+    <br>
+    <span *ngIf="hasShort()">({{getShort()}}) </span>
     <br>
     <app-paragraphrenderer *ngIf="hasDescription()" [paragraph]="getDescription()"></app-paragraphrenderer>
     <app-elementgridrenderer [grid]="getImages()"></app-elementgridrenderer>

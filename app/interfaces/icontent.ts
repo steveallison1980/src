@@ -52,6 +52,7 @@ export interface IDesignExample{
     regno: string;
     title: string;
     applicant: string;
+    shortdesc: string;
     description: IParagraph;
     images: IElementGrid;
 }
