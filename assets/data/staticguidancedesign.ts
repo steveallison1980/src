@@ -1152,7 +1152,7 @@ export const DESIGNGUIDANCECONTENTOLD: IContent = {
             }]
         },
         {
-            type: "header",    // HEREEE
+            type: "header",
             objs: [{
                 text: "Applicant and creator",
                 type: "h2",
@@ -1266,7 +1266,7 @@ export const DESIGNGUIDANCECONTENTOLD: IContent = {
             }]
         },
         {
-            type: "header",
+            type: "header",      // HEREEE
             objs: [{
                 text: "Figures",
                 type: "h2",
@@ -3835,13 +3835,7 @@ const DESIGNPANEL28: IExpansionPanel = {
 
 };
 
-// TODO: FROM HEREEE
 const DESIGNPANEL29: IExpansionPanel = {
-    title: "====================",
-    description: "",
-    content: null
-}
-const DESIGNPANEL30: IExpansionPanel = {
     title: "Recitation of the name of the article of the design",
     description: "",
     content:
@@ -3852,7 +3846,37 @@ const DESIGNPANEL30: IExpansionPanel = {
                 objs: [{
                     spans: [
                         {
-                            text: "",
+                            text: "The requirements for registration of the design and the scope of protection after registration will be judged based upon the article name and the figures.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "It is necessary to make clear what the article is in the recitation of the name of the article. If the intended use and function of the article cannot be ascertained from the recitation of the name of the article, explanation thereof must be provided.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "A clarity objection may be issued if the article is unclear due to a lack of explanation of the intended use and function of the article.",
                             url: null,
                             routerlink: null,
                             tooltip: null,
@@ -3864,8 +3888,9 @@ const DESIGNPANEL30: IExpansionPanel = {
             },
         ]
     }
-}
-const DESIGNPANEL31: IExpansionPanel = {
+};
+
+const DESIGNPANEL30: IExpansionPanel = {
     title: "Explanation of the design",
     description: "",
     content:
@@ -3876,7 +3901,7 @@ const DESIGNPANEL31: IExpansionPanel = {
                 objs: [{
                     spans: [
                         {
-                            text: "",
+                            text: "It is necessary to state whether or not the design is a whole design or a partial design. If it is a partial design, it is necessary to explain how to identify the portion for which the right is claimed.",
                             url: null,
                             routerlink: null,
                             tooltip: null,
@@ -3888,8 +3913,9 @@ const DESIGNPANEL31: IExpansionPanel = {
             },
         ]
     }
-}
-const DESIGNPANEL32: IExpansionPanel = {
+};
+
+const DESIGNPANEL31: IExpansionPanel = {
     title: "Figures",
     description: "",
     content:
@@ -3900,7 +3926,7 @@ const DESIGNPANEL32: IExpansionPanel = {
                 objs: [{
                     spans: [
                         {
-                            text: "",
+                            text: "It is possible to express the design by the orthographic projection method, wherein the design is clearly expressed with a sufficient number of figures, each of the same scale. Generally, it is desirable to include a front view, back view, left side view, right side view, top view, and bottom view as well as a perspective view.",
                             url: null,
                             routerlink: null,
                             tooltip: null,
@@ -3910,9 +3936,179 @@ const DESIGNPANEL32: IExpansionPanel = {
                     classes: null
                 }]
             },
+
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "Example of the orthographic projection method",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+
+            {
+                type: "elementgrid",
+                objs: [{
+                    gap: "20px",
+                    percent: "30",
+                    elements: [
+                        {
+                            type: "titledimage",
+                            objs: [
+                                {
+                                    title: "top view",
+                                    img:
+                                    {
+                                        folder: "designmanual",
+                                        filename: "top view.png",
+                                        classes: ["small"]
+                                    }
+                                }]
+                        },
+                        {
+                            type: "titledimage",
+                            objs: [
+                                {
+                                    title: "right side view",
+                                    img:
+                                    {
+                                        folder: "designmanual",
+                                        filename: "radio control toy right side view.png",
+                                        classes: ["small"]
+                                    }
+                                }]
+                        },
+                        {
+                            type: "titledimage",
+                            objs: [
+                                {
+                                    title: "front view",
+                                    img:
+                                    {
+                                        folder: "designmanual",
+                                        filename: "radio control toy front view.png",
+                                        classes: ["small"]
+                                    }
+                                }]
+                        },
+                        {
+                            type: "titledimage",
+                            objs: [
+                                {
+                                    title: "left side view",
+                                    img:
+                                    {
+                                        folder: "designmanual",
+                                        filename: "radio control toy left side view.png",
+                                        classes: ["small"]
+                                    }
+                                }]
+                        },
+                        {
+                            type: "titledimage",
+                            objs: [
+                                {
+                                    title: "back view",
+                                    img:
+                                    {
+                                        folder: "designmanual",
+                                        filename: "radio control toy back view.png",
+                                        classes: ["small"]
+                                    }
+                                }]
+                        },
+                        {
+                            type: "titledimage",
+                            objs: [
+                                {
+                                    title: "bottom view",
+                                    img:
+                                    {
+                                        folder: "designmanual",
+                                        filename: "radio control toy bottom view.png",
+                                        classes: ["small"]
+                                    }
+                                }]
+                        }]
+                },]
+            },
+
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: 'In the case of an application for a graphic image per se that is separate from any article or building, if the image is two-dimensional, it is sufficient to clearly express the design with one or more "graphic image view".',
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+
+            {
+                type: "designexample",
+                objs: [{
+                    regno: "1683628",
+                    title: "Image for facility management inspection",
+                    applicant: "Toppan Printing Co., Ltd.",
+                    description: {
+                        spans: [
+                            {
+                                text: "This image is an image of an icon for launching a smartphone application.",
+                                url: null,
+                                routerlink: null,
+                                tooltip: null,
+                                classes: ["noselect"]
+                            }
+                        ],
+                        classes: null
+                    },
+                    shortdesc: "image (icon)",
+                    images: {
+                        gap: "20px",
+                        percent: "30",
+                        elements: [
+                            {
+                                type: "titledimage",
+                                objs: [
+                                    {
+                                        title: "graphic image view",
+                                        img:
+                                        {
+                                            folder: "designmanual",
+                                            filename: "P15(P5_意匠登録1683628の1枚目と同一).jpg",
+                                            classes: ["small"]
+                                        }
+                                    }]
+                            },
+                        ]
+                    }
+                }]
+            },
+
         ]
     }
-}
+};
+
+// TODO: FROM HEREEE
+
+const DESIGNPANEL32: IExpansionPanel = {
+    title: "====================",
+    description: "",
+    content: null
+};
+
 const DESIGNPANEL33: IExpansionPanel = {
     title: "Power of Attorney",
     description: "",
