@@ -741,7 +741,7 @@ export const DESIGNGUIDANCECONTENTOLD: IContent = {
             }]
         },
         {
-            type: "header", // HEREEE 
+            type: "header", 
             objs: [{
                 text: "Checklist when applying for a design",
                 type: "h1",
@@ -770,9 +770,9 @@ export const DESIGNGUIDANCECONTENTOLD: IContent = {
         *secret design?
         *consider application of the grace period when novelty is lost*/
         {
-            type: "header",
+            type: "header", // HEREEE 
             objs: [{
-                text: "Selecting whether to file an independent design application or a related design application", 
+                text: "Selecting whether to file an independent design application or a related design application",
                 type: "h2",
                 classes: null
             }]
@@ -3094,7 +3094,6 @@ const DESIGNPANEL16: IExpansionPanel = {
                     classes: null
                 }]
             },
-
             {
                 type: "list",
                 objs: [
@@ -3162,7 +3161,6 @@ const DESIGNPANEL16: IExpansionPanel = {
     }
 };
 
-
 const DESIGNPANEL17: IExpansionPanel = {
     title: "Checklist when applying for a design",
     description: "",
@@ -3175,7 +3173,7 @@ const DESIGNPANEL17: IExpansionPanel = {
                 objs: [{
                     spans: [
                         {
-                            text: "",
+                            text: "Before filing a design application, the following items should be checked.",
                             url: null,
                             routerlink: null,
                             tooltip: null,
@@ -3185,8 +3183,77 @@ const DESIGNPANEL17: IExpansionPanel = {
                     classes: null
                 }]
             },
-
-            // TODO: List
+            {
+                type: "list",
+                objs: [
+                    {
+                        type: "ol",
+                        elements: [
+                            {
+                                type: "span",
+                                objs: [{
+                                    text: "independent design or related design? (important to consider when filing design variations: consider filing related designs)",
+                                    url: null,
+                                    routerlink: null,
+                                    tooltip: null,
+                                    classes: ["noselect"]
+                                }]
+                            },
+                            {
+                                type: "span",
+                                objs: [{
+                                    text: "consider how to apply for a design including a graphic image",
+                                    url: null,
+                                    routerlink: null,
+                                    tooltip: null,
+                                    classes: ["noselect"]
+                                }]
+                            },
+                            {
+                                type: "span",
+                                objs: [{
+                                    text: "whole design or partial design?",
+                                    url: null,
+                                    routerlink: null,
+                                    tooltip: null,
+                                    classes: ["noselect"]
+                                }]
+                            },
+                            {
+                                type: "span",
+                                objs: [{
+                                    text: "one design or multiple designs?",
+                                    url: null,
+                                    routerlink: null,
+                                    tooltip: null,
+                                    classes: ["noselect"]
+                                }]
+                            },
+                            {
+                                type: "span",
+                                objs: [{
+                                    text: "secret design?",
+                                    url: null,
+                                    routerlink: null,
+                                    tooltip: null,
+                                    classes: ["noselect"]
+                                }]
+                            },
+                            {
+                                type: "span",
+                                objs: [{
+                                    text: "consider application of the grace period when novelty is lost",
+                                    url: null,
+                                    routerlink: null,
+                                    tooltip: null,
+                                    classes: ["noselect"]
+                                }]
+                            },
+                        ],
+                        classes: null,
+                    },
+                ]
+            },
             {
                 type: "paragraph",
                 objs: [{
