@@ -5017,13 +5017,20 @@ const DESIGNPANEL48: IExpansionPanel = {
                 type: "paragraph",
                 objs: [{
                     spans: [
-                        { // missing URL...?
-                            text: "The presumption of negligence and estimated damages are similar to the case of patents. Please see our guidance thereon in the patent section at the link below:",
+                        { 
+                            text: "The presumption of negligence and estimated damages are similar to the case of patents. Please see our guidance thereon in the ",
                             url: null,
                             routerlink: null,
                             tooltip: null,
                             classes: null
-                        }
+                        },
+                        { 
+                            text: "patent section.",
+                            url: null,
+                            routerlink: "/guidance",
+                            tooltip: null,
+                            classes: null
+                        },
                     ],
                     classes: null
                 }]
@@ -5042,13 +5049,21 @@ const DESIGNPANEL49: IExpansionPanel = {
                 type: "paragraph",
                 objs: [{
                     spans: [
-                        { // missing URL...?
-                            text: "In addition, in an infringement trial, a defendant can argue that the design registration is invalid. Please see our corresponding guidance thereon in the patent section at the link below:",
+                        { 
+                            text: "In addition, in an infringement trial, a defendant can argue that the design registration is invalid. Please see our corresponding guidance thereon in the",
                             url: null,
                             routerlink: null,
                             tooltip: null,
                             classes: null
+                        },
+                        { 
+                            text: "patent section.",
+                            url: null,
+                            routerlink: "/guidance",
+                            tooltip: null,
+                            classes: null
                         }
+                        
                     ],
                     classes: null
                 }]
