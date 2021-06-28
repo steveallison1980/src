@@ -1947,7 +1947,7 @@ const DESIGNPANEL3: IExpansionPanel = {
                 objs: [
                     {
                         text: "Design of an article (whole design)",
-                        type: "h2",
+                        type: "h3",
                         classes: null,
                     }]
             },
@@ -2103,7 +2103,7 @@ const DESIGNPANEL3: IExpansionPanel = {
                     shortdesc: "",
                     images: {
                         gap: "20px",
-                        percent: "30",
+                        percent: "100",
                         elements: [
                             {
                                 type: "titledimage",
@@ -2114,7 +2114,7 @@ const DESIGNPANEL3: IExpansionPanel = {
                                         {
                                             folder: "designmanual",
                                             filename: "1417355_000005.jpg",
-                                            classes: ["small"]
+                                            classes: ["half"]
                                         }
                                     }]
                             },
@@ -2146,7 +2146,7 @@ const DESIGNPANEL3: IExpansionPanel = {
                         {
                             folder: "designmanual",
                             filename: "tire.bmp",
-                            classes: ["small"]
+                            classes: ["half"]
                         }
                     }]
             },
@@ -2156,7 +2156,7 @@ const DESIGNPANEL3: IExpansionPanel = {
                 objs: [
                     {
                         text: "Design of an article (partial design)",
-                        type: "h2",
+                        type: "h3",
                         classes: null,
                     }]
             },
@@ -2289,7 +2289,7 @@ const DESIGNPANEL3: IExpansionPanel = {
                 objs: [
                     {
                         text: "Graphic image design",
-                        type: "h2",
+                        type: "h3",
                         classes: null,
                     }]
             },
@@ -2346,7 +2346,7 @@ const DESIGNPANEL3: IExpansionPanel = {
                     shortdesc: "image (icon)",
                     images: {
                         gap: "20px",
-                        percent: "30",
+                        percent: "100",
                         elements: [
                             {
                                 type: "titledimage",
@@ -2357,7 +2357,7 @@ const DESIGNPANEL3: IExpansionPanel = {
                                         {
                                             folder: "designmanual",
                                             filename: "1681248_000001.jpg",
-                                            classes: ["small"]
+                                            classes: ["half"]
                                         }
                                     }]
                             },
@@ -2387,7 +2387,7 @@ const DESIGNPANEL3: IExpansionPanel = {
                     shortdesc: "image (screen for operation)",
                     images: {
                         gap: "20px",
-                        percent: "30",
+                        percent: "45",
                         elements: [
                             {
                                 type: "titledimage",
@@ -2425,7 +2425,7 @@ const DESIGNPANEL3: IExpansionPanel = {
                 objs: [
                     {
                         text: "Partial design of a graphic image design",
-                        type: "h2",
+                        type: "h3",
                         classes: null,
                     }]
             },
@@ -2528,7 +2528,7 @@ const DESIGNPANEL3: IExpansionPanel = {
                                         {
                                             folder: "designmanual",
                                             filename: "1676845_000001.jpg",
-                                            classes: ["small"]
+                                            classes: ["half"]
                                         }
                                     }]
                             },
@@ -2542,7 +2542,7 @@ const DESIGNPANEL3: IExpansionPanel = {
                 objs: [
                     {
                         text: "Building designs (whole & partial)",
-                        type: "h2",
+                        type: "h3",
                         classes: null,
                     }]
             },
@@ -2590,7 +2590,7 @@ const DESIGNPANEL3: IExpansionPanel = {
                     shortdesc: "",
                     images: {
                         gap: "20px",
-                        percent: "30",
+                        percent: "45",
                         elements: [
                             {
                                 type: "titledimage",
@@ -2709,7 +2709,7 @@ const DESIGNPANEL3: IExpansionPanel = {
                 objs: [
                     {
                         text: "Interior designs (whole & partial)",
-                        type: "h2",
+                        type: "h3",
                         classes: null,
                     }]
             },
@@ -3272,7 +3272,7 @@ const DESIGNPANEL5: IExpansionPanel = {
                     {
                         folder: "designmanual",
                         filename: "related designs 3.jpg",
-                        classes: ["small"]
+                        classes: ["full"]
                     }]
             },
             {
@@ -3312,7 +3312,7 @@ const DESIGNPANEL5: IExpansionPanel = {
                     {
                         folder: "designmanual",
                         filename: "related designs 1.jpg",
-                        classes: ["small"]
+                        classes: ["half"]
                     }]
             },
 
@@ -3353,7 +3353,7 @@ const DESIGNPANEL5: IExpansionPanel = {
                     {
                         folder: "designmanual",
                         filename: "related designs 2.jpg",
-                        classes: ["small"]
+                        classes: ["half"]
                     }]
             },
             {
@@ -3924,7 +3924,7 @@ const DESIGNPANEL6: IExpansionPanel = {
                                     img:
                                     {
                                         folder: "designmanual",
-                                        filename: "top view.png",
+                                        filename: "radio control toy top view.png",
                                         classes: ["small"]
                                     }
                                 }]
@@ -4034,7 +4034,7 @@ const DESIGNPANEL6: IExpansionPanel = {
                     shortdesc: "image (icon)",
                     images: {
                         gap: "20px",
-                        percent: "30",
+                        percent: "90",
                         elements: [
                             {
                                 type: "titledimage",
@@ -4045,7 +4045,7 @@ const DESIGNPANEL6: IExpansionPanel = {
                                         {
                                             folder: "designmanual",
                                             filename: "P15(P5_意匠登録1683628の1枚目と同一).jpg",
-                                            classes: ["small"]
+                                            classes: ["half"]
                                         }
                                     }]
                             },
