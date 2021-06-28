@@ -2062,7 +2062,7 @@ const DESIGNPANEL3: IExpansionPanel = {
                 objs: [
                     {
                         text: "Functional Article",
-                        type: "h3",
+                        type: "h4",
                         classes: null,
                     }]
             },
@@ -2861,7 +2861,7 @@ const DESIGNPANEL4: IExpansionPanel = {
                 objs: [
                     {
                         text: "Novelty",
-                        type: "h2",
+                        type: "h3",
                         classes: null,
                     }]
             },
@@ -2909,7 +2909,7 @@ const DESIGNPANEL4: IExpansionPanel = {
                 objs: [
                     {
                         text: "Exceptions to loss of novelty (grace period)",
-                        type: "h2",
+                        type: "h3",
                         classes: null,
                     }]
             },
@@ -2928,7 +2928,6 @@ const DESIGNPANEL4: IExpansionPanel = {
                     classes: null
                 }]
             },
-
             {
                 type: "paragraph",
                 objs: [{
@@ -2950,7 +2949,7 @@ const DESIGNPANEL4: IExpansionPanel = {
                 objs: [
                     {
                         text: "Creative difficulty",
-                        type: "h2",
+                        type: "h3",
                         classes: null,
                     }]
             },
@@ -2975,7 +2974,7 @@ const DESIGNPANEL4: IExpansionPanel = {
                 objs: [
                     {
                         text: "First to file",
-                        type: "h2",
+                        type: "h3",
                         classes: null,
                     }]
             },
@@ -2994,7 +2993,6 @@ const DESIGNPANEL4: IExpansionPanel = {
                     classes: null
                 }]
             },
-
             {
                 type: "paragraph",
                 objs: [{
@@ -3010,7 +3008,6 @@ const DESIGNPANEL4: IExpansionPanel = {
                     classes: null
                 }]
             },
-
             {
                 type: "paragraph",
                 objs: [{
@@ -3032,7 +3029,7 @@ const DESIGNPANEL4: IExpansionPanel = {
                 objs: [
                     {
                         text: "That the design be definite",
-                        type: "h2",
+                        type: "h3",
                         classes: null,
                     }]
             },
@@ -3098,7 +3095,6 @@ const DESIGNPANEL4: IExpansionPanel = {
                     classes: null
                 }]
             },
-
             {
                 type: "paragraph",
                 objs: [{
@@ -3232,7 +3228,7 @@ const DESIGNPANEL5: IExpansionPanel = {
                 objs: [
                     {
                         text: "Selecting whether to file an independent design application or a related design application",
-                        type: "h2",
+                        type: "h3",
                         classes: null,
                     }]
             },
@@ -3392,7 +3388,7 @@ const DESIGNPANEL5: IExpansionPanel = {
                 objs: [
                     {
                         text: "Whether to select a graphic image design or a partial design of an article in the case of a design that is an image",
-                        type: "h2",
+                        type: "h3",
                         classes: null,
                     }]
             },
@@ -3476,7 +3472,7 @@ const DESIGNPANEL5: IExpansionPanel = {
                 objs: [
                     {
                         text: "Whether trademark registration is necessary for graphic image designs",
-                        type: "h3",
+                        type: "h4",
                         classes: null,
                     }]
             },
@@ -3516,7 +3512,7 @@ const DESIGNPANEL5: IExpansionPanel = {
                 objs: [
                     {
                         text: "Whether to select a whole design or a partial design",
-                        type: "h2",
+                        type: "h3",
                         classes: null,
                     }]
             },
@@ -3586,7 +3582,7 @@ const DESIGNPANEL5: IExpansionPanel = {
                 objs: [
                     {
                         text: "Whether to file a single design or multiple designs",
-                        type: "h2",
+                        type: "h3",
                         classes: null,
                     }]
             },
@@ -3612,7 +3608,7 @@ const DESIGNPANEL5: IExpansionPanel = {
                 objs: [
                     {
                         text: "Batch application of multiple designss",
-                        type: "h2",
+                        type: "h4",
                         classes: null,
                     }]
             },
@@ -3652,7 +3648,7 @@ const DESIGNPANEL5: IExpansionPanel = {
                 objs: [
                     {
                         text: "Design of a set of articles",
-                        type: "h2",
+                        type: "h4",
                         classes: null,
                     }]
             },
@@ -3678,7 +3674,7 @@ const DESIGNPANEL5: IExpansionPanel = {
                 objs: [
                     {
                         text: "Secret designs",
-                        type: "h2",
+                        type: "h3",
                         classes: null,
                     }]
             },
@@ -3703,7 +3699,7 @@ const DESIGNPANEL5: IExpansionPanel = {
                 objs: [
                     {
                         text: "Asserting exemption to loss of novelty and proof requirement",
-                        type: "h2",
+                        type: "h3",
                         classes: null,
                     }]
             },
@@ -3752,7 +3748,7 @@ const DESIGNPANEL6: IExpansionPanel = {
                 objs: [
                     {
                         text: "Applicant and creator",
-                        type: "h2",
+                        type: "h3",
                         classes: null,
                     }]
             },
@@ -3792,7 +3788,7 @@ const DESIGNPANEL6: IExpansionPanel = {
                 objs: [
                     {
                         text: "Recitation of the name of the article of the design",
-                        type: "h2",
+                        type: "h3",
                         classes: null,
                     }]
             },
@@ -3848,7 +3844,7 @@ const DESIGNPANEL6: IExpansionPanel = {
                 objs: [
                     {
                         text: "Explanation of the design",
-                        type: "h2",
+                        type: "h3",
                         classes: null,
                     }]
             },
@@ -3874,7 +3870,7 @@ const DESIGNPANEL6: IExpansionPanel = {
                 objs: [
                     {
                         text: "Figures",
-                        type: "h2",
+                        type: "h3",
                         classes: null,
                     }]
             },
@@ -4060,7 +4056,7 @@ const DESIGNPANEL6: IExpansionPanel = {
                 objs: [
                     {
                         text: "Power of Attorney",
-                        type: "h2",
+                        type: "h3",
                         classes: null,
                     }]
             },
@@ -4115,7 +4111,7 @@ const DESIGNPANEL6: IExpansionPanel = {
                 objs: [
                     {
                         text: "Priority certificate",
-                        type: "h2",
+                        type: "h3",
                         classes: null,
                     }]
             },
@@ -4140,7 +4136,7 @@ const DESIGNPANEL6: IExpansionPanel = {
                 objs: [
                     {
                         text: "Hague route",
-                        type: "h2",
+                        type: "h4",
                         classes: null,
                     }]
             },
@@ -4166,7 +4162,7 @@ const DESIGNPANEL6: IExpansionPanel = {
                 objs: [
                     {
                         text: "Paris route",
-                        type: "h2",
+                        type: "h4",
                         classes: null,
                     }]
             },
@@ -4202,7 +4198,7 @@ const DESIGNPANEL7: IExpansionPanel = {
                 objs: [
                     {
                         text: "Duration of a design right",
-                        type: "h2",
+                        type: "h3",
                         classes: null,
                     }]
             },
@@ -4228,7 +4224,7 @@ const DESIGNPANEL7: IExpansionPanel = {
                 objs: [
                     {
                         text: "Duration of old design rights",
-                        type: "h2",
+                        type: "h3",
                         classes: null,
                     }]
             },
@@ -4254,7 +4250,7 @@ const DESIGNPANEL7: IExpansionPanel = {
                 objs: [
                     {
                         text: "Duration of new design rights",
-                        type: "h2",
+                        type: "h3",
                         classes: null,
                     }]
             },
@@ -4280,7 +4276,7 @@ const DESIGNPANEL7: IExpansionPanel = {
                 objs: [
                     {
                         text: "Effective extension of old design rights",
-                        type: "h2",
+                        type: "h3",
                         classes: null,
                     }]
             },
@@ -4306,7 +4302,7 @@ const DESIGNPANEL7: IExpansionPanel = {
                 objs: [
                     {
                         text: "Annuities",
-                        type: "h2",
+                        type: "h3",
                         classes: null,
                     }]
             },
@@ -4337,7 +4333,7 @@ const DESIGNPANEL7: IExpansionPanel = {
                             objs: [
                                 {
                                     text: "Year",
-                                    type: "h2",
+                                    type: "h3", // may need to consider making smaller
                                     classes: null,
                                 }]
                         },
@@ -4346,7 +4342,7 @@ const DESIGNPANEL7: IExpansionPanel = {
                             objs: [
                                 {
                                     text: "Annuity",
-                                    type: "h2",
+                                    type: "h3", // may need to consider making smaller
                                     classes: null,
                                 }]
                         },
@@ -4469,7 +4465,7 @@ const DESIGNPANEL7: IExpansionPanel = {
                 objs: [
                     {
                         text: "Scope of protection of a design right",
-                        type: "h2",
+                        type: "h3",
                         classes: null,
                     }]
             },
@@ -4585,7 +4581,7 @@ const DESIGNPANEL7: IExpansionPanel = {
                 objs: [
                     {
                         text: "Independent designs and Related designs",
-                        type: "h2",
+                        type: "h3",
                         classes: null,
                     }]
             },
@@ -4611,7 +4607,7 @@ const DESIGNPANEL7: IExpansionPanel = {
                 objs: [
                     {
                         text: "Partial designs",
-                        type: "h2",
+                        type: "h3",
                         classes: null,
                     }]
             },
@@ -4637,7 +4633,7 @@ const DESIGNPANEL7: IExpansionPanel = {
                 objs: [
                     {
                         text: "Graphic image designs",
-                        type: "h2",
+                        type: "h3",
                         classes: null,
                     }]
             },
@@ -4713,7 +4709,7 @@ const DESIGNPANEL8: IExpansionPanel = {
                 objs: [
                     {
                         text: "Reasons for Invalidation",
-                        type: "h2",
+                        type: "h3",
                         classes: null,
                     }]
             },
@@ -4799,7 +4795,7 @@ const DESIGNPANEL8: IExpansionPanel = {
                 objs: [
                     {
                         text: "Length of design invalidation proceedings",
-                        type: "h2",
+                        type: "h3",
                         classes: null,
                     }]
             },
@@ -4824,7 +4820,7 @@ const DESIGNPANEL8: IExpansionPanel = {
                 objs: [
                     {
                         text: "Trial procedure",
-                        type: "h2",
+                        type: "h3",
                         classes: null,
                     }]
             },
@@ -4864,7 +4860,7 @@ const DESIGNPANEL8: IExpansionPanel = {
                 objs: [
                     {
                         text: "Relation to pending infringement lawsuit",
-                        type: "h2",
+                        type: "h3",
                         classes: null,
                     }]
             },
@@ -5004,16 +5000,17 @@ const DESIGNPANEL10: IExpansionPanel = {
                     classes: null
                 }]
             },
-        ]
-    }
-};
 
-const DESIGNPANEL11: IExpansionPanel = {
-    title: "Patent Guidance",
-    description: "",
-    content:
-    {
-        elements: [
+
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "Relation to pending infringement lawsuit",
+                        type: "h3",
+                        classes: null,
+                    }]
+            },
             {
                 type: "paragraph",
                 objs: [{
@@ -5086,7 +5083,6 @@ const DESIGNACCORDION: IAccordion = {
         DESIGNPANEL8,
         DESIGNPANEL9,
         DESIGNPANEL10,
-        DESIGNPANEL11,
     ]
 };
 export const DESIGNGUIDANCECONTENT: IContent = {
