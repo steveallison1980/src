@@ -2550,7 +2550,7 @@ const DESIGNPANEL8: IExpansionPanel = {
                     shortdesc: "",
                     images: {
                         gap: "20px",
-                        percent: "30",
+                        percent: "90",
                         elements: [
                             {
                                 type: "titledimage",
