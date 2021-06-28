@@ -4625,7 +4625,462 @@ const DESIGNPANEL42: IExpansionPanel = {
             },
         ]
     }
-}
+};
+
+const DESIGNPANEL43: IExpansionPanel = {
+    title: "Independent designs and Related designs", 
+    description: "",
+    content:
+    {
+        elements: [
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "Design rights can be for an independent design or for a related design. The design rights for an independent design and its related designs have respectively independent scopes of protection. Accordingly, the scope of protection of a group of related designs, as a whole, is broader the more related designs it comprises.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+        ]
+    }
+};
+
+const DESIGNPANEL44: IExpansionPanel = {
+    title: "Partial designs", // 部分意匠
+    description: "",
+    content:
+    {
+        elements: [
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "Design rights for partial designs do not merely protect the portion of the article they pertain to independently. A partial design right is evaluated considering its position in the article as a whole, its size, the and scope proportion of the article as a whole that it constitutes, and the like. A partial design right is effective against designs sharing the same creative points and overall appearance.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+        ]
+    }
+};
+
+const DESIGNPANEL45: IExpansionPanel = {
+    title: "Graphic image designs", // 画像意匠
+    description: "",
+    content:
+    {
+        elements: [
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "A graphic image design can be registered for an image for operating a device or as a image for displaying the result of operating a device. The intended use (what kind of devices it will be used in) and what kind of device's display result it constitutes will affect how an image design right is interpreted. Accordingly, the scope of protection will be decided considering the form of the graphic image itself and the intended use of the graphic image.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+        ]
+    }
+};
+
+const DESIGNPANEL46: IExpansionPanel = {
+    title: "Invalidation trial", // 部分意匠
+    description: "",
+    content:
+    {
+        elements: [
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "It is possible to file an invalidation trial disputing the validity of a registered design.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "The claimant in an invalidation trial must be an interested party, and must file the claim to the JPO. Most reasons for rejection such as novelty, difficulty of creation, and the like can be asserted as reasons for invalidation. Self-collision, from which related designs are exempt, constitutes a reason for invalidation if similar designs are granted as independent designs.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "Reasons for Invalidation",
+                        type: "h2",
+                        classes: null,
+                    }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "A demander must have a legal interest in the registered design in question.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "Most requirements for design registration are argued under invalidation grounds.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "There is no time limitation for filing grounds of invalidation. The request for invalidation can file after the expiration of the registered design.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "The opposition is examined a panel of Board of Appeal Examiners (usually three examiners).",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "Unlike with patents where the owner of the right has the opportunity to amend claims in response to an invalidation attack, a design right owner must repudiate the attack from the outset in an invalidation trial. This makes is all the more important to ensure that the figures and the name of the article are correct at the time of the application.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+
+
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "Length of design invalidation proceedings",
+                        type: "h2",
+                        classes: null,
+                    }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "Design invalidation proceedings will take generally it will take about one year.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "Trial procedure",
+                        type: "h2",
+                        classes: null,
+                    }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "The trial is adversarial and based on written arguments.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "The losing party can appeal against the JPO decision to the IP High Court to seek cancellation of the decision. When the decision of invalidation becomes conclusive, the registration is invalidated retroactively.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "Relation to pending infringement lawsuit",
+                        type: "h2",
+                        classes: null,
+                    }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "Invalidation trials are often filed as counter actions against the infringement action. Filing the invalidation at the JPO cannot automatically stay the court proceedings. In practice, the court rarely stays its patent infringement proceedings.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+        ]
+    }
+};
+
+
+const DESIGNPANEL47: IExpansionPanel = {
+    title: "Infringement",
+    description: "",
+    content:
+    {
+        elements: [
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "There is a presumption of negligence in the infringement of registered designs without permission, and an injunction claim can be made in the case of such infringement. Also, the act of making or distributing a computer program that produces an infringing design constitutes indirect infringement. The act of holding a product that infringes a design right for the purpose of selling or exporting also constitutes indirect infringement. A person who intentionally infringes a design right is subject to criminal penalties, and if a person in charge of the company commits an infringement, the company will also be fined.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            
+        ]
+    }
+};
+
+const DESIGNPANEL48: IExpansionPanel = {
+    title: "Court cases",
+    description: "",
+    content:
+    {
+        elements: [
+
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "Jurisdictions",
+                            url: "https://www.courts.go.jp/english/index.html",
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "The respective district courts have jurisdiction over design right cases.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "When a district court in eastern Japan has jurisdiction, it is possible to bring the case at that district court or at the Tokyo District Court (Civil Procedure Code, Article 6-2).",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "When a district court in western Japan has jurisdiction, it is similarly possible to bring the case at that district court or at the Osaka District Court.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        { // missing URL...?
+                            text: "The presumption of negligence and estimated damages are similar to the case of patents. Please see our guidance thereon in the patent section at the link below:",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+        ]
+    }
+};
+
+const DESIGNPANEL49: IExpansionPanel = {
+    title: "Patent Guidance",
+    description: "",
+    content:
+    {
+        elements: [
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        { // missing URL...?
+                            text: "In addition, in an infringement trial, a defendant can argue that the design registration is invalid. Please see our corresponding guidance thereon in the patent section at the link below:",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+        ]
+    }
+};
+
+// const DESIGNPANEL50: IExpansionPanel = {
+//     title: "TITLE",
+//     description: "",
+//     content:
+//     {
+//         elements: [
+//             {
+//                 type: "paragraph",
+//                 objs: [{
+//                     spans: [
+//                         {
+//                             text: "",
+//                             url: null,
+//                             routerlink: null,
+//                             tooltip: null,
+//                             classes: null
+//                         }
+//                     ],
+//                     classes: null
+//                 }]
+//             },
+//         ]
+//     }
+// };
 
 const DESIGNACCORDION: IAccordion = {
     panels: [
@@ -4671,7 +5126,13 @@ const DESIGNACCORDION: IAccordion = {
         DESIGNPANEL40,
         DESIGNPANEL41,
         DESIGNPANEL42,
-        // DESIGNPANEL43
+        DESIGNPANEL43,
+        DESIGNPANEL44,
+        DESIGNPANEL45,
+        DESIGNPANEL46,
+        DESIGNPANEL47,
+        DESIGNPANEL48,
+        DESIGNPANEL49
     ]
 };
 export const DESIGNGUIDANCECONTENT: IContent = {
