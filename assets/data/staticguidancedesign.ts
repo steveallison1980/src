@@ -1653,7 +1653,7 @@ export const DESIGNGUIDANCECONTENTOLD: IContent = {
                 classes: null
             }]
         },
-        {// HEREEE
+        {
             type: "header",
             objs: [{
                 text: "Scope of protection of a design right",
@@ -1940,31 +1940,17 @@ const DESIGNPANEL3: IExpansionPanel = {
                     ],
                     classes: null
                 }]
-            }]
-    }
-};
-const DESIGNPANEL4: IExpansionPanel = {
-    title: "Design of an article (whole design)",
-    description: "",
-    content:
-    {
-        elements: [
-            // example of how to add a paragraph.
-            // {
-            //     type: "paragraph",
-            //     objs: [{
-            //         spans: [
-            //             {
-            //             text: null,
-            //             url: null,
-            //             routerlink: null,
-            //             tooltip: null,
-            //             classes: ["noselect"]
-            //             }
-            //         ],
-            //         classes:null
-            //     }]
-            // },
+            },
+
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "Design of an article (whole design)",
+                        type: "h2",
+                        classes: null,
+                    }]
+            },
             {
                 type: "designexample",
                 objs: [{
@@ -1974,7 +1960,7 @@ const DESIGNPANEL4: IExpansionPanel = {
                     description: {
                         spans: [
                             {
-                                text: "TODO",
+                                text: "",
                                 url: null,
                                 routerlink: null,
                                 tooltip: null,
@@ -2069,16 +2055,17 @@ const DESIGNPANEL4: IExpansionPanel = {
                         ]
                     }
                 }]
-            }
-        ]
-    }
-};
-const DESIGNPANEL5: IExpansionPanel = {
-    title: "Functional Article",
-    description: "",
-    content:
-    {
-        elements: [
+            },
+
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "Functional Article",
+                        type: "h3",
+                        classes: null,
+                    }]
+            },
             {
                 type: "paragraph",
                 objs: [{
@@ -2162,32 +2149,17 @@ const DESIGNPANEL5: IExpansionPanel = {
                             classes: ["small"]
                         }
                     }]
-            }
-        ]
-    }
-};
+            },
 
-const DESIGNPANEL6: IExpansionPanel = {
-    title: "Design of an article (partial design)",
-    description: "",
-    content:
-    {
-        elements: [
-            // {
-            //     type: "paragraph",
-            //     objs: [{
-            //         spans: [
-            //             {
-            //             text: "TODO",
-            //             url: null,
-            //             routerlink: null,
-            //             tooltip: null,
-            //             classes: ["noselect"]
-            //             }
-            //         ],
-            //         classes:null
-            //     }]
-            // },
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "Design of an article (partial design)",
+                        type: "h2",
+                        classes: null,
+                    }]
+            },
             {
                 type: "paragraph",
                 objs: [{
@@ -2310,18 +2282,17 @@ const DESIGNPANEL6: IExpansionPanel = {
                     }
                 }]
             },
-        ]
-    }
-};
 
-const DESIGNPANEL7: IExpansionPanel = {
-    title: "Graphic image design",
-    description: "",
-    content:
 
-    {
-        elements: [
-
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "Graphic image design",
+                        type: "h2",
+                        classes: null,
+                    }]
+            },
             {
                 type: "paragraph",
                 objs: [{
@@ -2449,19 +2420,15 @@ const DESIGNPANEL7: IExpansionPanel = {
                 }]
             },
 
-        ]
-    }
-
-
-};
-
-const DESIGNPANEL8: IExpansionPanel = {
-    title: "Partial design of a graphic image design",
-    description: "",
-    content:
-
-    {
-        elements: [
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "Partial design of a graphic image design",
+                        type: "h2",
+                        classes: null,
+                    }]
+            },
             {
                 type: "designexample",
                 objs: [{
@@ -2570,17 +2537,15 @@ const DESIGNPANEL8: IExpansionPanel = {
                 }]
             },
 
-        ]
-    }
-};
-
-const DESIGNPANEL9: IExpansionPanel = {
-    title: "Building designs (whole & partial)",
-    description: "",
-    content:
-    {
-        elements: [
-
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "Building designs (whole & partial)",
+                        type: "h2",
+                        classes: null,
+                    }]
+            },
             {
                 type: "paragraph",
                 objs: [{
@@ -2739,17 +2704,15 @@ const DESIGNPANEL9: IExpansionPanel = {
                 }]
             },
 
-        ]
-    }
-};
-
-const DESIGNPANEL10: IExpansionPanel = {
-    title: "Interior designs (whole & partial)",
-    description: "",
-    content:
-    {
-        elements: [
-
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "Interior designs (whole & partial)",
+                        type: "h2",
+                        classes: null,
+                    }]
+            },
             {
                 type: "paragraph",
                 objs: [{
@@ -2888,21 +2851,20 @@ const DESIGNPANEL10: IExpansionPanel = {
     }
 };
 
-
-
-const DESIGNPANEL11: IExpansionPanel = {
+const DESIGNPANEL4: IExpansionPanel = {
     title: "Registration requirements",
     description: "",
-    content: null
-};
-
-
-const DESIGNPANEL12: IExpansionPanel = {
-    title: "Novelty",
-    description: "",
-    content:
-    {
+    content: {
         elements: [
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "Novelty",
+                        type: "h2",
+                        classes: null,
+                    }]
+            },
             {
                 type: "paragraph",
                 objs: [{
@@ -2941,17 +2903,16 @@ const DESIGNPANEL12: IExpansionPanel = {
                     classes: null
                 }]
             },
-        ]
-    }
-};
 
-const DESIGNPANEL13: IExpansionPanel = {
-    title: "Exceptions to loss of novelty (grace period)",
-    description: "",
-    content:
-    {
-        elements: [
-
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "Exceptions to loss of novelty (grace period)",
+                        type: "h2",
+                        classes: null,
+                    }]
+            },
             {
                 type: "paragraph",
                 objs: [{
@@ -2983,16 +2944,16 @@ const DESIGNPANEL13: IExpansionPanel = {
                     classes: null
                 }]
             },
-        ]
-    }
-};
 
-const DESIGNPANEL14: IExpansionPanel = {
-    title: "Creative difficulty",
-    description: "",
-    content:
-    {
-        elements: [
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "Creative difficulty",
+                        type: "h2",
+                        classes: null,
+                    }]
+            },
             {
                 type: "paragraph",
                 objs: [{
@@ -3008,17 +2969,16 @@ const DESIGNPANEL14: IExpansionPanel = {
                     classes: null
                 }]
             },
-        ]
-    }
-};
 
-const DESIGNPANEL15: IExpansionPanel = {
-    title: "First to file",
-    description: "",
-    content:
-    {
-        elements: [
-
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "First to file",
+                        type: "h2",
+                        classes: null,
+                    }]
+            },
             {
                 type: "paragraph",
                 objs: [{
@@ -3066,18 +3026,16 @@ const DESIGNPANEL15: IExpansionPanel = {
                     classes: null
                 }]
             },
-        ]
-    }
-};
 
-
-const DESIGNPANEL16: IExpansionPanel = {
-    title: "That the design be definite",
-    description: "",
-    content:
-    {
-        elements: [
-
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "That the design be definite",
+                        type: "h2",
+                        classes: null,
+                    }]
+            },
             {
                 type: "paragraph",
                 objs: [{
@@ -3160,7 +3118,7 @@ const DESIGNPANEL16: IExpansionPanel = {
     }
 };
 
-const DESIGNPANEL17: IExpansionPanel = {
+const DESIGNPANEL5: IExpansionPanel = {
     title: "Checklist when applying for a design",
     description: "",
     content:
@@ -3268,19 +3226,16 @@ const DESIGNPANEL17: IExpansionPanel = {
                     classes: null
                 }]
             },
-        ]
-    }
-};
 
-
-
-
-const DESIGNPANEL18: IExpansionPanel = {
-    title: "Selecting whether to file an independent design application or a related design application",
-    description: "",
-    content:
-    {
-        elements: [
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "Selecting whether to file an independent design application or a related design application",
+                        type: "h2",
+                        classes: null,
+                    }]
+            },
             {
                 type: "paragraph",
                 objs: [{
@@ -3431,16 +3386,16 @@ const DESIGNPANEL18: IExpansionPanel = {
                     classes: null
                 }]
             },
-        ]
-    }
-};
 
-const DESIGNPANEL19: IExpansionPanel = {
-    title: "Whether to select a graphic image design or a partial design of an article in the case of a design that is an image",
-    description: "",
-    content:
-    {
-        elements: [
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "Whether to select a graphic image design or a partial design of an article in the case of a design that is an image",
+                        type: "h2",
+                        classes: null,
+                    }]
+            },
             {
                 type: "paragraph",
                 objs: [{
@@ -3516,16 +3471,15 @@ const DESIGNPANEL19: IExpansionPanel = {
                 }]
             },
 
-        ]
-    }
-};
-
-const DESIGNPANEL20: IExpansionPanel = {
-    title: "Whether trademark registration is necessary for graphic image designs",
-    description: "",
-    content:
-    {
-        elements: [
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "Whether trademark registration is necessary for graphic image designs",
+                        type: "h3",
+                        classes: null,
+                    }]
+            },
             {
                 type: "paragraph",
                 objs: [{
@@ -3557,16 +3511,15 @@ const DESIGNPANEL20: IExpansionPanel = {
                 }]
             },
 
-        ]
-    }
-}
-
-const DESIGNPANEL21: IExpansionPanel = {
-    title: "Whether to select a whole design or a partial design",
-    description: "",
-    content:
-    {
-        elements: [
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "Whether to select a whole design or a partial design",
+                        type: "h2",
+                        classes: null,
+                    }]
+            },
             {
                 type: "paragraph",
                 objs: [{
@@ -3628,16 +3581,15 @@ const DESIGNPANEL21: IExpansionPanel = {
                 }]
             },
 
-        ]
-    }
-};
-
-const DESIGNPANEL22: IExpansionPanel = {
-    title: "Whether to file a single design or multiple designs",
-    description: "",
-    content:
-    {
-        elements: [
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "Whether to file a single design or multiple designs",
+                        type: "h2",
+                        classes: null,
+                    }]
+            },
             {
                 type: "paragraph",
                 objs: [{
@@ -3653,16 +3605,17 @@ const DESIGNPANEL22: IExpansionPanel = {
                     classes: null
                 }]
             },
-        ]
-    }
-};
 
-const DESIGNPANEL23: IExpansionPanel = {
-    title: "Batch application of multiple designs",
-    description: "",
-    content:
-    {
-        elements: [
+
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "Batch application of multiple designss",
+                        type: "h2",
+                        classes: null,
+                    }]
+            },
             {
                 type: "paragraph",
                 objs: [{
@@ -3693,16 +3646,16 @@ const DESIGNPANEL23: IExpansionPanel = {
                     classes: null
                 }]
             },
-        ]
-    }
-};
 
-const DESIGNPANEL24: IExpansionPanel = {
-    title: "Design of a set of articles",
-    description: "",
-    content:
-    {
-        elements: [
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "Design of a set of articles",
+                        type: "h2",
+                        classes: null,
+                    }]
+            },
             {
                 type: "paragraph",
                 objs: [{
@@ -3718,17 +3671,17 @@ const DESIGNPANEL24: IExpansionPanel = {
                     classes: null
                 }]
             },
-        ]
-    }
-};
 
 
-const DESIGNPANEL25: IExpansionPanel = {
-    title: "Secret designs",
-    description: "",
-    content:
-    {
-        elements: [
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "Secret designs",
+                        type: "h2",
+                        classes: null,
+                    }]
+            },
             {
                 type: "paragraph",
                 objs: [{
@@ -3744,16 +3697,16 @@ const DESIGNPANEL25: IExpansionPanel = {
                     classes: null
                 }]
             },
-        ]
-    }
-}
 
-const DESIGNPANEL26: IExpansionPanel = {
-    title: "Asserting exemption to loss of novelty and proof requirement",
-    description: "",
-    content:
-    {
-        elements: [
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "Asserting exemption to loss of novelty and proof requirement",
+                        type: "h2",
+                        classes: null,
+                    }]
+            },
             {
                 type: "paragraph",
                 objs: [{
@@ -3788,18 +3741,21 @@ const DESIGNPANEL26: IExpansionPanel = {
     }
 };
 
-const DESIGNPANEL27: IExpansionPanel = {
+
+const DESIGNPANEL6: IExpansionPanel = {
     title: "Information necessary at the time of application in Japan",
     description: "",
-    content: null
-};
-
-const DESIGNPANEL28: IExpansionPanel = {
-    title: "Applicant and creator",
-    description: "",
-    content:
-    {
+    content: {
         elements: [
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "Applicant and creator",
+                        type: "h2",
+                        classes: null,
+                    }]
+            },
             {
                 type: "paragraph",
                 objs: [{
@@ -3830,17 +3786,16 @@ const DESIGNPANEL28: IExpansionPanel = {
                     classes: null
                 }]
             },
-        ]
-    }
 
-};
-
-const DESIGNPANEL29: IExpansionPanel = {
-    title: "Recitation of the name of the article of the design",
-    description: "",
-    content:
-    {
-        elements: [
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "Recitation of the name of the article of the design",
+                        type: "h2",
+                        classes: null,
+                    }]
+            },
             {
                 type: "paragraph",
                 objs: [{
@@ -3886,16 +3841,17 @@ const DESIGNPANEL29: IExpansionPanel = {
                     classes: null
                 }]
             },
-        ]
-    }
-};
 
-const DESIGNPANEL30: IExpansionPanel = {
-    title: "Explanation of the design",
-    description: "",
-    content:
-    {
-        elements: [
+
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "Explanation of the design",
+                        type: "h2",
+                        classes: null,
+                    }]
+            },
             {
                 type: "paragraph",
                 objs: [{
@@ -3911,16 +3867,17 @@ const DESIGNPANEL30: IExpansionPanel = {
                     classes: null
                 }]
             },
-        ]
-    }
-};
 
-const DESIGNPANEL31: IExpansionPanel = {
-    title: "Figures",
-    description: "",
-    content:
-    {
-        elements: [
+
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "Figures",
+                        type: "h2",
+                        classes: null,
+                    }]
+            },
             {
                 type: "paragraph",
                 objs: [{
@@ -4097,16 +4054,16 @@ const DESIGNPANEL31: IExpansionPanel = {
                 }]
             },
 
-        ]
-    }
-};
 
-const DESIGNPANEL32: IExpansionPanel = {
-    title: "Power of Attorney",
-    description: "",
-    content:
-    {
-        elements: [
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "Power of Attorney",
+                        type: "h2",
+                        classes: null,
+                    }]
+            },
             {
                 type: "paragraph",
                 objs: [{
@@ -4152,16 +4109,16 @@ const DESIGNPANEL32: IExpansionPanel = {
                     classes: null
                 }]
             },
-        ]
-    }
-};
 
-const DESIGNPANEL33: IExpansionPanel = {
-    title: "Priority certificate",
-    description: "",
-    content:
-    {
-        elements: [
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "Priority certificate",
+                        type: "h2",
+                        classes: null,
+                    }]
+            },
             {
                 type: "paragraph",
                 objs: [{
@@ -4177,16 +4134,16 @@ const DESIGNPANEL33: IExpansionPanel = {
                     classes: null
                 }]
             },
-        ]
-    }
-};
 
-const DESIGNPANEL34: IExpansionPanel = {
-    title: "Hague route",
-    description: "",
-    content:
-    {
-        elements: [
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "Hague route",
+                        type: "h2",
+                        classes: null,
+                    }]
+            },
             {
                 type: "paragraph",
                 objs: [{
@@ -4202,16 +4159,17 @@ const DESIGNPANEL34: IExpansionPanel = {
                     classes: null
                 }]
             },
-        ]
-    }
-};
 
-const DESIGNPANEL35: IExpansionPanel = {
-    title: "Paris route",
-    description: "",
-    content:
-    {
-        elements: [
+
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "Paris route",
+                        type: "h2",
+                        classes: null,
+                    }]
+            },
             {
                 type: "paragraph",
                 objs: [{
@@ -4227,22 +4185,27 @@ const DESIGNPANEL35: IExpansionPanel = {
                     classes: null
                 }]
             },
+
+
         ]
     }
 };
 
-const DESIGNPANEL36: IExpansionPanel = {
+
+const DESIGNPANEL7: IExpansionPanel = {
     title: "Design rights, interpreting the scope of the right, maintaining the right, annuities",
     description: "",
-    content: null
-};
-
-const DESIGNPANEL37: IExpansionPanel = {
-    title: "Duration of a design right",
-    description: "",
-    content:
-    {
+    content: {
         elements: [
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "Duration of a design right",
+                        type: "h2",
+                        classes: null,
+                    }]
+            },
             {
                 type: "paragraph",
                 objs: [{
@@ -4258,16 +4221,17 @@ const DESIGNPANEL37: IExpansionPanel = {
                     classes: null
                 }]
             },
-        ]
-    }
-};
 
-const DESIGNPANEL38: IExpansionPanel = {
-    title: "Duration of old design rights",
-    description: "",
-    content:
-    {
-        elements: [
+
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "Duration of old design rights",
+                        type: "h2",
+                        classes: null,
+                    }]
+            },
             {
                 type: "paragraph",
                 objs: [{
@@ -4283,16 +4247,17 @@ const DESIGNPANEL38: IExpansionPanel = {
                     classes: null
                 }]
             },
-        ]
-    }
-};
 
-const DESIGNPANEL39: IExpansionPanel = {
-    title: "Duration of new design rights",
-    description: "",
-    content:
-    {
-        elements: [
+
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "Duration of new design rights",
+                        type: "h2",
+                        classes: null,
+                    }]
+            },
             {
                 type: "paragraph",
                 objs: [{
@@ -4308,17 +4273,17 @@ const DESIGNPANEL39: IExpansionPanel = {
                     classes: null
                 }]
             },
-        ]
-    }
-};
 
 
-const DESIGNPANEL40: IExpansionPanel = {
-    title: "Effective extension of old design rights",
-    description: "",
-    content:
-    {
-        elements: [
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "Effective extension of old design rights",
+                        type: "h2",
+                        classes: null,
+                    }]
+            },
             {
                 type: "paragraph",
                 objs: [{
@@ -4334,16 +4299,17 @@ const DESIGNPANEL40: IExpansionPanel = {
                     classes: null
                 }]
             },
-        ]
-    }
-};
 
-const DESIGNPANEL41: IExpansionPanel = {
-    title: "Annuities",
-    description: "",
-    content:
-    {
-        elements: [
+
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "Annuities",
+                        type: "h2",
+                        classes: null,
+                    }]
+            },
             {
                 type: "paragraph",
                 objs: [{
@@ -4359,15 +4325,6 @@ const DESIGNPANEL41: IExpansionPanel = {
                     classes: null
                 }]
             },
-
-            /*Year
-                    *Annuity
-                    
-                    *Year 1 to Year 3
-                    *8,500 JPY per year
-                    
-                    *Year 4 to Year 25
-                    *16,900 JPY per year*/
 
             {
                 type: "elementgrid",
@@ -4507,17 +4464,15 @@ const DESIGNPANEL41: IExpansionPanel = {
             },
 
 
-        ]
-    }
-};
-
-// TODO: FROM HEREEE
-const DESIGNPANEL42: IExpansionPanel = {
-    title: "Scope of protection of a design right",
-    description: "",
-    content:
-    {
-        elements: [
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "Scope of protection of a design right",
+                        type: "h2",
+                        classes: null,
+                    }]
+            },
             {
                 type: "paragraph",
                 objs: [{
@@ -4623,16 +4578,17 @@ const DESIGNPANEL42: IExpansionPanel = {
                     classes: null
                 }]
             },
-        ]
-    }
-};
 
-const DESIGNPANEL43: IExpansionPanel = {
-    title: "Independent designs and Related designs", 
-    description: "",
-    content:
-    {
-        elements: [
+
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "Independent designs and Related designs",
+                        type: "h2",
+                        classes: null,
+                    }]
+            },
             {
                 type: "paragraph",
                 objs: [{
@@ -4648,16 +4604,17 @@ const DESIGNPANEL43: IExpansionPanel = {
                     classes: null
                 }]
             },
-        ]
-    }
-};
 
-const DESIGNPANEL44: IExpansionPanel = {
-    title: "Partial designs", // 部分意匠
-    description: "",
-    content:
-    {
-        elements: [
+
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "Partial designs",
+                        type: "h2",
+                        classes: null,
+                    }]
+            },
             {
                 type: "paragraph",
                 objs: [{
@@ -4673,16 +4630,17 @@ const DESIGNPANEL44: IExpansionPanel = {
                     classes: null
                 }]
             },
-        ]
-    }
-};
 
-const DESIGNPANEL45: IExpansionPanel = {
-    title: "Graphic image designs", // 画像意匠
-    description: "",
-    content:
-    {
-        elements: [
+
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "Graphic image designs",
+                        type: "h2",
+                        classes: null,
+                    }]
+            },
             {
                 type: "paragraph",
                 objs: [{
@@ -4698,11 +4656,22 @@ const DESIGNPANEL45: IExpansionPanel = {
                     classes: null
                 }]
             },
+
         ]
     }
 };
+// {
+//     type: "header",
+//     objs: [
+//         {
+//             text: "TITLE",
+//             type: "h2",
+//             classes: null,
+//         }]
+// },
 
-const DESIGNPANEL46: IExpansionPanel = {
+
+const DESIGNPANEL8: IExpansionPanel = {
     title: "Invalidation trial", // 部分意匠
     description: "",
     content:
@@ -4919,7 +4888,7 @@ const DESIGNPANEL46: IExpansionPanel = {
 };
 
 
-const DESIGNPANEL47: IExpansionPanel = {
+const DESIGNPANEL9: IExpansionPanel = {
     title: "Infringement",
     description: "",
     content:
@@ -4940,12 +4909,12 @@ const DESIGNPANEL47: IExpansionPanel = {
                     classes: null
                 }]
             },
-            
+
         ]
     }
 };
 
-const DESIGNPANEL48: IExpansionPanel = {
+const DESIGNPANEL10: IExpansionPanel = {
     title: "Court cases",
     description: "",
     content:
@@ -5017,14 +4986,14 @@ const DESIGNPANEL48: IExpansionPanel = {
                 type: "paragraph",
                 objs: [{
                     spans: [
-                        { 
+                        {
                             text: "The presumption of negligence and estimated damages are similar to the case of patents. Please see our guidance thereon in the ",
                             url: null,
                             routerlink: null,
                             tooltip: null,
                             classes: null
                         },
-                        { 
+                        {
                             text: "patent section.",
                             url: null,
                             routerlink: "/guidance",
@@ -5039,7 +5008,7 @@ const DESIGNPANEL48: IExpansionPanel = {
     }
 };
 
-const DESIGNPANEL49: IExpansionPanel = {
+const DESIGNPANEL11: IExpansionPanel = {
     title: "Patent Guidance",
     description: "",
     content:
@@ -5049,21 +5018,20 @@ const DESIGNPANEL49: IExpansionPanel = {
                 type: "paragraph",
                 objs: [{
                     spans: [
-                        { 
+                        {
                             text: "In addition, in an infringement trial, a defendant can argue that the design registration is invalid. Please see our corresponding guidance thereon in the",
                             url: null,
                             routerlink: null,
                             tooltip: null,
                             classes: null
                         },
-                        { 
+                        {
                             text: "patent section.",
                             url: null,
                             routerlink: "/guidance",
                             tooltip: null,
                             classes: null
                         }
-                        
                     ],
                     classes: null
                 }]
@@ -5078,6 +5046,15 @@ const DESIGNPANEL49: IExpansionPanel = {
 //     content:
 //     {
 //         elements: [
+//             {
+//                 type: "header",
+//                 objs: [
+//                     {
+//                         text: "title",
+//                         type: "h2",
+//                         classes: null,
+//                     }]
+//             },
 //             {
 //                 type: "paragraph",
 //                 objs: [{
@@ -5110,44 +5087,6 @@ const DESIGNACCORDION: IAccordion = {
         DESIGNPANEL9,
         DESIGNPANEL10,
         DESIGNPANEL11,
-        DESIGNPANEL12,
-        DESIGNPANEL13,
-        DESIGNPANEL14,
-        DESIGNPANEL15,
-        DESIGNPANEL16,
-        DESIGNPANEL17,
-        DESIGNPANEL18,
-        DESIGNPANEL19,
-        DESIGNPANEL20,
-        DESIGNPANEL21,
-        DESIGNPANEL22,
-        DESIGNPANEL23,
-        DESIGNPANEL24,
-        DESIGNPANEL25,
-        DESIGNPANEL26,
-        DESIGNPANEL27,
-        DESIGNPANEL28,
-        DESIGNPANEL29,
-        DESIGNPANEL30,
-        DESIGNPANEL31,
-        DESIGNPANEL32,
-        DESIGNPANEL33,
-        DESIGNPANEL34,
-        DESIGNPANEL35,
-        DESIGNPANEL36,
-        DESIGNPANEL37,
-        DESIGNPANEL38,
-        DESIGNPANEL39,
-        DESIGNPANEL40,
-        DESIGNPANEL41,
-        DESIGNPANEL42,
-        DESIGNPANEL43,
-        DESIGNPANEL44,
-        DESIGNPANEL45,
-        DESIGNPANEL46,
-        DESIGNPANEL47,
-        DESIGNPANEL48,
-        DESIGNPANEL49
     ]
 };
 export const DESIGNGUIDANCECONTENT: IContent = {
