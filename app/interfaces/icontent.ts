@@ -56,3 +56,14 @@ export interface IDesignExample{
     description: IParagraph;
     images: IElementGrid;
 }
+export interface IColumn{
+    colname: string;
+    content: IContent;
+}
+export interface IRow{
+    cols: Array<IColumn>;
+}
+export interface ITable{
+    rows: Array<IRow>;
+    datasource: Array<string>;
+}

@@ -76,6 +76,7 @@ import { ExpansionrendererComponent } from './components/expansionrenderer/expan
 import { TitledimagerendererComponent } from './components/titledimagerenderer/titledimagerenderer.component';
 import { ElementgridrendererComponent } from './components/elementgridrenderer/elementgridrenderer.component';
 import { DesignexamplerendererComponent } from './components/designexamplerenderer/designexamplerenderer.component';
+import { TablerendererComponent } from './components/tablerenderer/tablerenderer.component';
 
 @NgModule({
   declarations: [
@@ -137,7 +138,8 @@ import { DesignexamplerendererComponent } from './components/designexamplerender
     ExpansionrendererComponent,
     TitledimagerendererComponent,
     ElementgridrendererComponent,
-    DesignexamplerendererComponent
+    DesignexamplerendererComponent,
+    TablerendererComponent
   ],
   imports: [
     CommonModule,

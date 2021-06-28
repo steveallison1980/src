@@ -191,8 +191,8 @@ export const PEOPLE_DATA: IPerson[] = [
       id: 4,
       title: 'Patent Attorney (Partner)',
       name: 'Shuji Kimura',
-      img: 'shujikimura.jpg',
-      imglarge: 'shujikimura_large.jpg',
+      img: 'logo.jpg',
+      imglarge: 'logo_large.jpg',
       avatar: 'shujikimura_avatar.jpg',
       bio: 'Add bio.', // update
       specialties:
@@ -420,8 +420,8 @@ export const PEOPLE_DATA: IPerson[] = [
       id: 9,
       title: 'Patent Attorney',
       name: 'Junjiro Yashiro',
-      img: 'junjiroyashiro.jpg',
-      imglarge: 'junjiroyashiro_large.jpg',
+      img: 'logo.jpg',
+      imglarge: 'logo_large.jpg',
       avatar: 'junjiroyashiro_avatar.jpg',
       bio: 'Add bio.', // update
       specialties:
@@ -918,7 +918,7 @@ export const PEOPLE_DATA: IPerson[] = [
       groups:
         ['pro-elec', 'pro-patattorneys'] 
     },
-    {
+    /*{
       id: 21,
       title: 'Patent Attorney',
       name: 'Mioko Watanabe',
@@ -960,7 +960,7 @@ export const PEOPLE_DATA: IPerson[] = [
   
       groups:
         ['pro-infoproc', 'pro-comm', 'pro-lit', 'pro-patattorneys'] 
-    },
+    },*/
     {
       id: 22,
       title: 'Patent Attorney (Partner)',
@@ -1052,8 +1052,8 @@ export const PEOPLE_DATA: IPerson[] = [
       id: 24,
       title: 'Patent Attorney',
       name: 'Wakako Ohtsuka',
-      img: 'wakakoohtsuka.jpg',
-      imglarge: 'wakakoohtsuka_large.jpg',
+      img: 'logo.jpg',
+      imglarge: 'logo_large.jpg',
       avatar: 'wakakoohtsuka_avatar.jpg',
       bio: 'Add bio.', // update
       specialties:
@@ -1217,8 +1217,8 @@ export const PEOPLE_DATA: IPerson[] = [
       id: 28,
       title: 'Patent Attorney',
       name: 'Taro Nagayoshi',
-      img: 'taronagayoshi.jpg',
-      imglarge: 'taronagayoshi_large.jpg',
+      img: 'logo.jpg',
+      imglarge: 'logo_large.jpg',
       avatar: 'taronagayoshi_avatar.jpg',
       bio: 'Add bio.', // update
       specialties:
@@ -1449,8 +1449,8 @@ export const PEOPLE_DATA: IPerson[] = [
       id: 34,
       title: 'Patent Engineer',
       name: 'Hitoshi Minami',
-      img: 'hitoshiminami.jpg',
-      imglarge: 'hitoshiminami_large.jpg',
+      img: 'logo.jpg',
+      imglarge: 'logo_large.jpg',
       avatar: 'hitoshiminami_avatar.jpg',
       bio: 'Add bio.', // update
       specialties:
@@ -1484,8 +1484,8 @@ export const PEOPLE_DATA: IPerson[] = [
       id: 35,
       title: 'Patent Engineer',
       name: 'Kazuo Eda',
-      img: 'kazuoeda.jpg',
-      imglarge: 'kazuoeda_large.jpg',
+      img: 'logo.jpg',
+      imglarge: 'logo_large.jpg',
       avatar: 'kazuoeda_avatar.jpg',
       bio: 'Add bio.', // update
       specialties:
@@ -1519,8 +1519,8 @@ export const PEOPLE_DATA: IPerson[] = [
       id: 36,
       title: 'Patent Engineer',
       name: 'Shohei Natsuki',
-      img: 'shoheinatsuki.jpg',
-      imglarge: 'shoheinatsuki_large.jpg',
+      img: 'logo.jpg',
+      imglarge: 'logo_large.jpg',
       avatar: 'shoheinatsuki_avatar.jpg',
       bio: 'Add bio.', // update
       specialties:
@@ -1622,8 +1622,8 @@ export const PEOPLE_DATA: IPerson[] = [
       id: 39,
       title: 'Patent Engineer',
       name: 'Susumu Takahashi',
-      img: 'susumutakahashi.jpg',
-      imglarge: 'susumutakahashi_large.jpg',
+      img: 'logo.jpg',
+      imglarge: 'logo_large.jpg',
       avatar: 'susumutakahashi_avatar.jpg',
       bio: 'Add bio.', // update
       specialties:
@@ -1891,8 +1891,8 @@ export const PEOPLE_DATA: IPerson[] = [
       id: 47,
       title: 'Patent Engineer',
       name: 'Johji Kagotani',
-      img: 'johjikagotani.jpg',
-      imglarge: 'johjikagotani_large.jpg',
+      img: 'logo.jpg',
+      imglarge: 'logo_large.jpg',
       avatar: 'johjikagotani_avatar.jpg',
       bio: 'Add bio.', // update
       specialties:
