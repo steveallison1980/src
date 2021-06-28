@@ -1518,7 +1518,7 @@ export const DESIGNGUIDANCECONTENTOLD: IContent = {
         {
             type: "header",
             objs: [{
-                text: "Duration of new design rights",          // HEREEE
+                text: "Duration of new design rights",
                 type: "h3",
                 classes: null
             }]
@@ -1653,7 +1653,7 @@ export const DESIGNGUIDANCECONTENTOLD: IContent = {
                 classes: null
             }]
         },
-        {
+        {// HEREEE
             type: "header",
             objs: [{
                 text: "Scope of protection of a design right",
@@ -4312,7 +4312,7 @@ const DESIGNPANEL39: IExpansionPanel = {
     }
 };
 
-// TODO: FROM HEREEE
+
 const DESIGNPANEL40: IExpansionPanel = {
     title: "Effective extension of old design rights",
     description: "",
@@ -4324,7 +4324,7 @@ const DESIGNPANEL40: IExpansionPanel = {
                 objs: [{
                     spans: [
                         {
-                            text: "",
+                            text: "Under the new law, it is possible to register a new design right as a related design whose base design is an old design right. The duration of the old design right is 20 years after its registration, but since the new law will now be applied to new related design rights, their duration will be 25 years from the application date of the base design. Therefore, a related design filed 10 years after the application date of its base design will be afforded 25 years of protection from the base design application date, which effectively extends the old design right (maximum 20 years).",
                             url: null,
                             routerlink: null,
                             tooltip: null,
@@ -4336,7 +4336,8 @@ const DESIGNPANEL40: IExpansionPanel = {
             },
         ]
     }
-}
+};
+
 const DESIGNPANEL41: IExpansionPanel = {
     title: "Annuities",
     description: "",
@@ -4348,7 +4349,7 @@ const DESIGNPANEL41: IExpansionPanel = {
                 objs: [{
                     spans: [
                         {
-                            text: "",
+                            text: "Annuities for design registrations are as follows, and must be paid every year.",
                             url: null,
                             routerlink: null,
                             tooltip: null,
@@ -4358,9 +4359,159 @@ const DESIGNPANEL41: IExpansionPanel = {
                     classes: null
                 }]
             },
+
+            /*Year
+                    *Annuity
+                    
+                    *Year 1 to Year 3
+                    *8,500 JPY per year
+                    
+                    *Year 4 to Year 25
+                    *16,900 JPY per year*/
+
+            {
+                type: "elementgrid",
+                objs: [{
+                    gap: "20px",
+                    percent: "45",
+                    elements: [
+                        {
+                            type: "header",
+                            objs: [
+                                {
+                                    text: "Year",
+                                    type: "h2",
+                                    classes: null,
+                                }]
+                        },
+                        {
+                            type: "header",
+                            objs: [
+                                {
+                                    text: "Annuity",
+                                    type: "h2",
+                                    classes: null,
+                                }]
+                        },
+                        {
+                            type: "span",
+                            objs: [
+                                {
+                                    text: "Year 1 to Year 3",
+                                    url: null,
+                                    routerlink: null,
+                                    tooltip: null,
+                                    classes: null
+                                }
+                            ],
+                        },
+                        {
+                            type: "span",
+                            objs: [
+                                {
+                                    text: "8,500 JPY per year",
+                                    url: null,
+                                    routerlink: null,
+                                    tooltip: null,
+                                    classes: null
+                                }
+                            ],
+                        },
+                        {
+                            type: "span",
+                            objs: [
+                                {
+                                    text: "Year 4 to Year 25",
+                                    url: null,
+                                    routerlink: null,
+                                    tooltip: null,
+                                    classes: null
+                                }
+                            ],
+                        },
+                        {
+                            type: "span",
+                            objs: [
+                                {
+                                    text: "16,900 JPY per year",
+                                    url: null,
+                                    routerlink: null,
+                                    tooltip: null,
+                                    classes: null
+                                }
+                            ],
+                        },
+                    ]
+                },]
+            },
+
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "The payment due date is calculated based on the date on which the design was registered.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "After the 1st year annuity, all subsequent annuities must be paid before the next due date. In the event that timely payment is missed, a 6-month grace period is provided which allows later payment with the fine of double payment.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "In addition, if there is a legitimate reason (i.e., an error made despite due care) for not having been able to make the late payment, another grace period is provided, which is the shorter one of: (i) 12 months from the expiration of the first 6-month grace period; or (ii) 2 months from when the legitimate reason ceases to apply.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "While the first 6-month grace period is guaranteed upon payment of the doubled fee, it is rather difficult to prove due care so as to obtain the second grace period. The JPO requires the presence of totally unpredictable or unavoidable circumstances in order to obtain the second grace period. For example, the JPO explains that a simple human error does not constitute due care.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+
+
         ]
     }
-}
+};
+
+// TODO: FROM HEREEE
 const DESIGNPANEL42: IExpansionPanel = {
     title: "Scope of protection of a design right",
     description: "",
@@ -4372,7 +4523,97 @@ const DESIGNPANEL42: IExpansionPanel = {
                 objs: [{
                     spans: [
                         {
-                            text: "",
+                            text: "A design right offers exclusive protection against designs that are the same or similar. Similarity is judge as follows.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "Infringed if in the eye of an ordinary observer, giving such attention as a purchaser usually gives, two designs are substantially the same",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "The test for infringement is fairly similar to the US test.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "Infringed if in the eye of an ordinary observer, giving such attention as a purchaser usually gives, two designs are substantially the same",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "The test for infringement is fairly similar to the US test.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "Under Article 24(2) of the Japanese design statute, the test for similarity between an accused product and a registered design is determined based on “the visual impression that the designs create through the eyes of their consumers.” In other words, the test is whether a common aesthetic impression is established based on the viewpoint of a general consumer.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "Infringement analysis, the design should be considered as a whole, and the characteristic features of the design, most attracted design element must be evaluated high.",
                             url: null,
                             routerlink: null,
                             tooltip: null,
