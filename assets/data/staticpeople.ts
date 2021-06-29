@@ -187,52 +187,7 @@ export const PEOPLE_DATA: IPerson[] = [
       groups:
         ['pro-infoproc', 'pro-comm', 'pro-mech', 'pro-meddevices', 'pro-toysgames', 'pro-lit', 'pro-patattorneys' ] 
     },
-    {
-      id: 4,
-      title: 'Patent Attorney (Partner)',
-      name: 'Shuji Kimura',
-      img: 'logo.jpg',
-      imglarge: 'logo_large.jpg',
-      avatar: 'shujikimura_avatar.jpg',
-      bio: 'Add bio.', // update
-      specialties:
-        [{ text: 'Patent, design and trademark practice before the Japan Patent Office and Intellectual Property High Court;' },
-        { text: 'litigation and preliminary injunction proceedings before courts and Customs;' },
-        { text: 'legal opinions on infringement and validity; particular experience in Customs proceedings and also in the fields of automobile, industrial machinery, semiconductor production equipment, and amusement software fields.' }],
-      education:
-        [{ text: 'B.S., Mechanical Engineering, Waseda University' }],
-      career:
-        [{ text: 'Japanese Patent Attorney since 2000.' },
-        { text: 'Engineer, Tokyo R&D Corporation, specializing in electric power assisted steering systems.' },
-        { text: 'Actively handling Boards of Appeal and IP High Court cases.' }],
-      memberships:
-        [{ text: 'Japan Patent Attorneys Association (JPAA)' },
-        { text: 'the Customs Intellectual Property Information Center (CIPIC)' }],
-      publications:
-        [{ text: 'The Basics of Patents（co-author; published by Ohm);' },
-        { text: 'contributes CAFC reports to The Lawyers (monthly journal)' }],
-  
-      titleJP: '弁理士（パートナー）',
-      nameJP: '木村　秀二',
-      bioJP: '平成12年弁理士登録',
-      specialtiesJP:
-        [{ text: 'メカトロニクス、自動車、事務機器分野の特許出願、審判、訴訟、特許侵害訴訟、' },
-        { text: '意匠・商標の実務、コンサルティング' }],
-      educationJP:
-        [{ text: '早稲田大学理工学部　機械工学科卒業' }],
-      careerJP:
-        [{ text: '株式会社アールアンドデー　電動パワーステアリングの開発に従事し、技術の基礎を学ぶ' }],
-      membershipsJP: null,
-      publicationsJP:
-        [{ text: 'CAFC（アメリカ連邦高等裁判所）判決速報のレポーター（月刊　Lawyers）' },
-        { text: 'CAFC（アメリカ連邦高等裁判所）判例集　CDROM版　（ILS出版）' },
-        { text: '特許の実践知識（オーム社）' },
-        { text: '特許がわかる本（オーム社）' },
-        { text: '特許がわかるQ&A（オーム社）' }],
-  
-      groups:
-        ['pro-elec', 'pro-mech', 'pro-designs', 'pro-toysgames', 'pro-lit', 'pro-patattorneys'] 
-    },
+    /* kimura put to bottom */
     {
       id: 5,
       title: 'Patent Attorney (Partner)',
@@ -416,51 +371,7 @@ export const PEOPLE_DATA: IPerson[] = [
       groups:
         ['pro-infoproc', 'pro-comm', 'pro-lit', 'pro-patattorneys'] 
     },
-    {
-      id: 9,
-      title: 'Patent Attorney',
-      name: 'Junjiro Yashiro',
-      img: 'logo.jpg',
-      imglarge: 'logo_large.jpg',
-      avatar: 'junjiroyashiro_avatar.jpg',
-      bio: 'Add bio.', // update
-      specialties:
-        [{ text: 'Patent practice before the Japan Patent Office and Intellectual Property High Court;' },
-        { text: 'litigation and preliminary injunction proceedings before courts;' },
-        { text: 'legal opinions on infringement and validity;' },
-        { text: 'particular experience in opinion works and patent licensing in the Pharmaceutical and Biotechnology fields.' }],
-      education:
-        [{ text: 'B.S., Tohoku Pharmaceutical University' }],
-      career:
-        [{ text: 'Japanese Patent Attorney since 1970.' },
-        { text: 'Worked for Eisai Pharmaceutical Company as Patent Attorney and Director of the Intellectual Property Division.' }],
-      memberships:
-        [{ text: 'Vice-chairman of the Health Care Products Committee of LES International,' },
-        { text: 'Vice-President of LES Japan,' },
-        { text: 'Member of the Board of Directors (Pharmaceutical and Chemical Industry section) of JIPA' }],
-      publications: null,
-  
-      titleJP: '弁理士',
-      nameJP: '屋代　順治郎',
-      bioJP: '昭和45年弁理士登録',
-      specialtiesJP:
-        [{ text: '医薬分野のコンサルティング・ライセンシング、鑑定、審判・審決取消訴訟、' },
-        { text: '特許侵害訴訟、クロスボーダー事件の支援、コンサルティング' }],
-      educationJP:
-        [{ text: '東北薬科大学卒業' }],
-      careerJP:
-        [{ text: 'エーザイ株式会社　知的財産部長　医薬・バイオ分野の戦略の立案・執行' }],
-      membershipsJP:
-        [{ text: '日本製薬工業協会　知的財産委員会委員長' },
-        { text: '日本ライセンス協会（LES Japan）副会長' },
-        { text: 'Licensing Executive Society International' },
-        { text: 'Health Care Products Committee: Vice-chairman' },
-        { text: '日本知的財産協会　医薬・化学業種担当理事' }],
-      publicationsJP: null,
-  
-      groups:
-        ['pro-lit', 'pro-patattorneys'] // update
-    },
+    /**yashiro to bottom */
     {
       id: 10,
       title: 'Patent Attorney',
@@ -1131,8 +1042,8 @@ export const PEOPLE_DATA: IPerson[] = [
       id: 26,
       title: 'Attorney at Law (Tokyo Bar Association)',
       name: 'Yoshiki Abe',
-      img: 'yoshikiabe.jpg',
-      imglarge: 'yoshikiabe_large.jpg',
+      img: 'logo.jpg',
+      imglarge: 'logo_large.jpg',
       avatar: 'yoshikiabe_avatar.jpg',
       bio: 'Add bio.', // update
       specialties: null,
@@ -1213,93 +1124,7 @@ export const PEOPLE_DATA: IPerson[] = [
       groups:
         ['pro-chempharmabio', 'pro-advisors'] 
     },
-    {
-      id: 28,
-      title: 'Patent Attorney',
-      name: 'Taro Nagayoshi',
-      img: 'logo.jpg',
-      imglarge: 'logo_large.jpg',
-      avatar: 'taronagayoshi_avatar.jpg',
-      bio: 'Add bio.', // update
-      specialties:
-        [{ text: 'Design practice before the Japan Patent Office and Intellectual Property High Court;' },
-        { text: 'legal opinions on design infringement and validity.' }],
-      education:
-        [{ text: 'Tokyo University of the Arts, Fine Arts' }],
-      career:
-        [{ text: 'Worked for the Japan Patent Office as:' },
-        { text: 'a) Examiner and Chief Board of Appeal Examiner in the field of Design,' },
-        { text: 'b) Design Examination Standards Office and Hague Act sub-committee,' },
-        { text: 'c) Director: Design Registration System Planning Office Lecturer at Tokyo Zokei University.' }],
-      memberships: null,
-      publications: null,
-  
-      titleJP: '(顧問)弁理士',
-      nameJP: '永芳　太郎',
-      bioJP: '平成15年弁理士登録',
-      specialtiesJP: null,
-      educationJP:
-        [{ text: '東京芸術大学美術学部工芸科卒業' }],
-      careerJP:
-        [{ text: '特許庁入庁' },
-        { text: '特許庁で、意匠登録出願の審査、審判に従事' },
-        { text: '審査基準室、へーグ協定アクト小委員会、意匠制度企画室長を歴任' },
-        { text: '特許庁では、審査・審判実務から意匠制度の運営、改革に従事' },
-        { text: '東京造形大学非常勤講師' }],
-      membershipsJP:
-        [{ text: '著作権法学会' },
-        { text: '日本弁理士会' }],
-      publicationsJP:　null,
-  
-      groups:
-        ['pro-designs', 'pro-advisors'] 
-    },
-    {
-      id: 29,
-      title: 'Technical Advisor',
-      name: 'Takeshi Hattori',
-      img: 'takeshihattori.jpg',
-      imglarge: 'takeshihattori_large.jpg',
-      avatar: 'takeshihattori_avatar.jpg',
-      bio: 'Add bio.', // update
-      specialties: null,
-      education:
-        [{ text: 'Ph.D., The University of Tokyo, 1974' }],
-      career:
-        [{ text: 'Professor, Department of Electrical and Electronics Engineering, Sophia University.' },
-        { text: 'Specialty is in telecommunications.' },
-        { text: 'Worked at NTT\'s Electrical Communication Laboratory as a researcher, pursued research and development of 800MHz high capacity mobile/portable telephone systems.' },
-        { text: 'As Executive Manager of Personal Communications System Laboratory at NTT Wireless Systems Laboratories, engaged in research and development of Personal Handy-phone System and led the new data transmission protocol based on the S-ARQ packet data transmission scheme.' },
-        { text: 'Currently a faculty member of Sophia University, researching advanced multiple access systems, ad-hoc network, location estimation, scheduling algorithms for wireless packet system with multiple QoS and related technologies.' },
-        { text: 'Chairman of the committee of improved spectrum usage of mobile communications for the Information and Communications Committee in the Ministry of Human Affairs, Post and Telecommunications.' },
-        { text: 'Fellow, Institute of Electronics, Information and Communication Engineers, Japan.' },
-        { text: 'Awarded for best paper in IEEE Vehicular Technology Transactions in 1981.' }],
-      memberships: null,
-      publications: null,
-  
-      titleJP: '(技術顧問)教授',
-      nameJP: '服部　武',
-      bioJP: '',
-      specialtiesJP: null,
-      educationJP:
-        [{ text: '東京大学大学院　修士課程終了（電子工学専攻）' },
-        { text: '東京大学大学院　博士課程終了（電子工学専攻）　工学博士' }],
-      careerJP:
-        [{ text: '日本電信電話公社　横須賀電気通信研究所入所' },
-        { text: '自動車電話、新コードレス電話方式、パーソナル通信方式、PHSの研究開発推進に従事' },
-        { text: '日本電信電話公社　通信網総合研究所' },
-        { text: 'ネットワーク企画推進室主席研究員' },
-        { text: '現在上智大学理工学部電気・電子工学科客員教授（電気・電子工学）' },
-        { text: '専門研究分野は移動通信方式、モバイルコンピューティング、通信ネットワーク' }],
-      membershipsJP: null,
-      publicationsJP:
-        [{ text: '新版　移動通信ハンドブック（オーム社）' },
-        { text: 'ワイヤレスブロードバンド教科書（IDG社）' },
-        { text: 'Visual　SLAMによる無線システムシミュレーション（共立出版）' }],
-  
-      groups:
-        ['pro-advisors'] 
-    },
+    /* nagayoshi/hattori to bottom */
   
     // Technical and International Support
     {
@@ -1445,111 +1270,7 @@ export const PEOPLE_DATA: IPerson[] = [
     },
   
     // Patent Technical Staff
-    {
-      id: 34,
-      title: 'Patent Engineer',
-      name: 'Hitoshi Minami',
-      img: 'logo.jpg',
-      imglarge: 'logo_large.jpg',
-      avatar: 'hitoshiminami_avatar.jpg',
-      bio: 'Add bio.', // update
-      specialties:
-        [{ text: 'Active in the patent field since 1985, especially in the field of digital and analog technogies, computer hardware and software technology, image processing and computer printers.' }],
-      education:
-        [{ text: 'B.S., Tottori University, Electrical Engineering' }],
-      career:
-        [{ text: 'Electronic Engineer, Burroughs Japan.' },
-        { text: 'Worked as a researcher at the Sagamihara Laboratory and Pentel.' },
-        { text: 'Worked as principal engineer for developing printer controllers, circuit designs and development of firmware for controllers of storage devices and computer I/O interfaces.' }],
-      memberships: null,
-      publications: null,
-  
-      titleJP: '',
-      nameJP: '南　仁司',
-      bioJP: '',
-      specialtiesJP: null,
-      educationJP:
-        [{ text: '鳥取大学電気工学部卒業' }],
-      careerJP:
-        [{ text: '旧バロース株式会社（現日本ユニシス）相模原研究所' },
-        { text: 'プリンター、記憶装置のコントローラの回路設計、それらの制御プログラム（ファームウェア）、ワードプロセッサ、マイクロコンピュータ応用機器の設計に従事' },
-        { text: 'コンピュータ、画像処理分野の技術を得意とする' }],
-      membershipsJP: null,
-      publicationsJP: null,
-  
-      groups:
-        ['pro-infoproc', 'pro-patengineers'] 
-    },
-    {
-      id: 35,
-      title: 'Patent Engineer',
-      name: 'Kazuo Eda',
-      img: 'logo.jpg',
-      imglarge: 'logo_large.jpg',
-      avatar: 'kazuoeda_avatar.jpg',
-      bio: 'Add bio.', // update
-      specialties:
-        [{ text: 'Active in the patent field since 1985, especially in computer architecture, computer software and firmware, image processing and image and data compression technologies.' }],
-      education:
-        [{ text: 'B.S., Aoyama Gakuin University, Physics' }],
-      career:
-        [{ text: 'Firmware Engineer, Pentel Co. Ltd, a major Japanese manufacturer of business equipment;' },
-        { text: 'designed firmware for business computers.' }],
-      memberships: null,
-      publications: null,
-  
-      titleJP: '',
-      nameJP: '	江田　和夫',
-      bioJP: '',
-      specialtiesJP: null,
-      educationJP:
-        [{ text: '青山学院大学理工学部　物理学科卒業' }],
-      careerJP:
-        [{ text: 'ぺんてる株式会社　中央研究所' },
-        { text: '主にプリンター分野のファームウェア及びデイジタイザーのアプリケーションソフト開発に従事' },
-        { text: 'コンピュータ・プログラミング技術、符合化処理分野の技術を得意とする' }],
-      membershipsJP: null,
-      publicationsJP: null,
-  
-      groups:
-        ['pro-infoproc', 'pro-meddevices', 'pro-patengineers'] 
-    },
-  
-    {
-      id: 36,
-      title: 'Patent Engineer',
-      name: 'Shohei Natsuki',
-      img: 'logo.jpg',
-      imglarge: 'logo_large.jpg',
-      avatar: 'shoheinatsuki_avatar.jpg',
-      bio: 'Add bio.', // update
-      specialties:
-        [{ text: 'Active in the patent field since 1990, especially in the field of telecommunications, optical communications, and image processing.' }],
-      education:
-        [{ text: 'B.S., Hokkaido University, Geophysics' },
-        { text: 'M.S., Nagoya University, Science' }],
-      career:
-        [{ text: 'Worked as Systems Engineer, Fujitsu in the field of aerospace systems and developed telecommunications and image processing technologies.' }],
-      memberships: null,
-      publications: null,
-  
-      titleJP: '',
-      nameJP: '夏木　尚平',
-      bioJP: '',
-      specialtiesJP: null,
-      educationJP:
-        [{ text: '北海道大学理学部　地球物理学科卒業' },
-        { text: '名古屋大学大学院　理学研究科　博士前期課程修了' }],
-      careerJP:
-        [{ text: '富士通株式会社　気象衛星データ処理システム、特に画像処理システムの開発や、人工知能技術を応用した気象予測システムの研究、開発に従事' },
-        { text: 'CDC（Cushman Darby & Cushman）アメリカ特許出願実務コース修了（於：Washington, D.C.）' },
-        { text: '記録技術、通信技術、ネットワーク分野の技術を得意とする' }],
-      membershipsJP: null,
-      publicationsJP: null,
-  
-      groups:
-        ['pro-infoproc', 'pro-comm', 'pro-patengineers'] 
-    },
+    /* minami/eda/natsuki to bottom */
     {
       id: 37,
       title: 'Patent Engineer',
@@ -1618,42 +1339,7 @@ export const PEOPLE_DATA: IPerson[] = [
       groups:
         ['pro-infoproc', 'pro-meddevices', 'pro-patengineers'] 
     },
-    {
-      id: 39,
-      title: 'Patent Engineer',
-      name: 'Susumu Takahashi',
-      img: 'logo.jpg',
-      imglarge: 'logo_large.jpg',
-      avatar: 'susumutakahashi_avatar.jpg',
-      bio: 'Add bio.', // update
-      specialties:
-        [{ text: 'Active in the patent field since 1987, especially in the fields of telecommunications, computer hardware and software, encoding/decoding techonology, Internet and medical devices.' }],
-      education:
-        [{ text: 'B.S., University of Electro-Communications, Engineering Physics' }],
-      career:
-        [{ text: 'Worked for NEC Corporation and Mitsubishi Chemical Corporation as a patent engineer for the intellectual property department.' },
-        { text: 'Experienced in telecommunications, computer systems, image compression, electrographical devices, and magnetic recording medium.' }],
-      memberships: null,
-      publications: null,
-  
-      titleJP: '',
-      nameJP: '高橋　晋',
-      bioJP: '',
-      specialtiesJP: null,
-      educationJP:
-        [{ text: '電気通信大学電気通信学部　物理工学科卒業' }],
-      careerJP:
-        [{ text: '日本電気株式会社 特許部' },
-        { text: '三菱化学株式会社 知的財産部' },
-        { text: '情報処理、通信伝送、記録媒体技術分野に関する発明の国内外権利化及び権利の活用業務に従事' },
-        { text: '第一種情報処理技術者' },
-        { text: '通信、画像処理、ソフトウエア分野を得意とする' }],
-      membershipsJP: null,
-      publicationsJP: null,
-  
-      groups:
-        ['pro-infoproc', 'pro-comm', 'pro-meddevices', 'pro-patengineers'] 
-    },
+    /* susumu to bottom */
     {
       id: 40,
       title: 'Patent Engineer',
@@ -1887,39 +1573,7 @@ export const PEOPLE_DATA: IPerson[] = [
       groups:
         ['pro-elec', 'pro-patengineers'] 
     },
-    {
-      id: 47,
-      title: 'Patent Engineer',
-      name: 'Johji Kagotani',
-      img: 'logo.jpg',
-      imglarge: 'logo_large.jpg',
-      avatar: 'johjikagotani_avatar.jpg',
-      bio: 'Add bio.', // update
-      specialties:
-        [{ text: 'Considerable research experience and knowledge in image processing, virtual/mixed/augmented reality, and user interface.' }],
-      education:
-        [{ text: 'B.S., University of Electro-Communications, Mechanical Engineering and Intelligent Systems' },
-        { text: 'M.S., University of Electro-Communications, Mechanical Engineering and Intelligent Systems' }],
-      career:
-        [{ text: 'Worked for SEGA in AM R&D as an engineer extensively developing theme park rides and simulators.' }],
-      memberships: null,
-      publications: null,
-  
-      titleJP: '',
-      nameJP: '加護谷　譲二',
-      bioJP: '',
-      specialtiesJP: null,
-      educationJP:
-        [{ text: '電気通信大学電気通信学部　知能機械工学科卒業' },
-        { text: '電気通信大学大学院　電気通信学研究科　知能機械工学専攻　博士前期課程修了' }],
-      careerJP:
-        [{ text: '株式会社セガ　VR・MR技術を応用した体感システム及びシミュレータの研究開発に従事画像処理、VR・MR、ユーザインタフェース分野を得意とする' }],
-      membershipsJP: null,
-      publicationsJP: null,
-  
-      groups:
-        ['pro-toysgames', 'pro-patengineers'] 
-    },
+    /* kagotani to bottom */
     {
       id: 48,
       title: 'Patent Engineer',
@@ -2061,8 +1715,358 @@ export const PEOPLE_DATA: IPerson[] = [
   
       groups:
         ['pro-patengineers'] 
-    }
+    },
+    {
+      id: 4,
+      title: 'Patent Attorney (Partner)',
+      name: 'Shuji Kimura',
+      img: 'logo.jpg',
+      imglarge: 'logo_large.jpg',
+      avatar: 'shujikimura_avatar.jpg',
+      bio: 'Add bio.', // update
+      specialties:
+        [{ text: 'Patent, design and trademark practice before the Japan Patent Office and Intellectual Property High Court;' },
+        { text: 'litigation and preliminary injunction proceedings before courts and Customs;' },
+        { text: 'legal opinions on infringement and validity; particular experience in Customs proceedings and also in the fields of automobile, industrial machinery, semiconductor production equipment, and amusement software fields.' }],
+      education:
+        [{ text: 'B.S., Mechanical Engineering, Waseda University' }],
+      career:
+        [{ text: 'Japanese Patent Attorney since 2000.' },
+        { text: 'Engineer, Tokyo R&D Corporation, specializing in electric power assisted steering systems.' },
+        { text: 'Actively handling Boards of Appeal and IP High Court cases.' }],
+      memberships:
+        [{ text: 'Japan Patent Attorneys Association (JPAA)' },
+        { text: 'the Customs Intellectual Property Information Center (CIPIC)' }],
+      publications:
+        [{ text: 'The Basics of Patents（co-author; published by Ohm);' },
+        { text: 'contributes CAFC reports to The Lawyers (monthly journal)' }],
   
+      titleJP: '弁理士（パートナー）',
+      nameJP: '木村　秀二',
+      bioJP: '平成12年弁理士登録',
+      specialtiesJP:
+        [{ text: 'メカトロニクス、自動車、事務機器分野の特許出願、審判、訴訟、特許侵害訴訟、' },
+        { text: '意匠・商標の実務、コンサルティング' }],
+      educationJP:
+        [{ text: '早稲田大学理工学部　機械工学科卒業' }],
+      careerJP:
+        [{ text: '株式会社アールアンドデー　電動パワーステアリングの開発に従事し、技術の基礎を学ぶ' }],
+      membershipsJP: null,
+      publicationsJP:
+        [{ text: 'CAFC（アメリカ連邦高等裁判所）判決速報のレポーター（月刊　Lawyers）' },
+        { text: 'CAFC（アメリカ連邦高等裁判所）判例集　CDROM版　（ILS出版）' },
+        { text: '特許の実践知識（オーム社）' },
+        { text: '特許がわかる本（オーム社）' },
+        { text: '特許がわかるQ&A（オーム社）' }],
+  
+      groups:
+        ['pro-elec', 'pro-mech', 'pro-designs', 'pro-toysgames', 'pro-lit', 'pro-patattorneys'] 
+    },
+    {
+      id: 36,
+      title: 'Patent Engineer',
+      name: 'Shohei Natsuki',
+      img: 'logo.jpg',
+      imglarge: 'logo_large.jpg',
+      avatar: 'shoheinatsuki_avatar.jpg',
+      bio: 'Add bio.', // update
+      specialties:
+        [{ text: 'Active in the patent field since 1990, especially in the field of telecommunications, optical communications, and image processing.' }],
+      education:
+        [{ text: 'B.S., Hokkaido University, Geophysics' },
+        { text: 'M.S., Nagoya University, Science' }],
+      career:
+        [{ text: 'Worked as Systems Engineer, Fujitsu in the field of aerospace systems and developed telecommunications and image processing technologies.' }],
+      memberships: null,
+      publications: null,
+  
+      titleJP: '',
+      nameJP: '夏木　尚平',
+      bioJP: '',
+      specialtiesJP: null,
+      educationJP:
+        [{ text: '北海道大学理学部　地球物理学科卒業' },
+        { text: '名古屋大学大学院　理学研究科　博士前期課程修了' }],
+      careerJP:
+        [{ text: '富士通株式会社　気象衛星データ処理システム、特に画像処理システムの開発や、人工知能技術を応用した気象予測システムの研究、開発に従事' },
+        { text: 'CDC（Cushman Darby & Cushman）アメリカ特許出願実務コース修了（於：Washington, D.C.）' },
+        { text: '記録技術、通信技術、ネットワーク分野の技術を得意とする' }],
+      membershipsJP: null,
+      publicationsJP: null,
+  
+      groups:
+        ['pro-infoproc', 'pro-comm', 'pro-patengineers'] 
+    },
+    {
+      id: 39,
+      title: 'Patent Engineer',
+      name: 'Susumu Takahashi',
+      img: 'logo.jpg',
+      imglarge: 'logo_large.jpg',
+      avatar: 'susumutakahashi_avatar.jpg',
+      bio: 'Add bio.', // update
+      specialties:
+        [{ text: 'Active in the patent field since 1987, especially in the fields of telecommunications, computer hardware and software, encoding/decoding techonology, Internet and medical devices.' }],
+      education:
+        [{ text: 'B.S., University of Electro-Communications, Engineering Physics' }],
+      career:
+        [{ text: 'Worked for NEC Corporation and Mitsubishi Chemical Corporation as a patent engineer for the intellectual property department.' },
+        { text: 'Experienced in telecommunications, computer systems, image compression, electrographical devices, and magnetic recording medium.' }],
+      memberships: null,
+      publications: null,
+  
+      titleJP: '',
+      nameJP: '高橋　晋',
+      bioJP: '',
+      specialtiesJP: null,
+      educationJP:
+        [{ text: '電気通信大学電気通信学部　物理工学科卒業' }],
+      careerJP:
+        [{ text: '日本電気株式会社 特許部' },
+        { text: '三菱化学株式会社 知的財産部' },
+        { text: '情報処理、通信伝送、記録媒体技術分野に関する発明の国内外権利化及び権利の活用業務に従事' },
+        { text: '第一種情報処理技術者' },
+        { text: '通信、画像処理、ソフトウエア分野を得意とする' }],
+      membershipsJP: null,
+      publicationsJP: null,
+  
+      groups:
+        ['pro-infoproc', 'pro-comm', 'pro-meddevices', 'pro-patengineers'] 
+    },
+    {
+      id: 34,
+      title: 'Patent Engineer',
+      name: 'Hitoshi Minami',
+      img: 'logo.jpg',
+      imglarge: 'logo_large.jpg',
+      avatar: 'hitoshiminami_avatar.jpg',
+      bio: 'Add bio.', // update
+      specialties:
+        [{ text: 'Active in the patent field since 1985, especially in the field of digital and analog technogies, computer hardware and software technology, image processing and computer printers.' }],
+      education:
+        [{ text: 'B.S., Tottori University, Electrical Engineering' }],
+      career:
+        [{ text: 'Electronic Engineer, Burroughs Japan.' },
+        { text: 'Worked as a researcher at the Sagamihara Laboratory and Pentel.' },
+        { text: 'Worked as principal engineer for developing printer controllers, circuit designs and development of firmware for controllers of storage devices and computer I/O interfaces.' }],
+      memberships: null,
+      publications: null,
+  
+      titleJP: '',
+      nameJP: '南　仁司',
+      bioJP: '',
+      specialtiesJP: null,
+      educationJP:
+        [{ text: '鳥取大学電気工学部卒業' }],
+      careerJP:
+        [{ text: '旧バロース株式会社（現日本ユニシス）相模原研究所' },
+        { text: 'プリンター、記憶装置のコントローラの回路設計、それらの制御プログラム（ファームウェア）、ワードプロセッサ、マイクロコンピュータ応用機器の設計に従事' },
+        { text: 'コンピュータ、画像処理分野の技術を得意とする' }],
+      membershipsJP: null,
+      publicationsJP: null,
+  
+      groups:
+        ['pro-infoproc', 'pro-patengineers'] 
+    },
+    {
+      id: 35,
+      title: 'Patent Engineer',
+      name: 'Kazuo Eda',
+      img: 'logo.jpg',
+      imglarge: 'logo_large.jpg',
+      avatar: 'kazuoeda_avatar.jpg',
+      bio: 'Add bio.', // update
+      specialties:
+        [{ text: 'Active in the patent field since 1985, especially in computer architecture, computer software and firmware, image processing and image and data compression technologies.' }],
+      education:
+        [{ text: 'B.S., Aoyama Gakuin University, Physics' }],
+      career:
+        [{ text: 'Firmware Engineer, Pentel Co. Ltd, a major Japanese manufacturer of business equipment;' },
+        { text: 'designed firmware for business computers.' }],
+      memberships: null,
+      publications: null,
+  
+      titleJP: '',
+      nameJP: '	江田　和夫',
+      bioJP: '',
+      specialtiesJP: null,
+      educationJP:
+        [{ text: '青山学院大学理工学部　物理学科卒業' }],
+      careerJP:
+        [{ text: 'ぺんてる株式会社　中央研究所' },
+        { text: '主にプリンター分野のファームウェア及びデイジタイザーのアプリケーションソフト開発に従事' },
+        { text: 'コンピュータ・プログラミング技術、符合化処理分野の技術を得意とする' }],
+      membershipsJP: null,
+      publicationsJP: null,
+  
+      groups:
+        ['pro-infoproc', 'pro-meddevices', 'pro-patengineers'] 
+    },
+    {
+      id: 28,
+      title: 'Patent Attorney',
+      name: 'Taro Nagayoshi',
+      img: 'logo.jpg',
+      imglarge: 'logo_large.jpg',
+      avatar: 'taronagayoshi_avatar.jpg',
+      bio: 'Add bio.', // update
+      specialties:
+        [{ text: 'Design practice before the Japan Patent Office and Intellectual Property High Court;' },
+        { text: 'legal opinions on design infringement and validity.' }],
+      education:
+        [{ text: 'Tokyo University of the Arts, Fine Arts' }],
+      career:
+        [{ text: 'Worked for the Japan Patent Office as:' },
+        { text: 'a) Examiner and Chief Board of Appeal Examiner in the field of Design,' },
+        { text: 'b) Design Examination Standards Office and Hague Act sub-committee,' },
+        { text: 'c) Director: Design Registration System Planning Office Lecturer at Tokyo Zokei University.' }],
+      memberships: null,
+      publications: null,
+  
+      titleJP: '(顧問)弁理士',
+      nameJP: '永芳　太郎',
+      bioJP: '平成15年弁理士登録',
+      specialtiesJP: null,
+      educationJP:
+        [{ text: '東京芸術大学美術学部工芸科卒業' }],
+      careerJP:
+        [{ text: '特許庁入庁' },
+        { text: '特許庁で、意匠登録出願の審査、審判に従事' },
+        { text: '審査基準室、へーグ協定アクト小委員会、意匠制度企画室長を歴任' },
+        { text: '特許庁では、審査・審判実務から意匠制度の運営、改革に従事' },
+        { text: '東京造形大学非常勤講師' }],
+      membershipsJP:
+        [{ text: '著作権法学会' },
+        { text: '日本弁理士会' }],
+      publicationsJP:　null,
+  
+      groups:
+        ['pro-designs', 'pro-advisors'] 
+    },
+    {
+      id: 29,
+      title: 'Technical Advisor',
+      name: 'Takeshi Hattori',
+      img: 'takeshihattori.jpg',
+      imglarge: 'takeshihattori_large.jpg',
+      avatar: 'takeshihattori_avatar.jpg',
+      bio: 'Add bio.', // update
+      specialties: null,
+      education:
+        [{ text: 'Ph.D., The University of Tokyo, 1974' }],
+      career:
+        [{ text: 'Professor, Department of Electrical and Electronics Engineering, Sophia University.' },
+        { text: 'Specialty is in telecommunications.' },
+        { text: 'Worked at NTT\'s Electrical Communication Laboratory as a researcher, pursued research and development of 800MHz high capacity mobile/portable telephone systems.' },
+        { text: 'As Executive Manager of Personal Communications System Laboratory at NTT Wireless Systems Laboratories, engaged in research and development of Personal Handy-phone System and led the new data transmission protocol based on the S-ARQ packet data transmission scheme.' },
+        { text: 'Currently a faculty member of Sophia University, researching advanced multiple access systems, ad-hoc network, location estimation, scheduling algorithms for wireless packet system with multiple QoS and related technologies.' },
+        { text: 'Chairman of the committee of improved spectrum usage of mobile communications for the Information and Communications Committee in the Ministry of Human Affairs, Post and Telecommunications.' },
+        { text: 'Fellow, Institute of Electronics, Information and Communication Engineers, Japan.' },
+        { text: 'Awarded for best paper in IEEE Vehicular Technology Transactions in 1981.' }],
+      memberships: null,
+      publications: null,
+  
+      titleJP: '(技術顧問)教授',
+      nameJP: '服部　武',
+      bioJP: '',
+      specialtiesJP: null,
+      educationJP:
+        [{ text: '東京大学大学院　修士課程終了（電子工学専攻）' },
+        { text: '東京大学大学院　博士課程終了（電子工学専攻）　工学博士' }],
+      careerJP:
+        [{ text: '日本電信電話公社　横須賀電気通信研究所入所' },
+        { text: '自動車電話、新コードレス電話方式、パーソナル通信方式、PHSの研究開発推進に従事' },
+        { text: '日本電信電話公社　通信網総合研究所' },
+        { text: 'ネットワーク企画推進室主席研究員' },
+        { text: '現在上智大学理工学部電気・電子工学科客員教授（電気・電子工学）' },
+        { text: '専門研究分野は移動通信方式、モバイルコンピューティング、通信ネットワーク' }],
+      membershipsJP: null,
+      publicationsJP:
+        [{ text: '新版　移動通信ハンドブック（オーム社）' },
+        { text: 'ワイヤレスブロードバンド教科書（IDG社）' },
+        { text: 'Visual　SLAMによる無線システムシミュレーション（共立出版）' }],
+  
+      groups:
+        ['pro-advisors'] 
+    },
+    {
+      id: 47,
+      title: 'Patent Engineer',
+      name: 'Johji Kagotani',
+      img: 'logo.jpg',
+      imglarge: 'logo_large.jpg',
+      avatar: 'johjikagotani_avatar.jpg',
+      bio: 'Add bio.', // update
+      specialties:
+        [{ text: 'Considerable research experience and knowledge in image processing, virtual/mixed/augmented reality, and user interface.' }],
+      education:
+        [{ text: 'B.S., University of Electro-Communications, Mechanical Engineering and Intelligent Systems' },
+        { text: 'M.S., University of Electro-Communications, Mechanical Engineering and Intelligent Systems' }],
+      career:
+        [{ text: 'Worked for SEGA in AM R&D as an engineer extensively developing theme park rides and simulators.' }],
+      memberships: null,
+      publications: null,
+  
+      titleJP: '',
+      nameJP: '加護谷　譲二',
+      bioJP: '',
+      specialtiesJP: null,
+      educationJP:
+        [{ text: '電気通信大学電気通信学部　知能機械工学科卒業' },
+        { text: '電気通信大学大学院　電気通信学研究科　知能機械工学専攻　博士前期課程修了' }],
+      careerJP:
+        [{ text: '株式会社セガ　VR・MR技術を応用した体感システム及びシミュレータの研究開発に従事画像処理、VR・MR、ユーザインタフェース分野を得意とする' }],
+      membershipsJP: null,
+      publicationsJP: null,
+  
+      groups:
+        ['pro-toysgames', 'pro-patengineers'] 
+    },
+    {
+      id: 9,
+      title: 'Patent Attorney',
+      name: 'Junjiro Yashiro',
+      img: 'logo.jpg',
+      imglarge: 'logo_large.jpg',
+      avatar: 'junjiroyashiro_avatar.jpg',
+      bio: 'Add bio.', // update
+      specialties:
+        [{ text: 'Patent practice before the Japan Patent Office and Intellectual Property High Court;' },
+        { text: 'litigation and preliminary injunction proceedings before courts;' },
+        { text: 'legal opinions on infringement and validity;' },
+        { text: 'particular experience in opinion works and patent licensing in the Pharmaceutical and Biotechnology fields.' }],
+      education:
+        [{ text: 'B.S., Tohoku Pharmaceutical University' }],
+      career:
+        [{ text: 'Japanese Patent Attorney since 1970.' },
+        { text: 'Worked for Eisai Pharmaceutical Company as Patent Attorney and Director of the Intellectual Property Division.' }],
+      memberships:
+        [{ text: 'Vice-chairman of the Health Care Products Committee of LES International,' },
+        { text: 'Vice-President of LES Japan,' },
+        { text: 'Member of the Board of Directors (Pharmaceutical and Chemical Industry section) of JIPA' }],
+      publications: null,
+  
+      titleJP: '弁理士',
+      nameJP: '屋代　順治郎',
+      bioJP: '昭和45年弁理士登録',
+      specialtiesJP:
+        [{ text: '医薬分野のコンサルティング・ライセンシング、鑑定、審判・審決取消訴訟、' },
+        { text: '特許侵害訴訟、クロスボーダー事件の支援、コンサルティング' }],
+      educationJP:
+        [{ text: '東北薬科大学卒業' }],
+      careerJP:
+        [{ text: 'エーザイ株式会社　知的財産部長　医薬・バイオ分野の戦略の立案・執行' }],
+      membershipsJP:
+        [{ text: '日本製薬工業協会　知的財産委員会委員長' },
+        { text: '日本ライセンス協会（LES Japan）副会長' },
+        { text: 'Licensing Executive Society International' },
+        { text: 'Health Care Products Committee: Vice-chairman' },
+        { text: '日本知的財産協会　医薬・化学業種担当理事' }],
+      publicationsJP: null,
+  
+      groups:
+        ['pro-lit', 'pro-patattorneys'] // update
+    },
     // TEMPLATE FOR ADDING NEW PEOPLE
     // {
     //   title: 'JOB',

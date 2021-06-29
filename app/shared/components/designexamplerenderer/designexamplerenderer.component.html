@@ -1,6 +1,36 @@
-<div>
-    
-    
+<mat-card class="person-card">
+        <mat-card-content>
+        <table>
+        <tr>
+            <td>
+                <b>JP Design Registration No:</b>
+            </td>
+            <td>
+                {{getRegno()}}
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <b>Applicant:</b>
+            </td>
+            <td>
+                {{getApplicant()}}
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <b>Title:</b>
+            </td>
+            <td>{{getTitle()}}</td>
+        </tr>
+        </table>
+        <span *ngIf="hasShort()">({{getShort()}}) </span>
+        <br>
+        <app-paragraphrenderer *ngIf="hasDescription()" [paragraph]="getDescription()"></app-paragraphrenderer>
+        <app-elementgridrenderer [grid]="getImages()"></app-elementgridrenderer>
+    </mat-card-content>
+</mat-card>
+<!--    <div>
     <span><b>JP Design Registration No.: {{getRegno()}}</b></span>
     <br>
     <span><b>Applicant: {{getApplicant()}}</b></span>
@@ -11,5 +41,5 @@
     <br>
     <app-paragraphrenderer *ngIf="hasDescription()" [paragraph]="getDescription()"></app-paragraphrenderer>
     <app-elementgridrenderer [grid]="getImages()"></app-elementgridrenderer>
-</div>
+</div>-->
 <br>

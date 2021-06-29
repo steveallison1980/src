@@ -1,4 +1,4 @@
-<mat-accordion>
+<!--<mat-accordion>
     <mat-expansion-panel *ngFor="let panel of getPanels(); index as i">
         <mat-expansion-panel-header>
             <mat-panel-title>
@@ -8,4 +8,11 @@
         </mat-expansion-panel-header>
         <app-contentrenderer [content]="getPanelContent(panel)"></app-contentrenderer>
     </mat-expansion-panel>
-</mat-accordion>
+</mat-accordion>-->
+
+<div *ngFor="let panel of getPanels(); index as i">
+    <h1>
+        {{getPanelTitle(panel)}} 
+    </h1>
+    <app-contentrenderer [content]="getPanelContent(panel)"></app-contentrenderer>
+</div>

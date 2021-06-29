@@ -1,5 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { IHeader } from './../../../interfaces/icontent';
+import { stringify } from 'querystring';
 
 @Component({
   selector: 'app-headerrenderer',
@@ -16,7 +17,12 @@ export class HeaderrendererComponent implements OnInit {
   }
 
   getHeaderText(){
-    return this.header.text;
+    var ret: string = "";
+    if(this.header.classes != null) console.log(this.header.classes)
+    if( this.header.classes != null && this.header.classes.includes("bullet") ){
+      ret = "● ";
+    }
+    return ret + this.header.text;
   }
   getHeaderType(){
     return this.header.type;
