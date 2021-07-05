@@ -762,7 +762,7 @@ const PATENTCLAIMS: IExpansionPanel = {
                             url: null,
                             routerlink: null,
                             tooltip: null,
-                            classes: ["underline"] 
+                            classes: ["underline"]
                         }
                     ],
                     classes: null
@@ -993,7 +993,1021 @@ const PATENTCLAIMS: IExpansionPanel = {
     }
 };
 
-const PATENTOVERVIEW3: IExpansionPanel = {
+const PATENTBASICPATENTREQS: IExpansionPanel = {
+    title: "Basic Patentability Requirements",
+    description: "",
+    content:
+    {
+        elements: [
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "What are patentability items?",
+                        type: "h2",
+                        classes: null,
+                    }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "See the following table.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+
+            {
+                type: "elementgrid",
+                objs: [{
+                    gap: "20px",
+                    percent: "30",
+                    elements: [
+                        {
+                            type: "header",
+                            objs: [
+                                {
+                                    text: "Requirements",
+                                    type: "h3", // may need to consider making smaller
+                                    classes: null,
+                                }]
+                        },
+                        {
+                            type: "header",
+                            objs: [
+                                {
+                                    text: "Description",
+                                    type: "h3", // may need to consider making smaller
+                                    classes: null,
+                                }]
+                        },
+                        {
+                            type: "header",
+                            objs: [
+                                {
+                                    text: "Article",
+                                    type: "h3", // may need to consider making smaller
+                                    classes: null,
+                                }]
+                        },
+
+                        {
+                            type: "span",
+                            objs: [
+                                {
+                                    text: "Eligibility",
+                                    url: null,
+                                    routerlink: null,
+                                    tooltip: null,
+                                    classes: null
+                                }
+                            ],
+                        },
+                        {
+                            type: "span",
+                            objs: [
+                                {
+                                    text: "The invention must be statutory.",
+                                    url: null,
+                                    routerlink: null,
+                                    tooltip: null,
+                                    classes: null
+                                }
+                            ],
+                        },
+                        {
+                            type: "span",
+                            objs: [
+                                {
+                                    text: "29 preamble",
+                                    url: null,
+                                    routerlink: null,
+                                    tooltip: null,
+                                    classes: null
+                                }
+                            ],
+                        },
+                        {
+                            type: "br",
+                            objs: null
+                        },
+                        {
+                            type: "br",
+                            objs: null
+                        },
+                        {
+                            type: "br",
+                            objs: null
+                        },
+
+                        {
+                            type: "span",
+                            objs: [
+                                {
+                                    text: "Novelty",
+                                    url: null,
+                                    routerlink: null,
+                                    tooltip: null,
+                                    classes: null
+                                }
+                            ],
+                        },
+                        {
+                            type: "span",
+                            objs: [
+                                {
+                                    text: "Must be new under the principle of absolute novelty",
+                                    url: null,
+                                    routerlink: null,
+                                    tooltip: null,
+                                    classes: null
+                                }
+                            ],
+                        },
+                        {
+                            type: "span",
+                            objs: [
+                                {
+                                    text: "29(1)",
+                                    url: null,
+                                    routerlink: null,
+                                    tooltip: null,
+                                    classes: null
+                                }
+                            ],
+                        },
+                        {
+                            type: "br",
+                            objs: null
+                        },
+                        {
+                            type: "br",
+                            objs: null
+                        },
+                        {
+                            type: "br",
+                            objs: null
+                        },
+
+                        {
+                            type: "span",
+                            objs: [
+                                {
+                                    text: "Inventive Step",
+                                    url: null,
+                                    routerlink: null,
+                                    tooltip: null,
+                                    classes: null
+                                }
+                            ],
+                        },
+                        {
+                            type: "span",
+                            objs: [
+                                {
+                                    text: "Must have inventive step over known prior art at the patent filing",
+                                    url: null,
+                                    routerlink: null,
+                                    tooltip: null,
+                                    classes: null
+                                }
+                            ],
+                        },
+                        {
+                            type: "span",
+                            objs: [
+                                {
+                                    text: "29(2)",
+                                    url: null,
+                                    routerlink: null,
+                                    tooltip: null,
+                                    classes: null
+                                }
+                            ],
+                        },
+                        {
+                            type: "br",
+                            objs: null
+                        },
+                        {
+                            type: "br",
+                            objs: null
+                        },
+                        {
+                            type: "br",
+                            objs: null
+                        },
+
+                        {
+                            type: "span",
+                            objs: [
+                                {
+                                    text: "Enablement",
+                                    url: null,
+                                    routerlink: null,
+                                    tooltip: null,
+                                    classes: null
+                                }
+                            ],
+                        },
+                        {
+                            type: "span",
+                            objs: [
+                                {
+                                    text: "The specification/drawings must be clear and sufficient as to enable a person ordinarily skilled in the art to work or reproduce the invention.",
+                                    url: null,
+                                    routerlink: null,
+                                    tooltip: null,
+                                    classes: null
+                                }
+                            ],
+                        },
+                        {
+                            type: "span",
+                            objs: [
+                                {
+                                    text: "36(4)(i)",
+                                    url: null,
+                                    routerlink: null,
+                                    tooltip: null,
+                                    classes: null
+                                }
+                            ],
+                        },
+                        {
+                            type: "br",
+                            objs: null
+                        },
+                        {
+                            type: "br",
+                            objs: null
+                        },
+                        {
+                            type: "br",
+                            objs: null
+                        },
+
+                        {
+                            type: "span",
+                            objs: [
+                                {
+                                    text: "Support",
+                                    url: null,
+                                    routerlink: null,
+                                    tooltip: null,
+                                    classes: null
+                                }
+                            ],
+                        },
+                        {
+                            type: "span",
+                            objs: [
+                                {
+                                    text: "The invention must be described in the specification/drawings at the patent filing.",
+                                    url: null,
+                                    routerlink: null,
+                                    tooltip: null,
+                                    classes: null
+                                }
+                            ],
+                        },
+                        {
+                            type: "span",
+                            objs: [
+                                {
+                                    text: "36(6)(i)",
+                                    url: null,
+                                    routerlink: null,
+                                    tooltip: null,
+                                    classes: null
+                                }
+                            ],
+                        },
+                        {
+                            type: "br",
+                            objs: null
+                        },
+                        {
+                            type: "br",
+                            objs: null
+                        },
+                        {
+                            type: "br",
+                            objs: null
+                        },
+
+                        {
+                            type: "span",
+                            objs: [
+                                {
+                                    text: "Clarity",
+                                    url: null,
+                                    routerlink: null,
+                                    tooltip: null,
+                                    classes: null
+                                }
+                            ],
+                        },
+                        {
+                            type: "span",
+                            objs: [
+                                {
+                                    text: "The invention must be clear in the claims.",
+                                    url: null,
+                                    routerlink: null,
+                                    tooltip: null,
+                                    classes: null
+                                }
+                            ],
+                        },
+                        {
+                            type: "span",
+                            objs: [
+                                {
+                                    text: "36(6)(ii)",
+                                    url: null,
+                                    routerlink: null,
+                                    tooltip: null,
+                                    classes: null
+                                }
+                            ],
+                        },
+                        {
+                            type: "br",
+                            objs: null
+                        },
+                        {
+                            type: "br",
+                            objs: null
+                        },
+                        {
+                            type: "br",
+                            objs: null
+                        },
+
+                        {
+                            type: "span",
+                            objs: [
+                                {
+                                    text: "Unity of Invention",
+                                    url: null,
+                                    routerlink: null,
+                                    tooltip: null,
+                                    classes: null
+                                }
+                            ],
+                        },
+                        {
+                            type: "span",
+                            objs: [
+                                {
+                                    text: "Claims must be directed to one invention or closely related inventions. If this is satisfied, a single application can set forth multiple categories of claims.",
+                                    url: null,
+                                    routerlink: null,
+                                    tooltip: null,
+                                    classes: null
+                                }
+                            ],
+                        },
+                        {
+                            type: "span",
+                            objs: [
+                                {
+                                    text: "37",
+                                    url: null,
+                                    routerlink: null,
+                                    tooltip: null,
+                                    classes: null
+                                }
+                            ],
+                        },
+                        {
+                            type: "br",
+                            objs: null
+                        },
+                        {
+                            type: "br",
+                            objs: null
+                        },
+                        {
+                            type: "br",
+                            objs: null
+                        },
+
+                        {
+                            type: "span",
+                            objs: [
+                                {
+                                    text: "Double Patenting (First to File)",
+                                    url: null,
+                                    routerlink: null,
+                                    tooltip: null,
+                                    classes: null
+                                }
+                            ],
+                        },
+
+                        {
+                            type: "elementgrid",
+                            objs: [{
+                                gap: "20px",
+                                percent: "100",
+                                elements: [
+                                    {
+                                        type: "span",
+                                        objs: [
+                                            {
+                                                text: "This entails conflict with claims of the applicant or others.",
+                                                url: null,
+                                                routerlink: null,
+                                                tooltip: null,
+                                                classes: null
+                                            }
+                                        ],
+                                    },
+                                    {
+                                        type: "br",
+                                        objs: null
+                                    },
+                                    {
+                                        type: "span",
+                                        objs: [
+                                            {
+                                                text: "This circumstance is frequently found between the claims of a divisional application and its parent application.",
+                                                url: null,
+                                                routerlink: null,
+                                                tooltip: null,
+                                                classes: null
+                                            }
+                                        ],
+                                    },
+                                ]
+                            },]
+                        },
+                        {
+                            type: "span",
+                            objs: [
+                                {
+                                    text: "39",
+                                    url: null,
+                                    routerlink: null,
+                                    tooltip: null,
+                                    classes: null
+                                }
+                            ],
+                        },
+                        {
+                            type: "br",
+                            objs: null
+                        },
+                        {
+                            type: "br",
+                            objs: null
+                        },
+                        {
+                            type: "br",
+                            objs: null
+                        },
+
+                        {
+                            type: "span",
+                            objs: [
+                                {
+                                    text: "Secret prior art rejection",
+                                    url: null,
+                                    routerlink: null,
+                                    tooltip: null,
+                                    classes: null
+                                }
+                            ],
+                        },
+                        {
+                            type: "span",
+                            objs: [
+                                {
+                                    text: "An earlier filing/priority application constitutes secret prior art when published after the filing of the present application",
+                                    url: null,
+                                    routerlink: null,
+                                    tooltip: null,
+                                    classes: null
+                                }
+                            ],
+                        },
+                        {
+                            type: "span",
+                            objs: [
+                                {
+                                    text: "29-2",
+                                    url: null,
+                                    routerlink: null,
+                                    tooltip: null,
+                                    classes: null
+                                }
+                            ],
+                        },
+
+                        {
+                            type: "br",
+                            objs: null
+                        },
+                    ]
+                },]
+            },
+
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "Please describe Novelty (Article 29(1)(i)-(iii)) in more detail.",
+                        type: "h2",
+                        classes: null,
+                    }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "The Japanese Patent Act adopts the first-to-file system and requires absolute novelty. Accordingly, the patentable invention must neither be publicly known nor publicly used in Japan or anywhere in the world; the invention must not be described in any publications distributed in Japan or in any other country, including patent and non-patent publications; and the invention must not be on any website in Japan or in any other country prior to the time of filing. Here, the time of filing refers to the actual time of filing or the time of filing the priority application, if a priority claim is in effect.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "How to enjoy the Grace period?",
+                        type: "h2",
+                        classes: null,
+                    }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "To rescue the applicant from the publication of invention, a 12-month grace period is provided. The grace period covers either of the following two cases:",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "(a)	Loss of novelty of an invention due to an act, including sales, presentations to investors, and presentations in any academic groups, by a person having the right to obtain a patent (with the exception of an invention being published on the patent, utility, design or trademark gazette by a person having the right to obtain a patent).",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "(b)	Loss of novelty of an invention against the will of a person having the right to obtain a patent; for example, if a third party exhibits an invention without permission, or if an employee maliciously leaks information or industrial espionage is involved.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "To claim a grace period in case (a), the applicant must establish the effective filing date in Japan within 12 months from the publication. At the JP filing, the grace period must be claimed and supporting evidence also must be filed timely.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "In the case of a novelty destroying act as described in case (b) above, the applicant/patent holder must prove that the novelty was lost against their wishes. The burden of proof is on the applicant.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "If there are multiple publications, do I have to claim a grace period for each publication?",
+                        type: "h2",
+                        classes: null,
+                    }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "The Examination Guidelines allow the effect of the grace period claimed for the first publication to the later publication when the first and later publications are only closely related (for example, the relationship between broadcasting and its rebroadcast). If there is no such relationship between the publications, a grace period must be claimed for each individual publication. According to this practice, if there are multiple publications, a grace period must be claimed for each publication.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "Please describe Inventive Step (Article 29(2)) in more detail.",
+                        type: "h2",
+                        classes: null,
+                    }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "An invention must have an inventive step over the prior art as of the patent filing date.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "Since differences in technology cannot be measured quantitatively, issues such as whether or not the motivation for the invention existed in the prior art and whether or not the technical effects of the claimed invention are distinguishable over prior known technology are important in determining patentability.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "In the inventive-step assessment, the Examiner must determine if the closest reference can be used as a base in combination with a second reference. If so, there must be some teaching or other motivation that would direct a skilled person to combine the references to achieve the claimed invention. ",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "Under Japanese examination practice, a finding of such teaching or motivation, or other auxiliary factors that would have prompted the skilled person to combine a reference with the main reference to achieve the claimed invention, forms the foundation of the examination procedure.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "In response to the inventive-step rejection, telling the story of the invention and unique advantages of the invention on the basis of the specification can produce a more persuasive argument rather than simply denying the citations.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "Please describe the Enablement Requirement (Article 36(4)(i)) in more detail.",
+                        type: "h2",
+                        classes: null,
+                    }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "The specification must substantively describe the invention. Therefore, simply reciting the claimed invention in the specifications or describing mere desired outcomes do not satisfy the enablement requirement (Article 36(4)(i)). It is recommended to describe sufficient embodiments to support the claims. If the claims go beyond the embodiments, an enablement objection will be issued.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "Please describe the Support Requirement (Article 36(6)(i)) in more detail.",
+                        type: "h2",
+                        classes: null,
+                    }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "In Japan, a patent is granted for the disclosed invention. The scope of the patent cannot go beyond the scope of what could have been predicted from the embodiments in the disclosure (Article 36(6)(i)).",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "This Article presents a test that is used to check if the technical ideas described in the embodiments can be generalized up to the claimed invention by one of ordinary skill in the art. If the claim is in an area where it can be generalized, the support requirement is affirmed. If the boundary is crossed, the support requirement is denied.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "Please describe the Clarity Requirement (Article 36(6)(ii)) in more detail.",
+                        type: "h2",
+                        classes: null,
+                    }]
+            },
+            {
+                type: "list",
+                objs: [
+                    {
+                        type: "ul",
+                        elements: [
+                            {
+                                type: "span",
+                                objs: [{
+                                    text: "In Japan patent claims must clearly define the scope of the invention because the determination of novelty and inventive step, and claim construction is conducted on the basis of the claims.",
+                                    url: null,
+                                    routerlink: null,
+                                    tooltip: null,
+                                    classes: ["noselect"]
+                                }]
+                            },
+
+                            {
+                                type: "span",
+                                objs: [{
+                                    text: "A clarity objection is issued if the claim itself or its wording is ambiguous.",
+                                    url: null,
+                                    routerlink: null,
+                                    tooltip: null,
+                                    classes: ["noselect"]
+                                }]
+                            },
+                        ],
+                        classes: null,
+                    },
+                ]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "If the technical relationship between the claim elements is not clearly defined, a clarity objection will be issued.  This type of clarity objection is often accompanied by a prior art rejection.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "Clarity objections are typically issued when certain terms or phases are included in patent claims.  Examples of such terms or phrases include “about”, “approximately”, “preferably”, “desirably”, etc.  For claims defined by numerical limitations or ranges, an upper and lower limitation should be defined. In such situations, if no upper or lower limitations are recited in a claim, a clarity objection may be issued. ",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "What are requirements for Unity of Invention?",
+                        type: "h2",
+                        classes: null,
+                    }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "Patent Act Article 37 requires unity of invention and permits the inclusion of any number of independent claims in one patent application, even if they belong to different categories of invention, provided that the patent claims share a common inventive concept over the prior art. ",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "Unity of Invention is determined in the course of the substantive examination in order to ascertain which claims should be examined.  After examining the case for unity of invention, the Examiners will examine only those claims that share unity or are closely related and will issue a unity of invention objection if appropriate in an Office Action. Usually, a unity of invention rejection is issued together with other issues, such as novelty and inventiveness issues. ",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "According to the Examination Guidelines, the claims must share the same or a related special technical feature. This special technical feature must be a novel feature distinguishable over the prior art. If the application satisfies this requirement, the claims may include a product claim, a claim for a machine/device for manufacturing the product, and also other categories or types of claims. ",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "The response to a unity of invention objection may be addressed by amending the claims to include the special technical feature. It may also be addressed by responding to the prior art rejection.  Another option to address a unity of invention rejection is to cancel claims that are the subject of the unity of invention objection.  Generally, the option of cancelling claims is the most common pathways as the chance of success by traversing a unity of invention objection is relatively low under the Japanese patent practice.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "What is a secret prior art rejection (Article 29-2)?",
+                        type: "h2",
+                        classes: null,
+                    }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "The Patent Law, Article 29-2 provides for secret prior art. If the claimed invention is anticipated by secret prior art, the application shall be rejected. Secret prior art comprises another person’s application whose filing/priority date is earlier than that of the present application and whose publication date is after the filing date of the present application.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "However, this provision shall not apply in a situation where: the inventor(s) of the later invention are identical to the inventor(s) of the earlier invention; or the later applicant(s) is/are identical to the earlier applicant(s) at the application date of the later application.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "This secret prior art rejection may rely on a single reference, and a patentability argument against the cited reference need only to point out a substantial difference between the claims and the cited reference.  This contrasts with an obviousness-type rejection in that a secret prior art rejection does not require non-obviousness arguments.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+
+        ]
+    }
+};
+
+const PATENTCONSIDERATIONSTECHFIELDS: IExpansionPanel = {
     title: "Overview of Japanese Patent and IP system",
     description: "",
     content:
@@ -1028,40 +2042,6 @@ const PATENTOVERVIEW3: IExpansionPanel = {
 };
 // HEREEE
 
-const PATENTOVERVIEW2: IExpansionPanel = {
-    title: "Overview of Japanese Patent and IP system",
-    description: "",
-    content:
-    {
-        elements: [
-            {
-                type: "header",
-                objs: [
-                    {
-                        text: "Preface",
-                        type: "h2",
-                        classes: null,
-                    }]
-            },
-            {
-                type: "paragraph",
-                objs: [{
-                    spans: [
-                        {
-                            text: "",
-                            url: null,
-                            routerlink: null,
-                            tooltip: null,
-                            classes: null
-                        }
-                    ],
-                    classes: null
-                }]
-            },
-        ]
-    }
-};
-
 const PATENTOVERVIEW1: IExpansionPanel = {
     title: "Overview of Japanese Patent and IP system",
     description: "",
@@ -1092,6 +2072,38 @@ const PATENTOVERVIEW1: IExpansionPanel = {
                     classes: null
                 }]
             },
+            {
+                type: "list",
+                objs: [
+                    {
+                        type: "ol",
+                        elements: [
+                            {
+                                type: "span",
+                                objs: [{
+                                    text: "",
+                                    url: null,
+                                    routerlink: null,
+                                    tooltip: null,
+                                    classes: ["noselect"]
+                                }]
+                            },
+
+                            {
+                                type: "span",
+                                objs: [{
+                                    text: "",                                    
+                                    url: null,
+                                    routerlink: null,
+                                    tooltip: null,
+                                    classes: ["noselect"]
+                                }]
+                            },
+                        ],
+                        classes: null,
+                    },
+                ]
+            },
         ]
     }
 };
@@ -1103,8 +2115,9 @@ const PATENTACCORDION: IAccordion = {
         PATENTOVERVIEW,
         PATENTFILINGROUTES,
         PATENTCLAIMS,
+        PATENTBASICPATENTREQS,
+        PATENTCONSIDERATIONSTECHFIELDS,
         // HEREEE
-
     ]
 };
 
