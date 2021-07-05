@@ -1,16 +1,25 @@
-.titletext {
-    color: white;
+.titledivmobile {
     position: absolute;
-    left: 36px;
-    top: 55px;
+    font-weight: normal;
+    font-size: 0.7em;
+    left: 1%;
+    top: 1%;
     animation: fadeIn ease 0.5s;
-    -webkit-animation: fadeIn ease 0.5s;
+    -webkit-animation: fadeIn ease 0.5s;  
 }
-.titletextmobile {
-    color: white;
+.titlediv {
     position: absolute;
-    left: 36px;
-    top: 55px;
+    font-weight: normal;
+    font-size: 1.0em;
+    left: 2%;
+    top: 2%;
     animation: fadeIn ease 0.5s;
-    -webkit-animation: fadeIn ease 0.5s;
+    -webkit-animation: fadeIn ease 0.5s;  
+}
+.titletext {
+    color: white !important;
+    line-height: 10px;
+}
+.mat-card-content{
+    width: 100%;
 }

@@ -1,2 +1,10 @@
-<h1><span fxShow="true" fxHide.lt-md class="titletext">{{getTitleText()}}</span></h1>
-<h1><span fxHide fxShow.lt-md class="titletextmobile">{{getTitleText()}}</span></h1>
+<div class="titlediv" fxShow="true" fxHide.lt-md="true">
+    <span class="titletext">{{getTitleText()}}</span>
+    <br><br>
+    <span class="titletext">{{getTitleText2()}}</span>
+</div>
+<div class="titledivmobile" fxHide fxShow.lt-md>
+    <span class="titletext">{{getTitleText()}}</span>
+    <br><br>
+    <span class="titletext">{{getTitleText2()}}</span>
+</div>

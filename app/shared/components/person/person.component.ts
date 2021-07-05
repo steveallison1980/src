@@ -29,6 +29,8 @@ export class PersonComponent implements OnInit {
         return this.person.nameJP;
       case "EN":
       default:
+        if( this.person.qualifications != "")
+          return this.person.name+", "+this.person.qualifications;
         return this.person.name;
     }
   }

@@ -1,53 +1,60 @@
 <div>
-    <mat-card class="person-card">
-        <mat-card-header>
-            <mat-card-title>
-                <app-titletext [title]="getName()+', '+getTitle()"></app-titletext>
-            </mat-card-title>
-        </mat-card-header>
-        <mat-card-content>
-            <div id='personimgdiv'>
+    <div class='profile'>
+    
+        <div class="container">
+            <div>
                 <img fxShow="true" fxHide.lt-md="true" src="../../../../assets/img/profiles/{{getPerson().imglarge}}" alt="{{getPerson().name}}, {{getPerson().title}}">
-                <img width=100% fxHide fxShow.lt-md src="../../../../assets/img/profiles/{{getPerson().img}}" alt="{{getPerson().name}}, {{getPerson().title}}">
+                <img fxHide fxShow.lt-md src="../../../../assets/img/profiles/{{getPerson().img}}" alt="{{getPerson().name}}, {{getPerson().title}}">
+                <div fxShow="true" fxHide.lt-md="true" class="topleft">
+                    <span>{{getName()}}</span><br>
+                    <span>{{getTitle()}}</span>
+                </div>
+                <div fxHide fxShow.lt-md class="topleftmobile">
+                    <span>{{getName()}}</span><br>
+                    <span>{{getTitle()}}</span>
+                </div>
             </div>
-            <br>
-            <mat-divider></mat-divider>
-            <div *ngIf="getSpecialties()!=null">
-                <h2>{{getSpecialitiesHeading()}}</h2>
-                <p *ngFor="let item of getSpecialties()">
-                    {{item.text}}
-                </p>
-            </div> 
-            <mat-divider *ngIf="getEducation()!=null"></mat-divider>
-            <div *ngIf="getEducation()!=null">
-                <h2>{{getEducationHeading()}}</h2>
-                <p *ngFor="let item of getEducation()">
-                    {{item.text}}
-                </p>
-            </div> 
-            <mat-divider *ngIf="getCareers()!=null"></mat-divider>
-            <div *ngIf="getCareers()!=null">
-                <h2>{{getCareersHeading()}}</h2>
-                <p *ngFor="let item of getCareers()">
-                    {{item.text}}
-                </p>
-            </div> 
-            <mat-divider *ngIf="getMemberships()!=null"></mat-divider>
-            <div *ngIf="getMemberships()!=null">
-                <h2>{{getMembershipsHeading()}}</h2>
-                <p *ngFor="let item of getMemberships()">
-                    {{item.text}}
-                </p>
-            </div> 
-            <mat-divider *ngIf="getPublications()!=null"></mat-divider>
-            <div *ngIf="getPublications()!=null">
-                <h2>{{getPublicationsHeading()}}</h2>
-                <p *ngFor="let item of getPublications()">
-                    {{item.text}}
-                </p>
-            </div> 
-        </mat-card-content>
-    </mat-card>
+            
+            <div>    
+                <br>
+                <mat-divider></mat-divider>
+                <div *ngIf="getSpecialties()!=null">
+                    <h2>{{getSpecialitiesHeading()}}</h2>
+                    <p *ngFor="let item of getSpecialties()">
+                        {{item.text}}
+                    </p>
+                </div> 
+                <mat-divider *ngIf="getEducation()!=null"></mat-divider>
+                <div *ngIf="getEducation()!=null">
+                    <h2>{{getEducationHeading()}}</h2>
+                    <p *ngFor="let item of getEducation()">
+                        {{item.text}}
+                    </p>
+                </div> 
+                <mat-divider *ngIf="getCareers()!=null"></mat-divider>
+                <div *ngIf="getCareers()!=null">
+                    <h2>{{getCareersHeading()}}</h2>
+                    <p *ngFor="let item of getCareers()">
+                        {{item.text}}
+                    </p>
+                </div> 
+                <mat-divider *ngIf="getMemberships()!=null"></mat-divider>
+                <div *ngIf="getMemberships()!=null">
+                    <h2>{{getMembershipsHeading()}}</h2>
+                    <p *ngFor="let item of getMemberships()">
+                        {{item.text}}
+                    </p>
+                </div> 
+                <mat-divider *ngIf="getPublications()!=null"></mat-divider>
+                <div *ngIf="getPublications()!=null">
+                    <h2>{{getPublicationsHeading()}}</h2>
+                    <p *ngFor="let item of getPublications()">
+                        {{item.text}}
+                    </p>
+                </div> 
+            </div>
+        </div>
+    </div>
 </div>
 
     
