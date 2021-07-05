@@ -228,7 +228,7 @@ const PATENTFILINGROUTES: IExpansionPanel = {
                     {
                         text: "Entry term",
                         type: "h2",
-                        classes: "bullet",
+                        classes: ["bullet"],
                     }]
             },
             {
@@ -268,7 +268,7 @@ const PATENTFILINGROUTES: IExpansionPanel = {
                     {
                         text: "Translation",
                         type: "h2",
-                        classes: "bullet",
+                        classes: ["bullet"],
                     }]
             },
             {
@@ -293,7 +293,7 @@ const PATENTFILINGROUTES: IExpansionPanel = {
                     {
                         text: "Necessary information and documents",
                         type: "h2",
-                        classes: "bullet",
+                        classes: ["bullet"],
                     }]
             },
             {
@@ -354,7 +354,7 @@ const PATENTFILINGROUTES: IExpansionPanel = {
                     {
                         text: "Check points",
                         type: "h2",
-                        classes: "bullet",
+                        classes: ["bullet"],
                     }]
             },
             {
@@ -415,7 +415,7 @@ const PATENTFILINGROUTES: IExpansionPanel = {
                     {
                         text: "Priority due date",
                         type: "h2",
-                        classes: "bullet",
+                        classes: ["bullet"],
                     }]
             },
             {
@@ -470,7 +470,7 @@ const PATENTFILINGROUTES: IExpansionPanel = {
                     {
                         text: "Translation filing due date",
                         type: "h2",
-                        classes: "bullet",
+                        classes: ["bullet"],
                     }]
             },
             {
@@ -495,7 +495,7 @@ const PATENTFILINGROUTES: IExpansionPanel = {
                     {
                         text: "Necessary information and documents",
                         type: "h2",
-                        classes: "bullet",
+                        classes: ["bullet"],
                     }]
             },
             {
@@ -638,10 +638,8 @@ const PATENTFILINGROUTES: IExpansionPanel = {
     }
 };
 
-// HEREEE
-
-const PATENTOVERVIEW4: IExpansionPanel = {
-    title: "Overview of Japanese Patent and IP system",
+const PATENTCLAIMS: IExpansionPanel = {
+    title: "Claims, specification and other documents necessary in Japan ",
     description: "",
     content:
     {
@@ -650,7 +648,7 @@ const PATENTOVERVIEW4: IExpansionPanel = {
                 type: "header",
                 objs: [
                     {
-                        text: "Preface",
+                        text: "Acceptable Claims",
                         type: "h2",
                         classes: null,
                     }]
@@ -660,7 +658,7 @@ const PATENTOVERVIEW4: IExpansionPanel = {
                 objs: [{
                     spans: [
                         {
-                            text: "",
+                            text: "Any style of claim is acceptable in Japan, and it will not be necessary to modify the original claims to comply with Japanese claim practice.",
                             url: null,
                             routerlink: null,
                             tooltip: null,
@@ -670,6 +668,327 @@ const PATENTOVERVIEW4: IExpansionPanel = {
                     classes: null
                 }]
             },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "However, if the patent claims are directed to non-patentable subject matter, it is recommended to rewrite the claims in Japanese form.  For example, in the case of an invention of a method for surgery, therapy, or diagnosis of humans normally practiced by medical doctors (“medical activity”), such a method is not a patentable invention since it is not an “industrially applicable invention” under the Patent Act, Article 29(1). Thus, the applicant needs to amend the claims to describe the medical activity performed by the medical equipment instead of claiming the activity practiced by medical doctors.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "Claim Fee",
+                        type: "h2",
+                        classes: null,
+                    }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "The patent application fee is flat fee system regardless of the number of claims.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "There is no limit to the number of independent claims and the number of different category claims in a claim set. A multiply dependent claim system is allowed and each claim is only counted once.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "The examination fee, appeal against Examiner’s rejection fee, and annuities are calculated according to the number of claims. Even if the number of independent claims exceeds 3, and the number of claims exceeds 15 or 20, no special excess fee is required.  ",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "For example, the request for examination fee as of February 2021 is calculated as follows: ",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "base fee ( JPY124,000) + the number of claims × JPY3,600",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: ["underline"] 
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "Requirements of Patent Specification?",
+                        type: "h2",
+                        classes: null,
+                    }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "The Japanese Patent Act, Article 36(4) (i) requires that an invention be described with sufficiently clarity and completeness that the invention can be carried out by a person skilled in the art at the time of patent application. It should be noted that the invention cannot be completed by adding further description after filing.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "According to Rule 24-2 (Agency Regulations), the specification must discuss the problem to be solved by the invention, its solution, and other matters necessary for a person ordinarily skilled in the art to which the invention pertains to understand the technical significance of the invention.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "A description of the invention, advantages of the embodiment of the invention, and advantages are demonstrated through examples.  Comparative examples can be helpful for patentability arguments in later prosecution before the Japanese Patent Office and the Courts.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "Requirements of Drawings?",
+                        type: "h2",
+                        classes: null,
+                    }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "Drawings are considered to be part of the invention disclosure.  Consequently, the Japanese Patent Act requires drawings to be translated. If the drawings are clear, we may be able to later rely on the disclosure in the drawings in patentability arguments in later prosecution.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "The JPO does not accept color drawings.  However, the JPO accepts color drawings as reference materials.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "Inventorship?",
+                        type: "h2",
+                        classes: null,
+                    }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "Under Japanese practice, the inventorship is determined based on the full disclosure of the patent application including the patent claims, specification, and drawings. The JPO requires that all inventors who contributed to the invention described in the specification and drawings be listed.  Thus, in Japan, inventorship is not determined by looking solely at the patent claims such as is the case in other countries.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "According to the JPO practice, the inventorship need not be changed when the claims are amended, cancelled or filed in a divisional application. Under the JPO practice, an amendment of the inventorship is only required where there is an error in the list of the inventors. ",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "However, the JPO will accept correction of inventorship by adding or removing an inventor while the patent application is pending before the JPO.  After issuance of the patent, any correction of inventorship is impossible. The last chance to amend inventorship is at the issue fee payment. ",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "Is Assignment Required?",
+                        type: "h2",
+                        classes: null,
+                    }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "In Japan, patent applications can be filed in the name of an assignee. An assignment is not required to prove the assignment. ",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "However, an assignment is required for the assignment of a pending application or issued patent to take effect.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "In order to record an assignment, the pending patent application must be identified by the patent application number (not by a publication number) or, in the case of an issued patent, by the patent number.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "No notarization or legalization is required for the deed of assignment.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+
         ]
     }
 };
@@ -707,6 +1026,7 @@ const PATENTOVERVIEW3: IExpansionPanel = {
         ]
     }
 };
+// HEREEE
 
 const PATENTOVERVIEW2: IExpansionPanel = {
     title: "Overview of Japanese Patent and IP system",
@@ -782,7 +1102,7 @@ const PATENTACCORDION: IAccordion = {
         PATENTPREFACE,
         PATENTOVERVIEW,
         PATENTFILINGROUTES,
-
+        PATENTCLAIMS,
         // HEREEE
 
     ]
