@@ -2008,7 +2008,7 @@ const PATENTBASICPATENTREQS: IExpansionPanel = {
 };
 
 const PATENTCONSIDERATIONSTECHFIELDS: IExpansionPanel = {
-    title: "Overview of Japanese Patent and IP system",
+    title: "Considerations Specific to Certain Technical Fields and Claim Types",
     description: "",
     content:
     {
@@ -2017,7 +2017,7 @@ const PATENTCONSIDERATIONSTECHFIELDS: IExpansionPanel = {
                 type: "header",
                 objs: [
                     {
-                        text: "Preface",
+                        text: "How to claim computer program related inventions?",
                         type: "h2",
                         classes: null,
                     }]
@@ -2027,7 +2027,7 @@ const PATENTCONSIDERATIONSTECHFIELDS: IExpansionPanel = {
                 objs: [{
                     spans: [
                         {
-                            text: "",
+                            text: "In Japan, computer program inventions are categorized as statutory product inventions under the Patent Act. The Guidelines define a program as “a set of numbered instructions given to a computer to make it perform a particular information processing.“ A software invention must be recited in a claim as a combination of multiple functions performed by the a computer (Guidelines, Part VII, Chapter 1). ",
                             url: null,
                             routerlink: null,
                             tooltip: null,
@@ -2037,10 +2037,360 @@ const PATENTCONSIDERATIONSTECHFIELDS: IExpansionPanel = {
                     classes: null
                 }]
             },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "The following examples are claim format recommended in the Guidelines.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            // HEREEE
+
+            // [Example of process claim] 
+            {
+                type: "br",
+                objs: null
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "[Example of process claim] ",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "“A program which makes a computer execute procedure A, procedure B, procedure C, ...”",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            // [Example of product claim]
+            {
+                type: "br",
+                objs: null
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "[Example of product claim]",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "“A program which makes a computer operate as means A, means B, means C, …”",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+
+            // [Example of product claim] 
+            {
+                type: "br",
+                objs: null
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "[Example of product claim] ",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "“A program which makes a computer realize function A, function B, function C”",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+
+            {
+                type: "br",
+                objs: null
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "The most important thing is to describe in the claim the function that the program causes a computer to execute. If the limitation can also be interpreted to mean that a person executes the function as opposed to the computer, the claimed invention as a whole may be objected to as a non-statutory invention.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "Further, in Japanese Practice, a computer program itself is a product invention (Article 2(3)), and if the computer program invention is titled as, for example, “computer program product” or “non-transitory computer-readable storage medium”, clarity or non-statutory objections may be issued.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+
+
+
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "What are requirements for business models?",
+                        type: "h2",
+                        classes: null,
+                    }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "Inventions related to business models, like computer program inventions, are statutory inventions if they are defined to achieve or solve a technical problem using computers or software. The Guidelines require that claims describe specifically how the software works in coordination with hardware to solve a technical problem.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "Are medicines and medical devices patentable subject matter?",
+                        type: "h2",
+                        classes: null,
+                    }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "Yes, a medical product such as a drug and a medical device is unquestionably patentable in Japan.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "Are medical acts patentable subject matter?",
+                        type: "h2",
+                        classes: null,
+                    }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "No, a method for surgery, therapy, or diagnosis of humans is unpatentable subject matter in Japan. For example, a claim such as \"A method of treating YYY disease with an active pharmaceutical ingredient XXX\" will be summarily rejected as ineligible.  As such we would rewrite this claim to \"A medicament comprising an active pharmaceutical ingredient XXX for the treatment of YYY disease\", i.e., using the second medical use format. Similarly, we advise claiming a medical device which has a specific function suitable for performing surgery/therapy/diagnosis, rather than claiming a method of surgery/therapy/diagnosis using the medical device.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "Should the Specification disclose experimental results in Chemical and Medical Inventions?",
+                        type: "h2",
+                        classes: null,
+                    }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "Yes, it should. The Examination Guidelines requires disclosure on how to make and use a chemical or medical product, since it may be relatively difficult to understand this on the basis of their structures or names. For example, in the case of an invention of a medicine with a specified use, examples which establish an efficacy for the use are usually required in the specification. Importantly, addition of examples is not usually admitted after filing the application. Therefore, the specification at the time of patent filing should disclose one or more representative examples.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "Can a product invention be defined by properties?",
+                        type: "h2",
+                        classes: null,
+                    }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "Yes, it can. When claiming a product defined by properties, the specification at the time of filing should disclose experimental results and/or the mechanism of how a product having such properties is obtained. Further, the specification should disclose a method for measuring the property or a standard showing the method.  Such standards may be, for example, JIS (Japanese Industrial Standards), ISO (International Organization for Standardization), ASTM (American Society for Testing and Materials), and DIN (Deutsches Institut für Normung).",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "We can also employ a technical term indicating a property in the claims. In this event, we may need to define the technical term in the specification, especially if the technical term is ambiguous. For example, it has been decided that \"average molecular weight\" is ambiguous because it encompasses \"weight-average molecular weight\", \"viscosity-average molecular weight\", and \"number-average molecular weight\". We can also employ a numerical formula to define a property, however, the specification should disclose experimental results and/or a theoretical explanation regarding the mechanism of how the numerical formula is derived.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "Can we use a Markush-Type claims?",
+                        type: "h2",
+                        classes: null,
+                    }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "Yes, we can. In the Japanese patent practice, Markush-type claims, i.e., expression of a chemical substance and composition written in an alternative form, are acceptable. When using them, it is preferable to disclose examples of all alternative forms of a product in the specification. However, if alternative forms share chemical properties, the specification does not have to disclose examples of all alternative forms.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "What are requirements for Product-by-Process Claims?",
+                        type: "h2",
+                        classes: null,
+                    }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "They are allowed, but subject to some conditions. Product-by-process claims are only acceptable if it is not possible, or it is entirely impractical, to directly define the product by its structure or characteristics, according to a ruling by the Supreme Court and the JPO's Guidelines. If these conditions are not met, the Examiner may reject a product-by-process claim as being indefinite. Therefore, we generally advise clients to define a product by its structure or characteristics. Please also note that the scope of the product-by-process claim includes products which are prepared by a different process, which may raise a hurdle in terms of novelty and inventive step analysis.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+
         ]
     }
 };
-// HEREEE
 
 const PATENTOVERVIEW1: IExpansionPanel = {
     title: "Overview of Japanese Patent and IP system",
@@ -2092,7 +2442,7 @@ const PATENTOVERVIEW1: IExpansionPanel = {
                             {
                                 type: "span",
                                 objs: [{
-                                    text: "",                                    
+                                    text: "",
                                     url: null,
                                     routerlink: null,
                                     tooltip: null,
@@ -2111,6 +2461,7 @@ const PATENTOVERVIEW1: IExpansionPanel = {
 
 const PATENTACCORDION: IAccordion = {
     panels: [
+
         PATENTPREFACE,
         PATENTOVERVIEW,
         PATENTFILINGROUTES,
