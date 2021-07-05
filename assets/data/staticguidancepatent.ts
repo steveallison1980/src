@@ -2052,7 +2052,6 @@ const PATENTCONSIDERATIONSTECHFIELDS: IExpansionPanel = {
                     classes: null
                 }]
             },
-            // HEREEE
 
             // [Example of process claim] 
             {
@@ -2392,6 +2391,560 @@ const PATENTCONSIDERATIONSTECHFIELDS: IExpansionPanel = {
     }
 };
 
+const PATENTEXAMANDACCEL: IExpansionPanel = {
+    title: "Examination system and Acceleration of Examination",
+    description: "",
+    content:
+    {
+        elements: [
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "When does the examination of the application begin?",
+                        type: "h2",
+                        classes: null,
+                    }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "The examination of a patent application is initiated by a request for examination (Article 48-3).",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "The period for requesting examination of a patent application is 3 years from the effective filing date.  The request for examination for a divisional application whose effective filing date is more than three years old, must be filed within 30 days from the division date.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "If the request is not filed before the deadline, the application is deemed to have been withdrawn. ",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "In principle, patent applications are examined in the order in which requests for examination have been filed. The waiting time for a first Office Action in 2019 is on average 9.5 months, depending upon the technical field of the invention.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "If faster examination is necessary, the applicant can request an accelerated examination (see Question 6.3 for more details).",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "Can a third party also can file a request for examination?",
+                        type: "h2",
+                        classes: null,
+                    }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "Anyone, including an applicant as well as a third party, can file a request for examination of a patent application. When the request for examination is filed by a third party, the patent applicant is notified thereof.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "The third party may also submit to the Examiner pertinent prior art references that raise questions of patentability, which the Examiner will take into consideration.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "Is it possible to request an Accelerated Examination?",
+                        type: "h2",
+                        classes: null,
+                    }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "Yes, it is possible. The JPO provides for accelerated examination procedures. ",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "The JPO will advance an application out of turn for examination if a proper request for accelerated examination is requested. For accelerated examination, the JPO examines and issues Office Actions within 2.5 months on average in 2019 (see the JPO annual report 2020).",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "For Japanese patent applications filed under the Paris Convention, the JPO will start accelerated examination immediately upon receipt of the patent application. ",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "However, in the case of Japanese patent applications filed by way of the Patent Cooperation Treaty (PCT), the JPO must wait for documents to be received from WIPO. Therefore, depending on the timing of the request for accelerated examination, it may not be possible to proceed with the examination immediately.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "All Paris and PCT route patent applications are entitled to an accelerated examination request.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "Is it possible to further accelerate the examination?",
+                        type: "h2",
+                        classes: null,
+                    }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "Yes. In addition to the Accelerated Examination, a Super Accelerated Examination (SAE) is possible. Via an SAE, an Office Action can be obtained even faster than via the (normal) Accelerated Examination. The JPO aims to issue a first Office Action within one month of the request for an SAE. Applicants, in turn, are requested to respond quickly.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "The SAE requires the following two requirements:",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "list",
+                objs: [
+                    {
+                        type: "ol",
+                        elements: [
+                            {
+                                type: "span",
+                                objs: [{
+                                    text: "The invention must be worked or planned to be worked within two (2) years of the application.",
+                                    url: null,
+                                    routerlink: null,
+                                    tooltip: null,
+                                    classes: ["noselect"]
+                                }]
+                            },
+
+                            {
+                                type: "span",
+                                objs: [{
+                                    text: "The patent application must be a PCT or the Paris route application.",
+                                    url: null,
+                                    routerlink: null,
+                                    tooltip: null,
+                                    classes: ["noselect"]
+                                }]
+                            },
+                        ],
+                        classes: null,
+                    },
+                ]
+            },
+
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "Is Patent Prosecution Highway (PPH) Program available?",
+                        type: "h2",
+                        classes: null,
+                    }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "Yes. The Patent Prosecution Highway (PPH) program was introduced as a route for an accelerated examination. If a foreign counterpart application filed in the United States, Europe, China, Korea, or a number of other contracting countries is issued as a patent, granted or indicated as to be granted, the applicant may request the PPH program relying on one of the granted patents in order to implement an accelerated examination of the patent application in Japan. The PPH program is also available for PCT applications.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "With the PPH program, the Japanese claims must sufficiently correspond to the issued or allowed foreign counterpart claims. However, Japanese Examiners will conduct a search in the same manner as for ordinary applications. If prior art is discovered, the Examiner will issue an Office Action.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "What documents/data are required to file a PPH request?",
+                        type: "h2",
+                        classes: null,
+                    }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "The following documents/data are required:",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "list",
+                objs: [
+                    {
+                        type: "ul",
+                        elements: [
+                            {
+                                type: "span",
+                                objs: [{
+                                    text: "Identification of the base patent application, country, and filing number (serial number)",
+                                    url: null,
+                                    routerlink: null,
+                                    tooltip: null,
+                                    classes: ["noselect"]
+                                }]
+                            },
+                            {
+                                type: "span",
+                                objs: [{
+                                    text: "Copies of the Office Actions and responses (can be abbreviated, if available to the JPO through the DAS system)",
+                                    url: null,
+                                    routerlink: null,
+                                    tooltip: null,
+                                    classes: ["noselect"]
+                                }]
+                            },
+                            {
+                                type: "span",
+                                objs: [{
+                                    text: "Copies of the granted claims (can be abbreviated if available to the JPO through the DAS system)",
+                                    url: null,
+                                    routerlink: null,
+                                    tooltip: null,
+                                    classes: ["noselect"]
+                                }]
+                            },
+                            {
+                                type: "span",
+                                objs: [{
+                                    text: "Copies of the Notice of Allowance (can be abbreviated if available to the JPO through the DAS system)",
+                                    url: null,
+                                    routerlink: null,
+                                    tooltip: null,
+                                    classes: ["noselect"]
+                                }]
+                            },
+                            {
+                                type: "span",
+                                objs: [{
+                                    text: "A list of the Cited References (can be abbreviated if available to the JPO through the DAS system)",
+                                    url: null,
+                                    routerlink: null,
+                                    tooltip: null,
+                                    classes: ["noselect"]
+                                }]
+                            },
+                            {
+                                type: "span",
+                                objs: [{
+                                    text: "Copies of Non-patent literature cited by the Examiner (in PDF format)",
+                                    url: null,
+                                    routerlink: null,
+                                    tooltip: null,
+                                    classes: ["noselect"]
+                                }]
+                            },
+                        ],
+                        classes: null,
+                    },
+                ]
+            },
+
+            // HEREEE
+
+            // TODO: Add image of section 6 
+
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "Preface",
+                        type: "h2",
+                        classes: null,
+                    }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "list",
+                objs: [
+                    {
+                        type: "ol",
+                        elements: [
+                            {
+                                type: "span",
+                                objs: [{
+                                    text: "",
+                                    url: null,
+                                    routerlink: null,
+                                    tooltip: null,
+                                    classes: ["noselect"]
+                                }]
+                            },
+
+                            {
+                                type: "span",
+                                objs: [{
+                                    text: "",
+                                    url: null,
+                                    routerlink: null,
+                                    tooltip: null,
+                                    classes: ["noselect"]
+                                }]
+                            },
+                        ],
+                        classes: null,
+                    },
+                ]
+            },
+        ]
+    }
+};
+
+const PATENTOVERVIEW2: IExpansionPanel = {
+    title: "Overview of Japanese Patent and IP system",
+    description: "",
+    content:
+    {
+        elements: [
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "Preface",
+                        type: "h2",
+                        classes: null,
+                    }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "list",
+                objs: [
+                    {
+                        type: "ol",
+                        elements: [
+                            {
+                                type: "span",
+                                objs: [{
+                                    text: "",
+                                    url: null,
+                                    routerlink: null,
+                                    tooltip: null,
+                                    classes: ["noselect"]
+                                }]
+                            },
+
+                            {
+                                type: "span",
+                                objs: [{
+                                    text: "",
+                                    url: null,
+                                    routerlink: null,
+                                    tooltip: null,
+                                    classes: ["noselect"]
+                                }]
+                            },
+                        ],
+                        classes: null,
+                    },
+                ]
+            },
+        ]
+    }
+};
+
 const PATENTOVERVIEW1: IExpansionPanel = {
     title: "Overview of Japanese Patent and IP system",
     description: "",
@@ -2458,7 +3011,6 @@ const PATENTOVERVIEW1: IExpansionPanel = {
     }
 };
 
-
 const PATENTACCORDION: IAccordion = {
     panels: [
 
@@ -2468,6 +3020,9 @@ const PATENTACCORDION: IAccordion = {
         PATENTCLAIMS,
         PATENTBASICPATENTREQS,
         PATENTCONSIDERATIONSTECHFIELDS,
+
+        PATENTEXAMANDACCEL,
+
         // HEREEE
     ]
 };
