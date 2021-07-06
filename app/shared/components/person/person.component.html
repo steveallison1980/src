@@ -6,12 +6,14 @@
                 <img fxShow="true" fxHide.lt-md="true" src="../../../../assets/img/profiles/{{getPerson().imglarge}}" alt="{{getPerson().name}}, {{getPerson().title}}">
                 <img fxHide fxShow.lt-md src="../../../../assets/img/profiles/{{getPerson().img}}" alt="{{getPerson().name}}, {{getPerson().title}}">
                 <div fxShow="true" fxHide.lt-md="true" class="topleft">
-                    <span>{{getName()}}</span><br>
-                    <span>{{getTitle()}}</span>
+                    <span class="personname">{{getName()}}</span><br>
+                    <br>
+                    <span class="personposition">&nbsp;&nbsp;&nbsp;{{getTitle()}}</span>
                 </div>
                 <div fxHide fxShow.lt-md class="topleftmobile">
-                    <span>{{getName()}}</span><br>
-                    <span>{{getTitle()}}</span>
+                    <span class="personname">{{getName()}}</span><br>
+                    <br>
+                    <span class="personposition">&nbsp;&nbsp;&nbsp;{{getTitle()}}</span>
                 </div>
             </div>
             

@@ -93,7 +93,7 @@ export class PersonComponent implements OnInit {
   getCareersHeading() {
     switch (this.langService.lang) {
       case "JP":
-        return " 論文"; // TODO: May need to make changes later
+        return " 経歴"; // TODO: May need to make changes later
       case "EN":
       default:
         return "Career";
