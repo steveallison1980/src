@@ -280,7 +280,7 @@ export const PEOPLE_DATA: IPerson[] = [
     },
     {
       id: 7,
-      title: 'Patent Attorney Principal',
+      title: 'Patent Attorney (Principal)',
       qualifications: "",
       name: 'Yoshio Nishikawa',
       img: 'yoshionishikawa.jpg',
@@ -330,7 +330,7 @@ export const PEOPLE_DATA: IPerson[] = [
     },
     {
       id: 8,
-      title: 'Patent Attorney Principal',
+      title: 'Patent Attorney (Principal)',
       qualifications: "",
       name: 'Kiyohito Ejima',
       img: 'kiyohitoejima.jpg',
@@ -389,7 +389,7 @@ export const PEOPLE_DATA: IPerson[] = [
       avatar: 'yasuhirosakata_avatar.jpg', // update
       bio: 'Add bio.', // update
       specialties:
-        [{ text: 'Patent, design and trademark practice before the Japan Patent Office and Intellectual Property High Court;' },
+        [{ text: 'Patent practice before the Japan Patent Office and Intellectual Property High Court;' },
         { text: 'litigation and preliminary injunction proceedings before courts;' },
         { text: 'legal opinions on infringement and validity;' },
         { text: 'Particular experience in the areas of Internet technology, telecomunications and mobile communications.' }],
@@ -400,16 +400,15 @@ export const PEOPLE_DATA: IPerson[] = [
         [{ text: 'Japanese Patent Attorney since 2004.' },
         { text: 'Conducted study on information technology with an emphasis on the fields of Internet search engines, web applications and artificial intelligence.' }],
       memberships:
-        [{ text: 'Japan Patent Attorneys Association (JPAA)' },
-        { text: 'The Institute of Electronics, Information and Communication Engineers' }],
+        [{ text: 'Japan Patent Attorneys Association (JPAA)' }],
       publications: null,
   
       titleJP: '弁理士',
       nameJP: '坂田　恭弘',
       bioJP: '平成16年弁理士登録',
       specialtiesJP:
-        [{ text: 'インターネット、移動体通信分野の特許出願、審判、訴訟、特許侵害訴訟、鑑定、' },
-        { text: 'クロスボーダー事件の支援、意匠・商標実務、コンサルティング' }],
+        [{ text: 'インターネット、移動体通信分野の特許出願、審判、審決取消訴訟、特許侵害訴訟、鑑定、' },
+        { text: 'クロスボーダー事件の支援、コンサルティング' }],
       educationJP:
         [{ text: '東京大学工学部　電子情報工学科卒業' },
         { text: '東京大学大学院　工学系研究科　電子工学専攻　修士課程修了　WWW空間におけるWebページの構造化及び視覚化に関する研究、遺伝的' },
@@ -1524,8 +1523,7 @@ export const PEOPLE_DATA: IPerson[] = [
         { text: 'M.S., Tohoku University, Geophysics (1999)' }],
       career:
         [{ text: 'Worked for Nippon Telegraph and Telephone Corporation in their Research and Development Center as an engineer for developing satellite communication systems and seamless IP communication systems.' }],
-      memberships:
-        [{ text: 'The Institute of Electronics, Information and Communication Engineers' }],
+      memberships: null,
       publications: null,
   
       titleJP: '',
@@ -1652,8 +1650,8 @@ export const PEOPLE_DATA: IPerson[] = [
     {
       id: 49,
       title: 'Patent Engineer',
-      qualifications: "",
-      name: 'Hiroaki Tanaka, Ph.D.',
+      qualifications: "Ph.D.",
+      name: 'Hiroaki Tanaka',
       img: 'hiroakitanaka.jpg',
       imglarge: 'hiroakitanaka_large.jpg',
       avatar: 'hiroakitanaka_avatar.jpg',
@@ -1689,8 +1687,8 @@ export const PEOPLE_DATA: IPerson[] = [
     {
       id: 50,
       title: 'Patent Engineer',
-      qualifications: "",
-      name: 'Kei Iwamoto, Ph.D.',
+      qualifications: "Ph.D.",
+      name: 'Kei Iwamoto',
       img: 'keiiwamoto.jpg',
       imglarge: 'keiiwamoto_large.jpg',
       avatar: 'keiiwamoto_avatar.jpg',

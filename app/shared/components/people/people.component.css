@@ -10,3 +10,9 @@
 .mat-card-title{
     cursor: pointer;
 }
+.dummy {
+    color: white;
+}
+.longname{
+    font-size: 0.9em;
+}

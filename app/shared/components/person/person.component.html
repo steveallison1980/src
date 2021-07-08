@@ -3,17 +3,26 @@
     
         <div class="container">
             <div>
-                <img fxShow="true" fxHide.lt-md="true" src="../../../../assets/img/profiles/{{getPerson().imglarge}}" alt="{{getPerson().name}}, {{getPerson().title}}">
-                <img fxHide fxShow.lt-md src="../../../../assets/img/profiles/{{getPerson().img}}" alt="{{getPerson().name}}, {{getPerson().title}}">
-                <div fxShow="true" fxHide.lt-md="true" class="topleft">
-                    <span class="personname">{{getName()}}</span><br>
+                <img src="../../../../assets/img/profiles/{{getPerson().imglarge}}" alt="{{getPerson().name}}, {{getPerson().title}}">
+                <div fxHide="true" fxShow.gt-md="true" class="topleft">
+                    <span class="personname">&nbsp;{{getName()}}</span><br>
                     <br>
                     <span class="personposition">&nbsp;&nbsp;&nbsp;{{getTitle()}}</span>
                 </div>
-                <div fxHide fxShow.lt-md class="topleftmobile">
-                    <span class="personname">{{getName()}}</span><br>
+                <div fxHide="true" fxShow.md="true" class="topleftmobile">
+                    <span class="personname">&nbsp;{{getName()}}</span><br>
                     <br>
                     <span class="personposition">&nbsp;&nbsp;&nbsp;{{getTitle()}}</span>
+                </div>
+                <div fxHide="true" fxShow.sm="true" class="topleftmobile">
+                    <span class="personnamezoom">&nbsp;{{getName()}}</span><br>
+                    <br>
+                    <span class="personpositionzoom">&nbsp;&nbsp;&nbsp;{{getTitle()}}</span>
+                </div>
+                <div fxHide="true" fxShow.xs="true" class="topleftmobile">
+                    <span class="personnamemobile">&nbsp;{{getName()}}</span><br>
+                    <br>
+                    <span class="personpositionmobile">&nbsp;&nbsp;&nbsp;{{getTitle()}}</span>
                 </div>
             </div>
             

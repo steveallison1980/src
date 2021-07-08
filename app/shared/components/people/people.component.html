@@ -9,9 +9,18 @@
         <mat-card>
             <mat-card-header>
                 
-                <mat-card-title routerLink="/professional/{{person.id}}" (click)="clickDetails(person)">{{getName(person)}}</mat-card-title>
-                <mat-card-subtitle routerLink="/professional/{{person.id}}">
+                <mat-card-title class="longname" *ngIf="longName(person)" routerLink="/professional/{{person.id}}" (click)="clickDetails(person)">
+                    {{getName(person)}}
+                </mat-card-title>
+                <mat-card-title *ngIf="!longName(person)" routerLink="/professional/{{person.id}}" (click)="clickDetails(person)">
+                    {{getName(person)}}
+                </mat-card-title>
+                
+                <mat-card-subtitle *ngIf="hasTitle(person)" routerLink="/professional/{{person.id}}">
                     {{getTitle(person)}}
+                </mat-card-subtitle>
+                <mat-card-subtitle class="dummy" *ngIf="!hasTitle(person)" routerLink="/professional/{{person.id}}">
+                    -
                 </mat-card-subtitle>
             </mat-card-header>
             <img routerLink="/professional/{{person.id}}" mat-card-image src="../../../../assets/img/profiles/{{person.img}}" alt="{{person.name}}, {{person.title}}" (click)="clickDetails(person)">

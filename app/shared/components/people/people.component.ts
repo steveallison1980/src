@@ -55,6 +55,16 @@ export class PeopleComponent implements OnInit {
         return person.name;
     }
   }
+  longName(person){
+    var name = this.getName(person);
+    switch (this.langService.lang) {
+      case "JP":
+        return (name.length > 9 );
+      case "EN":
+      default:
+        return false;
+    }
+  }
   getTitle(person){
     switch (this.langService.lang) {
       case "JP":
@@ -63,6 +73,9 @@ export class PeopleComponent implements OnInit {
       default:
         return person.title;
     }
+  }
+  hasTitle(person){
+    return (this.getTitle(person) != "");
   }
   getBio(person){
     var bio: string = "";

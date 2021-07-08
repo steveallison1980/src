@@ -2,27 +2,33 @@
     <!-- PC VIEW -->
     <div fxShow fxHide.lt-md fxLayout='row' fxLayoutAlign='space-between center'>
         <div fxLayout='row' fxLayoutAlign='start center' fxLayoutGap="8px">
-            <img src='../../../../assets/img/oLogo.png' height="56px">
+            <a routerLink="/welcomepage" (click)="clickHome()">
+                <img src='../../../../assets/img/oLogo.png' height="56px">
+            </a>
             <mat-divider [vertical]="true"></mat-divider>
             <div>
-                <span fxShow fxHide.lt-md class='xlargetext'>{{getText("firmname_pc")}}</span>
+                <a routerLink="/welcomepage" (click)="clickHome()">
+                    <span fxShow fxHide.lt-md class='xlargetext'>
+                        {{getText("firmname_pc")}}
+                    </span>
+                </a>
             </div>
         </div>
 
         <div fxLayout='row' fxLayoutAlign='start start'>        
             <div class='largetext' fxLayout='row' [fxShow]="true" [fxHide.lt-md]="true" fxLayoutGap='5px'>
-                <a routerLink="/welcomepage" (click)="clickHome()" [ngClass]="{'activenav': isHome() }">{{getText("home")}}</a>
+                <a class="headerlink" routerLink="/welcomepage" (click)="clickHome()" [ngClass]="{'activenav': isHome() }">{{getText("home")}}</a>
                 <mat-divider [vertical]="true"></mat-divider>
-                <a routerLink="/aboutpage" (click)="clickAboutus()" [ngClass]="{'activenav': isAboutus()}">{{getText("aboutus")}}</a>
+                <a class="headerlink" routerLink="/aboutpage" (click)="clickAboutus()" [ngClass]="{'activenav': isAboutus()}">{{getText("aboutus")}}</a>
                 <mat-divider [vertical]="true"></mat-divider>
-                <a routerLink="/patentspage" (click)="clickOurservices()" [ngClass]="{'activenav': isOurservices()}">{{getText("ourservices")}}</a>
+                <a class="headerlink" routerLink="/patentspage" (click)="clickOurservices()" [ngClass]="{'activenav': isOurservices()}">{{getText("ourservices")}}</a>
                 <mat-divider [vertical]="true"></mat-divider>
-                <a routerLink="/pro-practiceareas" (click)="clickProfessionals()" [ngClass]="{'activenav': isProfessionals()}">{{getText("professionals")}}</a>
+                <a class="headerlink" routerLink="/pro-practiceareas" (click)="clickProfessionals()" [ngClass]="{'activenav': isProfessionals()}">{{getText("professionals")}}</a>
                 <mat-divider [vertical]="true" *ngIf="isJapanesePage()"></mat-divider>
-                <a routerLink="/cafcall" (click)="clickCAFCReports()" [ngClass]="{'activenav': isCafcreports()}" *ngIf="isJapanesePage()">{{getText("cafcreports")}}</a>
+                <a class="headerlink" routerLink="/cafcall" (click)="clickCAFCReports()" [ngClass]="{'activenav': isCafcreports()}" *ngIf="isJapanesePage()">{{getText("cafcreports")}}</a>
                 <mat-divider [vertical]="true"></mat-divider>
-                <a *ngIf="isEN()" routerLink="/careerspage" (click)="clickCareers()" [ngClass]="{'activenav': isCareers()}">{{getText("careers")}}</a>
-                <a *ngIf="!isEN()" routerLink="/setsumeikaipage" (click)="clickCareers()" [ngClass]="{'activenav': isCareers()}">{{getText("careers")}}</a>
+                <a *ngIf="isEN()" class="headerlink" routerLink="/careerspage" (click)="clickCareers()" [ngClass]="{'activenav': isCareers()}">{{getText("careers")}}</a>
+                <a *ngIf="!isEN()" class="headerlink" routerLink="/setsumeikaipage" (click)="clickCareers()" [ngClass]="{'activenav': isCareers()}">{{getText("careers")}}</a>
                 
             </div>
         </div>
@@ -31,8 +37,12 @@
     <!-- MOBILE VIEW -->
     <div fxHide fxShow.lt-md fxLayout='row' fxLayoutAlign='space-between center'>    
         <div fxHide fxShow.sm class='xxlargetext' fxLayout='row'fxLayout='row' fxLayoutAlign='end center' fxLayoutGap="28px">
-            <img fxHide fxShow.sm src='../../../../assets/img/oLogo.png' height="56px">
-            <span>{{getText("firmname_mobile_ltmd")}}</span>
+            <a routerLink="/welcomepage" (click)="clickHome()">
+                <img fxHide fxShow.sm src='../../../../assets/img/oLogo.png' height="56px">
+            </a>
+            <a routerLink="/welcomepage" (click)="clickHome()">
+                <span>{{getText("firmname_mobile_ltmd")}}</span>
+            </a>
         </div>
         <div fxHide fxShow.xs fxLayout='row' fxLayoutAlign='end center' fxLayoutGap="18px">
             <img src='../../../../assets/img/oLogo.png' height="56px">

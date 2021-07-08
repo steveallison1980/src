@@ -25,7 +25,7 @@ export const NEWS_DATA: INewsdata =
   dataJP:
   [
     { date: '２０２０年１０月１４日',
-      details: 'Incorporation of Ohtsuka Patent Office, P.C.',
+      details: '弊所は特許業務法人大塚国際特許事務所に改組しました。',
       curPage: '',
       subPage: '',
       link: ''
@@ -38,9 +38,9 @@ export const NEWS_DATA: INewsdata =
     },
     { date: '２０２０年２月１５日',
       details: '新規メンバーのご紹介',
-      curPage: '',
-      subPage: '',
-      link: 'https://www.patest.co.jp/pdf/JAPAN%20Patent%20Act%20Revisions%20in%202019.pdf'
+      curPage: 'professionals',
+      subPage: 'pro-practiceareas',
+      link: ''
     },
     { date: '２０１９年４月１日',
       details: '新規メンバーのご紹介',
