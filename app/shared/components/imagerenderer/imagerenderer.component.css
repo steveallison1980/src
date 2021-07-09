@@ -1,7 +1,9 @@
 .small{
     width: 250px;
 }
-
+.medium{
+    width: 450px;
+}
 .half{
     display: block;
     margin-left: auto;

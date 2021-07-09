@@ -36,6 +36,36 @@ const PATENTPREFACE: IExpansionPanel = {
                     classes: null
                 }]
             },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "April 29, 2021",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "Yasunori Ohtsuka",
+                            url: null,
+                            routerlink: "/professional/1",
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
         ]
     }
 };
@@ -121,7 +151,7 @@ const PATENTOVERVIEW: IExpansionPanel = {
                 objs: [{
                     spans: [
                         {
-                            text: "With the advent of Standard Essential Patents (SEPs), patent issues have spread so as to no longer be limited to just individual companies.  The Ministry of Economy & Industry (METI) and the Fair Trade Commission have increasingly become important policy makers in Intellectual Property Rights (IPR). In the future, we should pay close attention to how they guide policy and make regulations and laws.",
+                            text: "With the proliferation of Standard Essential Patents (SEPs), patent issues have spread so as to no longer be limited to just individual companies.  The Ministry of Economy & Industry (METI) and the Fair Trade Commission have increasingly become important policy makers in Intellectual Property Rights (IPR). In the future, we should pay close attention to how they guide policy and make regulations and laws.",
                             url: null,
                             routerlink: null,
                             tooltip: null,
@@ -161,7 +191,7 @@ const PATENTOVERVIEW: IExpansionPanel = {
                 objs: [{
                     spans: [
                         {
-                            text: "Even in normal examination, a first office action is generally issued in a patent application in 9.3 months from the request for examination.  It takes 14.1 months on average to issue a patent (JPO annual report 2019).",
+                            text: "Even in a normal examination, a first office action is generally issued in a patent application in 9.3 months from the request for examination.  It takes 14.1 months on average fo a patent to be issued (JPO annual report 2019).",
                             url: null,
                             routerlink: null,
                             tooltip: null,
@@ -176,7 +206,7 @@ const PATENTOVERVIEW: IExpansionPanel = {
                 objs: [{
                     spans: [
                         {
-                            text: "The Japanese patent examination system enables more forward-planning by patentees.  By using the expedited examination system, the timescales for patent procurement can be shortened so as to meet your business plans.",
+                            text: "The Japanese patent examination system enables more forward planning by patentees.  By using the expedited examination system, the timescales for patent procurement can be shortened so as to meet your business plans.",
                             url: null,
                             routerlink: null,
                             tooltip: null,
@@ -191,7 +221,7 @@ const PATENTOVERVIEW: IExpansionPanel = {
                 objs: [{
                     spans: [
                         {
-                            text: "If all goes to plan, the patent can be granted within 6-8 months of the filing of the application in cases of expedited examination.  In particular, the process can be further smoothed out by conducting an interview with the examiner during the course of examination.  In doing so, we are able to discuss any issues based on amendments and get a sense of the examiner’s views regarding the patentability of the application.  Examiner interviews are as valuable as or better than the processing of additional Office Actions, increasing the certainty and speed of processing.",
+                            text: "If all goes to plan, the patent may be granted within 6-8 months of the filing of the application in cases of expedited examination.  In particular, the process can be further smoothed out by conducting an interview with the examiner during the course of examination.  In doing so, we are able to discuss any issues based on amendments and get a sense of the examiner’s views regarding the patentability of the application.  Examiner interviews are as valuable as or better than the processing of additional Office Actions, increasing the certainty and speed of processing.",
                             url: null,
                             routerlink: null,
                             tooltip: null,
@@ -236,7 +266,7 @@ const PATENTFILINGROUTES: IExpansionPanel = {
                 objs: [{
                     spans: [
                         {
-                            text: "Entry term for a national state application based on a PCT Application in Japan is 30 months from the earliest priority date. No late entry system is provided.",
+                            text: "The entry term for a national state application based on a PCT Application in Japan is 30 months from the earliest priority date. No late entry system is provided.",
                             url: null,
                             routerlink: null,
                             tooltip: null,
@@ -352,7 +382,7 @@ const PATENTFILINGROUTES: IExpansionPanel = {
                 type: "header",
                 objs: [
                     {
-                        text: "Check points",
+                        text: "Points to check",
                         type: "h2",
                         classes: ["bullet"],
                     }]
@@ -366,7 +396,7 @@ const PATENTFILINGROUTES: IExpansionPanel = {
                             {
                                 type: "span",
                                 objs: [{
-                                    text: "If you need to change the applicant, please check if the change is recorded in checkbox PCT/IB/306. If it is not recorded, but there is wish to change the applicant in Japan, the assignment must be recorded at the JPO.",
+                                    text: "If you need to change the applicant, please check if the change is recorded in checkbox PCT/IB/306. If it is not recorded, but you wish to change the applicant in Japan, the assignment must be recorded at the JPO.",
                                     url: null,
                                     routerlink: null,
                                     tooltip: null,
@@ -386,7 +416,7 @@ const PATENTFILINGROUTES: IExpansionPanel = {
                             {
                                 type: "span",
                                 objs: [{
-                                    text: "Please check if a claim of a grace period is necessary. A claim for a grace period and submission of supporting exhibit must be submitted within 30 days from the national processing date.",
+                                    text: "Please check if a claim of a grace period is necessary. A claim for a grace period and supporting exhibits must be submitted within 30 days from the national processing date.",
                                     url: null,
                                     routerlink: null,
                                     tooltip: null,
@@ -403,7 +433,7 @@ const PATENTFILINGROUTES: IExpansionPanel = {
                 type: "header",
                 objs: [
                     {
-                        text: "For Paris Route",
+                        text: "Paris Route",
                         type: "h2",
                         classes: null,
                     }]
@@ -438,7 +468,7 @@ const PATENTFILINGROUTES: IExpansionPanel = {
                 objs: [{
                     spans: [
                         {
-                            text: "The priority term is not extendable. Accordingly, the priority claim expires upon the lapse of 12 months. The Patent Act includes a priority restoration system for restoration of a priority claim for a patent applicant that was not filed within the priority term.",
+                            text: "The priority term is not extendable. Accordingly, the priority claim expires upon the lapse of 12 months. The Patent Act includes a priority restoration system for restoration of a priority claim for a patent application that was not filed within the priority term.",
                             url: null,
                             routerlink: null,
                             tooltip: null,
@@ -468,7 +498,7 @@ const PATENTFILINGROUTES: IExpansionPanel = {
                 type: "header",
                 objs: [
                     {
-                        text: "Translation filing due date",
+                        text: "Due date for filing translation",
                         type: "h2",
                         classes: ["bullet"],
                     }]
@@ -688,7 +718,7 @@ const PATENTCLAIMS: IExpansionPanel = {
                 type: "header",
                 objs: [
                     {
-                        text: "Claim Fee",
+                        text: "Claim Fees",
                         type: "h2",
                         classes: null,
                     }]
@@ -698,7 +728,7 @@ const PATENTCLAIMS: IExpansionPanel = {
                 objs: [{
                     spans: [
                         {
-                            text: "The patent application fee is flat fee system regardless of the number of claims.",
+                            text: "There is no limit to the number of independent claims and the number of different categories of claims in a claim set. Multiply-dependent claims are allowed and each claim is only counted once.",
                             url: null,
                             routerlink: null,
                             tooltip: null,
@@ -713,22 +743,7 @@ const PATENTCLAIMS: IExpansionPanel = {
                 objs: [{
                     spans: [
                         {
-                            text: "There is no limit to the number of independent claims and the number of different category claims in a claim set. A multiply dependent claim system is allowed and each claim is only counted once.",
-                            url: null,
-                            routerlink: null,
-                            tooltip: null,
-                            classes: null
-                        }
-                    ],
-                    classes: null
-                }]
-            },
-            {
-                type: "paragraph",
-                objs: [{
-                    spans: [
-                        {
-                            text: "The examination fee, appeal against Examiner’s rejection fee, and annuities are calculated according to the number of claims. Even if the number of independent claims exceeds 3, and the number of claims exceeds 15 or 20, no special excess fee is required.  ",
+                            text: "The examination fee, appeal against Examiner’s rejection fee, and annuities are calculated according to the number of claims. Even if there are more than 3 independent claims, and there are more than 15 or 20 claims, no special excess fee is required.",
                             url: null,
                             routerlink: null,
                             tooltip: null,
@@ -768,12 +783,27 @@ const PATENTCLAIMS: IExpansionPanel = {
                     classes: null
                 }]
             },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "Micro, small and medium entities can obtain fee reduction according to the JPO fee reduction program. For more details, please refer to 'Official Fee Reduction for Small and Medium Entities' below.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
 
             {
                 type: "header",
                 objs: [
                     {
-                        text: "Requirements of Patent Specification?",
+                        text: "Patent Specification Requirements",
                         type: "h2",
                         classes: null,
                     }]
@@ -828,7 +858,7 @@ const PATENTCLAIMS: IExpansionPanel = {
                 type: "header",
                 objs: [
                     {
-                        text: "Requirements of Drawings?",
+                        text: "Drawings Requirements",
                         type: "h2",
                         classes: null,
                     }]
@@ -868,7 +898,7 @@ const PATENTCLAIMS: IExpansionPanel = {
                 type: "header",
                 objs: [
                     {
-                        text: "Inventorship?",
+                        text: "Inventorship",
                         type: "h2",
                         classes: null,
                     }]
@@ -908,7 +938,7 @@ const PATENTCLAIMS: IExpansionPanel = {
                 objs: [{
                     spans: [
                         {
-                            text: "However, the JPO will accept correction of inventorship by adding or removing an inventor while the patent application is pending before the JPO.  After issuance of the patent, any correction of inventorship is impossible. The last chance to amend inventorship is at the issue fee payment. ",
+                            text: "However, the JPO will accept correction of inventorship to add or remove an inventor while the patent application is pending before the JPO.  After issuance of the patent, correction of inventorship is impossible. The last chance to amend inventorship is at the issuance fee payment. ",
                             url: null,
                             routerlink: null,
                             tooltip: null,
@@ -1424,7 +1454,7 @@ const PATENTBASICPATENTREQS: IExpansionPanel = {
                                         type: "span",
                                         objs: [
                                             {
-                                                text: "This entails conflict with claims of the applicant or others.",
+                                                text: "Claims must not conflict with those of another application.",
                                                 url: null,
                                                 routerlink: null,
                                                 tooltip: null,
@@ -1440,7 +1470,7 @@ const PATENTBASICPATENTREQS: IExpansionPanel = {
                                         type: "span",
                                         objs: [
                                             {
-                                                text: "This circumstance is frequently found between the claims of a divisional application and its parent application.",
+                                                text: "This is most common between the claims of a divisional application and its parent application.",
                                                 url: null,
                                                 routerlink: null,
                                                 tooltip: null,
@@ -1525,7 +1555,7 @@ const PATENTBASICPATENTREQS: IExpansionPanel = {
                 type: "header",
                 objs: [
                     {
-                        text: "Please describe Novelty (Article 29(1)(i)-(iii)) in more detail.",
+                        text: "Novelty (Article 29(1)(i)-(iii)) in more detail",
                         type: "h2",
                         classes: null,
                     }]
@@ -1550,7 +1580,7 @@ const PATENTBASICPATENTREQS: IExpansionPanel = {
                 type: "header",
                 objs: [
                     {
-                        text: "How to enjoy the Grace period?",
+                        text: "How can I enjoy the grace period?",
                         type: "h2",
                         classes: null,
                     }]
@@ -1560,7 +1590,7 @@ const PATENTBASICPATENTREQS: IExpansionPanel = {
                 objs: [{
                     spans: [
                         {
-                            text: "To rescue the applicant from the publication of invention, a 12-month grace period is provided. The grace period covers either of the following two cases:",
+                            text: "To rescue the applicant from the publication of an invention, a 12-month grace period is provided. The grace period covers either of the following two cases:",
                             url: null,
                             routerlink: null,
                             tooltip: null,
@@ -1575,7 +1605,7 @@ const PATENTBASICPATENTREQS: IExpansionPanel = {
                 objs: [{
                     spans: [
                         {
-                            text: "(a)	Loss of novelty of an invention due to an act, including sales, presentations to investors, and presentations in any academic groups, by a person having the right to obtain a patent (with the exception of an invention being published on the patent, utility, design or trademark gazette by a person having the right to obtain a patent).",
+                            text: "(a)	Loss of novelty of an invention due to an act including sales, presentations to investors, and presentations in any academic groups by a person having the right to obtain a patent (with the exception of an invention being published on the patent, utility, design or trademark gazette by a person having the right to obtain a patent).",
                             url: null,
                             routerlink: null,
                             tooltip: null,
@@ -1645,7 +1675,7 @@ const PATENTBASICPATENTREQS: IExpansionPanel = {
                 objs: [{
                     spans: [
                         {
-                            text: "The Examination Guidelines allow the effect of the grace period claimed for the first publication to the later publication when the first and later publications are only closely related (for example, the relationship between broadcasting and its rebroadcast). If there is no such relationship between the publications, a grace period must be claimed for each individual publication. According to this practice, if there are multiple publications, a grace period must be claimed for each publication.",
+                            text: "The Examination Guidelines allow the effect of the grace period claimed for the first publication to the later publication when the first and later publications are only closely related (for example, the relationship between broadcasting and re-broadcasting). If there is no such relationship between the publications, a grace period must be claimed for each individual publication. According to this practice, if there are multiple publications, a grace period must be claimed for each publication.",
                             url: null,
                             routerlink: null,
                             tooltip: null,
@@ -1660,7 +1690,7 @@ const PATENTBASICPATENTREQS: IExpansionPanel = {
                 type: "header",
                 objs: [
                     {
-                        text: "Please describe Inventive Step (Article 29(2)) in more detail.",
+                        text: "Inventive Step (Article 29(2)) in more detail",
                         type: "h2",
                         classes: null,
                     }]
@@ -1745,7 +1775,7 @@ const PATENTBASICPATENTREQS: IExpansionPanel = {
                 type: "header",
                 objs: [
                     {
-                        text: "Please describe the Enablement Requirement (Article 36(4)(i)) in more detail.",
+                        text: "The Enablement Requirement (Article 36(4)(i)) in more detail",
                         type: "h2",
                         classes: null,
                     }]
@@ -1755,7 +1785,7 @@ const PATENTBASICPATENTREQS: IExpansionPanel = {
                 objs: [{
                     spans: [
                         {
-                            text: "The specification must substantively describe the invention. Therefore, simply reciting the claimed invention in the specifications or describing mere desired outcomes do not satisfy the enablement requirement (Article 36(4)(i)). It is recommended to describe sufficient embodiments to support the claims. If the claims go beyond the embodiments, an enablement objection will be issued.",
+                            text: "The specification must substantively describe the invention. Therefore, simply reciting the claimed invention in the specifications or describing mere desired outcomes does not satisfy the enablement requirement (Article 36(4)(i)). It is recommended to describe sufficient embodiments to support the claims. If the claims go beyond the embodiments, an enablement objection will be issued.",
                             url: null,
                             routerlink: null,
                             tooltip: null,
@@ -1770,7 +1800,7 @@ const PATENTBASICPATENTREQS: IExpansionPanel = {
                 type: "header",
                 objs: [
                     {
-                        text: "Please describe the Support Requirement (Article 36(6)(i)) in more detail.",
+                        text: "The Support Requirement (Article 36(6)(i)) in more detail",
                         type: "h2",
                         classes: null,
                     }]
@@ -1795,7 +1825,7 @@ const PATENTBASICPATENTREQS: IExpansionPanel = {
                 objs: [{
                     spans: [
                         {
-                            text: "This Article presents a test that is used to check if the technical ideas described in the embodiments can be generalized up to the claimed invention by one of ordinary skill in the art. If the claim is in an area where it can be generalized, the support requirement is affirmed. If the boundary is crossed, the support requirement is denied.",
+                            text: "This Article presents a test that is used to check if the technical ideas described in the embodiments can be generalized up to the claimed invention by one of ordinary skill in the art. If so, the claimed invention will be affirmed to satify the support requirement. If not, the claim will be reject for not satisfying the support requirement.",
                             url: null,
                             routerlink: null,
                             tooltip: null,
@@ -1810,42 +1840,36 @@ const PATENTBASICPATENTREQS: IExpansionPanel = {
                 type: "header",
                 objs: [
                     {
-                        text: "Please describe the Clarity Requirement (Article 36(6)(ii)) in more detail.",
+                        text: "The Clarity Requirement (Article 36(6)(ii)) in more detail",
                         type: "h2",
                         classes: null,
                     }]
             },
             {
-                type: "list",
+                type: "paragraph",
                 objs: [
                     {
-                        type: "ul",
-                        elements: [
-                            {
-                                type: "span",
-                                objs: [{
-                                    text: "In Japan patent claims must clearly define the scope of the invention because the determination of novelty and inventive step, and claim construction is conducted on the basis of the claims.",
-                                    url: null,
-                                    routerlink: null,
-                                    tooltip: null,
-                                    classes: ["noselect"]
-                                }]
-                            },
+                        type: "span",
+                        objs: [{
+                            text: "In Japan patent claims must clearly define the scope of the invention because the determination of novelty and inventive step, and claim construction is conducted on the basis of the claims.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: ["noselect"]
+                        }]
+                    }]
+            },
 
-                            {
-                                type: "span",
-                                objs: [{
-                                    text: "A clarity objection is issued if the claim itself or its wording is ambiguous.",
-                                    url: null,
-                                    routerlink: null,
-                                    tooltip: null,
-                                    classes: ["noselect"]
-                                }]
-                            },
-                        ],
-                        classes: null,
-                    },
-                ]
+            {
+                type: "paragraph",
+                objs: [
+                    {
+                        text: "A clarity objection will be issued if the claim itself or its wording is ambiguous.",
+                        url: null,
+                        routerlink: null,
+                        tooltip: null,
+                        classes: ["noselect"]
+                    }]
             },
             {
                 type: "paragraph",
@@ -1882,7 +1906,7 @@ const PATENTBASICPATENTREQS: IExpansionPanel = {
                 type: "header",
                 objs: [
                     {
-                        text: "What are requirements for Unity of Invention?",
+                        text: "Unity of Invention",
                         type: "h2",
                         classes: null,
                     }]
@@ -1922,7 +1946,7 @@ const PATENTBASICPATENTREQS: IExpansionPanel = {
                 objs: [{
                     spans: [
                         {
-                            text: "According to the Examination Guidelines, the claims must share the same or a related special technical feature. This special technical feature must be a novel feature distinguishable over the prior art. If the application satisfies this requirement, the claims may include a product claim, a claim for a machine/device for manufacturing the product, and also other categories or types of claims. ",
+                            text: "According to the Examination Guidelines, the claims must share the same or a related 'special technical feature'. This special technical feature must be a novel feature distinguishable over the prior art. If the application satisfies this requirement, the claims may include a product claim, a claim for a machine/device for manufacturing the product, and also other categories or types of claims. ",
                             url: null,
                             routerlink: null,
                             tooltip: null,
@@ -1937,7 +1961,7 @@ const PATENTBASICPATENTREQS: IExpansionPanel = {
                 objs: [{
                     spans: [
                         {
-                            text: "The response to a unity of invention objection may be addressed by amending the claims to include the special technical feature. It may also be addressed by responding to the prior art rejection.  Another option to address a unity of invention rejection is to cancel claims that are the subject of the unity of invention objection.  Generally, the option of cancelling claims is the most common pathways as the chance of success by traversing a unity of invention objection is relatively low under the Japanese patent practice.",
+                            text: "The response to a unity of invention objection may be addressed by amending the claims to include the special technical feature. It may also be addressed by responding to the prior art rejection.  Another option to address a unity of invention rejection is to cancel claims that are the subject of the unity of invention objection.  Generally, the option of cancelling claims is the most common as the chance of success by traversing a unity of invention objection is relatively low under the Japanese patent practice.",
                             url: null,
                             routerlink: null,
                             tooltip: null,
@@ -2017,7 +2041,7 @@ const PATENTCONSIDERATIONSTECHFIELDS: IExpansionPanel = {
                 type: "header",
                 objs: [
                     {
-                        text: "How to claim computer program related inventions?",
+                        text: "How should computer program related inventions be claimed?",
                         type: "h2",
                         classes: null,
                     }]
@@ -2201,7 +2225,7 @@ const PATENTCONSIDERATIONSTECHFIELDS: IExpansionPanel = {
                 type: "header",
                 objs: [
                     {
-                        text: "What are requirements for business models?",
+                        text: "What are the requirements for business models?",
                         type: "h2",
                         classes: null,
                     }]
@@ -2276,7 +2300,7 @@ const PATENTCONSIDERATIONSTECHFIELDS: IExpansionPanel = {
                 type: "header",
                 objs: [
                     {
-                        text: "Should the Specification disclose experimental results in Chemical and Medical Inventions?",
+                        text: "Should the Specification disclose experimental results in chemical and medical inventions?",
                         type: "h2",
                         classes: null,
                     }]
@@ -2286,7 +2310,7 @@ const PATENTCONSIDERATIONSTECHFIELDS: IExpansionPanel = {
                 objs: [{
                     spans: [
                         {
-                            text: "Yes, it should. The Examination Guidelines requires disclosure on how to make and use a chemical or medical product, since it may be relatively difficult to understand this on the basis of their structures or names. For example, in the case of an invention of a medicine with a specified use, examples which establish an efficacy for the use are usually required in the specification. Importantly, addition of examples is not usually admitted after filing the application. Therefore, the specification at the time of patent filing should disclose one or more representative examples.",
+                            text: "Yes, it should. The Examination Guidelines require disclosure on how to make and use a chemical or medical product, since it may be relatively difficult to understand this on the basis of their structures or names. For example, in the case of an invention of a medicine with a specified use, examples which establish an efficacy for the use are usually required in the specification. Importantly, addition of examples is not usually admitted after filing the application. Therefore, the specification at the time of patent filing should disclose one or more representative examples.",
                             url: null,
                             routerlink: null,
                             tooltip: null,
@@ -2341,7 +2365,7 @@ const PATENTCONSIDERATIONSTECHFIELDS: IExpansionPanel = {
                 type: "header",
                 objs: [
                     {
-                        text: "Can we use a Markush-Type claims?",
+                        text: "Can we use Markush-type claims?",
                         type: "h2",
                         classes: null,
                     }]
@@ -2366,7 +2390,7 @@ const PATENTCONSIDERATIONSTECHFIELDS: IExpansionPanel = {
                 type: "header",
                 objs: [
                     {
-                        text: "What are requirements for Product-by-Process Claims?",
+                        text: "What are requirements for product-by-process claims?",
                         type: "h2",
                         classes: null,
                     }]
@@ -2392,7 +2416,7 @@ const PATENTCONSIDERATIONSTECHFIELDS: IExpansionPanel = {
 };
 
 const PATENTEXAMANDACCEL: IExpansionPanel = {
-    title: "Examination system and Acceleration of Examination",
+    title: "Examination system and acceleration of examination",
     description: "",
     content:
     {
@@ -2471,7 +2495,7 @@ const PATENTEXAMANDACCEL: IExpansionPanel = {
                 objs: [{
                     spans: [
                         {
-                            text: "If faster examination is necessary, the applicant can request an accelerated examination (see Question 6.3 for more details).",
+                            text: "If faster examination is necessary, the applicant can request an accelerated examination (see 'Is it possible to request an Accelerated Examination?' below for more details).",
                             url: null,
                             routerlink: null,
                             tooltip: null,
@@ -2814,16 +2838,11 @@ const PATENTEXAMANDACCEL: IExpansionPanel = {
                     },
                 ]
             },
-
-            // HEREEE
-
-            // TODO: Add image of section 6 
-
             {
                 type: "header",
                 objs: [
                     {
-                        text: "Preface",
+                        text: "What is the basic examination procedure?",
                         type: "h2",
                         classes: null,
                     }]
@@ -2833,54 +2852,365 @@ const PATENTEXAMANDACCEL: IExpansionPanel = {
                 objs: [{
                     spans: [
                         {
-                            text: "",
+                            text: "The examination procedure for a PCT application is described below with reference to the following figure.",
                             url: null,
                             routerlink: null,
                             tooltip: null,
-                            classes: null
+                            classes: ["noselect"]
                         }
                     ],
                     classes: null
                 }]
             },
             {
-                type: "list",
+                type: "titledimage",
                 objs: [
                     {
-                        type: "ol",
-                        elements: [
-                            {
-                                type: "span",
-                                objs: [{
-                                    text: "",
-                                    url: null,
-                                    routerlink: null,
-                                    tooltip: null,
-                                    classes: ["noselect"]
-                                }]
-                            },
-
-                            {
-                                type: "span",
-                                objs: [{
-                                    text: "",
-                                    url: null,
-                                    routerlink: null,
-                                    tooltip: null,
-                                    classes: ["noselect"]
-                                }]
-                            },
-                        ],
-                        classes: null,
-                    },
-                ]
+                        title: "Examination procedure through the PCT route",
+                        img:
+                        {
+                            folder: "patentmanual",
+                            filename: "examinationflow.png",
+                            classes: ["medium"]
+                        }
+                    }]
             },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "(S1) A priority application is filed (establishing the priority date).",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: ["noselect"]
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "(S2) The PCT application is filed.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: ["noselect"]
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "(S3)	A national phase entry application is filed in Japan (within 30 months from the first priority date).",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: ["noselect"]
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "(S4)	A Japanese translation is filed within 2 months of the entry date.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: ["noselect"]
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "(S5)	A request for examination is filed within 3 years of the international (PCT) filing date.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: ["noselect"]
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "(S6)	An Examiner examines the application.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: ["noselect"]
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "(S7)	A Notice of Allowance (Grant) is issued if no reasons for rejection are found.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: ["noselect"]
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "(S8)	The issue fee must be paid within 30 days from the Grant.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: ["noselect"]
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "(S9)	Within the issue fee payment term, a divisional application can be filed.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: ["noselect"]
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "(S10) The patent will be published in the patent gazette about one month after the registration.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: ["noselect"]
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "(S11) If a reason for rejection is found, a First Office Action (OA) is issued. The response term for an OA is 3 months. This term can be extended by a maximum of 3 months upon request.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: ["noselect"]
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "(S12) The Examiner examines the response, and makes a decision to grant or reject the application. If, however, the response raises a new reason for rejection, a second non-final or a Final OA is issued. The progression of examination is swift after the First OA; the average time between issuance of the First OA and the final decision is about 5 months.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: ["noselect"]
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "(S13) If a response to the first or second OA does not overcome the reasons for rejection, a Final Rejection is issued. An appeal with/without amendment against the Final Rejection may be filed 4 months from the mailing date of the Final Rejection.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: ["noselect"]
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "(S14) Appeal with amendment, the primary Examiner reconsiders the appeal.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: ["noselect"]
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "(S15) If the Examiner accepts the amendment as patentable, the patent application will be granted.  Otherwise, the application is then examined by the Board of Appeal.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: ["noselect"]
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "(S16) Appeal without amendment goes directly to the Board of Appeal.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: ["noselect"]
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "(S17) It is possible to file a divisional application with or without an appeal to the Board of Appeal.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: ["noselect"]
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "(S18) The assigned panel at the Board of Appeal examines the appeal. In the course of examination, the panel examines the Appeal and reviews the examination history, and also conducts additional searches if necessary.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: ["noselect"]
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "(S19) According to the panel’s review, a new OA is necessary, the panel will issue an OA. The applicant can respond the OA with necessary amendment, and also can file a divisional application within the response term.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: ["noselect"]
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "(S20) If the panel cannot find a ground for rejection, the panel grants the application.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: ["noselect"]
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "(S21) If the reason for refusal is not overcome by the appeal or subsequent response, the panel will finally reject the application.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: ["noselect"]
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "(S22) The only option for fighting a rejection at the Board of Appeal is to appeal to the Intellectual Property High Court. In this case, an appeal brief must be filed within 120 days of the date of reception of the Board of Appeal’s decision.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: ["noselect"]
+                        }
+                    ],
+                    classes: null
+                }]
+            }
         ]
     }
 };
 
-const PATENTOVERVIEW2: IExpansionPanel = {
-    title: "Overview of Japanese Patent and IP system",
+const PATENTEXAMINATION: IExpansionPanel = {
+    title: "Examination",
     description: "",
     content:
     {
@@ -2889,7 +3219,7 @@ const PATENTOVERVIEW2: IExpansionPanel = {
                 type: "header",
                 objs: [
                     {
-                        text: "Preface",
+                        text: "Office Actions",
                         type: "h2",
                         classes: null,
                     }]
@@ -2899,7 +3229,7 @@ const PATENTOVERVIEW2: IExpansionPanel = {
                 objs: [{
                     spans: [
                         {
-                            text: "",
+                            text: "An Examiner examines the patentability requirements of the patent application. If the Examiner finds reasons for rejection, the Examiner must notify the applicant of these reasons in writing in the form of an Office Action and invite a response from the applicant. In the response to the Office Action, the applicant needs to overcome all of the notified reasons for rejection. If the Examiner finds that any one of the notified reasons of rejections has not been overcome by the response from the applicant, the Examiner may render a Final Rejection without issuing any further non-final Office Actions.",
                             url: null,
                             routerlink: null,
                             tooltip: null,
@@ -2910,43 +3240,248 @@ const PATENTOVERVIEW2: IExpansionPanel = {
                 }]
             },
             {
-                type: "list",
+                type: "header",
                 objs: [
                     {
-                        type: "ol",
-                        elements: [
-                            {
-                                type: "span",
-                                objs: [{
-                                    text: "",
-                                    url: null,
-                                    routerlink: null,
-                                    tooltip: null,
-                                    classes: ["noselect"]
-                                }]
-                            },
-
-                            {
-                                type: "span",
-                                objs: [{
-                                    text: "",
-                                    url: null,
-                                    routerlink: null,
-                                    tooltip: null,
-                                    classes: ["noselect"]
-                                }]
-                            },
-                        ],
+                        text: "What are the response terms and extension possibilities?",
+                        type: "h2",
                         classes: null,
-                    },
-                ]
+                    }]
             },
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "Extension Request Within the Response Term",
+                        type: "h2",
+                        classes: ["bullet"],
+                    }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "The response term is extendable by up to three months by request with an official fee of JPY 4,200. The extension request must be filed within the response term. If the response term is extended, the applicant can enjoy a total of 6 months.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "Extension After the Response Term",
+                        type: "h2",
+                        classes: ["bullet"],
+                    }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "Even after expiration of the response term, an applicant who has not enjoyed any extension before can file a two months extension of the response term. The request must be filed within two months from the expired response date. The extended two months term starts from the expiration date of the original office response term. The fee for this extension is JPY 51,000.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "What categories of Office Actions are there?",
+                        type: "h2",
+                        classes: null,
+                    }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "There are two categories of Office Actions. One is a non-final Office Action, and the other is a Final Office Action. The Final Office Action is issued to notify the applicant of the reasons for rejection that have been created due to the response to the previous Office Action. For example, a response may successfully overcome the rejections set forth in an Office Action, but the amendments then render the claims unclear. In this case, the Examiner issues a new Office Action noting that the Office Action is FINAL, reminding the applicant to respond and to amend the claims in a very restricted manner.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "How should I respond to Office Actions?",
+                        type: "h2",
+                        classes: null,
+                    }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "The applicant is highly recommended to observe the following points in preparing arguments and amendments in response to an Office Action:",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "Claim amendments",
+                        type: "h2",
+                        classes: ["bullet"],
+                    }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "In response to the first non-final Office Action, claims can be amended freely as long as the amendments are supported by the original specification and/or drawings and as long as the special technical feature(s) of the already examined claims are not changed. New claims thus do not have to be subsumed under previous sub-claims; it is possible to add new independent claims as long as the new claims include a common or corresponding special technical feature of the already examined claims.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "Arguments",
+                        type: "h2",
+                        classes: ["bullet"],
+                    }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "It is essential that arguments addressing the Examiner’s assertions are supported by the patent claims on file, the claim amendments.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "A patentable invention should be distinguishable over the prior art by its patentable features. Such features should be new, or should describe a new combination not easily reproducible by someone skilled in the art.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "We recommend that applicants review their own patent claims/embodiments to investigate whether the invention in question is different from the cited references or any combination thereof, in view of solving a technical problem and/or its technical effects. It should also be noted that when discussing the inventive step of the invention in the arguments under Japanese patent practice, it is beneficial to argue not only the distinguishing technical features (construction) of the claimed invention relative to the cited references, but also how the distinguishing technical features bring about a technical effect.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "Is it possible to conduct an interview with the Examiner during the response term?",
+                        type: "h2",
+                        classes: null,
+                    }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "Yes. Generally, Examiners welcome requests for an interview and conduct the interview according to the Examiner Interview Guidelines, published by the JPO.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "Interviews are most effective before responding to an Office Action and before filing a Request for an Appeal in response to a Final Rejection. In the case of requests for an interview after a Final Rejection has been issued, it is necessary to prepare a foundation for the interview such as an amendment or proposed argument which shows an assertive desire to file an Appeal. Examiners may reject requests for interviews if the purpose of the interview is merely to hear the possibility of a grant either during the examination or appeal stage, or if too many proposed amendments have been presented.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "In the interview, we can explain to the Examiner, for example, the comparison between the claimed invention and the cited references – i.e., sound out our patentability arguments – and ask the Examiner to review and express an opinion with respect to a draft claim amendment. If the Examiner and the Applicant reach an agreement on the amendment, the application may be granted shortly thereafter.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            }
         ]
     }
 };
 
-const PATENTOVERVIEW1: IExpansionPanel = {
-    title: "Overview of Japanese Patent and IP system",
+const PATENTAPPEAL: IExpansionPanel = {
+    title: "Appeal against Examiner’s Final Rejection",
     description: "",
     content:
     {
@@ -2955,7 +3490,7 @@ const PATENTOVERVIEW1: IExpansionPanel = {
                 type: "header",
                 objs: [
                     {
-                        text: "Preface",
+                        text: "What options are available after Final Rejection?",
                         type: "h2",
                         classes: null,
                     }]
@@ -2965,7 +3500,2353 @@ const PATENTOVERVIEW1: IExpansionPanel = {
                 objs: [{
                     spans: [
                         {
-                            text: "",
+                            text: "There are three options for responding to an Examiner’s rejection.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "list",
+                objs: [
+                    {
+                        type: "ul",
+                        elements: [
+                            {
+                                type: "span",
+                                objs: [{
+                                    text: "Appeal to Board of Appeal with/without amendment within 4 months (not extendable) from the final rejection.  A substantive amendment such as adding further limitations to claims is possible.",
+                                    url: null,
+                                    routerlink: null,
+                                    tooltip: null,
+                                    classes: ["noselect"]
+                                }]
+                            },
+                            {
+                                type: "span",
+                                objs: [{
+                                    text: "Appeal to Board of Appeal with/without divisional application within 4 months from the final rejection.",
+                                    url: null,
+                                    routerlink: null,
+                                    tooltip: null,
+                                    classes: ["noselect"]
+                                }]
+                            },
+                            {
+                                type: "span",
+                                objs: [{
+                                    text: "File a divisional application within 4 months from the final rejection to start a new prosecution, instead of filing an Appeal.",
+                                    url: null,
+                                    routerlink: null,
+                                    tooltip: null,
+                                    classes: ["noselect"]
+                                }]
+                            },
+                        ],
+                        classes: null,
+                    },
+                ]
+            },
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "Reconsideration by the primary Examiner for the appeal with amendment",
+                        type: "h2",
+                        classes: null,
+                    }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "In the case an appeal with amendment is filed, the Examiner who rejected the application in the first round of examination will reconsider the case in view of the amendment. Specifically, the amendment is reviewed by the primary Examiner before the case proceeds to a full examination by the Board of Appeal. This stage is completed very quickly. If the Examiner finds that the amendment overcomes the previous rejection, the application will be granted by the Examiner. If not, the Examiner will issue an Examiner’s Pre-Review Report (EPRR) and send the appealed case to the Board of Appeal (BOA) for full examination.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "Accordingly, when amendments can be presented to overcome rejections, an appeal with an amendment tends to be the most effective.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "Indeed, according to the statistics based on the JPO Annual Report, more than 50% of appealed cases are allowed in the Examiner’s Pre-Review.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "TODO: TABLE",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "How is an un-Amended Appeal examined?",
+                        type: "h2",
+                        classes: null,
+                    }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "An un-amended appeal is directly forwarded to trial examination by the Board of Appeal consisting of a panel of three or five Board Examiners without undergoing a preliminary examination by the primary Examiner.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "How does the Board of Appeals Examine a Case?",
+                        type: "h2",
+                        classes: null,
+                    }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "The examination by the Board of Appeal is performed by a collegial body which usually consists of three trial Examiners. The examination is conducted in written form and there is no oral hearing.  However, a request for an interview with the Board is possible.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "The role of the examination is not limited to a mere review of the Examiner’s rejection. If the panel is going to reverse the Examiner’s rejection, the body must further examine the application for any further grounds of rejection. If a new ground of rejection is found, the body must issue a new Office Action and often cites new references. The applicant can respond to the Office Action with argument and necessary amendments. The Board will make a final decision upon receipt of the response.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "Why should a divisional application be filed together with an Appeal?",
+                        type: "h2",
+                        classes: null,
+                    }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "This approach is undertaken if the applicant wishes to contest the Final Rejection as well as to further prosecute new claims. Any results of the appeal examination can be beneficially reflected in the divisional examination.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "Why should a divisional application be filed without an Appeal?",
+                        type: "h2",
+                        classes: null,
+                    }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "Filing a divisional application in lieu of the appeal is an option where the applicant wishes to prosecute the application with a new claim or a claim that falls beyond the scope of permissible amendment.  One can choose to file a divisional application that functions only as a re-filing of the case. A divisional application must be filed within the period for filing an Appeal, i.e. 4 months from the final rejection.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "Is it possible to reopen the prosecution?",
+                        type: "h2",
+                        classes: null,
+                    }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "After filing the Appeal, an applicant cannot withdraw the Appeal to reopen prosecution. Therefore, at the time of filing the Appeal, one should consider whether one wishes to file a divisional application as a precaution.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+        ]
+    }
+};
+
+const PATENTAMENDMENT: IExpansionPanel = {
+    title: "Amendment of patent claims during pendency",
+    description: "",
+    content:
+    {
+        elements: [
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "When can I make an amendment and what is the scope in which such an amendment is possible?",
+                        type: "h2",
+                        classes: null,
+                    }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "A patent applicant can amend the claims, specification and drawings if necessary. However, the timing for amendments and the scope in which amendment is possible are prescribed under the Patent Act, Article 17 bis.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "TODO: TABLE",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "*1: In a Japanese patent application filed based on a PCT application, an entered case cannot be amended until the expiration of the 30 month entry term or after the filing of a request for examination.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: ["footnote"]
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "What are the details regarding Amendments in response to a non-final Office Action?",
+                        type: "h2",
+                        classes: null,
+                    }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "After issuance of any Office Action, the window for amendment is limited within the Office Action response term.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "There are two conditions for an amendment that is filed in response to a non-Final Office Action.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "The first condition is that the amendment must be within the scope of the original disclosure.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "The second condition is that the amended claims must have a common or corresponding special technical feature (the same novel technical feature) of at least one of the independent examined claims. This requirement is called “prohibition of shift amendment of claims” which involves a prohibition against an amendment that impermissibly shifts the original subject matter of the claims away from the special technical feature.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "If the applicant would like to pursue a claim which does not have much technical relevance to the examined claim limitations, they should consider filing a divisional patent application.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "In the case of amendments that do not meet these requirements, the patent application may be rejected as a 'shift amendment'.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "What limitations are there for Amendments in a Response to a Final Office Action?",
+                        type: "h2",
+                        classes: null,
+                    }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "Amendments made in response to a final Office Action or Final Rejection must satisfy the requirements for amendments submitted in response to a first Office Action, and in addition are limited to the following:",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "list",
+                objs: [
+                    {
+                        type: "ul",
+                        elements: [
+                            {
+                                type: "span",
+                                objs: [{
+                                    text: "Cancellation of a claim or claims",
+                                    url: null,
+                                    routerlink: null,
+                                    tooltip: null,
+                                    classes: ["noselect"]
+                                }]
+                            },
+                            {
+                                type: "span",
+                                objs: [{
+                                    text: "Restriction of the claim element(s) of currently pending claims",
+                                    url: null,
+                                    routerlink: null,
+                                    tooltip: null,
+                                    classes: ["noselect"]
+                                }]
+                            },
+                            {
+                                type: "span",
+                                objs: [{
+                                    text: "Correction of errors",
+                                    url: null,
+                                    routerlink: null,
+                                    tooltip: null,
+                                    classes: ["noselect"]
+                                }]
+                            },
+                            {
+                                type: "span",
+                                objs: [{
+                                    text: "Clarification of an unclear description",
+                                    url: null,
+                                    routerlink: null,
+                                    tooltip: null,
+                                    classes: ["noselect"]
+                                }]
+                            }
+                        ],
+                        classes: null,
+                    }
+                ]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "Amendments that do not meet these requirements are dismissed, and the patent application will be Finally Rejected based on the previous Office Action.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "Here, if you would like to further pursue the patent application, the options are to file for an appeal or file a divisional application, but whether one undertakes one of these strategies will depend on the reasons for the final rejection.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "What are the Support Requirements for the Amendment?",
+                        type: "h2",
+                        classes: null,
+                    }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "The Patent Act requires that the amendment must be supported by the original disclosure (claims, specification, or drawings). The amendment, if not supported, should be dismissed as new matter.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "The Examination Handbook requires applicants to underline the amendments and indicate the support in the original specification.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "The amendment need not be literally supported by the original disclosure if such amendment is substantially disclosed in the original disclosure. However, in this case, it would be helpful to provide justification for the support to promote understanding by the Examiner.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "Is it possible to make Correction(s) of translation errors?",
+                        type: "h2",
+                        classes: null,
+                    }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "A rule for correction of translation errors (Article 17-2(3)) is applicable to a Japanese application that is first filed in a foreign language (examples, PCT application filed in English).",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "This rule is also applicable to a Paris route Japanese patent application and any divisional applications that are filed first in English text in Japan.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "This rule is not applied to a patent application that is first filed using a Japanese translation for a Paris route application or a divisional application.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "If the correction of translation errors is requested, the already submitted Japanese claims and specification can be corrected based upon the English text and the introduction of new matter is accepted provided that the new matter is within the scope of the original English text.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "This rule can be used not only for translation errors, but also for a situation where we need an appropriate wording to argue patentability and/or support in Office Action response work.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "The current official fee for a Correction of translation errors for a pending application is JPY 19,000.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "Translation errors may also be corrected after a patent has been granted, provided that the re-translation does not broaden or change the claim.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+        ]
+    }
+};
+
+const PATENTDIVISIONAL: IExpansionPanel = {
+    title: "Divisional Applications",
+    description: "",
+    content:
+    {
+        elements: [
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "What are the requirements for divisional applications?",
+                        type: "h2",
+                        classes: null,
+                    }
+                ]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "A patent application that contains two or more inventions can be divided into one or more patent applications. The divisional application is entitled to the benefit of the parent application. The two major requirements for a valid divisional patent application are as follows:",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "New claims without introducing new matter",
+                        type: "h2",
+                        classes: ["bullet"],
+                    }
+                ]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "The claimed invention in a divisional application must be supported by the specification of the  parent application. No new matter can be added. If new matter is added, the divisional application will not be regarded as a valid divisional application.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "No double patenting issues",
+                        type: "h2",
+                        classes: ["bullet"],
+                    }
+                ]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "The divisional invention must not be substantially the same as the invention claimed in the parent patent. The claims of a divisional application be broader than the claims of the parent.  If the claimed inventions of a divisional and its parent are regarded as mirror images of each other, they will be deemed identical and cause a double patenting issue. It is a requirement that there must be a non-obvious difference of at least one element between the original and divisional application.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "When is it possible to file divisional applications?",
+                        type: "h2",
+                        classes: ["bullet"],
+                    }
+                ]
+            },
+            {
+                type: "list",
+                objs: [
+                    {
+                        type: "ul",
+                        elements: [
+                            {
+                                type: "span",
+                                objs: [{
+                                    text: "Any time before receipt of a first Office Action",
+                                    url: null,
+                                    routerlink: null,
+                                    tooltip: null,
+                                    classes: ["noselect"]
+                                }]
+                            },
+                            {
+                                type: "span",
+                                objs: [{
+                                    text: "During the response term for the Office Action",
+                                    url: null,
+                                    routerlink: null,
+                                    tooltip: null,
+                                    classes: ["noselect"]
+                                }]
+                            },
+                            {
+                                type: "span",
+                                objs: [{
+                                    text: "During the term for filing an Appeal against the Final Rejection by the primary Examiner (except for the Final Rejection by the Board of Appeal)",
+                                    url: null,
+                                    routerlink: null,
+                                    tooltip: null,
+                                    classes: ["noselect"]
+                                }]
+                            },
+                            {
+                                type: "span",
+                                objs: [{
+                                    text: "Within 30 days from the Notice of Allowance (at the first examination stage, not at the Board of Appeal)",
+                                    url: null,
+                                    routerlink: null,
+                                    tooltip: null,
+                                    classes: ["noselect"]
+                                }]
+                            },
+                            {
+                                type: "span",
+                                objs: [{
+                                    text: "The divisional application can be a basis for filing of a further divisional application",
+                                    url: null,
+                                    routerlink: null,
+                                    tooltip: null,
+                                    classes: ["noselect"]
+                                }]
+                            },
+                        ],
+                        classes: null,
+                    },
+                ]
+            },
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "What are effective uses of a Divisional Patent Application?",
+                        type: "h2",
+                        classes: null,
+                    }
+                ]
+            },
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "What are effective uses of a Divisional Patent Application?",
+                        type: "h2",
+                        classes: ["bullet"],
+                    }
+                ]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "Keep your application pending in a condition such that it is possible to introduce necessary claims or claim amendments.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "Re-filing after Final Rejection",
+                        type: "h2",
+                        classes: ["bullet"],
+                    }
+                ]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "Changes that can be made to an application after the receipt of a Final Rejection are limited.  Often, necessary amendments or arguments are not allowed due to the amendment restrictions. Accordingly, it can be desirable to have a system that allows a patent application to be re-filed so as to be able to continue patent prosecution as is provided by various jurisdictions around the world.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "In the United States, a re-filing of a patent application is accomplished by filing a Request for Continued Examination (RCE). Unfortunately, there is no RCE in Japan.  Rather, a re-filing of a patent application in Japan is accomplished by filing a divisional application after a final rejection.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "A fresh new patent application divided from the parent application can start with one or more fresh new claims.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "Expansion or shift of claims",
+                        type: "h2",
+                        classes: ["bullet"],
+                    }
+                ]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "In response to a final Office Action, the broadening of the scope of the claims is impermissible. If the claim coverage is less than desirable, a divisional application is the only way to pursue broadened claims.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "Further prosecution of rejected claims",
+                        type: "h2",
+                        classes: ["bullet"],
+                    }
+                ]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "If there are any unpatentable claims in the claim set, the application will be rejected. To secure prompt allowance of the allowable claims, while continuing prosecution of the rejected claims, a divisional application should be considered. Typically, the rejected claims are filed in the divisional application for further prosecution, while the allowable claim(s) remain in the original application which can then be promptly granted as a patent.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "A fall-back position",
+                        type: "h2",
+                        classes: ["bullet"],
+                    }
+                ]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "During the JPO Board of Appeal examination there is no guarantee of an opportunity to amend the claims. It may be strategically advantageous to prepare a divisional application to provide for greater freedom of prosecution to maximize flexibility in protecting a given invention.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+        ]
+    }
+};
+
+const PATENTTERM: IExpansionPanel = {
+    title: "Patent Term",
+    description: "",
+    content:
+    {
+        elements: [
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "How long is a patent term in Japan?",
+                        type: "h2",
+                        classes: null,
+                    }
+                ]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "The patent term is 20 years from the filing date (Article 67(1)).",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "The calculation of this 20-year term is not from the priority date, but from the application date in Japan. If the patent is derived from a PCT application, the 20-year term is calculated from the international filing date of the PCT application.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "In the case of a divisional application, the 20-year term for a patent term is calculated from the application date of the parent.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "When will a patent be effective after issuance of a notice of allowance?",
+                        type: "h2",
+                        classes: null,
+                    }
+                ]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "A patent is usually registered within 3 days from the issue fee payment. Upon the patent registration, the patent is effective. The patent will be published in the patent gazette about one month after the registration.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "The presumption of negligence is imposed on a patent infringer only based on the publication of the issued patent. Therefore, if one wishes to obtain damages due to infringement before issuance of the patent, it is necessary to provide a warning to a patent infringer in the period before the patent publication.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "Is there any protection for an invention prior to obtaining a patent?",
+                        type: "h2",
+                        classes: null,
+                    }
+                ]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "Before obtaining a patent, an invention does not have any exclusive protection. When the patent application is published in the non-examined patent publication, the patent applicant may receive compensation from a third party for practicing the claimed invention as expressed in the published application (Article 65). The applicant has the right to request payment for a license from a third party practicing the claimed invention who has knowledge that the patent application has been made public. This right to compensation for practicing the invention as expressed in a  published patent application is enforceable after registration of the patent, and will require proof of the subjective fact that the third party was practicing the claimed invention with the knowledge that the claimed invention as expressed in the patent application was made public. Therefore, when planning to enforce a right to compensation for practicing the claimed invention as expressed in a published patent application, generally it is necessary to send a warning letter to the third party in advance (Article 65(1)).",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "Is it possible to extend the patent term?",
+                        type: "h2",
+                        classes: null,
+                    }
+                ]
+            },
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "Applicable patent inventions",
+                        type: "h2",
+                        classes: ["bullet"],
+                    }
+                ]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "Some products such as a pharmaceutical product require administrative approval, and without such approval, the product cannot be sold. Thus, Article 67(2) of the Patent Act provides an extension of term of patent rights up to a duration of 5 years for cases in which there was a period of time during which a patent invention directed to a specific field, including a pharmaceutical patent invention, could not be practiced for reasons of safety tests and public approval.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "Patents which are eligible for such extensions are related to agricultural chemicals, pharmaceuticals, pharmaceuticals for extracorporeal diagnostic use, products for regenerative medicine, and the like, and include substance, use, method of manufacture, and combination drug patents. Pharmaceuticals are not limited to those for human use and include pharmaceuticals for animal use. Patents for pharmaceutical intermediates, catalysts, and manufacturing apparatuses cannot be extended. Patents for medical devices cannot be extended as well.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "Requirements and procedure",
+                        type: "h2",
+                        classes: ["bullet"],
+                    }
+                ]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "To obtain and extension, an application for a patent term extension needs to be filed. The time window for applying for the extension is after the patent registration, up to the original expiration date (20 years from the application date) (Article 67-2(3)). However, in a case where extension is applied for after 6 months before the original expiration date, advance procedures must be completed (Article 67-2-2). Further, an application for extension must be completed within 3 months from the administrative approval of the product (Enforcement Order, Article 3).",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "Extensions are applied for by the patentee (Article 67-3(iv)). Further, it is necessary that the patentee or registered exclusive licensee (Senyo-Jisshiken) has obtained administrative approval of the product.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "The JPO will examine (1) whether the patent could or could not be practiced without approval, and (2) that the extended term is correct.  The JPO may also examine other related issues.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "The extendable term is the duration of time from the latest of the starting date of clinical trials, the date of application of approval, and the date of registration of the patent, to the date on which the certificate of approval is received. However, the extended term cannot exceed 5 years.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "Scope of extended patents",
+                        type: "h2",
+                        classes: ["bullet"],
+                    }
+                ]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "The effect of extended patent rights is limited to the product which is subject to the approval (Article 68-2). For example, in a case where a patent is extended based on approval for stomach cancer, the effect of the extended patent is limited to the use of stomach cancer. On the other hand, in a case where a patent is extended based on approval for a particular dosage form, it is a case-by-case determination whether the extended patent covers other dosage forms.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+        ]
+    }
+};
+
+const PATENTFEES: IExpansionPanel = {
+    title: "Official Fees",
+    description: "",
+    content:
+    {
+        elements: [
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "How much does patent prosecution cost?",
+                        type: "h2",
+                        classes: null,
+                    }
+                ]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "The official fees related to patent prosecution are indicated in the following table.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "TODO: TABLE",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "The key points are that the fee for filing a patent application is a flat fee of JPY 14,000 irrespective of the length of the patent specification, while the request for examination, request for trial, and annuities, etc., are the sum of a basic fee and an additional fee for each claim. With respect to fees calculated as a function of the number of claims, note that the JPO does not have a special additional fee or increased fee for excess claims, that is, the per-claim fee is fixed regardless of the number of claims. These additional fees are calculated for the total number of claims, irrespective of whether they are independent or dependent claims. For example, the request for examination fee for an application with 20 claims is JPY 196,000 (for the PCT route).",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "How much does a patent annuity cost?",
+                        type: "h2",
+                        classes: null,
+                    }
+                ]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "The key points are that the fee for filing a patent application is a flat fee of JPY 14,000 irrespective of the length of the patent specification, while the request for examination, request for trial, and annuities, etc., are the sum of a basic fee and an additional fee for each claim. With respect to fees calculated as a function of the number of claims, note that the JPO does not have a special additional fee or increased fee for excess claims, that is, the per-claim fee is fixed regardless of the number of claims. These additional fees are calculated for the total number of claims, irrespective of whether they are independent or dependent claims. For example, the request for examination fee for an application with 20 claims is JPY 196,000 (for the PCT route).",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "TODO: TABLE",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "The issue fee (which corresponds to the 1st through 3rd year annuities) must be paid according to the number of granted claims. On the other hand, for subsequent annuity payments, i.e. the 4th year annuity and onwards, the number of claims can be reduced, and the annuity payments can accordingly be lowered, by abandoning unnecessary claims.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "After the 4th year annuity, all subsequent annuities must be paid before the next due date. In the event that timely payment is missed, a 6-month grace period is provided which allows later payment with the fine of double payment.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "In addition, if there is a legitimate reason (i.e., an error made despite due care) for not having been able to make the late payment, another grace period is provided, which is the shorter one of: (i) 12 months from the expiration of the first 6-month grace period; or (ii) 2 months from when the legitimate reason ceases to apply.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "While the first 6-month grace period is guaranteed upon payment of the doubled fee, it is rather difficult to prove due care so as to obtain the second grace period. The JPO requires the presence of totally unpredictable or unavoidable circumstances in order to obtain the second grace period. For example, the JPO explains that a simple human error does not constitute due care.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "Official Fee Reduction for Small and Medium Entities",
+                        type: "h2",
+                        classes: null,
+                    }
+                ]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "The JPO introduced the Official Fee Reduction program from April 1, 2019.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "According to this program, the fees have been reduced to a range between 50% to 70% of their request for examination fees and also patent annuities of the 1st to 10th year.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "In order to obtain the fee reduction, the applicant must select a category to which the company belongs to. In the application, no documentary evidence is required.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "We have summarized the categories, requirements and respective reduction rates in the table.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "TODO:TABLE",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+        ]
+    }
+};
+
+const PATENTOPPOSITION: IExpansionPanel = {
+    title: "Patent Opposition",
+    description: "",
+    content:
+    {
+        elements: [
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "The patent opposition system is essentially a reexamination system for reviewing the validity of an issued patent.  The reexamination process begins when a third party files an opposition within 6 months of a patent being published.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "Under the Patent Act, there are two routes for cancelling or invalidating a patent.  The first is a patent opposition and the second is a patent invalidation trial. The opposition system is simpler and the opposition procedure is less complicated and quicker compared to a patent invalidation trial.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "What are Grounds for Opposition?",
+                        type: "h2",
+                        classes: null,
+                    }
+                ]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "An opposition may be filed based on any of the following grounds.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "list",
+                objs: [
+                    {
+                        type: "nl",
+                        elements: [
+                            {
+                                type: "span",
+                                objs: [{
+                                    text: "Addition of new matter in an amendment",
+                                    url: null,
+                                    routerlink: null,
+                                    tooltip: null,
+                                    classes: ["noselect"]
+                                }]
+                            },
+                            {
+                                type: "span",
+                                objs: [{
+                                    text: "Lack of novelty, lack of inventive step, double patenting and others",
+                                    url: null,
+                                    routerlink: null,
+                                    tooltip: null,
+                                    classes: ["noselect"]
+                                }]
+                            },
+                            {
+                                type: "span",
+                                objs: [{
+                                    text: "Lack of enablement requirement and support requirement, or clarity requirement",
+                                    url: null,
+                                    routerlink: null,
+                                    tooltip: null,
+                                    classes: ["noselect"]
+                                }]
+                            }
+                        ],
+                        classes: null,
+                    },
+                ]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "An opposition may not be filed based on a violation of the rules for a joint application or derivation. For such grounds, the only way to challenge a patent is through an invalidation trial.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "What is the Procedure for an Opposition?",
+                        type: "h2",
+                        classes: null,
+                    }
+                ]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "The time period within which to file an opposition is 6 months from the patent publication date.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "All grounds for the opposition and evidence must be submitted within the opposition term.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "The official fee for filing the opposition is JPY 16,500 (US $157), plus JPY2,400 (US $23) per claim.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "The JPO forwards a copy of the opposition brief to the patentee. However, the patentee cannot respond to the opposition brief at this time because the examination of the opposition has not yet started.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "The opposition is examined first by a panel of Board of Appeal Examiners. If the panel decides that any patent claim may be the subject of a cancellation procedure, the JPO issues a Notice of Patent Cancellation and institutes the opposition.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "Upon receipt of the Notice, the patentee can respond to the notice with arguments and/or claim amendments, if necessary (First Review).",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "The response from the patentee is examined (Second Review) by the Examiners considering the opponent’s opinion.  The opponent will have an opportunity to submit arguments. Limited new prior art may be introduced in the arguments.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "If the patent is still not considered to be patentable at the Second review, an Advanced Notice of Cancellation is issued. The patentee can respond to the Notice with both arguments and amendments. Usually, this will be the last chance for a response that includes an amendment.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "The opposition will be rejected if the patent is maintained without institution of the opposition, or if the opposition is instituted, but the patent is determined to be valid in the proceeding.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "If the opponent loses the opposition, the opponent cannot file any arguments or appeal against the decision. The only further measure available to the opponent is to file for an invalidation trial to the JPO.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "Since the prohibition against double jeopardy does not apply to the decision of opposition, the prior art materials introduced in the opposition process can also be used in an invalidation trial.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "If the patent is cancelled (in part or whole), the patentee can file an appeal to the IP High Court against the JPO decision.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+        ]
+    }
+};
+
+const PATENTINVALIDATION: IExpansionPanel = {
+    title: "Patent Invalidation",
+    description: "",
+    content:
+    {
+        elements: [
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "A trial for invalidation is provided as a system for resolving patent disputes as an administrative solution regarding the validity of patents at the JPO Board of Appeal.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "In fact, when a patentee files a patent infringement suit, the accused infringer often files a patent invalidation trial as a counter action.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "The invalidation trial is an adversarial system, in which both parties participate in the trial procedure.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "Explanation of invalidation trial procedure and comments on the key steps",
+                        type: "h2",
+                        classes: null,
+                    }
+                ]
+            },
+            {
+                type: "titledimage",
+                objs: [
+                    {
+                        title: "Invalidation trial procedure",
+                        img:
+                        {
+                            folder: "patentmanual",
+                            filename: "invalidationflow.png",
+                            classes: ["medium"]
+                        }
+                    }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "S1: An invalidation request initiates a trial for invalidation.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "When the invalidation request is recorded at the JPO, the patentee cannot amend the claims.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "Amendment is only available within the invalidation procedure.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "S2: The assigned panel at the Board of Appeal forwards a copy of the invalidation brief to the patentee. The patentee is given a term of 90 days to respond. Only within this response term can the patentee amend the claims.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "S3 & S4:  A response from the patentee is forwarded to the petitioner.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "S5: Preparation for Oral Hearing.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "The panel studies the invalidation brief and the patentee’s response and sends questions to the parties for the Oral Hearing.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "S6: Oral Hearing",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "A chief Examiner among the panel acts as an administrative judge in an oral hearing.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "Both parties must attend the hearing and present their arguments.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "In the hearing, there are questions from the Examiners and arguments between the parties.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "Both parties can file supplemental arguments and clarification.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "S7: Render provisional decision",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "When the panel considers any claims to be invalid, a Provisional Notice of Invalidity is issued to the patentee.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "S8 and S9: The patentee can argue against the Provisional Invalidation Notice and may also amend the claims only within the response term.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "S10: The petitioner can rebut the response of the patentee. In the case where the claims are amended, a submission of additional prior art references and arguments by the petitioner is permitted.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "S11: Decision",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "The panel thoroughly studies the responses of both parties and makes a final decision. If the Notice of Invalidity is overcome by the patentee’s response, a validity decision will be rendered. If not, the Board issues a Decision of Invalidity.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "S12: Appeal to IP High Court.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "The losing party can appeal the decision to the IP High Court. The appeal term for a foreign resident is 120 days from the decision.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "The IP High Court is an appellate court which examines whether there are any errors in the JPO decision. Accordingly, an appeal with a claim amendment or introduction of substantive new prior art at the IP High Court is not permitted.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "Comparison between the opposition system and invalidation system",
+                        type: "h2",
+                        classes: null,
+                    }
+                ]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "Since the trials for opposition/invalidity have many similarities and differences, important items are listed below.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "TABLE:TODO",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+        ]
+    }
+};
+
+const PATENTCORRECTION: IExpansionPanel = {
+    title: "Trials for Correction of Issued Patent Claims",
+    description: "",
+    content:
+    {
+        elements: [
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "How to Correct issued Patent Claims",
+                        type: "h2",
+                        classes: null,
+                    }
+                ]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "Amendments to patent claims, the specification, or drawings after patent issuance is only possible through a Trial for Correction. An amendment request is usually examined by a panel of three Board of Appeal Examiners. A patentee may request a correction at any time, except for the period in which an opposition or invalidation trial is pending. Correction is provided as a counter action against the attack on a patent through an invalidation trial or opposition against a patent. If an invalidation trial or opposition is started earlier, the patentee cannot file a trial for correction. In such cases, correction of the patent must be done within the respective invalidation trial procedure or the patent opposition procedure.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "Claim amendments must be of a limiting nature and cannot broaden the scope of the claim. A patented claim can be amended to conform to the English text if the original application was filed in the English language provided that there is no broadening of the claim.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "What are the requirements for a Patent Claim Correction?",
+                        type: "h2",
+                        classes: null,
+                    }
+                ]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "A trial for correction must be directed to one of the following:",
                             url: null,
                             routerlink: null,
                             tooltip: null,
@@ -2984,18 +5865,37 @@ const PATENTOVERVIEW1: IExpansionPanel = {
                             {
                                 type: "span",
                                 objs: [{
-                                    text: "",
+                                    text: "Cancellation of a claim or claims.",
                                     url: null,
                                     routerlink: null,
                                     tooltip: null,
                                     classes: ["noselect"]
                                 }]
                             },
-
                             {
                                 type: "span",
                                 objs: [{
-                                    text: "",
+                                    text: "Restriction of claim or claims. The claimed invention must be patentable after the restriction.",
+                                    url: null,
+                                    routerlink: null,
+                                    tooltip: null,
+                                    classes: ["noselect"]
+                                }]
+                            },
+                            {
+                                type: "span",
+                                objs: [{
+                                    text: "Correction of errors. The claimed invention must be patentable after the correction.",
+                                    url: null,
+                                    routerlink: null,
+                                    tooltip: null,
+                                    classes: ["noselect"]
+                                }]
+                            },
+                            {
+                                type: "span",
+                                objs: [{
+                                    text: "Clarification of an unclear description. The claimed invention must be patentable after the clarification.",
                                     url: null,
                                     routerlink: null,
                                     tooltip: null,
@@ -3006,85 +5906,1536 @@ const PATENTOVERVIEW1: IExpansionPanel = {
                         classes: null,
                     },
                 ]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "Since a Trial for Correction cannot be requested after a patentee has been served with an invalidation brief or a patent opposition, it is recommended that if a patent dispute is expected, the descriptions of the claims and specification should be thoroughly checked, and if necessary, a Trial for Correction should be requested as soon as possible.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "A Trial for Correction can be requested during an ongoing infringement trial, provided that an invalidation trial has not been requested by the other party. Furthermore, there is no limit to the number of times a patentee can request a trial for correction.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "The examination of a correction trial is a fast process. The results of a correction trial are typically received around 3 months after filing the request.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            }
+        ]
+    }
+};
+
+const PATENTLITIGAION: IExpansionPanel = {
+    title: "Patent Litigation",
+    description: "",
+    content:
+    {
+        elements: [
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "Typical Patent Litigation in Japan",
+                        type: "h2",
+                        classes: null,
+                    }
+                ]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "In principle, as no specific discovery process is available in litigation, all of the patent litigations filed before the courts proceed to “trial sessions” to be held before judges where each party submits its briefs and produces evidence.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "A typical patent litigation goes to the first stage where the court reviews the infringement issue and validity of patent issues. It normally takes several rounds of preparatory proceedings (benron junbi tetsuzuki) followed by an explanatory session on technical matters. If the court believes the patent concerned is infringed, then the proceedings move to the second stage of damage calculation and then to a conclusion. It is common that a patent litigation is settled following a recommendation for settlement by the court that forms the conclusion through the trial proceedings.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "Below is an overview of patent litigations in Japan based on the data as of the year 2021 collected and analyzed by the IP High Court.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "From 2014 to 2019, 68% of patent litigations before the Tokyo District Court and the Osaka District Court were concluded by judicial decisions, while remaining 32 % were concluded by settlement. In addition, 46% of the judicial decisions issued in for patent litigation proceedings found no infringement (against patentee), while 20% thereof found patent infringement (in favor of patentee). Of the cases settled, 24% of the settlements include clauses promising the cession of infringing activities and/or monetary payments which can be seen in favor of patentees.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "Based on the above data, it can be said that half of the infringement claims by patentees before the court are upheld or recognized to certain extent and the other half dismissed.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "(Number of judgements and settlements at Tokyo and Osaka District Courts from 2014 to 2019, resource IP High Court)",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "titledimage",
+                objs: [
+                    {
+                        title: "Examination procedure through the PCT route",
+                        img:
+                        {
+                            folder: "patentmanual",
+                            filename: "litigationpiegraph.png",
+                            classes: ["medium"]
+                        }
+                    }]
+            },
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "Court systems for patent infringement cases",
+                        type: "h2",
+                        classes: null,
+                    }
+                ]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "Patent litigation must start at the Tokyo or Osaka District Court which have exclusive jurisdiction over patent infringement cases. The Tokyo District Court has exclusive jurisdiction over cases in the Eastern portion of Japan, and the Osaka District court has exclusive jurisdiction over cases in the Western portion of Japan. The IP High Court located in Tokyo, which is a special branch of the Tokyo High Court, exclusively handles all patent cases from the Tokyo District Court and the Osaka District Court as well as any suit against appeal/trial made by the JPO.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "The Tokyo District Court has four IP divisions and the Osaka District Court has two IP divisions. One bench consists of three judges in a main action. The IP High Court has four ordinary divisions and one Special Division (Grand Panel), the latter of which consists of five judges including four presiding judges of each of the divisions. The Supreme Court is the final court to hear appeals from the IP High Court. However, the Supreme Court has broad discretion as to whether to accept a petition for acceptance of final appeal from parties for discretional review (jokoku juri moshitate), unless there is a ground for mandatory review of appeal (jokoku), such as a violation of the Constitution.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "Who can file a patent infringement lawsuit?",
+                        type: "h2",
+                        classes: null,
+                    }
+                ]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "A patent holder or exclusive licensee who registers a license in the patent register at the JPO (Senyo Jisshikensha) can file a lawsuit seeking an injunction and compensation for damages. A non-registered exclusive licensee (Dokusenteki Tsujo Jisshikensha) can claim compensation for its own damages.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "Who can represent the parties of a patent infringement lawsuit?",
+                        type: "h2",
+                        classes: null,
+                    }
+                ]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "A party is free to have a legal representation in the Japanese civil procedures. In practice, however, it is common to have attorneys-at-law (Bengoshi) legally represent patent infringement cases. It is also common that patent attorneys (Benrishi) work together with attorneys-at law and these patent attorneys can co-represent patent infringement cases together with the said attorneys-at-law, provided that such patent attorneys have passed the Specific Infringement Lawsuit Counsel Examination.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "Who bears the burden of proof?",
+                        type: "h2",
+                        classes: null,
+                    }
+                ]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "The burden of proving the cause of action as well as the damages suffered lies with the plaintiff. To prevail in a main action, the plaintiff must prove by a “high probability” standard that infringement of the plaintiff’s patent occurred, as opposed to a “preponderance of the evidence” standard that is used in other countries. However, there are some provisions in the Patent Act which help the plaintiff to meet the standard of proof, such as presumption of negligence of an infringer and presumption of the amount of damages incurred by the infringement (See Question 16.10).",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "Unlike the United States, there is no specific discovery process in Japan and the onus of producing evidence to the court will fall heavily on the plaintiff. However, the Patent Act provides that in patent infringement proceedings, the court, at the request of a party, may order the other party to produce documents that are needed to prove the infringement or to calculate the damages caused by the infringement. However, such an order may not be enforced if the person in possession of the documents has a legitimate reason for refusing to produce them.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "Also, the Patent Act has recently introduced the concept of on-site inspection in which the court can appoint, upon the request of a party, a fair and neutral expert to enter the premises of the alleged infringer to examine documents, devices and the like under strict conditions (Article 105-2).",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "To what extent should a specific claim be stated in the complaint?",
+                        type: "h2",
+                        classes: null,
+                    }
+                ]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "As no specific discovery process is available in the Japanese civil proceedings, the plaintiff needs to investigate and analyze the accused product or process and prepare well before commencing patent litigation. Based on the investigation and analysis, the plaintiff is required to describe in its complaint the identity of the accused product or process, and structures or features thereof.  In addition, the plaintiff must provide a comparison between said structures or features and corresponding elements of each claim of the patent. Also, the plaintiff needs to describe in the complaint the approximate amount of damages he/she claims (which is used for calculation of stamp duties), the plaintiff can amend such amount in the subsequent proceedings.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "Is a prior cease and desist letter a prerequisite for filing a patent infringement lawsuit?",
+                        type: "h2",
+                        classes: null,
+                    }
+                ]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "A prior cease and desist letter is not a prerequisite for a patent holder to file a lawsuit seeking injunction and compensation for damages.  However, it is quite common for a patent holder to first send such letter to the alleged infringer, inter alia, to explore the possibility to stopping the infringing activity and/or settle the case without filing a lawsuit. Please note that in Japan sending a cease and desist letter to retail stores could be treated as a patent holder’s misrepresentation to customers which is subject to an injunction and damage claim under the Unfair Competition Prevention Law.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "Issues in the trial and how to proceed with the lawsuit (steps of trial at the court)",
+                        type: "h2",
+                        classes: null,
+                    }
+                ]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "The court adopts a so-called “two-step” review of infringement cases.  In the first stage, the court first reviews whether the defendant’s product or process infringes the plaintiff’s patent (infringement issues) and also addresses validity issues if the validity of the patent is contested by the defendant. When any validity issues are cleared and the court believes the patent to be infringed, the court will disclose its opinion to the parties.  Thereafter, the proceedings then move to the second stage which involves damages calculations unless both parties agree to settle the case. Also, if the court determines that there is no infringement or that the patent is invalid in the first stage, the court ends the trial and will hand down its judgment in favour of the defendant unless both parties agree to settle the case.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "In the Tokyo District Court’s practice, after the first oral hearing (to be held in court), the discussion is mainly conducted in preparatory hearing sessions (benron junbi tetsuzuki) held in judicial chambers in which the presiding judge and other judges analyze the issues involved until they are able to reach a conclusion regarding infringement.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "How much time is normally required for the overall court proceedings?",
+                        type: "h2",
+                        classes: null,
+                    }
+                ]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "Patent litigation is initiated by the filing of a complaint and the production of documentary evidence by the Plaintiff. The court then serves the complaint on the defendant and sets the date for the first oral hearing and a due date for the answer to be submitted by the defendant.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "The patent litigation process model published by the Tokyo District Court anticipates about five (5) rounds of preparatory proceedings (benron junbi tetsuzuki) to complete an infringement phase (the first stage) after the first oral hearing. During the preparatory proceedings, both parties exchange their briefs and produce their evidence. Explanatory sessions regarding technical matters will commonly be provided by both parties at the final phase of the first stage to have a better understanding of the technical issues.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "At the fifth round of preparatory proceedings, according to the above model, the court discloses to the parties its opinion on the infringement. If the court determines that there is no infringement of patentee’s patent (or finds any reasons in favor of the defendant), the court ends the preparatory proceedings and closes the trial at the second oral hearing, or the Court can make a recommendation of settlement. In the case when the court determines that the defendant infringes the plaintiff’s patent and no recommendation for settlement is made, the court then proceeds to the second stage of calculation of damages. The model anticipates about three (3) more rounds of preparatory proceedings for the second stage.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "It is common for a patent infringement case to take one year at the district court level and another several months if appealed to the IP High Court.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "Expected progress of typical patent infringement proceedings in the model (the first stage)",
+                        type: "h2",
+                        classes: null,
+                    }
+                ]
+            },
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "First Oral Hearing",
+                        type: "h2",
+                        classes: ["bullet"],
+                    }
+                ]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "TODO: TABLE?",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "First Preparatory Proceedings",
+                        type: "h2",
+                        classes: ["bullet"],
+                    }
+                ]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "TODO: TABLE?",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "Second Preparatory Proceedings",
+                        type: "h2",
+                        classes: ["bullet"],
+                    }
+                ]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "TODO: TABLE?",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "Third Preparatory Proceedings",
+                        type: "h2",
+                        classes: ["bullet"],
+                    }
+                ]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "TODO: TABLE?",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "Fourth Preparatory Proceedings (the climax of the litigation)",
+                        type: "h2",
+                        classes: ["bullet"],
+                    }
+                ]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "TODO: TABLE?",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "Fifth Preparatory Proceedings",
+                        type: "h2",
+                        classes: ["bullet"],
+                    }
+                ]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "TODO: TABLE?",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "Are there any legal measurements to help the plaintiff (patent holder) to prove its claims in the proceedings?",
+                        type: "h2",
+                        classes: null,
+                    }
+                ]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "There are several means provided for in the Patent Act to help the plaintiff to prove its claims in patent litigation proceedings such as the following:",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "Presumption of negligence (Article 103)",
+                        type: "h2",
+                        classes: ["bullet"],
+                    }
+                ]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "An infringer of a patent right or exclusive license of another person is presumed negligent in the commission of the act of infringement.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "Presumption of producing products by patented process (Article 104)",
+                        type: "h2",
+                        classes: ["bullet"],
+                    }
+                ]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "Where the invention of a process of producing a product has been patented and the product was not publicly known in Japan prior to the filing of the patent application, a product identical to such product shall be presumed to have been produced by the patented process.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "Presumption of amount of damages (Article 102)",
+                        type: "h2",
+                        classes: ["bullet"],
+                    }
+                ]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "The plaintiff bears the burden of proof of the amount of actual damages incurred by the act of infringement of the defendant. However, considering the difficulty for the plaintiff to prove the amount of actual damages caused by the infringement, the Patent Act provides three types of presumptions where the amounts determined by way of the following are presumed to be the amount of damages: (i) “lost profits” calculated based on the infringer’s sales quantity with the patent holder’s profit rate; (ii) license fees that the patent holder would have obtained had the infringements not occurred; and (iii) profits made by the infringer (unjust enrichment).",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "The Patent Act was revised in 2019 (effective on April 1, 2020) as follows:",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "list",
+                objs: [
+                    {
+                        type: "ul",
+                        elements: [
+                            {
+                                type: "span",
+                                objs: [{
+                                    text: "The patent holder can seek “lost profits” within the limits of an amount proportionate to the production/sales capacity of the patent holder ('capacity').",
+                                    url: null,
+                                    routerlink: null,
+                                    tooltip: null,
+                                    classes: ["noselect"]
+                                }]
+                            },
+                            {
+                                type: "span",
+                                objs: [{
+                                    text: "Since the IP High Court decision on September 25, 2006, the courts had not included the portion of “lost profits” beyond the patent holder’s capacity in the amount of damages. The revision allows the patent holder to claim such a portion as being equivalent to license fees for the relevant license if given to the infringer (Article 102(1)(ii)).",
+                                    url: null,
+                                    routerlink: null,
+                                    tooltip: null,
+                                    classes: ["noselect"]
+                                }]
+                            },
+                            {
+                                type: "span",
+                                objs: [{
+                                    text: "In the calculation of the amount of damages presumed by license fees, the court may consider the amount of license fees that would have been negotiated and agreed upon based on the presumption of infringement. License fees that presume infringement will be higher than those that are actually negotiated and agreed upon in practice (Article 102(4)).",
+                                    url: null,
+                                    routerlink: null,
+                                    tooltip: null,
+                                    classes: ["noselect"]
+                                }]
+                            }
+                        ],
+                        classes: null,
+                    },
+                ]
+            },
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "Expert opinion for calculation of damages (Article 105-2-11)",
+                        type: "h2",
+                        classes: ["bullet"],
+                    }
+                ]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "Where, upon the request of a party, the court orders that an expert opinion be obtained for the calculation of damages arising from the act of infringement, the other party shall explain to the expert witness the matters necessary for the expert witness's opinion.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "Determination of reasonable amount of damage (Article 105-3)",
+                        type: "h2",
+                        classes: ["bullet"],
+                    }
+                ]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "Where the court has determined that there are damages to be awarded and it is extremely difficult, due to the nature of the circumstances, to prove the facts necessary to determine the amount of damages, the court may determine a reasonable amount of damages based on oral arguments and the result of the examination of evidence.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "What defenses are available to the defendant?",
+                        type: "h2",
+                        classes: null,
+                    }
+                ]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "In patent infringement proceedings, the defendant submits the answer to the complaint before the first oral hearing and briefs any number of times during the subsequent proceedings. The defendant commonly provides (i) a non-infringement defense and (ii) an invalidity defense.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "A non-infringement defense is that the accused product or process does not fall within the technical scope of the patented invention. An invalidity defense covers almost all reasons for patent invalidity including novelty, non-obviousness (inventive step) and clarity issues. The invalidity defense will not, however, actually invalidate the patent in this proceeding as invalidity is determined in an invalidation trial before the JPO.  If an invalidity defense is successfully allowed by the court, the plaintiff cannot enforce the patent right against the defendant of the case.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "Also, the defendant can simultaneously initiate a patent invalidation trial before the JPO.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "Further, the defendant may claim that he/she has been practicing the invention covered by the patent prior to the grant of such patent, without knowledge of the patent (“prior use”), or that he/she used the invention for the purpose of experiment or research. Parallel import or a gray market defense could also be argued under certain conditions.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "As a general rule for tortious acts, the right to claim compensation for damages incurred by the act of patent infringement lapses by prescription if it is not exercised within three years from the time when the patent holder comes to know of the damages and the identity of the alleged infringer, or within 20 years from the act of infringement.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "Can the defendant just deny the plaintiff’s allegation of patent infringement?",
+                        type: "h2",
+                        classes: null,
+                    }
+                ]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "In patent infringement proceedings, when the defendant (alleged infringer) wishes to deny an allegation about the accused product or process, the defendant is required to actively rebut the allegation by clarifying the alleged act of infringement. If there are reasonable grounds that prevent the defendant from making such a clarification, however, he/she is not required to do so.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "This is not a shifting of the burden of proof and the purpose is to expedite the proceedings. For example, if the plaintiff identifies that the accused process that the defendant employs as “A-B-C-D” and if the defendant wishes to deny this allegation, he/she needs to clarify that his/her process is actually “A-B-C-E”, for example.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "Consider filing a request for patent invalidation with the JPO",
+                        type: "h2",
+                        classes: null,
+                    }
+                ]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "In addition to non-infringement arguments and invalidity arguments in the court proceedings, it is very often that the defendant files a request for a trial for patent invalidation with the JPO Board of Appeal.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "Under the Japanese law, the JPO is the only authority that can invalidate the issued patent. However, the court has a power to review the validity issues of the accused patent when the validity question is raised in the proceeding. If the defendant proved the invalidity of the patent, the court could deny the infringement and damage claim.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "When a request for a trial for patent invalidation is filed, the JPO will proceed with the trial promptly, keeping in mind that the relevant patent infringement case proceeds in parallel.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "Advantages for requesting a trial for invalidation is that the validity of the patent is examined by the eyes of technical experts and is managed by the Board of Appeal Examiners to focus on the issues raised by the petitioner or by the Examiners.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "Does invalidation trial at the JPO stay the court proceedings?",
+                        type: "h2",
+                        classes: null,
+                    }
+                ]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "The court may, if it considers it necessary, stay the court proceedings until the trial decision before the JPO becomes final and binding. In practice, however, the court rarely stays its patent infringement proceedings.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "As the IP High Court exclusively handles all patent cases from the Tokyo and Osaka District Courts and all litigations for rescinding a trial decision by the JPO, even when decisions of the court and the JPO are not consistent, it is expected that the same bench of the IP High Court will review both relevant cases together in practice, and where feasible, render consistent decisions.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "Is a declaratory judgment of non-infringement available for an alleged infringer?",
+                        type: "h2",
+                        classes: null,
+                    }
+                ]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "An alleged infringer can seek from the court a declaratory judgment of non-infringement. To be precise, the alleged infringer files a motion in the court to confirm that the patent holder concerned (the defendant) does not have the right to seek a permanent injunction and/or compensation for damages against the alleged infringer (the plaintiff). The alleged infringer needs to show the fact establishing the benefit of seeking confirmation, i.e., the existence of an actual dispute. In this regard, a cease and desist letter from a patent holder indicating that the recipient (the alleged infringer) is infringing the patent normally satisfies this requirement.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "How are expert opinions used in the patent infringement proceedings?",
+                        type: "h2",
+                        classes: null,
+                    }
+                ]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "In patent infringement proceedings, both parties commonly submit to the court expert opinions and present their arguments in their briefs relying on such expert opinions. Also, the court can designate an independent expert if it considers it necessary. However, it is not common for the court to allow witness testimony including expert witness testimony.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "Expert opinion for calculation of damages can be available in the damage proving stage and the court designates, upon the request of a party, a fair expert such as a public certified accountant to calculate the amount of damages (Article 105-2-11).",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "The Patent Act has recently introduced on-site inspection in which the court may appoint, upon the request of a party, a fair and neutral expert to enter the premises of the alleged infringer to examine documents, device and the like under strict conditions (Article 105-2).",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "Settlement",
+                        type: "h2",
+                        classes: null,
+                    }
+                ]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "Parties to a patent dispute are free to settle out-of-court or in the court proceedings at any time. In practice, the court often recommends a settlement (judicial settlement) in patent infringement proceedings. Depending on cases and parties thereto, the court sometimes makes a recommendation of settlement at an early stage but typically does so when it discloses its opinion on the infringement after it reaches the conclusion, and after the second stage (damage proving stage) is concluded.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "The judicial settlement can cover not only the patent dispute before the court but also any other relevant issues between the parties; for instance, other patents which are not subject to the current litigation, and other patent litigations pending outside Japan. Also, a judicial settlement can cover any business arrangements between the parties which are not necessarily regulated by the Patent Act.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "When a settlement, a waiver, or an acknowledgement of a claim is entered in the judicial record of settlement, that entry has the same effect as a final and binding judgment.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "Who bears the court costs and attorneys’ fees at the conclusion of the proceedings?",
+                        type: "h2",
+                        classes: null,
+                    }
+                ]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "The court orders the losing party to bear court costs such as stamp duties. Unlike the United States, the court will not order the losing party to bear “all attorneys’ fees” incurred by the prevailing party. However, the court normally orders the losing party to bear approximately 10% of the damages awarded by the court to be deemed as attorneys’ fees incurred by the prevailing party.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "Once the plaintiff obtains compensation for damages and thereafter the JPO invalidates the patent, can the defendant claim the return of compensation?",
+                        type: "h2",
+                        classes: null,
+                    }
+                ]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "When the court’s judgment of patent infringement in favor of the plaintiff becomes final and conclusive and thereafter the JPO determines that the patent concerned is to be revoked or invalidated and such a decision becomes final and binding, the defendant cannot claim in subsequent retrial proceedings that that patent is revoked or invalidated. Thus, the plaintiff is not required in the retrial proceedings to return the compensation it received. This restriction will also apply to a case when the JPO subsequently determines that the registration of the patent term extension must be invalidated.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "On the other hand, if the prior final and conclusive judgement is an injunction and the JPO’s subsequent determination is to invalidate the patent concerned, the injunction is to be lifted, and the defendant can work the invention accordingly.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "Are there any means for dispute resolution except for litigation?",
+                        type: "h2",
+                        classes: null,
+                    }
+                ]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "Parties can choose any out-of-court means to solve patent disputes (Alternative Dispute Resolutions or “ADR”) if they so agree.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "Arbitration is a typical ADR and an arbitration award has the same effect as a final and conclusive judgement under the Arbitration Act. Though arbitration can be used on an ad-hoc basis, there are several certified institutions which provide ADR services, such as the Japan Intellectual Property Arbitration Center (JIPAC) and the Japan Commercial Arbitration Association (JCAA). In September 2018, the International Arbitration Center in Tokyo (IACT) was established. These institutions also provide mediation services.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "Please note that judicial mediation (chotei) is also available before the Court. In 2019, the court started its new operation of judicial mediation regarding intellectual property (“IP mediation”) which is available in the Tokyo District Court and the Osaka District Court, provided that both parties submit their agreement on jurisdiction. A mediation committee consisting of IP court judges, attorneys-at-law and patent attorneys etc. hears a dispute and reviews arguments and relevant materials. Then the committee provides its opinion and, where appropriate, its mediation proposal to the parties. It is expected that the committee will provide its opinion and mediation proposal before or at the third meeting. When an agreement is reached between the parties during the proceedings and it is entered in a judicial record, such an entry has the same effect as a judicial settlement.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "Is it possible to inspect and copy case records of patent litigations of other companies?",
+                        type: "h2",
+                        classes: null,
+                    }
+                ]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "While the court does not publish a case record of a pending case online, such case record can be publicly available at the relevant court. Any person may file a request to inspect a case record with the court clerk of the relevant court where a particular case is pending, by identifying the case number. With regard to a case record involving oral arguments that are prohibited from being disclosed to the public pursuant to the Constitution and the Court Act, only a party to the case and an interested party can request to inspect such relevant portion of the case records.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "On the other hand, only an ",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        },
+                        {
+                            text: "interested party",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: ["bold"]
+                        },
+                        {
+                            text: " to the case can copy the case records.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "The court may also rule, upon the request of a party in the case, to limit the persons that may request to inspect or copy part of said case record in which the relevant confidential information is entered or recorded to the parties to the case.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "Please note that a preliminary disposition case is not open to the public and only parties to the case and an ",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        },
+                        {
+                            text: "interested party",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: ["bold"]
+                        },
+                        {
+                            text: " can inspect and copy such case records.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "An ",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        },
+                        {
+                            text: "interested party",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: ["bold"]
+                        },
+                        {
+                            text: " in connection with a preliminary disposition is a third party whose rights or legal benefits under public law or private law are directly or indirectly affected by the case concerned, and a third party whose factual or economic benefits are affected is not an interested party. A company that has concern about a stable supply of parts of another company which are subject to a preliminary disposition is not treated as an interested party and thus cannot inspect and copy the case record of the preliminary disposition.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
             },
         ]
     }
 };
 
 const PATENTACCORDION: IAccordion = {
-    panels: [
+            panels: [
 
-        PATENTPREFACE,
-        PATENTOVERVIEW,
-        PATENTFILINGROUTES,
-        PATENTCLAIMS,
-        PATENTBASICPATENTREQS,
-        PATENTCONSIDERATIONSTECHFIELDS,
+                PATENTPREFACE,
+                PATENTOVERVIEW,
+                PATENTFILINGROUTES,
+                PATENTCLAIMS,
+                PATENTBASICPATENTREQS,
+                PATENTCONSIDERATIONSTECHFIELDS,
+                PATENTEXAMANDACCEL,
+                PATENTEXAMINATION,
+                PATENTAPPEAL,
+                PATENTAMENDMENT,
+                PATENTDIVISIONAL,
+                PATENTTERM,
+                PATENTFEES,
+                PATENTOPPOSITION,
+                PATENTINVALIDATION,
+                PATENTCORRECTION,
+                PATENTLITIGAION
 
-        PATENTEXAMANDACCEL,
+                // HEREEE
+            ]
+        };
 
-        // HEREEE
-    ]
-};
-
-export const PATENTGUIDANCECONTENT: IContent = {
-    elements: [
-        {
-            type: "header",
-            objs: [{
-                text: "Guidance on Japanese Patent Practice for Foreign Patent Applicant",
-                type: "h1",
-                classes: null
-            }]
-        },
-        {
-            type: "span",
-            objs: [{
-                text: "April 29, 2021",
-                url: null,
-                routerlink: null,
-                tooltip: null,
-                classes: null,
-            }]
-        },
-        {
-            type: "br",
-            objs: null
-        },
-        {
-            type: "span",
-            objs: [{
-                text: "Yasunori Ohtsuka",
-                url: null,
-                routerlink: "/professional/1",
-                tooltip: "",
-                classes: null,
-            }]
-        },
-        // {
-        //     type: "br",
-        //     objs: null
-        // },
-        // {
-        //     type: "span",
-        //     objs: [{
-        //         text: "Hideo Sugawara",
-        //         url: null,
-        //         routerlink: "/professional/16",
-        //         tooltip: "",
-        //         classes: null,
-        //     }]
-        // },
-        {
-            type: "br",
-            objs: null
-        },
-        {
-            type: "br",
-            objs: null
-        },
-        {
-            type: "accordion",
-            objs: [PATENTACCORDION]
-        }]
-}
+        export const PATENTGUIDANCECONTENT: IContent = {
+            elements: [
+                {
+                    type: "header",
+                    objs: [{
+                        text: "Guidance on Japanese Patent Practice for Foreign Patent Applicant",
+                        type: "h1",
+                        classes: null
+                    }]
+                },
+                {
+                    type: "span",
+                    objs: [{
+                        text: "April 29, 2021",
+                        url: null,
+                        routerlink: null,
+                        tooltip: null,
+                        classes: null,
+                    }]
+                },
+                {
+                    type: "br",
+                    objs: null
+                },
+                {
+                    type: "span",
+                    objs: [{
+                        text: "Yasunori Ohtsuka",
+                        url: null,
+                        routerlink: "/professional/1",
+                        tooltip: "",
+                        classes: null,
+                    }]
+                },
+                {
+                    type: "br",
+                    objs: null
+                },
+                {
+                    type: "br",
+                    objs: null
+                },
+                {
+                    type: "accordion",
+                    objs: [PATENTACCORDION]
+                }]
+        }

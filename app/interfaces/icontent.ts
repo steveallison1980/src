@@ -64,6 +64,6 @@ export interface IRow{
     cols: Array<IColumn>;
 }
 export interface ITable{
-    rows: Array<IRow>;
-    datasource: Array<string>;
+    datasource: Array<Object>;
+    columns: Array<string>;
 }
