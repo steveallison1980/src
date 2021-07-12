@@ -1,3 +1,4 @@
+<app-contentrenderer *ngIf="getType()=='content'" [content]='getObj()'></app-contentrenderer>
 <app-headerrenderer *ngIf="getType()=='header'" [header]='getObj()'></app-headerrenderer>
 <app-spanrenderer *ngIf="getType()=='span'" [span]='getObj()'></app-spanrenderer>
 <app-paragraphrenderer *ngIf="getType()=='paragraph'" [paragraph]='getObj()'></app-paragraphrenderer>
