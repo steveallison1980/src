@@ -18,9 +18,12 @@ export class TablerendererComponent implements OnInit {
   getDatasource(){
     return this.table.rows;
   }
-  
+
   getDisplayedColumns(){
     return this.table.cols;
+  }
+  getCol(colnum:number){
+    return this.table.cols[colnum];
   }
 
   hasCol1(){

@@ -1,7 +1,7 @@
 <table mat-table [dataSource]="getDatasource()" class="mat-elevation-z8">
     
-    <ng-container *ngIf="hasCol1()" matColumnDef="column1">
-        <th mat-header-cell *matHeaderCellDef> Column 1 </th>
+    <ng-container *ngIf="hasCol1()" matColumnDef="getCol(1)">
+        <th mat-header-cell *matHeaderCellDef>{{getCol(1)}}</th>
         <td mat-cell *matCellDef="let element"> <app-contentrenderer [content]="element.content"></app-contentrenderer> </td>
     </ng-container>
 
