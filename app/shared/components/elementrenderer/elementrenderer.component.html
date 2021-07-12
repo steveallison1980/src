@@ -1,11 +1,12 @@
+<br *ngIf="getType()=='br'">
 <app-contentrenderer *ngIf="getType()=='content'" [content]='getObj()'></app-contentrenderer>
+<app-designexamplerenderer *ngIf="getType()=='designexample'" [design]='getObj()'></app-designexamplerenderer>
+<app-elementgridrenderer *ngIf="getType()=='elementgrid'" [grid]='getObj()'></app-elementgridrenderer>
+<app-expansionrenderer *ngIf="getType()=='accordion'" [accordion]='getObj()'></app-expansionrenderer>
 <app-headerrenderer *ngIf="getType()=='header'" [header]='getObj()'></app-headerrenderer>
-<app-spanrenderer *ngIf="getType()=='span'" [span]='getObj()'></app-spanrenderer>
-<app-paragraphrenderer *ngIf="getType()=='paragraph'" [paragraph]='getObj()'></app-paragraphrenderer>
 <app-imagerenderer *ngIf="getType()=='image'" [img]='getObj()'></app-imagerenderer>
 <app-listrenderer *ngIf="getType()=='list'" [list]='getObj()'></app-listrenderer>
-<app-expansionrenderer *ngIf="getType()=='accordion'" [accordion]='getObj()'></app-expansionrenderer>
+<app-paragraphrenderer *ngIf="getType()=='paragraph'" [paragraph]='getObj()'></app-paragraphrenderer>
+<app-spanrenderer *ngIf="getType()=='span'" [span]='getObj()'></app-spanrenderer>
+<app-tablerenderer *ngIf="getType()=='table'" [table]='getObj()'></app-tablerenderer>
 <app-titledimagerenderer *ngIf="getType()=='titledimage'" [titledimage]='getObj()'></app-titledimagerenderer>
-<app-elementgridrenderer *ngIf="getType()=='elementgrid'" [grid]='getObj()'></app-elementgridrenderer>
-<app-designexamplerenderer *ngIf="getType()=='designexample'" [design]='getObj()'></app-designexamplerenderer>
-<br *ngIf="getType()=='br'">

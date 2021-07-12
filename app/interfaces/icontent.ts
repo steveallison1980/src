@@ -63,7 +63,20 @@ export interface IColumn{
 export interface IRow{
     cols: Array<IColumn>;
 }
+
+export interface IRow{
+    column1: IContent;
+    column2: IContent;
+    column3: IContent;
+    column4: IContent;
+    column5: IContent;
+    column6: IContent;
+    column7: IContent;
+    column8: IContent;
+    column9: IContent;
+    column10: IContent;
+}
 export interface ITable{
-    datasource: Array<Object>;
-    columns: Array<string>;
+    rows: Array<IRow>;
+    cols: Array<string>;
 }
