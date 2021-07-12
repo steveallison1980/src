@@ -3606,18 +3606,34 @@ const PATENTAPPEAL: IExpansionPanel = {
                 }]
             },
             {
-                type: "paragraph",
+                type: "table",
                 objs: [{
-                    spans: [
+                    rows:[{
+                        column1: 
                         {
-                            text: "TODO: TABLE",
-                            url: null,
-                            routerlink: null,
-                            tooltip: null,
-                            classes: null
-                        }
-                    ],
-                    classes: null
+                            elements: [
+                            {
+                                type: "span",
+                                objs: [{
+                                    text: "column1test",
+                                    url: null,
+                                    routerlink: null,
+                                    tooltip: null,
+                                    classes: ["noselect"]
+                                }]
+                            }]
+                        },
+                        column2: null,
+                        column3: null,
+                        column4: null,
+                        column5: null,
+                        column6: null,
+                        column7: null,
+                        column8: null,
+                        column9: null,
+                        column10: null
+                    }],
+                    cols:["column1"]
                 }]
             },
             {
