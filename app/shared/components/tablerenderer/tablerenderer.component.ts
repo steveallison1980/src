@@ -1,6 +1,8 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { ITable } from './../../../interfaces/icontent';
 
+//https://material.angular.io/components/table/overview
+
 @Component({
   selector: 'app-tablerenderer',
   templateUrl: './tablerenderer.component.html',
@@ -20,7 +22,16 @@ export class TablerendererComponent implements OnInit {
   }
 
   getDisplayedColumns(){
-    return this.table.cols;
+    return ["column1",
+            "column2",
+            "column3",
+            "column4",
+            "column5",
+            "column6",
+            "column7",
+            "column8",
+            "column9",
+            "column10"];
   }
   getCol(colnum:number){
     return this.table.cols[colnum];
