@@ -1,4 +1,4 @@
-import { IContent, IAccordion, IExpansionPanel } from './../../app/interfaces/icontent';
+import { IContent, IAccordion, IExpansionPanel, ITable } from './../../app/interfaces/icontent';
 
 const TRADEMARKFUNDAMENTAL: IExpansionPanel = {
     title: "Fundamentals of the Japanese Trademark System",
@@ -2272,19 +2272,413 @@ const TRADEMARKOFFICIALFEES: IExpansionPanel = {
                     classes: null
                 }]
             },
+
+            // {
+            //     type: "header",
+            //     objs: [
+            //         {
+            //             text: "Japan Patent Office (JPO) Official Fees for trademark matters as of January 2021",
+            //             type: "h2",
+            //             classes: null,
+            //         }]
+            // },
             {
-                type: "paragraph",
+                type: "table",
                 objs: [{
-                    spans: [
+                    rows:[{
+                        column1: 
                         {
-                            text: "TODO: ADD TABLE",
-                            url: null,
-                            routerlink: null,
-                            tooltip: null,
-                            classes: null
-                        }
-                    ],
-                    classes: null
+                            elements: [
+                            {
+                                type: "span",
+                                objs: [{
+                                    text: "Trademark application",
+                                    url: null,
+                                    routerlink: null,
+                                    tooltip: null,
+                                    classes: ["noselect"]
+                                }]
+                            }]
+                        },
+                        column2: 
+                        {
+                            elements: [
+                            {
+                                type: "span",
+                                objs: [{
+                                    text: "¥3,400 + ¥8600 per class",
+                                    url: null,
+                                    routerlink: null,
+                                    tooltip: null,
+                                    classes: ["noselect"]
+                                }]
+                            }]
+                        },
+                        column3: null,
+                        column4: null,
+                        column5: null,
+                        column6: null,
+                        column7: null,
+                        column8: null,
+                        column9: null,
+                        column10: null
+                    },
+
+                    {
+                        column1: 
+                        {
+                            elements: [
+                            {
+                                type: "span",
+                                objs: [{
+                                    text: "Defensive mark application",
+                                    url: null,
+                                    routerlink: null,
+                                    tooltip: null,
+                                    classes: ["noselect"]
+                                }]
+                            }]
+                        },
+                        column2: 
+                        {
+                            elements: [
+                            {
+                                type: "span",
+                                objs: [{
+                                    text: "¥6,800 + ¥17,200 per class",
+                                    url: null,
+                                    routerlink: null,
+                                    tooltip: null,
+                                    classes: ["noselect"]
+                                }]
+                            }]
+                        },
+                        column3: null,
+                        column4: null,
+                        column5: null,
+                        column6: null,
+                        column7: null,
+                        column8: null,
+                        column9: null,
+                        column10: null
+                    },
+
+                    {
+                        column1: 
+                        {
+                            elements: [
+                            {
+                                type: "span",
+                                objs: [{
+                                    text: "Registration fee",
+                                    url: null,
+                                    routerlink: null,
+                                    tooltip: null,
+                                    classes: ["noselect"]
+                                }]
+                            }]
+                        },
+                        column2: 
+                        {
+                            elements: [
+                            {
+                                type: "span",
+                                objs: [{
+                                    text: "¥28,200 per class",
+                                    url: null,
+                                    routerlink: null,
+                                    tooltip: null,
+                                    classes: ["noselect"]
+                                }]
+                            }]
+                        },
+                        column3: null,
+                        column4: null,
+                        column5: null,
+                        column6: null,
+                        column7: null,
+                        column8: null,
+                        column9: null,
+                        column10: null
+                    },
+                
+                    {
+                        column1: 
+                        {
+                            elements: [
+                            {
+                                type: "span",
+                                objs: [{
+                                    text: "Registration fee by installments",
+                                    url: null,
+                                    routerlink: null,
+                                    tooltip: null,
+                                    classes: ["noselect"]
+                                }]
+                            }]
+                        },
+                        column2: 
+                        {
+                            elements: [
+                            {
+                                type: "span",
+                                objs: [{
+                                    text: "¥16,400 per class",
+                                    url: null,
+                                    routerlink: null,
+                                    tooltip: null,
+                                    classes: ["noselect"]
+                                }]
+                            }]
+                        },
+                        column3: null,
+                        column4: null,
+                        column5: null,
+                        column6: null,
+                        column7: null,
+                        column8: null,
+                        column9: null,
+                        column10: null
+                    },
+                
+                    {
+                        column1: 
+                        {
+                            elements: [
+                            {
+                                type: "span",
+                                objs: [{
+                                    text: "Renewal fee",
+                                    url: null,
+                                    routerlink: null,
+                                    tooltip: null,
+                                    classes: ["noselect"]
+                                }]
+                            }]
+                        },
+                        column2: 
+                        {
+                            elements: [
+                            {
+                                type: "span",
+                                objs: [{
+                                    text: "¥38,800 per class",
+                                    url: null,
+                                    routerlink: null,
+                                    tooltip: null,
+                                    classes: ["noselect"]
+                                }]
+                            }]
+                        },
+                        column3: null,
+                        column4: null,
+                        column5: null,
+                        column6: null,
+                        column7: null,
+                        column8: null,
+                        column9: null,
+                        column10: null
+                    },
+                
+                    {
+                        column1: 
+                        {
+                            elements: [
+                            {
+                                type: "span",
+                                objs: [{
+                                    text: "Renewal fee by installments",
+                                    url: null,
+                                    routerlink: null,
+                                    tooltip: null,
+                                    classes: ["noselect"]
+                                }]
+                            }]
+                        },
+                        column2: 
+                        {
+                            elements: [
+                            {
+                                type: "span",
+                                objs: [{
+                                    text: "¥22,600 per class",
+                                    url: null,
+                                    routerlink: null,
+                                    tooltip: null,
+                                    classes: ["noselect"]
+                                }]
+                            }]
+                        },
+                        column3: null,
+                        column4: null,
+                        column5: null,
+                        column6: null,
+                        column7: null,
+                        column8: null,
+                        column9: null,
+                        column10: null
+                    },
+                
+                    {
+                        column1: 
+                        {
+                            elements: [
+                            {
+                                type: "span",
+                                objs: [{
+                                    text: "Defensive mark registration fee",
+                                    url: null,
+                                    routerlink: null,
+                                    tooltip: null,
+                                    classes: ["noselect"]
+                                }]
+                            }]
+                        },
+                        column2: 
+                        {
+                            elements: [
+                            {
+                                type: "span",
+                                objs: [{
+                                    text: "¥28,200 per class",
+                                    url: null,
+                                    routerlink: null,
+                                    tooltip: null,
+                                    classes: ["noselect"]
+                                }]
+                            }]
+                        },
+                        column3: null,
+                        column4: null,
+                        column5: null,
+                        column6: null,
+                        column7: null,
+                        column8: null,
+                        column9: null,
+                        column10: null
+                    },
+                
+                    {
+                        column1: 
+                        {
+                            elements: [
+                            {
+                                type: "span",
+                                objs: [{
+                                    text: "Defensive mark renewal fee",
+                                    url: null,
+                                    routerlink: null,
+                                    tooltip: null,
+                                    classes: ["noselect"]
+                                }]
+                            }]
+                        },
+                        column2: 
+                        {
+                            elements: [
+                            {
+                                type: "span",
+                                objs: [{
+                                    text: "¥33,400 per class",
+                                    url: null,
+                                    routerlink: null,
+                                    tooltip: null,
+                                    classes: ["noselect"]
+                                }]
+                            }]
+                        },
+                        column3: null,
+                        column4: null,
+                        column5: null,
+                        column6: null,
+                        column7: null,
+                        column8: null,
+                        column9: null,
+                        column10: null
+                    },
+                
+                    {
+                        column1: 
+                        {
+                            elements: [
+                            {
+                                type: "span",
+                                objs: [{
+                                    text: "Appeal against Examiner’s Rejection",
+                                    url: null,
+                                    routerlink: null,
+                                    tooltip: null,
+                                    classes: ["noselect"]
+                                }]
+                            }]
+                        },
+                        column2: 
+                        {
+                            elements: [
+                            {
+                                type: "span",
+                                objs: [{
+                                    text: "¥15,000 + ¥40,000 per class",
+                                    url: null,
+                                    routerlink: null,
+                                    tooltip: null,
+                                    classes: ["noselect"]
+                                }]
+                            }]
+                        },
+                        column3: null,
+                        column4: null,
+                        column5: null,
+                        column6: null,
+                        column7: null,
+                        column8: null,
+                        column9: null,
+                        column10: null
+                    },
+                
+                    {
+                        column1: 
+                        {
+                            elements: [
+                            {
+                                type: "span",
+                                objs: [{
+                                    text: "Opposition",
+                                    url: null,
+                                    routerlink: null,
+                                    tooltip: null,
+                                    classes: ["noselect"]
+                                }]
+                            }]
+                        },
+                        column2: 
+                        {
+                            elements: [
+                            {
+                                type: "span",
+                                objs: [{
+                                    text: "¥3000 + ¥8000 per class",
+                                    url: null,
+                                    routerlink: null,
+                                    tooltip: null,
+                                    classes: ["noselect"]
+                                }]
+                            }]
+                        },
+                        column3: null,
+                        column4: null,
+                        column5: null,
+                        column6: null,
+                        column7: null,
+                        column8: null,
+                        column9: null,
+                        column10: null
+                    },
+                
+                
+                ],
+                // cols:["Japan Patent Office (JPO) Official Fees for trademark matters as of January 2021", ""]
+                cols:["Items", "Fees"]
                 }]
             },
         ]
@@ -2353,50 +2747,50 @@ export const TRADEMARKGUIDANCECONTENT: IContent = {
             type: "br",
             objs: null
         },
-        {
-            type: "table",
-            objs: [{
-                rows:[{
-                    column1: 
-                    {
-                        elements: [
-                        {
-                            type: "span",
-                            objs: [{
-                                text: "column1test",
-                                url: null,
-                                routerlink: null,
-                                tooltip: null,
-                                classes: ["noselect"]
-                            }]
-                        }]
-                    },
-                    column2: 
-                    {
-                        elements: [
-                        {
-                            type: "span",
-                            objs: [{
-                                text: "column1test",
-                                url: null,
-                                routerlink: null,
-                                tooltip: null,
-                                classes: ["noselect"]
-                            }]
-                        }]
-                    },
-                    column3: null,
-                    column4: null,
-                    column5: null,
-                    column6: null,
-                    column7: null,
-                    column8: null,
-                    column9: null,
-                    column10: null
-                }],
-                cols:["column1"]
-            }]
-        },
+        // {
+        //     type: "table",
+        //     objs: [{
+        //         rows:[{
+        //             column1: 
+        //             {
+        //                 elements: [
+        //                 {
+        //                     type: "span",
+        //                     objs: [{
+        //                         text: "column1test",
+        //                         url: null,
+        //                         routerlink: null,
+        //                         tooltip: null,
+        //                         classes: ["noselect"]
+        //                     }]
+        //                 }]
+        //             },
+        //             column2: 
+        //             {
+        //                 elements: [
+        //                 {
+        //                     type: "span",
+        //                     objs: [{
+        //                         text: "column1test",
+        //                         url: null,
+        //                         routerlink: null,
+        //                         tooltip: null,
+        //                         classes: ["noselect"]
+        //                     }]
+        //                 }]
+        //             },
+        //             column3: null,
+        //             column4: null,
+        //             column5: null,
+        //             column6: null,
+        //             column7: null,
+        //             column8: null,
+        //             column9: null,
+        //             column10: null
+        //         }],
+        //         cols:["column1"]
+        //     }]
+        // },
         {
             type: "accordion",
             objs: [TRADEMARKACCORDION]

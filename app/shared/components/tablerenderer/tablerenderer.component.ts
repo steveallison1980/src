@@ -18,7 +18,7 @@ export class TablerendererComponent implements OnInit {
   }
 
   getDatasource(){
-    console.log(this.table.rows[0]);
+    console.log(this.table.rows);
     //return [{column1:"test",column2:"aaa",column3:"3",column4:"a"}]
     return this.table.rows;
   }
@@ -37,6 +37,12 @@ export class TablerendererComponent implements OnInit {
   }
   getCol(colnum:number){
     return this.table.cols[colnum-1];
+  }
+
+  getCol1(){
+    console.log(this.table.rows);
+    return this.table.rows;
+    // return this.table.
   }
 
   hasCol1(){
