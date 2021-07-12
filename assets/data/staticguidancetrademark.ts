@@ -927,7 +927,7 @@ const TRADEMARKOFFICEACTION: IExpansionPanel = {
                     {
                         text: "Deletion of designated goods/services",
                         type: "h2",
-                        classes: ["bullet"],                        
+                        classes: ["bullet"],
                     }]
             },
             {
@@ -951,7 +951,7 @@ const TRADEMARKOFFICEACTION: IExpansionPanel = {
                     {
                         text: "Request for cancellation of cited unused trademark",
                         type: "h2",
-                        classes: ["bullet"],                        
+                        classes: ["bullet"],
                     }]
             },
             {
@@ -1005,7 +1005,7 @@ const TRADEMARKOFFICEACTION: IExpansionPanel = {
                     {
                         text: "Get assignment of cited trademark",
                         type: "h2",
-                        classes: ["bullet"],                        
+                        classes: ["bullet"],
                     }]
             },
             {
@@ -1054,7 +1054,7 @@ const TRADEMARKACCELEXAMINATION: IExpansionPanel = {
                     {
                         text: "“Expedited Examination”",
                         type: "h2",
-                        classes: null,                        
+                        classes: null,
                     }]
             },
             {
@@ -1078,7 +1078,7 @@ const TRADEMARKACCELEXAMINATION: IExpansionPanel = {
                     {
                         text: "“First Track examination”",
                         type: "h2",
-                        classes: null,                        
+                        classes: null,
                     }]
             },
             {
@@ -1372,8 +1372,8 @@ const TRADEMARKRIGHTSDURATIONRENEWAL: IExpansionPanel = {
     }
 };
 
-const TRADEMARKFUNDAMENTAL2: IExpansionPanel = {
-    title: "Fundamentals of the Japanese Trademark System",
+const TRADEMARKNONUSECANCELLATION: IExpansionPanel = {
+    title: "Non-use cancellation",
     description: "",
     content:
     {
@@ -1382,7 +1382,7 @@ const TRADEMARKFUNDAMENTAL2: IExpansionPanel = {
                 type: "header",
                 objs: [
                     {
-                        text: "",
+                        text: "The Japanese trademark system is a first-to-file system and actual use of the applied mark is not required at the registration and also at the renewal. Once registered, there is no official control of the register to remove unused registered marks.",
                         type: "h2",
                         classes: null,
                     }]
@@ -1392,7 +1392,31 @@ const TRADEMARKFUNDAMENTAL2: IExpansionPanel = {
                 objs: [{
                     spans: [
                         {
-                            text: "",
+                            text: "Removal of unused registered marks is left to competitors who wish to clear out unused marks from the trademark register. The cancellation proceedings are designed to easily and quickly cancel unused registrations and thereby enable new trademark registrations.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "Requirements",
+                        type: "h2",
+                        classes: null,
+                    }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "A registered trademark which has not been used by the registrant or its licensee for three consecutive years is subject to cancellation in whole or in part.",
                             url: null,
                             routerlink: null,
                             tooltip: null,
@@ -1407,7 +1431,7 @@ const TRADEMARKFUNDAMENTAL2: IExpansionPanel = {
                 objs: [{
                     spans: [
                         {
-                            text: "",
+                            text: "Designated products often include multiple products or may be broadly claimed to cover many similar goods. It will be necessary to request the cancellation of all goods similar to the goods that you wish to register. If a similar product remains in the registration after a partial cancellation, it will constitute a bar against your registration. ",
                             url: null,
                             routerlink: null,
                             tooltip: null,
@@ -1416,6 +1440,147 @@ const TRADEMARKFUNDAMENTAL2: IExpansionPanel = {
                     ],
                     classes: null
                 }]
+            },
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "Burden of proof of non-use",
+                        type: "h2",
+                        classes: null,
+                    }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "A demander does not have a burden of proof for non-use of the registered trademark at the filing of a request for non-use cancellation. It is sufficient to simply claim that the trademark has not been used more than consecutive three years. The trademark owner bears the burden of proof of use.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "A substantive trial begins only when the registrant submits proof of use.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "The trademark registration will be canceled if the trademark owner cannot prove the use of the trademark.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "Cancellation process and its cost",
+                        type: "h2",
+                        classes: null,
+                    }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "When a request for a non-use cancellation trial is filed, the TTAB sends a copy of the request to the registrant and requests counterarguments. If there is no response (e.g. proof of use), the TTAB will cancel the registration. If there are counterarguments, the TTAB will examine the response.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "The official fee for the cancellation is JPY 55,000 (about USD 500).",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "Attorney fees are mostly limited to initial attorney fees unless the trademark owner responds.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "Time frame",
+                        type: "h2",
+                        classes: null,
+                    }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "The cancellation procedure will take approximately 6.1 months (JPO 2019 annual report) from the filing date to the decision if there is no proof of use by the registrant.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "Points to make note of",
+                        type: "h2",
+                        classes: null,
+                    }]
             },
             {
                 type: "list",
@@ -1426,7 +1591,7 @@ const TRADEMARKFUNDAMENTAL2: IExpansionPanel = {
                             {
                                 type: "span",
                                 objs: [{
-                                    text: "",
+                                    text: "It is important to maintain the pendency of the pending application if the cancellation is filed as a response to an OA",
                                     url: null,
                                     routerlink: null,
                                     tooltip: null,
@@ -1436,7 +1601,7 @@ const TRADEMARKFUNDAMENTAL2: IExpansionPanel = {
                             {
                                 type: "span",
                                 objs: [{
-                                    text: "",
+                                    text: "You should file a trademark application if there is no pending trademark application",
                                     url: null,
                                     routerlink: null,
                                     tooltip: null,
@@ -1446,7 +1611,7 @@ const TRADEMARKFUNDAMENTAL2: IExpansionPanel = {
                             {
                                 type: "span",
                                 objs: [{
-                                    text: "",
+                                    text: "You should check whether the trademark is in use by the registrant/licensee",
                                     url: null,
                                     routerlink: null,
                                     tooltip: null,
@@ -1456,7 +1621,17 @@ const TRADEMARKFUNDAMENTAL2: IExpansionPanel = {
                             {
                                 type: "span",
                                 objs: [{
-                                    text: "",
+                                    text: "You should request for a cancellation of all similar goods in all applicable subclasses that the target goods fall under.",
+                                    url: null,
+                                    routerlink: null,
+                                    tooltip: null,
+                                    classes: ["noselect"]
+                                }]
+                            },
+                            {
+                                type: "span",
+                                objs: [{
+                                    text: "Normally, requests for cancellation should be made confidentially without prior contact with the registrant.",
                                     url: null,
                                     routerlink: null,
                                     tooltip: null,
@@ -1472,27 +1647,18 @@ const TRADEMARKFUNDAMENTAL2: IExpansionPanel = {
     }
 };
 
-const TRADEMARKFUNDAMENTAL1: IExpansionPanel = {
-    title: "Fundamentals of the Japanese Trademark System",
+const TRADEMARKPOSTREGOPPOSITION: IExpansionPanel = {
+    title: "Post-Registration Opposition",
     description: "",
     content:
     {
         elements: [
             {
-                type: "header",
-                objs: [
-                    {
-                        text: "",
-                        type: "h2",
-                        classes: null,
-                    }]
-            },
-            {
                 type: "paragraph",
                 objs: [{
                     spans: [
                         {
-                            text: "",
+                            text: "A post-grant opposition system is provided in the trademark system.",
                             url: null,
                             routerlink: null,
                             tooltip: null,
@@ -1507,7 +1673,31 @@ const TRADEMARKFUNDAMENTAL1: IExpansionPanel = {
                 objs: [{
                     spans: [
                         {
-                            text: "",
+                            text: "Anyone can file an opposition to the registered trademark within two months from the publication of the trademark in the official gazette.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "Grounds for Opposition",
+                        type: "h2",
+                        classes: null,
+                    }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "Most of the reasons for trademark refusal constitute reasons for opposition, but typical reasons are as follows:",
                             url: null,
                             routerlink: null,
                             tooltip: null,
@@ -1521,12 +1711,12 @@ const TRADEMARKFUNDAMENTAL1: IExpansionPanel = {
                 type: "list",
                 objs: [
                     {
-                        type: "ul",
+                        type: "ol",
                         elements: [
                             {
                                 type: "span",
                                 objs: [{
-                                    text: "",
+                                    text: "Distinctiveness",
                                     url: null,
                                     routerlink: null,
                                     tooltip: null,
@@ -1536,7 +1726,7 @@ const TRADEMARKFUNDAMENTAL1: IExpansionPanel = {
                             {
                                 type: "span",
                                 objs: [{
-                                    text: "",
+                                    text: "Conflict with earlier registrations",
                                     url: null,
                                     routerlink: null,
                                     tooltip: null,
@@ -1546,17 +1736,7 @@ const TRADEMARKFUNDAMENTAL1: IExpansionPanel = {
                             {
                                 type: "span",
                                 objs: [{
-                                    text: "",
-                                    url: null,
-                                    routerlink: null,
-                                    tooltip: null,
-                                    classes: ["noselect"]
-                                }]
-                            },
-                            {
-                                type: "span",
-                                objs: [{
-                                    text: "",
+                                    text: "Conflict with well-known mark",
                                     url: null,
                                     routerlink: null,
                                     tooltip: null,
@@ -1568,10 +1748,548 @@ const TRADEMARKFUNDAMENTAL1: IExpansionPanel = {
                     },
                 ]
             },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "A brief that states the grounds for opposition and evidence must be submitted within three months from the filing of a pro forma opposition. After this term, no brief or evidence in support of the opposition can be submitted.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "Examination of the Opposition",
+                        type: "h2",
+                        classes: null,
+                    }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "The trademark opposition will be usually examined by a panel of three Board of Appeal Examiners. The proceedings are ex-parte and conducted exclusively in written form; there is no oral hearing.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "If the Examiners find a reason to revoke the registration, the JPO panel must issue an Office Action, and the registrant is provided an opportunity to submit arguments. If no reasons for revocation of the registration are found, the opposition will be dismissed.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "Results of an Opposition Examination",
+                        type: "h2",
+                        classes: null,
+                    }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "There are two possible outcomes of opposition proceedings:",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "list",
+                objs: [
+                    {
+                        type: "ol",
+                        elements: [{
+                            type: "content",
+                            objs: [{
+                                elements: [
+                                    {
+                                        type: "header",
+                                        objs: [
+                                            {
+                                                text: "The trademark registration is maintained",
+                                                type: "h2",
+                                                classes: null,
+                                            }]
+                                    },
+                                    {
+                                        type: "paragraph",
+                                        objs: [{
+                                            spans: [
+                                                {
+                                                    text: "The trademark opposition will be usually examined by a panel of three Board of Appeal Examiners. The proceedings are ex-parte and conducted exclusively in written form; there is no oral hearing.",
+                                                    url: null,
+                                                    routerlink: null,
+                                                    tooltip: null,
+                                                    classes: null
+                                                }
+                                            ],
+                                            classes: null
+                                        }]
+                                    },
+                                ],
+                                classes: null
+                            }]
+                        },
+
+                        {
+                            type: "content",
+                            objs: [{
+                                elements: [
+                                    {
+                                        type: "header",
+                                        objs: [
+                                            {
+                                                text: "The trademark registration is revoked in part or in its entirety",
+                                                type: "h2",
+                                                classes: null,
+                                            }]
+                                    },
+                                    {
+                                        type: "paragraph",
+                                        objs: [{
+                                            spans: [
+                                                {
+                                                    text: "If the trademark registration is revoked in part or in its entirety, the trademark holder can file an appeal to the IP High Court against the decision.",
+                                                    url: null,
+                                                    routerlink: null,
+                                                    tooltip: null,
+                                                    classes: null
+                                                }
+                                            ],
+                                            classes: null
+                                        }]
+                                    },
+                                ],
+                                classes: null
+                            }]
+                        },
+                        ],
+                        classes: null,
+                    },
+                ]
+            },
         ]
     }
 };
 
+const TRADEMARKINVALIDATIONTRIAL: IExpansionPanel = {
+    title: "Invalidation Trial",
+    description: "",
+    content:
+    {
+        elements: [
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "Reasons for Invalidation and Statutory Limitation",
+                        type: "h2",
+                        classes: null,
+                    }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "A demander must have a legal interest in the registered trademark in question. Many reasons for trademark rejection can be used to invalidate a trademark registration. However, there is a 5-year statute of limitation for invalidation requests. Requests on the grounds of distinctiveness or conflict with prior-registration cannot be made for a registration if 5 or more years has passed since the registration (Article 47).",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "Trial procedure",
+                        type: "h2",
+                        classes: null,
+                    }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "The trial is adversarial and based on written arguments.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "The losing party can appeal against the JPO decision to the IP High Court to seek cancellation of the decision. When the decision of cancellation becomes conclusive, the registration is invalidated retroactively.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+        ]
+    }
+};
+
+const TRADEMARKASSIGNMENTPENDINGAPP: IExpansionPanel = {
+    title: "Assignment of a pending application and/or registered trademark",
+    description: "",
+    content:
+    {
+        elements: [
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "Pending trademark applications and/or registered trademarks are assignable. In Japan, trademarks can be assigned independently of the business.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "There are two types of assignment. One is whole assignment of a trademark for an entire set of goods. The other is a partial assignment of a trademark that is limited to only some of the designated goods of the trademark.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "Assignment is only effective when the assignment is recorded at the JPO.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "In order to record the assignment, the subject and scope must be clearly identified within the assignment.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "If the assignment is for a registered trademark, the subject must be identified by the registration (not by the application serial number). If it were for a pending trademark application, it must be identified by the application serial number.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "In addition to the assignment, Power of Attorneys executed by the assigner and assignee are required. No legalization of the assignment and Power of Attorney is required. ",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+        ]
+    }
+};
+
+const TRADEMARKLICENSING: IExpansionPanel = {
+    title: "Fundamentals of the Japanese Trademark System",
+    description: "",
+    content:
+    {
+        elements: [
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "Worldwide, there are various types of licenses for trademarks, but the Japanese Trademark Act simply stipulates the following two types of licenses.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "Exclusive license",
+                        type: "h2",
+                        classes: null,
+                    }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "Under the Trademark Act, a recoded exclusive trademark license recoded as “Senyo- Shiyo-ken” at the JPO trademark register has an \"exclusive-right\" to use the licensed trademark within the licensed scope. Also, the licensee can take a court action in the licensee's own name.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "Non-exclusive license",
+                        type: "h2",
+                        classes: null,
+                    }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "The other type is a \"non-exclusive license that is called “Tujo-Shiyo-Ken”, by which the licensee can use the registered trademark with the licensed scope. The licensee does not have the power to take a court action with a non-exclusive license.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "A “Tujo-Shiyo-Ken” need not be registered on the JPO Trademark Registrar. However, if it is registered, the license is regarded as effective even if the trademark owner changes or a Senyo-Shiyo-Ken is subsequently acquired.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "When a trademark is licensed, the trademark owner must monitor the licensee’s use to ensure that it is proper in order to keep the trademark registration valid.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+        ]
+    }
+};
+
+const TRADEMARKMARKING: IExpansionPanel = {
+    title: "Trademark Marking",
+    description: "",
+    content:
+    {
+        elements: [
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "The Trademark Act, Article 73 (Art. 73) recommends that registered trademark owners make efforts to affix to a trademark an indication stating that the trademark is a registered trademark (registration notice). Therefore, use of a registration notice is optional.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "Even if a registration notice is not used, the trademark rights are fully enfoceacable. A trademark owner can claim past damages without any specific limitation due to a lack of registration notice.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "Negligence of the infringer is assumed under the Trademark Act whether a registration notice is marked or not. Under our practice, a circular R is a typical trademark notice, and TM is a trademark notice to indicate ownership for a pending or non-registered trademark.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+        ]
+    }
+};
+
+const TRADEMARKOFFICIALFEES: IExpansionPanel = {
+    title: "Official Fees for Trademark Matters.",
+    description: "",
+    content:
+    {
+        elements: [
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "The table below shows the official fees schedule of the JPO as of January 2021.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "The official fee is generally calculated in the form of the basic fee + a fee per designated class because multiple classification applications are possible in Japan.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "TODO: ADD TABLE",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+        ]
+    }
+};
 const TRADEMARKACCORDION: IAccordion = {
     panels: [
         TRADEMARKFUNDAMENTAL,
@@ -1583,8 +2301,13 @@ const TRADEMARKACCORDION: IAccordion = {
         TRADEMARKACCELEXAMINATION,
         TRADEMARKAPPEALFINALREJECTION,
         TRADEMARKRIGHTSDURATIONRENEWAL,
-
-        // HEREEE
+        TRADEMARKNONUSECANCELLATION,
+        TRADEMARKPOSTREGOPPOSITION,
+        TRADEMARKINVALIDATIONTRIAL,
+        TRADEMARKASSIGNMENTPENDINGAPP,
+        TRADEMARKLICENSING,
+        TRADEMARKMARKING,
+        TRADEMARKOFFICIALFEES,
     ]
 };
 
