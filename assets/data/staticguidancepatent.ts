@@ -7413,7 +7413,7 @@ const PATENTACCORDION: IAccordion = {
                 {
                     type: "header",
                     objs: [{
-                        text: "Guidance on Japanese Patent Practice for Foreign Patent Applicant",
+                        text: "Guidance on Japanese Patent Practice",
                         type: "h1",
                         classes: null
                     }]

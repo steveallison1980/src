@@ -11,7 +11,7 @@ const DESIGNPANEL1: IExpansionPanel = {
                 objs: [{
                     spans: [
                         {
-                            text: "The Hague Agreement, effective in Japan since April 1, 2015, expanded design registrable subject matter to include designs of graphic images and buildings, and Japan's design system is thus being harmonized with international systems.",
+                            text: "The Japanese Design Law was amended in 2019 (the amendment becoming effective April 1, 2020), and now protect essentially all types of designs. By this amendment, the requirement for disclosure of the design was relaxed, and the Japanese design system was harmonized with international practices.",
                             url: null,
                             routerlink: null,
                             tooltip: null,
@@ -26,7 +26,7 @@ const DESIGNPANEL1: IExpansionPanel = {
                 objs: [{
                     spans: [
                         {
-                            text: 'Also, the Japanese Design Law has unique features such as "related designs" by which designs can be effectively protected, giving the Japanese system international appeal.',
+                            text: 'In addition to harmonization, uniquely advantagous features of the Japanese Design Law has unique features such as "related designs" by which designs can be effectively protected, giving the Japanese design system have been maintained (such as related designs).',
                             url: null,
                             routerlink: null,
                             tooltip: null,
@@ -41,7 +41,7 @@ const DESIGNPANEL1: IExpansionPanel = {
                 objs: [{
                     spans: [
                         {
-                            text: "In this manual, we would like to introduce Japanese design practice from the Applicant's perspective.",
+                            text: "In this manual, we would like to introduce Japanese design practice so that Applicants can take advantage Japan's distinctive design system.",
                             url: null,
                             routerlink: null,
                             tooltip: null,
@@ -3227,7 +3227,7 @@ const DESIGNPANEL10: IExpansionPanel = {
                         {
                             text: "patent section.",
                             url: null,
-                            routerlink: "/guidance",
+                            routerlink: "/guidance/patent",
                             tooltip: null,
                             classes: null
                         },
@@ -3260,7 +3260,7 @@ const DESIGNPANEL10: IExpansionPanel = {
                         {
                             text: "patent section.",
                             url: null,
-                            routerlink: "/guidance",
+                            routerlink: "/guidance/patent",
                             tooltip: null,
                             classes: null
                         }
@@ -3325,7 +3325,7 @@ export const DESIGNGUIDANCECONTENT: IContent = {
         {
             type: "header",
             objs: [{
-                text: "Designs Manual",
+                text: "Guidance on Japanese Design Practice",
                 type: "h1",
                 classes: null
             }]
@@ -3333,7 +3333,7 @@ export const DESIGNGUIDANCECONTENT: IContent = {
         {
             type: "span",
             objs: [{
-                text: "June 3, 2021",
+                text: "June 2, 2021",
                 url: null,
                 routerlink: null,
                 tooltip: null,

@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { GuidanceService } from "../../services/guidance.service";
+import { NavigateService } from '../../services/navigate.service';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-guidance',
@@ -8,12 +10,19 @@ import { GuidanceService } from "../../services/guidance.service";
 })
 export class GuidanceComponent implements OnInit {
 
-  constructor(private guidanceService: GuidanceService) { }
+  constructor(
+    private guidanceService: GuidanceService,
+    private route: ActivatedRoute,
+    private nav: NavigateService) { }
 
   ngOnInit(): void {
   }
 
   getContent(){
-    return this.guidanceService.getContent();
+    return this.guidanceService.getContent(this.nav.subPage);
+  }
+
+  currentPage(){
+    return this.route.snapshot.paramMap.get('type');
   }
 }

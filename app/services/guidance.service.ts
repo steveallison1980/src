@@ -10,9 +10,9 @@ export class GuidanceService {
 
   constructor() { }
 
-  getContent(){
-    // return DESIGNGUIDANCECONTENT;
-    // return PATENTGUIDANCECONTENT;
-    return TRADEMARKGUIDANCECONTENT;
+  getContent(page){
+    if( page == "patent") return PATENTGUIDANCECONTENT;
+    if( page == "design") return DESIGNGUIDANCECONTENT;
+    if( page == "trademark") return TRADEMARKGUIDANCECONTENT;
   }
 }

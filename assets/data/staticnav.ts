@@ -105,6 +105,19 @@ export const SITEMAP_DATA: ISitemap =
                 { text: '', textJP: '2005年', icon: 'menu_book', subPage: 'cafc2005', curPage: 'cafcreports', routerlink: '/cafc2005', displayMode: 'both' },
             ], 
             displayMode: "JPonly",
+        },
+        {
+            mainpage: 'guidance',
+            routerlink: '/guidance',
+            text: "Guidance",
+            textJP: "ガイダンス",
+            defaultsubpage: 'patentguidance',
+            links: [
+                { text: 'Patents', textJP: '特許', icon: 'lightbulb', subPage: 'patent', curPage: 'guidance', routerlink: '/guidance/patent', displayMode: 'ENonly' },
+                { text: 'Trademarks', textJP: '商標', icon: 'beach_access', subPage: 'trademark', curPage: 'guidance', routerlink: '/guidance/trademark', displayMode: 'ENonly' },
+                { text: 'Designs', textJP: '意匠', icon: 'category', subPage: 'design', curPage: 'guidance', routerlink: '/guidance/design', displayMode: 'ENonly' }
+            ],
+            displayMode: "ENonly",
         }
     ]
 };

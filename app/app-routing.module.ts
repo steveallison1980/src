@@ -279,7 +279,7 @@ const routes: Routes = [
         component: Cafc2005Component
       },
       {
-        path: 'guidance',
+        path: 'guidance/:type',
         component: GuidanceComponent
       },
       {

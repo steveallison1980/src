@@ -18,7 +18,6 @@ export class HeaderrendererComponent implements OnInit {
 
   getHeaderText(){
     var ret: string = "";
-    if(this.header.classes != null) console.log(this.header.classes)
     if( this.header.classes != null && this.header.classes.includes("bullet") ){
       ret = "● ";
     }

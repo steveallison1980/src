@@ -2272,16 +2272,15 @@ const TRADEMARKOFFICIALFEES: IExpansionPanel = {
                     classes: null
                 }]
             },
-
-            // {
-            //     type: "header",
-            //     objs: [
-            //         {
-            //             text: "Japan Patent Office (JPO) Official Fees for trademark matters as of January 2021",
-            //             type: "h2",
-            //             classes: null,
-            //         }]
-            // },
+            {
+                 type: "header",
+                 objs: [
+                     {
+                         text: "Japan Patent Office (JPO) Official Fees for trademark matters as of January 2021",
+                         type: "h2",
+                         classes: null,
+                     }]
+            },
             {
                 type: "table",
                 objs: [{
@@ -2710,7 +2709,7 @@ export const TRADEMARKGUIDANCECONTENT: IContent = {
         {
             type: "header",
             objs: [{
-                text: "Japanese Trademark Practice",
+                text: "Guidance on Japanese Trademark Practice",
                 type: "h1",
                 classes: null
             }]
