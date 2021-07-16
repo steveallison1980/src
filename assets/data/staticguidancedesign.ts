@@ -41,7 +41,7 @@ const DESIGNPANEL1: IExpansionPanel = {
                 objs: [{
                     spans: [
                         {
-                            text: "In this manual, we would like to introduce Japanese design practice so that Applicants can take advantage Japan's distinctive design system.",
+                            text: "In this manual, we would like to introduce Japanese design practice so that Applicants can best take advantage Japan's distinctive design system.",
                             url: null,
                             routerlink: null,
                             tooltip: null,
@@ -79,7 +79,7 @@ const DESIGNPANEL2: IExpansionPanel = {
                 objs: [{
                     spans: [
                         {
-                            text: "The JPO employs a DB in which they have, over many years, collected foreign design publications, magazines, catalogs, pamphlets and the like.",
+                            text: "The JPO has, over many years, collected not only Japanese but also foreign design publications, magazines, catalogs, pamphlets and the like, which are employed in searching.",
                             url: null,
                             routerlink: null,
                             tooltip: null,
@@ -94,7 +94,7 @@ const DESIGNPANEL2: IExpansionPanel = {
                 objs: [{
                     spans: [
                         {
-                            text: "As such, a Japanese design registration (examination) covers not only Japan, but also the international state of the art. Japanese design registration is therefore regarded as highly useful in the evaluation of validity of a design in countries that register designs without examination.",
+                            text: "As such, Japanese design examination are highly reliable, and Japanese design registrations are regarded as highly useful in the evaluation of validity of a design in countries that register designs without examination.",
                             url: null,
                             routerlink: null,
                             tooltip: null,
@@ -109,7 +109,7 @@ const DESIGNPANEL2: IExpansionPanel = {
                 objs: [{
                     spans: [
                         {
-                            text: "The examination period is typically between 6 and 8 months, from application to registration. The term for response to an OA issued by the JPO is 3 months. A two-month extension for the response can be received with the payment of a 2,100 JPY official fee.",
+                            text: "The timeframe is typically between 6 and 8 months, from application to registration. The term for response to an OA issued by the JPO is 3 months (as of June, 2021). A two-month extension for the response can be received with the payment of a 2,100 JPY official fee.",
                             url: null,
                             routerlink: null,
                             tooltip: null,
@@ -124,7 +124,7 @@ const DESIGNPANEL2: IExpansionPanel = {
                 objs: [{
                     spans: [
                         {
-                            text: "In the first instance, a single Examiner examines the application, and in the case where the application is rejected by the Examiner, it is possible to appeal (second instance).",
+                            text: "In the first instance, a single Examiner examines the application, and in the case where the application is rejected by the Examiner, it is possible to appeal to a board of 3 appeal examiners (second instance).",
                             url: null,
                             routerlink: null,
                             tooltip: null,
@@ -139,7 +139,7 @@ const DESIGNPANEL2: IExpansionPanel = {
                 objs: [{
                     spans: [
                         {
-                            text: "The examination by the JPO of a Hague Agreement design application will be conducted within 6 months of the international publication, and the result of the examination will be sent to the Applicant directly (in practice, a notice of rejection is typically reported within 4 or 5 months of the international publication). A response to a rejection requires a power of attorney. The response term is 3 months, and a 2-month extension is possible.",
+                            text: "A Hague Agreement design application in which Japan is designated will be conducted within 3 to 4 months of the international publication, and the result of the examination will be sent to the Applicant directly. A response to a rejection by the JPO must be through a Japanese patent attorney. It is necessary to file a power of attorney, which can be submitted at a later date.",
                             url: null,
                             routerlink: null,
                             tooltip: null,
@@ -148,7 +148,23 @@ const DESIGNPANEL2: IExpansionPanel = {
                     ],
                     classes: null
                 }]
-            }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "The response term is 3 months, and a 2-month extension is possible.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: ["noselect"]
+                        }
+                    ],
+                    classes: null
+                }]
+            }
+        ]
     }
 };
 const DESIGNPANEL3: IExpansionPanel = {
