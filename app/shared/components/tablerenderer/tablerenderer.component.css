@@ -4,3 +4,7 @@ td, th {
 .hide{
     display: none;
 }
+table.mat-table {
+    display: table;
+    width: 100%;
+}

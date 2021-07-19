@@ -19,7 +19,7 @@ export class GuidanceComponent implements OnInit {
   }
 
   getContent(){
-    return this.guidanceService.getContent(this.nav.subPage);
+    return this.guidanceService.getContent(this.route.snapshot.paramMap.get('type'));
   }
 
   currentPage(){
