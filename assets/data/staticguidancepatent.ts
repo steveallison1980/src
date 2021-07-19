@@ -4998,7 +4998,7 @@ const PATENTFEES: IExpansionPanel = {
                 objs: [{
                     spans: [
                         {
-                            text: "According to this program, the fees have been reduced by 50% or 70% of their request for examination fees and also patent annuities of the 1st to 10th year.",
+                            text: "According to this program, the fees have been reduced to 1/2 or 1/3 of their request for examination fees and also patent annuities of the 1st to 10th year.",
                             url: null,
                             routerlink: null,
                             tooltip: null,
