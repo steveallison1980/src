@@ -7375,7 +7375,7 @@ const PATENTINVALIDATION: IExpansionPanel = {
                                         }]
                                     }]
                             },
-                            column3: 
+                            column3:
                             {
                                 elements: [
                                     {
@@ -7397,7 +7397,7 @@ const PATENTINVALIDATION: IExpansionPanel = {
                             column9: null,
                             column10: null
                         },
-                    
+
                         {
                             column1:
                             {
@@ -7427,7 +7427,7 @@ const PATENTINVALIDATION: IExpansionPanel = {
                                         }]
                                     }]
                             },
-                            column3: 
+                            column3:
                             {
                                 elements: [
                                     {
@@ -7479,7 +7479,7 @@ const PATENTINVALIDATION: IExpansionPanel = {
                                         }]
                                     }]
                             },
-                            column3: 
+                            column3:
                             {
                                 elements: [
                                     {
@@ -7531,7 +7531,7 @@ const PATENTINVALIDATION: IExpansionPanel = {
                                         }]
                                     }]
                             },
-                            column3: 
+                            column3:
                             {
                                 elements: [
                                     {
@@ -7583,7 +7583,7 @@ const PATENTINVALIDATION: IExpansionPanel = {
                                         }]
                                     }]
                             },
-                            column3: 
+                            column3:
                             {
                                 elements: [
                                     {
@@ -7635,7 +7635,7 @@ const PATENTINVALIDATION: IExpansionPanel = {
                                         }]
                                     }]
                             },
-                            column3: 
+                            column3:
                             {
                                 elements: [
                                     {
@@ -7687,7 +7687,7 @@ const PATENTINVALIDATION: IExpansionPanel = {
                                         }]
                                     }]
                             },
-                            column3: 
+                            column3:
                             {
                                 elements: [
                                     {
@@ -7739,7 +7739,7 @@ const PATENTINVALIDATION: IExpansionPanel = {
                                         }]
                                     }]
                             },
-                            column3: 
+                            column3:
                             {
                                 elements: [
                                     {
@@ -7791,7 +7791,7 @@ const PATENTINVALIDATION: IExpansionPanel = {
                                         }]
                                     }]
                             },
-                            column3: 
+                            column3:
                             {
                                 elements: [
                                     {
@@ -8436,21 +8436,130 @@ const PATENTLITIGAION: IExpansionPanel = {
                     }
                 ]
             },
+
             {
-                type: "paragraph",
+                type: "table",
                 objs: [{
-                    spans: [
+                    rows: [
                         {
-                            text: "TODO: TABLE?",
-                            url: null,
-                            routerlink: null,
-                            tooltip: null,
-                            classes: null
-                        }
-                    ],
-                    classes: null
+                            column1:
+                            {
+                                elements: [
+
+                                    {
+                                        type: "image",
+                                        objs: [
+                                            {
+                                                folder: "patentmanual",
+                                                filename: "arrow.png",
+                                                classes: ["small"]
+                                            }
+                                        ]
+                                    },]
+                            },
+                            column2:
+                            {
+                                elements: [
+                                    {
+                                        type: "table",
+                                        objs: [{
+                                            rows: [
+                                                {
+                                                    column1:
+                                                    {
+                                                        elements: [
+                                                            {
+                                                                type: "span",
+                                                                objs: [{
+                                                                    text: "Plaintiff:",
+                                                                    url: null,
+                                                                    routerlink: null,
+                                                                    tooltip: null,
+                                                                    classes: ["noselect"]
+                                                                }]
+                                                            }]
+                                                    },
+                                                    column2:
+                                                    {
+                                                        elements: [
+                                                            {
+                                                                type: "span",
+                                                                objs: [{
+                                                                    text: "Statement of the complaint, production of fundamental documentary evidence",
+                                                                    url: null,
+                                                                    routerlink: null,
+                                                                    tooltip: null,
+                                                                    classes: ["noselect"]
+                                                                }]
+                                                            }]
+                                                    },
+                                                    column3: null,
+                                                    column4: null,
+                                                    column5: null,
+                                                    column6: null,
+                                                    column7: null,
+                                                    column8: null,
+                                                    column9: null,
+                                                    column10: null
+                                                },
+
+                                                {
+                                                    column1:
+                                                    {
+                                                        elements: [
+                                                            {
+                                                                type: "span",
+                                                                objs: [{
+                                                                    text: "Defendant:",
+                                                                    url: null,
+                                                                    routerlink: null,
+                                                                    tooltip: null,
+                                                                    classes: ["noselect"]
+                                                                }]
+                                                            }]
+                                                    },
+                                                    column2:
+                                                    {
+                                                        elements: [
+                                                            {
+                                                                type: "span",
+                                                                objs: [{
+                                                                    text: "Statement of the answer (presentation of summary of respondent’s arguments), production of fundamental documentary evidence",
+                                                                    url: null,
+                                                                    routerlink: null,
+                                                                    tooltip: null,
+                                                                    classes: ["noselect"]
+                                                                }]
+                                                            }]
+                                                    },
+                                                    column3: null,
+                                                    column4: null,
+                                                    column5: null,
+                                                    column6: null,
+                                                    column7: null,
+                                                    column8: null,
+                                                    column9: null,
+                                                    column10: null
+                                                },
+                                            ],
+                                            cols: ["", ""]
+                                        }]
+                                    },]
+                            },
+                            column3: null,
+                            column4: null,
+                            column5: null,
+                            column6: null,
+                            column7: null,
+                            column8: null,
+                            column9: null,
+                            column10: null
+                        },],
+                    cols: ["", ""]
                 }]
             },
+
+
             {
                 type: "header",
                 objs: [
