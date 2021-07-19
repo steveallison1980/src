@@ -1055,500 +1055,498 @@ const PATENTBASICPATENTREQS: IExpansionPanel = {
             },
 
             {
-                type: "elementgrid",
+                type: "table",
                 objs: [{
-                    gap: "20px",
-                    percent: "30",
-                    elements: [
+                    rows: [{
+                        column1:
                         {
-                            type: "header",
-                            objs: [
+                            elements: [
                                 {
-                                    text: "Requirements",
-                                    type: "h3", // may need to consider making smaller
-                                    classes: null,
+                                    type: "span",
+                                    objs: [{
+                                        text: "Eligibility",
+                                        url: null,
+                                        routerlink: null,
+                                        tooltip: null,
+                                        classes: ["noselect"]
+                                    }]
                                 }]
                         },
+                        column2:
                         {
-                            type: "header",
-                            objs: [
+                            elements: [
                                 {
-                                    text: "Description",
-                                    type: "h3", // may need to consider making smaller
-                                    classes: null,
+                                    type: "span",
+                                    objs: [{
+                                        text: "The invention must be statutory.",
+                                        url: null,
+                                        routerlink: null,
+                                        tooltip: null,
+                                        classes: ["noselect"]
+                                    }]
                                 }]
                         },
+                        column3:
                         {
-                            type: "header",
-                            objs: [
+                            elements: [
                                 {
-                                    text: "Article",
-                                    type: "h3", // may need to consider making smaller
-                                    classes: null,
+                                    type: "span",
+                                    objs: [{
+                                        text: "29 preamble",
+                                        url: null,
+                                        routerlink: null,
+                                        tooltip: null,
+                                        classes: ["noselect"]
+                                    }]
                                 }]
                         },
+                        column4: null,
+                        column5: null,
+                        column6: null,
+                        column7: null,
+                        column8: null,
+                        column9: null,
+                        column10: null
+                    },
 
+                    {
+                        column1:
                         {
-                            type: "span",
-                            objs: [
+                            elements: [
                                 {
-                                    text: "Eligibility",
-                                    url: null,
-                                    routerlink: null,
-                                    tooltip: null,
-                                    classes: null
-                                }
-                            ],
+                                    type: "span",
+                                    objs: [{
+                                        text: "Novelty",
+                                        url: null,
+                                        routerlink: null,
+                                        tooltip: null,
+                                        classes: ["noselect"]
+                                    }]
+                                }]
                         },
+                        column2:
                         {
-                            type: "span",
-                            objs: [
+                            elements: [
                                 {
-                                    text: "The invention must be statutory.",
-                                    url: null,
-                                    routerlink: null,
-                                    tooltip: null,
-                                    classes: null
-                                }
-                            ],
+                                    type: "span",
+                                    objs: [{
+                                        text: "Must be new under the principle of absolute novelty",
+                                        url: null,
+                                        routerlink: null,
+                                        tooltip: null,
+                                        classes: ["noselect"]
+                                    }]
+                                }]
                         },
+                        column3:
                         {
-                            type: "span",
-                            objs: [
+                            elements: [
                                 {
-                                    text: "29 preamble",
-                                    url: null,
-                                    routerlink: null,
-                                    tooltip: null,
-                                    classes: null
-                                }
-                            ],
+                                    type: "span",
+                                    objs: [{
+                                        text: "29(1)",
+                                        url: null,
+                                        routerlink: null,
+                                        tooltip: null,
+                                        classes: ["noselect"]
+                                    }]
+                                }]
                         },
-                        {
-                            type: "br",
-                            objs: null
-                        },
-                        {
-                            type: "br",
-                            objs: null
-                        },
-                        {
-                            type: "br",
-                            objs: null
-                        },
+                        column4: null,
+                        column5: null,
+                        column6: null,
+                        column7: null,
+                        column8: null,
+                        column9: null,
+                        column10: null
+                    },
 
+                    {
+                        column1:
                         {
-                            type: "span",
-                            objs: [
+                            elements: [
                                 {
-                                    text: "Novelty",
-                                    url: null,
-                                    routerlink: null,
-                                    tooltip: null,
-                                    classes: null
-                                }
-                            ],
+                                    type: "span",
+                                    objs: [{
+                                        text: "Inventive Step",
+                                        url: null,
+                                        routerlink: null,
+                                        tooltip: null,
+                                        classes: ["noselect"]
+                                    }]
+                                }]
                         },
+                        column2:
                         {
-                            type: "span",
-                            objs: [
+                            elements: [
                                 {
-                                    text: "Must be new under the principle of absolute novelty",
-                                    url: null,
-                                    routerlink: null,
-                                    tooltip: null,
-                                    classes: null
-                                }
-                            ],
+                                    type: "span",
+                                    objs: [{
+                                        text: "Must have inventive step over known prior art at the patent filing",
+                                        url: null,
+                                        routerlink: null,
+                                        tooltip: null,
+                                        classes: ["noselect"]
+                                    }]
+                                }]
                         },
+                        column3:
                         {
-                            type: "span",
-                            objs: [
+                            elements: [
                                 {
-                                    text: "29(1)",
-                                    url: null,
-                                    routerlink: null,
-                                    tooltip: null,
-                                    classes: null
-                                }
-                            ],
+                                    type: "span",
+                                    objs: [{
+                                        text: "29(2)",
+                                        url: null,
+                                        routerlink: null,
+                                        tooltip: null,
+                                        classes: ["noselect"]
+                                    }]
+                                }]
                         },
-                        {
-                            type: "br",
-                            objs: null
-                        },
-                        {
-                            type: "br",
-                            objs: null
-                        },
-                        {
-                            type: "br",
-                            objs: null
-                        },
+                        column4: null,
+                        column5: null,
+                        column6: null,
+                        column7: null,
+                        column8: null,
+                        column9: null,
+                        column10: null
+                    },
 
+                    {
+                        column1:
                         {
-                            type: "span",
-                            objs: [
+                            elements: [
                                 {
-                                    text: "Inventive Step",
-                                    url: null,
-                                    routerlink: null,
-                                    tooltip: null,
-                                    classes: null
-                                }
-                            ],
+                                    type: "span",
+                                    objs: [{
+                                        text: "Enablement",
+                                        url: null,
+                                        routerlink: null,
+                                        tooltip: null,
+                                        classes: ["noselect"]
+                                    }]
+                                }]
                         },
+                        column2:
                         {
-                            type: "span",
-                            objs: [
+                            elements: [
                                 {
-                                    text: "Must have inventive step over known prior art at the patent filing",
-                                    url: null,
-                                    routerlink: null,
-                                    tooltip: null,
-                                    classes: null
-                                }
-                            ],
+                                    type: "span",
+                                    objs: [{
+                                        text: "The specification/drawings must be clear and sufficient as to enable a person ordinarily skilled in the art to work or reproduce the invention.",
+                                        url: null,
+                                        routerlink: null,
+                                        tooltip: null,
+                                        classes: ["noselect"]
+                                    }]
+                                }]
                         },
+                        column3:
                         {
-                            type: "span",
-                            objs: [
+                            elements: [
                                 {
-                                    text: "29(2)",
-                                    url: null,
-                                    routerlink: null,
-                                    tooltip: null,
-                                    classes: null
-                                }
-                            ],
+                                    type: "span",
+                                    objs: [{
+                                        text: "36(4)(i)",
+                                        url: null,
+                                        routerlink: null,
+                                        tooltip: null,
+                                        classes: ["noselect"]
+                                    }]
+                                }]
                         },
-                        {
-                            type: "br",
-                            objs: null
-                        },
-                        {
-                            type: "br",
-                            objs: null
-                        },
-                        {
-                            type: "br",
-                            objs: null
-                        },
+                        column4: null,
+                        column5: null,
+                        column6: null,
+                        column7: null,
+                        column8: null,
+                        column9: null,
+                        column10: null
+                    },
 
+                    {
+                        column1:
                         {
-                            type: "span",
-                            objs: [
+                            elements: [
                                 {
-                                    text: "Enablement",
-                                    url: null,
-                                    routerlink: null,
-                                    tooltip: null,
-                                    classes: null
-                                }
-                            ],
+                                    type: "span",
+                                    objs: [{
+                                        text: "Support",
+                                        url: null,
+                                        routerlink: null,
+                                        tooltip: null,
+                                        classes: ["noselect"]
+                                    }]
+                                }]
                         },
+                        column2:
                         {
-                            type: "span",
-                            objs: [
+                            elements: [
                                 {
-                                    text: "The specification/drawings must be clear and sufficient as to enable a person ordinarily skilled in the art to work or reproduce the invention.",
-                                    url: null,
-                                    routerlink: null,
-                                    tooltip: null,
-                                    classes: null
-                                }
-                            ],
+                                    type: "span",
+                                    objs: [{
+                                        text: "The invention must be described in the specification/drawings at the patent filing.",
+                                        url: null,
+                                        routerlink: null,
+                                        tooltip: null,
+                                        classes: ["noselect"]
+                                    }]
+                                }]
                         },
+                        column3:
                         {
-                            type: "span",
-                            objs: [
+                            elements: [
                                 {
-                                    text: "36(4)(i)",
-                                    url: null,
-                                    routerlink: null,
-                                    tooltip: null,
-                                    classes: null
-                                }
-                            ],
+                                    type: "span",
+                                    objs: [{
+                                        text: "36(6)(i)",
+                                        url: null,
+                                        routerlink: null,
+                                        tooltip: null,
+                                        classes: ["noselect"]
+                                    }]
+                                }]
                         },
-                        {
-                            type: "br",
-                            objs: null
-                        },
-                        {
-                            type: "br",
-                            objs: null
-                        },
-                        {
-                            type: "br",
-                            objs: null
-                        },
+                        column4: null,
+                        column5: null,
+                        column6: null,
+                        column7: null,
+                        column8: null,
+                        column9: null,
+                        column10: null
+                    },
 
+                    {
+                        column1:
                         {
-                            type: "span",
-                            objs: [
+                            elements: [
                                 {
-                                    text: "Support",
-                                    url: null,
-                                    routerlink: null,
-                                    tooltip: null,
-                                    classes: null
-                                }
-                            ],
+                                    type: "span",
+                                    objs: [{
+                                        text: "Clarity",
+                                        url: null,
+                                        routerlink: null,
+                                        tooltip: null,
+                                        classes: ["noselect"]
+                                    }]
+                                }]
                         },
+                        column2:
                         {
-                            type: "span",
-                            objs: [
+                            elements: [
                                 {
-                                    text: "The invention must be described in the specification/drawings at the patent filing.",
-                                    url: null,
-                                    routerlink: null,
-                                    tooltip: null,
-                                    classes: null
-                                }
-                            ],
+                                    type: "span",
+                                    objs: [{
+                                        text: "The invention must be clear in the claims.",
+                                        url: null,
+                                        routerlink: null,
+                                        tooltip: null,
+                                        classes: ["noselect"]
+                                    }]
+                                }]
                         },
+                        column3:
                         {
-                            type: "span",
-                            objs: [
+                            elements: [
                                 {
-                                    text: "36(6)(i)",
-                                    url: null,
-                                    routerlink: null,
-                                    tooltip: null,
-                                    classes: null
-                                }
-                            ],
+                                    type: "span",
+                                    objs: [{
+                                        text: "36(6)(ii)",
+                                        url: null,
+                                        routerlink: null,
+                                        tooltip: null,
+                                        classes: ["noselect"]
+                                    }]
+                                }]
                         },
-                        {
-                            type: "br",
-                            objs: null
-                        },
-                        {
-                            type: "br",
-                            objs: null
-                        },
-                        {
-                            type: "br",
-                            objs: null
-                        },
+                        column4: null,
+                        column5: null,
+                        column6: null,
+                        column7: null,
+                        column8: null,
+                        column9: null,
+                        column10: null
+                    },
 
+                    {
+                        column1:
                         {
-                            type: "span",
-                            objs: [
+                            elements: [
                                 {
-                                    text: "Clarity",
-                                    url: null,
-                                    routerlink: null,
-                                    tooltip: null,
-                                    classes: null
-                                }
-                            ],
+                                    type: "span",
+                                    objs: [{
+                                        text: "Unity of Invention",
+                                        url: null,
+                                        routerlink: null,
+                                        tooltip: null,
+                                        classes: ["noselect"]
+                                    }]
+                                }]
                         },
+                        column2:
                         {
-                            type: "span",
-                            objs: [
+                            elements: [
                                 {
-                                    text: "The invention must be clear in the claims.",
-                                    url: null,
-                                    routerlink: null,
-                                    tooltip: null,
-                                    classes: null
-                                }
-                            ],
+                                    type: "span",
+                                    objs: [{
+                                        text: "Claims must be directed to one invention or closely related inventions. If this is satisfied, a single application can set forth multiple categories of claims.",
+                                        url: null,
+                                        routerlink: null,
+                                        tooltip: null,
+                                        classes: ["noselect"]
+                                    }]
+                                }]
                         },
+                        column3:
                         {
-                            type: "span",
-                            objs: [
+                            elements: [
                                 {
-                                    text: "36(6)(ii)",
-                                    url: null,
-                                    routerlink: null,
-                                    tooltip: null,
-                                    classes: null
-                                }
-                            ],
+                                    type: "span",
+                                    objs: [{
+                                        text: "37",
+                                        url: null,
+                                        routerlink: null,
+                                        tooltip: null,
+                                        classes: ["noselect"]
+                                    }]
+                                }]
                         },
-                        {
-                            type: "br",
-                            objs: null
-                        },
-                        {
-                            type: "br",
-                            objs: null
-                        },
-                        {
-                            type: "br",
-                            objs: null
-                        },
+                        column4: null,
+                        column5: null,
+                        column6: null,
+                        column7: null,
+                        column8: null,
+                        column9: null,
+                        column10: null
+                    },
 
+                    {
+                        column1:
                         {
-                            type: "span",
-                            objs: [
+                            elements: [
                                 {
-                                    text: "Unity of Invention",
-                                    url: null,
-                                    routerlink: null,
-                                    tooltip: null,
-                                    classes: null
-                                }
-                            ],
+                                    type: "span",
+                                    objs: [{
+                                        text: "Double Patenting (First to File)",
+                                        url: null,
+                                        routerlink: null,
+                                        tooltip: null,
+                                        classes: ["noselect"]
+                                    }]
+                                }]
                         },
+                        column2:
                         {
-                            type: "span",
-                            objs: [
+                            elements: [
                                 {
-                                    text: "Claims must be directed to one invention or closely related inventions. If this is satisfied, a single application can set forth multiple categories of claims.",
-                                    url: null,
-                                    routerlink: null,
-                                    tooltip: null,
-                                    classes: null
-                                }
-                            ],
-                        },
-                        {
-                            type: "span",
-                            objs: [
-                                {
-                                    text: "37",
-                                    url: null,
-                                    routerlink: null,
-                                    tooltip: null,
-                                    classes: null
-                                }
-                            ],
-                        },
-                        {
-                            type: "br",
-                            objs: null
-                        },
-                        {
-                            type: "br",
-                            objs: null
-                        },
-                        {
-                            type: "br",
-                            objs: null
-                        },
-
-                        {
-                            type: "span",
-                            objs: [
-                                {
-                                    text: "Double Patenting (First to File)",
-                                    url: null,
-                                    routerlink: null,
-                                    tooltip: null,
-                                    classes: null
-                                }
-                            ],
-                        },
-
-                        {
-                            type: "elementgrid",
-                            objs: [{
-                                gap: "20px",
-                                percent: "100",
-                                elements: [
-                                    {
-                                        type: "span",
-                                        objs: [
+                                    type: "paragraph",
+                                    objs: [{
+                                        spans: [
                                             {
-                                                text: "Claims must not conflict with those of another application.",
+                                                text: "This entails conflict with claims of the applicant or others.",
                                                 url: null,
                                                 routerlink: null,
                                                 tooltip: null,
                                                 classes: null
                                             }
                                         ],
-                                    },
-                                    {
-                                        type: "br",
-                                        objs: null
-                                    },
-                                    {
-                                        type: "span",
-                                        objs: [
+                                        classes: null
+                                    }]
+                                },
+                                {
+                                    type: "paragraph",
+                                    objs: [{
+                                        spans: [
                                             {
-                                                text: "This is most common between the claims of a divisional application and its parent application.",
+                                                text: "This circumstance is frequently found between the claims of a divisional application and its parent application.",
                                                 url: null,
                                                 routerlink: null,
                                                 tooltip: null,
                                                 classes: null
                                             }
                                         ],
-                                    },
-                                ]
-                            },]
+                                        classes: null
+                                    }]
+                                },
+                            ]
                         },
+                        column3:
                         {
-                            type: "span",
-                            objs: [
+                            elements: [
                                 {
-                                    text: "39",
-                                    url: null,
-                                    routerlink: null,
-                                    tooltip: null,
-                                    classes: null
-                                }
-                            ],
+                                    type: "span",
+                                    objs: [{
+                                        text: "39",
+                                        url: null,
+                                        routerlink: null,
+                                        tooltip: null,
+                                        classes: ["noselect"]
+                                    }]
+                                }]
                         },
-                        {
-                            type: "br",
-                            objs: null
-                        },
-                        {
-                            type: "br",
-                            objs: null
-                        },
-                        {
-                            type: "br",
-                            objs: null
-                        },
+                        column4: null,
+                        column5: null,
+                        column6: null,
+                        column7: null,
+                        column8: null,
+                        column9: null,
+                        column10: null
+                    },
 
+                    {
+                        column1:
                         {
-                            type: "span",
-                            objs: [
+                            elements: [
                                 {
-                                    text: "Secret prior art rejection",
-                                    url: null,
-                                    routerlink: null,
-                                    tooltip: null,
-                                    classes: null
-                                }
-                            ],
+                                    type: "span",
+                                    objs: [{
+                                        text: "Secret prior art rejection",
+                                        url: null,
+                                        routerlink: null,
+                                        tooltip: null,
+                                        classes: ["noselect"]
+                                    }]
+                                }]
                         },
+                        column2:
                         {
-                            type: "span",
-                            objs: [
+                            elements: [
                                 {
-                                    text: "An earlier filing/priority application constitutes secret prior art when published after the filing of the present application",
-                                    url: null,
-                                    routerlink: null,
-                                    tooltip: null,
-                                    classes: null
-                                }
-                            ],
+                                    type: "span",
+                                    objs: [{
+                                        text: "An earlier filing/priority application constitutes secret prior art when published after the filing of the present application",
+                                        url: null,
+                                        routerlink: null,
+                                        tooltip: null,
+                                        classes: ["noselect"]
+                                    }]
+                                }]
                         },
+                        column3:
                         {
-                            type: "span",
-                            objs: [
+                            elements: [
                                 {
-                                    text: "29-2",
-                                    url: null,
-                                    routerlink: null,
-                                    tooltip: null,
-                                    classes: null
-                                }
-                            ],
+                                    type: "span",
+                                    objs: [{
+                                        text: "29-2",
+                                        url: null,
+                                        routerlink: null,
+                                        tooltip: null,
+                                        classes: ["noselect"]
+                                    }]
+                                }]
                         },
-
-                        {
-                            type: "br",
-                            objs: null
-                        },
-                    ]
-                },]
+                        column4: null,
+                        column5: null,
+                        column6: null,
+                        column7: null,
+                        column8: null,
+                        column9: null,
+                        column10: null
+                    },],
+                    cols: ["Requirements", "Description", "Article"]
+                }]
             },
 
             {
@@ -3608,34 +3606,282 @@ const PATENTAPPEAL: IExpansionPanel = {
             {
                 type: "table",
                 objs: [{
-                    rows:[{
-                        column1: 
+                    rows: [{
+                        column1:
                         {
                             elements: [
-                            {
-                                type: "span",
-                                objs: [{
-                                    text: "column1test",
-                                    url: null,
-                                    routerlink: null,
-                                    tooltip: null,
-                                    classes: ["noselect"]
+                                {
+                                    type: "span",
+                                    objs: [{
+                                        text: "2017",
+                                        url: null,
+                                        routerlink: null,
+                                        tooltip: null,
+                                        classes: ["noselect"]
+                                    }]
                                 }]
-                            }]
                         },
-                        column2: null,
-                        column3: null,
-                        column4: null,
-                        column5: null,
-                        column6: null,
+                        column2:
+                        {
+                            elements: [
+                                {
+                                    type: "span",
+                                    objs: [{
+                                        text: "18,591",
+                                        url: null,
+                                        routerlink: null,
+                                        tooltip: null,
+                                        classes: ["noselect"]
+                                    }]
+                                }]
+                        },
+                        column3:
+                        {
+                            elements: [
+                                {
+                                    type: "span",
+                                    objs: [{
+                                        text: "9,801 (53%)",
+                                        url: null,
+                                        routerlink: null,
+                                        tooltip: null,
+                                        classes: ["noselect"]
+                                    }]
+                                }]
+                        },
+                        column4:
+                        {
+                            elements: [
+                                {
+                                    type: "span",
+                                    objs: [{
+                                        text: "6,407",
+                                        url: null,
+                                        routerlink: null,
+                                        tooltip: null,
+                                        classes: ["noselect"]
+                                    }]
+                                }]
+                        },
+                        column5:
+                        {
+                            elements: [
+                                {
+                                    type: "span",
+                                    objs: [{
+                                        text: "6,146",
+                                        url: null,
+                                        routerlink: null,
+                                        tooltip: null,
+                                        classes: ["noselect"]
+                                    }]
+                                }]
+                        },
+                        column6:
+                        {
+                            elements: [
+                                {
+                                    type: "span",
+                                    objs: [{
+                                        text: "2,744",
+                                        url: null,
+                                        routerlink: null,
+                                        tooltip: null,
+                                        classes: ["noselect"]
+                                    }]
+                                }]
+                        },
                         column7: null,
                         column8: null,
                         column9: null,
                         column10: null
-                    }],
-                    cols:["column1"]
+                    },
+
+                    {
+                        column1:
+                        {
+                            elements: [
+                                {
+                                    type: "span",
+                                    objs: [{
+                                        text: "2018",
+                                        url: null,
+                                        routerlink: null,
+                                        tooltip: null,
+                                        classes: ["noselect"]
+                                    }]
+                                }]
+                        },
+                        column2:
+                        {
+                            elements: [
+                                {
+                                    type: "span",
+                                    objs: [{
+                                        text: "16,536",
+                                        url: null,
+                                        routerlink: null,
+                                        tooltip: null,
+                                        classes: ["noselect"]
+                                    }]
+                                }]
+                        },
+                        column3:
+                        {
+                            elements: [
+                                {
+                                    type: "span",
+                                    objs: [{
+                                        text: "8,893 (54%)",
+                                        url: null,
+                                        routerlink: null,
+                                        tooltip: null,
+                                        classes: ["noselect"]
+                                    }]
+                                }]
+                        },
+                        column4:
+                        {
+                            elements: [
+                                {
+                                    type: "span",
+                                    objs: [{
+                                        text: "5,749",
+                                        url: null,
+                                        routerlink: null,
+                                        tooltip: null,
+                                        classes: ["noselect"]
+                                    }]
+                                }]
+                        },
+                        column5:
+                        {
+                            elements: [
+                                {
+                                    type: "span",
+                                    objs: [{
+                                        text: "5,509",
+                                        url: null,
+                                        routerlink: null,
+                                        tooltip: null,
+                                        classes: ["noselect"]
+                                    }]
+                                }]
+                        },
+                        column6:
+                        {
+                            elements: [
+                                {
+                                    type: "span",
+                                    objs: [{
+                                        text: "2,315",
+                                        url: null,
+                                        routerlink: null,
+                                        tooltip: null,
+                                        classes: ["noselect"]
+                                    }]
+                                }]
+                        },
+                        column7: null,
+                        column8: null,
+                        column9: null,
+                        column10: null
+                    },
+
+                    {
+                        column1:
+                        {
+                            elements: [
+                                {
+                                    type: "span",
+                                    objs: [{
+                                        text: "2019",
+                                        url: null,
+                                        routerlink: null,
+                                        tooltip: null,
+                                        classes: ["noselect"]
+                                    }]
+                                }]
+                        },
+                        column2:
+                        {
+                            elements: [
+                                {
+                                    type: "span",
+                                    objs: [{
+                                        text: "16,699",
+                                        url: null,
+                                        routerlink: null,
+                                        tooltip: null,
+                                        classes: ["noselect"]
+                                    }]
+                                }]
+                        },
+                        column3:
+                        {
+                            elements: [
+                                {
+                                    type: "span",
+                                    objs: [{
+                                        text: "8,389 (50%)",
+                                        url: null,
+                                        routerlink: null,
+                                        tooltip: null,
+                                        classes: ["noselect"]
+                                    }]
+                                }]
+                        },
+                        column4:
+                        {
+                            elements: [
+                                {
+                                    type: "span",
+                                    objs: [{
+                                        text: "6,000",
+                                        url: null,
+                                        routerlink: null,
+                                        tooltip: null,
+                                        classes: ["noselect"]
+                                    }]
+                                }]
+                        },
+                        column5:
+                        {
+                            elements: [
+                                {
+                                    type: "span",
+                                    objs: [{
+                                        text: "4,995",
+                                        url: null,
+                                        routerlink: null,
+                                        tooltip: null,
+                                        classes: ["noselect"]
+                                    }]
+                                }]
+                        },
+                        column6:
+                        {
+                            elements: [
+                                {
+                                    type: "span",
+                                    objs: [{
+                                        text: "2,332",
+                                        url: null,
+                                        routerlink: null,
+                                        tooltip: null,
+                                        classes: ["noselect"]
+                                    }]
+                                }]
+                        },
+                        column7: null,
+                        column8: null,
+                        column9: null,
+                        column10: null
+                    },],
+                    cols: ["Year", "Number of Appeals", "Allowed in Pre-Review", "Transferred to BOA", "Allowed at  BOA", "Rejected at BOA"]
                 }]
             },
+
             {
                 type: "header",
                 objs: [
@@ -3805,19 +4051,136 @@ const PATENTAMENDMENT: IExpansionPanel = {
                     classes: null
                 }]
             },
+
             {
-                type: "paragraph",
+                type: "header",
+                objs: [
+                    {
+                        text: "Amendment Scope",
+                        type: "h2",
+                        classes: null,
+                    }]
+            },
+            {
+                type: "table",
                 objs: [{
-                    spans: [
+                    rows: [
                         {
-                            text: "TODO: TABLE",
-                            url: null,
-                            routerlink: null,
-                            tooltip: null,
-                            classes: null
-                        }
+                            column1:
+                            {
+                                elements: [
+                                    {
+                                        type: "span",
+                                        objs: [{
+                                            text: "Before issuance of OA, any time after patent filing*1",
+                                            url: null,
+                                            routerlink: null,
+                                            tooltip: null,
+                                            classes: ["noselect"]
+                                        }]
+                                    }]
+                            },
+                            column2:
+                            {
+                                elements: [
+                                    {
+                                        type: "span",
+                                        objs: [{
+                                            text: "Unlimited, as long as supported by the original disclosure",
+                                            url: null,
+                                            routerlink: null,
+                                            tooltip: null,
+                                            classes: ["noselect"]
+                                        }]
+                                    }]
+                            },
+                            column3: null,
+                            column4: null,
+                            column5: null,
+                            column6: null,
+                            column7: null,
+                            column8: null,
+                            column9: null,
+                            column10: null
+                        },
+                        {
+                            column1:
+                            {
+                                elements: [
+                                    {
+                                        type: "span",
+                                        objs: [{
+                                            text: "After OA but before final OA, response term of the OA",
+                                            url: null,
+                                            routerlink: null,
+                                            tooltip: null,
+                                            classes: ["noselect"]
+                                        }]
+                                    }]
+                            },
+                            column2:
+                            {
+                                elements: [
+                                    {
+                                        type: "span",
+                                        objs: [{
+                                            text: "Amended claims should include a common or corresponding special technical feature of the examined claims",
+                                            url: null,
+                                            routerlink: null,
+                                            tooltip: null,
+                                            classes: ["noselect"]
+                                        }]
+                                    }]
+                            },
+                            column3: null,
+                            column4: null,
+                            column5: null,
+                            column6: null,
+                            column7: null,
+                            column8: null,
+                            column9: null,
+                            column10: null
+                        },
+                        {
+                            column1:
+                            {
+                                elements: [
+                                    {
+                                        type: "span",
+                                        objs: [{
+                                            text: "Response to final OA and Final Rejection, response term of the OA and at the timing of filing an Appeal",
+                                            url: null,
+                                            routerlink: null,
+                                            tooltip: null,
+                                            classes: ["noselect"]
+                                        }]
+                                    }]
+                            },
+                            column2:
+                            {
+                                elements: [
+                                    {
+                                        type: "span",
+                                        objs: [{
+                                            text: "No broadening; only limitations within the current claim element",
+                                            url: null,
+                                            routerlink: null,
+                                            tooltip: null,
+                                            classes: ["noselect"]
+                                        }]
+                                    }]
+                            },
+                            column3: null,
+                            column4: null,
+                            column5: null,
+                            column6: null,
+                            column7: null,
+                            column8: null,
+                            column9: null,
+                            column10: null
+                        },
                     ],
-                    classes: null
+                    cols: ["Status of the Application", "Scope in which Amendment Possible"]
                 }]
             },
             {
@@ -4839,18 +5202,277 @@ const PATENTFEES: IExpansionPanel = {
                 }]
             },
             {
-                type: "paragraph",
+                type: "table",
                 objs: [{
-                    spans: [
+                    rows: [
                         {
-                            text: "TODO: TABLE",
-                            url: null,
-                            routerlink: null,
-                            tooltip: null,
-                            classes: null
-                        }
+                            column1:
+                            {
+                                elements: [
+                                    {
+                                        type: "span",
+                                        objs: [{
+                                            text: "Patent application fee via PCT",
+                                            url: null,
+                                            routerlink: null,
+                                            tooltip: null,
+                                            classes: ["noselect"]
+                                        }]
+                                    }]
+                            },
+                            column2:
+                            {
+                                elements: [
+                                    {
+                                        type: "span",
+                                        objs: [{
+                                            text: "14000",
+                                            url: null,
+                                            routerlink: null,
+                                            tooltip: null,
+                                            classes: ["noselect"]
+                                        }]
+                                    }]
+                            },
+                            column3: null,
+                            column4: null,
+                            column5: null,
+                            column6: null,
+                            column7: null,
+                            column8: null,
+                            column9: null,
+                            column10: null
+                        },
+                        {
+                            column1:
+                            {
+                                elements: [
+                                    {
+                                        type: "span",
+                                        objs: [{
+                                            text: "Patent application fee via Paris route",
+                                            url: null,
+                                            routerlink: null,
+                                            tooltip: null,
+                                            classes: ["noselect"]
+                                        }]
+                                    }]
+                            },
+                            column2:
+                            {
+                                elements: [
+                                    {
+                                        type: "span",
+                                        objs: [{
+                                            text: "14000",
+                                            url: null,
+                                            routerlink: null,
+                                            tooltip: null,
+                                            classes: ["noselect"]
+                                        }]
+                                    }]
+                            },
+                            column3: null,
+                            column4: null,
+                            column5: null,
+                            column6: null,
+                            column7: null,
+                            column8: null,
+                            column9: null,
+                            column10: null
+                        },
+                        {
+                            column1:
+                            {
+                                elements: [
+                                    {
+                                        type: "span",
+                                        objs: [{
+                                            text: "Patent application filed in English",
+                                            url: null,
+                                            routerlink: null,
+                                            tooltip: null,
+                                            classes: ["noselect"]
+                                        }]
+                                    }]
+                            },
+                            column2:
+                            {
+                                elements: [
+                                    {
+                                        type: "span",
+                                        objs: [{
+                                            text: "22000",
+                                            url: null,
+                                            routerlink: null,
+                                            tooltip: null,
+                                            classes: ["noselect"]
+                                        }]
+                                    }]
+                            },
+                            column3: null,
+                            column4: null,
+                            column5: null,
+                            column6: null,
+                            column7: null,
+                            column8: null,
+                            column9: null,
+                            column10: null
+                        },
+                        {
+                            column1:
+                            {
+                                elements: [
+                                    {
+                                        type: "span",
+                                        objs: [{
+                                            text: "Request for examination fee",
+                                            url: null,
+                                            routerlink: null,
+                                            tooltip: null,
+                                            classes: ["noselect"]
+                                        }]
+                                    }]
+                            },
+                            column2:
+                            {
+                                elements: [
+                                    {
+                                        type: "span",
+                                        objs: [{
+                                            text: "124,000 + 3600 × number of claims (PCT case, search conducted other than the JPO)",
+                                            url: null,
+                                            routerlink: null,
+                                            tooltip: null,
+                                            classes: ["noselect"]
+                                        }]
+                                    }]
+                            },
+                            column3: null,
+                            column4: null,
+                            column5: null,
+                            column6: null,
+                            column7: null,
+                            column8: null,
+                            column9: null,
+                            column10: null
+                        },
+                        {
+                            column1:
+                            {
+                                elements: [
+                                    {
+                                        type: "span",
+                                        objs: [{
+                                            text: "Appeal fee (against Examiner’s rejection)",
+                                            url: null,
+                                            routerlink: null,
+                                            tooltip: null,
+                                            classes: ["noselect"]
+                                        }]
+                                    }]
+                            },
+                            column2:
+                            {
+                                elements: [
+                                    {
+                                        type: "span",
+                                        objs: [{
+                                            text: "124,000 + 3600 × number of claims",
+                                            url: null,
+                                            routerlink: null,
+                                            tooltip: null,
+                                            classes: ["noselect"]
+                                        }]
+                                    }]
+                            },
+                            column3: null,
+                            column4: null,
+                            column5: null,
+                            column6: null,
+                            column7: null,
+                            column8: null,
+                            column9: null,
+                            column10: null
+                        },
+                        {
+                            column1:
+                            {
+                                elements: [
+                                    {
+                                        type: "span",
+                                        objs: [{
+                                            text: "Filing divisional application fee",
+                                            url: null,
+                                            routerlink: null,
+                                            tooltip: null,
+                                            classes: ["noselect"]
+                                        }]
+                                    }]
+                            },
+                            column2:
+                            {
+                                elements: [
+                                    {
+                                        type: "span",
+                                        objs: [{
+                                            text: "14000 (22000)",
+                                            url: null,
+                                            routerlink: null,
+                                            tooltip: null,
+                                            classes: ["noselect"]
+                                        }]
+                                    }]
+                            },
+                            column3: null,
+                            column4: null,
+                            column5: null,
+                            column6: null,
+                            column7: null,
+                            column8: null,
+                            column9: null,
+                            column10: null
+                        },
+                        {
+                            column1:
+                            {
+                                elements: [
+                                    {
+                                        type: "span",
+                                        objs: [{
+                                            text: "Extension fee",
+                                            url: null,
+                                            routerlink: null,
+                                            tooltip: null,
+                                            classes: ["noselect"]
+                                        }]
+                                    }]
+                            },
+                            column2:
+                            {
+                                elements: [
+                                    {
+                                        type: "span",
+                                        objs: [{
+                                            text: "4200",
+                                            url: null,
+                                            routerlink: null,
+                                            tooltip: null,
+                                            classes: ["noselect"]
+                                        }]
+                                    }]
+                            },
+                            column3: null,
+                            column4: null,
+                            column5: null,
+                            column6: null,
+                            column7: null,
+                            column8: null,
+                            column9: null,
+                            column10: null
+                        },
                     ],
-                    classes: null
+                    cols: ["As of February, 2021", "Fee (JPY)"]
                 }]
             },
             {
@@ -4893,19 +5515,178 @@ const PATENTFEES: IExpansionPanel = {
                     classes: null
                 }]
             },
+
             {
-                type: "paragraph",
+                type: "header",
+                objs: [
+                    {
+                        text: "Official Fees (Maintenance)",
+                        type: "h2",
+                        classes: null,
+                    }
+                ]
+            },
+            {
+                type: "table",
                 objs: [{
-                    spans: [
+                    rows: [
                         {
-                            text: "TODO: TABLE",
-                            url: null,
-                            routerlink: null,
-                            tooltip: null,
-                            classes: null
-                        }
+                            column1:
+                            {
+                                elements: [
+                                    {
+                                        type: "span",
+                                        objs: [{
+                                            text: "Annuity (1st through 3rd years)",
+                                            url: null,
+                                            routerlink: null,
+                                            tooltip: null,
+                                            classes: ["noselect"]
+                                        }]
+                                    }]
+                            },
+                            column2:
+                            {
+                                elements: [
+                                    {
+                                        type: "span",
+                                        objs: [{
+                                            text: "2,100 + (200) × (Number of Claims)",
+                                            url: null,
+                                            routerlink: null,
+                                            tooltip: null,
+                                            classes: ["noselect"]
+                                        }]
+                                    }]
+                            },
+                            column3: null,
+                            column4: null,
+                            column5: null,
+                            column6: null,
+                            column7: null,
+                            column8: null,
+                            column9: null,
+                            column10: null
+                        },
+
+                        {
+                            column1:
+                            {
+                                elements: [
+                                    {
+                                        type: "span",
+                                        objs: [{
+                                            text: "Annuity (4th through 6th years)",
+                                            url: null,
+                                            routerlink: null,
+                                            tooltip: null,
+                                            classes: ["noselect"]
+                                        }]
+                                    }]
+                            },
+                            column2:
+                            {
+                                elements: [
+                                    {
+                                        type: "span",
+                                        objs: [{
+                                            text: "6,400 + (500) × (Number of Claims)",
+                                            url: null,
+                                            routerlink: null,
+                                            tooltip: null,
+                                            classes: ["noselect"]
+                                        }]
+                                    }]
+                            },
+                            column3: null,
+                            column4: null,
+                            column5: null,
+                            column6: null,
+                            column7: null,
+                            column8: null,
+                            column9: null,
+                            column10: null
+                        },
+
+                        {
+                            column1:
+                            {
+                                elements: [
+                                    {
+                                        type: "span",
+                                        objs: [{
+                                            text: "Annuity (7th through 9th years)",
+                                            url: null,
+                                            routerlink: null,
+                                            tooltip: null,
+                                            classes: ["noselect"]
+                                        }]
+                                    }]
+                            },
+                            column2:
+                            {
+                                elements: [
+                                    {
+                                        type: "span",
+                                        objs: [{
+                                            text: "19,300 + (1,500) × (Number of Claims)",
+                                            url: null,
+                                            routerlink: null,
+                                            tooltip: null,
+                                            classes: ["noselect"]
+                                        }]
+                                    }]
+                            },
+                            column3: null,
+                            column4: null,
+                            column5: null,
+                            column6: null,
+                            column7: null,
+                            column8: null,
+                            column9: null,
+                            column10: null
+                        },
+
+                        {
+                            column1:
+                            {
+                                elements: [
+                                    {
+                                        type: "span",
+                                        objs: [{
+                                            text: "Annuity (10th through 25th years)",
+                                            url: null,
+                                            routerlink: null,
+                                            tooltip: null,
+                                            classes: ["noselect"]
+                                        }]
+                                    }]
+                            },
+                            column2:
+                            {
+                                elements: [
+                                    {
+                                        type: "span",
+                                        objs: [{
+                                            text: "55,400 + (4,300) × (Number of Claims)",
+                                            url: null,
+                                            routerlink: null,
+                                            tooltip: null,
+                                            classes: ["noselect"]
+                                        }]
+                                    }]
+                            },
+                            column3: null,
+                            column4: null,
+                            column5: null,
+                            column6: null,
+                            column7: null,
+                            column8: null,
+                            column9: null,
+                            column10: null
+                        },
                     ],
-                    classes: null
+                    cols: ["Item", "Fees (Japanese Yen)"]
                 }]
             },
             {
@@ -5038,19 +5819,798 @@ const PATENTFEES: IExpansionPanel = {
                     classes: null
                 }]
             },
+
             {
-                type: "paragraph",
+                type: "header",
+                objs: [
+                    {
+                        text: "1． <<Small & Medium Entities>> Reduced to 1/2",
+                        type: "h2",
+                        classes: null,
+                    }
+                ]
+            },
+            {
+                type: "table",
                 objs: [{
-                    spans: [
+                    rows: [
                         {
-                            text: "TODO:TABLE",
-                            url: null,
-                            routerlink: null,
-                            tooltip: null,
-                            classes: null
-                        }
+                            column1:
+                            {
+                                elements: [
+                                    {
+                                        type: "span",
+                                        objs: [{
+                                            text: "Manufacturing, construction, transportation, etc.",
+                                            url: null,
+                                            routerlink: null,
+                                            tooltip: null,
+                                            classes: ["noselect"]
+                                        }]
+                                    }]
+                            },
+                            column2:
+                            {
+                                elements: [
+                                    {
+                                        type: "span",
+                                        objs: [{
+                                            text: "up to 300",
+                                            url: null,
+                                            routerlink: null,
+                                            tooltip: null,
+                                            classes: ["noselect"]
+                                        }]
+                                    }]
+                            },
+                            column3:
+                            {
+                                elements: [
+                                    {
+                                        type: "span",
+                                        objs: [{
+                                            text: "up to 300 million",
+                                            url: null,
+                                            routerlink: null,
+                                            tooltip: null,
+                                            classes: ["noselect"]
+                                        }]
+                                    }]
+                            },
+                            column4:
+                            {
+                                elements: [
+                                    {
+                                        type: "span",
+                                        objs: [{
+                                            text: "examination fees and annuity for 1st to 10th years ⇒ reduced to 1/2",
+                                            url: null,
+                                            routerlink: null,
+                                            tooltip: null,
+                                            classes: ["noselect"]
+                                        }]
+                                    }]
+                            },
+                            column5:
+                            {
+                                elements: [
+                                    {
+                                        type: "span",
+                                        objs: [{
+                                            text: "Excludes entities under the control of a large entity",
+                                            url: null,
+                                            routerlink: null,
+                                            tooltip: null,
+                                            classes: ["noselect"]
+                                        }]
+                                    }]
+                            },
+                            column6: null,
+                            column7: null,
+                            column8: null,
+                            column9: null,
+                            column10: null
+                        },
+
+                        {
+                            column1:
+                            {
+                                elements: [
+                                    {
+                                        type: "span",
+                                        objs: [{
+                                            text: "Wholesale",
+                                            url: null,
+                                            routerlink: null,
+                                            tooltip: null,
+                                            classes: ["noselect"]
+                                        }]
+                                    }]
+                            },
+                            column2:
+                            {
+                                elements: [
+                                    {
+                                        type: "span",
+                                        objs: [{
+                                            text: "up to 100",
+                                            url: null,
+                                            routerlink: null,
+                                            tooltip: null,
+                                            classes: ["noselect"]
+                                        }]
+                                    }]
+                            },
+                            column3:
+                            {
+                                elements: [
+                                    {
+                                        type: "span",
+                                        objs: [{
+                                            text: "up to 100 million",
+                                            url: null,
+                                            routerlink: null,
+                                            tooltip: null,
+                                            classes: ["noselect"]
+                                        }]
+                                    }]
+                            },
+                            column4:
+                            {
+                                elements: [
+                                    {
+                                        type: "span",
+                                        objs: [{
+                                            text: "TODO: \"",
+                                            url: null,
+                                            routerlink: null,
+                                            tooltip: null,
+                                            classes: ["noselect"]
+                                        }]
+                                    }]
+                            },
+                            column5:
+                            {
+                                elements: [
+                                    {
+                                        type: "span",
+                                        objs: [{
+                                            text: "TODO: \"",
+                                            url: null,
+                                            routerlink: null,
+                                            tooltip: null,
+                                            classes: ["noselect"]
+                                        }]
+                                    }]
+                            },
+                            column6: null,
+                            column7: null,
+                            column8: null,
+                            column9: null,
+                            column10: null
+                        },
+
+                        {
+                            column1:
+                            {
+                                elements: [
+                                    {
+                                        type: "span",
+                                        objs: [{
+                                            text: "Service",
+                                            url: null,
+                                            routerlink: null,
+                                            tooltip: null,
+                                            classes: ["noselect"]
+                                        }]
+                                    }]
+                            },
+                            column2:
+                            {
+                                elements: [
+                                    {
+                                        type: "span",
+                                        objs: [{
+                                            text: "up to 100",
+                                            url: null,
+                                            routerlink: null,
+                                            tooltip: null,
+                                            classes: ["noselect"]
+                                        }]
+                                    }]
+                            },
+                            column3:
+                            {
+                                elements: [
+                                    {
+                                        type: "span",
+                                        objs: [{
+                                            text: "up to 50 million",
+                                            url: null,
+                                            routerlink: null,
+                                            tooltip: null,
+                                            classes: ["noselect"]
+                                        }]
+                                    }]
+                            },
+                            column4:
+                            {
+                                elements: [
+                                    {
+                                        type: "span",
+                                        objs: [{
+                                            text: "\"",
+                                            url: null,
+                                            routerlink: null,
+                                            tooltip: null,
+                                            classes: ["noselect"]
+                                        }]
+                                    }]
+                            },
+                            column5:
+                            {
+                                elements: [
+                                    {
+                                        type: "span",
+                                        objs: [{
+                                            text: "\"",
+                                            url: null,
+                                            routerlink: null,
+                                            tooltip: null,
+                                            classes: ["noselect"]
+                                        }]
+                                    }]
+                            },
+                            column6: null,
+                            column7: null,
+                            column8: null,
+                            column9: null,
+                            column10: null
+                        },
+
+                        {
+                            column1:
+                            {
+                                elements: [
+                                    {
+                                        type: "span",
+                                        objs: [{
+                                            text: "Retailing",
+                                            url: null,
+                                            routerlink: null,
+                                            tooltip: null,
+                                            classes: ["noselect"]
+                                        }]
+                                    }]
+                            },
+                            column2:
+                            {
+                                elements: [
+                                    {
+                                        type: "span",
+                                        objs: [{
+                                            text: "up to 50",
+                                            url: null,
+                                            routerlink: null,
+                                            tooltip: null,
+                                            classes: ["noselect"]
+                                        }]
+                                    }]
+                            },
+                            column3:
+                            {
+                                elements: [
+                                    {
+                                        type: "span",
+                                        objs: [{
+                                            text: "up to 50 million",
+                                            url: null,
+                                            routerlink: null,
+                                            tooltip: null,
+                                            classes: ["noselect"]
+                                        }]
+                                    }]
+                            },
+                            column4:
+                            {
+                                elements: [
+                                    {
+                                        type: "span",
+                                        objs: [{
+                                            text: "\"",
+                                            url: null,
+                                            routerlink: null,
+                                            tooltip: null,
+                                            classes: ["noselect"]
+                                        }]
+                                    }]
+                            },
+                            column5:
+                            {
+                                elements: [
+                                    {
+                                        type: "span",
+                                        objs: [{
+                                            text: "\"",
+                                            url: null,
+                                            routerlink: null,
+                                            tooltip: null,
+                                            classes: ["noselect"]
+                                        }]
+                                    }]
+                            },
+                            column6: null,
+                            column7: null,
+                            column8: null,
+                            column9: null,
+                            column10: null
+                        },
+
+                        {
+                            column1:
+                            {
+                                elements: [
+                                    {
+                                        type: "span",
+                                        objs: [{
+                                            text: "Rubber products manufacturing industry",
+                                            url: null,
+                                            routerlink: null,
+                                            tooltip: null,
+                                            classes: ["noselect"]
+                                        }]
+                                    }]
+                            },
+                            column2:
+                            {
+                                elements: [
+                                    {
+                                        type: "span",
+                                        objs: [{
+                                            text: "up to 900",
+                                            url: null,
+                                            routerlink: null,
+                                            tooltip: null,
+                                            classes: ["noselect"]
+                                        }]
+                                    }]
+                            },
+                            column3:
+                            {
+                                elements: [
+                                    {
+                                        type: "span",
+                                        objs: [{
+                                            text: "up to 300 million",
+                                            url: null,
+                                            routerlink: null,
+                                            tooltip: null,
+                                            classes: ["noselect"]
+                                        }]
+                                    }]
+                            },
+                            column4:
+                            {
+                                elements: [
+                                    {
+                                        type: "span",
+                                        objs: [{
+                                            text: "\"",
+                                            url: null,
+                                            routerlink: null,
+                                            tooltip: null,
+                                            classes: ["noselect"]
+                                        }]
+                                    }]
+                            },
+                            column5:
+                            {
+                                elements: [
+                                    {
+                                        type: "span",
+                                        objs: [{
+                                            text: "\"",
+                                            url: null,
+                                            routerlink: null,
+                                            tooltip: null,
+                                            classes: ["noselect"]
+                                        }]
+                                    }]
+                            },
+                            column6: null,
+                            column7: null,
+                            column8: null,
+                            column9: null,
+                            column10: null
+                        },
+
+                        {
+                            column1:
+                            {
+                                elements: [
+                                    {
+                                        type: "span",
+                                        objs: [{
+                                            text: "Software and information processing service",
+                                            url: null,
+                                            routerlink: null,
+                                            tooltip: null,
+                                            classes: ["noselect"]
+                                        }]
+                                    }]
+                            },
+                            column2:
+                            {
+                                elements: [
+                                    {
+                                        type: "span",
+                                        objs: [{
+                                            text: "up to 300",
+                                            url: null,
+                                            routerlink: null,
+                                            tooltip: null,
+                                            classes: ["noselect"]
+                                        }]
+                                    }]
+                            },
+                            column3:
+                            {
+                                elements: [
+                                    {
+                                        type: "span",
+                                        objs: [{
+                                            text: "up to 300 million",
+                                            url: null,
+                                            routerlink: null,
+                                            tooltip: null,
+                                            classes: ["noselect"]
+                                        }]
+                                    }]
+                            },
+                            column4:
+                            {
+                                elements: [
+                                    {
+                                        type: "span",
+                                        objs: [{
+                                            text: "\"",
+                                            url: null,
+                                            routerlink: null,
+                                            tooltip: null,
+                                            classes: ["noselect"]
+                                        }]
+                                    }]
+                            },
+                            column5:
+                            {
+                                elements: [
+                                    {
+                                        type: "span",
+                                        objs: [{
+                                            text: "\"",
+                                            url: null,
+                                            routerlink: null,
+                                            tooltip: null,
+                                            classes: ["noselect"]
+                                        }]
+                                    }]
+                            },
+                            column6: null,
+                            column7: null,
+                            column8: null,
+                            column9: null,
+                            column10: null
+                        },
+
+                        {
+                            column1:
+                            {
+                                elements: [
+                                    {
+                                        type: "span",
+                                        objs: [{
+                                            text: "Hotel business",
+                                            url: null,
+                                            routerlink: null,
+                                            tooltip: null,
+                                            classes: ["noselect"]
+                                        }]
+                                    }]
+                            },
+                            column2:
+                            {
+                                elements: [
+                                    {
+                                        type: "span",
+                                        objs: [{
+                                            text: "up to 200",
+                                            url: null,
+                                            routerlink: null,
+                                            tooltip: null,
+                                            classes: ["noselect"]
+                                        }]
+                                    }]
+                            },
+                            column3:
+                            {
+                                elements: [
+                                    {
+                                        type: "span",
+                                        objs: [{
+                                            text: "up to 50 million",
+                                            url: null,
+                                            routerlink: null,
+                                            tooltip: null,
+                                            classes: ["noselect"]
+                                        }]
+                                    }]
+                            },
+                            column4:
+                            {
+                                elements: [
+                                    {
+                                        type: "span",
+                                        objs: [{
+                                            text: "\"",
+                                            url: null,
+                                            routerlink: null,
+                                            tooltip: null,
+                                            classes: ["noselect"]
+                                        }]
+                                    }]
+                            },
+                            column5:
+                            {
+                                elements: [
+                                    {
+                                        type: "span",
+                                        objs: [{
+                                            text: "\"",
+                                            url: null,
+                                            routerlink: null,
+                                            tooltip: null,
+                                            classes: ["noselect"]
+                                        }]
+                                    }]
+                            },
+                            column6: null,
+                            column7: null,
+                            column8: null,
+                            column9: null,
+                            column10: null
+                        },
                     ],
-                    classes: null
+                    cols: ["Type of business", "Number of employees", "Amount of capital (JPY)", "Reduction", "Note"]
+                }]
+            },
+
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "2．<<Small & Medium Venture Entities>> Reduced to 1/3",
+                        type: "h2",
+                        classes: null,
+                    }
+                ]
+            },
+            {
+                type: "table",
+                objs: [{
+                    rows: [
+                        {
+                            column1:
+                            {
+                                elements: [
+                                    {
+                                        type: "span",
+                                        objs: [{
+                                            text: "Capital of ≦ JPY 300 million",
+                                            url: null,
+                                            routerlink: null,
+                                            tooltip: null,
+                                            classes: ["noselect"]
+                                        }]
+                                    }]
+                            },
+                            column2:
+                            {
+                                elements: [
+                                    {
+                                        type: "span",
+                                        objs: [{
+                                            text: "Less than 10 years from the date on which business was started",
+                                            url: null,
+                                            routerlink: null,
+                                            tooltip: null,
+                                            classes: ["noselect"]
+                                        }]
+                                    }]
+                            },
+                            column3:
+                            {
+                                elements: [
+                                    {
+                                        type: "span",
+                                        objs: [{
+                                            text: "Request for examination fees and patent annuity fees for 1st to 10th years ⇒ reduced to 1/3",
+                                            url: null,
+                                            routerlink: null,
+                                            tooltip: null,
+                                            classes: ["noselect"]
+                                        }]
+                                    }]
+                            },
+                            column4:
+                            {
+                                elements: [
+                                    {
+                                        type: "span",
+                                        objs: [{
+                                            text: "Excludes entities under the control of a large entity",
+                                            url: null,
+                                            routerlink: null,
+                                            tooltip: null,
+                                            classes: ["noselect"]
+                                        }]
+                                    }]
+                            },
+                            column5: null,
+                            column6: null,
+                            column7: null,
+                            column8: null,
+                            column9: null,
+                            column10: null
+                        },],
+                    cols: ["Size", "Conditions", "Reduction", "Note"]
+                }]
+            },
+
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "3． <<Micro Entities>> Reduced to 1/3",
+                        type: "h2",
+                        classes: null,
+                    }
+                ]
+            },
+            {
+                type: "table",
+                objs: [{
+                    rows: [
+                        {
+                            column1:
+                            {
+                                elements: [
+                                    {
+                                        type: "span",
+                                        objs: [{
+                                            text: "Commerce or service",
+                                            url: null,
+                                            routerlink: null,
+                                            tooltip: null,
+                                            classes: ["noselect"]
+                                        }]
+                                    }]
+                            },
+                            column2:
+                            {
+                                elements: [
+                                    {
+                                        type: "span",
+                                        objs: [{
+                                            text: "up to 5",
+                                            url: null,
+                                            routerlink: null,
+                                            tooltip: null,
+                                            classes: ["noselect"]
+                                        }]
+                                    }]
+                            },
+                            column3:
+                            {
+                                elements: [
+                                    {
+                                        type: "span",
+                                        objs: [{
+                                            text: "Request for examination fees Patent fees of 1st to 10th years ⇒ reduced to 1/3",
+                                            url: null,
+                                            routerlink: null,
+                                            tooltip: null,
+                                            classes: ["noselect"]
+                                        }]
+                                    }]
+                            },
+                            column4:
+                            {
+                                elements: [
+                                    {
+                                        type: "span",
+                                        objs: [{
+                                            text: "Excludes entities under the control of a large entity",
+                                            url: null,
+                                            routerlink: null,
+                                            tooltip: null,
+                                            classes: ["noselect"]
+                                        }]
+                                    }]
+                            },
+                            column5: null,
+                            column6: null,
+                            column7: null,
+                            column8: null,
+                            column9: null,
+                            column10: null
+                        },
+
+                        {
+                            column1:
+                            {
+                                elements: [
+                                    {
+                                        type: "span",
+                                        objs: [{
+                                            text: "Others",
+                                            url: null,
+                                            routerlink: null,
+                                            tooltip: null,
+                                            classes: ["noselect"]
+                                        }]
+                                    }]
+                            },
+                            column2:
+                            {
+                                elements: [
+                                    {
+                                        type: "span",
+                                        objs: [{
+                                            text: "up to 20",
+                                            url: null,
+                                            routerlink: null,
+                                            tooltip: null,
+                                            classes: ["noselect"]
+                                        }]
+                                    }]
+                            },
+                            column3:
+                            {
+                                elements: [
+                                    {
+                                        type: "span",
+                                        objs: [{
+                                            text: "\"",
+                                            url: null,
+                                            routerlink: null,
+                                            tooltip: null,
+                                            classes: ["noselect"]
+                                        }]
+                                    }]
+                            },
+                            column4:
+                            {
+                                elements: [
+                                    {
+                                        type: "span",
+                                        objs: [{
+                                            text: "\"",
+                                            url: null,
+                                            routerlink: null,
+                                            tooltip: null,
+                                            classes: ["noselect"]
+                                        }]
+                                    }]
+                            },
+                            column5: null,
+                            column6: null,
+                            column7: null,
+                            column8: null,
+                            column9: null,
+                            column10: null
+                        },
+                    ],
+                    cols: ["Industry fields", "Number of employees", "Reduction", "Note"]
                 }]
             },
         ]
@@ -5783,18 +7343,478 @@ const PATENTINVALIDATION: IExpansionPanel = {
                 }]
             },
             {
-                type: "paragraph",
+                type: "table",
                 objs: [{
-                    spans: [
+                    rows: [
                         {
-                            text: "TABLE:TODO",
-                            url: null,
-                            routerlink: null,
-                            tooltip: null,
-                            classes: null
-                        }
+                            column1:
+                            {
+                                elements: [
+                                    {
+                                        type: "span",
+                                        objs: [{
+                                            text: "Eligible person for filing",
+                                            url: null,
+                                            routerlink: null,
+                                            tooltip: null,
+                                            classes: ["noselect"]
+                                        }]
+                                    }]
+                            },
+                            column2:
+                            {
+                                elements: [
+                                    {
+                                        type: "span",
+                                        objs: [{
+                                            text: "any person",
+                                            url: null,
+                                            routerlink: null,
+                                            tooltip: null,
+                                            classes: ["noselect"]
+                                        }]
+                                    }]
+                            },
+                            column3: 
+                            {
+                                elements: [
+                                    {
+                                        type: "span",
+                                        objs: [{
+                                            text: "interested person",
+                                            url: null,
+                                            routerlink: null,
+                                            tooltip: null,
+                                            classes: ["noselect"]
+                                        }]
+                                    }]
+                            },
+                            column4: null,
+                            column5: null,
+                            column6: null,
+                            column7: null,
+                            column8: null,
+                            column9: null,
+                            column10: null
+                        },
+                    
+                        {
+                            column1:
+                            {
+                                elements: [
+                                    {
+                                        type: "span",
+                                        objs: [{
+                                            text: "Filing period",
+                                            url: null,
+                                            routerlink: null,
+                                            tooltip: null,
+                                            classes: ["noselect"]
+                                        }]
+                                    }]
+                            },
+                            column2:
+                            {
+                                elements: [
+                                    {
+                                        type: "span",
+                                        objs: [{
+                                            text: "6 months from patent publication date",
+                                            url: null,
+                                            routerlink: null,
+                                            tooltip: null,
+                                            classes: ["noselect"]
+                                        }]
+                                    }]
+                            },
+                            column3: 
+                            {
+                                elements: [
+                                    {
+                                        type: "span",
+                                        objs: [{
+                                            text: "any time after patent issuance",
+                                            url: null,
+                                            routerlink: null,
+                                            tooltip: null,
+                                            classes: ["noselect"]
+                                        }]
+                                    }]
+                            },
+                            column4: null,
+                            column5: null,
+                            column6: null,
+                            column7: null,
+                            column8: null,
+                            column9: null,
+                            column10: null
+                        },
+
+                        {
+                            column1:
+                            {
+                                elements: [
+                                    {
+                                        type: "span",
+                                        objs: [{
+                                            text: "Grounds for filing",
+                                            url: null,
+                                            routerlink: null,
+                                            tooltip: null,
+                                            classes: ["noselect"]
+                                        }]
+                                    }]
+                            },
+                            column2:
+                            {
+                                elements: [
+                                    {
+                                        type: "span",
+                                        objs: [{
+                                            text: "mainly lack of novelty and inventive step, new matter issues",
+                                            url: null,
+                                            routerlink: null,
+                                            tooltip: null,
+                                            classes: ["noselect"]
+                                        }]
+                                    }]
+                            },
+                            column3: 
+                            {
+                                elements: [
+                                    {
+                                        type: "span",
+                                        objs: [{
+                                            text: "all grounds for patentability requirements",
+                                            url: null,
+                                            routerlink: null,
+                                            tooltip: null,
+                                            classes: ["noselect"]
+                                        }]
+                                    }]
+                            },
+                            column4: null,
+                            column5: null,
+                            column6: null,
+                            column7: null,
+                            column8: null,
+                            column9: null,
+                            column10: null
+                        },
+
+                        {
+                            column1:
+                            {
+                                elements: [
+                                    {
+                                        type: "span",
+                                        objs: [{
+                                            text: "Effects of filing",
+                                            url: null,
+                                            routerlink: null,
+                                            tooltip: null,
+                                            classes: ["noselect"]
+                                        }]
+                                    }]
+                            },
+                            column2:
+                            {
+                                elements: [
+                                    {
+                                        type: "span",
+                                        objs: [{
+                                            text: "prohibition of voluntary amendments of patent; but cannot automatically stay the pending patent litigation",
+                                            url: null,
+                                            routerlink: null,
+                                            tooltip: null,
+                                            classes: ["noselect"]
+                                        }]
+                                    }]
+                            },
+                            column3: 
+                            {
+                                elements: [
+                                    {
+                                        type: "span",
+                                        objs: [{
+                                            text: "Same as on the left",
+                                            url: null,
+                                            routerlink: null,
+                                            tooltip: null,
+                                            classes: ["noselect"]
+                                        }]
+                                    }]
+                            },
+                            column4: null,
+                            column5: null,
+                            column6: null,
+                            column7: null,
+                            column8: null,
+                            column9: null,
+                            column10: null
+                        },
+
+                        {
+                            column1:
+                            {
+                                elements: [
+                                    {
+                                        type: "span",
+                                        objs: [{
+                                            text: "procedures/method of proceeding",
+                                            url: null,
+                                            routerlink: null,
+                                            tooltip: null,
+                                            classes: ["noselect"]
+                                        }]
+                                    }]
+                            },
+                            column2:
+                            {
+                                elements: [
+                                    {
+                                        type: "span",
+                                        objs: [{
+                                            text: "Ex parte procedures, conducted in principal between the JPO and patentee; Interview request from patentee side is acceptable.",
+                                            url: null,
+                                            routerlink: null,
+                                            tooltip: null,
+                                            classes: ["noselect"]
+                                        }]
+                                    }]
+                            },
+                            column3: 
+                            {
+                                elements: [
+                                    {
+                                        type: "span",
+                                        objs: [{
+                                            text: "Inter partes procedures, conducted between the petitioner and patentee;",
+                                            url: null,
+                                            routerlink: null,
+                                            tooltip: null,
+                                            classes: ["noselect"]
+                                        }]
+                                    }]
+                            },
+                            column4: null,
+                            column5: null,
+                            column6: null,
+                            column7: null,
+                            column8: null,
+                            column9: null,
+                            column10: null
+                        },
+
+                        {
+                            column1:
+                            {
+                                elements: [
+                                    {
+                                        type: "span",
+                                        objs: [{
+                                            text: "method of proceeding",
+                                            url: null,
+                                            routerlink: null,
+                                            tooltip: null,
+                                            classes: ["noselect"]
+                                        }]
+                                    }]
+                            },
+                            column2:
+                            {
+                                elements: [
+                                    {
+                                        type: "span",
+                                        objs: [{
+                                            text: "conducted by documentary proceedings.",
+                                            url: null,
+                                            routerlink: null,
+                                            tooltip: null,
+                                            classes: ["noselect"]
+                                        }]
+                                    }]
+                            },
+                            column3: 
+                            {
+                                elements: [
+                                    {
+                                        type: "span",
+                                        objs: [{
+                                            text: "Oral hearing is provided during the proceeding.",
+                                            url: null,
+                                            routerlink: null,
+                                            tooltip: null,
+                                            classes: ["noselect"]
+                                        }]
+                                    }]
+                            },
+                            column4: null,
+                            column5: null,
+                            column6: null,
+                            column7: null,
+                            column8: null,
+                            column9: null,
+                            column10: null
+                        },
+
+                        {
+                            column1:
+                            {
+                                elements: [
+                                    {
+                                        type: "span",
+                                        objs: [{
+                                            text: "Advance notice of final disposition",
+                                            url: null,
+                                            routerlink: null,
+                                            tooltip: null,
+                                            classes: ["noselect"]
+                                        }]
+                                    }]
+                            },
+                            column2:
+                            {
+                                elements: [
+                                    {
+                                        type: "span",
+                                        objs: [{
+                                            text: "Advance Notice will be given prior to final disposal and provides an opportunity for arguments/amendment, if the Board considered the patent to be cancelled.",
+                                            url: null,
+                                            routerlink: null,
+                                            tooltip: null,
+                                            classes: ["noselect"]
+                                        }]
+                                    }]
+                            },
+                            column3: 
+                            {
+                                elements: [
+                                    {
+                                        type: "span",
+                                        objs: [{
+                                            text: "Same as on the left",
+                                            url: null,
+                                            routerlink: null,
+                                            tooltip: null,
+                                            classes: ["noselect"]
+                                        }]
+                                    }]
+                            },
+                            column4: null,
+                            column5: null,
+                            column6: null,
+                            column7: null,
+                            column8: null,
+                            column9: null,
+                            column10: null
+                        },
+
+                        {
+                            column1:
+                            {
+                                elements: [
+                                    {
+                                        type: "span",
+                                        objs: [{
+                                            text: "Official Fees",
+                                            url: null,
+                                            routerlink: null,
+                                            tooltip: null,
+                                            classes: ["noselect"]
+                                        }]
+                                    }]
+                            },
+                            column2:
+                            {
+                                elements: [
+                                    {
+                                        type: "span",
+                                        objs: [{
+                                            text: "JPY 16500 +JPY2400 per number of target claims",
+                                            url: null,
+                                            routerlink: null,
+                                            tooltip: null,
+                                            classes: ["noselect"]
+                                        }]
+                                    }]
+                            },
+                            column3: 
+                            {
+                                elements: [
+                                    {
+                                        type: "span",
+                                        objs: [{
+                                            text: "JPY 49500 +JPY5500 per number of target claims",
+                                            url: null,
+                                            routerlink: null,
+                                            tooltip: null,
+                                            classes: ["noselect"]
+                                        }]
+                                    }]
+                            },
+                            column4: null,
+                            column5: null,
+                            column6: null,
+                            column7: null,
+                            column8: null,
+                            column9: null,
+                            column10: null
+                        },
+
+                        {
+                            column1:
+                            {
+                                elements: [
+                                    {
+                                        type: "span",
+                                        objs: [{
+                                            text: "Time length",
+                                            url: null,
+                                            routerlink: null,
+                                            tooltip: null,
+                                            classes: ["noselect"]
+                                        }]
+                                    }]
+                            },
+                            column2:
+                            {
+                                elements: [
+                                    {
+                                        type: "span",
+                                        objs: [{
+                                            text: "about 7.2 months (JPO 2018）",
+                                            url: null,
+                                            routerlink: null,
+                                            tooltip: null,
+                                            classes: ["noselect"]
+                                        }]
+                                    }]
+                            },
+                            column3: 
+                            {
+                                elements: [
+                                    {
+                                        type: "span",
+                                        objs: [{
+                                            text: "about 11.1 months (JPO 2018）",
+                                            url: null,
+                                            routerlink: null,
+                                            tooltip: null,
+                                            classes: ["noselect"]
+                                        }]
+                                    }]
+                            },
+                            column4: null,
+                            column5: null,
+                            column6: null,
+                            column7: null,
+                            column8: null,
+                            column9: null,
+                            column10: null
+                        },
                     ],
-                    classes: null
+                    cols: ["", "Patent Opposition", "Patent Invalidation"]
                 }]
             },
         ]
@@ -7384,74 +9404,121 @@ const PATENTLITIGAION: IExpansionPanel = {
 };
 
 const PATENTACCORDION: IAccordion = {
-            panels: [
+    panels: [
 
-                PATENTPREFACE,
-                PATENTOVERVIEW,
-                PATENTFILINGROUTES,
-                PATENTCLAIMS,
-                PATENTBASICPATENTREQS,
-                PATENTCONSIDERATIONSTECHFIELDS,
-                PATENTEXAMANDACCEL,
-                PATENTEXAMINATION,
-                PATENTAPPEAL,
-                PATENTAMENDMENT,
-                PATENTDIVISIONAL,
-                PATENTTERM,
-                PATENTFEES,
-                PATENTOPPOSITION,
-                PATENTINVALIDATION,
-                PATENTCORRECTION,
-                PATENTLITIGAION
+        PATENTPREFACE,
+        PATENTOVERVIEW,
+        PATENTFILINGROUTES,
+        PATENTCLAIMS,
+        PATENTBASICPATENTREQS,
+        PATENTCONSIDERATIONSTECHFIELDS,
+        PATENTEXAMANDACCEL,
+        PATENTEXAMINATION,
+        PATENTAPPEAL,
+        PATENTAMENDMENT,
+        PATENTDIVISIONAL,
+        PATENTTERM,
+        PATENTFEES,
+        PATENTOPPOSITION,
+        PATENTINVALIDATION,
+        PATENTCORRECTION,
+        PATENTLITIGAION
 
-                // HEREEE
-            ]
-        };
+        // HEREEE
+    ]
+};
 
-        export const PATENTGUIDANCECONTENT: IContent = {
-            elements: [
-                {
-                    type: "header",
-                    objs: [{
-                        text: "Guidance on Japanese Patent Practice",
-                        type: "h1",
-                        classes: null
-                    }]
-                },
-                {
-                    type: "span",
-                    objs: [{
-                        text: "April 29, 2021",
-                        url: null,
-                        routerlink: null,
-                        tooltip: null,
-                        classes: null,
-                    }]
-                },
-                {
-                    type: "br",
-                    objs: null
-                },
-                {
-                    type: "span",
-                    objs: [{
-                        text: "Yasunori Ohtsuka",
-                        url: null,
-                        routerlink: "/professional/1",
-                        tooltip: "",
-                        classes: null,
-                    }]
-                },
-                {
-                    type: "br",
-                    objs: null
-                },
-                {
-                    type: "br",
-                    objs: null
-                },
-                {
-                    type: "accordion",
-                    objs: [PATENTACCORDION]
-                }]
-        }
+export const PATENTGUIDANCECONTENT: IContent = {
+    elements: [
+        {
+            type: "header",
+            objs: [{
+                text: "Guidance on Japanese Patent Practice",
+                type: "h1",
+                classes: null
+            }]
+        },
+        {
+            type: "span",
+            objs: [{
+                text: "April 29, 2021",
+                url: null,
+                routerlink: null,
+                tooltip: null,
+                classes: null,
+            }]
+        },
+        {
+            type: "br",
+            objs: null
+        },
+        {
+            type: "span",
+            objs: [{
+                text: "Yasunori Ohtsuka",
+                url: null,
+                routerlink: "/professional/1",
+                tooltip: "",
+                classes: null,
+            }]
+        },
+        {
+            type: "br",
+            objs: null
+        },
+        {
+            type: "br",
+            objs: null
+        },
+        {
+            type: "accordion",
+            objs: [PATENTACCORDION]
+        }]
+}
+
+// // TABLE TEMPLATE
+// {
+//     type: "table",
+//     objs: [{
+//         rows: [
+//         {
+//             column1:
+//             {
+//                 elements: [
+//                     {
+//                         type: "span",
+//                         objs: [{
+//                             text: "",
+//                             url: null,
+//                             routerlink: null,
+//                             tooltip: null,
+//                             classes: ["noselect"]
+//                         }]
+//                     }]
+//             },
+//             column2:
+//             {
+//                 elements: [
+//                     {
+//                         type: "span",
+//                         objs: [{
+//                             text: "",
+//                             url: null,
+//                             routerlink: null,
+//                             tooltip: null,
+//                             classes: ["noselect"]
+//                         }]
+//                     }]
+//             },
+//             column3: null,
+//             column4: null,
+//             column5: null,
+//             column6: null,
+//             column7: null,
+//             column8: null,
+//             column9: null,
+//             column10: null
+//         },],
+//         cols: ["", ""]
+//     }]
+// },
