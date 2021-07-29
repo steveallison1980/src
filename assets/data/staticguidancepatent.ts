@@ -8452,7 +8452,7 @@ const PATENTLITIGAION: IExpansionPanel = {
                                             {
                                                 folder: "patentmanual",
                                                 filename: "arrow.png",
-                                                classes: ["small"]
+                                                classes: ["xsmall"]
                                             }
                                         ]
                                     },]

@@ -12,8 +12,7 @@ export class GuidanceComponent implements OnInit {
 
   constructor(
     private guidanceService: GuidanceService,
-    private route: ActivatedRoute,
-    private nav: NavigateService) { }
+    private route: ActivatedRoute) { }
 
   ngOnInit(): void {
   }

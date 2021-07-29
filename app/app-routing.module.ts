@@ -82,6 +82,10 @@ const routes: Routes = [
         component: WelcomepageComponent
       },
       {
+        path: 'welcomepage/:lang',
+        component: WelcomepageComponent
+      },
+      {
         path: 'newspage',
         component: NewspageComponent
       },

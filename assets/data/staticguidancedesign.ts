@@ -178,6 +178,21 @@ const DESIGNPANEL3: IExpansionPanel = {
                 objs: [{
                     spans: [
                         {
+                            text: "Designs for most types of industrial products on the market and even for buildings and GUIs are eligible subject matter. It is possible to register a design for an article as a whole, and also to register a partial design specific to the creative point of the design.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: ["noselect"]
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
                             text: "Specific examples are given below of registrable designs.",
                             url: null,
                             routerlink: null,
@@ -374,7 +389,7 @@ const DESIGNPANEL3: IExpansionPanel = {
                 objs: [{
                     spans: [
                         {
-                            text: 'There are cases where a design is statutory subject matter from the perspective of the Design Law, at that also constitutes an "invention" from the perspective of the Patent Law. For example, the following tire is of a shape that efficiently expels water from the center to the sides, and it would be possible to apply for both a design registration and a patent.',
+                            text: 'There are cases where a design is statutory subject matter from the perspective of the Design Law, that also constitute an "invention" from the perspective of the Patent Law. For example, the following tire is of a shape that efficiently expels water from the center to the sides, and it would be possible to apply for both a design registration for the novel appearance and a patent for the technical aspect.',
                             url: null,
                             routerlink: null,
                             tooltip: null,

@@ -45,6 +45,18 @@ export class TablerendererComponent implements OnInit {
     else
       return "hide";
   }
+  getNoShadowClass(){
+    /*for (var i=0; i<this.table.classes.length; i++){
+      if( this.table.classes[i] == "noshadow" ) return "noshadow";
+    }*/
+    return "";
+  }
+  getNoUnderlineClass(){
+    /*for (var i=0; i<this.table.classes.length; i++){
+      if( this.table.classes[i] == "nounderline" ) return "nounderline";
+    }*/
+    return "";
+  }
 
   getCol1(){
     console.log(this.table.rows);

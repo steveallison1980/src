@@ -9,7 +9,7 @@ import { Injectable } from '@angular/core';
 })
 export class LanguagesettingService {
 
-  public lang: string = "EN";
+  public lang: string = "JP";
 
   constructor() { }
 
