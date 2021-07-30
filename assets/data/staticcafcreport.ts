@@ -3354,24 +3354,6 @@ export const CAFC_REPORTS: ICAFCReport[] = [
         reportpreview: ['満了日が異なる複数の特許を自明性二重特許（ダブルパテント）の理由で無効にした判決', 'この判決は、自明性二重特許の原則が依然として存続していること、特許権者が異なる満了日の同一もしくは類似の発明をクレームした複数の特許権を持っている場合に自明性二重特許の原則がどのように適用されるかを明らかにした。この判決は、侵害被疑者が二重特許による抗弁の可能性を検討するために行う特許調査の一部として、特許権者が所有する、異なる満了日をもつ複数の特許のクレーム範囲を比較することの重要性を教えてくれる。'],
         content:
             [
-                { type: 'sub', elements: [{ link: '', texttype: '', text: '' }] },
-                { type: 'para', elements: [{ link: '', texttype: '', text: '' }] },
-                { type: 'para', elements: [{ link: '', texttype: '', text: '' }] },
-                { type: 'point', elements: [{ link: '', texttype: '', text: '' }] },
-            ],
-        authorIDs:
-            [''],
-    },
-
-    {
-        casetitle: '',
-        caseno: '',
-        reportyear: '',
-        reportmonth: '',
-        reportdate: '',
-        reportpreview: [''],
-        content:
-            [
                 { type: 'sub', elements: [{ link: '', texttype: '', text: '満了日が異なる複数の特許を自明性二重特許（ダブルパテント）の理由で無効にした判決' }] },
                 { type: 'para', elements: [{ link: '', texttype: '', text: 'ケネディ（Mathilda & Terence Kennedy Institute of Rheumatology Trust）は、抗リウマチ薬であるメトトレキサート、及びTNFαというタンパク質に対する抗体の2つの薬剤の投与に関する2件の特許、米国特許第6,270,766号（766特許）及び米国特許第7,846,442号（442特許）の特許権者である。' }] },
                 { type: 'para', elements: [{ link: '', texttype: '', text: '766特許は2つの薬剤を同時に投与する工程を含む、リウマチ性関節炎の治療方法に関するもので、2012年に特許権の存続期間が満了した。442特許の明細書は766特許の明細書と同一であるが、766特許の優先日より後の優先日を優先権主張しており、特許権は2018年まで存続する。' }] },

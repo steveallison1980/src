@@ -1,7 +1,7 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { NavigateService } from '../../../services/navigate.service';
 import { CAFC_REPORTS } from '../../../../assets/data/staticcafcreport';
-import { ICAFCReport } from '../../../interfaces/icafcreport';
+import { ICAFCReport, IContent } from '../../../interfaces/icafcreport';
 
 @Component({
   selector: 'app-cafc',
@@ -25,7 +25,22 @@ export class CafcComponent implements OnInit {
   getCAFCReports() {
     let filteryear = ""
     if( this.filter != "cafcall") filteryear = this.filter;
-    return this.reports.filter(x => x.reportpreview[0].includes(this.keyword) && x.reportyear.includes(filteryear));
+    return this.reports.filter(x => (x.reportyear.includes(filteryear) && (x.reportpreview[0].includes(this.keyword) || this.searchContent(x.content,this.keyword)) ));
+  }
+
+  searchContent(c: IContent[], needle: string){
+    var found = false;
+    c.forEach(content => {
+      content.elements.forEach(element => {
+        if( element.text.includes(needle)) {
+          found = true;
+          return true;
+        }
+      })
+      if( found ) return true;
+    });
+    if( found ) return true;
+    return false;
   }
 
   getTitle(cafc) {
