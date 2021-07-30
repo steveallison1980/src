@@ -8,7 +8,12 @@
 <div *ngFor="let report of getCAFCReports()" class="cafc-card">
     <mat-card>
         <mat-card-header>
-            <mat-card-title>{{getTitle(report)}}</mat-card-title>
+            <mat-card-title>
+                    <a routerLink="/cafcreport" (click)=clickDetails(report)>
+                        {{getTitle(report)}}
+                    </a>
+            </mat-card-title>
+            
             <mat-card-subtitle>
                 {{getPreview(report)}}
             </mat-card-subtitle>
