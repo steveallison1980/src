@@ -26,7 +26,7 @@ const DESIGNPANEL1: IExpansionPanel = {
                 objs: [{
                     spans: [
                         {
-                            text: 'In addition to harmonization, uniquely advantagous features of the Japanese Design Law has unique features such as "related designs" by which designs can be effectively protected, giving the Japanese design system have been maintained (such as related designs).',
+                            text: 'In addition to harmonization, uniquely advantageous  features of the Japanese Design Law has unique features such as "related designs" by which designs can be effectively protected, giving the Japanese design system have been maintained (such as related designs).',
                             url: null,
                             routerlink: null,
                             tooltip: null,
@@ -178,7 +178,7 @@ const DESIGNPANEL3: IExpansionPanel = {
                 objs: [{
                     spans: [
                         {
-                            text: "Designs for most types of industrial products on the market and even for buildings and GUIs are eligible subject matter. It is possible to register a design for an article as a whole, and also to register a partial design specific to the creative point of the design.",
+                            text: "Designs for all industrial products on the market, even for buildings, and graphic images are eligible subject matter. It is possible to register a design for an article as a whole, and also to register a partial design specific to the creative point of the design.",
                             url: null,
                             routerlink: null,
                             tooltip: null,
@@ -427,7 +427,7 @@ const DESIGNPANEL3: IExpansionPanel = {
                 objs: [{
                     spans: [
                         {
-                            text: "It is possible to register a partial design for a cohesive feature within an overall design. The most orthodox way to specify a partial design is to draw parts of the design that are claimed in solid lines and draw parts of the design that are not claimed in broken lines.",
+                            text: "It is possible to register a partial design for a creative point within an overall design. The most orthodox way to specify a partial design is to draw parts of the design that are claimed in solid lines and draw parts of the design that are not claimed in broken lines.",
                             url: null,
                             routerlink: null,
                             tooltip: null,
@@ -436,27 +436,41 @@ const DESIGNPANEL3: IExpansionPanel = {
                     ],
                     classes: null
                 }]
-
             },
 
             {
                 type: "designexample",
                 objs: [{
-                    regno: "114861",
+                    regno: "1148619",
                     title: "Wheel of a tire for an automobile",
                     applicant: "Honda Access Ltd.",
-                    description: {
-                        spans: [
-                            {
-                                text: "The solid lines are what is being claimed as the partial design. The dotted lines indicate only the borders between the claimed part and other parts of the article. The left side view is abbreviated since it is symmetrical to the right side view.",
-                                url: null,
-                                routerlink: null,
-                                tooltip: null,
-                                classes: ["noselect"]
-                            }
-                        ],
-                        classes: null
-                    },
+                    description: [
+                        {
+                            type: "header",
+                            objs: [
+                                {
+                                    text: "[Explanation of the design]",
+                                    type: "h3",
+                                    classes: ["bullet"],
+                                }]
+                        },
+                        {
+                            type: "paragraph",
+                            objs: [{
+                                spans: [
+                                    {
+                                        text: "The solid lines are what is being claimed as the partial design. The dotted lines indicate only the borders between the claimed part and other parts of the article. The left side view is abbreviated since it is symmetrical to the right side view.",
+                                        url: null,
+                                        routerlink: null,
+                                        tooltip: null,
+                                        classes: ["noselect"]
+                                    }
+                                ],
+                                classes: null
+                            }]
+                        },
+
+                    ],
                     shortdesc: "",
                     images: {
                         gap: "20px",
@@ -560,7 +574,7 @@ const DESIGNPANEL3: IExpansionPanel = {
                 objs: [{
                     spans: [
                         {
-                            text: "A design of a graphic image whose intended use is for a specific operation can be registered independently, as of April, 2020. A graphic image can still be registered as a partial design of an article that the image is a part of, but except in cases where the image is specific to the operation of a particular device, it is now more effective to register an independent image design.",
+                            text: "A design of a graphic image whose intended use is for a specific operation can be registered independently, as of April, 2020. A graphic image can still be registered as a partial design of an article that the image is a part of, but except in cases where the image is specific to the operation of a particular device, it is now more effective to register an independent image design that is not limited to a particular article.",
                             url: null,
                             routerlink: null,
                             tooltip: null,
@@ -576,7 +590,7 @@ const DESIGNPANEL3: IExpansionPanel = {
                 objs: [{
                     spans: [
                         {
-                            text: "It is possible to register a graphic image (icon) for performing a specific operation and a full screen as an image for operation.",
+                            text: "Although images as, for example, film and game content will not be subject matter, it is possible to register a graphic image for a specific operation of a device (image for operation) and a graphic image of results to be displayed on a device (image for display) as independent image designs that are not limited to an article.",
                             url: null,
                             routerlink: null,
                             tooltip: null,
@@ -605,7 +619,7 @@ const DESIGNPANEL3: IExpansionPanel = {
                         ],
                         classes: null
                     },
-                    shortdesc: "image (icon)",
+                    shortdesc: "image (icon: image for operation)",
                     images: {
                         gap: "20px",
                         percent: "100",
@@ -646,7 +660,7 @@ const DESIGNPANEL3: IExpansionPanel = {
                         ],
                         classes: null
                     },
-                    shortdesc: "image (screen for operation)",
+                    shortdesc: "image (screen for display)",
                     images: {
                         gap: "20px",
                         percent: "45",
@@ -700,7 +714,14 @@ const DESIGNPANEL3: IExpansionPanel = {
                     description: {
                         spans: [
                             {
-                                text: "This image displays how full a train designated by a user is when presenting information about the train to the user in a route finder app. The portion within the dotted lines (the portion that is not reddened) is what is to be registered as the partial design.",
+                                text: "This image displays how full a train designated by a user is when presenting information about the train to the user in a route finder app.",
+                                url: null,
+                                routerlink: null,
+                                tooltip: null,
+                                classes: ["noselect"]
+                            },
+                            {
+                                text: "The portion within the dotted lines (the portion that is not reddened) is what is to be registered as the partial design.",
                                 url: null,
                                 routerlink: null,
                                 tooltip: null,
@@ -767,7 +788,14 @@ const DESIGNPANEL3: IExpansionPanel = {
                     description: {
                         spans: [
                             {
-                                text: "An image for operating the electronic device such as a fan. The portion other than the dotted lines is what is to be registered as the design.",
+                                text: "An image according to this design application is an image for operating the electronic device such as a fan.",
+                                url: null,
+                                routerlink: null,
+                                tooltip: null,
+                                classes: ["noselect"]
+                            },
+                            {
+                                text: "The portion other than the dotted lines is what is to be registered as the design.",
                                 url: null,
                                 routerlink: null,
                                 tooltip: null,
@@ -813,7 +841,7 @@ const DESIGNPANEL3: IExpansionPanel = {
                 objs: [{
                     spans: [
                         {
-                            text: "A design of the external appearance of a building, and a partial interior of a building (such as a hall or room) can be registered.",
+                            text: "A design of the external appearance of a building including a building, which is a real estate that is attached to a land, and an interior of a building (such as a hall or room) can be registered.",
                             url: null,
                             routerlink: null,
                             tooltip: null,
@@ -833,7 +861,7 @@ const DESIGNPANEL3: IExpansionPanel = {
                     description: {
                         spans: [
                             {
-                                text: "The solid lines are what is claimed as a partial design. The dotted lines indicate only the borders between the claimed part and other parts of the building.",
+                                text: "The solid lines are what is claimed as a partial design.",
                                 url: null,
                                 routerlink: null,
                                 tooltip: null,
@@ -888,27 +916,13 @@ const DESIGNPANEL3: IExpansionPanel = {
             {
                 type: "designexample",
                 objs: [{
-                    regno: "1567649",
-                    title: "Assembled house",
-                    applicant: "Asahi Kasei Homes Co.",
+                    regno: "1683244",
+                    title: "Conglomerate structure",
+                    applicant: "Misawa Homes Co., Ltd.",
                     description: {
                         spans: [
                             {
-                                text: "The solid lines are what is claimed as a partial design. The dotted lines indicate only the borders between the claimed part and other parts of the building.",
-                                url: null,
-                                routerlink: null,
-                                tooltip: null,
-                                classes: ["noselect"]
-                            },
-                            {
-                                text: "The angle of the ceiling in the room is what was claimed. ",
-                                url: null,
-                                routerlink: null,
-                                tooltip: null,
-                                classes: ["noselect"]
-                            },
-                            {
-                                text: "※only some of the figures are shown",
+                                text: "The portion other than the portion that is colored blue in the perspective view into an interior from a line C-C is what is to be registered as the design.",
                                 url: null,
                                 routerlink: null,
                                 tooltip: null,
@@ -926,11 +940,11 @@ const DESIGNPANEL3: IExpansionPanel = {
                                 type: "titledimage",
                                 objs: [
                                     {
-                                        title: "cross-sectional perspective view omitting internal structure",
+                                        title: "perspective view into an interior from a line C-C",
                                         img:
                                         {
                                             folder: "designmanual",
-                                            filename: "1567649_000001.jpg",
+                                            filename: "1683244_000001.jpg",
                                             classes: ["small"]
                                         }
                                     }]
@@ -939,24 +953,11 @@ const DESIGNPANEL3: IExpansionPanel = {
                                 type: "titledimage",
                                 objs: [
                                     {
-                                        title: "partial magnified view showing claimed portion",
+                                        title: "cross-sectional view along a line C-C illustrating a region of each portion",
                                         img:
                                         {
                                             folder: "designmanual",
-                                            filename: "1567649_000002.jpg",
-                                            classes: ["small"]
-                                        }
-                                    }]
-                            },
-                            {
-                                type: "titledimage",
-                                objs: [
-                                    {
-                                        title: "perspective view",
-                                        img:
-                                        {
-                                            folder: "designmanual",
-                                            filename: "1567649_000003.jpg",
+                                            filename: "1683244_000002.jpg",
                                             classes: ["small"]
                                         }
                                     }]
@@ -980,7 +981,7 @@ const DESIGNPANEL3: IExpansionPanel = {
                 objs: [{
                     spans: [
                         {
-                            text: "A design constituted by an interior space of a building and furniture (multiple design components).",
+                            text: "A design constituted by an interior space of stores, offices, and other facilities and furniture (multiple design components).",
                             url: null,
                             routerlink: null,
                             tooltip: null,
@@ -994,13 +995,13 @@ const DESIGNPANEL3: IExpansionPanel = {
             {
                 type: "designexample",
                 objs: [{
-                    regno: "1684376",
-                    title: "Office interior",
-                    applicant: "Itoki Ltd.",
+                    regno: "1673710",
+                    title: "Showroom interior in office space",
+                    applicant: "Okamura Corporation",
                     description: {
                         spans: [
                             {
-                                text: "The shades of surfaces in the figures represent three-dimensional surfaces. The non-red portions are what is to be registered as the design.",
+                                text: "This interior is for a showroom in an office space, and a recess in the bottom left of the top view is for preparing food and drinks. The portion other than the portion that is colored purple is what is to be registered as the design.",
                                 url: null,
                                 routerlink: null,
                                 tooltip: null,
@@ -1018,76 +1019,11 @@ const DESIGNPANEL3: IExpansionPanel = {
                                 type: "titledimage",
                                 objs: [
                                     {
-                                        title: "reduced perspective view 1",
+                                        title: "perspective view",
                                         img:
                                         {
                                             folder: "designmanual",
-                                            filename: "1684376_000001.jpg",
-                                            classes: ["small"]
-                                        }
-                                    }]
-                            },
-                            {
-                                type: "titledimage",
-                                objs: [
-                                    {
-                                        title: "*reduced perspective view 2",
-                                        img:
-                                        {
-                                            folder: "designmanual",
-                                            filename: "1684376_000002.jpg",
-                                            classes: ["small"]
-                                        }
-                                    }]
-                            },
-                            {
-                                type: "titledimage",
-                                objs: [
-                                    {
-                                        title: "front view",
-                                        img:
-                                        {
-                                            folder: "designmanual",
-                                            filename: "1684376_000003.jpg",
-                                            classes: ["small"]
-                                        }
-                                    }]
-                            },
-                            {
-                                type: "titledimage",
-                                objs: [
-                                    {
-                                        title: "back view",
-                                        img:
-                                        {
-                                            folder: "designmanual",
-                                            filename: "1684376_000004.jpg",
-                                            classes: ["small"]
-                                        }
-                                    }]
-                            },
-                            {
-                                type: "titledimage",
-                                objs: [
-                                    {
-                                        title: "right side view",
-                                        img:
-                                        {
-                                            folder: "designmanual",
-                                            filename: "1684376_000005.jpg",
-                                            classes: ["small"]
-                                        }
-                                    }]
-                            },
-                            {
-                                type: "titledimage",
-                                objs: [
-                                    {
-                                        title: "left side view",
-                                        img:
-                                        {
-                                            folder: "designmanual",
-                                            filename: "1684376_000006.jpg",
+                                            filename: "1673710_000001.jpg",
                                             classes: ["small"]
                                         }
                                     }]
@@ -1100,7 +1036,7 @@ const DESIGNPANEL3: IExpansionPanel = {
                                         img:
                                         {
                                             folder: "designmanual",
-                                            filename: "1684376_000007.jpg",
+                                            filename: "1673710_000002.jpg",
                                             classes: ["small"]
                                         }
                                     }]
@@ -1132,7 +1068,7 @@ const DESIGNPANEL4: IExpansionPanel = {
                 objs: [{
                     spans: [
                         {
-                            text: 'It is a requirement that no identical or "similar" design existed prior to the application.',
+                            text: 'It is a requirement that no identical or "similar" design existed within or outside of Japan prior to the application, in other words, that it is absolutely novel.',
                             url: null,
                             routerlink: null,
                             tooltip: null,
@@ -1148,19 +1084,12 @@ const DESIGNPANEL4: IExpansionPanel = {
                 objs: [{
                     spans: [
                         {
-                            text: "The exception to this rule is when the applicant registers their own similar design as a \"related design\".",
+                            text: "The exception to this rule is when the applicant registers a design that is similar to their own registered design as a \"related design\". Please refer to \"Considering to file a related design application\" below.",
                             url: null,
                             routerlink: null,
                             tooltip: null,
                             classes: ["noselect"]
                         },
-                        {
-                            text: "Please refer to (Selecting whether to file an independent design application or a related design application).",
-                            url: null,
-                            routerlink: null,
-                            tooltip: null,
-                            classes: ["noselect"]
-                        }
                     ],
                     classes: null
                 }]
@@ -1181,6 +1110,21 @@ const DESIGNPANEL4: IExpansionPanel = {
                     spans: [
                         {
                             text: "A design's novelty is destroyed if the applicant publishes, presents the design, or sells a good incorporating the design prior to filing the design application. However, the applicant can remedy such a situation within the grace period.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: ["noselect"]
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "Note that a grace period will not be offered for a design that has been disclosed via the applicant's design or patent application.",
                             url: null,
                             routerlink: null,
                             tooltip: null,
@@ -1220,7 +1164,22 @@ const DESIGNPANEL4: IExpansionPanel = {
                 objs: [{
                     spans: [
                         {
-                            text: "Even if a design is novel, the design cannot be registered if those skilled in the art could have easily conceived of it. It is a requirement that the design not be obvious.",
+                            text: "Even if a design is novel, the design cannot be registered if those skilled in the art could have easily conceived of it.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: ["noselect"]
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "A design is obvious if it is a mere, direct reflection of a commonly known shape, such as a sphere, or pattern or is a mere collection or combination of a previously (publicly) known shape or pattern.",
                             url: null,
                             routerlink: null,
                             tooltip: null,
@@ -1260,7 +1219,7 @@ const DESIGNPANEL4: IExpansionPanel = {
                 objs: [{
                     spans: [
                         {
-                            text: 'This first-to-file system is applied to the applicant themself. If an applicant files similar designs simultaneously, they must file one as a "base design (principal design)" and the others as "related designs".',
+                            text: "A design filed in advance and is being examined constitutes prior art on the day that such a design is registered, and becomes a reason for rejection against subsequent applications.",
                             url: null,
                             routerlink: null,
                             tooltip: null,
@@ -1275,7 +1234,7 @@ const DESIGNPANEL4: IExpansionPanel = {
                 objs: [{
                     spans: [
                         {
-                            text: "A hidden design filed in advance (a secret design) constitutes prior art on the day that such a design is registered, and becomes secret prior art against other's subsequent applications.",
+                            text: 'This first-to-file system is applied to the applicant themself. If an applicant files similar designs simultaneously or on different dates, they must file one as a "base design (principal design)" and the others as "related designs" in order to register both designs.',
                             url: null,
                             routerlink: null,
                             tooltip: null,
@@ -1300,7 +1259,7 @@ const DESIGNPANEL4: IExpansionPanel = {
                 objs: [{
                     spans: [
                         {
-                            text: "It is a requirement that the design can be understood from the application and the figures.",
+                            text: "It is a requirement that the following are disclosed in detail in the application and the figures.",
                             url: null,
                             routerlink: null,
                             tooltip: null,
@@ -1319,7 +1278,7 @@ const DESIGNPANEL4: IExpansionPanel = {
                             {
                                 type: "span",
                                 objs: [{
-                                    text: "The intended use and function of design (based on those of the article of the design)",
+                                    text: "The article of the design",
                                     url: null,
                                     routerlink: null,
                                     tooltip: null,
@@ -1347,7 +1306,22 @@ const DESIGNPANEL4: IExpansionPanel = {
                 objs: [{
                     spans: [
                         {
-                            text: "",
+                            text: "One of the important prerequisites for registration is that a design can be understood in detail.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: ["noselect"]
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "If the intended use and function of an article is not clear from the name of an article in a design of an application, a description of an article is required.",
                             url: null,
                             routerlink: null,
                             tooltip: null,
@@ -1407,7 +1381,7 @@ const DESIGNPANEL5: IExpansionPanel = {
                             {
                                 type: "span",
                                 objs: [{
-                                    text: "independent design or related design? (important to consider when filing design variations: consider filing related designs)",
+                                    text: "consider filing related designs for design variations",
                                     url: null,
                                     routerlink: null,
                                     tooltip: null,
@@ -1427,7 +1401,7 @@ const DESIGNPANEL5: IExpansionPanel = {
                             {
                                 type: "span",
                                 objs: [{
-                                    text: "whole design or partial design?",
+                                    text: "select whole design or partial design",
                                     url: null,
                                     routerlink: null,
                                     tooltip: null,
@@ -1457,39 +1431,25 @@ const DESIGNPANEL5: IExpansionPanel = {
                             {
                                 type: "span",
                                 objs: [{
-                                    text: "consider application of the grace period when novelty is lost",
+                                    text: "consider applying for utilization of the grace period when novelty is lost",
                                     url: null,
                                     routerlink: null,
                                     tooltip: null,
                                     classes: ["noselect"]
                                 }]
                             },
+                            
                         ],
                         classes: null,
                     },
                 ]
-            },
-            {
-                type: "paragraph",
-                objs: [{
-                    spans: [
-                        {
-                            text: "",
-                            url: null,
-                            routerlink: null,
-                            tooltip: null,
-                            classes: ["noselect"]
-                        }
-                    ],
-                    classes: null
-                }]
             },
 
             {
                 type: "header",
                 objs: [
                     {
-                        text: "Selecting whether to file an independent design application or a related design application",
+                        text: "Considering to file a related design application",
                         type: "h3",
                         classes: ["bullet"],
                     }]
@@ -1499,7 +1459,7 @@ const DESIGNPANEL5: IExpansionPanel = {
                 objs: [{
                     spans: [
                         {
-                            text: "The Design Law provides a related design system for protecting designs. Variants of a base design can be filed successively over the 10 years from the application date of the base application, even 3 or 5 years after the base design is published. It is possible to protect design variants in a chain of designs, without being barred over novelty and obviousness with respect to the prior design various.",
+                            text: "The Japanese Design Law provides a related design system for protecting designs. Variants of a base design can be filed over the 10 years from the application date of the base application, even 3 or 5 years after the base design is published. A related design system makes it possible to protect design variants in a chain of designs, without being barred over novelty and obviousness with respect to the prior design.",
                             url: null,
                             routerlink: null,
                             tooltip: null,
@@ -1514,7 +1474,7 @@ const DESIGNPANEL5: IExpansionPanel = {
                 objs: [{
                     spans: [
                         {
-                            text: "Also, it is possible to expand the scope of protection of the design rights chained together as related designs from a based design to the extent of the degree of similarity therebetween.",
+                            text: "Also, it is possible to expand the scope of protection of the design rights chained together as related designs from a base design to the extent of the degree of similarity therebetween.",
                             url: null,
                             routerlink: null,
                             tooltip: null,
@@ -1538,7 +1498,7 @@ const DESIGNPANEL5: IExpansionPanel = {
                 objs: [{
                     spans: [
                         {
-                            text: "By employing related designs, the design rights' scope of similarity is officially confirmed, and that confirmation is declared publicly by the design registration publication. Also, even if an application filed for the purpose of confirming the scope of similarity is reject, the attempt will not be made public. Because only successful related designs are published, the applicant can effectively use the system to publish only successes. Also, if there is actually a similarity relationship between an independently registered variant design and a base design, there is risk of invalidation.",
+                            text: "By employing related designs, the design rights' scope of similarity is officially confirmed, and that confirmation is declared publicly by the design registration publication. Also, even if an application filed for the purpose of confirming the scope of similarity is rejected, the attempt will not be made public. Because only successful related designs are published, the applicant can effectively use the system to publish only successes. It is desirable to first file a related design application for designs that may be variants.",
                             url: null,
                             routerlink: null,
                             tooltip: null,
@@ -1553,7 +1513,7 @@ const DESIGNPANEL5: IExpansionPanel = {
                 objs: [{
                     spans: [
                         {
-                            text: "Even if what in fact is an obvious variant is mistakenly allowed as an independent design, because patentable distinction is thereby recognized against the base design, it has the undesired effect of narrowing the scope of the design rights. Also, because of the actual similarity relationship between the base design and the mistakenly allowed independent design in such a case, there is the risk of invalidation.",
+                            text: "If a variant design is mistakenly allowed as an independent design, because the examiner has recognized that the variant and the base design are dissimilar designs, it has the undesired effect of narrowing the interpretation of the scope of the design rights. Also, if a design that is similar is actually independently registered, there is the risk of invalidation.",
                             url: null,
                             routerlink: null,
                             tooltip: null,
@@ -1579,7 +1539,7 @@ const DESIGNPANEL5: IExpansionPanel = {
                 objs: [{
                     spans: [
                         {
-                            text: "When each design is independently registered, it means that the designs are not similar, and the scope of the designs will be treated as narrower.",
+                            text: "When each design is independently registered, it means that the designs are not similar, and the scope of similarity of the design rights will be treated as narrower.",
                             url: null,
                             routerlink: null,
                             tooltip: null,
@@ -1589,21 +1549,21 @@ const DESIGNPANEL5: IExpansionPanel = {
                     classes: null
                 }]
             },
-            {
-                type: "paragraph",
-                objs: [{
-                    spans: [
-                        {
-                            text: "The scope in which the designs are in fact similar will not be protected.",
-                            url: null,
-                            routerlink: null,
-                            tooltip: null,
-                            classes: null
-                        }
-                    ],
-                    classes: null
-                }]
-            },
+            // {
+            //     type: "paragraph",
+            //     objs: [{
+            //         spans: [
+            //             {
+            //                 text: "The scope in which the designs are in fact similar will not be protected.",
+            //                 url: null,
+            //                 routerlink: null,
+            //                 tooltip: null,
+            //                 classes: null
+            //             }
+            //         ],
+            //         classes: null
+            //     }]
+            // },
 
             {
                 type: "image",
@@ -1690,7 +1650,7 @@ const DESIGNPANEL5: IExpansionPanel = {
                             {
                                 type: "span",
                                 objs: [{
-                                    text: "Register a partial design of an article, targeting the image.",
+                                    text: "Register the portion that is a graphic image as a partial design of an article.",
                                     url: null,
                                     routerlink: null,
                                     tooltip: null,
@@ -1783,7 +1743,7 @@ const DESIGNPANEL5: IExpansionPanel = {
                 objs: [{
                     spans: [
                         {
-                            text: "A partial design can be selected if it focusses on a cohesive feature of a design.",
+                            text: "A partial design can be selected if it focusses on a feature that is the creative point of a design.",
                             url: null,
                             routerlink: null,
                             tooltip: null,
@@ -1853,7 +1813,7 @@ const DESIGNPANEL5: IExpansionPanel = {
                 objs: [{
                     spans: [
                         {
-                            text: "Only one design can be included in a single design right. It is not possible to include multiple designs in a single application.",
+                            text: "Only one design can be included in a single design right. It is not possible to include multiple designs in a single application. However, there are the following exceptions.",
                             url: null,
                             routerlink: null,
                             tooltip: null,
@@ -1869,7 +1829,7 @@ const DESIGNPANEL5: IExpansionPanel = {
                 type: "header",
                 objs: [
                     {
-                        text: "Batch application of multiple designss",
+                        text: "Batch application of multiple designs",
                         type: "h4",
                         classes: null,
                     }]
@@ -1894,7 +1854,7 @@ const DESIGNPANEL5: IExpansionPanel = {
                 objs: [{
                     spans: [
                         {
-                            text: "The JPO gives an application number to each of the designs, and each will be examined and registered separately. The application fee and registration fee will also be incurred for each design.",
+                            text: "The JPO gives an application number to each of the designs, and each will be examined and registered separately. The application fee and registration fee will also be incurred for each design. Accordingly, there is no merit in filing a batch application of multiple designs.",
                             url: null,
                             routerlink: null,
                             tooltip: null,
@@ -1919,7 +1879,7 @@ const DESIGNPANEL5: IExpansionPanel = {
                 objs: [{
                     spans: [
                         {
-                            text: 'Unity of design may be recognized in a uniform design of a sets of articles. Examples of such designs include a "set of spoons, forks, and knives", a "set of golf clubs", and a "set of audio devices".',
+                            text: 'Unity of design may be recognized in a uniform design of two or more simultaneously-used articles as a whole. Examples of such designs include a "set of utensils", a "set of furniture", and a "set of office supplies", and a design right will be granted for a set as a whole.',
                             url: null,
                             routerlink: null,
                             tooltip: null,
@@ -1930,6 +1890,30 @@ const DESIGNPANEL5: IExpansionPanel = {
                 }]
             },
 
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "Interior designs",
+                        type: "h4",
+                        classes: null,
+                    }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: 'It has become possible, as of April 1, 2020, to protect interior designs. Similarly to the design of a set of articles, this recognizes that a design of interiors of stores, offices, and other facilities constituted by multiple articles, such as furniture, as a whole is a design, and grants a right for these interiors as a whole.',
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
 
             {
                 type: "header",
@@ -1945,7 +1929,7 @@ const DESIGNPANEL5: IExpansionPanel = {
                 objs: [{
                     spans: [
                         {
-                            text: "A request can be made to delay the publication of a design application for up to 3 years after a design registration. A secret design can be requested upon application or at the time of payment of the registration fee. The period of secrecy can be changed, but is limited to 3 years.",
+                            text: "This system permits to delay the publication of a design application for up to 3 years after a design registration. A secret design can be requested upon application or at the time of payment of the registration fee. The period of secrecy can be shortened or extended, but is limited to 3 years.",
                             url: null,
                             routerlink: null,
                             tooltip: null,
@@ -1960,7 +1944,7 @@ const DESIGNPANEL5: IExpansionPanel = {
                 type: "header",
                 objs: [
                     {
-                        text: "Asserting exemption to loss of novelty and proof requirement",
+                        text: "Considering application for exception to loss of novelty",
                         type: "h3",
                         classes: ["bullet"],
                     }]
@@ -1970,7 +1954,22 @@ const DESIGNPANEL5: IExpansionPanel = {
                 objs: [{
                     spans: [
                         {
-                            text: "When a design is published in Japan before the application, the design's novelty is destroyed. To remedy this situation, it is necessary to receive an exemption to the loss of novelty within the grace period.",
+                            text: "When a design is published in Japan before the application, the design's novelty is destroyed and the design cannot be registered. To remedy this situation, it is necessary to receive an exemption to the loss of novelty within the grace period.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "When filing an application through a Paris route, the exception to loss of novelty must be asserted simultaneously with the application, and evidence therefor submitted within 30 days of the application.",
                             url: null,
                             routerlink: null,
                             tooltip: null,
@@ -2089,7 +2088,7 @@ const DESIGNPANEL6: IExpansionPanel = {
                 objs: [{
                     spans: [
                         {
-                            text: "A clarity objection may be issued if the article is unclear due to a lack of explanation of the intended use and function of the article.",
+                            text: "A clarity objection may be issued if the article lacks explanation of the intended use and function of the article and remains unclear even with the description in the application and the figures.",
                             url: null,
                             routerlink: null,
                             tooltip: null,
@@ -2115,7 +2114,7 @@ const DESIGNPANEL6: IExpansionPanel = {
                 objs: [{
                     spans: [
                         {
-                            text: "It is necessary to state whether or not the design is a whole design or a partial design. If it is a partial design, it is necessary to explain how to identify the portion for which the right is claimed.",
+                            text: "If a design is a partial design, it is necessary to explain how to identify the portion in the figures for which the right is claimed (e.g., use a solid line to draw the portion for which the right is claimed and use a dashed line for other portions, or color-code the portions).",
                             url: null,
                             routerlink: null,
                             tooltip: null,
@@ -2141,7 +2140,7 @@ const DESIGNPANEL6: IExpansionPanel = {
                 objs: [{
                     spans: [
                         {
-                            text: "It is possible to express the design by the orthographic projection method, wherein the design is clearly expressed with a sufficient number of figures, each of the same scale. Generally, it is desirable to include a front view, back view, left side view, right side view, top view, and bottom view as well as a perspective view.",
+                            text: "It is possible to express the design by the orthographic projection method, wherein the design is clearly expressed with a sufficient number of figures (e.g., a cross-sectional view, a magnified view, a perspective view, and a reference view), each of the same scale. Generally, it is desirable to include a front view, back view, left side view, right side view, top view, and bottom view as well as a perspective view.",
                             url: null,
                             routerlink: null,
                             tooltip: null,
@@ -2260,7 +2259,7 @@ const DESIGNPANEL6: IExpansionPanel = {
                 objs: [{
                     spans: [
                         {
-                            text: 'In the case of an application for a graphic image per se that is separate from any article or building, if the image is two-dimensional, it is sufficient to clearly express the design with one or more "graphic image view".',
+                            text: 'In the case of an application for a graphic image per se that is separate from any article, it is sufficient to clearly express the design with one or more "graphic image view".',
                             url: null,
                             routerlink: null,
                             tooltip: null,
@@ -2277,18 +2276,7 @@ const DESIGNPANEL6: IExpansionPanel = {
                     regno: "1683628",
                     title: "Image for facility management inspection",
                     applicant: "Toppan Printing Co., Ltd.",
-                    description: {
-                        spans: [
-                            {
-                                text: "This image is an image of an icon for launching a smartphone application.",
-                                url: null,
-                                routerlink: null,
-                                tooltip: null,
-                                classes: ["noselect"]
-                            }
-                        ],
-                        classes: null
-                    },
+                    description: null,
                     shortdesc: "image (icon)",
                     images: {
                         gap: "20px",
@@ -2310,6 +2298,67 @@ const DESIGNPANEL6: IExpansionPanel = {
                         ]
                     }
                 }]
+            },
+
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "Photos",
+                        type: "h3",
+                        classes: ["bullet"],
+                    }]
+            },
+            {
+                type: "list",
+                objs: [
+                    {
+                        type: "ul",
+                        elements: [
+                            {
+                                type: "span",
+                                objs: [{
+                                    text: "Black and white or colored photos can be used in place of the figures if they can clearly describe a design. Follow the instructions below when taking photos.",
+                                    url: null,
+                                    routerlink: null,
+                                    tooltip: null,
+                                    classes: ["noselect"]
+                                }]
+                            },
+                            {
+                                type: "span",
+                                objs: [{
+                                    text: "Take the front view and the back view.",
+                                    url: null,
+                                    routerlink: null,
+                                    tooltip: null,
+                                    classes: ["noselect"]
+                                }]
+                            },
+                            {
+                                type: "span",
+                                objs: [{
+                                    text: "Do not include the background or shadows that do not constitute the design.",
+                                    url: null,
+                                    routerlink: null,
+                                    tooltip: null,
+                                    classes: ["noselect"]
+                                }]
+                            },
+                            {
+                                type: "span",
+                                objs: [{
+                                    text: "The photo must be within 150 mm in width and 113 mm in length.",
+                                    url: null,
+                                    routerlink: null,
+                                    tooltip: null,
+                                    classes: ["noselect"]
+                                }]
+                            },
+                        ],
+                        classes: null,
+                    },
+                ]
             },
 
 
@@ -2342,7 +2391,7 @@ const DESIGNPANEL6: IExpansionPanel = {
                 objs: [{
                     spans: [
                         {
-                            text: "A general power of attorney form may be submitted to the JPO in order to cover all future cases.  A General Power of Attorney system is very convenient compared to a non-general power of attorney that must be executed and filed individually for each patent application.",
+                            text: "A general power of attorney form may be submitted to the JPO in order to cover all future cases. A General Power of Attorney system is very convenient compared to a non-general power of attorney that must be executed and filed individually for each patent application.",
                             url: null,
                             routerlink: null,
                             tooltip: null,
@@ -2521,7 +2570,7 @@ const DESIGNPANEL7: IExpansionPanel = {
                 objs: [{
                     spans: [
                         {
-                            text: "The duration of old design rights is 25 years from the application date. The duration of related designs is 25 years from the registration date of the base design. So, the duration of new design rights is longer than that of old design rights.",
+                            text: "The duration of new design rights is 25 years from the application date. The duration of related designs is 25 years from the registration date of the base design. So, the duration of new design rights is longer than that of old design rights.",
                             url: null,
                             routerlink: null,
                             tooltip: null,
@@ -2547,7 +2596,7 @@ const DESIGNPANEL7: IExpansionPanel = {
                 objs: [{
                     spans: [
                         {
-                            text: "Under the new law, it is possible to register a new design right as a related design whose base design is an old design right. The duration of the old design right is 20 years after its registration, but since the new law will now be applied to new related design rights, their duration will be 25 years from the application date of the base design. Therefore, a related design filed 10 years after the application date of its base design will be afforded 25 years of protection from the base design application date, which effectively extends the old design right (maximum 20 years).",
+                            text: "Under the new law, it is possible to register a new design right as a related design whose base design is an old design right. The duration of the old design right is 20 years after its registration, but since the new law will now be applied to new related design applications, the duration of the right thereof will be 25 years from the application date of the base design. Therefore, a related design effectively extends the old design right (maximum 20 years). Note that an application for a related design under the new law must be filed within 10 years after the application date of its base design.",
                             url: null,
                             routerlink: null,
                             tooltip: null,
@@ -2740,7 +2789,7 @@ const DESIGNPANEL7: IExpansionPanel = {
                 objs: [{
                     spans: [
                         {
-                            text: "A design right offers exclusive protection against designs that are the same or similar. Similarity is judge as follows.",
+                            text: "A design right offers exclusive protection against designs that are the same or similar.",
                             url: null,
                             routerlink: null,
                             tooltip: null,
@@ -2755,52 +2804,7 @@ const DESIGNPANEL7: IExpansionPanel = {
                 objs: [{
                     spans: [
                         {
-                            text: "Infringed if in the eye of an ordinary observer, giving such attention as a purchaser usually gives, two designs are substantially the same",
-                            url: null,
-                            routerlink: null,
-                            tooltip: null,
-                            classes: null
-                        }
-                    ],
-                    classes: null
-                }]
-            },
-            {
-                type: "paragraph",
-                objs: [{
-                    spans: [
-                        {
-                            text: "The test for infringement is fairly similar to the US test.",
-                            url: null,
-                            routerlink: null,
-                            tooltip: null,
-                            classes: null
-                        }
-                    ],
-                    classes: null
-                }]
-            },
-            {
-                type: "paragraph",
-                objs: [{
-                    spans: [
-                        {
-                            text: "Infringed if in the eye of an ordinary observer, giving such attention as a purchaser usually gives, two designs are substantially the same",
-                            url: null,
-                            routerlink: null,
-                            tooltip: null,
-                            classes: null
-                        }
-                    ],
-                    classes: null
-                }]
-            },
-            {
-                type: "paragraph",
-                objs: [{
-                    spans: [
-                        {
-                            text: "The test for infringement is fairly similar to the US test.",
+                            text: "Since a design right does not have claims that determine the scope of rights such as a patent, features of a registered design must be understood upon consideration of prosecution history, state of the art of the field of the design, and registered designs surrounding the design, and thereby the scope of a design right is studied.",
                             url: null,
                             routerlink: null,
                             tooltip: null,
@@ -2840,23 +2844,27 @@ const DESIGNPANEL7: IExpansionPanel = {
                     classes: null
                 }]
             },
-
-
             {
-                type: "header",
-                objs: [
-                    {
-                        text: "Independent designs and Related designs",
-                        type: "h3",
-                        classes: ["bullet"],
-                    }]
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "The determination of the attracted portion is based on the article.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
             },
             {
                 type: "paragraph",
                 objs: [{
                     spans: [
                         {
-                            text: "Design rights can be for an independent design or for a related design. The design rights for an independent design and its related designs have respectively independent scopes of protection. Accordingly, the scope of protection of a group of related designs, as a whole, is broader the more related designs it comprises.",
+                            text: "For example, if the article is a cellphone, the touch screen, must be attracted portion. In the process of infringement assessment, the presence of the novelty of the design as compared with the prior art may be considered.",
                             url: null,
                             routerlink: null,
                             tooltip: null,
@@ -2872,7 +2880,7 @@ const DESIGNPANEL7: IExpansionPanel = {
                 type: "header",
                 objs: [
                     {
-                        text: "Partial designs",
+                        text: "Relationship between design rights of independent designs and related designs",
                         type: "h3",
                         classes: ["bullet"],
                     }]
@@ -2882,7 +2890,48 @@ const DESIGNPANEL7: IExpansionPanel = {
                 objs: [{
                     spans: [
                         {
-                            text: "Design rights for partial designs do not merely protect the portion of the article they pertain to independently. A partial design right is evaluated considering its position in the article as a whole, its size, the and scope proportion of the article as a whole that it constitutes, and the like. A partial design right is effective against designs sharing the same creative points and overall appearance.",
+                            text: "Design rights can be for a base design or for a related design.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "The design rights for a base design and its related designs have respectively independent scopes of protection. Accordingly, the scope of protection of a group of related designs, as a whole, is broader the more related designs it comprises.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+
+
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "Design rights of partial designs",
+                        type: "h3",
+                        classes: ["bullet"],
+                    }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "Design rights for partial designs do not merely protect the portion of the article they pertain to independently. If the same type of articles share a creative point that has been registered as a partial design, a partial design right is effective. The merit of partial designs is in that the rights can be exercised without being affected by the shapes other than the creative point.",
                             url: null,
                             routerlink: null,
                             tooltip: null,
@@ -2908,7 +2957,7 @@ const DESIGNPANEL7: IExpansionPanel = {
                 objs: [{
                     spans: [
                         {
-                            text: "A graphic image design can be registered for an image for operating a device or as a image for displaying the result of operating a device. The intended use (what kind of devices it will be used in) and what kind of device's display result it constitutes will affect how an image design right is interpreted. Accordingly, the scope of protection will be decided considering the form of the graphic image itself and the intended use of the graphic image.",
+                            text: "A graphic image design can be registered for an image for operating a device or as an  image for displaying the result of operating a device. The intended use (what kind of devices it will be used in) and what kind of device's display result it constitutes will affect how an image design right is interpreted. Accordingly, the scope of protection will be decided considering the form of the graphic image itself and the intended use of the graphic image.",
                             url: null,
                             routerlink: null,
                             tooltip: null,
@@ -2922,15 +2971,6 @@ const DESIGNPANEL7: IExpansionPanel = {
         ]
     }
 };
-// {
-//     type: "header",
-//     objs: [
-//         {
-//             text: "TITLE",
-//             type: "h2",
-//             classes: null,
-//         }]
-// },
 
 
 const DESIGNPANEL8: IExpansionPanel = {
@@ -3060,7 +3100,7 @@ const DESIGNPANEL8: IExpansionPanel = {
                 type: "header",
                 objs: [
                     {
-                        text: "Length of design invalidation proceedings",
+                        text: "The length of design invalidation",
                         type: "h3",
                         classes: ["bullet"],
                     }]
@@ -3070,7 +3110,7 @@ const DESIGNPANEL8: IExpansionPanel = {
                 objs: [{
                     spans: [
                         {
-                            text: "Design invalidation proceedings will take generally it will take about one year.",
+                            text: "Regarding the length of design invalidation proceeding, it will take generally it will take about one year.",
                             url: null,
                             routerlink: null,
                             tooltip: null,
@@ -3125,7 +3165,7 @@ const DESIGNPANEL8: IExpansionPanel = {
                 type: "header",
                 objs: [
                     {
-                        text: "Relation to pending infringement lawsuit",
+                        text: "Relation with the pending infringement lawsuit",
                         type: "h3",
                         classes: ["bullet"],
                     }]
@@ -3135,7 +3175,7 @@ const DESIGNPANEL8: IExpansionPanel = {
                 objs: [{
                     spans: [
                         {
-                            text: "Invalidation trials are often filed as counter actions against the infringement action. Filing the invalidation at the JPO cannot automatically stay the court proceedings. In practice, the court rarely stays its patent infringement proceedings.",
+                            text: "Invalidation trials are often filed as counter actions against the infringement action. Filing the invalidation at the JPO cannot automatically stay the court proceedings In practice, the court rarely stays its patent infringement proceedings.",
                             url: null,
                             routerlink: null,
                             tooltip: null,
@@ -3182,7 +3222,6 @@ const DESIGNPANEL10: IExpansionPanel = {
     content:
     {
         elements: [
-
             {
                 type: "paragraph",
                 objs: [{
@@ -3249,7 +3288,7 @@ const DESIGNPANEL10: IExpansionPanel = {
                 objs: [{
                     spans: [
                         {
-                            text: "The presumption of negligence and estimated damages are similar to the case of patents. Please see our guidance thereon in the ",
+                            text: "The presumption of negligence and estimated damages are similar to the case of patents. Please see our guidance thereon in the",
                             url: null,
                             routerlink: null,
                             tooltip: null,
