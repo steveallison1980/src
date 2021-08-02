@@ -13,8 +13,10 @@ export class CafcComponent implements OnInit {
   @Input() filter: string;
 
   keyword = "";
+  searchretstr = "";
 
-  constructor(public nav: NavigateService) { }
+  constructor(
+    public nav: NavigateService) { }
 
   ngOnInit(): void {
     this.keyword = "";
@@ -24,8 +26,14 @@ export class CafcComponent implements OnInit {
 
   getCAFCReports() {
     let filteryear = ""
-    if( this.filter != "cafcall") filteryear = this.filter;
-    return this.reports.filter(x => (x.reportyear.includes(filteryear) && (x.reportpreview[0].includes(this.keyword) || this.searchContent(x.content,this.keyword)) ));
+    this.searchretstr = "";
+    var ret = this.reports.filter(x => (x.reportpreview[0].includes(this.keyword) || this.searchContent(x.content,this.keyword)) );
+    //this.searchretstr = "（検索結果数："+ret.length+"件）";
+    return ret;
+  }
+
+  getSearchResultStr(){
+    return this.searchretstr;
   }
 
   searchContent(c: IContent[], needle: string){

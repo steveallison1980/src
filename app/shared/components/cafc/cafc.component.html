@@ -1,9 +1,11 @@
+<table><tr><td>
 <form class="example-form">
     <mat-form-field class="example-full-width">
         <mat-label>Keyword search</mat-label>
         <input matInput placeholder="例：新規性" [(ngModel)]="this.keyword" [ngModelOptions]="{standalone: true}">
     </mat-form-field>
 </form>
+</td><td><span>{{getSearchResultStr()}}</span></td></tr></table>
 
 <div *ngFor="let report of getCAFCReports()" class="cafc-card">
     <mat-card>
