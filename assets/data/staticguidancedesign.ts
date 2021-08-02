@@ -1049,7 +1049,7 @@ const DESIGNPANEL3: IExpansionPanel = {
                     shortdesc: "",
                     images: {
                         gap: "20px",
-                        percent: "30",
+                        percent: "45",
                         elements: [
                             {
                                 type: "titledimage",
@@ -1169,7 +1169,7 @@ const DESIGNPANEL3: IExpansionPanel = {
                     shortdesc: "",
                     images: {
                         gap: "20px",
-                        percent: "30",
+                        percent: "45",
                         elements: [
                             {
                                 type: "titledimage",
@@ -2790,84 +2790,90 @@ const DESIGNPANEL7: IExpansionPanel = {
             },
 
             {
-                type: "elementgrid",
+                type: "table",
                 objs: [{
-                    gap: "20px",
-                    percent: "45",
-                    elements: [
+                    rows: [
                         {
-                            type: "header",
-                            objs: [
-                                {
-                                    text: "Year",
-                                    type: "h3", // may need to consider making smaller
-                                    classes: null,
-                                }]
+                            column1:
+                            {
+                                elements: [
+                                    {
+                                        type: "span",
+                                        objs: [{
+                                            text: "Year 1 to Year 3",
+                                            url: null,
+                                            routerlink: null,
+                                            tooltip: null,
+                                            classes: ["noselect"]
+                                        }]
+                                    }]
+                            },
+                            column2:
+                            {
+                                elements: [
+                                    {
+                                        type: "span",
+                                        objs: [{
+                                            text: "8,500 JPY per year",
+                                            url: null,
+                                            routerlink: null,
+                                            tooltip: null,
+                                            classes: ["noselect"]
+                                        }]
+                                    }]
+                            },
+                            column3: null,
+                            column4: null,
+                            column5: null,
+                            column6: null,
+                            column7: null,
+                            column8: null,
+                            column9: null,
+                            column10: null
                         },
                         {
-                            type: "header",
-                            objs: [
-                                {
-                                    text: "Annuity",
-                                    type: "h3", // may need to consider making smaller
-                                    classes: null,
-                                }]
+                            column1:
+                            {
+                                elements: [
+                                    {
+                                        type: "span",
+                                        objs: [{
+                                            text: "Year 4 to Year 25",
+                                            url: null,
+                                            routerlink: null,
+                                            tooltip: null,
+                                            classes: ["noselect"]
+                                        }]
+                                    }]
+                            },
+                            column2:
+                            {
+                                elements: [
+                                    {
+                                        type: "span",
+                                        objs: [{
+                                            text: "16,900 JPY per year",
+                                            url: null,
+                                            routerlink: null,
+                                            tooltip: null,
+                                            classes: ["noselect"]
+                                        }]
+                                    }]
+                            },
+                            column3: null,
+                            column4: null,
+                            column5: null,
+                            column6: null,
+                            column7: null,
+                            column8: null,
+                            column9: null,
+                            column10: null
                         },
-                        {
-                            type: "span",
-                            objs: [
-                                {
-                                    text: "Year 1 to Year 3",
-                                    url: null,
-                                    routerlink: null,
-                                    tooltip: null,
-                                    classes: null
-                                }
-                            ],
-                        },
-                        {
-                            type: "span",
-                            objs: [
-                                {
-                                    text: "8,500 JPY per year",
-                                    url: null,
-                                    routerlink: null,
-                                    tooltip: null,
-                                    classes: null
-                                }
-                            ],
-                        },
-                        {
-                            type: "span",
-                            objs: [
-                                {
-                                    text: "Year 4 to Year 25",
-                                    url: null,
-                                    routerlink: null,
-                                    tooltip: null,
-                                    classes: null
-                                }
-                            ],
-                        },
-                        {
-                            type: "span",
-                            objs: [
-                                {
-                                    text: "16,900 JPY per year",
-                                    url: null,
-                                    routerlink: null,
-                                    tooltip: null,
-                                    classes: null
-                                }
-                            ],
-                        },
-                        {
-                            type: "br",
-                            objs: null
-                        },
-                    ]
-                },]
+                    ],
+                    cols: ["Year", "Annuity"]
+                }]
             },
+
 
             {
                 type: "paragraph",
@@ -3498,6 +3504,40 @@ const DESIGNPANEL10: IExpansionPanel = {
     }
 };
 
+const DESIGNDISCLAIMER: IExpansionPanel = {
+    title: "Disclaimer",
+    description: "",
+    content:
+    {
+        elements: [
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "TODO",
+                        type: "h2",
+                        classes: null,
+                    }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "[Add disclaimer here]",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+        ]
+    }
+};
+
 // const DESIGNPANEL50: IExpansionPanel = {
 //     title: "TITLE",
 //     description: "",
@@ -3544,6 +3584,7 @@ const DESIGNACCORDION: IAccordion = {
         DESIGNPANEL8,
         DESIGNPANEL9,
         DESIGNPANEL10,
+        DESIGNDISCLAIMER,
     ]
 };
 export const DESIGNGUIDANCECONTENT: IContent = {

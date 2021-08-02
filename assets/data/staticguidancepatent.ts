@@ -9512,6 +9512,40 @@ const PATENTLITIGAION: IExpansionPanel = {
     }
 };
 
+const PATENTDISCLAIMER: IExpansionPanel = {
+    title: "Disclaimer",
+    description: "",
+    content:
+    {
+        elements: [
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "TODO",
+                        type: "h2",
+                        classes: null,
+                    }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "[Add disclaimer here]",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+        ]
+    }
+};
+
 const PATENTACCORDION: IAccordion = {
     panels: [
 
@@ -9531,9 +9565,8 @@ const PATENTACCORDION: IAccordion = {
         PATENTOPPOSITION,
         PATENTINVALIDATION,
         PATENTCORRECTION,
-        PATENTLITIGAION
-
-        // HEREEE
+        PATENTLITIGAION,
+        PATENTDISCLAIMER,
     ]
 };
 
