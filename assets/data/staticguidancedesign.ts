@@ -219,18 +219,7 @@ const DESIGNPANEL3: IExpansionPanel = {
                     regno: "1678153",
                     title: "Handbag",
                     applicant: "Louis Vuitton Marche",
-                    description: {
-                        spans: [
-                            {
-                                text: "",
-                                url: null,
-                                routerlink: null,
-                                tooltip: null,
-                                classes: ["noselect"]
-                            }
-                        ],
-                        classes: null
-                    },
+                    description: null,
                     shortdesc: "",
                     images: {
                         gap: "20px",
@@ -444,33 +433,34 @@ const DESIGNPANEL3: IExpansionPanel = {
                     regno: "1148619",
                     title: "Wheel of a tire for an automobile",
                     applicant: "Honda Access Ltd.",
-                    description: [
-                        {
-                            type: "header",
-                            objs: [
-                                {
-                                    text: "[Explanation of the design]",
-                                    type: "h3",
-                                    classes: ["bullet"],
-                                }]
-                        },
-                        {
-                            type: "paragraph",
-                            objs: [{
-                                spans: [
+                    description: {
+                        elements: [
+                            {
+                                type: "header",
+                                objs: [
                                     {
-                                        text: "The solid lines are what is being claimed as the partial design. The dotted lines indicate only the borders between the claimed part and other parts of the article. The left side view is abbreviated since it is symmetrical to the right side view.",
-                                        url: null,
-                                        routerlink: null,
-                                        tooltip: null,
-                                        classes: ["noselect"]
-                                    }
-                                ],
-                                classes: null
-                            }]
-                        },
-
-                    ],
+                                        text: "[Explanation of the design]",
+                                        type: "h3",
+                                        classes: ["noselect"],
+                                    }]
+                            },
+                            {
+                                type: "paragraph",
+                                objs: [{
+                                    spans: [
+                                        {
+                                            text: "The solid lines are what is being claimed as the partial design. The dotted lines indicate only the borders between the claimed part and other parts of the article. The left side view is abbreviated since it is symmetrical to the right side view.",
+                                            url: null,
+                                            routerlink: null,
+                                            tooltip: null,
+                                            classes: ["noselect"]
+                                        }
+                                    ],
+                                    classes: null
+                                }]
+                            },
+                        ]
+                    },
                     shortdesc: "",
                     images: {
                         gap: "20px",
@@ -608,16 +598,32 @@ const DESIGNPANEL3: IExpansionPanel = {
                     title: "Icon image",
                     applicant: "TOTO Ltd.",
                     description: {
-                        spans: [
+                        elements: [
                             {
-                                text: "This image is an image of an icon for launching a smartphone application.",
-                                url: null,
-                                routerlink: null,
-                                tooltip: null,
-                                classes: ["noselect"]
-                            }
-                        ],
-                        classes: null
+                                type: "header",
+                                objs: [
+                                    {
+                                        text: "[Explanation of the article to which the design pertains]",
+                                        type: "h3",
+                                        classes: ["noselect"],
+                                    }]
+                            },
+                            {
+                                type: "paragraph",
+                                objs: [{
+                                    spans: [
+                                        {
+                                            text: "This image is an image of an icon for launching a smartphone application. ",
+                                            url: null,
+                                            routerlink: null,
+                                            tooltip: null,
+                                            classes: ["noselect"]
+                                        }
+                                    ],
+                                    classes: null
+                                }]
+                            },
+                        ]
                     },
                     shortdesc: "image (icon: image for operation)",
                     images: {
@@ -649,16 +655,32 @@ const DESIGNPANEL3: IExpansionPanel = {
                     title: "Image for facility management inspection",
                     applicant: "Toppan Printing Co., Ltd.",
                     description: {
-                        spans: [
+                        elements: [
                             {
-                                text: "This image is for performing a daily facility inspection at a production site. Specifically, items to be inspected are displayed, inspection results are inputted, and the results are managed.",
-                                url: null,
-                                routerlink: null,
-                                tooltip: null,
-                                classes: ["noselect"]
-                            }
-                        ],
-                        classes: null
+                                type: "header",
+                                objs: [
+                                    {
+                                        text: "[Explanation of the article to which the design pertains]",
+                                        type: "h3",
+                                        classes: ["noselect"],
+                                    }]
+                            },
+                            {
+                                type: "paragraph",
+                                objs: [{
+                                    spans: [
+                                        {
+                                            text: "This image is for performing a daily facility inspection at a production site. Specifically, items to be inspected are displayed, inspection results are inputted, and the results are managed.",
+                                            url: null,
+                                            routerlink: null,
+                                            tooltip: null,
+                                            classes: ["noselect"]
+                                        }
+                                    ],
+                                    classes: null
+                                }]
+                            },
+                        ]
                     },
                     shortdesc: "image (screen for display)",
                     images: {
@@ -712,23 +734,57 @@ const DESIGNPANEL3: IExpansionPanel = {
                     title: "Image for displaying how full a train is",
                     applicant: "East Japan Railway Company",
                     description: {
-                        spans: [
+                        elements: [
                             {
-                                text: "This image displays how full a train designated by a user is when presenting information about the train to the user in a route finder app.",
-                                url: null,
-                                routerlink: null,
-                                tooltip: null,
-                                classes: ["noselect"]
+                                type: "header",
+                                objs: [
+                                    {
+                                        text: "[Explanation of the article to which the design pertains]",
+                                        type: "h3",
+                                        classes: ["noselect"],
+                                    }]
                             },
                             {
-                                text: "The portion within the dotted lines (the portion that is not reddened) is what is to be registered as the partial design.",
-                                url: null,
-                                routerlink: null,
-                                tooltip: null,
-                                classes: ["noselect"]
-                            }
-                        ],
-                        classes: null
+                                type: "paragraph",
+                                objs: [{
+                                    spans: [
+                                        {
+                                            text: "This image displays how full a train designated by a user is when presenting information about the train to the user in a route finder app.",
+                                            url: null,
+                                            routerlink: null,
+                                            tooltip: null,
+                                            classes: ["noselect"]
+                                        }
+                                    ],
+                                    classes: null
+                                }]
+                            },
+
+                            {
+                                type: "header",
+                                objs: [
+                                    {
+                                        text: "[Explanation of the design]",
+                                        type: "h3",
+                                        classes: ["noselect"],
+                                    }]
+                            },
+                            {
+                                type: "paragraph",
+                                objs: [{
+                                    spans: [
+                                        {
+                                            text: "The portion within the dotted lines (the portion that is not reddened) is what is to be registered as the partial design.",
+                                            url: null,
+                                            routerlink: null,
+                                            tooltip: null,
+                                            classes: ["noselect"]
+                                        }
+                                    ],
+                                    classes: null
+                                }]
+                            },
+                        ]
                     },
                     shortdesc: "",
                     images: {
@@ -786,23 +842,57 @@ const DESIGNPANEL3: IExpansionPanel = {
                     title: "Image for operating electronic device",
                     applicant: "Apple Inc.",
                     description: {
-                        spans: [
+                        elements: [
                             {
-                                text: "An image according to this design application is an image for operating the electronic device such as a fan.",
-                                url: null,
-                                routerlink: null,
-                                tooltip: null,
-                                classes: ["noselect"]
+                                type: "header",
+                                objs: [
+                                    {
+                                        text: "[Explanation of the article to which the design pertains]",
+                                        type: "h3",
+                                        classes: ["noselect"],
+                                    }]
                             },
                             {
-                                text: "The portion other than the dotted lines is what is to be registered as the design.",
-                                url: null,
-                                routerlink: null,
-                                tooltip: null,
-                                classes: ["noselect"]
-                            }
-                        ],
-                        classes: null
+                                type: "paragraph",
+                                objs: [{
+                                    spans: [
+                                        {
+                                            text: "An image according to this design application is an image for operating the electronic device such as a fan.",
+                                            url: null,
+                                            routerlink: null,
+                                            tooltip: null,
+                                            classes: ["noselect"]
+                                        }
+                                    ],
+                                    classes: null
+                                }]
+                            },
+
+                            {
+                                type: "header",
+                                objs: [
+                                    {
+                                        text: "[Explanation of the design]",
+                                        type: "h3",
+                                        classes: ["noselect"],
+                                    }]
+                            },
+                            {
+                                type: "paragraph",
+                                objs: [{
+                                    spans: [
+                                        {
+                                            text: "The portion other than the dotted lines is what is to be registered as the design.",
+                                            url: null,
+                                            routerlink: null,
+                                            tooltip: null,
+                                            classes: ["noselect"]
+                                        }
+                                    ],
+                                    classes: null
+                                }]
+                            },
+                        ]
                     },
                     shortdesc: "",
                     images: {
@@ -859,23 +949,48 @@ const DESIGNPANEL3: IExpansionPanel = {
                     title: "Office building",
                     applicant: "Nippon Steel Engineering Co., Ltd.",
                     description: {
-                        spans: [
+                        elements: [
                             {
-                                text: "The solid lines are what is claimed as a partial design.",
-                                url: null,
-                                routerlink: null,
-                                tooltip: null,
-                                classes: ["noselect"]
+                                type: "header",
+                                objs: [
+                                    {
+                                        text: "[Explanation of the design]",
+                                        type: "h3",
+                                        classes: ["noselect"],
+                                    }]
                             },
                             {
-                                text: "※only some of the figures are shown",
-                                url: null,
-                                routerlink: null,
-                                tooltip: null,
-                                classes: ["noselect"]
-                            }
-                        ],
-                        classes: null
+                                type: "paragraph",
+                                objs: [{
+                                    spans: [
+                                        {
+                                            text: "The solid lines are what is claimed as a partial design.",
+                                            url: null,
+                                            routerlink: null,
+                                            tooltip: null,
+                                            classes: ["noselect"]
+                                        }
+                                    ],
+                                    classes: null
+                                }]
+                            },
+                            {
+                                type: "paragraph",
+                                objs: [{
+                                    spans: [
+                                        {
+                                            text: "※only some of the figures are shown",
+                                            url: null,
+                                            routerlink: null,
+                                            tooltip: null,
+                                            classes: ["noselect"]
+                                        }
+                                    ],
+                                    classes: null
+                                }]
+                            },
+
+                        ]
                     },
                     shortdesc: "",
                     images: {
@@ -999,16 +1114,57 @@ const DESIGNPANEL3: IExpansionPanel = {
                     title: "Showroom interior in office space",
                     applicant: "Okamura Corporation",
                     description: {
-                        spans: [
+                        elements: [
                             {
-                                text: "This interior is for a showroom in an office space, and a recess in the bottom left of the top view is for preparing food and drinks. The portion other than the portion that is colored purple is what is to be registered as the design.",
-                                url: null,
-                                routerlink: null,
-                                tooltip: null,
-                                classes: ["noselect"]
-                            }
-                        ],
-                        classes: null
+                                type: "header",
+                                objs: [
+                                    {
+                                        text: "[Explanation of the article to which the design pertains]",
+                                        type: "h3",
+                                        classes: ["noselect"],
+                                    }]
+                            },
+                            {
+                                type: "paragraph",
+                                objs: [{
+                                    spans: [
+                                        {
+                                            text: "This interior is for a showroom in an office space, and a recess in the bottom left of the top view is for preparing food and drinks.",
+                                            url: null,
+                                            routerlink: null,
+                                            tooltip: null,
+                                            classes: ["noselect"]
+                                        }
+                                    ],
+                                    classes: null
+                                }]
+                            },
+
+                            {
+                                type: "header",
+                                objs: [
+                                    {
+                                        text: "[Explanation of the design]",
+                                        type: "h3",
+                                        classes: ["noselect"],
+                                    }]
+                            },
+                            {
+                                type: "paragraph",
+                                objs: [{
+                                    spans: [
+                                        {
+                                            text: "The portion other than the portion that is colored purple is what is to be registered as the design.",
+                                            url: null,
+                                            routerlink: null,
+                                            tooltip: null,
+                                            classes: ["noselect"]
+                                        }
+                                    ],
+                                    classes: null
+                                }]
+                            },
+                        ]
                     },
                     shortdesc: "",
                     images: {
@@ -1438,7 +1594,7 @@ const DESIGNPANEL5: IExpansionPanel = {
                                     classes: ["noselect"]
                                 }]
                             },
-                            
+
                         ],
                         classes: null,
                     },
@@ -2277,7 +2433,7 @@ const DESIGNPANEL6: IExpansionPanel = {
                     title: "Image for facility management inspection",
                     applicant: "Toppan Printing Co., Ltd.",
                     description: null,
-                    shortdesc: "image (icon)",
+                    shortdesc: "",
                     images: {
                         gap: "20px",
                         percent: "90",

@@ -26,7 +26,10 @@
         </table>
         <span *ngIf="hasShort()">({{getShort()}}) </span>
         <br>
-        <app-paragraphrenderer *ngIf="hasDescription()" [paragraph]="getDescription()"></app-paragraphrenderer>
+
+        <div *ngIf="hasDescription()"> 
+            <app-contentrenderer [content]="getDescription()"></app-contentrenderer>
+        </div>
         <app-elementgridrenderer [grid]="getImages()"></app-elementgridrenderer>
     </mat-card-content>
 </mat-card>

@@ -53,7 +53,7 @@ export interface IDesignExample{
     title: string;
     applicant: string;
     shortdesc: string;
-    description: IParagraph;
+    description: IContent;
     images: IElementGrid;
 }
 
