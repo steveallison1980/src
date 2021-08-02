@@ -2683,6 +2683,41 @@ const TRADEMARKOFFICIALFEES: IExpansionPanel = {
         ]
     }
 };
+
+const TRADEMARKDISCLAIMER: IExpansionPanel = {
+    title: "Disclaimer",
+    description: "",
+    content:
+    {
+        elements: [
+            {
+                type: "header",
+                objs: [
+                    {
+                        text: "TODO",
+                        type: "h2",
+                        classes: null,
+                    }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "[Add disclaimer here]",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+        ]
+    }
+};
+
 const TRADEMARKACCORDION: IAccordion = {
     panels: [
         TRADEMARKFUNDAMENTAL,
@@ -2701,6 +2736,7 @@ const TRADEMARKACCORDION: IAccordion = {
         TRADEMARKLICENSING,
         TRADEMARKMARKING,
         TRADEMARKOFFICIALFEES,
+        TRADEMARKDISCLAIMER,
     ]
 };
 
