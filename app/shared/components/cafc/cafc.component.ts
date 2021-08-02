@@ -25,14 +25,13 @@ export class CafcComponent implements OnInit {
   reports: Array<ICAFCReport> = CAFC_REPORTS;
 
   getCAFCReports() {
-    this.searchretstr = "";
     var ret = this.reports.filter(x => (x.reportpreview[0].includes(this.keyword) || this.searchContent(x.content,this.keyword)) );
-    this.searchretstr = "（検索結果数："+ret.length+"件）";
     return ret;
   }
 
-  getSearchResultStr(){
-    return this.searchretstr;
+  getSearchResultsCount(){
+    var reports = this.getCAFCReports();
+    return "（"+reports.length+"件）";
   }
 
   searchContent(c: IContent[], needle: string){
