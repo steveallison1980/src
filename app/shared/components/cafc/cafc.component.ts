@@ -25,10 +25,9 @@ export class CafcComponent implements OnInit {
   reports: Array<ICAFCReport> = CAFC_REPORTS;
 
   getCAFCReports() {
-    let filteryear = ""
     this.searchretstr = "";
     var ret = this.reports.filter(x => (x.reportpreview[0].includes(this.keyword) || this.searchContent(x.content,this.keyword)) );
-    //this.searchretstr = "（検索結果数："+ret.length+"件）";
+    this.searchretstr = "（検索結果数："+ret.length+"件）";
     return ret;
   }
 
