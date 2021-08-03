@@ -2100,20 +2100,21 @@ export const PEOPLE_DATA: IPerson[] = [
       [ {text: 'Past positions include translator & interpreter Internet and Software fields'}],
       memberships: null,
       publications: null,
-  
-      titleJP: '',
-      nameJP: '',
+
+      titleJP: '技術翻訳者',
+      nameJP: '加賀田フェレナ',
       bioJP: '',
-      specialtiesJP: null,
+      specialtiesJP: 
+        [{ text: '技術翻訳、日英両言語のネイティブスピーカー' }],
       educationJP:
-        [{ text: '' }],
+        [{ text: 'オレゴン大学　文学士号' }],
       careerJP:
-        [{ text: '' },
+        [{ text: 'インターネット・ソフトウェア分野に関する翻訳・通訳' },
         { text: '' },
         { text: '' }],
       membershipsJP: null,
       publicationsJP: null,
-  
+
       groups:
         ['pro-international']
     },

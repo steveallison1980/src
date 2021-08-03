@@ -26,7 +26,7 @@ const DESIGNPANEL1: IExpansionPanel = {
                 objs: [{
                     spans: [
                         {
-                            text: 'In addition to harmonization, uniquely advantageous  features of the Japanese Design Law has unique features such as "related designs" by which designs can be effectively protected, giving the Japanese design system have been maintained (such as related designs).',
+                            text: 'However, uniquely advantageous features of the Japanese Design Law such as "related designs" have been maintained.',
                             url: null,
                             routerlink: null,
                             tooltip: null,
