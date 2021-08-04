@@ -2873,7 +2873,10 @@ const DESIGNPANEL7: IExpansionPanel = {
                     cols: ["Year", "Annuity"]
                 }]
             },
-
+            {
+                type: "br",
+                objs: null
+            },
 
             {
                 type: "paragraph",

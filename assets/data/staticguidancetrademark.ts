@@ -2680,6 +2680,10 @@ const TRADEMARKOFFICIALFEES: IExpansionPanel = {
                 cols:["Items", "Fees"]
                 }]
             },
+            {
+                type: "br",
+                objs: null
+            },
         ]
     }
 };
@@ -2782,50 +2786,7 @@ export const TRADEMARKGUIDANCECONTENT: IContent = {
             type: "br",
             objs: null
         },
-        // {
-        //     type: "table",
-        //     objs: [{
-        //         rows:[{
-        //             column1: 
-        //             {
-        //                 elements: [
-        //                 {
-        //                     type: "span",
-        //                     objs: [{
-        //                         text: "column1test",
-        //                         url: null,
-        //                         routerlink: null,
-        //                         tooltip: null,
-        //                         classes: ["noselect"]
-        //                     }]
-        //                 }]
-        //             },
-        //             column2: 
-        //             {
-        //                 elements: [
-        //                 {
-        //                     type: "span",
-        //                     objs: [{
-        //                         text: "column1test",
-        //                         url: null,
-        //                         routerlink: null,
-        //                         tooltip: null,
-        //                         classes: ["noselect"]
-        //                     }]
-        //                 }]
-        //             },
-        //             column3: null,
-        //             column4: null,
-        //             column5: null,
-        //             column6: null,
-        //             column7: null,
-        //             column8: null,
-        //             column9: null,
-        //             column10: null
-        //         }],
-        //         cols:["column1"]
-        //     }]
-        // },
+
         {
             type: "accordion",
             objs: [TRADEMARKACCORDION]

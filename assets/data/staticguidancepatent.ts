@@ -1548,6 +1548,11 @@ const PATENTBASICPATENTREQS: IExpansionPanel = {
                     cols: ["Requirements", "Description", "Article"]
                 }]
             },
+            {
+                type: "br",
+                objs: null
+            },
+            
 
             {
                 type: "header",
@@ -3881,6 +3886,10 @@ const PATENTAPPEAL: IExpansionPanel = {
                     cols: ["Year", "Number of Appeals", "Allowed in Pre-Review", "Transferred to BOA", "Allowed at  BOA", "Rejected at BOA"]
                 }]
             },
+            {
+                type: "br",
+                objs: null
+            },
 
             {
                 type: "header",
@@ -4182,6 +4191,10 @@ const PATENTAMENDMENT: IExpansionPanel = {
                     ],
                     cols: ["Status of the Application", "Scope in which Amendment Possible"]
                 }]
+            },
+            {
+                type: "br",
+                objs: null
             },
             {
                 type: "paragraph",
@@ -5476,6 +5489,10 @@ const PATENTFEES: IExpansionPanel = {
                 }]
             },
             {
+                type: "br",
+                objs: null
+            },
+            {
                 type: "paragraph",
                 objs: [{
                     spans: [
@@ -5688,6 +5705,10 @@ const PATENTFEES: IExpansionPanel = {
                     ],
                     cols: ["Item", "Fees (Japanese Yen)"]
                 }]
+            },
+            {
+                type: "br",
+                objs: null
             },
             {
                 type: "paragraph",
@@ -6383,6 +6404,10 @@ const PATENTFEES: IExpansionPanel = {
                     cols: ["Type of business", "Number of employees", "Amount of capital (JPY)", "Reduction", "Note"]
                 }]
             },
+            {
+                type: "br",
+                objs: null
+            },
 
             {
                 type: "header",
@@ -6464,6 +6489,10 @@ const PATENTFEES: IExpansionPanel = {
                         },],
                     cols: ["Size", "Conditions", "Reduction", "Note"]
                 }]
+            },
+            {
+                type: "br",
+                objs: null
             },
 
             {
@@ -6612,6 +6641,10 @@ const PATENTFEES: IExpansionPanel = {
                     ],
                     cols: ["Industry fields", "Number of employees", "Reduction", "Note"]
                 }]
+            },
+            {
+                type: "br",
+                objs: null
             },
         ]
     }
@@ -7817,6 +7850,10 @@ const PATENTINVALIDATION: IExpansionPanel = {
                     cols: ["", "Patent Opposition", "Patent Invalidation"]
                 }]
             },
+            {
+                type: "br",
+                objs: null
+            },
         ]
     }
 };
@@ -8544,7 +8581,8 @@ const PATENTLITIGAION: IExpansionPanel = {
                                             ],
                                             cols: ["", ""]
                                         }]
-                                    },]
+                                    },
+                                ]
                             },
                             column3: null,
                             column4: null,
@@ -8558,7 +8596,10 @@ const PATENTLITIGAION: IExpansionPanel = {
                     cols: ["", ""]
                 }]
             },
-
+            {
+                type: "br",
+                objs: null
+            },
 
             {
                 type: "header",
@@ -9617,50 +9658,3 @@ export const PATENTGUIDANCECONTENT: IContent = {
             objs: [PATENTACCORDION]
         }]
 }
-
-// // TABLE TEMPLATE
-// {
-//     type: "table",
-//     objs: [{
-//         rows: [
-//         {
-//             column1:
-//             {
-//                 elements: [
-//                     {
-//                         type: "span",
-//                         objs: [{
-//                             text: "",
-//                             url: null,
-//                             routerlink: null,
-//                             tooltip: null,
-//                             classes: ["noselect"]
-//                         }]
-//                     }]
-//             },
-//             column2:
-//             {
-//                 elements: [
-//                     {
-//                         type: "span",
-//                         objs: [{
-//                             text: "",
-//                             url: null,
-//                             routerlink: null,
-//                             tooltip: null,
-//                             classes: ["noselect"]
-//                         }]
-//                     }]
-//             },
-//             column3: null,
-//             column4: null,
-//             column5: null,
-//             column6: null,
-//             column7: null,
-//             column8: null,
-//             column9: null,
-//             column10: null
-//         },],
-//         cols: ["", ""]
-//     }]
-// },

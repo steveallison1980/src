@@ -49,7 +49,7 @@ export class TablerendererComponent implements OnInit {
     /*for (var i=0; i<this.table.classes.length; i++){
       if( this.table.classes[i] == "noshadow" ) return "noshadow";
     }*/
-    return "";
+    return "noshadow";
   }
   getNoUnderlineClass(){
     /*for (var i=0; i<this.table.classes.length; i++){
