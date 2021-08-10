@@ -838,7 +838,7 @@ const DESIGNPANEL3: IExpansionPanel = {
             {
                 type: "designexample",
                 objs: [{
-                    regno: "1691760",
+                    regno: "1689582",
                     title: "Image for operating medical device",
                     applicant: "Siemens Healthcare GmbH",
                     description: {
@@ -846,7 +846,7 @@ const DESIGNPANEL3: IExpansionPanel = {
                             
                         ]
                     },
-                    shortdesc: "",
+                    shortdesc: "Thought to be a UI for a medical device workflow",
                     images: {
                         gap: "20px",
                         percent: "90",
@@ -3454,7 +3454,37 @@ const DESIGNDISCLAIMER: IExpansionPanel = {
                 objs: [{
                     spans: [
                         {
-                            text: "※The information contained in this website is provided for informational purposes only, and should not be construed as legal advice on any matter.",
+                            text: "The information contained in this website is provided for informational purposes only, and should not be construed as legal advice on any matter.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: ["smallfont", "lightfont"]
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "Please note that the commentary and examples are for reference only and may not apply in all cases or in your case.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: ["smallfont", "lightfont"]
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "Although every effort has been made to provide complete and accurate information, we make no warranties, express or implied, or representations as to the accuracy of content on this website. We assume no liability or responsibility for any error or omissions in the information contained in the website.",
                             url: null,
                             routerlink: null,
                             tooltip: null,

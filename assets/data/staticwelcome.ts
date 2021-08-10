@@ -67,7 +67,7 @@ export const WELCOMECONTENT: IContent = {
             objs: [{
                 spans: [
                     {
-                    text: "Our practice focuses on acquiring, protecting and exploiting patents and other IP assets. We have, in the last five years alone, obtained around 7,700 patents in Japan and around 8,000 patents abroad in various technical fields, such as IT-related technologies, telecommunications, semiconductors and related technologies, automobiles and mechanical devices, gaming, medical fields, as well as chemical fields.",
+                    text: "Thanks to everyone’s support since our founding in April 1974, we look forward to our continued growth and to providing a wider assortment of services to our valued clients, to whom we owe a debt of gratitude for our growth and success.",
                     url: null,
                     routerlink: null,
                     tooltip: null,

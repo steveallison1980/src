@@ -23,10 +23,14 @@
             </td>
             <td>{{getTitle()}}</td>
         </tr>
+        <tr *ngIf="hasShort()">
+            <td>
+                <b>Our comment:</b>
+            </td>
+            <td>{{getShort()}}</td>
+        </tr>
         </table>
-        <span *ngIf="hasShort()">({{getShort()}}) </span>
         <br>
-
         <div *ngIf="hasDescription()"> 
             <app-contentrenderer [content]="getDescription()"></app-contentrenderer>
         </div>
