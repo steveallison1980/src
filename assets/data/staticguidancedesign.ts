@@ -838,60 +838,12 @@ const DESIGNPANEL3: IExpansionPanel = {
             {
                 type: "designexample",
                 objs: [{
-                    regno: "1676845",
-                    title: "Image for operating electronic device",
-                    applicant: "Apple Inc.",
+                    regno: "1691760",
+                    title: "Image for operating medical device",
+                    applicant: "Siemens Healthcare GmbH",
                     description: {
                         elements: [
-                            {
-                                type: "header",
-                                objs: [
-                                    {
-                                        text: "[Explanation of the article to which the design pertains]",
-                                        type: "h3",
-                                        classes: ["noselect"],
-                                    }]
-                            },
-                            {
-                                type: "paragraph",
-                                objs: [{
-                                    spans: [
-                                        {
-                                            text: "An image according to this design application is an image for operating the electronic device such as a fan.",
-                                            url: null,
-                                            routerlink: null,
-                                            tooltip: null,
-                                            classes: ["noselect"]
-                                        }
-                                    ],
-                                    classes: null
-                                }]
-                            },
-
-                            {
-                                type: "header",
-                                objs: [
-                                    {
-                                        text: "[Explanation of the design]",
-                                        type: "h3",
-                                        classes: ["noselect"],
-                                    }]
-                            },
-                            {
-                                type: "paragraph",
-                                objs: [{
-                                    spans: [
-                                        {
-                                            text: "The portion other than the dotted lines is what is to be registered as the design.",
-                                            url: null,
-                                            routerlink: null,
-                                            tooltip: null,
-                                            classes: ["noselect"]
-                                        }
-                                    ],
-                                    classes: null
-                                }]
-                            },
+                            
                         ]
                     },
                     shortdesc: "",
@@ -907,7 +859,7 @@ const DESIGNPANEL3: IExpansionPanel = {
                                         img:
                                         {
                                             folder: "designmanual",
-                                            filename: "1676845_000001.jpg",
+                                            filename: "1691760_000001.jpg",
                                             classes: ["half"]
                                         }
                                     }]
@@ -3502,37 +3454,7 @@ const DESIGNDISCLAIMER: IExpansionPanel = {
                 objs: [{
                     spans: [
                         {
-                            text: "The information contained in this website is provided for informational purposes only, and should not be construed as legal advice on any matter.",
-                            url: null,
-                            routerlink: null,
-                            tooltip: null,
-                            classes: null
-                        }
-                    ],
-                    classes: ["smallfont", "lightfont"]
-                }]
-            },
-            {
-                type: "paragraph",
-                objs: [{
-                    spans: [
-                        {
-                            text: "Please note that the commentary and examples are for reference only and may not apply in all cases or in your case.",
-                            url: null,
-                            routerlink: null,
-                            tooltip: null,
-                            classes: null
-                        }
-                    ],
-                    classes: ["smallfont", "lightfont"]
-                }]
-            },
-            {
-                type: "paragraph",
-                objs: [{
-                    spans: [
-                        {
-                            text: "Although every effort has been made to provide complete and accurate information, we make no warranties, express or implied, or representations as to the accuracy of content on this website. We assume no liability or responsibility for any error or omissions in the information contained in the website.",
+                            text: "※The information contained in this website is provided for informational purposes only, and should not be construed as legal advice on any matter.",
                             url: null,
                             routerlink: null,
                             tooltip: null,
