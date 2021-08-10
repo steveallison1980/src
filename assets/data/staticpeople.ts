@@ -1288,8 +1288,8 @@ export const PEOPLE_DATA: IPerson[] = [
       title: 'Patent Attorney',
       qualifications: "",
       name: 'Taro Nagayoshi',
-      img: 'logo.jpg',
-      imglarge: 'logo_large.jpg',
+      img: 'taronagayoshi.jpg',
+      imglarge: 'taronagayoshi_large.jpg',
       avatar: 'taronagayoshi_avatar.jpg',
       bio: 'Add bio.', // update
       specialties:
@@ -2041,7 +2041,7 @@ export const PEOPLE_DATA: IPerson[] = [
       careerJP:
         [{ text: 'eWare (Ireland), スペースソルバ株式会社' },
         { text: 'CRM技術、デジタルカメラ・携帯電話用のミドルウエアとデバイスドライバー、インターネット関連技術の開発に携わる。' },
-        { text: 'コンピュータ分野とこれらの経験分野を得意とする。' }],
+        { text: 'コンピュータ分野とこれらの関連分野を得意とする。' }],
       membershipsJP: null,
       publicationsJP: null,
   

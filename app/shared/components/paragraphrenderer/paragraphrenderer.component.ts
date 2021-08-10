@@ -18,4 +18,13 @@ export class ParagraphrendererComponent implements OnInit {
   getSpans(){
     return this.paragraph.spans;
   }
+
+  getClasses(){
+    var ret = "";
+    if (this.paragraph.classes == null) return "";
+    for (var i=0; i<this.paragraph.classes.length; i++){
+      ret += this.paragraph.classes[i] + " ";
+    }
+    return ret;
+  }
 }

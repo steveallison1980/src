@@ -11,7 +11,7 @@ const DESIGNPANEL1: IExpansionPanel = {
                 objs: [{
                     spans: [
                         {
-                            text: "The Japanese Design Law was amended in 2019 (the amendment becoming effective April 1, 2020), and now protect essentially all types of designs. By this amendment, the requirement for disclosure of the design was relaxed, and the Japanese design system was harmonized with international practices.",
+                            text: "The Japanese Design Law was amended in 2019 (the amendment becoming effective April 1, 2020), and now protect almost all types of designs. By this amendment, the requirement for disclosure of the design was relaxed, and the Japanese design system was greatly harmonized with international practices.",
                             url: null,
                             routerlink: null,
                             tooltip: null,
@@ -79,7 +79,7 @@ const DESIGNPANEL2: IExpansionPanel = {
                 objs: [{
                     spans: [
                         {
-                            text: "The JPO has, over many years, collected not only Japanese but also foreign design publications, magazines, catalogs, pamphlets and the like, which are employed in searching.",
+                            text: "The JPO has, over many years, collected not only Japanese but also foreign design publications, magazines, catalogs, pamphlets and the like as a source of examination materials.",
                             url: null,
                             routerlink: null,
                             tooltip: null,
@@ -124,7 +124,7 @@ const DESIGNPANEL2: IExpansionPanel = {
                 objs: [{
                     spans: [
                         {
-                            text: "In the first instance, a single Examiner examines the application, and in the case where the application is rejected by the Examiner, it is possible to appeal to a board of 3 appeal examiners (second instance).",
+                            text: "In the first instance, a single Examiner examines the application, and in the case where the application is rejected by the Examiner, it is possible to appeal to the JPO Board of Appeal (second instance).",
                             url: null,
                             routerlink: null,
                             tooltip: null,
@@ -979,7 +979,7 @@ const DESIGNPANEL3: IExpansionPanel = {
                                 objs: [{
                                     spans: [
                                         {
-                                            text: "※only some of the figures are shown",
+                                            text: "※only some of the drawings are shown",
                                             url: null,
                                             routerlink: null,
                                             tooltip: null,
@@ -1295,7 +1295,7 @@ const DESIGNPANEL4: IExpansionPanel = {
                 objs: [{
                     spans: [
                         {
-                            text: "The grace period is one year from the day that the design first became publicly known. To enjoy the benefit of the grace period the applicant must declare the desire to do so and provide evidence of the disclosure.",
+                            text: "The grace period is one year from the day that the design first became publicly known. To enjoy the benefit of the grace period the applicant must claim the grace period and submit a certificate for the grace period.",
                             url: null,
                             routerlink: null,
                             tooltip: null,
@@ -1360,7 +1360,7 @@ const DESIGNPANEL4: IExpansionPanel = {
                 objs: [{
                     spans: [
                         {
-                            text: "In the case of two identical or similar designs, only the application that was filed first can be registered.",
+                            text: "In the case of two identical or similar designs, only the application that was filed first can be registered. The first design application becomes a bar against the later design application when the first application is successfully registered through the examination.",
                             url: null,
                             routerlink: null,
                             tooltip: null,
@@ -1375,7 +1375,7 @@ const DESIGNPANEL4: IExpansionPanel = {
                 objs: [{
                     spans: [
                         {
-                            text: "A design filed in advance and is being examined constitutes prior art on the day that such a design is registered, and becomes a reason for rejection against subsequent applications.",
+                            text: "Therefore, if the first application is rejected or withdrawn, it will not adversely affect later applications.",
                             url: null,
                             routerlink: null,
                             tooltip: null,
@@ -1415,7 +1415,7 @@ const DESIGNPANEL4: IExpansionPanel = {
                 objs: [{
                     spans: [
                         {
-                            text: "It is a requirement that the following are disclosed in detail in the application and the figures.",
+                            text: "It is a requirement that the following are disclosed in detail in the application and the drawings.",
                             url: null,
                             routerlink: null,
                             tooltip: null,
@@ -1477,7 +1477,7 @@ const DESIGNPANEL4: IExpansionPanel = {
                 objs: [{
                     spans: [
                         {
-                            text: "If the intended use and function of an article is not clear from the name of an article in a design of an application, a description of an article is required.",
+                            text: "If the intended use and function of an article is not clear from the name of an article in a design of an application, a description of the article is required.",
                             url: null,
                             routerlink: null,
                             tooltip: null,
@@ -1492,7 +1492,22 @@ const DESIGNPANEL4: IExpansionPanel = {
                 objs: [{
                     spans: [
                         {
-                            text: "An amendment to the figures of a design that is rejected as indefinite will be rejected since it changes the design. Thus, it is essential that the figures be checked for definiteness.",
+                            text: "A substantive change to the original drawings will be regarded as a change to the gist of the design, even if the change was intended to clarify ambiguity in the original drawings.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: ["noselect"]
+                        }
+                    ],
+                    classes: null
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "Thus, it is essential that the drawings be checked for definiteness.",
                             url: null,
                             routerlink: null,
                             tooltip: null,
@@ -1537,7 +1552,7 @@ const DESIGNPANEL5: IExpansionPanel = {
                             {
                                 type: "span",
                                 objs: [{
-                                    text: "consider filing related designs for design variations",
+                                    text: "should related designs be filed for design variations?",
                                     url: null,
                                     routerlink: null,
                                     tooltip: null,
@@ -1547,7 +1562,7 @@ const DESIGNPANEL5: IExpansionPanel = {
                             {
                                 type: "span",
                                 objs: [{
-                                    text: "consider how to apply for a design including a graphic image",
+                                    text: "is it necessary to consider how to apply for a design including a graphic image?",
                                     url: null,
                                     routerlink: null,
                                     tooltip: null,
@@ -1557,7 +1572,7 @@ const DESIGNPANEL5: IExpansionPanel = {
                             {
                                 type: "span",
                                 objs: [{
-                                    text: "select whole design or partial design",
+                                    text: "should the application be for a whole design or a partial design?",
                                     url: null,
                                     routerlink: null,
                                     tooltip: null,
@@ -1567,7 +1582,7 @@ const DESIGNPANEL5: IExpansionPanel = {
                             {
                                 type: "span",
                                 objs: [{
-                                    text: "one design or multiple designs?",
+                                    text: "should there be one design or multiple design applications?",
                                     url: null,
                                     routerlink: null,
                                     tooltip: null,
@@ -1577,7 +1592,7 @@ const DESIGNPANEL5: IExpansionPanel = {
                             {
                                 type: "span",
                                 objs: [{
-                                    text: "secret design?",
+                                    text: "should it be secret design?",
                                     url: null,
                                     routerlink: null,
                                     tooltip: null,
@@ -1587,7 +1602,7 @@ const DESIGNPANEL5: IExpansionPanel = {
                             {
                                 type: "span",
                                 objs: [{
-                                    text: "consider applying for utilization of the grace period when novelty is lost",
+                                    text: "is it necessary to claim the grace period due to publication of the design?",
                                     url: null,
                                     routerlink: null,
                                     tooltip: null,
@@ -1765,7 +1780,7 @@ const DESIGNPANEL5: IExpansionPanel = {
                 type: "header",
                 objs: [
                     {
-                        text: "Whether to select a graphic image design or a partial design of an article in the case of a design that is an image",
+                        text: "Whether to select a graphic image design or a partial design of an article in the case of an image design",
                         type: "h3",
                         classes: ["bullet"],
                     }]
@@ -1944,7 +1959,7 @@ const DESIGNPANEL5: IExpansionPanel = {
                 objs: [{
                     spans: [
                         {
-                            text: "The claimed features can be specified in the figures or photographs using solid lines or coloring.",
+                            text: "The claimed features can be specified in the drawings or photographs using solid lines or coloring.",
                             url: null,
                             routerlink: null,
                             tooltip: null,
@@ -2100,7 +2115,7 @@ const DESIGNPANEL5: IExpansionPanel = {
                 type: "header",
                 objs: [
                     {
-                        text: "Considering application for exception to loss of novelty",
+                        text: "Considering claiming the grace period (exception to loss of novelty)",
                         type: "h3",
                         classes: ["bullet"],
                     }]
@@ -2125,7 +2140,7 @@ const DESIGNPANEL5: IExpansionPanel = {
                 objs: [{
                     spans: [
                         {
-                            text: "When filing an application through a Paris route, the exception to loss of novelty must be asserted simultaneously with the application, and evidence therefor submitted within 30 days of the application.",
+                            text: "When filing an application through a Paris route, the exception to loss of novelty must be claimed simultaneously with the application, and a certificate therefor submitted within 30 days of the application.",
                             url: null,
                             routerlink: null,
                             tooltip: null,
@@ -2189,7 +2204,7 @@ const DESIGNPANEL6: IExpansionPanel = {
                 objs: [{
                     spans: [
                         {
-                            text: "The submission of a transfer from the creator to the applicant is not required.",
+                            text: "The submission of an assignment from the creator to the applicant is not required.",
                             url: null,
                             routerlink: null,
                             tooltip: null,
@@ -2214,7 +2229,7 @@ const DESIGNPANEL6: IExpansionPanel = {
                 objs: [{
                     spans: [
                         {
-                            text: "The requirements for registration of the design and the scope of protection after registration will be judged based upon the article name and the figures.",
+                            text: "The requirements for registration of the design and the scope of protection after registration will be examined based upon the article name and the drawings.",
                             url: null,
                             routerlink: null,
                             tooltip: null,
@@ -2244,7 +2259,7 @@ const DESIGNPANEL6: IExpansionPanel = {
                 objs: [{
                     spans: [
                         {
-                            text: "A clarity objection may be issued if the article lacks explanation of the intended use and function of the article and remains unclear even with the description in the application and the figures.",
+                            text: "A clarity objection may be issued if the article lacks explanation of the intended use and function of the article and remains unclear even with the description in the application and the drawings.",
                             url: null,
                             routerlink: null,
                             tooltip: null,
@@ -2270,7 +2285,7 @@ const DESIGNPANEL6: IExpansionPanel = {
                 objs: [{
                     spans: [
                         {
-                            text: "If a design is a partial design, it is necessary to explain how to identify the portion in the figures for which the right is claimed (e.g., use a solid line to draw the portion for which the right is claimed and use a dashed line for other portions, or color-code the portions).",
+                            text: "If a design is a partial design, it is necessary to explain how to identify the portion in the drawings for which the right is claimed (e.g., use a solid line to draw the portion for which the right is claimed and use a dashed line for other portions, or color-code the portions).",
                             url: null,
                             routerlink: null,
                             tooltip: null,
@@ -2286,7 +2301,7 @@ const DESIGNPANEL6: IExpansionPanel = {
                 type: "header",
                 objs: [
                     {
-                        text: "Figures",
+                        text: "Drawings",
                         type: "h3",
                         classes: ["bullet"],
                     }]
@@ -2296,7 +2311,7 @@ const DESIGNPANEL6: IExpansionPanel = {
                 objs: [{
                     spans: [
                         {
-                            text: "It is possible to express the design by the orthographic projection method, wherein the design is clearly expressed with a sufficient number of figures (e.g., a cross-sectional view, a magnified view, a perspective view, and a reference view), each of the same scale. Generally, it is desirable to include a front view, back view, left side view, right side view, top view, and bottom view as well as a perspective view.",
+                            text: "It is possible to disclose the design by the orthographic projection method, wherein the design is clearly disclosed with a sufficient number of drawings (e.g., a cross-sectional view, a magnified view, a perspective view, and a reference view), each of the same scale. Generally, it is desirable to include a front view, back view, left side view, right side view, top view, and bottom view as well as a perspective view.",
                             url: null,
                             routerlink: null,
                             tooltip: null,
@@ -2415,7 +2430,7 @@ const DESIGNPANEL6: IExpansionPanel = {
                 objs: [{
                     spans: [
                         {
-                            text: 'In the case of an application for a graphic image per se that is separate from any article, it is sufficient to clearly express the design with one or more "graphic image view".',
+                            text: 'In the case of an application for a graphic image per se that is separate from any article, it is sufficient to clearly disclose the design with one or more "graphic image view".',
                             url: null,
                             routerlink: null,
                             tooltip: null,
@@ -2474,7 +2489,7 @@ const DESIGNPANEL6: IExpansionPanel = {
                             {
                                 type: "span",
                                 objs: [{
-                                    text: "Black and white or colored photos can be used in place of the figures if they can clearly describe a design. Follow the instructions below when taking photos.",
+                                    text: "Black and white or colored photos can be used in place of the drawings if they can clearly describe a design. Follow the instructions below when taking photos.",
                                     url: null,
                                     routerlink: null,
                                     tooltip: null,
@@ -2612,7 +2627,7 @@ const DESIGNPANEL6: IExpansionPanel = {
                 objs: [{
                     spans: [
                         {
-                            text: "A prior right must be claimed at the time of the international application. A priority certificate or DAS code must be submitted within 3 months of the international publication date. Failure to do so will result in a notification from the JPO, and the priority certificate or DAS code must be submitted within 2 months of the notification.",
+                            text: "A priority right must be claimed at the time of the international application. A priority certificate or DAS code must be submitted within 3 months of the international publication date. Failure to do so will result in a notification from the JPO, and the priority certificate or DAS code must be submitted within 2 months of the notification.",
                             url: null,
                             routerlink: null,
                             tooltip: null,
@@ -2674,7 +2689,7 @@ const DESIGNPANEL7: IExpansionPanel = {
                 objs: [{
                     spans: [
                         {
-                            text: "There are two types of currently effective design rights: those that were filed by March 31, 2022 (old design rights) and those that were filed on or after April 1, 2020 (new design rights).",
+                            text: "There are two types of currently effective design rights: those that were filed by March 31, 2020 (old design rights) and those that were filed on or after April 1, 2020 (new design rights).",
                             url: null,
                             routerlink: null,
                             tooltip: null,
@@ -2944,7 +2959,7 @@ const DESIGNPANEL7: IExpansionPanel = {
                 type: "header",
                 objs: [
                     {
-                        text: "Scope of protection of a design right",
+                        text: "Scope of a design right",
                         type: "h3",
                         classes: ["bullet"],
                     }]
@@ -3164,7 +3179,7 @@ const DESIGNPANEL8: IExpansionPanel = {
                 objs: [{
                     spans: [
                         {
-                            text: "The claimant in an invalidation trial must be an interested party, and must file the claim to the JPO. Most reasons for rejection such as novelty, difficulty of creation, and the like can be asserted as reasons for invalidation. Self-collision, from which related designs are exempt, constitutes a reason for invalidation if similar designs are granted as independent designs.",
+                            text: "The claimant in an invalidation trial must be an interested party, and must file the claim to the JPO. Most reasons for rejection such as novelty, difficulty of creation, and the like can be asserted as reasons for invalidation. Self-collision, from which related designs are exempt, constitutes a reason for invalidation if similar designs are registered as independent designs.",
                             url: null,
                             routerlink: null,
                             tooltip: null,
@@ -3219,7 +3234,7 @@ const DESIGNPANEL8: IExpansionPanel = {
                 objs: [{
                     spans: [
                         {
-                            text: "There is no time limitation for filing grounds of invalidation. The request for invalidation can file after the expiration of the registered design.",
+                            text: "There is no time limitation for filing an invalidation. The request for invalidation can file after the expiration of the registered design.",
                             url: null,
                             routerlink: null,
                             tooltip: null,
@@ -3234,7 +3249,7 @@ const DESIGNPANEL8: IExpansionPanel = {
                 objs: [{
                     spans: [
                         {
-                            text: "The opposition is examined a panel of Board of Appeal Examiners (usually three examiners).",
+                            text: "The requested invalidation is examined a panel of Board of Appeal Examiners (usually three examiners).",
                             url: null,
                             routerlink: null,
                             tooltip: null,
@@ -3249,7 +3264,7 @@ const DESIGNPANEL8: IExpansionPanel = {
                 objs: [{
                     spans: [
                         {
-                            text: "Unlike with patents where the owner of the right has the opportunity to amend claims in response to an invalidation attack, a design right owner must repudiate the attack from the outset in an invalidation trial. This makes is all the more important to ensure that the figures and the name of the article are correct at the time of the application.",
+                            text: "Unlike with patents where the owner of the right has the opportunity to amend claims in response to an invalidation attack, a design right owner must repudiate the attack from the outset in an invalidation trial. This makes is all the more important to ensure that the drawings and the name of the article are correct at the time of the application.",
                             url: null,
                             routerlink: null,
                             tooltip: null,
@@ -3315,7 +3330,7 @@ const DESIGNPANEL8: IExpansionPanel = {
                 objs: [{
                     spans: [
                         {
-                            text: "The losing party can appeal against the JPO decision to the IP High Court to seek cancellation of the decision. When the decision of invalidation becomes conclusive, the registration is invalidated retroactively.",
+                            text: "The losing party can appeal against the JPO decision to the IP High Court to seek cancellation of the decision. When the decision of invalidation becomes final and binding, the registration is invalidated retroactively.",
                             url: null,
                             routerlink: null,
                             tooltip: null,
@@ -3366,7 +3381,7 @@ const DESIGNPANEL9: IExpansionPanel = {
                 objs: [{
                     spans: [
                         {
-                            text: "There is a presumption of negligence in the infringement of registered designs without permission, and an injunction claim can be made in the case of such infringement. Also, the act of making or distributing a computer program that produces an infringing design constitutes indirect infringement. The act of holding a product that infringes a design right for the purpose of selling or exporting also constitutes indirect infringement. A person who intentionally infringes a design right is subject to criminal penalties, and if a person in charge of the company commits an infringement, the company will also be fined.",
+                            text: "When someone makes, sells, or imports a registered or a similar design product without permission, this constitutes as a design right infringement. Also, the act of making or distributing a computer program that produces an infringing design constitutes indirect infringement. The act of holding a product that infringes a design right for the purpose of selling or exporting also constitutes indirect infringement. A person who intentionally infringes a design right is subject to criminal penalties, and if a person in charge of the company commits an infringement, the company will also be fined.",
                             url: null,
                             routerlink: null,
                             tooltip: null,
@@ -3382,7 +3397,7 @@ const DESIGNPANEL9: IExpansionPanel = {
 };
 
 const DESIGNPANEL10: IExpansionPanel = {
-    title: "Court cases",
+    title: "Court cases and court proceedings",
     description: "",
     content:
     {
@@ -3392,8 +3407,29 @@ const DESIGNPANEL10: IExpansionPanel = {
                 objs: [{
                     spans: [
                         {
-                            text: "Jurisdictions",
-                            url: "https://www.courts.go.jp/english/index.html",
+                            text: "The provisions of the Patent Law apply mutatis mutandis to the protection of design rights from infringement, and the court proceedings are conducted under the Code of Civil Procedure. Please refer to ",
+                            url: "",
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        },
+                        {
+                            text: "our patent guidelines",
+                            url: "",
+                            routerlink: "/guidance/patent",
+                            tooltip: null,
+                            classes: null
+                        },
+                        {
+                            text: " for details for information on court proceedings related to design right infringement. (For example, the presumption of negligence and estimated damages are similar to the case of patents)",
+                            url: "",
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        },
+                        {
+                            text: "In addition, in an infringement trial, a defendant can argue that the design registration is invalid as in patent cases.",
+                            url: "",
                             routerlink: null,
                             tooltip: null,
                             classes: null
@@ -3402,13 +3438,12 @@ const DESIGNPANEL10: IExpansionPanel = {
                     classes: null
                 }]
             },
-
             {
                 type: "paragraph",
                 objs: [{
                     spans: [
                         {
-                            text: "The respective district courts have jurisdiction over design right cases.",
+                            text: "Design court cases are given jurisdiction that is different from the jurisdiction of patent. The respective district courts located in each prefecture have jurisdiction over the design right cases.",
                             url: null,
                             routerlink: null,
                             tooltip: null,
@@ -3448,93 +3483,63 @@ const DESIGNPANEL10: IExpansionPanel = {
                     classes: null
                 }]
             },
-            {
-                type: "paragraph",
-                objs: [{
-                    spans: [
-                        {
-                            text: "The presumption of negligence and estimated damages are similar to the case of patents. Please see our guidance thereon in the",
-                            url: null,
-                            routerlink: null,
-                            tooltip: null,
-                            classes: null
-                        },
-                        {
-                            text: "patent section.",
-                            url: null,
-                            routerlink: "/guidance/patent",
-                            tooltip: null,
-                            classes: null
-                        },
-                    ],
-                    classes: null
-                }]
-            },
-
-
-            {
-                type: "header",
-                objs: [
-                    {
-                        text: "Relation to pending infringement lawsuit",
-                        type: "h3",
-                        classes: ["bullet"],
-                    }]
-            },
-            {
-                type: "paragraph",
-                objs: [{
-                    spans: [
-                        {
-                            text: "In addition, in an infringement trial, a defendant can argue that the design registration is invalid. Please see our corresponding guidance thereon in the",
-                            url: null,
-                            routerlink: null,
-                            tooltip: null,
-                            classes: null
-                        },
-                        {
-                            text: "patent section.",
-                            url: null,
-                            routerlink: "/guidance/patent",
-                            tooltip: null,
-                            classes: null
-                        }
-                    ],
-                    classes: null
-                }]
-            },
         ]
     }
 };
 
 const DESIGNDISCLAIMER: IExpansionPanel = {
-    title: "Disclaimer",
+    title: "",
     description: "",
     content:
     {
         elements: [
             {
-                type: "header",
-                objs: [
-                    {
-                        text: "TODO",
-                        type: "h2",
-                        classes: null,
-                    }]
+                type: "br",
+                objs: null
             },
             {
                 type: "paragraph",
                 objs: [{
                     spans: [
                         {
-                            text: "[Add disclaimer here]",
+                            text: "The information contained in this website is provided for informational purposes only, and should not be construed as legal advice on any matter.",
                             url: null,
                             routerlink: null,
                             tooltip: null,
                             classes: null
                         }
                     ],
-                    classes: null
+                    classes: ["smallfont", "lightfont"]
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "Please note that the commentary and examples are for reference only and may not apply in all cases or in your case.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: ["smallfont", "lightfont"]
+                }]
+            },
+            {
+                type: "paragraph",
+                objs: [{
+                    spans: [
+                        {
+                            text: "Although every effort has been made to provide complete and accurate information, we make no warranties, express or implied, or representations as to the accuracy of content on this website. We assume no liability or responsibility for any error or omissions in the information contained in the website.",
+                            url: null,
+                            routerlink: null,
+                            tooltip: null,
+                            classes: null
+                        }
+                    ],
+                    classes: ["smallfont", "lightfont"]
                 }]
             },
         ]
@@ -3603,7 +3608,7 @@ export const DESIGNGUIDANCECONTENT: IContent = {
         {
             type: "span",
             objs: [{
-                text: "June 2, 2021",
+                text: "June 2, 2021, revised on August 6, 2021",
                 url: null,
                 routerlink: null,
                 tooltip: null,
