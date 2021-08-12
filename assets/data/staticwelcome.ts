@@ -7,7 +7,7 @@ export const WELCOMECONTENT: IContent = {
             objs: [{
                 spans: [
                     {
-                    text: "Thanks to everyone’s support, we were able to celebrate the 46th anniversary of our founding in April 1974.",
+                    text: "Thanks to everyone’s support since our founding in April 1974, we have been able to continue to grow and to provide a wider assortment of services to our valued clients, to whom we owe a debt of gratitude.",
                     url: null,
                     routerlink: null,
                     tooltip: null,
@@ -67,7 +67,7 @@ export const WELCOMECONTENT: IContent = {
             objs: [{
                 spans: [
                     {
-                    text: "Thanks to everyone’s support since our founding in April 1974, we look forward to our continued growth and to providing a wider assortment of services to our valued clients, to whom we owe a debt of gratitude for our growth and success.",
+                    text: "Thanks to everyone’s support since our founding in April 1974, we have been able to continue to grow and to provide a wider assortment of services to our valued clients, to whom we owe a debt of gratitude.",
                     url: null,
                     routerlink: null,
                     tooltip: null,

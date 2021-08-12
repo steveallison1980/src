@@ -11,9 +11,8 @@ export const SITEMAP_DATA: ISitemap =
             defaultsubpage: 'welcomepage',
             links: [
                 { text: 'Welcome Message', textJP: 'ご挨拶', icon: 'local_florist', subPage: 'welcomepage', curPage: 'home', routerlink: '/welcomepage', displayMode: 'both' },
-                { text: 'What\'s New', textJP: '最新情報', icon: 'announcement', subPage: 'newspage', curPage: 'home', routerlink: '/newspage', displayMode: 'both' },
-                { text: 'Contact Information/Map', textJP: 'お問い合わせ・アクセス', icon: 'call', subPage: 'contactpage', curPage: 'home', routerlink: '/contactpage', displayMode: 'both' },
-                { text: 'Publications', textJP: '書籍', icon: 'local_library', subPage: 'publicationspage', curPage: 'home', routerlink: '/publicationspage', displayMode: 'both' }],
+                /*{ text: 'What\'s New', textJP: '最新情報', icon: 'announcement', subPage: 'newspage', curPage: 'home', routerlink: '/newspage', displayMode: 'both' },*/
+                { text: 'Contact', textJP: 'お問い合わせ・アクセス', icon: 'call', subPage: 'contactpage', curPage: 'home', routerlink: '/contactpage', displayMode: 'both' }],
             displayMode: "",
         },
         {
@@ -24,9 +23,9 @@ export const SITEMAP_DATA: ISitemap =
             defaultsubpage: 'aboutpage',
             links: [
                 { text: 'About the Firm', textJP: '当事務所について', icon: 'people', subPage: 'aboutpage', curPage: 'aboutus', routerlink: '/aboutpage', displayMode: 'both' },
-                { text: 'An Overview', textJP: '事務所概要', icon: 'menu_book', subPage: 'overviewpage', curPage: 'aboutus', routerlink: '/overviewpage', displayMode: 'both' },
+                /*{ text: 'An Overview', textJP: '事務所概要', icon: 'menu_book', subPage: 'overviewpage', curPage: 'aboutus', routerlink: '/overviewpage', displayMode: 'both' },*/
                 { text: 'Key Features', textJP: '特色', icon: 'format_list_bulleted', subPage: 'keyfeaturespage', curPage: 'aboutus', routerlink: '/keyfeaturespage', displayMode: 'both' },
-                { text: 'Contact Information/Map', textJP: 'お問い合わせ・アクセス', icon: 'call', subPage: 'aboutcontactpage', curPage: 'aboutus', routerlink: '/aboutcontactpage', displayMode: 'both' }],
+                { text: 'Contact', textJP: 'お問い合わせ・アクセス', icon: 'call', subPage: 'aboutcontactpage', curPage: 'aboutus', routerlink: '/aboutcontactpage', displayMode: 'both' }],
             displayMode: ""
         },
         {
@@ -39,7 +38,9 @@ export const SITEMAP_DATA: ISitemap =
                 { text: 'Patents & Utility Models', textJP: '特許・実用新案取得', icon: 'lightbulb', subPage: 'patentspage', curPage: 'ourservices', routerlink: '/patentspage', displayMode: 'both' },
                 { text: 'Designs & Trademarks', textJP: '意匠・商標登録', icon: 'category', subPage: 'designstmpage', curPage: 'ourservices', routerlink: '/designstmpage', displayMode: 'both' },
                 { text: 'Litigation & Strategy', textJP: '訴訟・特許戦略・特許調査', icon: 'gavel', subPage: 'litigationpage', curPage: 'ourservices', routerlink: '/litigationpage', displayMode: 'both' },
-                { text: 'Case Studies', textJP: '判例紹介', icon: 'menu_book', subPage: 'casestudiespage', curPage: 'ourservices', routerlink: '/casestudiespage', displayMode: 'both' }],
+                { text: 'Case Studies', textJP: '判例紹介', icon: 'menu_book', subPage: 'casestudiespage', curPage: 'ourservices', routerlink: '/casestudiespage', displayMode: 'both' },
+                { text: 'Publications', textJP: '書籍', icon: 'local_library', subPage: 'publicationspage', curPage: 'home', routerlink: '/publicationspage', displayMode: 'both' }
+            ],
             displayMode: ""
         },
         {
@@ -57,7 +58,7 @@ export const SITEMAP_DATA: ISitemap =
                 { text: 'Designs', textJP: '意匠', icon: 'category', subPage: 'pro-designs', curPage: 'professionals', routerlink: '/pro-designs', displayMode: 'both' },
                 { text: 'Medical Devices', textJP: '医療機器', icon: 'biotech', subPage: 'pro-meddevices', curPage: 'professionals', routerlink: '/pro-meddevices', displayMode: 'both' },
                 { text: 'Chem, Pharma & Biotech', textJP: '化学・医薬・バイオ', icon: 'science', subPage: 'pro-chempharmabio', curPage: 'professionals', routerlink: '/pro-chempharmabio', displayMode: 'both' },
-                { text: 'Toys and Games', textJP: 'アミューズメント・ゲーム', icon: 'videogame_asset', subPage: 'pro-toysgames', curPage: 'professionals', routerlink: '/pro-toysgames', displayMode: 'both' },
+                { text: 'Games etc.', textJP: 'アミューズメント・ゲーム', icon: 'videogame_asset', subPage: 'pro-toysgames', curPage: 'professionals', routerlink: '/pro-toysgames', displayMode: 'both' },
                 { text: 'Litigation', textJP: '訴訟・訴訟支援', icon: 'gavel', subPage: 'pro-lit', curPage: 'professionals', routerlink: '/pro-lit', displayMode: 'both' },
                 { text: 'Patent Attorneys', textJP: '弁理士', icon: 'person', subPage: 'pro-patattorneys', curPage: 'professionals', routerlink: '/pro-patattorneys', displayMode: 'both' },
                 { text: 'Legal/Technical Advisors', textJP: '法律顧問・技術顧問', icon: 'person_outline', subPage: 'pro-advisors', curPage: 'professionals', routerlink: '/pro-advisors', displayMode: 'both' },

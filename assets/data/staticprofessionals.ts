@@ -20,7 +20,7 @@ export const MEDICALTITLEJP = "医療機器（診断機器、計測機器など�
 export const CHEMICALTITLE = "Chemicals, Pharmaceuticals, Biological"
 export const CHEMICALTITLEJP = "化学・医薬・バイオ";
 
-export const AMUSEMENTSTITLE = "Amusement and Games"
+export const AMUSEMENTSTITLE = "Games etc."
 export const AMUSEMENTSTITLEJP = "アミューズメント・ゲーム";
 
 export const LITIGATIONTITLE = "Litigation Skills and Experience"
@@ -72,7 +72,7 @@ export const CHEMICALSJP: Array<string> = [
 ];
 
 export const AMUSEMENT: Array<string> = [
-    "These fields require a unique understanding of the industry-specific technologies of software, information processing, and other information and communication technology areas that relate to game patents. Our Amusements and Games Group comprises members with an abundance of experience in software, information processing, image processing, and telecommunications."
+    "These fields require a unique understanding of the industry-specific technologies of software, information processing, and other information and communication technology areas that relate to game patents. Our Games Group comprises members with an abundance of experience in software, information processing, image processing, and telecommunications."
 ];
 export const AMUSEMENTJP: Array<string> = [
     "この分野は、ソフトウエア、情報処理、通信の基礎技術に加え、ゲームを特許にするための工夫と、業界特有の技術の理解が必要です。そこで、経験豊かな担当に加え、ソフトウエア、情報処理、画像処理、通信分野をバックグラウンドに持つメンバーでチームを編成しています。"

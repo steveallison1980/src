@@ -27,7 +27,7 @@ export const OVERVIEWTITLE = "An Overview"
 export const OVERVIEWTITLEJP = "事務所概要"
 
 // key features page
-export const KEYFEATURESTITLE = "What are our values?"
+export const KEYFEATURESTITLE = "Key Features"
 export const KEYFEATURESTITLEJP = "特色"
 
 export const RIGHTTITLE = "The Right Experts"

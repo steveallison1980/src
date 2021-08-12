@@ -38,7 +38,7 @@ export class ProfessionalsComponent implements OnInit {
     {text:'Designs',textJP:'意匠',icon:'category',index:5,component:'design_people',type:'sub-group'},
     {text:'Medical Devices',textJP:'医療機器',icon:'biotech',index:6,component:'meddev_people',type:'sub-group'},
     {text:'Chemicals, Pharma & Bio',textJP:'化学・医薬・バイオ',icon:'science',index:7,component:'science_people',type:'sub-group'},
-    {text:'Toys and Games',textJP:'アミューズメント・ゲーム',icon:'videogame_asset',index:8,component:'games_people',type:'sub-group'},
+    {text:'Games etc.',textJP:'アミューズメント・ゲーム',icon:'videogame_asset',index:8,component:'games_people',type:'sub-group'},
     {text:'Litigation',textJP:'訴訟・訴訟支援',icon:'gavel',index:9,component:'litigation_people',type:'last-in-group'},
     {text:'Patent Attorneys',textJP:'弁理士',icon:'person',index:10,component:'patentattorneys',type:'sub-group'},
     {text:'Legal/Technical Advisors',textJP:'法律顧問・技術顧問',icon:'person_outline',index:11,component:'advisors',type:'sub-group'},
