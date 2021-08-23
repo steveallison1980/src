@@ -1,4 +1,4 @@
-<header>
+<header *ngIf="!isSplashPage()">
     <!-- PC VIEW -->
     <div fxShow fxHide.lt-md fxLayout='row' fxLayoutAlign='space-between center'>
         <div fxLayout='row' fxLayoutAlign='start center' fxLayoutGap="8px">
@@ -56,4 +56,10 @@
     </div>
 
 </header>
-<mat-divider class='colored'></mat-divider>
+<mat-divider *ngIf="!isSplashPage()" class='colored'></mat-divider>
+
+<div class="headeroverlay" *ngIf="isSplashPage()">
+    <button mat-mini-fab [matTooltip]="getMenuToolTip()" (click)="openSitemap()">
+        <mat-icon>menu</mat-icon>
+    </button>
+</div>

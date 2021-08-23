@@ -13,7 +13,7 @@
         <p *ngFor="let para of getDesignParas()">
             {{para}}
         </p>
-        <!-- <app-designsblurb></app-designsblurb> -->
+        <app-paragraphrenderer *ngIf="isEnglish()" [paragraph]="getCheckOutDesignGuide()"></app-paragraphrenderer>
     </mat-card>
     <br>
     <mat-card>
@@ -28,6 +28,6 @@
         <p *ngFor="let para of getTrademarkParas()">
             {{para}}
         </p>
-        <!-- <app-trademarksblurb></app-trademarksblurb> -->
+        <app-paragraphrenderer *ngIf="isEnglish()" [paragraph]="getCheckOutTMGuide()"></app-paragraphrenderer>
     </mat-card>
 </div>

@@ -31,6 +31,7 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatBottomSheetModule } from '@angular/material/bottom-sheet';
 import { MatInputModule } from '@angular/material/input';
 import { FormsModule } from '@angular/forms';
+import { MatTooltipModule } from '@angular/material/tooltip';
 
 import { OfficecardComponent } from './components/officecard/officecard.component';
 import { PatentsblurbComponent } from './components/patentsblurb/patentsblurb.component';
@@ -154,6 +155,7 @@ import { TablerendererComponent } from './components/tablerenderer/tablerenderer
     MatSidenavModule,
     MatBottomSheetModule,
     MatInputModule,
+    MatTooltipModule,
     FormsModule,
     RouterModule,
     FlexLayoutModule

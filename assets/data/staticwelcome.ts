@@ -67,21 +67,6 @@ export const WELCOMECONTENT: IContent = {
             objs: [{
                 spans: [
                     {
-                    text: "Thanks to everyone’s support since our founding in April 1974, we have been able to continue to grow and to provide a wider assortment of services to our valued clients, to whom we owe a debt of gratitude.",
-                    url: null,
-                    routerlink: null,
-                    tooltip: null,
-                    classes: null
-                    }
-                ],
-                classes:null
-            }]
-        },
-        {
-            type: "paragraph",
-            objs: [{
-                spans: [
-                    {
                     text: "Our skills and experiences, honed through extensive patent prosecutions, have been proven to be second to none in many patent litigations.",
                     url: null,
                     routerlink: null,
@@ -175,7 +160,7 @@ export const WELCOMECONTENTJP: IContent = {
             objs: [{
                 spans: [
                     {
-                    text: "1974年4月の創立から46年を迎えました大塚国際特許事務所は、組織を法人化し、更なるサービスの充実化と持続的成長を目指します。これは、皆様のご支援の賜物と厚く感謝申し上げます。",
+                    text: "当事務所は、1974年4月の創立以来、皆様の暖かいご支援により発展を続けています。これは皆様のご支援の賜物と厚く感謝申し上げます。",
                     url: null,
                     routerlink: null,
                     tooltip: null,
@@ -190,7 +175,7 @@ export const WELCOMECONTENTJP: IContent = {
             objs: [{
                 spans: [
                     {
-                    text: "当事務所は、事務所のメンバーを、多様な技術分野で豊富な専門知識を習得した弁理士、企業の技術部門や知財部門の経験者、特許庁の審査官・審判官経験者、バイリンガルなメンバーで編成することにより、専門性と国際性を高めています。",
+                    text: "当事務所は、事務所のメンバーを、多様な技術分野で専門知識を習得した弁理士、企業の技術部門や知財部門の経験者、特許庁の審査官・審判官経験者、バイリンガルなメンバー、及び、日本及び諸外国の知的財産関連の法務全般に習熟した事務部門で編成することにより、専門性と国際性を高めて来ました。",
                     url: null,
                     routerlink: null,
                     tooltip: null,
@@ -205,7 +190,7 @@ export const WELCOMECONTENTJP: IContent = {
             objs: [{
                 spans: [
                     {
-                    text: "IT関連技術、移動体通信、半導体及び関連技術、自動車及び産業機器、アミューズメント分野で実績を上げると共に、医薬、化学分野も強化しました。",
+                    text: "これまでIT関連技術、移動体通信、半導体及び関連技術、自動車及び産業機器、アミューズメント分野で大きな実績を上げて参りました。それと共に医薬、化学分野も強化し、着実に実績を積み重ねております。",
                     url: null,
                     routerlink: null,
                     tooltip: null,
@@ -220,7 +205,7 @@ export const WELCOMECONTENTJP: IContent = {
             objs: [{
                 spans: [
                     {
-                    text: "欧米、BRICs、東南アジア諸国の代理人と交流と連携を深め、国際的に強固なネットワークを構築しております。これらの努力が実り、最近の5年間で日本国において約7,700件の特許、外国において約5,000件の特許を取得することができました。",
+                    text: "これらの努力が実り、日本で約28,000件、外国で約13,000,件の特許を取得することができました。また、数多くの特許出願で磨いたスキルを特許関連の裁判に活用し、標準必須特許の問題を含む電子・通信機器分野及び医薬分野で多くの特許訴訟を担当し、当事務所は、特許の取得から特許関連訴訟までをカバーする知財のオールラウンドプレーヤーに成長致しました。",
                     url: null,
                     routerlink: null,
                     tooltip: null,
@@ -235,7 +220,7 @@ export const WELCOMECONTENTJP: IContent = {
             objs: [{
                 spans: [
                     {
-                    text: "数多くの特許出願で磨いたスキルを特許関連の裁判に活用し、標準必須特許の問題を含む電子・通信機器の特許訴訟、医薬分野で多くの特許訴訟を担当しました。",
+                    text: "その一方で、商品に付加価値を提供し、市場拡大の切り札ともなる意匠、商標の役割がますます重要になっています。当事務所は、これらの分野でも、付加価値や差別化の源泉となる意匠、商標の権利化に携わり、活用できる経験を多く蓄積しています。",
                     url: null,
                     routerlink: null,
                     tooltip: null,
@@ -250,67 +235,7 @@ export const WELCOMECONTENTJP: IContent = {
             objs: [{
                 spans: [
                     {
-                    text: "特許の取得から、特許関連訴訟までをカバーするIPのオールラウンドプレーヤーとして実績を挙げ、その目で個々の案件を対処いたします。",
-                    url: null,
-                    routerlink: null,
-                    tooltip: null,
-                    classes: null
-                    }
-                ],
-                classes:null
-            }]
-        },
-        {
-            type: "paragraph",
-            objs: [{
-                spans: [
-                    {
-                    text: "商品に付加価値を付け、市場拡大の切り札ともなる意匠、商標の役割がますます重要になっています。",
-                    url: null,
-                    routerlink: null,
-                    tooltip: null,
-                    classes: null
-                    }
-                ],
-                classes:null
-            }]
-        },
-        {
-            type: "paragraph",
-            objs: [{
-                spans: [
-                    {
-                    text: "当事務所は、これらの分野でも、付加価値や差別化の源泉となる意匠、商標の権利化とその支援に携わり、活用できる経験を多く蓄積しています。",
-                    url: null,
-                    routerlink: null,
-                    tooltip: null,
-                    classes: null
-                    }
-                ],
-                classes:null
-            }]
-        },
-        {
-            type: "paragraph",
-            objs: [{
-                spans: [
-                    {
-                    text: "経済のグローバル化と、特許などの知財の重要性の高まりと共に、当事務所は発展してきました。",
-                    url: null,
-                    routerlink: null,
-                    tooltip: null,
-                    classes: null
-                    }
-                ],
-                classes:null
-            }]
-        },
-        {
-            type: "paragraph",
-            objs: [{
-                spans: [
-                    {
-                    text: "この発展は、弛まぬ努力と向上心、そしてお客様への奉仕の気持ちを基本として歩んだ結果の賜物と思い、今後もこれらをモットーにお客様のお役に立てるよう、より一層努力して参ります。",
+                    text: "これまで、経済のグローバル化と特許等の知財の重要性の高まりと共に、当事務所は発展してきました。この発展は、弛まぬ努力と向上心、そしてお客様への奉仕の気持ちを基本として歩んだ結果の賜物と思い、今後もこれらをモットーにお客様のお役に立てるよう、より一層努力して参ります。",
                     url: null,
                     routerlink: null,
                     tooltip: null,
@@ -327,7 +252,7 @@ export const WELCOMECONTENTJP: IContent = {
         {
             type: "span",
             objs: [{
-                text: "大塚国際特許事務所",
+                text: "特許業務法人　大塚国際特許事務所",
                 url: null,
                 routerlink: null,
                 tooltip: null,
@@ -341,7 +266,7 @@ export const WELCOMECONTENTJP: IContent = {
         {
             type: "span",
             objs: [{
-                text: "所長　弁理士　大塚康弘",
+                text: "代表弁理士　大塚康弘",
                 url: null,
                 routerlink: "/professional/2",
                 tooltip: "大塚康弘のプロファイルへ",
@@ -353,6 +278,6 @@ export const WELCOMECONTENTJP: IContent = {
 
 export const WELCOMETITLE = "Welcome Message"
 
-export const WELCOMETITLEJP = "事務所紹介とご挨拶"
+export const WELCOMETITLEJP = "当事務所について"
 
-export const WELCOMEIMG = "../../../../assets/img/welcomemessage_large.jpg"
+export const WELCOMEIMG = "../../../../assets/img/indexlogored.png"

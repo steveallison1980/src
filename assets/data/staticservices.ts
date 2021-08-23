@@ -28,17 +28,14 @@ export const DESIGNTITLEJP = "意匠"
 export const TRADETITLEJP = "商標登録"
 
 export const DESIGN: Array<string> = [
-    "Japan is taking measures to harmonize its design law and practice with those of other countries and the Hague Agreement. For example, disclosure requirements have been relaxed and protectable design subject matter has been expanded with respect to, among other things, software related designs. Software has increased design flexibility. A representative success story is GUI design of mobile phones. GUI design isdesign system. an essential part of a user's experience, and can add great value to the product.",
+    "By the 2019 amendment to the designal law, disclosure requirements have been relaxed and protectable design subject matter has been expanded to include, among other things, icons (GUIs) and building designs. This has further harmonized the Japanese design system with international systems. However, uniquely advantageous features of the Japanese Design Law such as 'related designs' have also been strengthened, resulting in an overall strengthening of the Japanese design system.",
     "The scope of protection of a design is determined by the figures submitted with the application. Unlike a patent, it is not possible to correct the scope of protection. Therefore, it is essential to have a strategy at the time of application to obtain the broadest possible protection.",
-    "As such, we adapt our prosecution strategies to maximize protection of your designs by identifying the design elements to be claimed and, in order to achieve the most advantageous scope of protection, deciding whether it is best to pursue a whole design or a partial design, and whether to take advantage of the related design system.",
-    "To prosecute your designs effectively, our team also takes advantage of the insight of ex-JPO examiners, as well as personal interviews with the examiner. At Ohtsuka Patent Office, we are proud to support our client's utilization of designs in maximizing the value of their products."
+    "With newly added flexibility to the design system, there are now more design application options, and it has become possible to take an even more strategic approaches by effectively selecting whether to protect a 'whole design', a 'partial design', or a 'related design'.",
 ];
 export const DESIGNJP: Array<string> = [
-    "意匠制度の国際化のため意匠法・規則は整備が進んでいます。　この結果、意匠の開示要件は緩和され、登録対象は拡大しています。",
-    "ソフトウエアはデザインの自在性を強め、優れたGUIデザインを登場させました。この代表例が、携帯電話機などの画面デザインです。優れた画面デザインは、その製品のシンボルとなり、製品の魅力を直接ユーザーに訴え、特許の価値を遥かに越えるデザインが登場しています。",
-    "意匠の権利範囲は、出願した図面（写真）で判断され、特許のように後からの権利範囲の訂正はできません。このため、最大限に権利主張ができ、かつ、第三者の参入を最大限に阻止するための意匠特有な戦略が出願時に求められます。",
-    "クレームする意匠要素の特定、全体意匠ねらいか、特徴ある部分の意匠狙いか、有利な権利解釈のために、出願を独立の意匠にするか、関連の意匠にするのか意匠法が許す最大限の出願戦略を案件毎に練ります。",
-    "審査官経験者からの意匠の見方、審査官面接などを通して、積極的な意匠出願と追行を行なって参ります。"
+    "2019年の意匠法の改正によりアイコン（GUI）や建築物などが意匠の登録対象に新たに加わり、登録対象が大幅に拡大しました。また、意匠出願での意匠の開示要件も緩和されました。この結果、日本の意匠制度に国際的なハーモナイズが大きく進みました。しかし、この動きの中にも意匠を効果的に保護する日本特有の関連意匠制度が強化されるなど、意匠戦略の幅が従来に比べ拡大しました。",
+    "意匠の権利範囲は、出願した図面（写真）で判断され、特許のように後からの権利範囲の訂正はできません。このため、最大限に権利主張ができ、かつ、第三者の参入を最大限に阻止するための意匠特有な戦略は出願時から求められます。",
+    "また、意匠制度のフレキブル化と強化に伴い、出願方法も増え、全体意匠ねらいか、特徴ある部分を狙う部分意匠か、関連意匠を選択するかなど意匠特有の戦略を巧みに使えるようになりました。そこで、出願時、そして、審査中に意匠法で許される際限の戦略を活用し、役に立つ意匠登録を目指します。"
 ];
 
 export const TRADE: Array<string> = [

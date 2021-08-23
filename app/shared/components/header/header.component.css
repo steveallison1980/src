@@ -52,3 +52,10 @@ h3 {
 h2 {
     color: blue;
 }
+
+.headeroverlay {
+    background-color: rgb(255,255,255,0);
+    position: fixed;
+    color: white;
+    margin: 20px;
+}

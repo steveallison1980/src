@@ -1,4 +1,4 @@
-import { IContent, IAccordion, IExpansionPanel, ITable } from './../../app/interfaces/icontent';
+import { IContent, IParagraph, IAccordion, IExpansionPanel } from './../../app/interfaces/icontent';
 
 const TRADEMARKFUNDAMENTAL: IExpansionPanel = {
     title: "Fundamentals of the Japanese Trademark System",
@@ -2816,4 +2816,30 @@ export const TRADEMARKGUIDANCECONTENT: IContent = {
             type: "accordion",
             objs: [TRADEMARKACCORDION]
         }]
+}
+export const CHECKOUTTMGUIDE: IParagraph = {
+    spans: [
+        {
+            text: "( Check out our guidance on Japanese trademark practice ",
+            url: null,
+            routerlink: null,
+            tooltip: null,
+            classes: null
+        },
+        {
+            text: "HERE",
+            url: null,
+            routerlink: "/guidance/trademark",
+            tooltip: null,
+            classes: null
+        },
+        {
+            text: ")",
+            url: null,
+            routerlink: null,
+            tooltip: null,
+            classes: null
+        }
+    ],
+    classes: null
 }

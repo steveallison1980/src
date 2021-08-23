@@ -1,4 +1,4 @@
-import { IContent, IAccordion, IExpansionPanel } from './../../app/interfaces/icontent';
+import { IContent, IParagraph, IAccordion, IExpansionPanel } from './../../app/interfaces/icontent';
 
 const DESIGNPANEL1: IExpansionPanel = {
     title: "The Japanese Design System",
@@ -3607,4 +3607,31 @@ export const DESIGNGUIDANCECONTENT: IContent = {
             type: "accordion",
             objs: [DESIGNACCORDION]
         }]
+}
+
+export const CHECKOUTDESIGNGUIDE: IParagraph = {
+    spans: [
+        {
+            text: "( Check out our guidance on Japanese design practice ",
+            url: null,
+            routerlink: null,
+            tooltip: null,
+            classes: null
+        },
+        {
+            text: "HERE",
+            url: null,
+            routerlink: "/guidance/design",
+            tooltip: null,
+            classes: null
+        },
+        {
+            text: ")",
+            url: null,
+            routerlink: null,
+            tooltip: null,
+            classes: null
+        }
+    ],
+    classes: null
 }

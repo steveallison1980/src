@@ -1,4 +1,4 @@
-import { IContent, IAccordion, IExpansionPanel } from './../../app/interfaces/icontent';
+import { IContent, IParagraph, IAccordion, IExpansionPanel } from './../../app/interfaces/icontent';
 
 const PATENTPREFACE: IExpansionPanel = {
     title: "Preface",
@@ -9682,4 +9682,31 @@ export const PATENTGUIDANCECONTENT: IContent = {
             type: "accordion",
             objs: [PATENTACCORDION]
         }]
+}
+
+export const CHECKOUTPATENTGUIDE: IParagraph = {
+    spans: [
+        {
+            text: "( Check out our guidance on Japanese patent practice ",
+            url: null,
+            routerlink: null,
+            tooltip: null,
+            classes: null
+        },
+        {
+            text: "HERE",
+            url: null,
+            routerlink: "/guidance/patent",
+            tooltip: null,
+            classes: null
+        },
+        {
+            text: ")",
+            url: null,
+            routerlink: null,
+            tooltip: null,
+            classes: null
+        }
+    ],
+    classes: null
 }

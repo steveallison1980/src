@@ -125,8 +125,17 @@ export class HeaderComponent implements OnInit {
     }
   }
 
-  isHome(){
+  isSplashPage(){
     if( this.highlight == "/") return true;
+    if( this.highlight == "/welcomepage") return true;
+    if( this.highlight == "/welcomepage/en") return true;
+    if( this.highlight == "/welcomepage/jp") return true;
+    return false;
+  }
+  isHome(){
+    console.log(this.highlight)
+    if( this.highlight == "/") return true;
+    if( this.highlight == "/welcomepage") return true;
     return this.findInNav("home");
   }
   isAboutus(){
@@ -153,6 +162,13 @@ export class HeaderComponent implements OnInit {
       }
     }
     return false;
+  }
+  getMenuToolTip(){
+    if (this.langService.lang == "EN") {
+      return "menu";
+    } else {
+      return "menu";
+    }
   }
 }
 

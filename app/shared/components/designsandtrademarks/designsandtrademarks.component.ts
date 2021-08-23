@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { LanguagesettingService } from '../../../services/languagesetting.service';
 import { DESIGN, DESIGNJP, DESIGNTITLE, DESIGNTITLEJP, DESIGNTRADETITLE, DESIGNTRADETITLEJP, TRADE, TRADEJP, TRADETITLE, TRADETITLEJP } from '../../../../assets/data/staticservices';
+import { CHECKOUTDESIGNGUIDE } from '../../../../assets/data/staticguidancedesign';
+import { CHECKOUTTMGUIDE } from '../../../../assets/data/staticguidancetrademark';
 
 @Component({
   selector: 'app-designsandtrademarks',
@@ -63,5 +65,13 @@ export class DesignsandtrademarksComponent implements OnInit {
         return TRADE;
     }
   }
-
+  isEnglish(){
+    return (this.langService.lang == "EN");
+  }
+  getCheckOutDesignGuide(){
+    return CHECKOUTDESIGNGUIDE;
+  }
+  getCheckOutTMGuide(){
+    return CHECKOUTTMGUIDE;
+  }
 }

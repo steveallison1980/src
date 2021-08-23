@@ -8,17 +8,12 @@
         </div>
 
         <div class='content'>
-            <p *ngFor="let para of getParas()">
-                {{para}}
-            </p>
+            <app-tablerenderer [table]="getPointFormTable()"></app-tablerenderer>
         </div>
     </div>
 
-    <div class='signature'>
-        <span *ngFor="let line of getSignature()">
-            {{line}}<br>
-        </span>
-    </div>
+    <br>
+    <br>
+    <app-contentrenderer [content]="getMainServicesContent()"></app-contentrenderer>
 
-    <!-- <app-aboutusblurb></app-aboutusblurb> -->
 </mat-card>

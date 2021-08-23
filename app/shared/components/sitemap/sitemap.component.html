@@ -1,4 +1,10 @@
 <mat-nav-list>
+    <div *ngIf="isSplashPage()" [matTooltip]="getLangToggleToolTip()" class='linkdiv' (click)="toggleLang()">
+        <button mat-button>
+            <img [src]='getImgSrc()' height='32px'>
+        </button>
+    </div>
+    <mat-divider *ngIf="isSplashPage()"></mat-divider>
     <div *ngFor="let page of getPages()">
         <div>
             <a routerLink="{{page.routerlink}}" mat-list-item

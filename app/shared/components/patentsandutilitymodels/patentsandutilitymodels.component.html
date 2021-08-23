@@ -16,5 +16,5 @@
         </div>
 
     </div>
-    <!-- <app-patentsblurb></app-patentsblurb> -->
+    <app-paragraphrenderer *ngIf="isEnglish()" [paragraph]="getCheckOutPatentGuide()"></app-paragraphrenderer>
 </mat-card>

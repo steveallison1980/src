@@ -1,7 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { LanguagesettingService } from '../../../services/languagesetting.service';
-import { ABOUTTITLEJP, ABOUTTITLE, ABOUTUSJP, ABOUTUS} from '../../../../assets/data/staticabout';
+import { ABOUTPOINTFORMTABLE, ABOUTPOINTFORMTABLEJP, ABOUTTITLEJP, ABOUTTITLE, ABOUTUSJP, ABOUTUS, ABOUTMAINSERVICESJP, ABOUTMAINSERVICES} from '../../../../assets/data/staticabout';
 import { SIGNATURE, SIGNATUREJP} from '../../../../assets/data/staticall';
+
 
 @Component({
   selector: 'app-about',
@@ -43,5 +44,23 @@ export class AboutComponent implements OnInit {
         return SIGNATURE;
     }
   }
+  getPointFormTable(){
+    switch(this.langService.lang){
+      case "JP":
+        return ABOUTPOINTFORMTABLEJP;
+      case "EN":
+      default:
+          return ABOUTPOINTFORMTABLE;
+    }
+  }
 
+  getMainServicesContent(){
+    switch(this.langService.lang){
+      case "JP":
+        return ABOUTMAINSERVICESJP;
+      case "EN":
+      default:
+          return ABOUTMAINSERVICES;
+    }
+  }
 }

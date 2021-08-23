@@ -18,7 +18,6 @@ export class TablerendererComponent implements OnInit {
   }
 
   getDatasource(){
-    console.log(this.table.rows);
     //return [{column1:"test",column2:"aaa",column3:"3",column4:"a"}]
     return this.table.rows;
   }
@@ -45,6 +44,18 @@ export class TablerendererComponent implements OnInit {
     else
       return "hide";
   }
+  
+  getHeaderClass(){
+    var ret = "hide";
+    this.table.cols.forEach(element => {
+      if( element != "" ){
+        ret = "";
+      }
+    })
+    return ret;
+  }
+
+
   getNoShadowClass(){
     /*for (var i=0; i<this.table.classes.length; i++){
       if( this.table.classes[i] == "noshadow" ) return "noshadow";

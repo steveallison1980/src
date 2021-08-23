@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { LanguagesettingService } from '../../../services/languagesetting.service';
 import { PATENTUTIL, PATENTUTILJP, PATENTUTILTITLE, PATENTUTILTITLEJP} from '../../../../assets/data/staticservices';
+import { CHECKOUTPATENTGUIDE } from '../../../../assets/data/staticguidancepatent';
 
 @Component({
   selector: 'app-patentsandutilitymodels',
@@ -37,5 +38,11 @@ export class PatentsandutilitymodelsComponent implements OnInit {
       default:
         return PATENTUTIL;
     }
+  }
+  isEnglish(){
+    return (this.langService.lang == "EN");
+  }
+  getCheckOutPatentGuide(){
+    return CHECKOUTPATENTGUIDE;
   }
 }

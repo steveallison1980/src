@@ -3,6 +3,7 @@ import { PROFESSIONALS_DATA } from './../../../../assets/data/staticpeople'
 import { LanguagesettingService } from '../../../services/languagesetting.service';
 import { NavigateService } from '../../../services/navigate.service';
 import { PROFESSIONAL, PROFESSIONALJP, PROFESSIONALTITLE, PROFESSIONALTITLEJP, COMPUTERS, COMPUTERSJP, COMPUTERSTITLE, COMPUTERSTITLEJP, MECHANICAL, MECHANICALJP, MECHANICALTITLE, MECHANICALTITLEJP, DESIGNS, DESIGNSJP, DESIGNTITLE, DESIGNTITLEJP, MEDICAL, MEDICALJP, MEDICALTITLE, MEDICALTITLEJP, CHEMICALS, CHEMICALSJP, CHEMICALTITLE, CHEMICALTITLEJP, AMUSEMENT, AMUSEMENTJP, AMUSEMENTSTITLEJP, AMUSEMENTSTITLE, LITIGATION, LITIGATIONJP, LITIGATIONTITLE, LITIGATIONTITLEJP} from '../../../../assets/data/staticprofessionals';
+import { CHECKOUTDESIGNGUIDE } from '../../../../assets/data/staticguidancedesign';
 
 
 @Component({
@@ -19,8 +20,15 @@ export class PracticeareasComponent implements OnInit {
   }
 
   toggleLang(){
-    console.log();
     this.langService.toggle();
+  }
+
+  isEnglish(){
+    return (this.langService.lang == "EN");
+  }
+  getCheckOutDesignGuide(){
+    console.log(CHECKOUTDESIGNGUIDE)
+    return CHECKOUTDESIGNGUIDE;
   }
 
   getTitle(){

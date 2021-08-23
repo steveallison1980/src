@@ -10,7 +10,7 @@
     <p *ngFor="let para of getParas()">
         {{para}}
     </p>
-    <div>
+    <!--<div>
         <mat-nav-list>
             <mat-list-item routerLink="/pro-patattorneys">
                 <button class='teambutton' fxLayoutAlign='start start' mat-icon-button>
@@ -37,7 +37,7 @@
                 </button>
             </mat-list-item>
         </mat-nav-list>
-    </div>
+    </div>-->
 </mat-card>
 <br>
 <h1>Practice Areas</h1>
@@ -88,6 +88,7 @@
     <p *ngFor="let para of getDesignParas()">
         {{para}}
     </p>
+    <app-paragraphrenderer *ngIf="isEnglish()" [paragraph]="getCheckOutDesignGuide()"></app-paragraphrenderer>
     <mat-nav-list>
         <mat-list-item routerLink="/pro-designs">
             <button class='teambutton' fxLayoutAlign='start start' mat-icon-button>

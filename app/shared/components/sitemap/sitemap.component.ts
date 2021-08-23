@@ -24,6 +24,7 @@ export class SitemapComponent implements OnInit {
   sitemap: ISitemap = SITEMAP_DATA;
   
   openLink(curPage, subPage) {
+    console.log(curPage)
     this.nav.curPage = curPage;
     this.nav.subPage = subPage;
     this.nav.view = "group";
@@ -60,5 +61,33 @@ export class SitemapComponent implements OnInit {
   getLinks(page){
     if( this.langService.lang == "JP") return page.links.filter(x => (x.displayMode == "both" || x.displayMode == "JPonly"));
     if( this.langService.lang == "EN") return page.links.filter(x => (x.displayMode == "both" || x.displayMode == "ENonly"));
+  }
+
+  isSplashPage(){
+    console.log(this.nav.curPage)
+    if( this.nav.curPage == "welcomepage" || this.nav.curPage=="home"){
+      return true;
+    } else {
+      return false;
+    }
+  }
+  toggleLang(){
+    console.log(this.langService.lang)
+    this.langService.toggle();
+    console.log(this.langService.lang)
+  }
+  getImgSrc(){
+    if( this.langService.lang == "JP" ){
+      return "../../../../assets/img/en.png";
+    } else {
+      return "../../../../assets/img/jp.png";
+    }
+  }
+  getLangToggleToolTip(){
+    if( this.langService.lang == "JP" ){
+      return "click to switch to English!";
+    } else {
+      return "日本語に切り替え";
+    }
   }
 }

@@ -7,6 +7,8 @@ export interface ContactItem {
 export const CONTACTTITLE = "Contact Information/Map"
 export const CONTACTTITLEJP = "お問い合わせ・アクセス"
 
+export const MAILINGADDRESS = "7TH FL., KIOICHO PARK BLDG., 3-6, KIOICHO, CHIYODA-KU, TOKYO 102-0094, JAPAN";
+
 export const CONTACT_DATA: ContactItem[] = [
 { title: 'Name',
   details: 'Ohtsuka Patent Office, P.C.',
@@ -21,7 +23,7 @@ export const CONTACT_DATA: ContactItem[] = [
   details: 'opt@patest.co.jp',
   link: 'mailto:opt@patest.co.jp'},
 { title: 'Mailing Address',
-  details: '7TH FL., KIOICHO PARK BLDG., 3-6, KIOICHO, CHIYODA-KU, TOKYO 102-0094, JAPAN',
+  details: MAILINGADDRESS,
   link: ''}];
 
 export const CONTACT_DATAJP: ContactItem[] = [
@@ -40,3 +42,5 @@ export const CONTACT_DATAJP: ContactItem[] = [
 { title: '住所',
   details: '〒102-0094 東京都千代田区紀尾井町3-6紀尾井町パークビル7F',
   link: ''}];
+
+export const GOOGLEMAPSURL: string = "https://www.google.com/maps/place/%E5%A4%A7%E5%A1%9A%E5%9B%BD%E9%9A%9B%E7%89%B9%E8%A8%B1%E4%BA%8B%E5%8B%99%E6%89%80/@35.6822126,139.7360413,15z/data=!4m5!3m4!1s0x0:0x367d2e718fa46ffc!8m2!3d35.6822126!4d139.7360413";

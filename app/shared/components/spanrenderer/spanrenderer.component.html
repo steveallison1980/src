@@ -2,7 +2,7 @@
 <a *ngIf="isLink()" [href]="getUrl()" class='{{getClasses()}}'>
     {{getText()}}
 </a>
-<a *ngIf="isRouterLink()" [title]="getTooltip()" [routerLink]="getRouterLink()" class='{{getClasses()}}'>
+<a *ngIf="isRouterLink()" [matTooltip]="getTooltip()" [matTooltipClass]="'tooltipclass'" [routerLink]="getRouterLink()" class='{{getClasses()}}'>
     {{getText()}}
 </a>
 <span *ngIf="isNotLink()" class='{{getClasses()}}'>

@@ -1,5 +1,5 @@
 <!-- PC VIEW -->
-<div class="topbar" fxShow fxHide.lt-md fxLayout='row' fxLayoutAlign='end center' fxLayoutGap>
+<div *ngIf="!isSplashPage()" class="topbar" fxShow fxHide.lt-md fxLayout='row' fxLayoutAlign='end center' fxLayoutGap>
     <div class='topbarelement linkdiv' fxLayoutAlign='center center'>
         <a routerLink="/contactpage" (click)="clickContact()">
             <button class='highlightbutton' mat-button>
@@ -17,7 +17,7 @@
     </div>
 </div>
 <!-- MOBILE VIEW -->
-<div class='topbar' fxHide fxShow.lt-md fxLayout='row' fxLayoutAlign='space-between stretch' fxLayoutGap="20px">
+<div *ngIf="!isSplashPage()" class='topbar' fxHide fxShow.lt-md fxLayout='row' fxLayoutAlign='space-between stretch' fxLayoutGap="20px">
     <div class='linkdiv'>
         <a routerLink="/contactpage" (click)="clickContact()">
             <button class='highlightbutton' mat-button>
