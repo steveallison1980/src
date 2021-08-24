@@ -72,22 +72,12 @@ export class SitemapComponent implements OnInit {
     }
   }
   toggleLang(){
-    console.log(this.langService.lang)
     this.langService.toggle();
-    console.log(this.langService.lang)
   }
   getImgSrc(){
-    if( this.langService.lang == "JP" ){
-      return "../../../../assets/img/en.png";
-    } else {
-      return "../../../../assets/img/jp.png";
-    }
+      return "../../../../assets/" + this.langService.getImgSrc();
   }
   getLangToggleToolTip(){
-    if( this.langService.lang == "JP" ){
-      return "click to switch to English!";
-    } else {
-      return "日本語に切り替え";
-    }
+    return this.langService.getToolTip();
   }
 }

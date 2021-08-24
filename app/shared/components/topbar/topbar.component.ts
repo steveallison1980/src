@@ -50,9 +50,9 @@ export class TopbarComponent implements OnInit {
 
   isSplashPage(){
     if( this.highlight == "/") return true;
-    if( this.highlight == "/welcomepage") return true;
-    if( this.highlight == "/welcomepage/en") return true;
-    if( this.highlight == "/welcomepage/jp") return true;
+    if( this.highlight == "/home") return true;
+    if( this.highlight == "/home/en") return true;
+    if( this.highlight == "/home/jp") return true;
     return false;
   }
 

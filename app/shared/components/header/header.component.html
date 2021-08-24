@@ -2,12 +2,12 @@
     <!-- PC VIEW -->
     <div fxShow fxHide.lt-md fxLayout='row' fxLayoutAlign='space-between center'>
         <div fxLayout='row' fxLayoutAlign='start center' fxLayoutGap="8px">
-            <a routerLink="/welcomepage" (click)="clickHome()">
+            <a routerLink="/home" (click)="clickHome()">
                 <img src='../../../../assets/img/oLogo.png' height="56px">
             </a>
             <mat-divider [vertical]="true"></mat-divider>
             <div>
-                <a routerLink="/welcomepage" (click)="clickHome()">
+                <a routerLink="/home" (click)="clickHome()">
                     <span fxShow fxHide.lt-md class='xlargetext'>
                         {{getText("firmname_pc")}}
                     </span>
@@ -17,7 +17,7 @@
 
         <div fxLayout='row' fxLayoutAlign='start start'>        
             <div class='largetext' fxLayout='row' [fxShow]="true" [fxHide.lt-md]="true" fxLayoutGap='5px'>
-                <a class="headerlink" routerLink="/welcomepage" (click)="clickHome()" [ngClass]="{'activenav': isHome() }">{{getText("home")}}</a>
+                <a class="headerlink" routerLink="/home" (click)="clickHome()" [ngClass]="{'activenav': isHome() }">{{getText("home")}}</a>
                 <mat-divider [vertical]="true"></mat-divider>
                 <a class="headerlink" routerLink="/aboutpage" (click)="clickAboutus()" [ngClass]="{'activenav': isAboutus()}">{{getText("aboutus")}}</a>
                 <mat-divider [vertical]="true"></mat-divider>
@@ -37,10 +37,10 @@
     <!-- MOBILE VIEW -->
     <div fxHide fxShow.lt-md fxLayout='row' fxLayoutAlign='space-between center'>    
         <div fxHide fxShow.sm class='xxlargetext' fxLayout='row'fxLayout='row' fxLayoutAlign='end center' fxLayoutGap="28px">
-            <a routerLink="/welcomepage" (click)="clickHome()">
+            <a routerLink="/home" (click)="clickHome()">
                 <img fxHide fxShow.sm src='../../../../assets/img/oLogo.png' height="56px">
             </a>
-            <a routerLink="/welcomepage" (click)="clickHome()">
+            <a routerLink="/home" (click)="clickHome()">
                 <span>{{getText("firmname_mobile_ltmd")}}</span>
             </a>
         </div>
@@ -58,8 +58,13 @@
 </header>
 <mat-divider *ngIf="!isSplashPage()" class='colored'></mat-divider>
 
-<div class="headeroverlay" *ngIf="isSplashPage()">
+<div class="headeroverlay" *ngIf="isSplashPage()"  fxLayout="column" fxLayoutAlign="start center">
     <button mat-mini-fab [matTooltip]="getMenuToolTip()" (click)="openSitemap()">
         <mat-icon>menu</mat-icon>
     </button>
+    <div [matTooltip]="getLangToggleToolTip()" class='linkdiv' (click)="toggleLang()">
+        <button mat-button>
+            <img [src]='getLangImgSrc()' height='32px'>
+        </button>
+    </div>
 </div>

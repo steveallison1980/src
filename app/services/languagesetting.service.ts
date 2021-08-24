@@ -20,4 +20,19 @@ export class LanguagesettingService {
       this.lang = "EN";
     }
   }
+  public getToolTip(){
+    if( this.lang == "JP" ){
+      return "click to switch to English!";
+    } else {
+      return "日本語に切り替え";
+    }
+  }
+  //from assets!
+  public getImgSrc(){
+    if( this.lang == "JP" ){
+      return "img/en.png";
+    } else {
+      return "img/jp.png";
+    }
+  }
 }

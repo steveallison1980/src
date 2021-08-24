@@ -280,4 +280,4 @@ export const WELCOMETITLE = "Welcome Message"
 
 export const WELCOMETITLEJP = "当事務所について"
 
-export const WELCOMEIMG = "../../../../assets/img/indexlogored.png"
+export const WELCOMEIMG = "../../../../assets/img/welcomemessage_large.jpg"

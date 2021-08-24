@@ -18,10 +18,13 @@ export class GuidanceComponent implements OnInit {
   }
 
   getContent(){
-    return this.guidanceService.getContent(this.route.snapshot.paramMap.get('type'));
+    var type = this.currentPage();
+    return this.guidanceService.getContent(type);
   }
 
   currentPage(){
+    console.log(this.route.snapshot.paramMap.get('type'))
+    if( this.route.snapshot.paramMap.get('type') == null ) return "patent";
     return this.route.snapshot.paramMap.get('type');
   }
 }

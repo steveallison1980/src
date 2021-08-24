@@ -4,6 +4,7 @@ import { CommonModule } from '@angular/common';
 import { DefaultComponent } from './default.component';
 
 import { WelcomepageComponent } from '../../modules/welcomepage/welcomepage.component';
+import { HomeComponent } from '../../modules/home/home.component';
 import { NewspageComponent } from '../../modules/newspage/newspage.component';
 import { ContactpageComponent } from '../../modules/contactpage/contactpage.component';
 import { PublicationspageComponent } from '../../modules/publicationspage/publicationspage.component';
@@ -73,6 +74,7 @@ import { FlexLayoutModule } from '@angular/flex-layout';
   declarations: [
     DefaultComponent,
 
+    HomeComponent,
     WelcomepageComponent,
     NewspageComponent,
     ContactpageComponent,

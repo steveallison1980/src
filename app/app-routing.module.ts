@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { DefaultComponent } from './layouts/default/default.component';
 
+import { HomeComponent } from './modules/home/home.component';
 import { WelcomepageComponent } from './modules/welcomepage/welcomepage.component';
 import { NewspageComponent } from './modules/newspage/newspage.component';
 import { ContactpageComponent } from './modules/contactpage/contactpage.component';
@@ -75,14 +76,18 @@ const routes: Routes = [
     children: [
       {
         path: '',
-        component: WelcomepageComponent
+        component: HomeComponent
+      },
+      {
+        path: 'home',
+        component: HomeComponent
+      },
+      {
+        path: 'home/:lang',
+        component: HomeComponent
       },
       {
         path: 'welcomepage',
-        component: WelcomepageComponent
-      },
-      {
-        path: 'welcomepage/:lang',
         component: WelcomepageComponent
       },
       {
@@ -281,6 +286,10 @@ const routes: Routes = [
       {
         path: 'cafc2005',
         component: Cafc2005Component
+      },
+      {
+        path: 'guidance',
+        component: GuidanceComponent
       },
       {
         path: 'guidance/:type',
