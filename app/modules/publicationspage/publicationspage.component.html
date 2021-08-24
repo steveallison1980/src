@@ -21,7 +21,7 @@
             <app-publications></app-publications>
             <br>
             <!-- then the rest -->
-            <app-cardrenderer [imgfilepath]="getImage()" [content]="getContent()" [title]="getTitle()"></app-cardrenderer>
+            <app-cardrenderer [cardSettings]="getCardSettings()" [imgfilepath]="getImage()" [content]="getContent()" [title]="getTitle()"></app-cardrenderer>
             <br>
             <app-contact></app-contact>
         </div>

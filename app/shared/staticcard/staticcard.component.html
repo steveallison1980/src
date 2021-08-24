@@ -1,0 +1,61 @@
+<mat-card>
+    <mat-card-title>
+        {{getTitle()}}
+    </mat-card-title>
+    <br>
+    <a *ngIf="getType() == 'welcome'" routerLink='/welcomepage'>
+        <img mat-card-image [src]="getImgFilePath()">
+    </a>
+    <a *ngIf="getType() == 'cafc'" routerLink='/cafcall'>
+        <img mat-card-image [src]="getImgFilePath()">
+    </a>
+    <a *ngIf="getType() == 'guidance'" routerLink='/guidance'>
+        <img mat-card-image [src]="getImgFilePath()">
+    </a>
+    <a *ngIf="getType() == 'team'" routerLink='/pro-practiceareas'>
+        <img mat-card-image [src]="getImgFilePath()">
+    </a>
+    <div *ngIf="getType() == 'welcome'">
+        <div *ngIf="getLang()=='EN'">
+            Welcome message from
+            <a routerLink='/professional/2'>Yasuhiro Ohtsuka</a>,
+            managing partner at Ohtsuka Patent Office.
+        </div>
+        <div *ngIf="getLang()=='JP'">
+            代表弁理士
+            <a routerLink='/professional/2'>康弘大塚</a>,
+            からのご挨拶
+        </div>
+    </div>
+    <div *ngIf="getType() == 'cafc'">
+        米国のCAFCの判例紹介
+    </div>
+    <div *ngIf="getType() == 'guidance'">
+        Learn about Japanese
+        <a routerLink='/guidance/patent'>patent</a>, 
+        <a routerLink='/guidance/trademark'>trademark</a>, and
+        <a routerLink='/guidance/design'>design</a> law and practice.
+    </div>
+    <div *ngIf="getType() == 'team'">
+        <div *ngIf="getLang()=='EN'">
+            Meet our team of patent attorneys, patent engineers, and legal and technical advisors.
+        </div>
+        <div *ngIf="getLang()=='JP'">
+            事務所のメンバー紹介
+        </div>
+    </div>
+    <div fxLayout="column" fxLayoutAlign="space-around end">
+        <a *ngIf="getType() == 'welcome'" routerLink='/welcomepage'>
+            <mat-icon color="primary">link</mat-icon>
+        </a>
+        <a *ngIf="getType() == 'cafc'" routerLink='/cafcall'>
+            <mat-icon color="primary">link</mat-icon>
+        </a>
+        <a *ngIf="getType() == 'guidance'" routerLink='/guidance'>
+            <mat-icon color="primary">link</mat-icon>
+        </a>
+        <a *ngIf="getType() == 'team'" routerLink='/pro-practiceareas'>
+            <mat-icon color="primary">link</mat-icon>
+        </a>
+    </div>
+</mat-card>

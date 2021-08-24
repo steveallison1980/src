@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { IContent } from './../../../interfaces/icontent';
+import { IContent, ICard, ITitle } from './../../../interfaces/icontent';
 
 @Component({
   selector: 'app-cardrenderer',
@@ -11,6 +11,7 @@ export class CardrendererComponent implements OnInit {
   @Input() content: IContent;
   @Input() imgfilepath: string;
   @Input() title: string;
+  @Input() cardSettings: ICard;
 
   constructor() { }
 
@@ -21,9 +22,30 @@ export class CardrendererComponent implements OnInit {
     return this.imgfilepath;
   }
   getTitle(){
-    return this.title;
+    var titleclass = "smalltext";
+    if( this.getSize() == "large" ){
+      titleclass = "largetext";
+    }
+    var ret: ITitle = {
+      class: titleclass,
+      text: this.title
+    }
+    return ret;
   }
   getContent(){
     return this.content;
+  }
+  getSize(){
+    return this.cardSettings.size;
+  }
+  getBorder(){
+    return this.cardSettings.border;
+  }
+  getClasses(){
+    var ret = "";
+    if( !this.getBorder ){
+      ret = ret + " noborder"
+    }
+    return ret;
   }
 }

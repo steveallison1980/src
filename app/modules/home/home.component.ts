@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { LanguagesettingService } from '../../services/languagesetting.service';
 import { ActivatedRoute } from '@angular/router';
-import { WelcomeService } from '../../services/welcome.service';
+import { ICard, IContent, ISpan } from '../../interfaces/icontent';
 
 @Component({
   selector: 'app-home',
@@ -12,61 +12,169 @@ export class HomeComponent implements OnInit {
 
   constructor(
     private route: ActivatedRoute,
-    private langsvc: LanguagesettingService,
-    private welcomeService: WelcomeService) {
+    private langsvc: LanguagesettingService) {
       const lang = this.route.snapshot.paramMap.get('lang');
-      if( lang == "en"){
-        this.langsvc.toggle();
+      if( lang != null && lang.toUpperCase() == "EN"){
+        this.langsvc.setLang("EN");
       }
+      if( lang != null && lang.toUpperCase() == "JP"){
+        this.langsvc.setLang("JP");
+      }
+    }
+    
+    getLang(){
+      return this.langsvc.lang;
     }
 
-    
-    getWelcomeImage(){
-      return this.welcomeService.getImage();
-    }
-    getWelcomeContent(){
-      return this.welcomeService.getContent();
-    }
-    getWelcomeTitle(){
-      if( this.langsvc.lang == "en"){
-        return "Welcome message from our managing partner.";
+    getGuidanceCAFCContent(){
+      if( this.langsvc.lang == "EN"){
+        var ret: IContent = {
+          elements: [
+              {
+                type: "span",
+                objs: [{
+                    text: "Learn about Japanese",
+                    url: null,
+                    routerlink: null,
+                    tooltip: null,
+                    classes: null,
+                }]
+              },
+              {
+                type: "span",
+                objs: [{
+                    text: "patent",
+                    url: null,
+                    routerlink: "/guidance/patent",
+                    tooltip: "",
+                    classes: null,
+                }]
+              },
+              {
+                type: "span",
+                objs: [{
+                    text: ",",
+                    url: null,
+                    routerlink: null,
+                    tooltip: null,
+                    classes: null,
+                }]
+              },
+              {
+                type: "span",
+                objs: [{
+                    text: "trademark",
+                    url: null,
+                    routerlink: "/guidance/trademark",
+                    tooltip: "",
+                    classes: null,
+                }]
+              },
+              {
+                type: "span",
+                objs: [{
+                    text: ", and",
+                    url: null,
+                    routerlink: null,
+                    tooltip: null,
+                    classes: null,
+                }]
+              },
+              {
+                type: "span",
+                objs: [{
+                    text: "design",
+                    url: null,
+                    routerlink: "/guidance/design",
+                    tooltip: null,
+                    classes: null,
+                }]
+              },
+              {
+                type: "span",
+                objs: [{
+                    text: "law and practice.",
+                    url: null,
+                    routerlink: null,
+                    tooltip: null,
+                    classes: null,
+                }]
+              }]
+        };
+        return ret;
       } else {
-        return "ご挨拶";
+        var ret: IContent = {
+          elements: [
+              {
+                type: "span",
+                objs: [{
+                    text: "米国のCAFCの判例紹介",
+                    url: null,
+                    routerlink: null,
+                    tooltip: null,
+                    classes: null,
+                }]
+              }]
+        };
+        return ret;
       }
     }
-    getGuidanceImage(){
-      return "../../../../assets/img/classroom.jpg";
-    }
-    getGuidanceContent(){
-      if( this.langsvc.lang == "en"){
-        return "Learn about Japanese patent, trademark, and design law and practice.";
+    getGuidanceCAFCTitle(){
+      if( this.langsvc.lang == "EN"){
+        return "Learn about IP in Japan";
       } else {
-        return "TODO";
-      }
-    }
-    getGuidanceTitle(){
-      if( this.langsvc.lang == "en"){
-        return "Learn about intellectual property in Japan";
-      } else {
-        return "TODO";
+        return "CAFC判決";
       }
     }
     getTeamImage(){
-      return "../../../../assets/img/welcomemessage_large.jpg";
+      return "../../../../assets/img/teamvignette.jpg";
     }
     getTeamContent(){
-      if( this.langsvc.lang == "en"){
-        return "Meet our team of patent attorneys, patent engineers, and legal and technical advisors.";
+      if( this.langsvc.lang == "EN"){
+        var ret: IContent = {
+          elements: [
+              {
+                type: "span",
+                objs: [{
+                    text: "Meet our team of patent attorneys, patent engineers, and legal and technical advisors.",
+                    url: null,
+                    routerlink: null,
+                    tooltip: null,
+                    classes: null,
+                }]
+              }]
+        };
+        return ret;
       } else {
-        return "メンバー紹介";
+        var ret: IContent = {
+          elements: [
+              {
+                type: "span",
+                objs: [{
+                    text: "メンバー紹介",
+                    url: null,
+                    routerlink: null,
+                    tooltip: null,
+                    classes: null,
+                }]
+              }]
+        };
+        return ret;
       }
     }
     getTeamTitle(){
-      if( this.langsvc.lang == "en"){
+      if( this.langsvc.lang == "EN"){
         return "Meet our team";
       } else {
         return "メンバー";
       }
+    }
+    getCardSettings(){
+      var ret: ICard = {
+        size: "small",
+        border: true
+      }
+      return ret;
     }
 
   ngOnInit(): void {

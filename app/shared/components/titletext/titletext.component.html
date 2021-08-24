@@ -1,9 +1,9 @@
-<div class="titlediv" fxShow="true" fxHide.lt-md="true">
+<div class="titlediv" *ngIf="isLarge()">
     <span class="titletext">{{getTitleText()}}</span>
     <br><br>
     <span class="titletext">{{getTitleText2()}}</span>
 </div>
-<div class="titledivmobile" fxHide fxShow.lt-md>
+<div class="titledivmobile" *ngIf="!isLarge()">
     <span class="titletext">{{getTitleText()}}</span>
     <br><br>
     <span class="titletext">{{getTitleText2()}}</span>

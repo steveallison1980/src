@@ -4,7 +4,9 @@ header {
     background-color: white;
     font-family: 'crimsontext';
 }
-
+.headeroverlay{
+    z-index: 5;
+}
 .largetext{
     font-size: large;
 }

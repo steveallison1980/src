@@ -1,4 +1,4 @@
-<mat-card>
+<mat-card class='{{getClasses()}}'>
     <img *ngIf="getImgFilePath()!=null" mat-card-image [src]="getImgFilePath()">
     <mat-card-title>
         <app-titletext [title]="getTitle()"></app-titletext>

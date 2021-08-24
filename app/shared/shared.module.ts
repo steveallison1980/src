@@ -78,6 +78,7 @@ import { TitledimagerendererComponent } from './components/titledimagerenderer/t
 import { ElementgridrendererComponent } from './components/elementgridrenderer/elementgridrenderer.component';
 import { DesignexamplerendererComponent } from './components/designexamplerenderer/designexamplerenderer.component';
 import { TablerendererComponent } from './components/tablerenderer/tablerenderer.component';
+import { StaticcardComponent } from './staticcard/staticcard.component';
 
 @NgModule({
   declarations: [
@@ -140,7 +141,8 @@ import { TablerendererComponent } from './components/tablerenderer/tablerenderer
     TitledimagerendererComponent,
     ElementgridrendererComponent,
     DesignexamplerendererComponent,
-    TablerendererComponent
+    TablerendererComponent,
+    StaticcardComponent
   ],
   imports: [
     CommonModule,
@@ -211,7 +213,8 @@ import { TablerendererComponent } from './components/tablerenderer/tablerenderer
     ExpansionrendererComponent,
     TitledimagerendererComponent,
     ElementgridrendererComponent,
-    DesignexamplerendererComponent
+    DesignexamplerendererComponent,
+    StaticcardComponent
   ]
 })
 

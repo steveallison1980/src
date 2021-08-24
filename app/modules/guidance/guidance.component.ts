@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { GuidanceService } from "../../services/guidance.service";
-import { NavigateService } from '../../services/navigate.service';
 import { ActivatedRoute } from '@angular/router';
 
 @Component({

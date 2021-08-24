@@ -175,7 +175,6 @@ export class HeaderComponent implements OnInit {
   }
   getLangImgSrc(){
     var ret = "../../../../assets/" + this.langService.getImgSrc();
-    console.log(ret)
     return ret;
   }
   getLangToggleToolTip(){

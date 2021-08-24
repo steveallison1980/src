@@ -1,4 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
+import { ITitle } from './../../../interfaces/icontent';
 
 @Component({
   selector: 'app-titletext',
@@ -7,7 +8,7 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class TitletextComponent implements OnInit {
 
-  @Input() title: string;
+  @Input() title: ITitle;
   @Input() title2: string;
 
   constructor() { }
@@ -16,9 +17,12 @@ export class TitletextComponent implements OnInit {
   }
 
   getTitleText (){
-    return this.title;
+    return this.title.text;
   }
   getTitleText2 (){
     return this.title2;
+  }
+  isLarge(){
+    return this.title.class == "largetext";
   }
 }

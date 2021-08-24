@@ -7,17 +7,19 @@
 
         <div flexLayout='row' fxFlex  fxLayoutAlign="space-between start" fxLayoutGap="10px" fxLayout.lt-md="column">
             <div fxFlex="5"></div>
-            <div fxFlex="25" fxLayoutAlign="space-around stretch">
-                <app-cardrenderer [imgfilepath]="getWelcomeImage()" [content]="getWelcomeContent()" [title]="getWelcomeTitle()"></app-cardrenderer>
+            <div fxFlex="30" fxLayoutAlign="space-around stretch">
+                <app-staticcard [type]="'welcome'"></app-staticcard>
             </div>
-            <div fxFlex="25" fxLayoutAlign="space-around stretch">
-                <app-cardrenderer [imgfilepath]="getGuidanceImage()" [content]="getGuidanceContent()" [title]="getGuidanceTitle()"></app-cardrenderer>
+            <div fxFlex="30" fxLayoutAlign="space-around stretch">
+                <app-staticcard *ngIf="getLang()=='JP'" [type]="'cafc'"></app-staticcard>
+                <app-staticcard *ngIf="getLang()=='EN'" [type]="'guidance'"></app-staticcard>
             </div>
-            <div fxFlex="25" fxLayoutAlign="space-around stretch">
-                <app-cardrenderer [imgfilepath]="getTeamImage()" [content]="getTeamContent()" [title]="getTeamTitle()"></app-cardrenderer>
+            <div fxFlex="30" fxLayoutAlign="space-around stretch">
+                <app-staticcard [type]="'team'"></app-staticcard>
             </div>
             <div fxFlex="5"></div>
         </div>
+        <br>
         <div>
             <app-footer width=100%></app-footer>
         </div>

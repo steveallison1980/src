@@ -14,9 +14,18 @@ export class LanguagesettingService {
   constructor() { }
 
   public toggle(): void {
+    console.log(this.lang)
     if( this.lang == "EN" ){
       this.lang = "JP";
     } else {
+      this.lang = "EN";
+    }
+  }
+  public setLang(val:string): void {
+    if( val == "JP" ){
+      this.lang = "JP";
+    } 
+    if( val == "EN" ){
       this.lang = "EN";
     }
   }

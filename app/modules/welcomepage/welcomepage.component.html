@@ -11,7 +11,7 @@
         </div>
         <div fxFlex='70' fxShow="true" fxHide.lt-md>
             <!--<app-welcomemessage></app-welcomemessage>-->
-            <app-cardrenderer [imgfilepath]="getImage()" [content]="getContent()" [title]="getTitle()"></app-cardrenderer>
+            <app-cardrenderer [cardSettings]="getCardSettings()" [imgfilepath]="getImage()" [content]="getContent()" [title]="getTitle()"></app-cardrenderer>
         </div>
         <div fxFlex='5' fxShow="true" fxHide.lt-md="true">
         </div>
@@ -21,7 +21,7 @@
         <div fxFlex='90' fxHide fxShow.lt-md>
             <!-- start with what is set -->
             <!--<app-welcomemessage></app-welcomemessage>-->
-            <app-cardrenderer [imgfilepath]="getImage()" [content]="getContent()" [title]="getTitle()"></app-cardrenderer>
+            <app-cardrenderer [cardSettings]="getCardSettings()" [imgfilepath]="getImage()" [content]="getContent()" [title]="getTitle()"></app-cardrenderer>
             <br>
             <!-- then the rest -->
             <app-contact></app-contact>

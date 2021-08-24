@@ -73,3 +73,13 @@ export interface ITable{
     rows: Array<IRow>;
     cols: Array<string>;
 }
+
+export interface ICard{
+    size: string;
+    border: boolean;
+}
+
+export interface ITitle{
+    class: string;
+    text: string;
+}

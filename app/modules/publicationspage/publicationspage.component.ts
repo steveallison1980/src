@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { WELCOMECONTENTJP, WELCOMECONTENT, WELCOMETITLEJP, WELCOMETITLE, WELCOMEIMG } from '../../../assets/data/staticwelcome';
 import { LanguagesettingService } from '../../services/languagesetting.service';
+import { ICard } from '../../interfaces/icontent';
 
 @Component({
   selector: 'app-publicationspage',
@@ -36,5 +37,13 @@ export class PublicationspageComponent implements OnInit {
 
   getImage(){
     return WELCOMEIMG;
+  }
+
+  getCardSettings(){
+    var ret: ICard = {
+      size: "large",
+      border: true
+    }
+    return ret;
   }
 }

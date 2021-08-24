@@ -3,6 +3,6 @@
 }
 h1 {font-family: 'crimsontext';}
 
-.mat-card{
+.noshadow{
     box-shadow: none;
 }

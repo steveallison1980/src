@@ -1,6 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { IHeader } from './../../../interfaces/icontent';
-import { stringify } from 'querystring';
 
 @Component({
   selector: 'app-headerrenderer',

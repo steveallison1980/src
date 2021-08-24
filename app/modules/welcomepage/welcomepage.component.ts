@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { WelcomeService } from '../../services/welcome.service';
-import { LanguagesettingService } from '../../services/languagesetting.service';
-import { ActivatedRoute } from '@angular/router';
+import { ICard } from '../../interfaces/icontent';
 
 @Component({
   selector: 'app-welcomepage',
@@ -11,13 +10,7 @@ import { ActivatedRoute } from '@angular/router';
 export class WelcomepageComponent implements OnInit {
 
   constructor(
-    private route: ActivatedRoute,
-    private langsvc: LanguagesettingService,
     private welcomeService: WelcomeService) {
-      const lang = this.route.snapshot.paramMap.get('lang');
-      if( lang == "en"){
-        this.langsvc.toggle();
-      }
    }
 
   ngOnInit(): void {
@@ -33,5 +26,13 @@ export class WelcomepageComponent implements OnInit {
 
   getImage(){
     return this.welcomeService.getImage();
+  }
+
+  getCardSettings(){
+    var ret: ICard = {
+      size: "large",
+      border: true
+    }
+    return ret;
   }
 }
