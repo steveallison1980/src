@@ -5982,7 +5982,7 @@ const PATENTFEES: IExpansionPanel = {
                                     {
                                         type: "span",
                                         objs: [{
-                                            text: "TODO: \"",
+                                            text: "''",
                                             url: null,
                                             routerlink: null,
                                             tooltip: null,
@@ -5996,7 +5996,7 @@ const PATENTFEES: IExpansionPanel = {
                                     {
                                         type: "span",
                                         objs: [{
-                                            text: "TODO: \"",
+                                            text: "''",
                                             url: null,
                                             routerlink: null,
                                             tooltip: null,
@@ -6060,7 +6060,7 @@ const PATENTFEES: IExpansionPanel = {
                                     {
                                         type: "span",
                                         objs: [{
-                                            text: "\"",
+                                            text: "''",
                                             url: null,
                                             routerlink: null,
                                             tooltip: null,
@@ -6074,7 +6074,7 @@ const PATENTFEES: IExpansionPanel = {
                                     {
                                         type: "span",
                                         objs: [{
-                                            text: "\"",
+                                            text: "''",
                                             url: null,
                                             routerlink: null,
                                             tooltip: null,
@@ -6138,7 +6138,7 @@ const PATENTFEES: IExpansionPanel = {
                                     {
                                         type: "span",
                                         objs: [{
-                                            text: "\"",
+                                            text: "''",
                                             url: null,
                                             routerlink: null,
                                             tooltip: null,
@@ -6152,7 +6152,7 @@ const PATENTFEES: IExpansionPanel = {
                                     {
                                         type: "span",
                                         objs: [{
-                                            text: "\"",
+                                            text: "''",
                                             url: null,
                                             routerlink: null,
                                             tooltip: null,
@@ -6216,7 +6216,7 @@ const PATENTFEES: IExpansionPanel = {
                                     {
                                         type: "span",
                                         objs: [{
-                                            text: "\"",
+                                            text: "''",
                                             url: null,
                                             routerlink: null,
                                             tooltip: null,
@@ -6230,7 +6230,7 @@ const PATENTFEES: IExpansionPanel = {
                                     {
                                         type: "span",
                                         objs: [{
-                                            text: "\"",
+                                            text: "''",
                                             url: null,
                                             routerlink: null,
                                             tooltip: null,
@@ -6294,7 +6294,7 @@ const PATENTFEES: IExpansionPanel = {
                                     {
                                         type: "span",
                                         objs: [{
-                                            text: "\"",
+                                            text: "''",
                                             url: null,
                                             routerlink: null,
                                             tooltip: null,
@@ -6308,7 +6308,7 @@ const PATENTFEES: IExpansionPanel = {
                                     {
                                         type: "span",
                                         objs: [{
-                                            text: "\"",
+                                            text: "''",
                                             url: null,
                                             routerlink: null,
                                             tooltip: null,
@@ -6372,7 +6372,7 @@ const PATENTFEES: IExpansionPanel = {
                                     {
                                         type: "span",
                                         objs: [{
-                                            text: "\"",
+                                            text: "''",
                                             url: null,
                                             routerlink: null,
                                             tooltip: null,
@@ -6386,7 +6386,7 @@ const PATENTFEES: IExpansionPanel = {
                                     {
                                         type: "span",
                                         objs: [{
-                                            text: "\"",
+                                            text: "''",
                                             url: null,
                                             routerlink: null,
                                             tooltip: null,
@@ -6609,7 +6609,7 @@ const PATENTFEES: IExpansionPanel = {
                                     {
                                         type: "span",
                                         objs: [{
-                                            text: "\"",
+                                            text: "''",
                                             url: null,
                                             routerlink: null,
                                             tooltip: null,
@@ -6623,7 +6623,7 @@ const PATENTFEES: IExpansionPanel = {
                                     {
                                         type: "span",
                                         objs: [{
-                                            text: "\"",
+                                            text: "''",
                                             url: null,
                                             routerlink: null,
                                             tooltip: null,
@@ -8612,19 +8612,127 @@ const PATENTLITIGAION: IExpansionPanel = {
                 ]
             },
             {
-                type: "paragraph",
+                type: "table",
                 objs: [{
-                    spans: [
+                    rows: [
                         {
-                            text: "TODO: TABLE?",
-                            url: null,
-                            routerlink: null,
-                            tooltip: null,
-                            classes: null
-                        }
-                    ],
-                    classes: null
+                            column1:
+                            {
+                                elements: [
+
+                                    {
+                                        type: "image",
+                                        objs: [
+                                            {
+                                                folder: "patentmanual",
+                                                filename: "arrow.png",
+                                                classes: ["xsmall"]
+                                            }
+                                        ]
+                                    },]
+                            },
+                            column2:
+                            {
+                                elements: [
+                                    {
+                                        type: "table",
+                                        objs: [{
+                                            rows: [
+                                                {
+                                                    column1:
+                                                    {
+                                                        elements: [
+                                                            {
+                                                                type: "span",
+                                                                objs: [{
+                                                                    text: "Defendant:",
+                                                                    url: null,
+                                                                    routerlink: null,
+                                                                    tooltip: null,
+                                                                    classes: ["noselect"]
+                                                                }]
+                                                            }]
+                                                    },
+                                                    column2:
+                                                    {
+                                                        elements: [
+                                                            {
+                                                                type: "paragraph",
+                                                                objs: [{
+                                                                    spans: [
+                                                                        {
+                                                                            text: "Specification of the accused product or process",
+                                                                            url: null,
+                                                                            routerlink: null,
+                                                                            tooltip: null,
+                                                                            classes: null
+                                                                        }
+                                                                    ],
+                                                                    classes: null
+                                                                }]
+                                                            },
+                                                            {
+                                                                type: "paragraph",
+                                                                objs: [{
+                                                                    spans: [
+                                                                        {
+                                                                            text: "Arguments regarding whether the above accused product or process is within the technical scope of the patented invention",
+                                                                            url: null,
+                                                                            routerlink: null,
+                                                                            tooltip: null,
+                                                                            classes: null
+                                                                        }
+                                                                    ],
+                                                                    classes: null
+                                                                }]
+                                                            },
+                                                            {
+                                                                type: "paragraph",
+                                                                objs: [{
+                                                                    spans: [
+                                                                        {
+                                                                            text: "Arguments of invalidity defense (if any)",
+                                                                            url: null,
+                                                                            routerlink: null,
+                                                                            tooltip: null,
+                                                                            classes: null
+                                                                        }
+                                                                    ],
+                                                                    classes: null
+                                                                }]
+                                                            }
+                                                        ]
+                                                    },
+                                                    column3: null,
+                                                    column4: null,
+                                                    column5: null,
+                                                    column6: null,
+                                                    column7: null,
+                                                    column8: null,
+                                                    column9: null,
+                                                    column10: null
+                                                },
+                                            ],
+                                            cols: ["", ""]
+                                        }]
+                                    },
+                                ]
+                            },
+                            column3: null,
+                            column4: null,
+                            column5: null,
+                            column6: null,
+                            column7: null,
+                            column8: null,
+                            column9: null,
+                            column10: null
+                        },],
+                    cols: ["", ""]
                 }]
+            },
+            {
+                type: "br",
+                objs: null
             },
             {
                 type: "header",
@@ -8637,19 +8745,97 @@ const PATENTLITIGAION: IExpansionPanel = {
                 ]
             },
             {
-                type: "paragraph",
+                type: "table",
                 objs: [{
-                    spans: [
+                    rows: [
                         {
-                            text: "TODO: TABLE?",
-                            url: null,
-                            routerlink: null,
-                            tooltip: null,
-                            classes: null
-                        }
-                    ],
-                    classes: null
+                            column1:
+                            {
+                                elements: [
+
+                                    {
+                                        type: "image",
+                                        objs: [
+                                            {
+                                                folder: "patentmanual",
+                                                filename: "arrow.png",
+                                                classes: ["xsmall"]
+                                            }
+                                        ]
+                                    },]
+                            },
+                            column2:
+                            {
+                                elements: [
+                                    {
+                                        type: "table",
+                                        objs: [{
+                                            rows: [
+                                                {
+                                                    column1:
+                                                    {
+                                                        elements: [
+                                                            {
+                                                                type: "span",
+                                                                objs: [{
+                                                                    text: "Plaintiff:",
+                                                                    url: null,
+                                                                    routerlink: null,
+                                                                    tooltip: null,
+                                                                    classes: ["noselect"]
+                                                                }]
+                                                            }]
+                                                    },
+                                                    column2:
+                                                    {
+                                                        elements: [
+                                                            {
+                                                                type: "paragraph",
+                                                                objs: [{
+                                                                    spans: [
+                                                                        {
+                                                                            text: "Counter-arguments against the defendant’s arguments regarding whether the accused product or process is within technical scope of the patented invention",
+                                                                            url: null,
+                                                                            routerlink: null,
+                                                                            tooltip: null,
+                                                                            classes: null
+                                                                        }
+                                                                    ],
+                                                                    classes: null
+                                                                }]
+                                                            }
+                                                        ]
+                                                    },
+                                                    column3: null,
+                                                    column4: null,
+                                                    column5: null,
+                                                    column6: null,
+                                                    column7: null,
+                                                    column8: null,
+                                                    column9: null,
+                                                    column10: null
+                                                },
+                                            ],
+                                            cols: ["", ""]
+                                        }]
+                                    },
+                                ]
+                            },
+                            column3: null,
+                            column4: null,
+                            column5: null,
+                            column6: null,
+                            column7: null,
+                            column8: null,
+                            column9: null,
+                            column10: null
+                        },],
+                    cols: ["", ""]
                 }]
+            },
+            {
+                type: "br",
+                objs: null
             },
             {
                 type: "header",
@@ -8662,19 +8848,112 @@ const PATENTLITIGAION: IExpansionPanel = {
                 ]
             },
             {
-                type: "paragraph",
+                type: "table",
                 objs: [{
-                    spans: [
+                    rows: [
                         {
-                            text: "TODO: TABLE?",
-                            url: null,
-                            routerlink: null,
-                            tooltip: null,
-                            classes: null
-                        }
-                    ],
-                    classes: null
+                            column1:
+                            {
+                                elements: [
+
+                                    {
+                                        type: "image",
+                                        objs: [
+                                            {
+                                                folder: "patentmanual",
+                                                filename: "arrow.png",
+                                                classes: ["xsmall"]
+                                            }
+                                        ]
+                                    },]
+                            },
+                            column2:
+                            {
+                                elements: [
+                                    {
+                                        type: "table",
+                                        objs: [{
+                                            rows: [
+                                                {
+                                                    column1:
+                                                    {
+                                                        elements: [
+                                                            {
+                                                                type: "span",
+                                                                objs: [{
+                                                                    text: "Defendant:",
+                                                                    url: null,
+                                                                    routerlink: null,
+                                                                    tooltip: null,
+                                                                    classes: ["noselect"]
+                                                                }]
+                                                            }]
+                                                    },
+                                                    column2:
+                                                    {
+                                                        elements: [
+                                                            {
+                                                                type: "paragraph",
+                                                                objs: [{
+                                                                    spans: [
+                                                                        {
+                                                                            text: "Counter-arguments against the plaintiff’s arguments regarding whether the accused product or process is within technical scope of the patented invention",
+                                                                            url: null,
+                                                                            routerlink: null,
+                                                                            tooltip: null,
+                                                                            classes: null
+                                                                        }
+                                                                    ],
+                                                                    classes: null
+                                                                }]
+                                                            },
+                                                            {
+                                                                type: "paragraph",
+                                                                objs: [{
+                                                                    spans: [
+                                                                        {
+                                                                            text: "Supplemental arguments of invalidity defense",
+                                                                            url: null,
+                                                                            routerlink: null,
+                                                                            tooltip: null,
+                                                                            classes: null
+                                                                        }
+                                                                    ],
+                                                                    classes: null
+                                                                }]
+                                                            }
+                                                        ]
+                                                    },
+                                                    column3: null,
+                                                    column4: null,
+                                                    column5: null,
+                                                    column6: null,
+                                                    column7: null,
+                                                    column8: null,
+                                                    column9: null,
+                                                    column10: null
+                                                },
+                                            ],
+                                            cols: ["", ""]
+                                        }]
+                                    },
+                                ]
+                            },
+                            column3: null,
+                            column4: null,
+                            column5: null,
+                            column6: null,
+                            column7: null,
+                            column8: null,
+                            column9: null,
+                            column10: null
+                        },],
+                    cols: ["", ""]
                 }]
+            },
+            {
+                type: "br",
+                objs: null
             },
             {
                 type: "header",
@@ -8687,19 +8966,186 @@ const PATENTLITIGAION: IExpansionPanel = {
                 ]
             },
             {
-                type: "paragraph",
+                type: "table",
                 objs: [{
-                    spans: [
+                    rows: [
                         {
-                            text: "TODO: TABLE?",
-                            url: null,
-                            routerlink: null,
-                            tooltip: null,
-                            classes: null
-                        }
-                    ],
-                    classes: null
+                            column1:
+                            {
+                                elements: [
+
+                                    {
+                                        type: "image",
+                                        objs: [
+                                            {
+                                                folder: "patentmanual",
+                                                filename: "arrow.png",
+                                                classes: ["xsmall"]
+                                            }
+                                        ]
+                                    },]
+                            },
+                            column2:
+                            {
+                                elements: [
+                                    {
+                                        type: "table",
+                                        objs: [{
+                                            rows: [
+                                                {
+                                                    column1:
+                                                    {
+                                                        elements: [
+                                                            {
+                                                                type: "span",
+                                                                objs: [{
+                                                                    text: "Plaintiff:",
+                                                                    url: null,
+                                                                    routerlink: null,
+                                                                    tooltip: null,
+                                                                    classes: ["noselect"]
+                                                                }]
+                                                            }]
+                                                    },
+                                                    column2:
+                                                    {
+                                                        elements: [
+                                                            {
+                                                                type: "paragraph",
+                                                                objs: [{
+                                                                    spans: [
+                                                                        {
+                                                                            text: "Supplemental arguments counter to the invalidity defense",
+                                                                            url: null,
+                                                                            routerlink: null,
+                                                                            tooltip: null,
+                                                                            classes: null
+                                                                        }
+                                                                    ],
+                                                                    classes: null
+                                                                }]
+                                                            }
+                                                        ]
+                                                    },
+                                                    column3: null,
+                                                    column4: null,
+                                                    column5: null,
+                                                    column6: null,
+                                                    column7: null,
+                                                    column8: null,
+                                                    column9: null,
+                                                    column10: null
+                                                },
+                                                {
+                                                    column1:
+                                                    {
+                                                        elements: [
+                                                            {
+                                                                type: "span",
+                                                                objs: [{
+                                                                    text: "Both parties:",
+                                                                    url: null,
+                                                                    routerlink: null,
+                                                                    tooltip: null,
+                                                                    classes: ["noselect"]
+                                                                }]
+                                                            }]
+                                                    },
+                                                    column2:
+                                                    {
+                                                        elements: [
+                                                            {
+                                                                type: "paragraph",
+                                                                objs: [{
+                                                                    spans: [
+                                                                        {
+                                                                            text: "Explanatory sessions regarding technical matters presented orally and questioned by both parties.",
+                                                                            url: null,
+                                                                            routerlink: null,
+                                                                            tooltip: null,
+                                                                            classes: null
+                                                                        }
+                                                                    ],
+                                                                    classes: null
+                                                                }]
+                                                            },
+                                                            {
+                                                                type: "paragraph",
+                                                                objs: [{
+                                                                    spans: [
+                                                                        {
+                                                                            text: "- Both parties often explain their technical matters related to the issues before the judges and technical advisers, which normally take half an hour per each party.",
+                                                                            url: null,
+                                                                            routerlink: null,
+                                                                            tooltip: null,
+                                                                            classes: null
+                                                                        }
+                                                                    ],
+                                                                    classes: null
+                                                                }]
+                                                            },
+                                                            {
+                                                                type: "paragraph",
+                                                                objs: [{
+                                                                    spans: [
+                                                                        {
+                                                                            text: "- Judges and technical advisers may ask questions on the explanations presented, and such questions are important as it indicates their views and interests.",
+                                                                            url: null,
+                                                                            routerlink: null,
+                                                                            tooltip: null,
+                                                                            classes: null
+                                                                        }
+                                                                    ],
+                                                                    classes: null
+                                                                }]
+                                                            },
+                                                            {
+                                                                type: "paragraph",
+                                                                objs: [{
+                                                                    spans: [
+                                                                        {
+                                                                            text: "- A technical tutorial is often held. Both sides give technical explanations on the contested issues in front of the judges and technical advisers who support the judges. Typically, these take about 30 minutes. The judges and technical advisers can ask questions about the technical explanations of the parties. It is important to pay close attention to the judges' questions here as they often show what they are most concerned about.",
+                                                                            url: null,
+                                                                            routerlink: null,
+                                                                            tooltip: null,
+                                                                            classes: null
+                                                                        }
+                                                                    ],
+                                                                    classes: null
+                                                                }]
+                                                            }
+                                                        ]
+                                                    },
+                                                    column3: null,
+                                                    column4: null,
+                                                    column5: null,
+                                                    column6: null,
+                                                    column7: null,
+                                                    column8: null,
+                                                    column9: null,
+                                                    column10: null
+                                                }
+                                            ],
+                                            cols: ["", ""]
+                                        }]
+                                    },
+                                ]
+                            },
+                            column3: null,
+                            column4: null,
+                            column5: null,
+                            column6: null,
+                            column7: null,
+                            column8: null,
+                            column9: null,
+                            column10: null
+                        },],
+                    cols: ["", ""]
                 }]
+            },
+            {
+                type: "br",
+                objs: null
             },
             {
                 type: "header",
@@ -8712,19 +9158,127 @@ const PATENTLITIGAION: IExpansionPanel = {
                 ]
             },
             {
-                type: "paragraph",
+                type: "table",
                 objs: [{
-                    spans: [
+                    rows: [
                         {
-                            text: "TODO: TABLE?",
-                            url: null,
-                            routerlink: null,
-                            tooltip: null,
-                            classes: null
-                        }
-                    ],
-                    classes: null
+                            column1:
+                            {
+                                elements: [
+
+                                    {
+                                        type: "image",
+                                        objs: [
+                                            {
+                                                folder: "patentmanual",
+                                                filename: "arrow.png",
+                                                classes: ["xsmall"]
+                                            }
+                                        ]
+                                    },]
+                            },
+                            column2:
+                            {
+                                elements: [
+                                    {
+                                        type: "table",
+                                        objs: [{
+                                            rows: [
+                                                {
+                                                    column1:
+                                                    {
+                                                        elements: [
+                                                            {
+                                                                type: "span",
+                                                                objs: [{
+                                                                    text: "The court:",
+                                                                    url: null,
+                                                                    routerlink: null,
+                                                                    tooltip: null,
+                                                                    classes: ["noselect"]
+                                                                }]
+                                                            }]
+                                                    },
+                                                    column2:
+                                                    {
+                                                        elements: [
+                                                            {
+                                                                type: "paragraph",
+                                                                objs: [{
+                                                                    spans: [
+                                                                        {
+                                                                            text: "Disclosure of opinion on the infringement",
+                                                                            url: null,
+                                                                            routerlink: null,
+                                                                            tooltip: null,
+                                                                            classes: null
+                                                                        }
+                                                                    ],
+                                                                    classes: null
+                                                                }]
+                                                            },
+                                                            {
+                                                                type: "paragraph",
+                                                                objs: [{
+                                                                    spans: [
+                                                                        {
+                                                                            text: "- In the case of non-infringement opinion: dismissal of trial/ recommendation of settlement",
+                                                                            url: null,
+                                                                            routerlink: null,
+                                                                            tooltip: null,
+                                                                            classes: null
+                                                                        }
+                                                                    ],
+                                                                    classes: null
+                                                                }]
+                                                            },
+                                                            {
+                                                                type: "paragraph",
+                                                                objs: [{
+                                                                    spans: [
+                                                                        {
+                                                                            text: "- In the case of infringement opinion: calculation of damages amount (the second stage)/recommendation of settlement",
+                                                                            url: null,
+                                                                            routerlink: null,
+                                                                            tooltip: null,
+                                                                            classes: null
+                                                                        }
+                                                                    ],
+                                                                    classes: null
+                                                                }]
+                                                            }
+                                                        ]
+                                                    },
+                                                    column3: null,
+                                                    column4: null,
+                                                    column5: null,
+                                                    column6: null,
+                                                    column7: null,
+                                                    column8: null,
+                                                    column9: null,
+                                                    column10: null
+                                                },
+                                            ],
+                                            cols: ["", ""]
+                                        }]
+                                    },
+                                ]
+                            },
+                            column3: null,
+                            column4: null,
+                            column5: null,
+                            column6: null,
+                            column7: null,
+                            column8: null,
+                            column9: null,
+                            column10: null
+                        },],
+                    cols: ["", ""]
                 }]
+            },
+            {
+                type: "br",
+                objs: null
             },
             {
                 type: "header",

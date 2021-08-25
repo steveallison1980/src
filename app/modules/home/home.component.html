@@ -2,22 +2,36 @@
     <video fxShow="true" fxHide.lt-md="true" class="videoinsert" loop muted autoplay oncanplay="this.play()" onloadedmetadata="this.muted = true">
         <source src="../../../../assets/video/splashvideo.mp4" type="video/mp4">
     </video>
-    <img fxHide="true" fxShow.lt-md="true" class="videoinsert" src="../../../../assets/img/splash.jpg">
+    <img fxHide="true" fxShow.sm="true" class="videoinsert" src="../../../../assets/img/splash.jpg">
+    <img fxHide="true" fxShow.lt-sm="true" class="videoinsert" src="../../../../assets/img/splashmobile.jpg">
     <br>
 
-    <div flexLayout='row' fxFlex  fxLayoutAlign="space-between start" fxLayoutGap="10px" fxLayout.lt-md="column">
+    <div fxShow="true" fxHide.lt-md="true" flexLayout='row' fxFlex  fxLayoutAlign="space-between start" fxLayoutGap="10px" fxLayout.lt-md="column">
         <div fxFlex="5"></div>
-        <div fxFlex="30" fxLayoutAlign="space-around stretch">
+        <div fxFlex="90" fxLayoutAlign="space-around stretch">
             <app-staticcard [type]="'welcome'"></app-staticcard>
         </div>
-        <div fxFlex="30" fxLayoutAlign="space-around stretch">
+        <div fxFlex="90" fxLayoutAlign="space-around stretch">
             <app-staticcard *ngIf="getLang()=='JP'" [type]="'cafc'"></app-staticcard>
             <app-staticcard *ngIf="getLang()=='EN'" [type]="'guidance'"></app-staticcard>
         </div>
-        <div fxFlex="30" fxLayoutAlign="space-around stretch">
+        <div fxFlex="90" fxLayoutAlign="space-around stretch">
             <app-staticcard [type]="'team'"></app-staticcard>
         </div>
         <div fxFlex="5"></div>
+    </div>
+
+    <div fxHide="true" fxShow.lt-md="true">
+        <div class="marginedcard">
+            <app-staticcard [type]="'welcome'"></app-staticcard>
+        </div>
+        <div class="marginedcard">
+            <app-staticcard *ngIf="getLang()=='JP'" [type]="'cafc'"></app-staticcard>
+            <app-staticcard *ngIf="getLang()=='EN'" [type]="'guidance'"></app-staticcard>
+        </div>
+        <div class="marginedcard">
+            <app-staticcard [type]="'team'"></app-staticcard>
+        </div>
     </div>
     <br>
     <div>

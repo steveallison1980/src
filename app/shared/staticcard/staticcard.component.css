@@ -16,7 +16,6 @@ a:active {
     font-family: 'crimsontext';
 }
 .mat-card-image:hover{
-    transform: scale(0.99);
     cursor: pointer;
 }
 .cardlink:hover{
@@ -28,9 +27,6 @@ a:active {
              /* IE6–IE9 */
              filter: progid:DXImageTransform.Microsoft.Matrix(M11=0.9999619230641713, M12=-0.008726535498373935, M21=0.008726535498373935, M22=0.9999619230641713,SizingMethod='auto expand');
 }
-.spinner{
-    position: fixed;
-    top: 20%;
-    left: 45%;
-    z-index: 10;
+.cardlinkdiv{
+    float: right;
 }
