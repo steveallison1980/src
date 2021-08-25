@@ -1,5 +1,5 @@
 <mat-nav-list>
-    <div *ngIf="isSplashPage()" [matTooltip]="getLangToggleToolTip()" class='linkdiv' (click)="toggleLang()">
+    <div [matTooltip]="getLangToggleToolTip()" class='linkdiv' (click)="toggleLang()">
         <button mat-button>
             <img [src]='getImgSrc()' height='32px'>
         </button>

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ITitle } from './../../../interfaces/icontent';
 
 @Component({
   selector: 'app-setsumeikaiguide',
@@ -11,5 +12,11 @@ export class SetsumeikaiguideComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+  getTitle(){
+    var ret: ITitle = {
+      class: "largetext",
+      text: '事務所説明会のご案内'
+    }
+    return ret;
+  }
 }

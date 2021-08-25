@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ITitle } from './../../../interfaces/icontent';
 
 @Component({
   selector: 'app-boshuyoko',
@@ -30,5 +31,12 @@ export class BoshuyokoComponent implements OnInit {
 
   getFukurikousei(){
     return(this.FUKURIKOSEIJP);
+  }
+  getTitle(){
+    var ret: ITitle = {
+      class: "largetext",
+      text: "募集要項"
+    }
+    return ret;
   }
 }

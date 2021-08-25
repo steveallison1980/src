@@ -4,7 +4,7 @@ import { LanguagesettingService } from '../../../services/languagesetting.servic
 import { NavigateService } from '../../../services/navigate.service';
 import { PROFESSIONAL, PROFESSIONALJP, PROFESSIONALTITLE, PROFESSIONALTITLEJP, COMPUTERS, COMPUTERSJP, COMPUTERSTITLE, COMPUTERSTITLEJP, MECHANICAL, MECHANICALJP, MECHANICALTITLE, MECHANICALTITLEJP, DESIGNS, DESIGNSJP, DESIGNTITLE, DESIGNTITLEJP, MEDICAL, MEDICALJP, MEDICALTITLE, MEDICALTITLEJP, CHEMICALS, CHEMICALSJP, CHEMICALTITLE, CHEMICALTITLEJP, AMUSEMENT, AMUSEMENTJP, AMUSEMENTSTITLEJP, AMUSEMENTSTITLE, LITIGATION, LITIGATIONJP, LITIGATIONTITLE, LITIGATIONTITLEJP} from '../../../../assets/data/staticprofessionals';
 import { CHECKOUTDESIGNGUIDE } from '../../../../assets/data/staticguidancedesign';
-
+import { ITitle } from './../../../interfaces/icontent';
 
 @Component({
   selector: 'app-practiceareas',
@@ -32,13 +32,20 @@ export class PracticeareasComponent implements OnInit {
   }
 
   getTitle(){
+    var text = "";
     switch(this.langService.lang){
       case "JP": 
-        return PROFESSIONALTITLEJP;
+        text = PROFESSIONALTITLEJP;
+        break;
       case "EN": 
       default:
-        return PROFESSIONALTITLE;
+        text = PROFESSIONALTITLE;
     }
+    var ret: ITitle = {
+      class: "largetext",
+      text: text
+    }
+    return ret;
   }
 
   getComputerTitle(){

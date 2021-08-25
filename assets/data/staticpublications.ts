@@ -2,6 +2,7 @@ import { IPublication } from './../../app/interfaces/ipublication';
 
 export const PUBLICATIONS_DATA: IPublication[] = [
 {
+    id: 1,
     img: "tokkyogawakaruQandA.jpg",
 
     title: "Understanding Patents Q&A",
@@ -28,6 +29,7 @@ export const PUBLICATIONS_DATA: IPublication[] = [
         "Ｑ＆Ａで、知りたいポイントがスッキリわかる！企業における研究開発部門や知財部門の技術者・管理者を主な読者対象に、知財関係者以外にはわかりにくい特許の問題について、ビジネスではどのように対処すべきかという観点で、Ｑ＆Ａ方式でやさしく解説したものです。"]
 },
 {
+    id: 2,
     img: "cafchanreishu.jpg",
 
     title: "CAFC Case Studies",
@@ -63,6 +65,7 @@ export const PUBLICATIONS_DATA: IPublication[] = [
         "そこで、今回は10年分の判決の要約を日本語と英語でCD-ROMに収めて発行しました。お役に立てることを期待しています。"]
 },
 {
+    id: 3,
     img: "beikokutokkyohanreikaisetsu.jpg",
 
     title: "US Patent Case Studies, 2005",
@@ -95,6 +98,7 @@ export const PUBLICATIONS_DATA: IPublication[] = [
         "この本は、CAFC判例研究（1）に引き続く続編としての判例解説です。1982年に米国連邦巡回控訴裁判所（「CAFC」）が創設されて以来CAFCが下す判決は、法律解釈、実務における分野で重要な指針を示し続けています。本書では、近年CAFCが下ろした判決のうち最も重要なものを紹介しており、その内容は特許侵害の成立性をはじめ、均等論、審査経過禁反言、特許権の解釈、特許の有効性、権利行使の可能性、手続き上の問題までを包含し、紹介した判例は特許訴訟のすべての分野に関する判決を含んでいます。CAFCは米国特許商標庁からの控訴事件も扱っているため、その判決は特許及び商標の審査の分野においても非常に有益なものです。"]
 },
 {
+    id: 4,
     img: "tokkyogawakaruhon.jpg",
 
     title: "Understanding Patents",
@@ -121,6 +125,7 @@ export const PUBLICATIONS_DATA: IPublication[] = [
         "特許を理解するには、特許法をもとに理解するやり方と、ビジネス、技術開発、特許それぞれの接点を参考にしながら実務的な特許の基礎を学ぶ方法とがある。本書は、後者のアプローチをとって、仕事に直接役立つ特許の実務的な知識獲得を可能とするような構成にした。また、全体を通して、アクティブな財産となりうる特許を取得するための戦略や取得した特許権の活用および、特許以外の知的財産についても体系的な理解が得られるような章立てを行った。"]
 },
 {
+    id: 5,
     img: "tokkyonojiturochisiki.jpg",
 
     title: "Patent Practice Made Easy",

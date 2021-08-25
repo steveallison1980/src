@@ -19,3 +19,18 @@ a:active {
     transform: scale(0.99);
     cursor: pointer;
 }
+.cardlink:hover{
+    -webkit-transform: scale(1.1); /* Saf3.1+, Chrome */
+     -moz-transform: scale(1.1); /* FF3.5+ */
+      -ms-transform: scale(1.1); /* IE9 */
+       -o-transform: scale(1.1); /* Opera 10.5+ */
+          transform: scale(1.1);
+             /* IE6–IE9 */
+             filter: progid:DXImageTransform.Microsoft.Matrix(M11=0.9999619230641713, M12=-0.008726535498373935, M21=0.008726535498373935, M22=0.9999619230641713,SizingMethod='auto expand');
+}
+.spinner{
+    position: fixed;
+    top: 20%;
+    left: 45%;
+    z-index: 10;
+}

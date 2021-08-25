@@ -32,6 +32,7 @@ import { MatBottomSheetModule } from '@angular/material/bottom-sheet';
 import { MatInputModule } from '@angular/material/input';
 import { FormsModule } from '@angular/forms';
 import { MatTooltipModule } from '@angular/material/tooltip';
+import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 
 import { OfficecardComponent } from './components/officecard/officecard.component';
 import { PatentsblurbComponent } from './components/patentsblurb/patentsblurb.component';
@@ -158,6 +159,7 @@ import { StaticcardComponent } from './staticcard/staticcard.component';
     MatBottomSheetModule,
     MatInputModule,
     MatTooltipModule,
+    MatProgressSpinnerModule,
     FormsModule,
     RouterModule,
     FlexLayoutModule

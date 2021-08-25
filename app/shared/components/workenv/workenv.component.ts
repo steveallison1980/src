@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ITitle } from './../../../interfaces/icontent';
 
 @Component({
   selector: 'app-workenv',
@@ -12,4 +13,11 @@ export class WorkenvComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  getTitle(){
+    var ret: ITitle = {
+      class: "largetext",
+      text: '事務所の仕事環境'
+    }
+    return ret;
+  }
 }

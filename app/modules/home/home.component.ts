@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { LanguagesettingService } from '../../services/languagesetting.service';
 import { ActivatedRoute } from '@angular/router';
-import { ICard, IContent, ISpan } from '../../interfaces/icontent';
+import { ICard, IContent } from '../../interfaces/icontent';
 
 @Component({
   selector: 'app-home',
@@ -93,7 +93,7 @@ export class HomeComponent implements OnInit {
               {
                 type: "span",
                 objs: [{
-                    text: "law and practice.",
+                    text: "practice from our Q&A format guidance.",
                     url: null,
                     routerlink: null,
                     tooltip: null,

@@ -3,6 +3,7 @@ import { LanguagesettingService } from '../../../services/languagesetting.servic
 import { DESIGN, DESIGNJP, DESIGNTITLE, DESIGNTITLEJP, DESIGNTRADETITLE, DESIGNTRADETITLEJP, TRADE, TRADEJP, TRADETITLE, TRADETITLEJP } from '../../../../assets/data/staticservices';
 import { CHECKOUTDESIGNGUIDE } from '../../../../assets/data/staticguidancedesign';
 import { CHECKOUTTMGUIDE } from '../../../../assets/data/staticguidancetrademark';
+import { ITitle } from './../../../interfaces/icontent';
 
 @Component({
   selector: 'app-designsandtrademarks',
@@ -27,23 +28,37 @@ export class DesignsandtrademarksComponent implements OnInit {
   }
 
   getDesignTitle(){
+    var text = "";
     switch(this.langService.lang){
       case "JP":
-        return DESIGNTITLEJP;
+        text = DESIGNTITLEJP;
+        break;
       case "EN":
       default:
-        return DESIGNTITLE;
+        text = DESIGNTITLE;
     }
+    var ret: ITitle = {
+      class: "largetext",
+      text: text
+    }
+    return ret;
   }
 
   getTrademarkTitle(){
+    var text = "";
     switch(this.langService.lang){
       case "JP":
-        return TRADETITLEJP;
+        text = TRADETITLEJP;
+        break;
       case "EN":
       default:
-        return TRADETITLE;
+        text = TRADETITLE;
     }
+    var ret: ITitle = {
+      class: "largetext",
+      text: text
+    }
+    return ret;
   }
 
   getDesignParas(){

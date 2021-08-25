@@ -103,7 +103,7 @@ const routes: Routes = [
         component: PublicationspageComponent
       },
       {
-        path: 'publicationpage',
+        path: 'publicationpage/:id',
         component: PublicationpageComponent
       },
       {

@@ -5,10 +5,10 @@
             <div fxFlex='5' fxShow="true" fxHide.lt-md="true">
             </div>
             <div fxFlex='20' fxShow="true" fxHide.lt-md>
-                <app-sidebar [menu]="'home'" [highlight]="'publicationspage'"></app-sidebar>
+                <app-sidebar [menu]="'ourservices'" [highlight]="'publicationspage'"></app-sidebar>
             </div>
             <div fxFlex='70' fxShow="true" fxHide.lt-md>
-                <app-publication></app-publication>
+                <app-publication [pub]="getPub()"></app-publication>
             </div>
             <div fxFlex='5' fxShow="true" fxHide.lt-md="true">
             </div>
@@ -16,7 +16,7 @@
             <!--MOBILE-->
             <div fxFlex='5' fxHide fxShow.lt-md></div>
             <div fxFlex='90' fxHide fxShow.lt-md>
-                <app-publication></app-publication>
+                <app-publication [pub]="getPub()"></app-publication>
                 <br>
             </div>
             <div fxFlex='5' fxHide fxShow.lt-md></div>

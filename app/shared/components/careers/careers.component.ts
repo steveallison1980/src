@@ -1,7 +1,7 @@
-  
 import { Component, OnInit } from '@angular/core';
 import { LanguagesettingService } from '../../../services/languagesetting.service';
 import { CAREERCONTACT, CAREERCONTACTJP, CAREERTITLE, CAREERTITLEJP, PATENTATTANDENG,PATENTATTANDENGJP, PATENTATTANDENGTITLE, PATENTATTANDENGTITLEJP, JOBOUTLINETITLE, JOBOUTLINETITLEJP, JOBOUTLINEPATANDENG, JOBOUTLINEPATANDENGJP, JOBOUTLINETRANSLATION, JOBOUTLINETRANSLATIONJP, TRANSLATION, TRANSLATIONJP, TRANSLATIONTITLE, TRANSLATIONTITLEJP, SELECTION, SELECTIONJP, SELECTIONTITLE, SELECTIONTITLEJP} from '../../../../assets/data/staticcareers';
+import { ITitle } from './../../../interfaces/icontent';
 
 @Component({
   selector: 'app-careers',
@@ -16,13 +16,20 @@ export class CareersComponent implements OnInit {
   }
 
   getTitle(){
+    var text="";
     switch(this.langService.lang){
       case "JP":
-        return CAREERTITLEJP;
+          text = CAREERTITLEJP;
+          break;
       case "EN":
       default:
-        return CAREERTITLE;
+          text = CAREERTITLE;
     }
+    var ret: ITitle = {
+      class: "largetext",
+      text: text
+    }
+    return ret;
   }
 
   getPatandEngTitle(){

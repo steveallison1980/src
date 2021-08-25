@@ -5,10 +5,10 @@ export const SITEMAP_DATA: ISitemap =
     pages: [
         {
             mainpage: 'home',
-            routerlink: '/welcomepage',
+            routerlink: '/home',
             text: "Home",
             textJP: "ホーム",
-            defaultsubpage: 'welcomepage',
+            defaultsubpage: 'home',
             links: [
                 { text: 'Welcome Message', textJP: 'ご挨拶', icon: 'local_florist', subPage: 'welcomepage', curPage: 'home', routerlink: '/welcomepage', displayMode: 'both' },
                 /*{ text: 'What\'s New', textJP: '最新情報', icon: 'announcement', subPage: 'newspage', curPage: 'home', routerlink: '/newspage', displayMode: 'both' },*/

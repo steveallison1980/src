@@ -1,4 +1,7 @@
 <!-- PC VIEW -->
+<button *ngIf="!isSplashPage()" fxShow fxHide.lt-md class='menubutton' mat-stroked-button color="accent" [matTooltip]="getMenuToolTip()" (click)="openSitemap()">
+    <mat-icon>menu</mat-icon>
+</button>
 <div *ngIf="!isSplashPage()" class="topbar" fxShow fxHide.lt-md fxLayout='row' fxLayoutAlign='end center' fxLayoutGap>
     <div class='topbarelement linkdiv' fxLayoutAlign='center center'>
         <a routerLink="/contactpage" (click)="clickContact()">

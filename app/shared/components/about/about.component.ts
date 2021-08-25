@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { LanguagesettingService } from '../../../services/languagesetting.service';
 import { ABOUTPOINTFORMTABLE, ABOUTPOINTFORMTABLEJP, ABOUTTITLEJP, ABOUTTITLE, ABOUTUSJP, ABOUTUS, ABOUTMAINSERVICESJP, ABOUTMAINSERVICES} from '../../../../assets/data/staticabout';
 import { SIGNATURE, SIGNATUREJP} from '../../../../assets/data/staticall';
+import { ITitle } from './../../../interfaces/icontent';
 
 
 @Component({
@@ -17,14 +18,22 @@ export class AboutComponent implements OnInit {
   }
 
   getTitle(){
+    var titletext = "";
     switch(this.langService.lang){
       case "JP":
-        return ABOUTTITLEJP;
+        titletext = ABOUTTITLEJP;
+        break;
       case "EN":
       default:
-        return ABOUTTITLE;
+        titletext = ABOUTTITLE;
     }
+    var ret: ITitle = {
+      class: "largetext",
+      text: titletext
+    }
+    return ret;
   }
+
 
   getParas(){
     switch(this.langService.lang){

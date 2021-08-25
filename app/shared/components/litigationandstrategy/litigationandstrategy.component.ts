@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { LanguagesettingService } from '../../../services/languagesetting.service';
 import { LITIGATION, LITIGATIONJP, LITIGATIONTITLE, LITIGATIONTITLEJP, LITSTRATSEARCHTITLE, LITSTRATSEARCHTITLEJP, PATSEARCH, PATSEARCHJP, PATSEARCHTITLE, PATSEARCHTITLEJP, PATSTRAT, PATSTRATJP, PATSTRATTITLE, PATSTRATTITLEJP } from '../../../../assets/data/staticservices';
+import { ITitle } from './../../../interfaces/icontent';
 
 @Component({
   selector: 'app-litigationandstrategy',
@@ -25,33 +26,54 @@ export class LitigationandstrategyComponent implements OnInit {
   }
 
   getLitTitle(){
+    var text = "";
     switch(this.langService.lang){
       case "JP":
-        return LITIGATIONTITLEJP;
+          text = LITIGATIONTITLEJP;
+          break;
       case "EN":
       default:
-        return LITIGATIONTITLE;
+          text = LITIGATIONTITLE;
     }
+    var ret: ITitle = {
+      class: "largetext",
+      text: text
+    }
+    return ret;
   }
   
   getPatStratTitle(){
+    var text = "";
     switch(this.langService.lang){
       case "JP":
-        return PATSTRATTITLEJP;
+        text = PATSTRATTITLEJP;
+        break;
       case "EN":
       default:
-        return PATSTRATTITLE;
+        text = PATSTRATTITLE;
     }
+    var ret: ITitle = {
+      class: "largetext",
+      text: text
+    }
+    return ret;
   }
 
   getPatSearchTitle(){
+    var text = "";
     switch(this.langService.lang){
       case "JP":
-        return PATSEARCHTITLEJP;
+        text = PATSEARCHTITLEJP;
+        break;
       case "EN":
       default:
-        return PATSEARCHTITLE;
+        text = PATSEARCHTITLE;
     }
+    var ret: ITitle = {
+      class: "largetext",
+      text: text
+    }
+    return ret;
   }
 
   getLitParas(){

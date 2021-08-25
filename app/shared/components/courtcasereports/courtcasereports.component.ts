@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { LanguagesettingService } from '../../../services/languagesetting.service';
 import { CAFCDEC, CAFCDECJP, CAFCDECTITLE, CAFCDECTITLEJP, JAPANDEC, JAPANDECJP, JAPANDECTITLE, JAPANDECTITLEJP } from '../../../../assets/data/staticservices';
+import { ITitle } from './../../../interfaces/icontent';
 
 @Component({
   selector: 'app-courtcasereports',
@@ -15,23 +16,44 @@ export class CourtcasereportsComponent implements OnInit {
   }
 
   getCAFCDecTitle(){
+    var text = "";
     switch(this.langService.lang){
       case "JP":
-        return CAFCDECTITLEJP;
+          text = CAFCDECTITLEJP;
+          break;
       case "EN":
       default:
-        return CAFCDECTITLE;
+          text = CAFCDECTITLE;
     }
-  }
+    var ret: ITitle = {
+      class: "largetext",
+      text: text
+    }
+    return ret;
+  }  
 
+  getTitle(){
+    var ret: ITitle = {
+      class: "largetext",
+      text: "募集要項"
+    }
+    return ret;
+  }
   getJapanDecTitle(){
+    var text = "";
     switch(this.langService.lang){
       case "JP":
-        return JAPANDECTITLEJP;
+          text = JAPANDECTITLEJP;
+          break;
       case "EN":
       default:
-        return JAPANDECTITLE;
+          text = JAPANDECTITLE;
     }
+    var ret: ITitle = {
+      class: "largetext",
+      text: text
+    }
+    return ret;
   }
 
   getCAFCDecParas(){

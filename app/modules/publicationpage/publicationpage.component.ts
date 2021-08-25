@@ -1,4 +1,8 @@
 import { Component, OnInit } from '@angular/core';
+import { NavigateService } from '../../services/navigate.service';
+import { PublicationService } from '../../services/publication.service';
+import { ActivatedRoute } from '@angular/router';
+import { IPublication } from '../../interfaces/ipublication';
 
 @Component({
   selector: 'app-publicationpage',
@@ -7,9 +11,25 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PublicationpageComponent implements OnInit {
 
-  constructor() { }
+  private pub: IPublication;
+
+  constructor(
+    public nav: NavigateService,
+    private route: ActivatedRoute,
+    private publicationService: PublicationService
+  ) { }
 
   ngOnInit(): void {
+    this.getPublication();
   }
 
+  getPublication(): void {
+    const id = Number(this.route.snapshot.paramMap.get('id'));
+    this.publicationService.getPublication(id)
+      .subscribe(pub => this.pub = pub);
+  }
+
+  getPub(): IPublication{
+    return this.pub;
+  }
 }

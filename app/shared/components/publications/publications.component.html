@@ -3,19 +3,19 @@
         <mat-card>
             <mat-card-header>
                 
-                <mat-card-title routerLink="/publicationpage" (click)="clickDetails(pub)">{{getTitle(pub)}}</mat-card-title>
+                <mat-card-title routerLink="/publicationpage/{{pub.id}}" (click)="clickDetails(pub)">{{getTitle(pub)}}</mat-card-title>
                 <mat-card-subtitle>
                     {{getPubDate(pub)}}
                 </mat-card-subtitle>
             </mat-card-header>
-            <a routerLink="/publicationpage"  (click)="clickDetails(pub)">
+            <a routerLink="/publicationpage/{{pub.id}}"  (click)="clickDetails(pub)">
                 <img class='mainimage' mat-card-image src="../../../../assets/img/books/{{pub.img}}" alt="{{getTitle(pub)}}, {{getPubDate(pub)}}">
             </a>
             <mat-card-content><p>{{getShort(pub)}}</p></mat-card-content>
             
-            <mat-card-actions fxLayoutAlign="end">
-                <a routerLink="/publicationpage"  (click)="clickDetails(pub)">
-                    <div class="person-button-row">
+            <mat-card-actions fxLayoutAlign="end end">
+                <a routerLink="/publicationpage/{{pub.id}}"  (click)="clickDetails(pub)">
+                    <div>
                         <button mat-stroked-button>
                             {{getDetails()}}
                         </button>

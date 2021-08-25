@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { LanguagesettingService } from '../../../services/languagesetting.service';
 import { PATENTUTIL, PATENTUTILJP, PATENTUTILTITLE, PATENTUTILTITLEJP} from '../../../../assets/data/staticservices';
 import { CHECKOUTPATENTGUIDE } from '../../../../assets/data/staticguidancepatent';
+import { ITitle } from './../../../interfaces/icontent';
 
 @Component({
   selector: 'app-patentsandutilitymodels',
@@ -21,13 +22,20 @@ export class PatentsandutilitymodelsComponent implements OnInit {
   }
 
   getTitle(){
+    var text = "";
     switch(this.langService.lang){
       case "JP":
-        return PATENTUTILTITLEJP;
+        text = PATENTUTILTITLEJP;
+        break;
       case "EN":
       default:
-        return PATENTUTILTITLE;
+        text = PATENTUTILTITLE;
     }
+    var ret: ITitle = {
+      class: "largetext",
+      text: text
+    }
+    return ret;
   }
 
   getParas(){

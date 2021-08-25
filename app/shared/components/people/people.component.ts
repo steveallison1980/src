@@ -23,7 +23,6 @@ export class PeopleComponent implements OnInit {
   people: Array<IPerson> = PEOPLE_DATA;
   
   clickDetails(p: IPerson) {
-    console.log(p.name)
     this.nav.curPerson = p;
     this.nav.view = "person";
     window.scroll(0, 0);

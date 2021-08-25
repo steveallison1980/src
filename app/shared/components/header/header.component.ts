@@ -133,7 +133,6 @@ export class HeaderComponent implements OnInit {
     return false;
   }
   isHome(){
-    console.log(this.highlight)
     if( this.highlight == "/") return true;
     if( this.highlight == "/welcomepage") return true;
     return this.findInNav("home");
@@ -142,7 +141,7 @@ export class HeaderComponent implements OnInit {
     return this.findInNav("aboutus");
   }
   isOurservices(){
-    return this.findInNav("ourservices");
+    return this.findInNav("ourservices")  || this.highlight.includes("publication");
   }
   isProfessionals(){
     return this.findInNav("professionals") || this.highlight.includes("professional");
@@ -157,18 +156,16 @@ export class HeaderComponent implements OnInit {
     for(let i in SITEMAP_DATA.pages){
       if (SITEMAP_DATA.pages[i].mainpage == needle ){
         for(let j in SITEMAP_DATA.pages[i].links){
-          if(SITEMAP_DATA.pages[i].links[j].routerlink == this.highlight) return true;
+          if(SITEMAP_DATA.pages[i].links[j].routerlink == this.highlight) {
+            return true;
+          }
         }
       }
     }
     return false;
   }
   getMenuToolTip(){
-    if (this.langService.lang == "EN") {
-      return "menu";
-    } else {
-      return "menu";
-    }
+    return "menu";
   }
   toggleLang(){
     this.langService.toggle();

@@ -1,24 +1,29 @@
+<mat-progress-spinner *ngIf="bSpinner"
+class="spinner"
+color="primary"
+mode="indeterminate">
+</mat-progress-spinner>
 <mat-card>
     <mat-card-title>
         {{getTitle()}}
     </mat-card-title>
     <br>
-    <a *ngIf="getType() == 'welcome'" routerLink='/welcomepage'>
+    <a *ngIf="getType() == 'welcome'" routerLink='/welcomepage' (mousedown)="clickLink()">
         <img mat-card-image [src]="getImgFilePath()">
     </a>
-    <a *ngIf="getType() == 'cafc'" routerLink='/cafcall'>
+    <a *ngIf="getType() == 'cafc'" routerLink='/cafcall' (mousedown)="clickLink()">
         <img mat-card-image [src]="getImgFilePath()">
     </a>
-    <a *ngIf="getType() == 'guidance'" routerLink='/guidance'>
+    <a *ngIf="getType() == 'guidance'" routerLink='/guidance' (mousedown)="clickLink()">
         <img mat-card-image [src]="getImgFilePath()">
     </a>
-    <a *ngIf="getType() == 'team'" routerLink='/pro-practiceareas'>
+    <a *ngIf="getType() == 'team'" routerLink='/pro-practiceareas' (mousedown)="clickLink()">
         <img mat-card-image [src]="getImgFilePath()">
     </a>
     <div *ngIf="getType() == 'welcome'">
         <div *ngIf="getLang()=='EN'">
             Welcome message from
-            <a routerLink='/professional/2'>Yasuhiro Ohtsuka</a>,
+            <a routerLink='/professional/2' (mousedown)="clickLink()">Yasuhiro Ohtsuka,</a>
             managing partner at Ohtsuka Patent Office.
         </div>
         <div *ngIf="getLang()=='JP'">
@@ -34,7 +39,7 @@
         Learn about Japanese
         <a routerLink='/guidance/patent'>patent</a>, 
         <a routerLink='/guidance/trademark'>trademark</a>, and
-        <a routerLink='/guidance/design'>design</a> law and practice.
+        <a routerLink='/guidance/design'>design</a> law and practice from our Q&A format guidance.
     </div>
     <div *ngIf="getType() == 'team'">
         <div *ngIf="getLang()=='EN'">
@@ -45,17 +50,17 @@
         </div>
     </div>
     <div fxLayout="column" fxLayoutAlign="space-around end">
-        <a *ngIf="getType() == 'welcome'" routerLink='/welcomepage'>
-            <mat-icon color="primary">link</mat-icon>
+        <a *ngIf="getType() == 'welcome'" routerLink='/welcomepage' (mousedown)="clickLink()">
+            <mat-icon class='cardlink' color="primary">keyboard_double_arrow_right</mat-icon>
         </a>
-        <a *ngIf="getType() == 'cafc'" routerLink='/cafcall'>
-            <mat-icon color="primary">link</mat-icon>
+        <a *ngIf="getType() == 'cafc'" routerLink='/cafcall' (mousedown)="clickLink()">
+            <mat-icon class='cardlink' color="primary">keyboard_double_arrow_right</mat-icon>
         </a>
-        <a *ngIf="getType() == 'guidance'" routerLink='/guidance'>
-            <mat-icon color="primary">link</mat-icon>
+        <a *ngIf="getType() == 'guidance'" routerLink='/guidance' (mousedown)="clickLink()">
+            <mat-icon class='cardlink' color="primary">keyboard_double_arrow_right</mat-icon>
         </a>
-        <a *ngIf="getType() == 'team'" routerLink='/pro-practiceareas'>
-            <mat-icon color="primary">link</mat-icon>
+        <a *ngIf="getType() == 'team'" routerLink='/pro-practiceareas' (mousedown)="clickLink()">
+            <mat-icon class='cardlink' color="primary">keyboard_double_arrow_right</mat-icon>
         </a>
     </div>
 </mat-card>

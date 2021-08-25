@@ -1,7 +1,6 @@
 import { Injectable } from '@angular/core';
 import { Observable, of } from 'rxjs';
 import { PEOPLE_DATA } from '../../assets/data/staticpeople';
-import {  } from '../../assets/data/staticprofessionals';
 import {IPerson} from '../interfaces/iperson';
 
 @Injectable({

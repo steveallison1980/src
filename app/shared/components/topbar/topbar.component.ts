@@ -3,6 +3,8 @@ import { LanguagesettingService } from '../../../services/languagesetting.servic
 import { NavigateService } from '../../../services/navigate.service';
 import { CONTACTTITLE, CONTACTTITLEJP} from '../../../../assets/data/staticcontact';
 import { SITEMAP_DATA } from '../../../../assets/data/staticnav';
+import { SitemapComponent } from './../sitemap/sitemap.component';
+import { MatBottomSheet } from '@angular/material/bottom-sheet';
 
 @Component({
   selector: 'app-topbar',
@@ -13,11 +15,21 @@ export class TopbarComponent implements OnInit {
 
   @Input() highlight: string;
 
-  constructor(private langService: LanguagesettingService,
+  constructor(
+    private _bottomSheet: MatBottomSheet,
+    private langService: LanguagesettingService,
     public nav: NavigateService) {}
 
   ngOnInit(): void {
   }
+
+  public openSitemap() {
+    window.scroll(0, 0);
+    this._bottomSheet.open(SitemapComponent);
+  }
+  getMenuToolTip(){
+    return "menu";
+  } 
 
   clickContact(){
     this.nav.curPage = "home";

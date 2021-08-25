@@ -8,6 +8,8 @@ import { LanguagesettingService } from '../../services/languagesetting.service';
 })
 export class StaticcardComponent implements OnInit {
 
+  bSpinner: boolean = false;
+
   @Input() type: string;
 
   constructor(
@@ -54,5 +56,13 @@ export class StaticcardComponent implements OnInit {
           return "メンバー";
         }
     }
+  }
+  clickLink(){
+    //this.bSpinner = true;
+    //document.body.style.cursor = "wait";
+  }
+  getSpinnerClass(){
+    if( !this.bSpinner ) return "spinneroff";
+    if( this.bSpinner ) return "spinneron";
   }
 }

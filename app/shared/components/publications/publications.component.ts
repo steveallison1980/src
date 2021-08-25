@@ -17,17 +17,28 @@ export class PublicationsComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  //todo
   publications: Array<IPublication> = PUBLICATIONS_DATA;
   
+  //TODO: use this to align the cards
+  getLongest(){
+    var ret = 0;
+    this.publications.forEach( pub => {
+      if( pub.title.length > ret ){
+        ret = pub.title.length
+      }
+    })
+    console.log(ret)
+    return ret;
+  }
+
   clickDetails(p: IPublication) {
     this.nav.curPublication = p;
-    this.nav.curPage = "home";
-    this.nav.subPage = "publication";
+    this.nav.view = "publication";
     window.scroll(0, 0);
   }
 
   getTitle(pub:IPublication ){
+    //this.getLongest();
     switch (this.langService.lang) {
       case "JP":
         return pub.titleJP;

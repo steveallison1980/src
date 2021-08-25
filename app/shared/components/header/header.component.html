@@ -58,7 +58,7 @@
 </header>
 <mat-divider *ngIf="!isSplashPage()" class='colored'></mat-divider>
 
-<div class="headeroverlay" *ngIf="isSplashPage()"  fxLayout="column" fxLayoutAlign="start center">
+<div *ngIf="isSplashPage()" class="headeroverlay" fxLayout="column" fxLayoutAlign="start center">
     <button mat-stroked-button color="accent" [matTooltip]="getMenuToolTip()" (click)="openSitemap()">
         <mat-icon>menu</mat-icon>
     </button>

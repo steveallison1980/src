@@ -9,6 +9,7 @@ export interface IPublisher {
 }
 
 export interface IPublication {
+    id: number;
     img: string;
 
     title: string;

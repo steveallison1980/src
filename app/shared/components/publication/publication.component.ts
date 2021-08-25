@@ -1,6 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { NavigateService } from '../../../services/navigate.service';
 import { LanguagesettingService } from '../../../services/languagesetting.service';
+import { IPublication } from '../../../interfaces/ipublication';
 
 @Component({
   selector: 'app-publication',
@@ -9,54 +10,55 @@ import { LanguagesettingService } from '../../../services/languagesetting.servic
 })
 export class PublicationComponent implements OnInit {
 
+  @Input() pub: IPublication;
+
   constructor(public nav: NavigateService,
     private langService: LanguagesettingService) { }
 
   ngOnInit(): void {
   }
+
+  getPub() {
+    return this.pub;
+  }
   getImg(){
-    if( this.nav.curPublication==null ) return "";
-    return this.nav.curPublication.img;
+    return this.pub.img;
   }
   getTitle(){
-    if( this.nav.curPublication==null ) return "";
     switch (this.langService.lang) {
       case "JP":
-        return this.nav.curPublication.titleJP;
+        return this.pub.titleJP;
       case "EN":
       default:
-        return this.nav.curPublication.title;
+        return this.pub.title;
     }
   }
   getPublishDate(){
-    if( this.nav.curPublication==null ) return "";
     switch (this.langService.lang) {
       case "JP":
-        return this.nav.curPublication.publishdateJP;
+        return this.pub.publishdateJP;
       case "EN":
       default:
-        return this.nav.curPublication.publishdate;
+        return this.pub.publishdate;
     }
   }
   getAuthorsHeading(){
-    if( this.nav.curPublication==null ) return null;
     switch (this.langService.lang) {
       case "JP":
         return "著作";
       case "EN":
       default:
-        if( this.nav.curPublication.authors.length > 1 ) return "Authors";
+        if( this.pub.authors.length > 1 ) return "Authors";
         return "Author";
     }
   }
   getAuthors(){
-    if( this.nav.curPublication==null ) return null;
     switch (this.langService.lang) {
       case "JP":
-        return this.nav.curPublication.authorsJP;
+        return this.pub.authorsJP;
       case "EN":
       default:
-        return this.nav.curPublication.authors;
+        return this.pub.authors;
     }
   }
   getPublisherHeading(){
@@ -69,23 +71,21 @@ export class PublicationComponent implements OnInit {
     }
   }
   getPublisherName(){
-    if( this.nav.curPublication==null ) return null;
     switch (this.langService.lang) {
       case "JP":
-        return this.nav.curPublication.publisherJP.name;
+        return this.pub.publisherJP.name;
       case "EN":
       default:
-        return this.nav.curPublication.publisher.name;
+        return this.pub.publisher.name;
     }
   }
   getPublisherAddress(){
-    if( this.nav.curPublication==null ) return null;
     switch (this.langService.lang) {
       case "JP":
-        return this.nav.curPublication.publisherJP.address;
+        return this.pub.publisherJP.address;
       case "EN":
       default:
-        return this.nav.curPublication.publisher.address;
+        return this.pub.publisher.address;
     }
   }
   getSynopsisHeading(){
@@ -98,13 +98,12 @@ export class PublicationComponent implements OnInit {
     }
   }
   getSynopsis(){
-    if( this.nav.curPublication==null ) return null;
     switch (this.langService.lang) {
       case "JP":
-        return this.nav.curPublication.synopsisJP;
+        return this.pub.synopsisJP;
       case "EN":
       default:
-        return this.nav.curPublication.synopsis;
+        return this.pub.synopsis;
     }
   }
 }
