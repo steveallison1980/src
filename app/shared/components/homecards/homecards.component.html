@@ -1,14 +1,5 @@
-<div class="homediv" fxLayout="column" fxLayoutAlign="center stretch" class="videowrapper">
-    
-    <video fxShow="true" fxHide.lt-md="true" class="videoinsert" loop muted autoplay oncanplay="this.play()" onloadedmetadata="this.muted = true">
-        <source src="../../../../assets/video/splashvideo.mp4" type="video/mp4">
-    </video>
-    <img fxHide="true" fxShow.sm="true" class="videoinsert" src="../../../../assets/img/splash.jpg">
-    <img fxHide="true" fxShow.lt-sm="true" class="videoinsert" src="../../../../assets/img/splashmobile.jpg">
-    <br>
-
-    <app-homecards></app-homecards>
-    <!--<div fxShow="true" fxHide.lt-md="true" flexLayout='row' fxFlex  fxLayoutAlign="space-between start" fxLayout.lt-md="column">
+<div>
+    <div fxShow="true" fxHide.lt-md="true" flexLayout='row' fxFlex  fxLayoutAlign="space-between start" fxLayout.lt-md="column">
         <div fxFlex="1"></div>
         <div fxFlex="30">
             <app-staticcard [type]="'welcome'"></app-staticcard>
@@ -35,8 +26,6 @@
             <app-staticcard [type]="'team'"></app-staticcard>
         </div>
     </div>
-    <br>
-    <app-footer width=100%></app-footer>-->
 </div>
-
-<app-splashoverlay></app-splashoverlay>
+<br>
+<app-footer width=100%></app-footer>

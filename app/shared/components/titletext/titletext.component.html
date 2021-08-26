@@ -1,9 +1,4 @@
-<div class="titlediv" *ngIf="isLarge()">
-    <span class="titletext">{{getTitleText()}}</span>
-    <br><br>
-    <span class="titletext">{{getTitleText2()}}</span>
-</div>
-<div class="titledivmobile" *ngIf="!isLarge()">
+<div [ngClass.xs]="'titledivmobile'" [ngClass.gt-xs]="'titlediv'">
     <span class="titletext">{{getTitleText()}}</span>
     <br><br>
     <span class="titletext">{{getTitleText2()}}</span>

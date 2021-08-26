@@ -82,6 +82,7 @@ import { DesignexamplerendererComponent } from './components/designexamplerender
 import { TablerendererComponent } from './components/tablerenderer/tablerenderer.component';
 import { StaticcardComponent } from './components/staticcard/staticcard.component';
 import { SplashoverlayComponent } from './components/splashoverlay/splashoverlay.component';
+import { HomecardsComponent } from './components/homecards/homecards.component';
 
 @NgModule({
   declarations: [
@@ -148,7 +149,8 @@ import { SplashoverlayComponent } from './components/splashoverlay/splashoverlay
     TablerendererComponent,
     StaticcardComponent,
     SplashoverlayComponent,
-    MorebelowComponent
+    MorebelowComponent,
+    HomecardsComponent
   ],
   imports: [
     CommonModule,
@@ -223,7 +225,8 @@ import { SplashoverlayComponent } from './components/splashoverlay/splashoverlay
     ElementgridrendererComponent,
     DesignexamplerendererComponent,
     StaticcardComponent,
-    SplashoverlayComponent
+    SplashoverlayComponent,
+    HomecardsComponent
   ]
 })
 

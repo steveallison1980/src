@@ -19,11 +19,6 @@
         <div fxFlex='90' fxHide fxShow.lt-md>
             <!-- start with what is set -->
             <app-publications></app-publications>
-            <br>
-            <!-- then the rest -->
-            <app-cardrenderer [cardSettings]="getCardSettings()" [imgfilepath]="getImage()" [content]="getContent()" [title]="getTitle()"></app-cardrenderer>
-            <br>
-            <app-contact></app-contact>
         </div>
         <div fxFlex='5' fxHide fxShow.lt-md></div>
     </div>

@@ -235,7 +235,7 @@ const TRADEMARKDEFINITION: IExpansionPanel = {
 };
 
 const TRADEMARKNECESSARYINFO: IExpansionPanel = {
-    title: "Fundamentals of the Japanese Trademark System",
+    title: "Necessary information and documents for trademark application in Japan",
     description: "",
     content:
     {
@@ -2786,6 +2786,20 @@ export const TRADEMARKGUIDANCECONTENT: IContent = {
                 url: null,
                 routerlink: null,
                 tooltip: null,
+                classes: null,
+            }]
+        },
+        {
+            type: "br",
+            objs: null
+        },
+        {
+            type: "span",
+            objs: [{
+                text: "Yasunori Ohtsuka",
+                url: null,
+                routerlink: "/professional/1",
+                tooltip: "",
                 classes: null,
             }]
         },

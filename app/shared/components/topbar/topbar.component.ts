@@ -41,14 +41,7 @@ export class TopbarComponent implements OnInit {
     console.log(this.langService.lang)
   }
   getImgSrc(){
-    if( this.langService.lang == "JP" ){
-      return "../../../../assets/img/en.png";
-    } else {
-      return "../../../../assets/img/jp.png";
-    }
-  }
-  getLang(){
-    return this.langService.lang == "JP";
+    return "../../../../assets/"+this.langService.getImgSrc();
   }
   getContactText(){
     switch(this.langService.lang){
