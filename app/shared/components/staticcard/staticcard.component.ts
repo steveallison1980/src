@@ -8,7 +8,7 @@ import { LanguagesettingService } from '../../../services/languagesetting.servic
 })
 export class StaticcardComponent implements OnInit {
 
-  bSpinner: boolean = false;
+  bHover: boolean = false;
 
   @Input() type: string;
 
@@ -57,8 +57,28 @@ export class StaticcardComponent implements OnInit {
         }
     }
   }
-  getSpinnerClass(){
-    if( !this.bSpinner ) return "spinneroff";
-    if( this.bSpinner ) return "spinneron";
+  mouseEnter(){
+    this.bHover = true;
+  }
+  mouseLeave(){
+    this.bHover = false;
+  }
+  getTextClass(){
+    if( this.bHover ){
+      return "hoveringtext";
+    }
+    return "nonhoveringtext";
+  }
+  getIconClass(){
+    if( this.bHover ){
+      return "hoveringicon";
+    }
+    return "nonhoveringicon";
+  }
+  getImgClass(){
+    if( this.bHover ){
+      return "hoveringimg";
+    }
+    return "nonhoveringimg";
   }
 }

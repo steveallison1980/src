@@ -1,21 +1,10 @@
-<mat-card>
-   <mat-card-title>
+<mat-card *ngIf="getType() == 'welcome'" routerLink='/welcomepage' (mouseenter)="mouseEnter()" (mouseleave)="mouseLeave()">
+   <mat-card-title [class]="getTextClass()">
         {{getTitle()}}
     </mat-card-title>
     <br>
-    <a *ngIf="getType() == 'welcome'" routerLink='/welcomepage'>
-        <img mat-card-image [src]="getImgFilePath()">
-    </a>
-    <a *ngIf="getType() == 'cafc'" routerLink='/cafcall'>
-        <img mat-card-image [src]="getImgFilePath()">
-    </a>
-    <a *ngIf="getType() == 'guidance'" routerLink='/guidance'>
-        <img mat-card-image [src]="getImgFilePath()">
-    </a>
-    <a *ngIf="getType() == 'team'" routerLink='/pro-practiceareas'>
-        <img mat-card-image [src]="getImgFilePath()">
-    </a>
-    <div *ngIf="getType() == 'welcome'">
+    <img mat-card-image [class]="getImgClass()" [src]="getImgFilePath()">   
+    <div [class]="getTextClass()">
         <div *ngIf="getLang()=='EN'">
             Welcome message from Yasuhiro Ohtsuka, managing partner at Ohtsuka Patent Office.
         </div>
@@ -23,16 +12,43 @@
             代表弁理士康弘大塚からのご挨拶
         </div>
     </div>
-    <div *ngIf="getType() == 'cafc'">
+    <br>
+    <mat-icon [class]="getIconClass()">double_arrow_right</mat-icon>
+</mat-card>
+
+<mat-card *ngIf="getType() == 'cafc'" routerLink='/cafcall' (mouseenter)="mouseEnter()" (mouseleave)="mouseLeave()">
+    <mat-card-title [class]="getTextClass()">
+        {{getTitle()}}
+    </mat-card-title>
+    <br>
+    <img mat-card-image [class]="getImgClass()" [src]="getImgFilePath()">   
+    <div [class]="getTextClass()">
         米国のCAFCの判例紹介
     </div>
-    <div *ngIf="getType() == 'guidance'">
-        Learn about Japanese
-        <a routerLink='/guidance/patent'>patent,</a>
-        <a routerLink='/guidance/trademark'>trademark,</a> and
-        <a routerLink='/guidance/design'>design</a> law and practice from our Q&A format guidance.
+    <br>
+    <mat-icon [class]="getIconClass()">double_arrow_right</mat-icon>
+</mat-card>
+
+<mat-card *ngIf="getType() == 'guidance'" routerLink='/guidance' (mouseenter)="mouseEnter()" (mouseleave)="mouseLeave()">
+    <mat-card-title [class]="getTextClass()">
+        {{getTitle()}}
+    </mat-card-title>
+    <br>
+    <img mat-card-image [class]="getImgClass()" [src]="getImgFilePath()">   
+    <div [class]="getTextClass()" *ngIf="getType() == 'guidance'">
+        Learn about Japanese patent, trademark, and design law and practice from our Q&A format guidance.
     </div>
-    <div *ngIf="getType() == 'team'">
+    <br>
+    <mat-icon [class]="getIconClass()">double_arrow_right</mat-icon>
+</mat-card>
+
+<mat-card *ngIf="getType() == 'team'" routerLink='/pro-practiceareas' (mouseenter)="mouseEnter()" (mouseleave)="mouseLeave()">
+    <mat-card-title [class]="getTextClass()">
+        {{getTitle()}}
+    </mat-card-title>
+    <br>
+    <img mat-card-image [class]="getImgClass()" [src]="getImgFilePath()">   
+    <div [class]="getTextClass()">
         <div *ngIf="getLang()=='EN'">
             Meet our team of patent attorneys, patent engineers, and legal and technical advisors.
         </div>
@@ -40,19 +56,6 @@
             事務所のメンバー紹介
         </div>
     </div>
-    <div class='cardlinkdiv'>
-        <a *ngIf="getType() == 'welcome'" routerLink='/welcomepage'>
-            <mat-icon class='cardlink' color="primary">double_arrow_right</mat-icon>
-        </a>
-        <a *ngIf="getType() == 'cafc'" routerLink='/cafcall'>
-            <mat-icon class='cardlink' color="primary">double_arrow_right</mat-icon>
-        </a>
-        <a *ngIf="getType() == 'guidance'" routerLink='/guidance'>
-            <mat-icon class='cardlink' color="primary">double_arrow_right</mat-icon>
-        </a>
-        <a *ngIf="getType() == 'team'" routerLink='/pro-practiceareas'>
-            <mat-icon class='cardlink' color="primary">double_arrow_right</mat-icon>
-        </a>
-    </div>
     <br>
+    <mat-icon [class]="getIconClass()">double_arrow_right</mat-icon>
 </mat-card>
