@@ -1,8 +1,9 @@
-<table mat-table [dataSource]="getDatasource()" class="mat-elevation-z8 {{getNoShadowClass()}}">
+
+<table mat-table [ngClass.xs]="'mobiletable'" [dataSource]="getDatasource()" class="mat-elevation-z8 {{getNoShadowClass()}}">
     <ng-container matColumnDef="column1">
         <th mat-header-cell *matHeaderCellDef class="{{getHiddenClass(1)}}">{{getCol(1)}}</th>
         <td mat-cell *matCellDef="let element" class="{{getHiddenClass(1)}}"> 
-           <app-contentrenderer [content]="element.column1"></app-contentrenderer>
+        <app-contentrenderer [content]="element.column1"></app-contentrenderer>
         </td>
     </ng-container>
     <ng-container matColumnDef="column2">

@@ -2874,7 +2874,7 @@ const PATENTEXAMANDACCEL: IExpansionPanel = {
                         {
                             folder: "patentmanual",
                             filename: "examinationflow.png",
-                            classes: ["medium"]
+                            classes: ["small"]
                         }
                     }]
             },
@@ -7031,7 +7031,7 @@ const PATENTINVALIDATION: IExpansionPanel = {
                         {
                             folder: "patentmanual",
                             filename: "invalidationflow.png",
-                            classes: ["medium"]
+                            classes: ["small"]
                         }
                     }]
             },
@@ -8144,7 +8144,7 @@ const PATENTLITIGAION: IExpansionPanel = {
                         {
                             folder: "patentmanual",
                             filename: "litigationpiegraph.png",
-                            classes: ["medium"]
+                            classes: ["small"]
                         }
                     }]
             },

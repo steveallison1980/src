@@ -4,9 +4,11 @@ td, th {
 .hide{
     display: none;
 }
-table.mat-table {
-    display: table;
-    width: 100%;
+.mobiletable{
+    display: block;
+    width: 100vw;
+    max-width: 300px;
+    overflow-x: scroll;
 }
 .noshadow {
     box-shadow: none;
