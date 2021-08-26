@@ -23,7 +23,6 @@ export class SidebarComponent implements OnInit {
   }
 
   clickItem(component:string, curpage:string){
-    console.log(curpage, component)
     this.nav.subPage = component;
     this.nav.curPerson = null;
     this.nav.view = "group";

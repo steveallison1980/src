@@ -3560,7 +3560,7 @@ export const DESIGNGUIDANCECONTENT: IContent = {
         {
             type: "span",
             objs: [{
-                text: "June 2, 2021, revised on August 6, 2021",
+                text: "August 30, 2021",
                 url: null,
                 routerlink: null,
                 tooltip: null,
@@ -3574,30 +3574,12 @@ export const DESIGNGUIDANCECONTENT: IContent = {
         {
             type: "span",
             objs: [{
-                text: "Yasunori Ohtsuka",
+                text: "Ohtsuka Patent Office",
                 url: null,
-                routerlink: "/professional/1",
+                routerlink: "",
                 tooltip: "",
                 classes: null,
             }]
-        },
-        {
-            type: "br",
-            objs: null
-        },
-        {
-            type: "span",
-            objs: [{
-                text: "Hideo Sugawara",
-                url: null,
-                routerlink: "/professional/16",
-                tooltip: "",
-                classes: null,
-            }]
-        },
-        {
-            type: "br",
-            objs: null
         },
         {
             type: "br",

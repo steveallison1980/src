@@ -2782,7 +2782,7 @@ export const TRADEMARKGUIDANCECONTENT: IContent = {
         {
             type: "span",
             objs: [{
-                text: "January 20, 2021",
+                text: "August 30, 2021",
                 url: null,
                 routerlink: null,
                 tooltip: null,
@@ -2796,21 +2796,7 @@ export const TRADEMARKGUIDANCECONTENT: IContent = {
         {
             type: "span",
             objs: [{
-                text: "Yasunori Ohtsuka",
-                url: null,
-                routerlink: "/professional/1",
-                tooltip: "",
-                classes: null,
-            }]
-        },
-        {
-            type: "br",
-            objs: null
-        },
-        {
-            type: "span",
-            objs: [{
-                text: "Ohtsuka Patent Office, P.C.",
+                text: "Ohtsuka Patent Office",
                 url: null,
                 routerlink: null,
                 tooltip: "",

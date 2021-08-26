@@ -64,7 +64,6 @@ export class SitemapComponent implements OnInit {
   }
 
   isSplashPage(){
-    console.log(this.nav.curPage)
     if( this.nav.curPage == "welcomepage" || this.nav.curPage=="home"){
       return true;
     } else {

@@ -11,7 +11,7 @@ const PATENTPREFACE: IExpansionPanel = {
                 objs: [{
                     spans: [
                         {
-                            text: "This guidance was used as testimony by Mr. Edmund Chung in a hearing at the US Senate on U.S.-Japan IPR issues (1988). The same guidance was featured in the March and May editions of the Overseas Journal of AIPPI Japan, and was sold as a booklet in the United States.",
+                            text: "A previous version of this guidance was used as testimony by Mr. Edmund Chung in a hearing at the US Senate on U.S.-Japan IPR issues (1988). The same guidance was featured in the March and May editions of the Overseas Journal of AIPPI Japan, and was sold as a booklet in the United States.",
                             url: null,
                             routerlink: null,
                             tooltip: null,
@@ -10203,7 +10203,7 @@ export const PATENTGUIDANCECONTENT: IContent = {
         {
             type: "span",
             objs: [{
-                text: "April 29, 2021",
+                text: "August 30, 2021",
                 url: null,
                 routerlink: null,
                 tooltip: null,
@@ -10217,9 +10217,9 @@ export const PATENTGUIDANCECONTENT: IContent = {
         {
             type: "span",
             objs: [{
-                text: "Yasunori Ohtsuka",
+                text: "Ohtsuka Patent Office",
                 url: null,
-                routerlink: "/professional/1",
+                routerlink: "",
                 tooltip: "",
                 classes: null,
             }]

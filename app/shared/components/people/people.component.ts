@@ -38,7 +38,13 @@ export class PeopleComponent implements OnInit {
   getGroupText() {
     for (let i in PROFESSIONALS_DATA) {
       if (PROFESSIONALS_DATA[i].component == this.currentGroup) {
-        return PROFESSIONALS_DATA[i].text;
+        switch (this.langService.lang) {
+          case "JP":
+            return PROFESSIONALS_DATA[i].textJP;
+          case "EN":
+          default:
+            return PROFESSIONALS_DATA[i].text;
+        }
       }
     }
   }

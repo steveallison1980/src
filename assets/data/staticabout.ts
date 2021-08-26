@@ -677,16 +677,6 @@ export const ABOUTMAINSERVICESJP: IContent = {
                 {
                     type: "span",
                     objs: [{
-                        text: "特許の有効性を巡る審判・争訟",
-                        url: null,
-                        routerlink: null,
-                        tooltip: null,
-                        classes: ["noselect"]
-                    }]
-                },
-                {
-                    type: "span",
-                    objs: [{
                         text: "特許の鑑定、特許関連の調査、FTO調査及び評価",
                         url: null,
                         routerlink: null,
@@ -765,7 +755,7 @@ export const ABOUTMAINSERVICES: IContent = {
                             {
                                 type: "span",
                                 objs: [{
-                                    text: "(inventer interview, specification drafting, etc.)",
+                                    text: "(inventor interview, specification drafting, etc.)",
                                     url: null,
                                     routerlink: null,
                                     tooltip: null,
@@ -798,7 +788,7 @@ export const ABOUTMAINSERVICES: IContent = {
                 {
                     type: "span",
                     objs: [{
-                        text: "Validaty disputes",
+                        text: "Opinion work",
                         url: null,
                         routerlink: null,
                         tooltip: null,
