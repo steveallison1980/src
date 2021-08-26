@@ -39,9 +39,9 @@ export class LanguagesettingService {
   //from assets!
   public getImgSrc(){
     if( this.lang == "JP" ){
-      return "img/en.png";
-    } else {
       return "img/jp.png";
+    } else {
+      return "img/en.png";
     }
   }
 }

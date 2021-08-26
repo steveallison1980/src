@@ -61,3 +61,12 @@ h2 {
     color: white;
     margin: 20px;
 }
+.activelang{
+    color: rgb(184, 51, 51);
+}
+.inactivelang{
+    color: rgb(200,200,200);
+}
+.seethroughbutton:hover{
+    background-color: black;
+}

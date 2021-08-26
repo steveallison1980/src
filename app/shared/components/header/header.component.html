@@ -49,7 +49,7 @@
             <span class='xlargetext'>{{getText("firmname_mobile_xs")}}</span>
         </div>
         <div>
-            <button mat-icon-button color="highlight" aria-label="Open the site map" (click)="openSitemap()">
+            <button mat-icon-button color="highlight" (click)="openSitemap()">
                 <mat-icon>menu</mat-icon>
             </button>
         </div>
@@ -58,13 +58,15 @@
 </header>
 <mat-divider *ngIf="!isSplashPage()" class='colored'></mat-divider>
 
-<div *ngIf="isSplashPage()" class="headeroverlay" fxLayout="column" fxLayoutAlign="start center">
-    <button mat-stroked-button color="accent" [matTooltip]="getMenuToolTip()" (click)="openSitemap()">
+<div *ngIf="isSplashPage()" class="headeroverlay" fxLayout="column" fxLayoutAlign="start stretch">
+    <button class="seethroughbutton" mat-stroked-button color="accent" [matTooltip]="getMenuToolTip()" (click)="openSitemap()">
         <mat-icon>menu</mat-icon>
+        &nbsp;MENU
     </button>
     <div [matTooltip]="getLangToggleToolTip()" class='linkdiv' (click)="toggleLang()">
-        <button mat-stroked-button>
+        <button class="seethroughbutton" mat-stroked-button>
             <img [src]='getLangImgSrc()' height='32px'>
+            &nbsp;<span [class]="getLangClass('JP')">JP</span>&nbsp;<span [class]="getLangClass('EN')">EN</span>
         </button>
     </div>
 </div>
