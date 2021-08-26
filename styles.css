@@ -1,8 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
 /* Application-wide Styles */
 
-html, body { height: 100%; font-family: 'crimsontext';}
-body { margin: 0; font-family: 'crimsontext' !important;}
+html, body { margin:0;height: 100%; font-family: 'crimsontext';}
+body { overflow-x: hidden; margin: 0; font-family: 'crimsontext' !important;}
 
 h1
 {

@@ -34,7 +34,7 @@ export class StaticcardComponent implements OnInit {
       case "guidance":
         return "../../../../assets/img/classroom.jpg";
       case "team":
-        return "../../../../assets/img/team.jpg";
+        return "../../../../assets/img/teamvignette.jpg";
     }
   }
   getTitle(){
@@ -46,7 +46,7 @@ export class StaticcardComponent implements OnInit {
           return "ご挨拶";
         }
       case "cafc":
-        return "CAFC判定";
+        return "CAFC判決";
       case "guidance":
         return "IP Guidance";
       case "team":
@@ -56,10 +56,6 @@ export class StaticcardComponent implements OnInit {
           return "メンバー";
         }
     }
-  }
-  clickLink(){
-    //this.bSpinner = true;
-    //document.body.style.cursor = "wait";
   }
   getSpinnerClass(){
     if( !this.bSpinner ) return "spinneroff";

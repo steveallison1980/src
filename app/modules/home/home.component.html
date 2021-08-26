@@ -1,4 +1,4 @@
-<div fxLayout="column" fxLayoutAlign="center stretch" class="videowrapper">
+<div class="homediv" fxLayout="column" fxLayoutAlign="center stretch" class="videowrapper">
     <video fxShow="true" fxHide.lt-md="true" class="videoinsert" loop muted autoplay oncanplay="this.play()" onloadedmetadata="this.muted = true">
         <source src="../../../../assets/video/splashvideo.mp4" type="video/mp4">
     </video>
@@ -6,19 +6,19 @@
     <img fxHide="true" fxShow.lt-sm="true" class="videoinsert" src="../../../../assets/img/splashmobile.jpg">
     <br>
 
-    <div fxShow="true" fxHide.lt-md="true" flexLayout='row' fxFlex  fxLayoutAlign="space-between start" fxLayoutGap="10px" fxLayout.lt-md="column">
-        <div fxFlex="5"></div>
-        <div fxFlex="90" fxLayoutAlign="space-around stretch">
+    <div fxShow="true" fxHide.lt-md="true" flexLayout='row' fxFlex  fxLayoutAlign="space-between start" fxLayout.lt-md="column">
+        <div fxFlex="1"></div>
+        <div fxFlex="30">
             <app-staticcard [type]="'welcome'"></app-staticcard>
         </div>
-        <div fxFlex="90" fxLayoutAlign="space-around stretch">
+        <div fxFlex="30">
             <app-staticcard *ngIf="getLang()=='JP'" [type]="'cafc'"></app-staticcard>
             <app-staticcard *ngIf="getLang()=='EN'" [type]="'guidance'"></app-staticcard>
         </div>
-        <div fxFlex="90" fxLayoutAlign="space-around stretch">
+        <div fxFlex="30">
             <app-staticcard [type]="'team'"></app-staticcard>
         </div>
-        <div fxFlex="5"></div>
+        <div fxFlex="1"></div>
     </div>
 
     <div fxHide="true" fxShow.lt-md="true">

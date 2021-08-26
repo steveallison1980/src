@@ -32,13 +32,6 @@ export class CourtcasereportsComponent implements OnInit {
     return ret;
   }  
 
-  getTitle(){
-    var ret: ITitle = {
-      class: "largetext",
-      text: "募集要項"
-    }
-    return ret;
-  }
   getJapanDecTitle(){
     var text = "";
     switch(this.langService.lang){

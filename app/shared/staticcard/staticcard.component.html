@@ -3,28 +3,24 @@
         {{getTitle()}}
     </mat-card-title>
     <br>
-    <a *ngIf="getType() == 'welcome'" routerLink='/welcomepage' (mousedown)="clickLink()">
+    <a *ngIf="getType() == 'welcome'" routerLink='/welcomepage'>
         <img mat-card-image [src]="getImgFilePath()">
     </a>
-    <a *ngIf="getType() == 'cafc'" routerLink='/cafcall' (mousedown)="clickLink()">
+    <a *ngIf="getType() == 'cafc'" routerLink='/cafcall'>
         <img mat-card-image [src]="getImgFilePath()">
     </a>
-    <a *ngIf="getType() == 'guidance'" routerLink='/guidance' (mousedown)="clickLink()">
+    <a *ngIf="getType() == 'guidance'" routerLink='/guidance'>
         <img mat-card-image [src]="getImgFilePath()">
     </a>
-    <a *ngIf="getType() == 'team'" routerLink='/pro-practiceareas' (mousedown)="clickLink()">
+    <a *ngIf="getType() == 'team'" routerLink='/pro-practiceareas'>
         <img mat-card-image [src]="getImgFilePath()">
     </a>
     <div *ngIf="getType() == 'welcome'">
         <div *ngIf="getLang()=='EN'">
-            Welcome message from
-            <a routerLink='/professional/2' (mousedown)="clickLink()">Yasuhiro Ohtsuka,</a>
-            managing partner at Ohtsuka Patent Office.
+            Welcome message from Yasuhiro Ohtsuka, managing partner at Ohtsuka Patent Office.
         </div>
         <div *ngIf="getLang()=='JP'">
-            代表弁理士
-            <a routerLink='/professional/2'>康弘大塚</a>,
-            からのご挨拶
+            代表弁理士康弘大塚からのご挨拶
         </div>
     </div>
     <div *ngIf="getType() == 'cafc'">
@@ -32,8 +28,8 @@
     </div>
     <div *ngIf="getType() == 'guidance'">
         Learn about Japanese
-        <a routerLink='/guidance/patent'>patent</a>, 
-        <a routerLink='/guidance/trademark'>trademark</a>, and
+        <a routerLink='/guidance/patent'>patent,</a>
+        <a routerLink='/guidance/trademark'>trademark,</a> and
         <a routerLink='/guidance/design'>design</a> law and practice from our Q&A format guidance.
     </div>
     <div *ngIf="getType() == 'team'">
@@ -45,16 +41,16 @@
         </div>
     </div>
     <div class='cardlinkdiv'>
-        <a *ngIf="getType() == 'welcome'" routerLink='/welcomepage' (mousedown)="clickLink()">
+        <a *ngIf="getType() == 'welcome'" routerLink='/welcomepage'>
             <mat-icon class='cardlink' color="primary">double_arrow_right</mat-icon>
         </a>
-        <a *ngIf="getType() == 'cafc'" routerLink='/cafcall' (mousedown)="clickLink()">
+        <a *ngIf="getType() == 'cafc'" routerLink='/cafcall'>
             <mat-icon class='cardlink' color="primary">double_arrow_right</mat-icon>
         </a>
-        <a *ngIf="getType() == 'guidance'" routerLink='/guidance' (mousedown)="clickLink()">
+        <a *ngIf="getType() == 'guidance'" routerLink='/guidance'>
             <mat-icon class='cardlink' color="primary">double_arrow_right</mat-icon>
         </a>
-        <a *ngIf="getType() == 'team'" routerLink='/pro-practiceareas' (mousedown)="clickLink()">
+        <a *ngIf="getType() == 'team'" routerLink='/pro-practiceareas'>
             <mat-icon class='cardlink' color="primary">double_arrow_right</mat-icon>
         </a>
     </div>
