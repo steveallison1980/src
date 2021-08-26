@@ -45,8 +45,12 @@
             </a>
         </div>
         <div fxHide fxShow.xs fxLayout='row' fxLayoutAlign='end center' fxLayoutGap="18px">
-            <img src='../../../../assets/img/oLogo.png' height="56px">
-            <span class='xlargetext'>{{getText("firmname_mobile_xs")}}</span>
+            <a routerLink="/home" (click)="clickHome()">
+                <img src='../../../../assets/img/oLogo.png' height="56px">
+            </a>
+            <a routerLink="/home" (click)="clickHome()">
+                <span class='xlargetext'>{{getText("firmname_mobile_xs")}}</span>
+            </a>
         </div>
         <div>
             <button mat-icon-button color="highlight" (click)="openSitemap()">

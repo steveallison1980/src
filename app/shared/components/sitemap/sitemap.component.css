@@ -11,3 +11,9 @@
 .linkdiv{
     background-color: lightgray;
 }
+.activelang{
+    color: rgb(184, 51, 51);
+}
+.inactivelang{
+    color: rgb(150,150,150);
+}

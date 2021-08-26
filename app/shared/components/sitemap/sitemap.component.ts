@@ -80,4 +80,11 @@ export class SitemapComponent implements OnInit {
   getLangToggleToolTip(){
     return this.langService.getToolTip();
   }
+  getLangClass(lang){
+    if (this.langService.lang == lang) {
+      return "activelang";
+    } else {
+      return "inactivelang";
+    }
+  }
 }
