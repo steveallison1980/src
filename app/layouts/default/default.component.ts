@@ -10,6 +10,8 @@ import {Router} from '@angular/router';
 export class DefaultComponent implements OnInit {
 
   public bShowGotoTop: boolean = false;
+  public bMoreBelow: boolean = true;
+
   public isIE = /msie\s|trident\//i.test(window.navigator.userAgent)
 
   constructor(@Inject(DOCUMENT) private document: Document,
@@ -18,8 +20,10 @@ export class DefaultComponent implements OnInit {
   @HostListener('window:scroll') onScroll(e: Event): void {
     if( this.document.documentElement.scrollTop > 320 ){
       this.bShowGotoTop = true;
+      this.bMoreBelow = false;
     } else {
       this.bShowGotoTop = false;
+      this.bMoreBelow = true;
     }
   }
   

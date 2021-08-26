@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild, ElementRef } from '@angular/core';
 import { LanguagesettingService } from '../../services/languagesetting.service';
 import { ActivatedRoute } from '@angular/router';
 import { ICard, IContent } from '../../interfaces/icontent';
@@ -9,6 +9,8 @@ import { ICard, IContent } from '../../interfaces/icontent';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
+
+  @ViewChild('scrolldowntarget') private myScrollContainer: ElementRef;
 
   constructor(
     private route: ActivatedRoute,
@@ -178,5 +180,12 @@ export class HomeComponent implements OnInit {
     }
 
   ngOnInit(): void {
+  }
+  scrollToElement(): void {
+    this.myScrollContainer.nativeElement.scroll({
+      top: this.myScrollContainer.nativeElement.scrollHeight,
+      left: 0,
+      behavior: 'smooth'
+    });
   }
 }

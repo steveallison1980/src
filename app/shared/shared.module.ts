@@ -57,6 +57,7 @@ import { PeopleComponent } from './components/people/people.component';
 import { PersonComponent } from './components/person/person.component';
 import { PublicationsComponent } from './components/publications/publications.component';
 import { GototopComponent } from './components/gototop/gototop.component';
+import { MorebelowComponent } from './components/morebelow/morebelow.component';
 import { PublicationComponent } from './components/publication/publication.component';
 import { CafcComponent } from './components/cafc/cafc.component';
 import { CafcdetailsComponent } from './components/cafcdetails/cafcdetails.component';
@@ -79,7 +80,8 @@ import { TitledimagerendererComponent } from './components/titledimagerenderer/t
 import { ElementgridrendererComponent } from './components/elementgridrenderer/elementgridrenderer.component';
 import { DesignexamplerendererComponent } from './components/designexamplerenderer/designexamplerenderer.component';
 import { TablerendererComponent } from './components/tablerenderer/tablerenderer.component';
-import { StaticcardComponent } from './staticcard/staticcard.component';
+import { StaticcardComponent } from './components/staticcard/staticcard.component';
+import { SplashoverlayComponent } from './components/splashoverlay/splashoverlay.component';
 
 @NgModule({
   declarations: [
@@ -121,6 +123,7 @@ import { StaticcardComponent } from './staticcard/staticcard.component';
     PersonComponent,
     PublicationsComponent,
     GototopComponent,
+    MorebelowComponent,
     PublicationComponent,
     CafcComponent,
     CafcdetailsComponent,
@@ -143,7 +146,9 @@ import { StaticcardComponent } from './staticcard/staticcard.component';
     ElementgridrendererComponent,
     DesignexamplerendererComponent,
     TablerendererComponent,
-    StaticcardComponent
+    StaticcardComponent,
+    SplashoverlayComponent,
+    MorebelowComponent
   ],
   imports: [
     CommonModule,
@@ -195,6 +200,7 @@ import { StaticcardComponent } from './staticcard/staticcard.component';
     PersonComponent,
     PublicationsComponent,
     GototopComponent,
+    MorebelowComponent,
     PublicationComponent,
     CafcComponent,
     CafcdetailsComponent,
@@ -216,7 +222,8 @@ import { StaticcardComponent } from './staticcard/staticcard.component';
     TitledimagerendererComponent,
     ElementgridrendererComponent,
     DesignexamplerendererComponent,
-    StaticcardComponent
+    StaticcardComponent,
+    SplashoverlayComponent
   ]
 })
 

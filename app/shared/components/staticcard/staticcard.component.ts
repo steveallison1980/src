@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { LanguagesettingService } from '../../services/languagesetting.service';
+import { LanguagesettingService } from '../../../services/languagesetting.service';
 
 @Component({
   selector: 'app-staticcard',
