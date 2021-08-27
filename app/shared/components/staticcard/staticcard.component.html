@@ -1,6 +1,6 @@
 <mat-card *ngIf="getType() == 'welcome'" routerLink='/welcomepage' (mouseenter)="mouseEnter()" (mouseleave)="mouseLeave()">
-   <mat-card-title [class]="getTextClass()">
-        {{getTitle()}}
+   <mat-card-title>
+        <span [class]="getTextClass()">{{getTitle()}}</span>
     </mat-card-title>
     <br>
     <img mat-card-image [class]="getImgClass()" [src]="getImgFilePath()">   
@@ -17,8 +17,8 @@
 </mat-card>
 
 <mat-card *ngIf="getType() == 'cafc'" routerLink='/cafcall' (mouseenter)="mouseEnter()" (mouseleave)="mouseLeave()">
-    <mat-card-title [class]="getTextClass()">
-        {{getTitle()}}
+    <mat-card-title>
+        <span [class]="getTextClass()">{{getTitle()}}</span>
     </mat-card-title>
     <br>
     <img mat-card-image [class]="getImgClass()" [src]="getImgFilePath()">   
@@ -30,8 +30,8 @@
 </mat-card>
 
 <mat-card *ngIf="getType() == 'guidance'" routerLink='/guidance' (mouseenter)="mouseEnter()" (mouseleave)="mouseLeave()">
-    <mat-card-title [class]="getTextClass()">
-        {{getTitle()}}
+    <mat-card-title>
+        <span [class]="getTextClass()">{{getTitle()}}</span>
     </mat-card-title>
     <br>
     <img mat-card-image [class]="getImgClass()" [src]="getImgFilePath()">   
@@ -43,8 +43,8 @@
 </mat-card>
 
 <mat-card *ngIf="getType() == 'team'" routerLink='/pro-practiceareas' (mouseenter)="mouseEnter()" (mouseleave)="mouseLeave()">
-    <mat-card-title [class]="getTextClass()">
-        {{getTitle()}}
+    <mat-card-title>
+        <span [class]="getTextClass()">{{getTitle()}}</span>
     </mat-card-title>
     <br>
     <img mat-card-image [class]="getImgClass()" [src]="getImgFilePath()">   

@@ -40,6 +40,10 @@ a:active {
 .hoveringtext{
     color: rgb(184, 51, 51);
 }
+.mat-card-title{
+    margin-top: 6px !important;
+    margin-bottom: 6px;
+}
 .cardlinkdiv{
     float: right;
 }

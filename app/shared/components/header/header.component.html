@@ -37,18 +37,18 @@
     <!-- MOBILE VIEW -->
     <div fxHide fxShow.lt-md fxLayout='row' fxLayoutAlign='space-between center'>    
         <div fxHide fxShow.sm class='xxlargetext' fxLayout='row'fxLayout='row' fxLayoutAlign='end center' fxLayoutGap="28px">
-            <a routerLink="/home" (click)="clickHome()">
+            <a href="/home" (click)="clickHome()">
                 <img fxHide fxShow.sm src='../../../../assets/img/oLogo.png' height="56px">
             </a>
-            <a routerLink="/home" (click)="clickHome()">
+            <a href="/home" (click)="clickHome()">
                 <span>{{getText("firmname_mobile_ltmd")}}</span>
             </a>
         </div>
         <div fxHide fxShow.xs fxLayout='row' fxLayoutAlign='end center' fxLayoutGap="18px">
-            <a routerLink="/home" (click)="clickHome()">
+            <a href="/home" (click)="clickHome()">
                 <img src='../../../../assets/img/oLogo.png' height="56px">
             </a>
-            <a routerLink="/home" (click)="clickHome()">
+            <a href="/home" (click)="clickHome()">
                 <span class='xlargetext'>{{getText("firmname_mobile_xs")}}</span>
             </a>
         </div>
