@@ -15,7 +15,8 @@ export class SetsumeikaiComponent implements OnInit {
   getTitle(){
     var ret: ITitle = {
       class: "largetext",
-      text: "事務所の説明会"
+      text: "事務所の説明会",
+      bDarken: false
     }
     return ret;
   }

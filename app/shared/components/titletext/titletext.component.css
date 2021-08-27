@@ -16,6 +16,9 @@
     color: white !important;
     line-height: 40px;
 }
+.darkened {
+    background-color: rgba(0,0,0,0.1);
+}
 .mat-card-content{
     width: 100%;
 }

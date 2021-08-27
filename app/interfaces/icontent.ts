@@ -82,4 +82,5 @@ export interface ICard{
 export interface ITitle{
     class: string;
     text: string;
+    bDarken: boolean;
 }

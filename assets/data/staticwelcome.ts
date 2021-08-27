@@ -268,8 +268,8 @@ export const WELCOMECONTENTJP: IContent = {
             objs: [{
                 text: "代表弁理士　大塚康弘",
                 url: null,
-                routerlink: "/professional/2",
-                tooltip: "大塚康弘のプロファイルへ",
+                routerlink: null,
+                tooltip: null,
                 classes: null
             }]
         }

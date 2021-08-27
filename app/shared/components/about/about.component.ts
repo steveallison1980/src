@@ -29,7 +29,8 @@ export class AboutComponent implements OnInit {
     }
     var ret: ITitle = {
       class: "largetext",
-      text: titletext
+      text: titletext,
+      bDarken: false
     }
     return ret;
   }

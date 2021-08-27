@@ -1,5 +1,5 @@
 <div [ngClass.xs]="'titledivmobile'" [ngClass.gt-xs]="'titlediv'">
-    <span class="titletext">{{getTitleText()}}</span>
+    <span [class]="getClasses()">{{getTitleText()}}</span>
     <br><br>
     <span class="titletext">{{getTitleText2()}}</span>
 </div>

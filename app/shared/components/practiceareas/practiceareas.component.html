@@ -42,7 +42,12 @@
 <br>
 <h1>Practice Areas</h1>
 <mat-card>
-    <mat-card-title>{{getComputerTitle()}}</mat-card-title>
+    <img mat-card-image src='../../../../assets/img/code.jpg'>
+    <div>
+        <mat-card-title>
+            <app-titletext [title]="getComputerTitle()"></app-titletext>
+        </mat-card-title>
+    </div>
     <p *ngFor="let para of getComputerParas()">
         {{para}}
     </p>
@@ -69,7 +74,12 @@
 </mat-card>
 <br>
 <mat-card>
-    <mat-card-title>{{getMechanicalTitle()}}</mat-card-title>
+    <img mat-card-image src='../../../../assets/img/mechanical.jpg'>
+    <div>
+        <mat-card-title>
+            <app-titletext [title]="getMechanicalTitle()"></app-titletext>
+        </mat-card-title>
+    </div>
     <p *ngFor="let para of getMechanicalParas()">
         {{para}}
     </p>
@@ -84,7 +94,12 @@
 </mat-card>
 <br>
 <mat-card>
-    <mat-card-title>{{getDesignTitle()}}</mat-card-title>
+    <img mat-card-image src='../../../../assets/img/design2.jpg'>
+    <div>
+        <mat-card-title>
+            <app-titletext [title]="getDesignTitle()"></app-titletext>
+        </mat-card-title>
+    </div>
     <p *ngFor="let para of getDesignParas()">
         {{para}}
     </p>
@@ -100,7 +115,12 @@
 </mat-card>
 <br>
 <mat-card>
-    <mat-card-title>{{getMedicalTitle()}}</mat-card-title>
+    <img mat-card-image src='../../../../assets/img/meddev.jpg'>
+    <div>
+        <mat-card-title>
+            <app-titletext [title]="getMedicalTitle()"></app-titletext>
+        </mat-card-title>
+    </div>
     <p *ngFor="let para of getMedicalParas()">
         {{para}}
     </p>
@@ -115,7 +135,12 @@
 </mat-card>
 <br>
 <mat-card>
-    <mat-card-title>{{getChemicalTitle()}}</mat-card-title>
+    <img mat-card-image src='../../../../assets/img/pharma.jpg'>
+    <div>
+        <mat-card-title>
+            <app-titletext [title]="getChemicalTitle()"></app-titletext>
+        </mat-card-title>
+    </div>
     <p *ngFor="let para of getChemicalParas()">
         {{para}}
     </p>
@@ -130,7 +155,12 @@
 </mat-card>
 <br>
 <mat-card>
-    <mat-card-title>{{getAmusementTitle()}}</mat-card-title>
+    <img mat-card-image src='../../../../assets/img/gaming.jpg'>
+    <div>
+        <mat-card-title>
+            <app-titletext [title]="getAmusementTitle()"></app-titletext>
+        </mat-card-title>
+    </div>
     <p *ngFor="let para of getAmusementParas()">
         {{para}}
     </p>
@@ -145,7 +175,12 @@
 </mat-card>
 <br>
 <mat-card>
-    <mat-card-title>{{getLitigationTitle()}}</mat-card-title>
+    <img mat-card-image src='../../../../assets/img/gavel.jpg'>
+    <div>
+        <mat-card-title>
+            <app-titletext [title]="getLitigationTitle()"></app-titletext>
+        </mat-card-title>
+    </div>
     <p *ngFor="let para of getLitigationParas()">
         {{para}}
     </p>

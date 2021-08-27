@@ -35,7 +35,8 @@ export class BoshuyokoComponent implements OnInit {
   getTitle(){
     var ret: ITitle = {
       class: "largetext",
-      text: "募集要項"
+      text: "募集要項",
+      bDarken: false
     }
     return ret;
   }

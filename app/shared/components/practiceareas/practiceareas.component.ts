@@ -43,79 +43,136 @@ export class PracticeareasComponent implements OnInit {
     }
     var ret: ITitle = {
       class: "largetext",
-      text: text
+      text: text,
+      bDarken: false
     }
     return ret;
   }
 
   getComputerTitle(){
+    var text = "";
     switch(this.langService.lang){
       case "JP": 
-        return COMPUTERSTITLEJP;
-      case "EN":
+        text = COMPUTERSTITLEJP;
+        break;
+      case "EN": 
       default:
-        return COMPUTERSTITLE;
+        text = COMPUTERSTITLE;
     }
+    var ret: ITitle = {
+      class: "largetext",
+      text: text,
+      bDarken: false
+    }
+    return ret;
   }
 
   getMechanicalTitle(){
+    var text = "";
     switch(this.langService.lang){
-      case "JP":
-        return MECHANICALTITLEJP;
-      case "EN":
+      case "JP": 
+        text = MECHANICALTITLEJP;
+        break;
+      case "EN": 
       default:
-        return MECHANICALTITLE;
+        text = MECHANICALTITLE;
     }
+    var ret: ITitle = {
+      class: "largetext",
+      text: text,
+      bDarken: true
+    }
+    return ret;
   }
 
   getDesignTitle(){
+    var text = "";
     switch(this.langService.lang){
-      case "JP":
-        return DESIGNTITLEJP;
-      case "EN":
+      case "JP": 
+        text = DESIGNTITLEJP;
+        break;
+      case "EN": 
       default:
-        return DESIGNTITLE;
+        text = DESIGNTITLE;
     }
+    var ret: ITitle = {
+      class: "largetext",
+      text: text,
+      bDarken: false
+    }
+    return ret;
   }
 
   getMedicalTitle(){
+    var text = "";
     switch(this.langService.lang){
-      case "JP":
-        return MEDICALTITLEJP;
-      case "EN":
+      case "JP": 
+        text = MEDICALTITLEJP;
+        break;
+      case "EN": 
       default:
-        return MEDICALTITLE;
+        text = MEDICALTITLE;
     }
+    var ret: ITitle = {
+      class: "largetext",
+      text: text,
+      bDarken: true
+    }
+    return ret;
   }
 
   getChemicalTitle(){
+    var text = "";
     switch(this.langService.lang){
-      case "JP":
-        return CHEMICALTITLEJP;
-      case "EN":
+      case "JP": 
+        text = CHEMICALTITLEJP;
+        break;
+      case "EN": 
       default:
-        return CHEMICALTITLE;
+        text = CHEMICALTITLE;
     }
+    var ret: ITitle = {
+      class: "largetext",
+      text: text,
+      bDarken: false
+    }
+    return ret;
   }
 
   getAmusementTitle(){
+    var text = "";
     switch(this.langService.lang){
-      case "JP":
-        return AMUSEMENTSTITLEJP;
-      case "EN":
+      case "JP": 
+        text = AMUSEMENTSTITLEJP;
+        break;
+      case "EN": 
       default:
-        return AMUSEMENTSTITLE;
+        text = AMUSEMENTSTITLE;
     }
+    var ret: ITitle = {
+      class: "largetext",
+      text: text,
+      bDarken: true
+    }
+    return ret;
   }
 
   getLitigationTitle(){
+    var text = "";
     switch(this.langService.lang){
-      case "JP":
-        return LITIGATIONTITLEJP;
-      case "EN":
+      case "JP": 
+        text = LITIGATIONTITLEJP;
+        break;
+      case "EN": 
       default:
-        return LITIGATIONTITLE;
+        text = LITIGATIONTITLE;
     }
+    var ret: ITitle = {
+      class: "largetext",
+      text: text,
+      bDarken: false
+    }
+    return ret;
   }
 
   getParas(){

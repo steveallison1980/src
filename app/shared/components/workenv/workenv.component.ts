@@ -16,7 +16,8 @@ export class WorkenvComponent implements OnInit {
   getTitle(){
     var ret: ITitle = {
       class: "largetext",
-      text: '事務所の仕事環境'
+      text: '事務所の仕事環境',
+      bDarken: false
     }
     return ret;
   }

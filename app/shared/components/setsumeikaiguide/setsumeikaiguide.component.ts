@@ -15,7 +15,8 @@ export class SetsumeikaiguideComponent implements OnInit {
   getTitle(){
     var ret: ITitle = {
       class: "largetext",
-      text: '事務所説明会のご案内'
+      text: '事務所説明会のご案内',
+      bDarken: false
     }
     return ret;
   }

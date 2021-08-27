@@ -25,4 +25,9 @@ export class TitletextComponent implements OnInit {
   isLarge(){
     return this.title.class == "largetext";
   }
+  getClasses(){
+    var ret = "titletext"
+    if( this.title.bDarken == true ) ret = ret + " darkened";
+    return ret;
+  }
 }

@@ -28,7 +28,8 @@ export class CardrendererComponent implements OnInit {
     }
     var ret: ITitle = {
       class: titleclass,
-      text: this.title
+      text: this.title,
+      bDarken: false
     }
     return ret;
   }

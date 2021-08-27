@@ -33,7 +33,8 @@ export class PatentsandutilitymodelsComponent implements OnInit {
     }
     var ret: ITitle = {
       class: "largetext",
-      text: text
+      text: text,
+      bDarken: false
     }
     return ret;
   }
