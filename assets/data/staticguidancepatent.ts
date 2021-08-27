@@ -26,22 +26,7 @@ const PATENTPREFACE: IExpansionPanel = {
                 objs: [{
                     spans: [
                         {
-                            text: "We have shared this guidance over the years when visiting our valued clients. With the coronavirus pandemic, it has been impossible to go and see our clients face to face.  Because of this, we have prepared this condensed version of the guidance in the hopes that it will be useful.",
-                            url: null,
-                            routerlink: null,
-                            tooltip: null,
-                            classes: null
-                        }
-                    ],
-                    classes: null
-                }]
-            },
-            {
-                type: "paragraph",
-                objs: [{
-                    spans: [
-                        {
-                            text: "April 29, 2021",
+                            text: "We have developed this guidance over the years, and now, since the coronavirus pandemic has made face-to-face meetings difficult, we have prepared this condensed online version in the hopes that it will be useful.",
                             url: null,
                             routerlink: null,
                             tooltip: null,
