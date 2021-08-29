@@ -59,8 +59,8 @@ export class SitemapComponent implements OnInit {
     if( this.langService.lang == "EN") return SITEMAP_DATA.pages.filter(x => (x.displayMode == "" || x.displayMode == "ENonly"));
   }
   getLinks(page){
-    if( this.langService.lang == "JP") return page.links.filter(x => (x.displayMode == "both" || x.displayMode == "JPonly"));
-    if( this.langService.lang == "EN") return page.links.filter(x => (x.displayMode == "both" || x.displayMode == "ENonly"));
+    if( this.langService.lang == "JP") return page.links.filter(x => (x.bShowInMenu && (x.displayMode == "both" || x.displayMode == "JPonly")));
+    if( this.langService.lang == "EN") return page.links.filter(x => (x.bShowInMenu && (x.displayMode == "both" || x.displayMode == "ENonly")));
   }
 
   isSplashPage(){

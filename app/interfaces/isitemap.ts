@@ -6,6 +6,7 @@ export interface ILink {
   subPage: string;
   routerlink: string;
   displayMode: string;
+  bShowInMenu: boolean;
   }
 export interface IPage {
   links: Array<ILink>;
