@@ -314,7 +314,11 @@ const routes: Routes = [
       {
         path: 'workenvironmentpage',
         component: WorkenvironmentComponent
-      }
+      },
+      {
+        path: '**',
+        redirectTo: 'home'
+      },
     ]
   }
 ];
