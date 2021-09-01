@@ -25,7 +25,10 @@ export class CafcComponent implements OnInit {
   reports: Array<ICAFCReport> = CAFC_REPORTS;
 
   getCAFCReports() {
-    var ret = this.reports.filter(x => (x.reportpreview[0].includes(this.keyword) || this.searchContent(x.content,this.keyword)) );
+    let filteryear = "";
+    console.log(this.filter)
+    if( this.filter != "cafcall") filteryear = this.filter;
+    var ret = this.reports.filter(x => (filteryear == "" || x.reportyear.includes(filteryear)) && (x.reportpreview[0].includes(this.keyword) || this.searchContent(x.content,this.keyword)) );
     return ret;
   }
 

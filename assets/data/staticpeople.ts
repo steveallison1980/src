@@ -1540,7 +1540,7 @@ export const PEOPLE_DATA: IPerson[] = [
       bioJP: '',
       specialtiesJP: null,
       educationJP:
-        [{ text: 'ミネソタ州立大学　物理学科及び天文物理学科卒業' },
+        [{ text: 'ミネソタ大学　物理学科及び天文物理学科卒業' },
         { text: '原子核のエネルギー計算、衛星の軌道計算（シミュレーション）などに関する研究' },
         { text: '画像処理、光学系技術分野を得意とする' }],
       careerJP: null,
