@@ -332,7 +332,7 @@ export const ABOUTPOINTFORMTABLEJP: ITable = {
                         objs: [
                             {
                                 text: "opt@patest.co.jp",
-                                url: "mailto:opt@patest.co.jp",
+                                url: "mailto:opt@patest.co.jp?subject=お問い合わせ&body=以下の項目にお問い合わせ内容を入力のうえ、メール送信してください。%0D%0A(Please fill out following fields.)%0D%0A%0D%0A【貴社名 / Company name】%0D%0A%0D%0A【ご担当者名 / Name】%0D%0A%0D%0A【部署名 / Division】%0D%0A%0D%0A【ご住所 / Address】%0D%0A%0D%0A【お電話番号 / Phone number】%0D%0A%0D%0A【メールアドレス / E-mail】%0D%0A%0D%0A【お問い合わせ内容 / Content of your inquiry】%0D%0A%0D%0A",
                                 routerlink: null,
                                 tooltip: null,
                                 classes: null
@@ -586,7 +586,7 @@ export const ABOUTPOINTFORMTABLE: ITable = {
                         objs: [
                             {
                                 text: "opt@patest.co.jp",
-                                url: "mailto:opt@patest.co.jp",
+                                url: "mailto:opt@patest.co.jp?subject=お問い合わせ&body=以下の項目にお問い合わせ内容を入力のうえ、メール送信してください。%0D%0A(Please fill out following fields.)%0D%0A%0D%0A【貴社名 / Company name】%0D%0A%0D%0A【ご担当者名 / Name】%0D%0A%0D%0A【部署名 / Division】%0D%0A%0D%0A【ご住所 / Address】%0D%0A%0D%0A【お電話番号 / Phone number】%0D%0A%0D%0A【メールアドレス / E-mail】%0D%0A%0D%0A【お問い合わせ内容 / Content of your inquiry】%0D%0A%0D%0A",
                                 routerlink: null,
                                 tooltip: null,
                                 classes: null

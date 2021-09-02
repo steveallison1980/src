@@ -21,7 +21,7 @@ export const CONTACT_DATA: ContactItem[] = [
   link: ''},
 { title: 'E-mail',
   details: 'opt@patest.co.jp',
-  link: 'mailto:opt@patest.co.jp'},
+  link: 'mailto:opt@patest.co.jp?subject=お問い合わせ&body=以下の項目にお問い合わせ内容を入力のうえ、メール送信してください。%0D%0A(Please fill out following fields.)%0D%0A%0D%0A【貴社名 / Company name】%0D%0A%0D%0A【ご担当者名 / Name】%0D%0A%0D%0A【部署名 / Division】%0D%0A%0D%0A【ご住所 / Address】%0D%0A%0D%0A【お電話番号 / Phone number】%0D%0A%0D%0A【メールアドレス / E-mail】%0D%0A%0D%0A【お問い合わせ内容 / Content of your inquiry】%0D%0A%0D%0A'},
 { title: 'Mailing Address',
   details: MAILINGADDRESS,
   link: ''}];
@@ -38,7 +38,7 @@ export const CONTACT_DATAJP: ContactItem[] = [
   link: ''},
 { title: 'E-mail',
   details: 'opt@patest.co.jp',
-  link: 'mailto:opt@patest.co.jp'},
+  link: 'mailto:opt@patest.co.jp?subject=お問い合わせ&body=以下の項目にお問い合わせ内容を入力のうえ、メール送信してください。%0D%0A(Please fill out following fields.)%0D%0A%0D%0A【貴社名 / Company name】%0D%0A%0D%0A【ご担当者名 / Name】%0D%0A%0D%0A【部署名 / Division】%0D%0A%0D%0A【ご住所 / Address】%0D%0A%0D%0A【お電話番号 / Phone number】%0D%0A%0D%0A【メールアドレス / E-mail】%0D%0A%0D%0A【お問い合わせ内容 / Content of your inquiry】%0D%0A%0D%0A'},
 { title: '住所',
   details: '〒102-0094 東京都千代田区紀尾井町3-6紀尾井町パークビル7F',
   link: ''}];
