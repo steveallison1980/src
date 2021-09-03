@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { MetadescService } from '../../../services/metadesc.service';
+import { Meta } from '@angular/platform-browser';
+import { CAFCALLPAGEKEY } from './../../../../assets/data/staticnav';
 
 @Component({
   selector: 'app-cafcall',
@@ -7,9 +10,19 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CafcallComponent implements OnInit {
 
-  constructor() { }
+  constructor(
+    private metasvc:Meta,
+    private metaDescsvc: MetadescService
+  ) { }
 
   ngOnInit(): void {
+    this.metasvc.updateTag( 
+      { 
+        name:'description',
+        content: this.metaDescsvc.getContent(CAFCALLPAGEKEY,"JP")
+      },
+      "name='description'"
+    );
   }
 
 }

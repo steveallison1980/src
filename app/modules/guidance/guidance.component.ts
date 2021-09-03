@@ -1,6 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 import { GuidanceService } from "../../services/guidance.service";
 import { ActivatedRoute } from '@angular/router';
+import { LanguagesettingService } from '../../services/languagesetting.service';
+import { MetadescService } from '../../services/metadesc.service';
+import { Meta } from '@angular/platform-browser';
+import { GUIDANCEPAGEKEY } from './../../../assets/data/staticnav';
 
 @Component({
   selector: 'app-guidance',
@@ -11,9 +15,27 @@ export class GuidanceComponent implements OnInit {
 
   constructor(
     private guidanceService: GuidanceService,
-    private route: ActivatedRoute) { }
+    private route: ActivatedRoute,
+    private metasvc:Meta,
+    private metaDescsvc: MetadescService,
+    private langsvc: LanguagesettingService) {
+      const lang = this.route.snapshot.paramMap.get('lang');
+      if( lang != null && lang.toUpperCase() == "EN"){
+        this.langsvc.setLang("EN");
+      }
+      if( lang != null && lang.toUpperCase() == "JP"){
+        this.langsvc.setLang("JP");
+      }
+    }
 
   ngOnInit(): void {
+    this.metasvc.updateTag( 
+      { 
+        name:'description',
+        content: this.metaDescsvc.getContent(GUIDANCEPAGEKEY,this.langsvc.lang)
+      },
+      "name='description'"
+    );
   }
 
   getContent(){

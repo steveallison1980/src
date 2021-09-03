@@ -4,18 +4,14 @@ import { DefaultComponent } from './layouts/default/default.component';
 
 import { HomeComponent } from './modules/home/home.component';
 import { WelcomepageComponent } from './modules/welcomepage/welcomepage.component';
-import { NewspageComponent } from './modules/newspage/newspage.component';
 import { ContactpageComponent } from './modules/contactpage/contactpage.component';
 import { PublicationspageComponent } from './modules/publicationspage/publicationspage.component';
 import { PublicationpageComponent }  from './modules/publicationpage/publicationpage.component';
 
-import { AboutusComponent } from './modules/aboutus/aboutus.component';
 import { AboutpageComponent } from './modules/aboutpage/aboutpage.component';
 import { KeyfeaturespageComponent } from './modules/keyfeaturespage/keyfeaturespage.component';
-import { OverviewpageComponent } from './modules/overviewpage/overviewpage.component';
 import { AboutcontactpageComponent} from './modules/aboutcontactpage/aboutcontactpage.component';
 
-import { OurservicesComponent } from './modules/Ourservices/Ourservices.component';
 import { PatentspageComponent } from './modules/patentspage/patentspage.component';
 import { DesignstmpageComponent } from './modules/designstmpage/designstmpage.component';
 import { LitigationpageComponent } from './modules/litigationpage/litigationpage.component';
@@ -39,7 +35,6 @@ import { ProAdvisorsComponent } from './modules/professionals/pro-advisors/pro-a
 import { ProPatengineersComponent } from './modules/professionals/pro-patengineers/pro-patengineers.component';
 import { ProInternationalComponent } from './modules/professionals/pro-international/pro-international.component';
 
-import { CafcreportComponent } from './modules/cafcreport/cafcreport.component';
 import { CafcallComponent } from './modules/cafcreports/cafcall/cafcall.component';
 import { Cafc2019Component } from './modules/cafcreports/cafc2019/cafc2019.component';
 import { Cafc2018Component } from './modules/cafcreports/cafc2018/cafc2018.component';
@@ -91,11 +86,11 @@ const routes: Routes = [
         component: WelcomepageComponent
       },
       {
-        path: 'newspage',
-        component: NewspageComponent
+        path: 'contactpage',
+        component: ContactpageComponent
       },
       {
-        path: 'contactpage',
+        path: 'contactpage/:lang',
         component: ContactpageComponent
       },
       {
@@ -103,27 +98,27 @@ const routes: Routes = [
         component: PublicationspageComponent
       },
       {
+        path: 'publicationspage/:lang',
+        component: PublicationspageComponent
+      },
+      {
         path: 'publicationpage/:id',
         component: PublicationpageComponent
-      },
-      {
-        path: 'cafcreport',
-        component: CafcreportComponent
-      },
-      {
-        path: 'aboutus',
-        component: AboutusComponent
       },
       {
         path: 'aboutpage',
         component: AboutpageComponent
       },
       {
-        path: 'overviewpage',
-        component: OverviewpageComponent
+        path: 'aboutpage/:lang',
+        component: AboutpageComponent
       },
       {
         path: 'keyfeaturespage',
+        component: KeyfeaturespageComponent
+      },
+      {
+        path: 'keyfeaturespage/:lang',
         component: KeyfeaturespageComponent
       },
       {
@@ -131,11 +126,15 @@ const routes: Routes = [
         component: AboutcontactpageComponent
       },
       {
-        path: 'ourservices',
-        component: OurservicesComponent
+        path: 'aboutcontactpage/:lang',
+        component: AboutcontactpageComponent
       },
       {
         path: 'patentspage',
+        component: PatentspageComponent
+      },
+      {
+        path: 'patentspage/:lang',
         component: PatentspageComponent
       },
       {
@@ -143,11 +142,23 @@ const routes: Routes = [
         component: DesignstmpageComponent
       },
       {
+        path: 'designstmpage/:lang',
+        component: DesignstmpageComponent
+      },
+      {
         path: 'litigationpage',
         component: LitigationpageComponent
       },
       {
+        path: 'litigationpage/:lang',
+        component: LitigationpageComponent
+      },
+      {
         path: 'casestudiespage',
+        component: CasestudiespageComponent
+      },
+      {
+        path: 'casestudiespage/:lang',
         component: CasestudiespageComponent
       },
       {
@@ -160,6 +171,10 @@ const routes: Routes = [
       },
       {
         path: 'pro-practiceareas',
+        component: ProPracticeareasComponent
+      },
+      {
+        path: 'pro-practiceareas/:lang',
         component: ProPracticeareasComponent
       },
       {
@@ -222,7 +237,6 @@ const routes: Routes = [
         path: 'person',
         component: PersonComponent
       },
-
       {
         path: 'cafcall',
         component: CafcallComponent
@@ -297,6 +311,10 @@ const routes: Routes = [
       },
       {
         path: 'careerspage',
+        component: CareerspageComponent
+      },
+      {
+        path: 'careerspage/:lang',
         component: CareerspageComponent
       },
       {

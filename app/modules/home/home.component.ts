@@ -1,7 +1,10 @@
 import { Component, OnInit, ViewChild, ElementRef } from '@angular/core';
 import { LanguagesettingService } from '../../services/languagesetting.service';
+import { MetadescService } from '../../services/metadesc.service';
 import { ActivatedRoute } from '@angular/router';
 import { ICard, IContent } from '../../interfaces/icontent';
+import { Meta } from '@angular/platform-browser';
+import {HOMEPAGEKEY} from './../../../assets/data/staticnav';
 
 @Component({
   selector: 'app-home',
@@ -13,6 +16,8 @@ export class HomeComponent implements OnInit {
   @ViewChild('scrolldowntarget') private myScrollContainer: ElementRef;
 
   constructor(
+    private metasvc:Meta,
+    private metaDescsvc: MetadescService,
     private route: ActivatedRoute,
     private langsvc: LanguagesettingService) {
       const lang = this.route.snapshot.paramMap.get('lang');
@@ -180,7 +185,15 @@ export class HomeComponent implements OnInit {
     }
 
   ngOnInit(): void {
+    this.metasvc.updateTag( 
+      { 
+        name:'description',
+        content: this.metaDescsvc.getContent(HOMEPAGEKEY,this.langsvc.lang)
+      },
+      "name='description'"
+    );
   }
+
   scrollToElement(): void {
     this.myScrollContainer.nativeElement.scroll({
       top: this.myScrollContainer.nativeElement.scrollHeight,
