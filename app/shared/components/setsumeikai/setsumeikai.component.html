@@ -43,10 +43,25 @@
         </li>
     </ul>
     <br>
-    <a routerLink="/boshuyokopage"><h2>募集要項</h2></a>
+    <a routerLink="/boshuyokopage">
+        <button mat-icon-button>
+            <span class="mat-button-wrapper">
+                <mat-icon>work_outline</mat-icon> 募集要項
+            </span>
+        </button>
+    </a>
+    
     <p>当事務所への募集要項をご紹介しております。</p>
     <br>
-    <a routerLink="/workenvironmentpage"><h2>事務所の仕事環境</h2></a>
+    <a routerLink="/workenvironmentpage">
+        <mat-list-item>
+            <button mat-icon-button>
+                <span class="mat-button-wrapper">
+                    <mat-icon>supervised_user_circle</mat-icon> 事務所の仕事環境
+                </span>
+            </button>
+        </mat-list-item>
+    </a>
     <p>私どもの仕事、事務所の雰囲気、成果などをご理解いただくページです。</p>
 </mat-card>
 <br>
