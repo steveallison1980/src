@@ -111,8 +111,8 @@ export const SITEMAP_DATA: ISitemap =
             defaultsubpage: CAREERSPAGEKEY,
             links: [
                 { text: 'Careers', textJP: 'キャリア', icon: 'person_add', subPage: CAREERSPAGEKEY, curPage: 'careers', routerlink: CAREERSPAGEKEY, displayMode: 'ENonly', bShowInMenu: true },
-                { text: '', textJP: '事務所説明会', icon: 'accessibility_new', subPage: 'setsumeikaipage', curPage: 'careers', routerlink: '/setsumeikaipage', displayMode: 'JPonly', bShowInMenu: true },
-                { text: '', textJP: 'ご案内', icon: 'help', subPage: 'setsumeikaiguidepage', curPage: 'careers', routerlink: '/setsumeikaiguidepage', displayMode: 'JPonly', bShowInMenu: true },
+                { text: '', textJP: '期待する人材像', icon: 'accessibility_new', subPage: 'setsumeikaipage', curPage: 'careers', routerlink: '/setsumeikaipage', displayMode: 'JPonly', bShowInMenu: true },
+                { text: '', textJP: '事務所説明会のご案内', icon: 'help', subPage: 'setsumeikaiguidepage', curPage: 'careers', routerlink: '/setsumeikaiguidepage', displayMode: 'JPonly', bShowInMenu: true },
                 { text: '', textJP: '募集要項', icon: 'work_outline', subPage: 'boshuyokopage', curPage: 'careers', routerlink: '/boshuyokopage', displayMode: 'JPonly', bShowInMenu: true },
                 { text: '', textJP: '仕事環境', icon: 'supervised_user_circle', subPage: 'workenvironmentpage', curPage: 'careers', routerlink: '/workenvironmentpage', displayMode: 'JPonly', bShowInMenu: true },
             ],
