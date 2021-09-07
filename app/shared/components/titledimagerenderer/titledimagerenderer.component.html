@@ -1,4 +1,4 @@
 <div *ngIf="getTreeMode()==false" class="titleimg" fxLayout="column" fxLayoutAlign="center center">
     <b>{{getTitle()}}</b>
-    <app-imagerenderer [img]="getImage()"></app-imagerenderer>
+    <app-imagerenderer [treeLevel]="getTreeLevel()" [bTreeMode]="getTreeMode()" [img]="getImage()"></app-imagerenderer>
 </div>
