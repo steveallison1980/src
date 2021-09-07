@@ -9,7 +9,9 @@ import { IDesignExample } from './../../../interfaces/icontent';
 export class DesignexamplerendererComponent implements OnInit {
 
   @Input() design: IDesignExample;
-
+  @Input() bTreeMode: boolean;
+  @Input() treeLevel: number;
+  
   constructor() { }
 
   ngOnInit(): void {
@@ -37,5 +39,12 @@ export class DesignexamplerendererComponent implements OnInit {
   }
   getDescription(){
     return this.design.description;
+  }
+  getTreeMode(){
+    return this.bTreeMode;
+  }
+  getTreeLevel(){
+    if(this.treeLevel === undefined) this.treeLevel=0;
+    return this.treeLevel;
   }
 }

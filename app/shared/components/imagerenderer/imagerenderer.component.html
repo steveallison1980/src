@@ -1,1 +1,1 @@
-<img [src]="getImgSrc()" class='{{getClasses()}}'>
+<img *ngIf="getTreeMode()==false" [src]="getImgSrc()" class='{{getClasses()}}'>

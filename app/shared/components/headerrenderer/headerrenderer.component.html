@@ -1,4 +1,18 @@
-<h1 *ngIf="getHeaderType() == 'h1'">{{getHeaderText()}}</h1>
-<h2 *ngIf="getHeaderType() == 'h2'">{{getHeaderText()}}</h2>
-<h3 *ngIf="getHeaderType() == 'h3'">{{getHeaderText()}}</h3>
-<h4 *ngIf="getHeaderType() == 'h4'">{{getHeaderText()}}</h4>
+<span *ngIf="getTreeMode()==false">
+    <h1 *ngIf="getHeaderType() == 'h1'" id="jump{{getId()}}">{{getHeaderText()}}</h1>
+    <h2 *ngIf="getHeaderType() == 'h2'" id="jump{{getId()}}">{{getHeaderText()}}</h2>
+    <h3 *ngIf="getHeaderType() == 'h3'" id="jump{{getId()}}">{{getHeaderText()}}</h3>
+    <h4 *ngIf="getHeaderType() == 'h4'" id="jump{{getId()}}">{{getHeaderText()}}</h4>
+</span>
+<div *ngIf="getTreeMode()">
+    <span *ngFor="let padding of getLevelFiller(); index as i">&nbsp;&nbsp;</span>
+    <button *ngIf="makeButton()" mat-stroked-button color="accent" id="{{getId()}}" (click)="clickTOCButton($event)">
+        <span id="{{getId()}}" class="tocsubheader{{getTreeLevel()}}">
+            {{getHeaderText()}}
+        </span>
+    </button>
+    <h2 *ngIf="getTreeLevel()==0">
+        {{getHeaderText()}}: Table of Contents
+    </h2>
+</div>
+    

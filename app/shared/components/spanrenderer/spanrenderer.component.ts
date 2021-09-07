@@ -11,6 +11,8 @@ export class SpanrendererComponent implements OnInit {
   constructor() { }
 
   @Input() span: ISpan;
+  @Input() bTreeMode: boolean;
+  @Input() treeLevel: number;
 
   ngOnInit(): void {
   }
@@ -45,5 +47,13 @@ export class SpanrendererComponent implements OnInit {
       ret += this.span.classes[i] + " ";
     }
     return ret;
+  }
+  getTreeMode(){
+    if(this.bTreeMode === undefined) this.bTreeMode=false;
+    return this.bTreeMode;
+  }
+  getTreeLevel(){
+    if(this.treeLevel === undefined) this.treeLevel=0;
+    return this.treeLevel;
   }
 }

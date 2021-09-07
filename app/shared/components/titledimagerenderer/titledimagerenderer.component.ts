@@ -9,6 +9,8 @@ import { ITitledImage } from '../../../interfaces/icontent';
 export class TitledimagerendererComponent implements OnInit {
 
   @Input() titledimage: ITitledImage;
+  @Input() bTreeMode: boolean;
+  @Input() treeLevel: number;
 
   constructor() { }
 
@@ -18,7 +20,13 @@ export class TitledimagerendererComponent implements OnInit {
   getImage(){
     return this.titledimage.img;
   }
-
   ngOnInit(): void {
+  }
+  getTreeMode(){
+    return this.bTreeMode;
+  }
+  getTreeLevel(){
+    if(this.treeLevel === undefined) this.treeLevel=0;
+    return this.treeLevel;
   }
 }

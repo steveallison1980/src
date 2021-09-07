@@ -1,6 +1,19 @@
-<div *ngFor="let panel of getPanels(); index as i">
-    <h1>
-        {{getPanelTitle(panel)}} 
-    </h1>
-    <app-contentrenderer [content]="getPanelContent(panel)"></app-contentrenderer>
-</div>
+<span *ngIf="getTreeMode()==false">
+    <div *ngFor="let panel of getPanels(); index as i">
+        <h1 id='jump{{getTreeLevel()}}-{{i}}' data-treelevel='{{getTreeLevel()}}' data-index='{{i}}'>
+            {{getPanelTitle(panel)}} 
+        </h1>
+        <app-contentrenderer [bTreeMode]="getTreeMode()" [treeLevel]="getTreeLevel()+1" [content]="getPanelContent(panel)"></app-contentrenderer>
+    </div>
+</span>
+<span *ngIf="getTreeMode()==true">
+    <div *ngFor="let panel of getPanels(); index as i" class='treediv{{i}}-{{getTreeLevel()}}'>
+        <button *ngIf="getPanelTitle(panel).length>1" mat-stroked-button color="primary"  (click)="clickTOCButton(getTreeLevel(),i)">
+            <span class='treenode{{getTreeLevel()}}'>
+                <span *ngIf="getTreeLevel()>0">{{getTreeLevel()}}.&nbsp;</span>
+                <span>{{i+1}}. {{getPanelTitle(panel)}}</span>
+            </span>
+        </button>
+        <app-contentrenderer [bTreeMode]="getTreeMode()" [treeLevel]="getTreeLevel()+1" [content]="getPanelContent(panel)"></app-contentrenderer>
+    </div>
+</span>

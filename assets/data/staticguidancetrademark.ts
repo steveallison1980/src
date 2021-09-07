@@ -13,6 +13,7 @@ const TRADEMARKFUNDAMENTAL: IExpansionPanel = {
                         text: "First-to-file/examination",
                         type: "h2",
                         classes: null,
+                        id: "20000001"
                     }]
             },
             {
@@ -67,6 +68,7 @@ const TRADEMARKFUNDAMENTAL: IExpansionPanel = {
                         text: "International harmonization",
                         type: "h2",
                         classes: null,
+                        id: "20000002"
                     }]
             },
             {
@@ -262,6 +264,7 @@ const TRADEMARKNECESSARYINFO: IExpansionPanel = {
                         text: "Applicant",
                         type: "h2",
                         classes: null,
+                        id: "20000003"
                     }]
             },
             {
@@ -286,6 +289,7 @@ const TRADEMARKNECESSARYINFO: IExpansionPanel = {
                         text: "Goods (services) and classification",
                         type: "h2",
                         classes: null,
+                        id: "20000004"
                     }]
             },
             {
@@ -385,6 +389,7 @@ const TRADEMARKNECESSARYINFO: IExpansionPanel = {
                         text: "Trademark specimen (representation of the trademark)",
                         type: "h2",
                         classes: null,
+                        id: "20000005"
                     }]
             },
             {
@@ -424,6 +429,7 @@ const TRADEMARKNECESSARYINFO: IExpansionPanel = {
                         text: "Priority data and priority document",
                         type: "h2",
                         classes: null,
+                        id: "20000006"
                     }]
             },
             {
@@ -493,6 +499,7 @@ const TRADEMARKNECESSARYINFO: IExpansionPanel = {
                         text: "Power of Attorney (PoA)",
                         type: "h2",
                         classes: null,
+                        id: "20000007"
                     }]
             },
             {
@@ -657,6 +664,7 @@ const TRADEMARKEXAMINATION: IExpansionPanel = {
                         text: "Clarity of Goods (specification)",
                         type: "h2",
                         classes: null,
+                        id: "20000008"
                     }]
             },
             {
@@ -741,6 +749,7 @@ const TRADEMARKEXAMINATION: IExpansionPanel = {
                         text: "Distinctiveness",
                         type: "h2",
                         classes: null,
+                        id: "20000009"
                     }]
             },
             {
@@ -810,6 +819,7 @@ const TRADEMARKEXAMINATION: IExpansionPanel = {
                         text: "Similarity",
                         type: "h2",
                         classes: null,
+                        id: "20000010"
                     }]
             },
             {
@@ -889,6 +899,7 @@ const TRADEMARKOFFICEACTION: IExpansionPanel = {
                         text: "Arguments against the Examiner's finding of similarity",
                         type: "h2",
                         classes: ["bullet"],
+                        id: "20000011"
                     }]
             },
             {
@@ -928,6 +939,7 @@ const TRADEMARKOFFICEACTION: IExpansionPanel = {
                         text: "Deletion of designated goods/services",
                         type: "h2",
                         classes: ["bullet"],
+                        id: "20000012"
                     }]
             },
             {
@@ -952,6 +964,7 @@ const TRADEMARKOFFICEACTION: IExpansionPanel = {
                         text: "Request for cancellation of cited unused trademark",
                         type: "h2",
                         classes: ["bullet"],
+                        id: "20000013"
                     }]
             },
             {
@@ -1006,6 +1019,7 @@ const TRADEMARKOFFICEACTION: IExpansionPanel = {
                         text: "Get assignment of cited trademark",
                         type: "h2",
                         classes: ["bullet"],
+                        id: "20000014"
                     }]
             },
             {
@@ -1055,6 +1069,7 @@ const TRADEMARKACCELEXAMINATION: IExpansionPanel = {
                         text: "“Expedited Examination”",
                         type: "h2",
                         classes: null,
+                        id: "20000015"
                     }]
             },
             {
@@ -1079,6 +1094,7 @@ const TRADEMARKACCELEXAMINATION: IExpansionPanel = {
                         text: "“First Track examination”",
                         type: "h2",
                         classes: null,
+                        id: "20000016"
                     }]
             },
             {
@@ -1228,6 +1244,7 @@ const TRADEMARKRIGHTSDURATIONRENEWAL: IExpansionPanel = {
                         text: "Registration",
                         type: "h2",
                         classes: null,
+                        id: "20000017"
                     }]
             },
             {
@@ -1282,6 +1299,7 @@ const TRADEMARKRIGHTSDURATIONRENEWAL: IExpansionPanel = {
                         text: "Scope of a Trademark Right",
                         type: "h2",
                         classes: null,
+                        id: "20000018"
                     }]
             },
             {
@@ -1321,6 +1339,7 @@ const TRADEMARKRIGHTSDURATIONRENEWAL: IExpansionPanel = {
                         text: "Renewal of Registration",
                         type: "h2",
                         classes: null,
+                        id: "20000019"
                     }]
             },
             {
@@ -1385,6 +1404,7 @@ const TRADEMARKNONUSECANCELLATION: IExpansionPanel = {
                         text: "The Japanese trademark system is a first-to-file system and actual use of the applied mark is not required at the registration and also at the renewal. Once registered, there is no official control of the register to remove unused registered marks.",
                         type: "h2",
                         classes: null,
+                        id: "20000020"
                     }]
             },
             {
@@ -1409,6 +1429,7 @@ const TRADEMARKNONUSECANCELLATION: IExpansionPanel = {
                         text: "Requirements",
                         type: "h2",
                         classes: null,
+                        id: "20000021"
                     }]
             },
             {
@@ -1448,6 +1469,7 @@ const TRADEMARKNONUSECANCELLATION: IExpansionPanel = {
                         text: "Burden of proof of non-use",
                         type: "h2",
                         classes: null,
+                        id: "20000022"
                     }]
             },
             {
@@ -1502,6 +1524,7 @@ const TRADEMARKNONUSECANCELLATION: IExpansionPanel = {
                         text: "Cancellation process and its cost",
                         type: "h2",
                         classes: null,
+                        id: "20000023"
                     }]
             },
             {
@@ -1556,6 +1579,7 @@ const TRADEMARKNONUSECANCELLATION: IExpansionPanel = {
                         text: "Time frame",
                         type: "h2",
                         classes: null,
+                        id: "20000024"
                     }]
             },
             {
@@ -1580,6 +1604,7 @@ const TRADEMARKNONUSECANCELLATION: IExpansionPanel = {
                         text: "Points to make note of",
                         type: "h2",
                         classes: null,
+                        id: "20000025"
                     }]
             },
             {
@@ -1690,6 +1715,7 @@ const TRADEMARKPOSTREGOPPOSITION: IExpansionPanel = {
                         text: "Grounds for Opposition",
                         type: "h2",
                         classes: null,
+                        id: "20000026"
                     }]
             },
             {
@@ -1770,6 +1796,7 @@ const TRADEMARKPOSTREGOPPOSITION: IExpansionPanel = {
                         text: "Examination of the Opposition",
                         type: "h2",
                         classes: null,
+                        id: "20000027"
                     }]
             },
             {
@@ -1809,6 +1836,7 @@ const TRADEMARKPOSTREGOPPOSITION: IExpansionPanel = {
                         text: "Results of an Opposition Examination",
                         type: "h2",
                         classes: null,
+                        id: "20000028"
                     }]
             },
             {
@@ -1842,6 +1870,7 @@ const TRADEMARKPOSTREGOPPOSITION: IExpansionPanel = {
                                                 text: "The trademark registration is maintained",
                                                 type: "h2",
                                                 classes: null,
+                                                id: "20000029"
                                             }]
                                     },
                                     {
@@ -1875,6 +1904,7 @@ const TRADEMARKPOSTREGOPPOSITION: IExpansionPanel = {
                                                 text: "The trademark registration is revoked in part or in its entirety",
                                                 type: "h2",
                                                 classes: null,
+                                                id: "20000030"
                                             }]
                                     },
                                     {
@@ -1918,6 +1948,7 @@ const TRADEMARKINVALIDATIONTRIAL: IExpansionPanel = {
                         text: "Reasons for Invalidation and Statutory Limitation",
                         type: "h2",
                         classes: null,
+                        id: "20000031"
                     }]
             },
             {
@@ -1942,6 +1973,7 @@ const TRADEMARKINVALIDATIONTRIAL: IExpansionPanel = {
                         text: "Trial procedure",
                         type: "h2",
                         classes: null,
+                        id: "20000032"
                     }]
             },
             {
@@ -2106,6 +2138,7 @@ const TRADEMARKLICENSING: IExpansionPanel = {
                         text: "Exclusive license",
                         type: "h2",
                         classes: null,
+                        id: "20000033"
                     }]
             },
             {
@@ -2130,6 +2163,7 @@ const TRADEMARKLICENSING: IExpansionPanel = {
                         text: "Non-exclusive license",
                         type: "h2",
                         classes: null,
+                        id: "20000034"
                     }]
             },
             {
@@ -2279,6 +2313,7 @@ const TRADEMARKOFFICIALFEES: IExpansionPanel = {
                          text: "Japan Patent Office (JPO) Official Fees for trademark matters as of January 2021",
                          type: "h2",
                          classes: null,
+                         id: "20000035"
                      }]
             },
             {
@@ -2776,7 +2811,8 @@ export const TRADEMARKGUIDANCECONTENT: IContent = {
             objs: [{
                 text: "Guidance on Japanese Trademark Practice",
                 type: "h1",
-                classes: null
+                classes: null,
+                id: "20000036"
             }]
         },
         {

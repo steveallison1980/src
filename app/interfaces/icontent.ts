@@ -1,6 +1,7 @@
 export interface IHeader {
     text: string;
     type: string;
+    id: string;
     classes: Array<string>;
 }
 export interface IImage {

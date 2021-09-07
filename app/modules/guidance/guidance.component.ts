@@ -44,7 +44,6 @@ export class GuidanceComponent implements OnInit {
   }
 
   currentPage(){
-    console.log(this.route.snapshot.paramMap.get('type'))
     if( this.route.snapshot.paramMap.get('type') == null ) return "patent";
     return this.route.snapshot.paramMap.get('type');
   }

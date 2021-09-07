@@ -1,4 +1,4 @@
-<div class="titleimg" fxLayout="column" fxLayoutAlign="center center">
+<div *ngIf="getTreeMode()==false" class="titleimg" fxLayout="column" fxLayoutAlign="center center">
     <b>{{getTitle()}}</b>
     <app-imagerenderer [img]="getImage()"></app-imagerenderer>
 </div>

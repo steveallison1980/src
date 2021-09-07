@@ -11,6 +11,8 @@ import { ITable } from './../../../interfaces/icontent';
 export class TablerendererComponent implements OnInit {
 
   @Input() table: ITable;
+  @Input() bTreeMode: boolean;
+  @Input() treeLevel: number;
 
   constructor() { }
 
@@ -73,5 +75,12 @@ export class TablerendererComponent implements OnInit {
     console.log(this.table.rows);
     return this.table.rows;
     // return this.table.
+  }
+  getTreeMode(){
+    return this.bTreeMode;
+  }
+  getTreeLevel(){
+    if(this.treeLevel === undefined) this.treeLevel=0;
+    return this.treeLevel;
   }
 }

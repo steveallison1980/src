@@ -11,6 +11,8 @@ export class ContentrendererComponent implements OnInit {
   constructor() { }
   
   @Input() content: IContent;
+  @Input() bTreeMode: boolean;
+  @Input() treeLevel: number;
 
   ngOnInit(): void {
   }
@@ -18,5 +20,13 @@ export class ContentrendererComponent implements OnInit {
   getElements(){
     if (this.content == null) return null;
     return this.content.elements;
+  }
+  getTreeMode(){
+    if(this.bTreeMode === undefined) this.bTreeMode=false;
+    return this.bTreeMode;
+  }
+  getTreeLevel(){
+    if(this.treeLevel === undefined) this.treeLevel=0;
+    return this.treeLevel;
   }
 }

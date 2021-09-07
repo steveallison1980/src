@@ -1,4 +1,3 @@
-<span *ngFor="let element of getElements()">
-    <app-elementrenderer [element]="element"></app-elementrenderer>
+<span>
+    <app-elementrenderer *ngFor="let element of getElements()" [bTreeMode]="getTreeMode()" [treeLevel]="getTreeLevel()" [element]="element"></app-elementrenderer>
 </span>
-

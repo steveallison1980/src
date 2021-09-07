@@ -1,5 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { IAccordion, IExpansionPanel } from './../../../interfaces/icontent';
+import { GuidanceService } from "../../../services/guidance.service";
 
 @Component({
   selector: 'app-expansionrenderer',
@@ -9,10 +10,14 @@ import { IAccordion, IExpansionPanel } from './../../../interfaces/icontent';
 export class ExpansionrendererComponent implements OnInit {
 
   @Input() accordion: IAccordion;
-  
+  @Input() bTreeMode: boolean;
+  @Input() treeLevel: number;
+
   panelOpenState = false;
 
-  constructor() { }
+  constructor(
+    private guidanceService: GuidanceService
+  ) { }
 
   ngOnInit(): void {
   }
@@ -31,5 +36,19 @@ export class ExpansionrendererComponent implements OnInit {
   }
   getPanelContent(panel:IExpansionPanel){
     return panel.content;
+  }
+  getTreeMode(){
+    if(this.bTreeMode === undefined) this.bTreeMode=false;
+    return this.bTreeMode;
+  }
+  getTreeLevel(){
+    if(this.treeLevel === undefined) this.treeLevel=0;
+    return this.treeLevel;
+  }
+
+  clickTOCButton(treelevel,index){
+    let el = document.getElementById("jump"+treelevel+"-"+index);
+    el.scrollIntoView();
+    this.guidanceService.bShowTOC = false;
   }
 }

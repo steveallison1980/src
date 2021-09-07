@@ -1,0 +1,8 @@
+<button *ngIf="!TOCDisplayed()" id="showfab" [matTooltip]="getTooltip()" mat-fab color="warn" (click)="showTOC()">
+    <mat-icon>view_list</mat-icon>
+</button>
+<button *ngIf="TOCDisplayed()" id="showfab" [matTooltip]="getTooltip()" mat-fab color="warn" (click)="hideTOC()">
+    <mat-icon>close</mat-icon>
+</button>
+
+<app-contentrenderer *ngIf="TOCDisplayed()" id="toc" [bTreeMode]="true" [treeLevel]="0" [content]="getContent()"></app-contentrenderer>

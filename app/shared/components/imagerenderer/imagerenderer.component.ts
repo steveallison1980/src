@@ -9,6 +9,9 @@ import { IImage } from './../../../interfaces/icontent';
 export class ImagerendererComponent implements OnInit {
 
   @Input() img: IImage;
+  @Input() bTreeMode: boolean;
+  @Input() treeLevel: number;
+
   IMGFOLDER: string = "./../../../../assets/img/";
 
   constructor() { }
@@ -26,5 +29,12 @@ export class ImagerendererComponent implements OnInit {
       ret += this.img.classes[i] + " ";
     }
     return ret;
+  }
+  getTreeMode(){
+    return this.bTreeMode;
+  }
+  getTreeLevel(){
+    if(this.treeLevel === undefined) this.treeLevel=0;
+    return this.treeLevel;
   }
 }

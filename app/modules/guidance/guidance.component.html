@@ -8,14 +8,15 @@
             <app-sidebar [menu]="'guidance'" [highlight]="currentPage()"></app-sidebar>
         </div>
         <div fxFlex='70' fxShow="true" fxHide.lt-md>
-            <app-contentrenderer [content]="getContent()"></app-contentrenderer>
+            <app-contentrenderer [bTreeMode]="false" [content]="getContent()"></app-contentrenderer>
+            <app-tableofcontents [content]="getContent()"></app-tableofcontents>
         </div>
         <div fxFlex='5' fxShow="true" fxHide.lt-md="true">
         </div>
         <!--MOBILE-->
         <div fxFlex='5' fxHide fxShow.lt-md></div>
         <div class="maincontent" fxFlex='90' fxHide fxShow.lt-md>
-            <app-contentrenderer [content]="getContent()"></app-contentrenderer>
+            <app-contentrenderer [bTreeMode]="false" [content]="getContent()"></app-contentrenderer>
         </div>
         <div fxFlex='5' fxHide fxShow.lt-md></div>
     </div>

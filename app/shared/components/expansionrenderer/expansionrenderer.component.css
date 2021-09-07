@@ -2,3 +2,6 @@ mat-panel-title{
     color: rgb(184, 51, 51);
     font-size: x-large;
 }
+button{
+    margin: 1px;
+}

@@ -11,6 +11,8 @@ export class ListrendererComponent implements OnInit {
   constructor() { }
 
   @Input() list: IList;
+  @Input() bTreeMode: boolean;
+  @Input() treeLevel: number;
 
   ngOnInit(): void {
   }
@@ -19,5 +21,12 @@ export class ListrendererComponent implements OnInit {
   }
   getElements(){
     return this.list.elements;
+  }
+  getTreeMode(){
+    return this.bTreeMode;
+  }
+  getTreeLevel(){
+    if(this.treeLevel === undefined) this.treeLevel=0;
+    return this.treeLevel;
   }
 }

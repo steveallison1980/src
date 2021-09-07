@@ -9,6 +9,8 @@ import { IParagraph } from './../../../interfaces/icontent';
 export class ParagraphrendererComponent implements OnInit {
 
   @Input() paragraph: IParagraph;
+  @Input() bTreeMode: boolean;
+  @Input() treeLevel: number;
 
   constructor() { }
 
@@ -26,5 +28,12 @@ export class ParagraphrendererComponent implements OnInit {
       ret += this.paragraph.classes[i] + " ";
     }
     return ret;
+  }
+  getTreeMode(){
+    return this.bTreeMode;
+  }
+  getTreeLevel(){
+    if(this.treeLevel === undefined) this.treeLevel=0;
+    return this.treeLevel;
   }
 }

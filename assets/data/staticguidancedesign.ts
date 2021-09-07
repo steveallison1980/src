@@ -211,6 +211,7 @@ const DESIGNPANEL3: IExpansionPanel = {
                         text: "Design of an article (whole design)",
                         type: "h3",
                         classes: ["bullet"],
+                        id: "00000001"
                     }]
             },
             {
@@ -315,6 +316,7 @@ const DESIGNPANEL3: IExpansionPanel = {
                         text: "Functional Article",
                         type: "h4",
                         classes: ["bullet"],
+                        id: "00000002"
                     }]
             },
             {
@@ -409,6 +411,7 @@ const DESIGNPANEL3: IExpansionPanel = {
                         text: "Design of an article (partial design)",
                         type: "h3",
                         classes: ["bullet"],
+                        id: "00000003"
                     }]
             },
             {
@@ -442,7 +445,8 @@ const DESIGNPANEL3: IExpansionPanel = {
                                         text: "[Explanation of the design]",
                                         type: "h3",
                                         classes: ["noselect"],
-                                    }]
+                                        id: "00000004"
+                                    }],
                             },
                             {
                                 type: "paragraph",
@@ -557,6 +561,7 @@ const DESIGNPANEL3: IExpansionPanel = {
                         text: "Graphic image design",
                         type: "h3",
                         classes: ["bullet"],
+                        id: "00000005"
                     }]
             },
             {
@@ -606,6 +611,7 @@ const DESIGNPANEL3: IExpansionPanel = {
                                         text: "[Explanation of the article to which the design pertains]",
                                         type: "h3",
                                         classes: ["noselect"],
+                                        id: "00000006"
                                     }]
                             },
                             {
@@ -663,6 +669,7 @@ const DESIGNPANEL3: IExpansionPanel = {
                                         text: "[Explanation of the article to which the design pertains]",
                                         type: "h3",
                                         classes: ["noselect"],
+                                        id: "00000007"
                                     }]
                             },
                             {
@@ -725,6 +732,7 @@ const DESIGNPANEL3: IExpansionPanel = {
                         text: "Partial design of a graphic image design",
                         type: "h3",
                         classes: ["bullet"],
+                        id: "00000008"
                     }]
             },
             {
@@ -742,6 +750,7 @@ const DESIGNPANEL3: IExpansionPanel = {
                                         text: "[Explanation of the article to which the design pertains]",
                                         type: "h3",
                                         classes: ["noselect"],
+                                        id: "00000009"
                                     }]
                             },
                             {
@@ -767,6 +776,7 @@ const DESIGNPANEL3: IExpansionPanel = {
                                         text: "[Explanation of the design]",
                                         type: "h3",
                                         classes: ["noselect"],
+                                        id: "00000010"
                                     }]
                             },
                             {
@@ -876,6 +886,7 @@ const DESIGNPANEL3: IExpansionPanel = {
                         text: "Building designs (whole & partial)",
                         type: "h3",
                         classes: ["bullet"],
+                        id: "00000011"
                     }]
             },
             {
@@ -909,6 +920,7 @@ const DESIGNPANEL3: IExpansionPanel = {
                                         text: "[Explanation of the design]",
                                         type: "h3",
                                         classes: ["noselect"],
+                                        id: "00000012"
                                     }]
                             },
                             {
@@ -1041,6 +1053,7 @@ const DESIGNPANEL3: IExpansionPanel = {
                         text: "Interior designs (whole & partial)",
                         type: "h3",
                         classes: ["bullet"],
+                        id: "00000013"
                     }]
             },
             {
@@ -1074,6 +1087,7 @@ const DESIGNPANEL3: IExpansionPanel = {
                                         text: "[Explanation of the article to which the design pertains]",
                                         type: "h3",
                                         classes: ["noselect"],
+                                        id: "00000014"
                                     }]
                             },
                             {
@@ -1099,6 +1113,7 @@ const DESIGNPANEL3: IExpansionPanel = {
                                         text: "[Explanation of the design]",
                                         type: "h3",
                                         classes: ["noselect"],
+                                        id: "00000015"
                                     }]
                             },
                             {
@@ -1169,6 +1184,7 @@ const DESIGNPANEL4: IExpansionPanel = {
                         text: "Novelty",
                         type: "h3",
                         classes: ["bullet"],
+                        id: "00000016"
                     }]
             },
             {
@@ -1210,6 +1226,7 @@ const DESIGNPANEL4: IExpansionPanel = {
                         text: "Exceptions to loss of novelty (grace period)",
                         type: "h3",
                         classes: ["bullet"],
+                        id: "00000017"
                     }]
             },
             {
@@ -1265,6 +1282,7 @@ const DESIGNPANEL4: IExpansionPanel = {
                         text: "Creative difficulty",
                         type: "h3",
                         classes: ["bullet"],
+                        id: "00000018"
                     }]
             },
             {
@@ -1305,6 +1323,7 @@ const DESIGNPANEL4: IExpansionPanel = {
                         text: "First to file",
                         type: "h3",
                         classes: ["bullet"],
+                        id: "00000019"
                     }]
             },
             {
@@ -1360,6 +1379,7 @@ const DESIGNPANEL4: IExpansionPanel = {
                         text: "That the design be definite",
                         type: "h3",
                         classes: ["bullet"],
+                        id: "00000020"
                     }]
             },
             {
@@ -1575,6 +1595,7 @@ const DESIGNPANEL5: IExpansionPanel = {
                         text: "Considering to file a related design application",
                         type: "h3",
                         classes: ["bullet"],
+                        id: "00000021"
                     }]
             },
             {
@@ -1735,6 +1756,7 @@ const DESIGNPANEL5: IExpansionPanel = {
                         text: "Whether to select a graphic image design or a partial design of an article in the case of an image design",
                         type: "h3",
                         classes: ["bullet"],
+                        id: "00000022"
                     }]
             },
             {
@@ -1819,6 +1841,7 @@ const DESIGNPANEL5: IExpansionPanel = {
                         text: "Whether trademark registration is necessary for graphic image designs",
                         type: "h4",
                         classes: null,
+                        id: "00000023"
                     }]
             },
             {
@@ -1859,6 +1882,7 @@ const DESIGNPANEL5: IExpansionPanel = {
                         text: "Whether to select a whole design or a partial design",
                         type: "h3",
                         classes: ["bullet"],
+                        id: "00000024"
                     }]
             },
             {
@@ -1929,6 +1953,7 @@ const DESIGNPANEL5: IExpansionPanel = {
                         text: "Whether to file a single design or multiple designs",
                         type: "h3",
                         classes: ["bullet"],
+                        id: "00000025"
                     }]
             },
             {
@@ -1955,6 +1980,7 @@ const DESIGNPANEL5: IExpansionPanel = {
                         text: "Batch application of multiple designs",
                         type: "h4",
                         classes: null,
+                        id: "00000026"
                     }]
             },
             {
@@ -1995,6 +2021,7 @@ const DESIGNPANEL5: IExpansionPanel = {
                         text: "Design of a set of articles",
                         type: "h4",
                         classes: null,
+                        id: "00000027"
                     }]
             },
             {
@@ -2020,6 +2047,7 @@ const DESIGNPANEL5: IExpansionPanel = {
                         text: "Interior designs",
                         type: "h4",
                         classes: null,
+                        id: "00000028"
                     }]
             },
             {
@@ -2045,6 +2073,7 @@ const DESIGNPANEL5: IExpansionPanel = {
                         text: "Secret designs",
                         type: "h3",
                         classes: ["bullet"],
+                        id: "00000029"
                     }]
             },
             {
@@ -2070,6 +2099,7 @@ const DESIGNPANEL5: IExpansionPanel = {
                         text: "Considering claiming the grace period (exception to loss of novelty)",
                         type: "h3",
                         classes: ["bullet"],
+                        id: "00000030"
                     }]
             },
             {
@@ -2134,6 +2164,7 @@ const DESIGNPANEL6: IExpansionPanel = {
                         text: "Applicant and creator",
                         type: "h3",
                         classes: ["bullet"],
+                        id: "00000031"
                     }]
             },
             {
@@ -2174,6 +2205,7 @@ const DESIGNPANEL6: IExpansionPanel = {
                         text: "Recitation of the name of the article of the design",
                         type: "h3",
                         classes: ["bullet"],
+                        id: "00000032"
                     }]
             },
             {
@@ -2230,6 +2262,7 @@ const DESIGNPANEL6: IExpansionPanel = {
                         text: "Explanation of the design",
                         type: "h3",
                         classes: ["bullet"],
+                        id: "00000033"
                     }]
             },
             {
@@ -2256,6 +2289,7 @@ const DESIGNPANEL6: IExpansionPanel = {
                         text: "Drawings",
                         type: "h3",
                         classes: ["bullet"],
+                        id: "00000034"
                     }]
             },
             {
@@ -2430,6 +2464,7 @@ const DESIGNPANEL6: IExpansionPanel = {
                         text: "Photos",
                         type: "h3",
                         classes: ["bullet"],
+                        id: "00000035"
                     }]
             },
             {
@@ -2492,6 +2527,7 @@ const DESIGNPANEL6: IExpansionPanel = {
                         text: "Power of Attorney",
                         type: "h3",
                         classes: ["bullet"],
+                        id: "00000036"
                     }]
             },
             {
@@ -2547,6 +2583,7 @@ const DESIGNPANEL6: IExpansionPanel = {
                         text: "Priority certificate",
                         type: "h3",
                         classes: ["bullet"],
+                        id: "00000037"
                     }]
             },
             {
@@ -2572,6 +2609,7 @@ const DESIGNPANEL6: IExpansionPanel = {
                         text: "Hague route",
                         type: "h4",
                         classes: null,
+                        id: "00000038"
                     }]
             },
             {
@@ -2598,6 +2636,7 @@ const DESIGNPANEL6: IExpansionPanel = {
                         text: "Paris route",
                         type: "h4",
                         classes: null,
+                        id: "00000039"
                     }]
             },
             {
@@ -2634,6 +2673,7 @@ const DESIGNPANEL7: IExpansionPanel = {
                         text: "Duration of a design right",
                         type: "h3",
                         classes: ["bullet"],
+                        id: "00000040"
                     }]
             },
             {
@@ -2660,6 +2700,7 @@ const DESIGNPANEL7: IExpansionPanel = {
                         text: "Duration of old design rights",
                         type: "h3",
                         classes: ["bullet"],
+                        id: "00000041"
                     }]
             },
             {
@@ -2686,6 +2727,7 @@ const DESIGNPANEL7: IExpansionPanel = {
                         text: "Duration of new design rights",
                         type: "h3",
                         classes: ["bullet"],
+                        id: "00000042"
                     }]
             },
             {
@@ -2712,6 +2754,7 @@ const DESIGNPANEL7: IExpansionPanel = {
                         text: "Effective extension of old design rights",
                         type: "h3",
                         classes: ["bullet"],
+                        id: "00000043"
                     }]
             },
             {
@@ -2738,6 +2781,7 @@ const DESIGNPANEL7: IExpansionPanel = {
                         text: "Annuities",
                         type: "h3",
                         classes: ["bullet"],
+                        id: "00000044"
                     }]
             },
             {
@@ -2914,6 +2958,7 @@ const DESIGNPANEL7: IExpansionPanel = {
                         text: "Scope of a design right",
                         type: "h3",
                         classes: ["bullet"],
+                        id: "00000045"
                     }]
             },
             {
@@ -3015,6 +3060,7 @@ const DESIGNPANEL7: IExpansionPanel = {
                         text: "Relationship between design rights of independent designs and related designs",
                         type: "h3",
                         classes: ["bullet"],
+                        id: "00000046"
                     }]
             },
             {
@@ -3056,6 +3102,7 @@ const DESIGNPANEL7: IExpansionPanel = {
                         text: "Design rights of partial designs",
                         type: "h3",
                         classes: ["bullet"],
+                        id: "00000047"
                     }]
             },
             {
@@ -3082,6 +3129,7 @@ const DESIGNPANEL7: IExpansionPanel = {
                         text: "Graphic image designs",
                         type: "h3",
                         classes: ["bullet"],
+                        id: "00000048"
                     }]
             },
             {
@@ -3149,6 +3197,7 @@ const DESIGNPANEL8: IExpansionPanel = {
                         text: "Reasons for Invalidation",
                         type: "h3",
                         classes: ["bullet"],
+                        id: "00000049"
                     }]
             },
             {
@@ -3235,6 +3284,7 @@ const DESIGNPANEL8: IExpansionPanel = {
                         text: "The length of design invalidation",
                         type: "h3",
                         classes: ["bullet"],
+                        id: "00000050"
                     }]
             },
             {
@@ -3260,6 +3310,7 @@ const DESIGNPANEL8: IExpansionPanel = {
                         text: "Trial procedure",
                         type: "h3",
                         classes: ["bullet"],
+                        id: "00000051"
                     }]
             },
             {
@@ -3300,6 +3351,7 @@ const DESIGNPANEL8: IExpansionPanel = {
                         text: "Relation with the pending infringement lawsuit",
                         type: "h3",
                         classes: ["bullet"],
+                        id: "00000052"
                     }]
             },
             {
@@ -3554,7 +3606,8 @@ export const DESIGNGUIDANCECONTENT: IContent = {
             objs: [{
                 text: "Guidance on Japanese Design Practice",
                 type: "h1",
-                classes: null
+                classes: null,
+                id: "00000053"
             }]
         },
         {

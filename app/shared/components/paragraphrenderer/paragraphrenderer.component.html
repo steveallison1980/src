@@ -1,4 +1,4 @@
-<p class='{{getClasses()}}'>
+<p *ngIf="getTreeMode()==false" class='{{getClasses()}}'>
     <span *ngFor="let span of getSpans()">
         <app-spanrenderer [span]="span"></app-spanrenderer>
     </span>

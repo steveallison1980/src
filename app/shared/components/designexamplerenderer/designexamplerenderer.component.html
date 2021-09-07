@@ -1,52 +1,42 @@
-<mat-card class="person-card">
-        <mat-card-content>
-        <table>
-        <tr>
-            <td>
-                <b>JP Design Registration No:</b>
-            </td>
-            <td>
-                {{getRegno()}}
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <b>Applicant:</b>
-            </td>
-            <td>
-                {{getApplicant()}}
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <b>Title:</b>
-            </td>
-            <td>{{getTitle()}}</td>
-        </tr>
-        <tr *ngIf="hasShort()">
-            <td>
-                <b>Our comment:</b>
-            </td>
-            <td>{{getShort()}}</td>
-        </tr>
-        </table>
-        <br>
-        <div *ngIf="hasDescription()"> 
-            <app-contentrenderer [content]="getDescription()"></app-contentrenderer>
-        </div>
-        <app-elementgridrenderer [grid]="getImages()"></app-elementgridrenderer>
-    </mat-card-content>
-</mat-card>
-<!--    <div>
-    <span><b>JP Design Registration No.: {{getRegno()}}</b></span>
+<span *ngIf="getTreeMode()==false">
+    <mat-card class="person-card">
+            <mat-card-content>
+            <table>
+            <tr>
+                <td>
+                    <b>JP Design Registration No:</b>
+                </td>
+                <td>
+                    {{getRegno()}}
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <b>Applicant:</b>
+                </td>
+                <td>
+                    {{getApplicant()}}
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <b>Title:</b>
+                </td>
+                <td>{{getTitle()}}</td>
+            </tr>
+            <tr *ngIf="hasShort()">
+                <td>
+                    <b>Our comment:</b>
+                </td>
+                <td>{{getShort()}}</td>
+            </tr>
+            </table>
+            <br>
+            <div *ngIf="hasDescription()"> 
+                <app-contentrenderer [bTreeMode]="false" [content]="getDescription()"></app-contentrenderer>
+            </div>
+            <app-elementgridrenderer [grid]="getImages()"></app-elementgridrenderer>
+        </mat-card-content>
+    </mat-card>
     <br>
-    <span><b>Applicant: {{getApplicant()}}</b></span>
-    <br>
-    <span><b>Title: {{getTitle()}}</b></span>
-    <br>
-    <span *ngIf="hasShort()">({{getShort()}}) </span>
-    <br>
-    <app-paragraphrenderer *ngIf="hasDescription()" [paragraph]="getDescription()"></app-paragraphrenderer>
-    <app-elementgridrenderer [grid]="getImages()"></app-elementgridrenderer>
-</div>-->
-<br>
+</span>

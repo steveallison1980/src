@@ -8,6 +8,8 @@ import { TRADEMARKGUIDANCECONTENT } from "../../assets/data/staticguidancetradem
 })
 export class GuidanceService {
 
+  public bShowTOC = false;
+
   constructor() { }
 
   getContent(page){
