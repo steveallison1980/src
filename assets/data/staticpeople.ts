@@ -69,7 +69,7 @@ export const PEOPLE_DATA: IPerson[] = [
         { text: '日本ライセンス協会（LES）' },
         { text: '日本商標協会' },
         { text: '法とコンピュータ学会' },
-        { text: '画像電子学会' },
+        { text: '日本画像学会' },
         { text: '電子情報通信学会' },
         { text: '日本電子写真学会' }],
       publicationsJP:
@@ -781,14 +781,14 @@ export const PEOPLE_DATA: IPerson[] = [
         [{ text: 'Patent practice before the Japan Patent Office and Intellectual Property High Court;' },
         { text: 'litigation and preliminary injunction proceedings before courts;' },
         { text: 'legal opinions on infringement and validity;' },
-        { text: 'Particular experience in the fields of software, Artificial Intelligence (AI) and networks.' }],
+        { text: 'Particular experience in the fields of telecommunications and signal processing including Artificial Intelligence (AI).' }],
       education:
         [{ text: 'B.S., University of Tsukuba, System Engineering' },
         { text: 'M.S., University of Tsukuba, System Engineering' }],
       career:
         [{ text: 'Japanese Patent Attorney since 2011.' },
-        { text: 'Worked for Ericsson Japan as a software engineer, in design and development of base station for a W-CDMA system.' },
-        { text: 'Worked for Sony Corp. as a software engineer, in design and development of TV/DVD, later moving to Sony IP center as an in-house patent attorney and engaging in patent licensing and negotiations.' }],
+        { text: 'Worked for Ericsson Japan as a software engineer in design and development of a base station for a W-CDMA system.' },
+        { text: 'Worked for Sony Corp. as a software engineer in design and development of TV/DVD, later moving to Sony IP center as an in-house patent attorney and engaging in patent licensing and negotiations.' }],
       memberships:
         [{ text: 'Japan Patent Attorneys Association (JPAA)' }],
       publications: null,
@@ -797,19 +797,19 @@ export const PEOPLE_DATA: IPerson[] = [
       nameJP: '大出　純哉',
       bioJP: '平成23年弁理士登録',
       specialtiesJP:
-        [{ text: 'ソフトウエア、ネットワーク、ユーザインタフェース、AI分野野の特許出願、' },
-        { text: '審判、訴訟、特許侵害訴訟、コンサルティング' }],
+        [{ text: 'AIを含む信号処理、通信分野の特許出願、審判、訴訟、' },
+        { text: '特許侵害訴訟、クロスボーダー事件の支援、ベンチャー支援、コンサルティング' }],
       educationJP:
-        [{ text: '筑波大学工学システム学類卒業' },
-        { text: '筑波大学大学院　知能機能工学専攻　修士課程修了' }],
+        [{ text: '筑波大学第３学群　工学システム学類卒業' },
+        { text: '筑波大学大学院　修士課程修了（知能機能工学専攻）' }],
       careerJP:
-        [{ text: '日本エリクソン株式会社　W-CDMA通信システムの基地局の開発に従事' },
-        { text: 'ソニー株式会社　テレビ及びDVDレコーダの開発、知的財産センターにおける権利活用業務に従事' }],
+        [{ text: '日本エリクソン株式会社　ソフトウェア技術者として基地局の開発に従事' },
+        { text: 'ソニー株式会社　ソフトウェア技術者としてテレビなどの開発、及び、社内弁理士として知的財産センターにおける権利活用業務に従事' }],
       membershipsJP: null,
       publicationsJP: null,
   
       groups:
-        ['pro-infoproc', 'pro-toysgames', 'pro-lit', 'pro-patattorneys'] 
+        ['pro-infoproc', 'pro-comm', 'pro-toysgames', 'pro-lit', 'pro-patattorneys'] 
     },
     {
       id: 19,

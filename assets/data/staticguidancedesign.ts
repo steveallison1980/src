@@ -3639,6 +3639,10 @@ export const DESIGNGUIDANCECONTENT: IContent = {
             objs: null
         },
         {
+            type: "br",
+            objs: null
+        },
+        {
             type: "accordion",
             objs: [DESIGNACCORDION]
         }]
