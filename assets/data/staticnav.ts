@@ -33,9 +33,9 @@ export const CAFC2017PAGEKEY: string = "cafc2017";
 export const CAFC2018PAGEKEY: string = "cafc2018";
 export const CAFC2019PAGEKEY: string = "cafc2019";
 export const GUIDANCEPAGEKEY: string = "guidance";
-export const PATENTGUIDANCEPAGEKEY: string = "patentguidance";
-export const DESIGNGUIDANCEPAGEKEY: string = "designguidance";
-export const TMGUIDANCEPAGEKEY: string = "tmguidance";
+export const PATENTGUIDANCEPAGEKEY: string = "patent";
+export const DESIGNGUIDANCEPAGEKEY: string = "design";
+export const TMGUIDANCEPAGEKEY: string = "trademark";
 
 export const SITEMAP_DATA: ISitemap =
 {

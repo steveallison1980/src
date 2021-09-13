@@ -4,6 +4,9 @@
             {{getPanelTitle(panel)}} 
         </h1>
         <app-contentrenderer [bTreeMode]="getTreeMode()" [treeLevel]="getTreeLevel()+1" [content]="getPanelContent(panel)"></app-contentrenderer>
+        <br>
+        <mat-divider class='colored'></mat-divider>
+        <br>
     </div>
 </span>
 <span *ngIf="getTreeMode()==true">
