@@ -8,3 +8,6 @@ button{
 .sidebutton{
     width: 100%;
 }
+.sidebar{
+    position: fixed;
+}

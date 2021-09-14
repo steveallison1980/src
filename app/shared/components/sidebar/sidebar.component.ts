@@ -77,5 +77,10 @@ export class SidebarComponent implements OnInit {
     if( link.displayMode == "JPonly" && this.langService.lang == "JP") return true;
     return false;
   }
+  getClass(){
+    var links = this.getLinks();
+    if( links.length <= 5 ) return 'sidebar';
+    else return ''; // don't fix the sidebar if there are a bunch of links or cant scroll to lower ones
+  }
  
 }

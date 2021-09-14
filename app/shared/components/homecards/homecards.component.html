@@ -1,16 +1,13 @@
 <div>
-    <div fxShow="true" fxHide.lt-md="true" flexLayout='row' fxFlex  fxLayoutAlign="space-between start" fxLayout.lt-md="column">
+    <div fxShow="true" fxHide.lt-md="true" flexLayout='row' fxFlex  fxLayoutAlign="space-between stretch" fxLayout.lt-md="column">
         <div fxFlex="1"></div>
-        <div fxFlex="30">
-            <app-staticcard [type]="'welcome'"></app-staticcard>
-        </div>
-        <div fxFlex="30">
-            <app-staticcard *ngIf="getLang()=='JP'" [type]="'cafc'"></app-staticcard>
-            <app-staticcard *ngIf="getLang()=='EN'" [type]="'guidance'"></app-staticcard>
-        </div>
-        <div fxFlex="30">
-            <app-staticcard [type]="'team'"></app-staticcard>
-        </div>
+        <app-staticcard fxFlex="30" [type]="'welcome'"></app-staticcard>
+
+            <app-staticcard fxFlex="30" *ngIf="getLang()=='JP'" [type]="'cafc'"></app-staticcard>
+            <app-staticcard fxFlex="30" *ngIf="getLang()=='EN'" [type]="'guidance'"></app-staticcard>
+
+            <app-staticcard fxFlex="30" [type]="'team'"></app-staticcard>
+
         <div fxFlex="1"></div>
     </div>
 
