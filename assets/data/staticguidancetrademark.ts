@@ -1,6 +1,7 @@
 import { IContent, IParagraph, IAccordion, IExpansionPanel } from './../../app/interfaces/icontent';
 
 const TRADEMARKFUNDAMENTAL: IExpansionPanel = {
+    id: "2001",
     title: "Fundamentals of the Japanese Trademark System",
     description: "",
     content:
@@ -106,6 +107,7 @@ const TRADEMARKFUNDAMENTAL: IExpansionPanel = {
 };
 
 const TRADEMARKDEFINITION: IExpansionPanel = {
+    id: "2002",
     title: "What is a trademark?",
     description: "",
     content:
@@ -237,6 +239,7 @@ const TRADEMARKDEFINITION: IExpansionPanel = {
 };
 
 const TRADEMARKNECESSARYINFO: IExpansionPanel = {
+    id: "2003",
     title: "Necessary information and documents for trademark application in Japan",
     description: "",
     content:
@@ -537,6 +540,7 @@ const TRADEMARKNECESSARYINFO: IExpansionPanel = {
 };
 
 const TRADEMARKAPPLICATIONMADRIDPROTO: IExpansionPanel = {
+    id: "2004",
     title: "Trademark application via Madrid protocol",
     description: "",
     content:
@@ -622,6 +626,7 @@ const TRADEMARKAPPLICATIONMADRIDPROTO: IExpansionPanel = {
 };
 
 const TRADEMARKEXAMINATION: IExpansionPanel = {
+    id: "2005",
     title: "Examination",
     description: "",
     content:
@@ -857,6 +862,7 @@ const TRADEMARKEXAMINATION: IExpansionPanel = {
 };
 
 const TRADEMARKOFFICEACTION: IExpansionPanel = {
+    id: "2006",
     title: "Office Action and its response",
     description: "",
     content:
@@ -1042,6 +1048,7 @@ const TRADEMARKOFFICEACTION: IExpansionPanel = {
 };
 
 const TRADEMARKACCELEXAMINATION: IExpansionPanel = {
+    id: "2007",
     title: "Accelerated examination",
     description: "",
     content:
@@ -1147,6 +1154,7 @@ const TRADEMARKACCELEXAMINATION: IExpansionPanel = {
 };
 
 const TRADEMARKAPPEALFINALREJECTION: IExpansionPanel = {
+    id: "2008",
     title: "Appeal against Final Rejection by the Examiner",
     description: "",
     content:
@@ -1232,6 +1240,7 @@ const TRADEMARKAPPEALFINALREJECTION: IExpansionPanel = {
 };
 
 const TRADEMARKRIGHTSDURATIONRENEWAL: IExpansionPanel = {
+    id: "2009",
     title: "Trademark Rights, Duration and Renewal",
     description: "",
     content:
@@ -1392,6 +1401,7 @@ const TRADEMARKRIGHTSDURATIONRENEWAL: IExpansionPanel = {
 };
 
 const TRADEMARKNONUSECANCELLATION: IExpansionPanel = {
+    id: "2010",
     title: "Non-use cancellation",
     description: "",
     content:
@@ -1673,6 +1683,7 @@ const TRADEMARKNONUSECANCELLATION: IExpansionPanel = {
 };
 
 const TRADEMARKPOSTREGOPPOSITION: IExpansionPanel = {
+    id: "2011",
     title: "Post-Registration Opposition",
     description: "",
     content:
@@ -1936,6 +1947,7 @@ const TRADEMARKPOSTREGOPPOSITION: IExpansionPanel = {
 };
 
 const TRADEMARKINVALIDATIONTRIAL: IExpansionPanel = {
+    id: "2012",
     title: "Invalidation Trial",
     description: "",
     content:
@@ -2011,6 +2023,7 @@ const TRADEMARKINVALIDATIONTRIAL: IExpansionPanel = {
 };
 
 const TRADEMARKASSIGNMENTPENDINGAPP: IExpansionPanel = {
+    id: "2013",
     title: "Assignment of a pending application and/or registered trademark",
     description: "",
     content:
@@ -2111,6 +2124,7 @@ const TRADEMARKASSIGNMENTPENDINGAPP: IExpansionPanel = {
 };
 
 const TRADEMARKLICENSING: IExpansionPanel = {
+    id: "2014",
     title: "Fundamentals of the Japanese Trademark System",
     description: "",
     content:
@@ -2216,6 +2230,7 @@ const TRADEMARKLICENSING: IExpansionPanel = {
 };
 
 const TRADEMARKMARKING: IExpansionPanel = {
+    id: "2015",
     title: "Trademark Marking",
     description: "",
     content:
@@ -2271,6 +2286,7 @@ const TRADEMARKMARKING: IExpansionPanel = {
 };
 
 const TRADEMARKOFFICIALFEES: IExpansionPanel = {
+    id: "2016",
     title: "Official Fees for Trademark Matters.",
     description: "",
     content:
@@ -2724,6 +2740,7 @@ const TRADEMARKOFFICIALFEES: IExpansionPanel = {
 };
 
 const TRADEMARKDISCLAIMER: IExpansionPanel = {
+    id: "2017",
     title: "",
     description: "",
     content:

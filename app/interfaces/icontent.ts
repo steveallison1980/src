@@ -29,6 +29,7 @@ export interface IExpansionPanel {
     title: string;
     description: string;
     content: IContent;
+    id: string
 }
 export interface IAccordion {
     panels: Array <IExpansionPanel>

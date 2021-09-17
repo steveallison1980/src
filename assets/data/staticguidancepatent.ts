@@ -1,6 +1,7 @@
 import { IContent, IParagraph, IAccordion, IExpansionPanel } from './../../app/interfaces/icontent';
 
 const PATENTPREFACE: IExpansionPanel = {
+    id: "1001",
     title: "Preface",
     description: "",
     content:
@@ -57,6 +58,7 @@ const PATENTPREFACE: IExpansionPanel = {
 
 
 const PATENTOVERVIEW: IExpansionPanel = {
+    id: "1002",
     title: "Overview of Japanese Patent and IP system",
     description: "",
     content:
@@ -224,6 +226,7 @@ const PATENTOVERVIEW: IExpansionPanel = {
 };
 
 const PATENTFILINGROUTES: IExpansionPanel = {
+    id: "1003",
     title: "Filing routes for foreign applicants",
     description: "",
     content:
@@ -665,6 +668,7 @@ const PATENTFILINGROUTES: IExpansionPanel = {
 };
 
 const PATENTCLAIMS: IExpansionPanel = {
+    id: "1004",
     title: "Claims, specification and other documents necessary in Japan ",
     description: "",
     content:
@@ -1026,6 +1030,7 @@ const PATENTCLAIMS: IExpansionPanel = {
 };
 
 const PATENTBASICPATENTREQS: IExpansionPanel = {
+    id: "1005",
     title: "Basic Patentability Requirements",
     description: "",
     content:
@@ -2047,6 +2052,7 @@ const PATENTBASICPATENTREQS: IExpansionPanel = {
 };
 
 const PATENTCONSIDERATIONSTECHFIELDS: IExpansionPanel = {
+    id: "1006",
     title: "Considerations Specific to Certain Technical Fields and Claim Types",
     description: "",
     content:
@@ -2439,6 +2445,7 @@ const PATENTCONSIDERATIONSTECHFIELDS: IExpansionPanel = {
 };
 
 const PATENTEXAMANDACCEL: IExpansionPanel = {
+    id: "1007",
     title: "Examination system and acceleration of examination",
     description: "",
     content:
@@ -3240,6 +3247,7 @@ const PATENTEXAMANDACCEL: IExpansionPanel = {
 };
 
 const PATENTEXAMINATION: IExpansionPanel = {
+    id: "1008",
     title: "Examination",
     description: "",
     content:
@@ -3520,6 +3528,7 @@ const PATENTEXAMINATION: IExpansionPanel = {
 };
 
 const PATENTAPPEAL: IExpansionPanel = {
+    id: "1009",
     title: "Appeal against Examiner’s Final Rejection",
     description: "",
     content:
@@ -4074,6 +4083,7 @@ const PATENTAPPEAL: IExpansionPanel = {
 };
 
 const PATENTAMENDMENT: IExpansionPanel = {
+    id: "1010",
     title: "Amendment of patent claims during pendency",
     description: "",
     content:
@@ -4637,6 +4647,7 @@ const PATENTAMENDMENT: IExpansionPanel = {
 };
 
 const PATENTDIVISIONAL: IExpansionPanel = {
+    id: "1011",
     title: "Divisional Applications",
     description: "",
     content:
@@ -4968,6 +4979,7 @@ const PATENTDIVISIONAL: IExpansionPanel = {
 };
 
 const PATENTTERM: IExpansionPanel = {
+    id: "1012",
     title: "Patent Term",
     description: "",
     content:
@@ -5250,6 +5262,7 @@ const PATENTTERM: IExpansionPanel = {
 };
 
 const PATENTFEES: IExpansionPanel = {
+    id: "1013",
     title: "Official Fees",
     description: "",
     content:
@@ -6724,6 +6737,7 @@ const PATENTFEES: IExpansionPanel = {
 };
 
 const PATENTOPPOSITION: IExpansionPanel = {
+    id: "1014",
     title: "Patent Opposition",
     description: "",
     content:
@@ -7037,6 +7051,7 @@ const PATENTOPPOSITION: IExpansionPanel = {
 };
 
 const PATENTINVALIDATION: IExpansionPanel = {
+    id: "1015",
     title: "Patent Invalidation",
     description: "",
     content:
@@ -7936,6 +7951,7 @@ const PATENTINVALIDATION: IExpansionPanel = {
 };
 
 const PATENTCORRECTION: IExpansionPanel = {
+    id: "1016",
     title: "Trials for Correction of Issued Patent Claims",
     description: "",
     content:
@@ -8109,6 +8125,7 @@ const PATENTCORRECTION: IExpansionPanel = {
 };
 
 const PATENTLITIGAION: IExpansionPanel = {
+    id: "1017",
     title: "Patent Litigation",
     description: "",
     content:
@@ -10220,6 +10237,7 @@ const PATENTLITIGAION: IExpansionPanel = {
 };
 
 const PATENTDISCLAIMER: IExpansionPanel = {
+    id: "1018",
     title: "",
     description: "",
     content:

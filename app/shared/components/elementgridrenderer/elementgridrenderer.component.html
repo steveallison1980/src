@@ -1,6 +1,6 @@
 <div *ngIf="getTreeMode()==false" fxLayout="row wrap" fxLayoutGap="{{getGap()}}" fxLayout.lt-md="column">
     <div *ngFor="let element of getElements()"  fxFlex="{{getPercent()}}" fxLayoutAlign="space-around stretch">
-        <app-elementrenderer [element]='element'></app-elementrenderer>
+        <app-elementrenderer [guide]="getGuide()" [element]='element'></app-elementrenderer>
     </div>
 </div>
 

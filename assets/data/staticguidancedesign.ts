@@ -1,6 +1,7 @@
 import { IContent, IParagraph, IAccordion, IExpansionPanel } from './../../app/interfaces/icontent';
 
 const DESIGNPANEL1: IExpansionPanel = {
+    id: "0001",
     title: "The Japanese Design System",
     description: "",
     content:
@@ -54,6 +55,7 @@ const DESIGNPANEL1: IExpansionPanel = {
     }
 };
 const DESIGNPANEL2: IExpansionPanel = {
+    id: "0002",
     title: "Examination",
     description: "",
     content:
@@ -168,6 +170,7 @@ const DESIGNPANEL2: IExpansionPanel = {
     }
 };
 const DESIGNPANEL3: IExpansionPanel = {
+    id: "0003",
     title: "Eligible Design Matter",
     description: "",
     content:
@@ -1173,6 +1176,7 @@ const DESIGNPANEL3: IExpansionPanel = {
 };
 
 const DESIGNPANEL4: IExpansionPanel = {
+    id: "0004",
     title: "Registration requirements",
     description: "",
     content: {
@@ -1494,6 +1498,7 @@ const DESIGNPANEL4: IExpansionPanel = {
 };
 
 const DESIGNPANEL5: IExpansionPanel = {
+    id: "0005",
     title: "Checklist when applying for a design",
     description: "",
     content:
@@ -2153,6 +2158,7 @@ const DESIGNPANEL5: IExpansionPanel = {
 
 
 const DESIGNPANEL6: IExpansionPanel = {
+    id: "0006",
     title: "Information necessary at the time of application in Japan",
     description: "",
     content: {
@@ -2662,6 +2668,7 @@ const DESIGNPANEL6: IExpansionPanel = {
 
 
 const DESIGNPANEL7: IExpansionPanel = {
+    id: "0007",
     title: "Design rights, interpreting the scope of the right, maintaining the right, annuities",
     description: "",
     content: {
@@ -3154,6 +3161,7 @@ const DESIGNPANEL7: IExpansionPanel = {
 
 
 const DESIGNPANEL8: IExpansionPanel = {
+    id: "0008",
     title: "Invalidation trial", // 部分意匠
     description: "",
     content:
@@ -3375,6 +3383,7 @@ const DESIGNPANEL8: IExpansionPanel = {
 
 
 const DESIGNPANEL9: IExpansionPanel = {
+    id: "0009",
     title: "Infringement",
     description: "",
     content:
@@ -3401,6 +3410,7 @@ const DESIGNPANEL9: IExpansionPanel = {
 };
 
 const DESIGNPANEL10: IExpansionPanel = {
+    id: "0010",
     title: "Court cases and court proceedings",
     description: "",
     content:
@@ -3492,6 +3502,7 @@ const DESIGNPANEL10: IExpansionPanel = {
 };
 
 const DESIGNDISCLAIMER: IExpansionPanel = {
+    id: "0011",
     title: "",
     description: "",
     content:
