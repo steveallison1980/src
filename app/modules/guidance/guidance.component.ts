@@ -13,6 +13,8 @@ import { GUIDANCEPAGEKEY } from './../../../assets/data/staticnav';
 })
 export class GuidanceComponent implements OnInit {
 
+  private fragment: string;
+
   constructor(
     private guidanceService: GuidanceService,
     private route: ActivatedRoute,
@@ -36,6 +38,13 @@ export class GuidanceComponent implements OnInit {
       },
       "name='description'"
     );
+    this.route.fragment.subscribe(fragment => { this.fragment = fragment; });
+  }
+
+  ngAfterViewInit(): void {
+    try {
+      document.querySelector('#' + this.fragment).scrollIntoView();
+    } catch (e) { }
   }
 
   getContent(){
@@ -44,8 +53,16 @@ export class GuidanceComponent implements OnInit {
   }
 
   currentPage(){
-    console.log(this.route.snapshot.paramMap.get('type'))
     if( this.route.snapshot.paramMap.get('type') == null ) return "patent";
     return this.route.snapshot.paramMap.get('type');
+  }
+
+  isGuide(){
+    if( this.currentPage() != "toc") return true;
+    return false;
+  }
+
+  isTOC(){
+    return !this.isGuide();
   }
 }

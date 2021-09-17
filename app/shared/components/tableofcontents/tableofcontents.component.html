@@ -1,8 +1,18 @@
-<button *ngIf="!TOCDisplayed()" id="showfab" [matTooltip]="getTooltip()" mat-fab color="warn" (click)="showTOC()">
+<!--<button *ngIf="!TOCDisplayed()" id="showfab" [matTooltip]="getTooltip()" mat-fab color="primary" (click)="showTOC()">
     <mat-icon>view_list</mat-icon>
 </button>
-<button *ngIf="TOCDisplayed()" id="showfab" [matTooltip]="getTooltip()" mat-fab color="warn" (click)="hideTOC()">
+<button *ngIf="TOCDisplayed()" id="showfab" [matTooltip]="getTooltip()" mat-fab color="primary" (click)="hideTOC()">
     <mat-icon>close</mat-icon>
-</button>
+</button>-->
 
-<app-contentrenderer *ngIf="TOCDisplayed()" id="toc" [bTreeMode]="true" [treeLevel]="0" [content]="getContent()"></app-contentrenderer>
+<mat-tab-group mat-align-tabs="start">
+    <mat-tab label="Patents">
+        <app-contentrenderer id="tocpatent" [guide]="'patent'" [bTreeMode]="true" [treeLevel]="0" [content]="getPatentContent()"></app-contentrenderer>
+    </mat-tab>
+    <mat-tab label="Trademarks">
+        <app-contentrenderer id="toctm" [guide]="'trademark'" [bTreeMode]="true" [treeLevel]="0" [content]="getTrademarkContent()"></app-contentrenderer>
+    </mat-tab>
+    <mat-tab label="Designs">
+        <app-contentrenderer id="tocdesign" [guide]="'design'" [bTreeMode]="true" [treeLevel]="0" [content]="getDesignContent()"></app-contentrenderer>
+    </mat-tab>
+</mat-tab-group>

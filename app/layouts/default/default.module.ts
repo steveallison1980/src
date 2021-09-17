@@ -58,6 +58,7 @@ import { Cafc2006Component } from '../../modules/cafcreports/cafc2006/cafc2006.c
 import { Cafc2005Component } from '../../modules/cafcreports/cafc2005/cafc2005.component';
 
 import { GuidanceComponent } from '../../modules/guidance/guidance.component';
+import { GuidancetocComponent } from '../../modules/guidancetoc/guidancetoc.component';
 
 import { CareerspageComponent } from '../../modules/careers/careerspage/careerspage.component';
 import { SetsumeikaipageComponent } from '../../modules/careers/setsumeikaipage/setsumeikaipage.component';
@@ -129,6 +130,7 @@ import { FlexLayoutModule } from '@angular/flex-layout';
     Cafc2005Component,
 
     GuidanceComponent,
+    GuidancetocComponent,
 
     CareerspageComponent,
     SetsumeikaipageComponent,

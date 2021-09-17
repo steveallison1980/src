@@ -11,6 +11,7 @@ export class ParagraphrendererComponent implements OnInit {
   @Input() paragraph: IParagraph;
   @Input() bTreeMode: boolean;
   @Input() treeLevel: number;
+  @Input() guide: string;
 
   constructor() { }
 
@@ -35,5 +36,8 @@ export class ParagraphrendererComponent implements OnInit {
   getTreeLevel(){
     if(this.treeLevel === undefined) this.treeLevel=0;
     return this.treeLevel;
+  }
+  getGuide(){
+    return this.guide;
   }
 }

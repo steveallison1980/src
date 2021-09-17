@@ -11,7 +11,8 @@ export class DesignexamplerendererComponent implements OnInit {
   @Input() design: IDesignExample;
   @Input() bTreeMode: boolean;
   @Input() treeLevel: number;
-  
+  @Input() guide: string;
+
   constructor() { }
 
   ngOnInit(): void {
@@ -46,5 +47,8 @@ export class DesignexamplerendererComponent implements OnInit {
   getTreeLevel(){
     if(this.treeLevel === undefined) this.treeLevel=0;
     return this.treeLevel;
+  }
+  getGuide(){
+    return this.guide;
   }
 }

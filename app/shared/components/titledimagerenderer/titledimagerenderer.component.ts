@@ -11,6 +11,7 @@ export class TitledimagerendererComponent implements OnInit {
   @Input() titledimage: ITitledImage;
   @Input() bTreeMode: boolean;
   @Input() treeLevel: number;
+  @Input() guide: string;
 
   constructor() { }
 
@@ -28,5 +29,8 @@ export class TitledimagerendererComponent implements OnInit {
   getTreeLevel(){
     if(this.treeLevel === undefined) this.treeLevel=0;
     return this.treeLevel;
+  }
+  getGuide(){
+    return this.guide;
   }
 }

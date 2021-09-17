@@ -1,6 +1,8 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { IContent } from '../../../interfaces/icontent';
 import { GuidanceService } from "../../../services/guidance.service";
+import { PATENTGUIDANCECONTENT } from "../../../../assets/data/staticguidancepatent"
+import { DESIGNGUIDANCECONTENT } from "../../../../assets/data/staticguidancedesign"
+import { TRADEMARKGUIDANCECONTENT } from "../../../../assets/data/staticguidancetrademark"
 
 @Component({
   selector: 'app-tableofcontents',
@@ -9,7 +11,6 @@ import { GuidanceService } from "../../../services/guidance.service";
 })
 export class TableofcontentsComponent implements OnInit {
 
-  @Input() content: IContent;
   bTOCDisplayed: boolean;
 
   constructor(
@@ -27,8 +28,14 @@ export class TableofcontentsComponent implements OnInit {
     this.guidanceService.bShowTOC = false;
   }
 
-  getContent(){
-    return this.content;
+  getPatentContent(){
+    return PATENTGUIDANCECONTENT;
+  }
+  getTrademarkContent(){
+    return TRADEMARKGUIDANCECONTENT;
+  }
+  getDesignContent(){
+    return DESIGNGUIDANCECONTENT;
   }
   getTooltip() {
     if( this.guidanceService.bShowTOC ){

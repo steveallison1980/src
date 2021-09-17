@@ -33,7 +33,7 @@
             </table>
             <br>
             <div *ngIf="hasDescription()"> 
-                <app-contentrenderer [bTreeMode]="false" [content]="getDescription()"></app-contentrenderer>
+                <app-contentrenderer [guide]="getGuide()" [bTreeMode]="false" [content]="getDescription()"></app-contentrenderer>
             </div>
             <app-elementgridrenderer [grid]="getImages()"></app-elementgridrenderer>
         </mat-card-content>

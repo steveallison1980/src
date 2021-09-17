@@ -11,6 +11,7 @@ export class ImagerendererComponent implements OnInit {
   @Input() img: IImage;
   @Input() bTreeMode: boolean;
   @Input() treeLevel: number;
+  @Input() guide: string;
 
   IMGFOLDER: string = "./../../../../assets/img/";
 
@@ -36,5 +37,8 @@ export class ImagerendererComponent implements OnInit {
   getTreeLevel(){
     if(this.treeLevel === undefined) this.treeLevel=0;
     return this.treeLevel;
+  }
+  getGuide(){
+    return this.guide;
   }
 }

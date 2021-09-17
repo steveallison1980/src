@@ -12,6 +12,7 @@ export class HeaderrendererComponent implements OnInit {
   @Input() header: IHeader;
   @Input() bTreeMode: boolean;
   @Input() treeLevel: number;
+  @Input() guide: string;
 
   constructor(
     private guidanceService: GuidanceService
@@ -25,7 +26,12 @@ export class HeaderrendererComponent implements OnInit {
     if( this.header.classes != null && this.header.classes.includes("bullet") ){
       ret = "● ";
     }
-    return ret + this.header.text;
+    
+    ret = ret + this.header.text;
+    if( ret.length > 100 ){
+      ret = ret.substr(0,100) + "...";
+    }
+    return ret;
   }
   getHeaderType(){
     return this.header.type;
@@ -53,6 +59,10 @@ export class HeaderrendererComponent implements OnInit {
     if(this.treeLevel === undefined) this.treeLevel=0;
     return this.treeLevel;
   }
+  getGuide(){
+    if(this.guide === undefined) this.guide="patent";
+    return this.guide;
+  }
   makeButton(){
     if( this.getTreeLevel()>0 && this.getHeaderText().length>1 ) return true;
     return false;
@@ -69,5 +79,11 @@ export class HeaderrendererComponent implements OnInit {
   }
   getStrippedText(){
     return this.getHeaderText().replace(/\s/g, "");
+  }
+  getTOCLink(){
+    return "/guidance/"+this.getGuide();
+  }
+  getTOCFragment(i){
+    return "jump"+i;
   }
 }

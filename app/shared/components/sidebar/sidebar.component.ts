@@ -3,6 +3,7 @@ import { LanguagesettingService } from '../../../services/languagesetting.servic
 import { NavigateService } from '../../../services/navigate.service';
 import { SITEMAP_DATA } from '../../../../assets/data/staticnav';
 import { ILink } from '../../../interfaces/isitemap';
+import { GuidanceService } from "../../../services/guidance.service";
 
 @Component({
   selector: 'app-sidebar',
@@ -16,13 +17,17 @@ export class SidebarComponent implements OnInit {
 
   public curItem: string="welcomemessage";
 
-  constructor(private langService: LanguagesettingService,
+  constructor(
+    private langService: LanguagesettingService,
+    private tocService: GuidanceService,
     public nav: NavigateService ) {}
 
   ngOnInit(): void {
   }
 
   clickItem(component:string, curpage:string){
+    console.log(component,curpage)
+    //special case
     this.nav.subPage = component;
     this.nav.curPerson = null;
     this.nav.view = "group";

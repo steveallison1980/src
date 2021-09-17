@@ -5,17 +5,17 @@
         <div fxFlex='5' fxShow="true" fxHide.lt-md="true">
         </div>
         <div fxFlex='20' fxShow="true" fxHide.lt-md="true">
-            <app-sidebar [menu]="'guidance'" [highlight]="currentPage()"></app-sidebar>
+            <app-sidebar [menu]="'guidance'" [highlight]="'toc'"></app-sidebar>
         </div>
         <div fxFlex='70' fxShow="true" fxHide.lt-md>
-            <app-contentrenderer [bTreeMode]="false" [content]="getContent()"></app-contentrenderer>
+            <app-tableofcontents></app-tableofcontents>
         </div>
         <div fxFlex='5' fxShow="true" fxHide.lt-md="true">
         </div>
         <!--MOBILE-->
         <div fxFlex='5' fxHide fxShow.lt-md></div>
         <div class="maincontent" fxFlex='90' fxHide fxShow.lt-md>
-            <app-contentrenderer [bTreeMode]="false" [content]="getContent()"></app-contentrenderer>
+            <app-tableofcontents></app-tableofcontents>
         </div>
         <div fxFlex='5' fxHide fxShow.lt-md></div>
     </div>

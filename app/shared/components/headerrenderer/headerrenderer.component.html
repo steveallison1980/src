@@ -7,13 +7,10 @@
 </span>
 <div *ngIf="getTreeMode()">
     <span *ngFor="let padding of getLevelFiller(); index as i">&nbsp;&nbsp;</span>
-    <button *ngIf="makeButton()" mat-stroked-button color="accent" id="{{getId()}}" (click)="clickTOCButton($event)">
+    <button *ngIf="makeButton()" [routerLink]="getTOCLink()" [fragment]="getTOCFragment(getId())" mat-stroked-button color="accent">
         <span id="{{getId()}}" class="tocsubheader{{getTreeLevel()}}">
             {{getHeaderText()}}
         </span>
     </button>
-    <h2 *ngIf="getTreeLevel()==0">
-        {{getHeaderText()}}: Table of Contents
-    </h2>
 </div>
     

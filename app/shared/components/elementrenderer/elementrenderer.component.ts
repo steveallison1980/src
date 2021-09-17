@@ -13,6 +13,7 @@ export class ElementrendererComponent implements OnInit {
   @Input() element: IElement;
   @Input() bTreeMode: boolean;
   @Input() treeLevel: number;
+  @Input() guide: string;
 
   ngOnInit(): void {
   }
@@ -30,5 +31,8 @@ export class ElementrendererComponent implements OnInit {
   getTreeLevel(){
     if(this.treeLevel === undefined) this.treeLevel=0;
     return this.treeLevel;
+  }
+  getGuide(){
+    return this.guide;
   }
 }

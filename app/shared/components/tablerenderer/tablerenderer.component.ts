@@ -13,6 +13,7 @@ export class TablerendererComponent implements OnInit {
   @Input() table: ITable;
   @Input() bTreeMode: boolean;
   @Input() treeLevel: number;
+  @Input() guide: string;
 
   constructor() { }
 
@@ -82,5 +83,8 @@ export class TablerendererComponent implements OnInit {
   getTreeLevel(){
     if(this.treeLevel === undefined) this.treeLevel=0;
     return this.treeLevel;
+  }
+  getGuide(){
+    return this.guide;
   }
 }

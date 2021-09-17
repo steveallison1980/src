@@ -12,6 +12,7 @@ export class ExpansionrendererComponent implements OnInit {
   @Input() accordion: IAccordion;
   @Input() bTreeMode: boolean;
   @Input() treeLevel: number;
+  @Input() guide: string;
 
   panelOpenState = false;
 
@@ -45,10 +46,19 @@ export class ExpansionrendererComponent implements OnInit {
     if(this.treeLevel === undefined) this.treeLevel=0;
     return this.treeLevel;
   }
-
+  getGuide(){
+    if(this.guide === undefined) this.guide="patent";
+    return this.guide;
+  }
   clickTOCButton(treelevel,index){
     let el = document.getElementById("jump"+treelevel+"-"+index);
     el.scrollIntoView();
     this.guidanceService.bShowTOC = false;
+  }
+  getTOCLink(){
+    return "/guidance/"+this.getGuide();
+  }
+  getTOCFragment(i){
+    return "jump"+this.getTreeLevel()+"-"+i;
   }
 }

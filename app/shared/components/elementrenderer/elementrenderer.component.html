@@ -1,12 +1,12 @@
 <br *ngIf="getType()=='br' && getTreeMode()==false">
-<app-contentrenderer [bTreeMode]="getTreeMode()" [treeLevel]="getTreeLevel()" *ngIf="getType()=='content'" [content]='getObj()'></app-contentrenderer>
-<app-designexamplerenderer [bTreeMode]="getTreeMode()" [treeLevel]="getTreeLevel()" *ngIf="getType()=='designexample'" [design]='getObj()'></app-designexamplerenderer>
-<app-elementgridrenderer [bTreeMode]="getTreeMode()" [treeLevel]="getTreeLevel()" *ngIf="getType()=='elementgrid'" [grid]='getObj()'></app-elementgridrenderer>
-<app-expansionrenderer [bTreeMode]="getTreeMode()" [treeLevel]="getTreeLevel()" *ngIf="getType()=='accordion'" [accordion]='getObj()'></app-expansionrenderer>
-<app-headerrenderer [bTreeMode]="getTreeMode()" [treeLevel]="getTreeLevel()" *ngIf="getType()=='header'" [header]='getObj()'></app-headerrenderer>
-<app-imagerenderer [bTreeMode]="getTreeMode()" [treeLevel]="getTreeLevel()" *ngIf="getType()=='image'" [img]='getObj()'></app-imagerenderer>
-<app-listrenderer [bTreeMode]="getTreeMode()" [treeLevel]="getTreeLevel()" *ngIf="getType()=='list'" [list]='getObj()'></app-listrenderer>
-<app-paragraphrenderer [bTreeMode]="getTreeMode()" [treeLevel]="getTreeLevel()" *ngIf="getType()=='paragraph'" [paragraph]='getObj()'></app-paragraphrenderer>
-<app-spanrenderer [bTreeMode]="getTreeMode()" [treeLevel]="getTreeLevel()" *ngIf="getType()=='span'" [span]='getObj()'></app-spanrenderer>
-<app-tablerenderer [bTreeMode]="getTreeMode()" [treeLevel]="getTreeLevel()" *ngIf="getType()=='table'" [table]='getObj()'></app-tablerenderer>
-<app-titledimagerenderer [bTreeMode]="getTreeMode()" [treeLevel]="getTreeLevel()" *ngIf="getType()=='titledimage'" [titledimage]='getObj()'></app-titledimagerenderer>
+<app-contentrenderer [guide]="getGuide()" [bTreeMode]="getTreeMode()" [treeLevel]="getTreeLevel()" *ngIf="getType()=='content'" [content]='getObj()'></app-contentrenderer>
+<app-designexamplerenderer [guide]="getGuide()" [bTreeMode]="getTreeMode()" [treeLevel]="getTreeLevel()" *ngIf="getType()=='designexample'" [design]='getObj()'></app-designexamplerenderer>
+<app-elementgridrenderer [guide]="getGuide()" [bTreeMode]="getTreeMode()" [treeLevel]="getTreeLevel()" *ngIf="getType()=='elementgrid'" [grid]='getObj()'></app-elementgridrenderer>
+<app-expansionrenderer [guide]="getGuide()" [bTreeMode]="getTreeMode()" [treeLevel]="getTreeLevel()" *ngIf="getType()=='accordion'" [accordion]='getObj()'></app-expansionrenderer>
+<app-headerrenderer [guide]="getGuide()" [bTreeMode]="getTreeMode()" [treeLevel]="getTreeLevel()" *ngIf="getType()=='header'" [header]='getObj()'></app-headerrenderer>
+<app-imagerenderer [guide]="getGuide()" [bTreeMode]="getTreeMode()" [treeLevel]="getTreeLevel()" *ngIf="getType()=='image'" [img]='getObj()'></app-imagerenderer>
+<app-listrenderer [guide]="getGuide()" [bTreeMode]="getTreeMode()" [treeLevel]="getTreeLevel()" *ngIf="getType()=='list'" [list]='getObj()'></app-listrenderer>
+<app-paragraphrenderer [guide]="getGuide()" [bTreeMode]="getTreeMode()" [treeLevel]="getTreeLevel()" *ngIf="getType()=='paragraph'" [paragraph]='getObj()'></app-paragraphrenderer>
+<app-spanrenderer [guide]="getGuide()" [bTreeMode]="getTreeMode()" [treeLevel]="getTreeLevel()" *ngIf="getType()=='span'" [span]='getObj()'></app-spanrenderer>
+<app-tablerenderer [guide]="getGuide()" [bTreeMode]="getTreeMode()" [treeLevel]="getTreeLevel()" *ngIf="getType()=='table'" [table]='getObj()'></app-tablerenderer>
+<app-titledimagerenderer [guide]="getGuide()" [bTreeMode]="getTreeMode()" [treeLevel]="getTreeLevel()" *ngIf="getType()=='titledimage'" [titledimage]='getObj()'></app-titledimagerenderer>

@@ -11,6 +11,7 @@ export class ElementgridrendererComponent implements OnInit {
   @Input() grid: IElementGrid;
   @Input() bTreeMode: boolean;
   @Input() treeLevel: number;
+  @Input() guide: string;
 
   constructor() { }
 
@@ -33,5 +34,8 @@ export class ElementgridrendererComponent implements OnInit {
   getTreeLevel(){
     if(this.treeLevel === undefined) this.treeLevel=0;
     return this.treeLevel;
+  }
+  getGuide(){
+    return this.guide;
   }
 }
