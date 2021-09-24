@@ -9,7 +9,7 @@ import {
     CAFCALLPAGEKEY,
     PATENTGUIDANCEPAGEKEY,DESIGNGUIDANCEPAGEKEY,TMGUIDANCEPAGEKEY} from './staticnav';
 
-const HOMEMETADESC = "Ohtsuka Patent Offfice";
+const HOMEMETADESC = "Ohtsuka Patent Office";
 const HOMEMETADESCJP = "大塚国際特許事務所";
 const CONTACTMETADESC = "Contact Information/Map";
 const CONTACTMETADESCJP = "お問い合わせ・アクセス";

@@ -84,6 +84,7 @@ import { StaticcardComponent } from './components/staticcard/staticcard.componen
 import { SplashoverlayComponent } from './components/splashoverlay/splashoverlay.component';
 import { HomecardsComponent } from './components/homecards/homecards.component';
 import { TableofcontentsComponent } from './components/tableofcontents/tableofcontents.component';
+import { ArrowbuttonComponent } from './components/arrowbutton/arrowbutton.component';
 
 @NgModule({
   declarations: [
@@ -152,7 +153,8 @@ import { TableofcontentsComponent } from './components/tableofcontents/tableofco
     SplashoverlayComponent,
     MorebelowComponent,
     HomecardsComponent,
-    TableofcontentsComponent
+    TableofcontentsComponent,
+    ArrowbuttonComponent
   ],
   imports: [
     CommonModule,
@@ -229,7 +231,8 @@ import { TableofcontentsComponent } from './components/tableofcontents/tableofco
     StaticcardComponent,
     SplashoverlayComponent,
     HomecardsComponent,
-    TableofcontentsComponent
+    TableofcontentsComponent,
+    ArrowbuttonComponent
   ]
 })
 

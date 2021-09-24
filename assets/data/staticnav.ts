@@ -155,7 +155,7 @@ export const SITEMAP_DATA: ISitemap =
                 { text: 'Patents', textJP: '特許', icon: 'lightbulb', subPage: PATENTGUIDANCEPAGEKEY, curPage: GUIDANCEPAGEKEY, routerlink: '/guidance/patent', displayMode: 'both', bShowInMenu: true },
                 { text: 'Trademarks', textJP: '商標', icon: 'beach_access', subPage: TMGUIDANCEPAGEKEY, curPage: GUIDANCEPAGEKEY, routerlink: '/guidance/trademark', displayMode: 'both', bShowInMenu: true },
                 { text: 'Designs', textJP: '意匠', icon: 'category', subPage: DESIGNGUIDANCEPAGEKEY, curPage: GUIDANCEPAGEKEY, routerlink: '/guidance/design', displayMode: 'both', bShowInMenu: true },
-                { text: 'Table of Contents', textJP: '目次', icon: 'view_list', subPage: TOCGUIDANCEPAGEKEY, curPage: GUIDANCEPAGEKEY, routerlink: '/guidancetoc', displayMode: 'both', bShowInMenu: true }
+                { text: 'Table of Contents', textJP: '目次', icon: 'view_list', subPage: TOCGUIDANCEPAGEKEY, curPage: GUIDANCEPAGEKEY, routerlink: '/guidancetoc', displayMode: 'both', bShowInMenu: false }
             ],
             displayMode: "ENonly",
         }
