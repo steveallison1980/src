@@ -21,8 +21,8 @@ export class AppComponent {
   ngOnInit() {
     this.titleService.setTitle(this.title);
     this.metaService.addTags([
-      {name: 'keywords', content: '大塚, 特許, 意匠, 商標, 調査, 訴訟, 弁理士, Ohtsuka, patent, trademark, design, litigation, search, patent attorney, japan'},
-      {name: 'description', content: 'Ohtsuka Patent Office is an international law firm specializing in intellectual property. Click to find out more.'},
+      {name: 'keywords', content: '大塚, 特許, 意匠, 商標, 調査, 訴訟, 弁理士, Ohtsuka, patent, trademark, design, litigation, search, patent attorney, Japan'},
+      {name: 'description', content: 'Ohtsuka Patent Office provides a wide variety of services related to intellectual property. Click to find out more.'},
       {name: 'robots', content: 'index, follow'}
     ]);
   }
