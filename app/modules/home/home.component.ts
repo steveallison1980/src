@@ -32,6 +32,11 @@ export class HomeComponent implements OnInit {
     getLang(){
       return this.langsvc.lang;
     }
+    isEN(){
+      var lang = this.getLang();
+      if( lang == "EN" || lang == "en") return true;
+      return false;
+    }
 
     getGuidanceCAFCContent(){
       if( this.langsvc.lang == "EN"){
@@ -201,4 +206,5 @@ export class HomeComponent implements OnInit {
       behavior: 'smooth'
     });
   }
+
 }

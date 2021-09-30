@@ -5,38 +5,26 @@
     </video>
     <img fxHide="true" fxShow.sm="true" class="videoinsert" src="../../../../assets/img/splash.jpg">
     <img fxHide="true" fxShow.lt-sm="true" class="videoinsert" src="../../../../assets/img/splashmobile.jpg">
+
     <br>
+    <!--<div class='aboutohtsuka'>
+        <div *ngIf="isEN()">
+            <h2>Ohtsuka Patent Office</h2>
+            <p>
+            Since 1974, Ohtsuka Patent Office has been a leader in providing a wide variety of intellectual property services related to patents, designs and trademarks. We warmly welcome you to our website! Please check out the links below or the MENU in the top left corner of the screen to learn more about us.
+            </p>
+        </div>
+        <div  *ngIf="!isEN()">
+            <h2>当事務所について</h2>
+            <p>
+            当事務所は、1974年4月の創立以来、皆様の暖かいご支援により発展を続けています<a routerLink="/aboutpage">。。。</a>
+            </p>
+        </div>
+    </div>
+    <br>-->
 
     <app-homecards></app-homecards>
-    <!--<div fxShow="true" fxHide.lt-md="true" flexLayout='row' fxFlex  fxLayoutAlign="space-between start" fxLayout.lt-md="column">
-        <div fxFlex="1"></div>
-        <div fxFlex="30">
-            <app-staticcard [type]="'welcome'"></app-staticcard>
-        </div>
-        <div fxFlex="30">
-            <app-staticcard *ngIf="getLang()=='JP'" [type]="'cafc'"></app-staticcard>
-            <app-staticcard *ngIf="getLang()=='EN'" [type]="'guidance'"></app-staticcard>
-        </div>
-        <div fxFlex="30">
-            <app-staticcard [type]="'team'"></app-staticcard>
-        </div>
-        <div fxFlex="1"></div>
-    </div>
-
-    <div fxHide="true" fxShow.lt-md="true">
-        <div class="marginedcard">
-            <app-staticcard [type]="'welcome'"></app-staticcard>
-        </div>
-        <div class="marginedcard">
-            <app-staticcard *ngIf="getLang()=='JP'" [type]="'cafc'"></app-staticcard>
-            <app-staticcard *ngIf="getLang()=='EN'" [type]="'guidance'"></app-staticcard>
-        </div>
-        <div class="marginedcard">
-            <app-staticcard [type]="'team'"></app-staticcard>
-        </div>
-    </div>
-    <br>
-    <app-footer width=100%></app-footer>-->
+    
 </div>
 
 <app-splashoverlay></app-splashoverlay>

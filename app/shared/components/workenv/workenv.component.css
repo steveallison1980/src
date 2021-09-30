@@ -9,4 +9,8 @@
 }
 a{
     color: rgb(184, 51, 51);
+    text-decoration: none;
+}
+.iconbutton{
+    width: 100%; 
 }
