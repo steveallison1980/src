@@ -3,6 +3,7 @@ export interface IHeader {
     type: string;
     id: string;
     classes: Array<string>;
+    bLine: boolean;
 }
 export interface IImage {
     folder: string;

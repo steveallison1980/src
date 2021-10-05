@@ -13,7 +13,7 @@ export class HeaderrendererComponent implements OnInit {
   @Input() bTreeMode: boolean;
   @Input() treeLevel: number;
   @Input() guide: string;
-
+  
   constructor(
     private guidanceService: GuidanceService
   ) { }
@@ -62,6 +62,10 @@ export class HeaderrendererComponent implements OnInit {
   getGuide(){
     if(this.guide === undefined) this.guide="patent";
     return this.guide;
+  }
+  hasLine(){
+    if(this.header.bLine === undefined ) return true;
+    return this.header.bLine;
   }
   makeButton(){
     if( this.getTreeLevel()>0 && this.getHeaderText().length>1 ) return true;

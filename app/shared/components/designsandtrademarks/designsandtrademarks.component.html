@@ -10,6 +10,7 @@
                 </mat-card-title>
             </div>
         </div>
+        <h2>{{getDesignTitle().text}}</h2>
         <p *ngFor="let para of getDesignParas()">
             {{para}}
         </p>
@@ -25,6 +26,7 @@
                 </mat-card-title>
             </div>
         </div>
+        <h2>{{getTrademarkTitle().text}}</h2>
         <p *ngFor="let para of getTrademarkParas()">
             {{para}}
         </p>

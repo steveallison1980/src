@@ -71,7 +71,8 @@ const PATENTOVERVIEW: IExpansionPanel = {
                         text: "Who are the main actors in intellectual property activities?",
                         type: "h2",
                         classes: null,
-                        id: "10000086"
+                        id: "10000086",
+                        bLine: false
                     }]
             },
             {
@@ -239,7 +240,8 @@ const PATENTFILINGROUTES: IExpansionPanel = {
                         text: "Entry from PCT route",
                         type: "h2",
                         classes: null,
-                        id: "10000088"
+                        id: "10000088",
+                        bLine: false
                     }]
             },
 
@@ -250,7 +252,8 @@ const PATENTFILINGROUTES: IExpansionPanel = {
                         text: "Entry term",
                         type: "h2",
                         classes: ["bullet"],
-                        id: "10000089"
+                        id: "10000089",
+                        bLine: false
                     }]
             },
             {
@@ -442,7 +445,8 @@ const PATENTFILINGROUTES: IExpansionPanel = {
                         text: "Priority due date",
                         type: "h2",
                         classes: ["bullet"],
-                        id: "10000094"
+                        id: "10000094",
+                        bLine: false
                     }]
             },
             {
@@ -681,7 +685,8 @@ const PATENTCLAIMS: IExpansionPanel = {
                         text: "Acceptable Claims",
                         type: "h2",
                         classes: null,
-                        id: "10000097"
+                        id: "10000097",
+                        bLine: false
                     }]
             },
             {
@@ -1040,10 +1045,11 @@ const PATENTBASICPATENTREQS: IExpansionPanel = {
                 type: "header",
                 objs: [
                     {
-                        text: "What are patentability items?",
+                        text: "What are the patentability requirements?",
                         type: "h2",
                         classes: null,
-                        id: "10000103"
+                        id: "10000103",
+                        bLine: false
                     }]
             },
             {
@@ -2065,7 +2071,8 @@ const PATENTCONSIDERATIONSTECHFIELDS: IExpansionPanel = {
                         text: "How should computer program related inventions be claimed?",
                         type: "h2",
                         classes: null,
-                        id: "10000113"
+                        id: "10000113",
+                        bLine: false
                     }]
             },
             {
@@ -2458,7 +2465,8 @@ const PATENTEXAMANDACCEL: IExpansionPanel = {
                         text: "When does the examination of the application begin?",
                         type: "h2",
                         classes: null,
-                        id: "10000121"
+                        id: "10000121",
+                        bLine: false
                     }]
             },
             {
@@ -3260,7 +3268,8 @@ const PATENTEXAMINATION: IExpansionPanel = {
                         text: "Office Actions",
                         type: "h2",
                         classes: null,
-                        id: "10000001"
+                        id: "10000001",
+                        bLine: false
                     }]
             },
             {
@@ -3541,7 +3550,8 @@ const PATENTAPPEAL: IExpansionPanel = {
                         text: "What options are available after Final Rejection?",
                         type: "h2",
                         classes: null,
-                        id: "10000010"
+                        id: "10000010",
+                        bLine: false
                     }]
             },
             {
@@ -4096,7 +4106,8 @@ const PATENTAMENDMENT: IExpansionPanel = {
                         text: "When can I make an amendment and what is the scope in which such an amendment is possible?",
                         type: "h2",
                         classes: null,
-                        id: "10000017"
+                        id: "10000017",
+                        bLine: false
                     }]
             },
             {
@@ -4660,7 +4671,8 @@ const PATENTDIVISIONAL: IExpansionPanel = {
                         text: "What are the requirements for divisional applications?",
                         type: "h2",
                         classes: null,
-                        id: "10000023"
+                        id: "10000023",
+                        bLine: false
                     }
                 ]
             },
@@ -4992,7 +5004,8 @@ const PATENTTERM: IExpansionPanel = {
                         text: "How long is a patent term in Japan?",
                         type: "h2",
                         classes: null,
-                        id: "10000033"
+                        id: "10000033",
+                        bLine: false
                     }
                 ]
             },
@@ -5275,7 +5288,8 @@ const PATENTFEES: IExpansionPanel = {
                         text: "How much does patent prosecution cost?",
                         type: "h2",
                         classes: null,
-                        id: "10000040"
+                        id: "10000040",
+                        bLine: false
                     }
                 ]
             },
@@ -5928,7 +5942,7 @@ const PATENTFEES: IExpansionPanel = {
                 type: "header",
                 objs: [
                     {
-                        text: "1． <<Small & Medium Entities>> Reduced to 1/2",
+                        text: "1． Small & Medium Entities: Reduced to 1/2",
                         type: "h2",
                         classes: null,
                         id: "10000043"
@@ -6497,7 +6511,7 @@ const PATENTFEES: IExpansionPanel = {
                 type: "header",
                 objs: [
                     {
-                        text: "2．<<Small & Medium Venture Entities>> Reduced to 1/3",
+                        text: "2．Small & Medium Venture Entities: Reduced to 1/3",
                         type: "h2",
                         classes: null,
                         id: "10000044"
@@ -6584,7 +6598,7 @@ const PATENTFEES: IExpansionPanel = {
                 type: "header",
                 objs: [
                     {
-                        text: "3． <<Micro Entities>> Reduced to 1/3",
+                        text: "3． Micro Entities: Reduced to 1/3",
                         type: "h2",
                         classes: null,
                         id: "10000045"
@@ -7964,7 +7978,8 @@ const PATENTCORRECTION: IExpansionPanel = {
                         text: "How to Correct issued Patent Claims",
                         type: "h2",
                         classes: null,
-                        id: "10000050"
+                        id: "10000050",
+                        bLine: false
                     }
                 ]
             },
@@ -8138,7 +8153,8 @@ const PATENTLITIGAION: IExpansionPanel = {
                         text: "Typical Patent Litigation in Japan",
                         type: "h2",
                         classes: null,
-                        id: "10000052"
+                        id: "10000052",
+                        bLine: false
                     }
                 ]
             },
@@ -8576,7 +8592,8 @@ const PATENTLITIGAION: IExpansionPanel = {
                         text: "First Oral Hearing",
                         type: "h2",
                         classes: ["bullet"],
-                        id: "10000062"
+                        id: "10000062",
+                        bLine: false
                     }
                 ]
             },
@@ -8715,7 +8732,8 @@ const PATENTLITIGAION: IExpansionPanel = {
                         text: "First Preparatory Proceedings",
                         type: "h2",
                         classes: ["bullet"],
-                        id: "10000063"
+                        id: "10000063",
+                        bLine: false
                     }
                 ]
             },
@@ -8849,7 +8867,8 @@ const PATENTLITIGAION: IExpansionPanel = {
                         text: "Second Preparatory Proceedings",
                         type: "h2",
                         classes: ["bullet"],
-                        id: "10000064"
+                        id: "10000064",
+                        bLine: false
                     }
                 ]
             },
@@ -8953,7 +8972,8 @@ const PATENTLITIGAION: IExpansionPanel = {
                         text: "Third Preparatory Proceedings",
                         type: "h2",
                         classes: ["bullet"],
-                        id: "10000065"
+                        id: "10000065",
+                        bLine: false
                     }
                 ]
             },
@@ -9072,7 +9092,8 @@ const PATENTLITIGAION: IExpansionPanel = {
                         text: "Fourth Preparatory Proceedings (the climax of the litigation)",
                         type: "h2",
                         classes: ["bullet"],
-                        id: "10000066"
+                        id: "10000066",
+                        bLine: false
                     }
                 ]
             },
@@ -9265,7 +9286,8 @@ const PATENTLITIGAION: IExpansionPanel = {
                         text: "Fifth Preparatory Proceedings",
                         type: "h2",
                         classes: ["bullet"],
-                        id: "10000067"
+                        id: "10000067",
+                        bLine: false
                     }
                 ]
             },
@@ -9399,7 +9421,8 @@ const PATENTLITIGAION: IExpansionPanel = {
                         text: "Are there any legal measurements to help the plaintiff (patent holder) to prove its claims in the proceedings?",
                         type: "h2",
                         classes: null,
-                        id: "10000068"
+                        id: "10000068",
+                        bLine: false
                     }
                 ]
             },
@@ -10328,7 +10351,8 @@ export const PATENTGUIDANCECONTENT: IContent = {
                 text: "Guidance on Japanese Patent Practice",
                 type: "h1",
                 classes: null,
-                id: "10000085"
+                id: "10000085",
+                bLine: false
             }]
         },
         {

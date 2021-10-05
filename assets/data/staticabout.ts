@@ -616,6 +616,7 @@ export const ABOUTMAINSERVICESJP: IContent = {
                 text: "事務所の主な業務の業務一覧",
                 type: "h2",
                 classes: null,
+                bLine: false
             }]
         },
         {
@@ -727,6 +728,7 @@ export const ABOUTMAINSERVICES: IContent = {
                 text: "Main services",
                 type: "h2",
                 classes: null,
+                bLine: false
             }]
         },
         {
