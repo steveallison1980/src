@@ -1,10 +1,9 @@
 import { Component, OnInit } from '@angular/core';
-import { WELCOMECONTENTJP, WELCOMECONTENT, WELCOMETITLEJP, WELCOMETITLE, WELCOMEIMG } from '../../../assets/data/staticwelcome';
 import { LanguagesettingService } from '../../services/languagesetting.service';
 import { ICard } from '../../interfaces/icontent';
 import { ActivatedRoute } from '@angular/router';
 import { MetadescService } from '../../services/metadesc.service';
-import { Meta } from '@angular/platform-browser';
+import { Meta, Title } from '@angular/platform-browser';
 import { PUBLICATIONSPAGEKEY } from './../../../assets/data/staticnav';
 
 @Component({
@@ -15,52 +14,38 @@ import { PUBLICATIONSPAGEKEY } from './../../../assets/data/staticnav';
 export class PublicationspageComponent implements OnInit {
 
   constructor(
-    private langService: LanguagesettingService,
+    private langsvc: LanguagesettingService,
     private metasvc:Meta,
     private metaDescsvc: MetadescService,
-    private route: ActivatedRoute
+    private route: ActivatedRoute,
+    private titleService: Title,
     ) {
       const lang = this.route.snapshot.paramMap.get('lang');
       if( lang != null && lang.toUpperCase() == "EN"){
-        this.langService.setLang("EN");
+        this.langsvc.setLang("EN");
       }
       if( lang != null && lang.toUpperCase() == "JP"){
-        this.langService.setLang("JP");
+        this.langsvc.setLang("JP");
       }
     }
 
+  getTitle(){
+    if( this.langsvc.lang == "EN"){
+      return "Publications";
+    } else {
+      return "書籍";
+    }
+  }
+
   ngOnInit(): void {
+    this.titleService.setTitle(this.getTitle());
     this.metasvc.updateTag( 
       { 
         name:'description',
-        content: this.metaDescsvc.getContent(PUBLICATIONSPAGEKEY,this.langService.lang)
+        content: this.metaDescsvc.getContent(PUBLICATIONSPAGEKEY,this.langsvc.lang)
       },
       "name='description'"
     );
-  }
-
-  getTitle(){
-    switch(this.langService.lang){
-      case "JP":
-        return WELCOMETITLEJP;
-      case "EN":
-      default:
-        return WELCOMETITLE;
-    }
-  }
-
-  getContent(){
-    switch(this.langService.lang){
-      case "JP":
-        return WELCOMECONTENTJP;
-      case "EN":
-      default:
-        return WELCOMECONTENT;
-    }
-  }
-
-  getImage(){
-    return WELCOMEIMG;
   }
 
   getCardSettings(){

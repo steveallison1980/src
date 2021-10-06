@@ -3,7 +3,7 @@ import { GuidanceService } from "../../services/guidance.service";
 import { ActivatedRoute } from '@angular/router';
 import { LanguagesettingService } from '../../services/languagesetting.service';
 import { MetadescService } from '../../services/metadesc.service';
-import { Meta } from '@angular/platform-browser';
+import { Meta, Title } from '@angular/platform-browser';
 import { GUIDANCEPAGEKEY } from './../../../assets/data/staticnav';
 
 @Component({
@@ -20,7 +20,8 @@ export class GuidanceComponent implements OnInit {
     private route: ActivatedRoute,
     private metasvc:Meta,
     private metaDescsvc: MetadescService,
-    private langsvc: LanguagesettingService) {
+    private langsvc: LanguagesettingService,
+    private titleService: Title) {
       const lang = this.route.snapshot.paramMap.get('lang');
       if( lang != null && lang.toUpperCase() == "EN"){
         this.langsvc.setLang("EN");
@@ -30,7 +31,12 @@ export class GuidanceComponent implements OnInit {
       }
     }
 
+  getTitle(){
+    return "Japanese IP Practice";
+  }
+
   ngOnInit(): void {
+    this.titleService.setTitle(this.getTitle());
     this.metasvc.updateTag( 
       { 
         name:'description',

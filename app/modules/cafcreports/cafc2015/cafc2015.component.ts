@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-cafc2015',
@@ -6,10 +7,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./cafc2015.component.css']
 })
 export class Cafc2015Component implements OnInit {
+  
+  constructor(private titleService: Title) { }
 
-  constructor() { }
-
-  ngOnInit(): void {
+  getTitle(){
+    return "２０１５　CAFC判決";
   }
 
+  ngOnInit(): void {
+    this.titleService.setTitle(this.getTitle());
+  }
 }

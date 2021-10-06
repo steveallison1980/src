@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { MetadescService } from '../../../services/metadesc.service';
-import { Meta } from '@angular/platform-browser';
+import { Meta, Title } from '@angular/platform-browser';
 import { CAFCALLPAGEKEY } from './../../../../assets/data/staticnav';
 
 @Component({
@@ -12,10 +12,16 @@ export class CafcallComponent implements OnInit {
 
   constructor(
     private metasvc:Meta,
+    private titleService: Title,
     private metaDescsvc: MetadescService
   ) { }
 
+  getTitle(){
+    return "CAFC判決（全件）";
+  }
+
   ngOnInit(): void {
+    this.titleService.setTitle(this.getTitle());
     this.metasvc.updateTag( 
       { 
         name:'description',

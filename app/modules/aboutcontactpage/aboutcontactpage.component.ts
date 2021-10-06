@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Title } from '@angular/platform-browser';
+import { LanguagesettingService } from '../../services/languagesetting.service';
 
 @Component({
   selector: 'app-aboutcontactpage',
@@ -7,9 +9,21 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AboutcontactpageComponent implements OnInit {
 
-  constructor() { }
+  constructor(
+    private titleService: Title,
+    private langsvc: LanguagesettingService
+    ) { }
+
+  getTitle(){
+    if( this.langsvc.lang == "EN"){
+      return "Contact Information";
+    } else {
+      return "お問い合わせ・アクセス";
+    }
+  }
 
   ngOnInit(): void {
+    this.titleService.setTitle(this.getTitle());
   }
 
 }

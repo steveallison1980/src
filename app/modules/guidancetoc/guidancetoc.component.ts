@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-guidancetoc',
@@ -7,9 +8,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class GuidancetocComponent implements OnInit {
 
-  constructor() { }
+  constructor(
+    private titleService: Title
+  ) { }
+
+  getTitle(){
+    return "Japanese IP Practice";
+  }
 
   ngOnInit(): void {
+    this.titleService.setTitle(this.getTitle());
   }
 
 }

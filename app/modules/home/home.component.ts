@@ -3,7 +3,7 @@ import { LanguagesettingService } from '../../services/languagesetting.service';
 import { MetadescService } from '../../services/metadesc.service';
 import { ActivatedRoute } from '@angular/router';
 import { ICard, IContent } from '../../interfaces/icontent';
-import { Meta } from '@angular/platform-browser';
+import { Meta, Title } from '@angular/platform-browser';
 import {HOMEPAGEKEY} from './../../../assets/data/staticnav';
 
 @Component({
@@ -19,13 +19,22 @@ export class HomeComponent implements OnInit {
     private metasvc:Meta,
     private metaDescsvc: MetadescService,
     private route: ActivatedRoute,
-    private langsvc: LanguagesettingService) {
+    private langsvc: LanguagesettingService,
+    private titleService: Title) {
       const lang = this.route.snapshot.paramMap.get('lang');
       if( lang != null && lang.toUpperCase() == "EN"){
         this.langsvc.setLang("EN");
       }
       if( lang != null && lang.toUpperCase() == "JP"){
         this.langsvc.setLang("JP");
+      }
+    }
+
+    getTitle(){
+      if( this.langsvc.lang == "EN"){
+        return "Ohtsuka Patent Office Homepage";
+      } else {
+        return "大塚国際特許事務所";
       }
     }
     
@@ -190,6 +199,7 @@ export class HomeComponent implements OnInit {
     }
 
   ngOnInit(): void {
+    this.titleService.setTitle(this.getTitle());
     this.metasvc.updateTag( 
       { 
         name:'description',

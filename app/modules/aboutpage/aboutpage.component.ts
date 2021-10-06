@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { LanguagesettingService } from '../../services/languagesetting.service';
 import { MetadescService } from '../../services/metadesc.service';
-import { Meta } from '@angular/platform-browser';
+import { Meta, Title } from '@angular/platform-browser';
 import { ABOUTPAGEKEY } from './../../../assets/data/staticnav';
 
 @Component({
@@ -14,6 +14,7 @@ export class AboutpageComponent implements OnInit {
 
   constructor(
     private metasvc:Meta,
+    private titleService: Title,
     private metaDescsvc: MetadescService,
     private route: ActivatedRoute,
     private langsvc: LanguagesettingService
@@ -27,7 +28,16 @@ export class AboutpageComponent implements OnInit {
     }
   }
 
-  ngOnInit(): void {
+  getTitle(){
+    if (this.langsvc.lang == "EN"){
+      return "About Ohtsuka Patent Office";
+    } else {
+      return "当事務所について";
+    }
+  }
+
+   ngOnInit(): void {
+    this.titleService.setTitle(this.getTitle());
     this.metasvc.updateTag( 
       { 
         name:'description',

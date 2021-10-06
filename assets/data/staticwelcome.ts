@@ -278,6 +278,6 @@ export const WELCOMECONTENTJP: IContent = {
 
 export const WELCOMETITLE = "Welcome Message"
 
-export const WELCOMETITLEJP = "当事務所について"
+export const WELCOMETITLEJP = "ご挨拶"
 
 export const WELCOMEIMG = "../../../../assets/img/welcomemessage_large.jpg"

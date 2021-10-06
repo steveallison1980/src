@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { WelcomeService } from '../../services/welcome.service';
 import { ICard } from '../../interfaces/icontent';
+import { Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-welcomepage',
@@ -10,10 +11,12 @@ import { ICard } from '../../interfaces/icontent';
 export class WelcomepageComponent implements OnInit {
 
   constructor(
-    private welcomeService: WelcomeService) {
+    private welcomeService: WelcomeService,
+    private titleService: Title) {
    }
 
   ngOnInit(): void {
+    this.titleService.setTitle(this.getTitle());
   }
 
   getTitle(){
