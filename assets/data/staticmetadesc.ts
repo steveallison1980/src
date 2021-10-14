@@ -9,9 +9,9 @@ import {
     CAFCALLPAGEKEY,
     PATENTGUIDANCEPAGEKEY,DESIGNGUIDANCEPAGEKEY,TMGUIDANCEPAGEKEY} from './staticnav';
 
-const HOMEMETADESC = "Ohtsuka Patent Office";
+const HOMEMETADESC = "Ohtsuka Patent Office is a patent firm specializing in intellectual property such as patents, trademarks and designs. Please click to find out more.";
 const HOMEMETADESCJP = "大塚国際特許事務所";
-const CONTACTMETADESC = "Contact Information/Map";
+const CONTACTMETADESC = "Contact information such as our telephone number, mailing address, and a Google Maps link";
 const CONTACTMETADESCJP = "お問い合わせ・アクセス";
 const ABOUTMETADESC = "Main services (patent prosecution, portfolio management, consulting, litigation support, opinion, search, FTO, licensing and contracts, trademark, design, clearance search)";
 const ABOUTMETADESCJP = "事務所の主な業務の業務一覧（特許出願、追行、管理、ポートフォリオマネージメント、コンサルテーション、訴訟支援、鑑定、調査、FTO調査、ライセンスと契約、商標・意匠）";
@@ -25,21 +25,21 @@ const CAREERSMETADESC = "Patent Attorneys and Engineers, Translation/Communicati
 const CAREERSMETADESCJP = "弁理士・特許技術者、事務管理部門、図面トレーサー";
 const CAFCALLMETADESC = "米国CAFC（米国連邦控訴裁判所）の判例紹";
 const CAFCALLMETADESCJP = "米国CAFC（米国連邦控訴裁判所）の判例紹介";
-const GUIDANCEMETADESC = "Japanese Patent Practice, Japanese Trademark Practice, Japanese Design Practice";
-const GUIDANCEMETADESCJP = "Japanese Patent Practice, Japanese Trademark Practice, Japanese Design Practice";
-const GUIDANCEPATENTMETADESC = "Japanese Patent Practice";
-const GUIDANCEPATENTMETADESCJP = "Japanese Patent Practice";
-const GUIDANCEDESIGNMETADESC = "Japanese Design Practice";
-const GUIDANCEDESIGNMETADESCJP = "Japanese Design Practice";
-const GUIDANCETMMETADESC = "Japanese Trademark Practice";
-const GUIDANCETMMETADESCJP = "Japanese Trademark Practice";
-const DESIGNTMMETADESC = "Designs, Trademark Registrations";
+const GUIDANCEMETADESC = "Guidance on Japanese Patent Practice, Japanese Trademark Practice, Japanese Design Practice";
+const GUIDANCEMETADESCJP = "Guidance on Japanese Patent Practice, Japanese Trademark Practice, Japanese Design Practice";
+const GUIDANCEPATENTMETADESC = "Guidance on Japanese Patent Practice";
+const GUIDANCEPATENTMETADESCJP = "Guidance on Japanese Patent Practice";
+const GUIDANCEDESIGNMETADESC = "Guidance on Japanese Design Practice";
+const GUIDANCEDESIGNMETADESCJP = "Guidance on Japanese Design Practice";
+const GUIDANCETMMETADESC = "Guidance on Japanese Trademark Practice";
+const GUIDANCETMMETADESCJP = "Guidance on Japanese Trademark Practice";
+const DESIGNTMMETADESC = "Designs and Trademark Registrations";
 const DESIGNTMMETADESCJP = "意匠、商標登録";
 const LITMETADESC = "Litigation, Patent Strategies, Patent Searches";
 const LITMETADESCJP = "訴訟、特許戦略、特許調査";
 const CASESTUDIESMETADESC = "Case Studies from CAFC Decisions, Reports of Japanese Court Decisions";
 const CASESTUDIESMETADESCJP = "アメリカのCAFC（米国連邦控訴裁判所）の判例の紹介、日本の判例の紹介";
-const PUBSMETADESC = "Publications";
+const PUBSMETADESC = "Publications by attornies at Ohtsuka Patent Office";
 const PUBSMETADESCJP = "書籍";
 
 export const METADESC_LIST: Array<IMetaDesc> =
