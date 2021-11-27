@@ -16,5 +16,6 @@ export class GuidanceService {
     if( page == "patent") return PATENTGUIDANCECONTENT;
     if( page == "design") return DESIGNGUIDANCECONTENT;
     if( page == "trademark") return TRADEMARKGUIDANCECONTENT;
+    return PATENTGUIDANCECONTENT;
   }
 }

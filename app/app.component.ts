@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { AngularFirestore } from '@angular/fire/firestore'; 
+import { AngularFirestore } from '@angular/fire/compat/firestore'; 
 import { Observable } from 'rxjs';
 import { Title, Meta } from '@angular/platform-browser';
 

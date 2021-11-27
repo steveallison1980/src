@@ -13,7 +13,7 @@ import {HOMEPAGEKEY} from './../../../assets/data/staticnav';
 })
 export class HomeComponent implements OnInit {
 
-  @ViewChild('scrolldowntarget') private myScrollContainer: ElementRef;
+  @ViewChild('scrolldowntarget') private myScrollContainer: ElementRef = null;
 
   constructor(
     private metasvc:Meta,
@@ -210,11 +210,13 @@ export class HomeComponent implements OnInit {
   }
 
   scrollToElement(): void {
-    this.myScrollContainer.nativeElement.scroll({
-      top: this.myScrollContainer.nativeElement.scrollHeight,
-      left: 0,
-      behavior: 'smooth'
-    });
+    if( this.myScrollContainer != null ){
+      this.myScrollContainer.nativeElement.scroll({
+        top: this.myScrollContainer.nativeElement.scrollHeight,
+        left: 0,
+        behavior: 'smooth'
+      });
+    }
   }
 
 }

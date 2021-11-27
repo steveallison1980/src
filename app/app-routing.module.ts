@@ -51,6 +51,7 @@ import { Cafc2008Component } from './modules/cafcreports/cafc2008/cafc2008.compo
 import { Cafc2007Component } from './modules/cafcreports/cafc2007/cafc2007.component';
 import { Cafc2006Component } from './modules/cafcreports/cafc2006/cafc2006.component';
 import { Cafc2005Component } from './modules/cafcreports/cafc2005/cafc2005.component';
+import { CafcreportComponent } from './modules/cafcreport/cafcreport.component';
 
 import { GuidanceComponent } from './modules/guidance/guidance.component';
 import { GuidancetocComponent } from './modules/guidancetoc/guidancetoc.component';
@@ -301,6 +302,10 @@ const routes: Routes = [
       {
         path: 'cafc2005',
         component: Cafc2005Component
+      },
+      {
+        path: 'cafcreport',
+        component: CafcreportComponent
       },
       {
         path: 'guidance',

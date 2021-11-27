@@ -13,7 +13,7 @@ import { GUIDANCEPAGEKEY } from './../../../assets/data/staticnav';
 })
 export class GuidanceComponent implements OnInit {
 
-  private fragment: string;
+  private fragment: string = "";
 
   constructor(
     private guidanceService: GuidanceService,
@@ -44,12 +44,19 @@ export class GuidanceComponent implements OnInit {
       },
       "name='description'"
     );
-    this.route.fragment.subscribe(fragment => { this.fragment = fragment; });
+    this.route.fragment.subscribe(fragment => { 
+      if( fragment != null ){
+        this.fragment = fragment; 
+      }
+    });
   }
 
   ngAfterViewInit(): void {
     try {
-      document.querySelector('#' + this.fragment).scrollIntoView();
+      var obj = document.querySelector('#' + this.fragment);
+      if( obj != null ){
+        obj.scrollIntoView();
+      }
     } catch (e) { }
   }
 
@@ -60,7 +67,9 @@ export class GuidanceComponent implements OnInit {
 
   currentPage(){
     if( this.route.snapshot.paramMap.get('type') == null ) return "patent";
-    return this.route.snapshot.paramMap.get('type');
+    var ret = this.route.snapshot.paramMap.get('type');
+    if( ret == null ) return "";
+    return ret;
   }
 
   isGuide(){
