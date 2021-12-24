@@ -36,6 +36,8 @@ import { ProPatengineersComponent } from './modules/professionals/pro-patenginee
 import { ProInternationalComponent } from './modules/professionals/pro-international/pro-international.component';
 
 import { CafcallComponent } from './modules/cafcreports/cafcall/cafcall.component';
+import { Cafc2021Component } from './modules/cafcreports/cafc2021/cafc2021.component';
+import { Cafc2020Component } from './modules/cafcreports/cafc2020/cafc2020.component';
 import { Cafc2019Component } from './modules/cafcreports/cafc2019/cafc2019.component';
 import { Cafc2018Component } from './modules/cafcreports/cafc2018/cafc2018.component';
 import { Cafc2017Component } from './modules/cafcreports/cafc2017/cafc2017.component';
@@ -242,6 +244,14 @@ const routes: Routes = [
       {
         path: 'cafcall',
         component: CafcallComponent
+      },
+      {
+        path: 'cafc2021',
+        component: Cafc2021Component
+      },
+      {
+        path: 'cafc2020',
+        component: Cafc2020Component
       },
       {
         path: 'cafc2019',

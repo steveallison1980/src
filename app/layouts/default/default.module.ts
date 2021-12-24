@@ -41,6 +41,8 @@ import { ProInternationalComponent } from '../../modules/professionals/pro-inter
 
 import { CafcreportComponent } from '../../modules/cafcreport/cafcreport.component';
 import { CafcallComponent } from '../../modules/cafcreports/cafcall/cafcall.component';
+import { Cafc2021Component } from '../../modules/cafcreports/cafc2021/cafc2021.component';
+import { Cafc2020Component } from '../../modules/cafcreports/cafc2020/cafc2020.component';
 import { Cafc2019Component } from '../../modules/cafcreports/cafc2019/cafc2019.component';
 import { Cafc2018Component } from '../../modules/cafcreports/cafc2018/cafc2018.component';
 import { Cafc2017Component } from '../../modules/cafcreports/cafc2017/cafc2017.component';
@@ -113,6 +115,8 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 
     CafcreportComponent,
     CafcallComponent,
+    Cafc2021Component,
+    Cafc2020Component,
     Cafc2019Component,
     Cafc2018Component,
     Cafc2017Component,
