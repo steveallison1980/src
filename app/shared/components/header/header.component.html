@@ -1,4 +1,4 @@
-<header *ngIf="!isSplashPage()">
+<header>
     <!-- PC VIEW -->
     <div fxShow fxHide.lt-md fxLayout='row' fxLayoutAlign='space-between center'>
         <div fxLayout='row' fxLayoutAlign='start center' fxLayoutGap="8px">
@@ -60,9 +60,9 @@
     </div>
 
 </header>
-<mat-divider *ngIf="!isSplashPage()" class='colored'></mat-divider>
+<mat-divider class='colored'></mat-divider>
 
-<div *ngIf="isSplashPage()" class="headeroverlay" fxLayout="column" fxLayoutAlign="start stretch">
+<!--<div  class="headeroverlay" fxLayout="column" fxLayoutAlign="start stretch">
     <button class="seethroughbutton" mat-stroked-button color="accent" [matTooltip]="getMenuToolTip()" (click)="openSitemap()">
         <mat-icon>menu</mat-icon>
         &nbsp;MENU
@@ -73,4 +73,4 @@
             &nbsp;<span [class]="getLangClass('JP')">JP</span>&nbsp;<span [class]="getLangClass('EN')">EN</span>
         </button>
     </div>
-</div>
+</div>-->

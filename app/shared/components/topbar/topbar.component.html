@@ -1,9 +1,9 @@
 <!-- PC VIEW -->
-<button *ngIf="!isSplashPage()" fxShow fxHide.lt-md class='menubutton' mat-stroked-button color="accent" [matTooltip]="getMenuToolTip()" (click)="openSitemap()">
+<button  fxShow fxHide.lt-md class='menubutton' mat-stroked-button color="accent" [matTooltip]="getMenuToolTip()" (click)="openSitemap()">
     <mat-icon>menu</mat-icon>
     &nbsp;MENU
 </button>
-<div *ngIf="!isSplashPage()" class="topbar" fxShow fxHide.lt-md fxLayout='row' fxLayoutAlign='end center' fxLayoutGap>
+<div class="topbar" fxShow fxHide.lt-md fxLayout='row' fxLayoutAlign='end center' fxLayoutGap>
     <div class='topbarelement linkdiv' fxLayoutAlign='center center'>
         <a routerLink="/contactpage" (click)="clickContact()">
             <button class='highlightbutton' mat-button>
@@ -21,7 +21,7 @@
     </div>
 </div>
 <!-- MOBILE VIEW -->
-<div *ngIf="!isSplashPage()" class='topbar' fxHide fxShow.lt-md fxLayout='row' fxLayoutAlign='space-between stretch' fxLayoutGap="20px">
+<div class='topbar' fxHide fxShow.lt-md fxLayout='row' fxLayoutAlign='space-between stretch' fxLayoutGap="20px">
     <div class='linkdiv'>
         <a routerLink="/contactpage" (click)="clickContact()">
             <button class='highlightbutton' mat-button>

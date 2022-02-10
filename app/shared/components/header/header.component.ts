@@ -134,6 +134,9 @@ export class HeaderComponent implements OnInit {
   }
   isHome(){
     if( this.highlight == "/") return true;
+    if( this.highlight == "/home") return true;
+    if( this.highlight == "/home/en") return true;
+    if( this.highlight == "/home/jp") return true;
     if( this.highlight == "/welcomepage") return true;
     return this.findInNav("home");
   }
