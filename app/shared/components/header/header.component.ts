@@ -1,5 +1,6 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit, Input, ViewChild, HostListener } from '@angular/core';
 import { MatBottomSheet } from '@angular/material/bottom-sheet';
+import { MatTooltip } from '@angular/material/tooltip';
 import { SitemapComponent } from './../sitemap/sitemap.component';
 import { LanguagesettingService } from '../../../services/languagesetting.service';
 import { NavigateService } from '../../../services/navigate.service';
@@ -13,7 +14,8 @@ import { SITEMAP_DATA } from '../../../../assets/data/staticnav';
 export class HeaderComponent implements OnInit {
 
   @Input() highlight: string;
-
+  @ViewChild('tooltip') manualTooltip: MatTooltip;
+  
   constructor(private _bottomSheet: MatBottomSheet,
     private langService: LanguagesettingService,
     public nav: NavigateService) {
@@ -23,6 +25,31 @@ export class HeaderComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  ngAfterViewInit(): void {
+    if( window.innerWidth >= 960 ) this.showTooltip();
+  }
+  
+  @HostListener('window:resize', ['$event'])
+  onResize(event) {
+    this.hideTooltip();
+  }
+  @HostListener('window:scroll', ['$event']) // for window scroll events
+  onScroll(event) {
+    const verticalOffset = window.pageYOffset 
+          || document.documentElement.scrollTop 
+          || document.body.scrollTop || 0;
+    this.hideTooltip();
+    if(verticalOffset == 0 &&  window.innerWidth >= 960){
+      this.showTooltip();
+    }
+  }
+
+  public showTooltip(){
+    this.manualTooltip.show();
+  }
+  public hideTooltip(){
+    this.manualTooltip.hide();
+  }
   public openSitemap() {
     window.scroll(0, 0);
     this._bottomSheet.open(SitemapComponent);

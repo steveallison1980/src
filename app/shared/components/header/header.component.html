@@ -28,7 +28,16 @@
                 <a class="headerlink" routerLink="/cafcall" (click)="clickCAFCReports()" [ngClass]="{'activenav': isCafcreports()}" *ngIf="isJapanesePage()">{{getText("cafcreports")}}</a>
                 <mat-divider [vertical]="true"></mat-divider>
                 <a *ngIf="isEN()" class="headerlink" routerLink="/careerspage" (click)="clickCareers()" [ngClass]="{'activenav': isCareers()}">{{getText("careers")}}</a>
-                <a *ngIf="!isEN()" class="headerlink" routerLink="/setsumeikaipage" (click)="clickCareers()" [ngClass]="{'activenav': isCareers()}">{{getText("careers")}}</a>
+                <a *ngIf="!isEN()" class="headerlink" routerLink="/setsumeikaipage" (click)="clickCareers()" [ngClass]="{'activenav': isCareers()}">
+                    <span
+                        matTooltip="説明会開催中"
+                        #tooltip="matTooltip"
+                        [matTooltipShowDelay]="500"
+                        matTooltipClass="example-tooltip-red"
+                    >
+                    {{getText("careers")}}
+                    </span>
+                </a>
                 
             </div>
         </div>
