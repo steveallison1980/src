@@ -3,7 +3,9 @@ import { NavigateService } from '../../services/navigate.service';
 import { ProfessionalService } from '../../services/professional.service';
 import { ActivatedRoute } from '@angular/router';
 import { IPerson } from '../../interfaces/iperson';
-import { Title } from '@angular/platform-browser';
+import { MetadescService } from '../../services/metadesc.service';
+import { Meta, Title } from '@angular/platform-browser';
+import { CAFCALLPAGEKEY } from './../../../assets/data/staticnav';
 import { LanguagesettingService } from '../../services/languagesetting.service';
 
 const PERSONDUMMY: IPerson = 
@@ -81,17 +83,13 @@ export class ProfessionalComponent implements OnInit {
   private pro: IPerson = PERSONDUMMY;
 
   constructor(
+    private metasvc:Meta,
     public nav: NavigateService,
     private route: ActivatedRoute,
     private professionalService: ProfessionalService,
     private titleService: Title,
     private langsvc: LanguagesettingService
   ) {}
-
-  ngOnInit(): void {
-    this.getProfessional();
-    this.titleService.setTitle(this.getTitle());
-  }
 
   getTitle(){
     if( this.pro != null) {
@@ -105,6 +103,14 @@ export class ProfessionalComponent implements OnInit {
     }
   }
 
+  getDescContent(){
+    if( this.langsvc.lang == "EN"){
+      return "Ohtsuka Patent Office, "+this.pro.name+" ("+this.pro.title+")";
+    } else {
+      return "大塚国際特許事務所、"+this.pro.titleJP+this.pro.nameJP;
+    }
+  }
+
   getProfessional(): void {
     const id = Number(this.route.snapshot.paramMap.get('id'));
     this.professionalService.getProfessional(id)
@@ -113,5 +119,17 @@ export class ProfessionalComponent implements OnInit {
 
   getPerson(): IPerson{
     return this.pro;
+  }
+
+  ngOnInit(): void {
+    this.getProfessional();
+    this.titleService.setTitle(this.getTitle());
+    this.metasvc.updateTag( 
+      { 
+        name:'description',
+        content: this.getDescContent()
+      },
+      "name='description'"
+    );
   }
 }
