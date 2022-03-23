@@ -37,3 +37,84 @@
     </mat-card>
     <br>
 </div>
+<!--
+<table>
+    <tr>
+        <td>title</td>
+        <td>authors</td>
+        <td>caseno</td>
+        <td>reportyear</td>
+        <td>reportmonth</td>
+        <td>reportdate</td>
+        <td>preview</td>
+        <td>content</td>
+    </tr>
+    <tr *ngFor="let report of getCAFCReports()">
+    <td>{{getTitle(report)}}</td>
+    <td>{{getReportAuthors(report)}}</td>
+    <td>{{getCaseNo(report)}}</td>
+    <td>{{getReportYear(report)}}</td>
+    <td>{{getReportMonth(report)}}</td>
+    <td>{{getReportDate(report)}}</td>
+    <td>{{getPreview(report)}}</td>
+    <td>
+        <div *ngFor="let content of getReportContent(report)">
+
+            <h2 *ngIf="content.type == 'sub'" class='subtitle'>
+                <span *ngFor="let element of content.elements">
+                    {{element.text}}
+                </span>
+            </h2>
+        
+            <p *ngIf="content.type == 'para'">
+                <span *ngFor="let element of content.elements">
+                    <a *ngIf="element.link!=''; else notALink" href='{{element.link}}'>
+                        {{element.text}}
+                    </a>
+                    <ng-template #notALink>
+                        {{element.text}}
+                    </ng-template>
+                </span>
+            </p>
+        
+            <ol *ngIf="content.type == 'num'">
+                <li *ngFor="let element of content.elements">
+                    <a *ngIf="element.link!=''; else notALink" href='{{element.link}}'>
+                        {{element.text}}
+                    </a>
+                    <ng-template #notALink>
+                        {{element.text}}
+                    </ng-template>
+                </li>
+            </ol>
+        
+            <ul *ngIf="content.type == 'unnum'">
+                <li *ngFor="let element of content.elements">
+                    <a *ngIf="element.link!=''; else notALink" href='{{element.link}}'>
+                        {{element.text}}
+                    </a>
+                    <ng-template #notALink>
+                        {{element.text}}
+                    </ng-template>
+                </li>
+            </ul>
+            
+            <mat-card *ngIf="content.type == 'point'">
+                <h1>
+                        Key Point            
+                </h1>
+                <p *ngFor="let element of content.elements">
+                    <a *ngIf="element.link!=''; else notALink" href='{{element.link}}'>
+                        {{element.text}}
+                    </a>
+                    <ng-template #notALink>
+                        {{element.text}}
+                    </ng-template>
+                </p>
+            </mat-card>
+        </div>
+    </td>
+
+
+    </tr>
+</table>-->

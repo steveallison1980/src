@@ -16,3 +16,6 @@
 .longname{
     font-size: 0.9em;
 }
+table, th, td {
+    border: 1px solid;
+}

@@ -132,7 +132,7 @@ export const SITEMAP_DATA: ISitemap =
             defaultsubpage: CAFCALLPAGEKEY,
             links: [
                 { text: 'CAFC Reports (all)', textJP: 'CAFC判決(全件）', icon: 'menu_book', subPage: CAFCALLPAGEKEY, curPage: 'cafcreports', routerlink: '/cafcall', displayMode: 'JPonly', bShowInMenu: true },
-                //{ text: '2021', textJP: '2021年', icon: 'menu_book', subPage: CAFC2021PAGEKEY, curPage: 'cafcreports', routerlink: '/cafc2021', displayMode: 'both', bShowInMenu: false },
+                { text: '2021', textJP: '2021年', icon: 'menu_book', subPage: CAFC2021PAGEKEY, curPage: 'cafcreports', routerlink: '/cafc2021', displayMode: 'both', bShowInMenu: false },
                 { text: '2020', textJP: '2020年', icon: 'menu_book', subPage: CAFC2020PAGEKEY, curPage: 'cafcreports', routerlink: '/cafc2020', displayMode: 'both', bShowInMenu: false },
                 { text: '2019', textJP: '2019年', icon: 'menu_book', subPage: CAFC2019PAGEKEY, curPage: 'cafcreports', routerlink: '/cafc2019', displayMode: 'both', bShowInMenu: false },
                 { text: '2018', textJP: '2018年', icon: 'menu_book', subPage: CAFC2018PAGEKEY, curPage: 'cafcreports', routerlink: '/cafc2018', displayMode: 'both', bShowInMenu: false },

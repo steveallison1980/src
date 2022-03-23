@@ -50,6 +50,7 @@ export class PeopleComponent implements OnInit {
   }
   getPeople() {
     return this.people.filter(x => x.groups.includes(this.currentGroup));
+    //return this.people;
   }
   getName(person){
     switch (this.langService.lang) {

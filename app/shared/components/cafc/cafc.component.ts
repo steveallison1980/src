@@ -55,11 +55,27 @@ export class CafcComponent implements OnInit {
   getTitle(cafc) {
     return cafc.casetitle;
   }
-
+  getCaseNo(cafc) {
+    return cafc.caseno;
+  }
+  getReportYear(cafc) {
+    return cafc.reportyear;
+  }
+  getReportMonth(cafc) {
+    return cafc.reportmonth;
+  }
+  getReportDate(cafc){
+    return cafc.reportdate;
+  }
   getPreview(cafc) {
     return cafc.reportpreview;
   }
-
+  getReportContent(cafc){
+    return cafc.content;
+  }
+  getReportAuthors(cafc){
+    return cafc.authorIDs;
+  }
   getContent(cafc){
     return "";
   }

@@ -82,7 +82,7 @@ export const PEOPLE_DATA: IPerson[] = [
         { text: '特許がわかるQ&A（オーム社）' }],
   
       groups:
-        [, 'pro-designs', 'pro-lit', 'pro-patattorneys']
+        ['pro-designs', 'pro-lit', 'pro-patattorneys']
     },
     {
       id: 2,
